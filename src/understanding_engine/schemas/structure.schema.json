@@ -1,0 +1,412 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/cagianoaless/understanding_engine/schemas/structure-0.1.0",
+  "title": "Derived document structure 0.1.0",
+  "type": "object",
+  "properties": {
+    "structure_schema_version": {
+      "const": "0.1.0"
+    },
+    "coordinate_system": {
+      "const": "pdfplumber-native-v1"
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "pdf_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "extraction_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "extraction_schema_version": {
+          "const": "1.0.0"
+        },
+        "parser": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "pdf_sha256",
+        "extraction_sha256",
+        "extraction_schema_version",
+        "parser"
+      ],
+      "additionalProperties": false
+    },
+    "algorithm": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "const": "deterministic_geometry"
+        },
+        "version": {
+          "const": "0.1.0"
+        },
+        "implementation_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "settings": {
+          "type": "object",
+          "properties": {
+            "row_overlap": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "line_gap_em": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "gutter_min_support": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "gutter_min_side_fraction": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "paragraph_gap_em": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "paragraph_indent_em": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "heading_size_ratio": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "heading_bold_fraction": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "heading_max_characters": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "required": [
+            "row_overlap",
+            "line_gap_em",
+            "gutter_min_support",
+            "gutter_min_side_fraction",
+            "paragraph_gap_em",
+            "paragraph_indent_em",
+            "heading_size_ratio",
+            "heading_bold_fraction",
+            "heading_max_characters"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "name",
+        "version",
+        "implementation_sha256",
+        "settings"
+      ],
+      "additionalProperties": false
+    },
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "page_number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "geometry": {
+            "type": "object"
+          },
+          "status": {
+            "enum": [
+              "text",
+              "empty_text_layer"
+            ]
+          },
+          "layout": {
+            "enum": [
+              "single_column",
+              "two_column",
+              "ambiguous",
+              "unknown"
+            ]
+          },
+          "columns": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "bbox": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 4,
+                  "maxItems": 4
+                }
+              },
+              "required": [
+                "id",
+                "bbox"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "lines": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "bbox": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 4,
+                  "maxItems": 4
+                },
+                "source_character_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "uniqueItems": true
+                },
+                "column_id": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "median_font_size": {
+                  "type": "number",
+                  "exclusiveMinimum": 0
+                },
+                "heading_candidate": {
+                  "type": "boolean"
+                },
+                "rule": {
+                  "const": "vertical_overlap_and_horizontal_gap"
+                }
+              },
+              "required": [
+                "id",
+                "bbox",
+                "source_character_ids",
+                "column_id",
+                "median_font_size",
+                "heading_candidate",
+                "rule"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "regions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "type": {
+                  "enum": [
+                    "paragraph",
+                    "heading",
+                    "unknown"
+                  ]
+                },
+                "bbox": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 4,
+                  "maxItems": 4
+                },
+                "source_character_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "uniqueItems": true
+                },
+                "line_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "uniqueItems": true
+                },
+                "column_id": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "rule": {
+                  "type": "string"
+                },
+                "uncertainty": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "bbox",
+                "source_character_ids",
+                "line_ids",
+                "column_id",
+                "rule",
+                "uncertainty"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "relations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "before": {
+                  "type": "string"
+                },
+                "after": {
+                  "type": "string"
+                },
+                "rule": {
+                  "enum": [
+                    "same_column_vertical_separation",
+                    "spanning_heading_above"
+                  ]
+                }
+              },
+              "required": [
+                "before",
+                "after",
+                "rule"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "ambiguities": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "region_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 2,
+                  "maxItems": 2,
+                  "uniqueItems": true
+                },
+                "reason": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "region_ids",
+                "reason"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "unassigned_characters": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "character_id": {
+                  "type": "string"
+                },
+                "reason": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "character_id",
+                "reason"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "unresolved_content": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "const": "unknown"
+                },
+                "bbox": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 4,
+                  "maxItems": 4
+                },
+                "reason": {
+                  "const": "v1_has_no_graphics_geometry_or_formula_roles"
+                },
+                "source_image_count": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "type",
+                "bbox",
+                "reason",
+                "source_image_count"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "page_number",
+          "geometry",
+          "status",
+          "layout",
+          "columns",
+          "lines",
+          "regions",
+          "relations",
+          "ambiguities",
+          "unassigned_characters",
+          "unresolved_content"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "structure_schema_version",
+    "coordinate_system",
+    "source",
+    "algorithm",
+    "pages"
+  ],
+  "additionalProperties": false
+}

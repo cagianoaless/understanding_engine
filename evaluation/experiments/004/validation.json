@@ -1,0 +1,33 @@
+{
+  "annotations_sha256": "107aeb2eb99d4a52931916818236fbe660b25ab35d273359324dc0be1a7cfd6b",
+  "ci_unchanged": true,
+  "dependency_lock_unchanged": true,
+  "evaluation_exit_code": 0,
+  "experiments_001_to_003_unchanged": true,
+  "frozen_annotations_match": true,
+  "github_ci": {
+    "commit": "8babb4c9042cda40a1dfd9cafac7b4d19dda70ce",
+    "conclusion": "success",
+    "duration_seconds": 4.11,
+    "failed": 0,
+    "passed": 136,
+    "pytest": "8.4.2",
+    "python": "3.11.13",
+    "runner": "ubuntu-24.04",
+    "skipped": 0,
+    "url": "https://github.com/cagianoaless/understanding_engine/actions/runs/42126719786"
+  },
+  "held_out_unchanged": true,
+  "offline_tests": {
+    "duration_seconds": 2.08,
+    "failed": 0,
+    "passed": 136,
+    "pytest": "8.4.2",
+    "python": "3.11.13",
+    "skipped": 0
+  },
+  "production_parser_unchanged": true,
+  "protected_files_unchanged": 47,
+  "real_structure_repeat_byte_identical": true,
+  "v1_schemas_unchanged": true
+}

@@ -1,0 +1,14 @@
+{
+  "attention": {
+    "byte_identical": true,
+    "sha256": "6b26c8dec374cc0af748bf0f8af7d42a64f126a3da3d5204e69837f87b3942fd"
+  },
+  "bert": {
+    "byte_identical": true,
+    "sha256": "722a308ecd0934c5589d0e0f84f13a05bbfb662e0126f723d7ff250c261a4858"
+  },
+  "tabpfn_nature_2025": {
+    "byte_identical": true,
+    "sha256": "fcae50a62585d19c318d06b9b6cd97e843a4dda2b5e546431605b942eb620f2b"
+  }
+}

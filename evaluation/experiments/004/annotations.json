@@ -1,0 +1,435 @@
+{
+  "coordinate_system": "pdfplumber-native-v1",
+  "documents": [
+    {
+      "document_id": "attention",
+      "human_reviewer": null,
+      "layout": "Single-column prose and numbered headings",
+      "order_pairs": [
+        {
+          "after": "a-p1",
+          "before": "a-h"
+        },
+        {
+          "after": "a-p2",
+          "before": "a-p1"
+        },
+        {
+          "after": "a-p3",
+          "before": "a-p2"
+        },
+        {
+          "after": "a-p4",
+          "before": "a-p3"
+        }
+      ],
+      "page_number": 2,
+      "paragraph_pairs": [
+        {
+          "break": false,
+          "points": [
+            [
+              200,
+              114
+            ],
+            [
+              200,
+              125
+            ]
+          ]
+        },
+        {
+          "break": true,
+          "points": [
+            [
+              200,
+              147
+            ],
+            [
+              200,
+              163
+            ]
+          ]
+        },
+        {
+          "break": true,
+          "points": [
+            [
+              200,
+              240
+            ],
+            [
+              200,
+              257
+            ]
+          ]
+        }
+      ],
+      "regions": [
+        {
+          "bbox": [
+            107,
+            72,
+            198,
+            84
+          ],
+          "id": "a-h",
+          "type": "heading"
+        },
+        {
+          "bbox": [
+            107,
+            99,
+            505,
+            152
+          ],
+          "id": "a-p1",
+          "type": "paragraph"
+        },
+        {
+          "bbox": [
+            107,
+            159,
+            505,
+            245
+          ],
+          "id": "a-p2",
+          "type": "paragraph"
+        },
+        {
+          "bbox": [
+            107,
+            252,
+            505,
+            294
+          ],
+          "id": "a-p3",
+          "type": "paragraph"
+        },
+        {
+          "bbox": [
+            107,
+            301,
+            505,
+            343
+          ],
+          "id": "a-p4",
+          "type": "paragraph"
+        }
+      ],
+      "source_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "verification": "agent_visual_checked",
+      "windows": [
+        [
+          100,
+          68,
+          515,
+          345
+        ]
+      ]
+    },
+    {
+      "document_id": "bert",
+      "human_reviewer": null,
+      "layout": "Two columns, indented bullets, section and subsection headings",
+      "order_pairs": [
+        {
+          "after": "b-p1",
+          "before": "b-h1"
+        },
+        {
+          "after": "b-h2",
+          "before": "b-p1"
+        },
+        {
+          "after": "b-p2",
+          "before": "b-h2"
+        },
+        {
+          "after": "b-p3",
+          "before": "b-h3"
+        },
+        {
+          "after": "b-p4",
+          "before": "b-p3"
+        },
+        {
+          "after": "b-h3",
+          "before": "b-p2"
+        }
+      ],
+      "page_number": 2,
+      "paragraph_pairs": [
+        {
+          "break": false,
+          "points": [
+            [
+              200,
+              520
+            ],
+            [
+              200,
+              534
+            ]
+          ]
+        },
+        {
+          "break": true,
+          "points": [
+            [
+              390,
+              596
+            ],
+            [
+              390,
+              610
+            ]
+          ]
+        },
+        {
+          "break": false,
+          "points": [
+            [
+              200,
+              589
+            ],
+            [
+              200,
+              603
+            ]
+          ]
+        }
+      ],
+      "regions": [
+        {
+          "bbox": [
+            71,
+            490,
+            166,
+            503
+          ],
+          "id": "b-h1",
+          "type": "heading"
+        },
+        {
+          "bbox": [
+            71,
+            512,
+            292,
+            550
+          ],
+          "id": "b-p1",
+          "type": "paragraph"
+        },
+        {
+          "bbox": [
+            71,
+            560,
+            291,
+            572
+          ],
+          "id": "b-h2",
+          "type": "heading"
+        },
+        {
+          "bbox": [
+            71,
+            579,
+            292,
+            766
+          ],
+          "id": "b-p2",
+          "type": "paragraph"
+        },
+        {
+          "bbox": [
+            306,
+            529,
+            532,
+            541
+          ],
+          "id": "b-h3",
+          "type": "heading"
+        },
+        {
+          "bbox": [
+            306,
+            550,
+            531,
+            601
+          ],
+          "id": "b-p3",
+          "type": "paragraph"
+        },
+        {
+          "bbox": [
+            306,
+            605,
+            531,
+            766
+          ],
+          "id": "b-p4",
+          "type": "paragraph"
+        }
+      ],
+      "source_sha256": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e",
+      "verification": "agent_visual_checked",
+      "windows": [
+        [
+          69,
+          488,
+          294,
+          777
+        ],
+        [
+          304,
+          525,
+          534,
+          777
+        ]
+      ]
+    },
+    {
+      "document_id": "tabpfn_nature_2025",
+      "human_reviewer": null,
+      "layout": "Two-column prose below a full-width vector figure and split caption",
+      "order_pairs": [
+        {
+          "after": "n-p1",
+          "before": "n-h1"
+        },
+        {
+          "after": "n-p2",
+          "before": "n-h2"
+        },
+        {
+          "after": "n-h2",
+          "before": "n-p1"
+        }
+      ],
+      "page_number": 3,
+      "paragraph_pairs": [
+        {
+          "break": false,
+          "points": [
+            [
+              200,
+              436
+            ],
+            [
+              200,
+              447
+            ]
+          ]
+        },
+        {
+          "break": true,
+          "points": [
+            [
+              200,
+              566
+            ],
+            [
+              200,
+              580
+            ]
+          ]
+        },
+        {
+          "break": false,
+          "points": [
+            [
+              400,
+              622
+            ],
+            [
+              400,
+              632
+            ]
+          ]
+        }
+      ],
+      "regions": [
+        {
+          "bbox": [
+            39,
+            400,
+            242,
+            413
+          ],
+          "id": "n-h1",
+          "type": "heading"
+        },
+        {
+          "bbox": [
+            39,
+            416,
+            295,
+            573
+          ],
+          "id": "n-p1",
+          "type": "paragraph"
+        },
+        {
+          "bbox": [
+            306,
+            594,
+            490,
+            605
+          ],
+          "id": "n-h2",
+          "type": "heading"
+        },
+        {
+          "bbox": [
+            306,
+            608,
+            562,
+            714
+          ],
+          "id": "n-p2",
+          "type": "paragraph"
+        }
+      ],
+      "source_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "unsupported_regions": [
+        {
+          "bbox": [
+            39,
+            48,
+            562,
+            294
+          ],
+          "id": "n-figure",
+          "type": "figure_region"
+        }
+      ],
+      "verification": "agent_visual_checked",
+      "windows": [
+        [
+          36,
+          398,
+          298,
+          574
+        ],
+        [
+          303,
+          590,
+          565,
+          716
+        ]
+      ]
+    }
+  ],
+  "experiment": "004: minimal document structure",
+  "human_verified_count": 0,
+  "implementation_base": "cef6e2bfc837cdbb95d252738d648276ed6d0422",
+  "scoring": {
+    "denominators": "All 16 region references, 13 order pairs and 9 paragraph decisions retained; no exclusions. Unknown figure evaluated separately as unsupported, not a text false positive.",
+    "order": "Accepted before-edge transitive closure; missing matches/edges count incorrect. Cross-column annotated order is a visual agent hypothesis, not human truth.",
+    "paragraph_alignment": "Nearest line center to each point, within 8 native units vertically and 15 horizontally of its bbox; no alignment is incorrect. Expected break is tested by distinct leaf region IDs.",
+    "region_iou": 0.5,
+    "region_scope": "Expected regions and all predicted paragraph/heading/unknown text-region centers inside frozen windows; page-wide nontext uncertainty placeholders excluded, reported separately. Location matching ignores type; classify matched regions separately. Greedy descending IoU matching, ties by annotation/prediction ID; not a globally optimal assignment."
+  },
+  "selection_stage": "Frozen from PDF renders before any structure implementation or predictions"
+}

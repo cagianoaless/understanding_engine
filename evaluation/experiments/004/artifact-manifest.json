@@ -1,0 +1,41 @@
+{
+  "artifacts": {
+    "attention-extraction.json": {
+      "bytes": 29644580,
+      "sha256": "732cb726b4e41728d1ef5e2c2999a3f31cd27b67ef0c9534445bdd0f70dec936"
+    },
+    "attention/structure.json": {
+      "bytes": 708054,
+      "sha256": "6b26c8dec374cc0af748bf0f8af7d42a64f126a3da3d5204e69837f87b3942fd"
+    },
+    "bert-extraction.json": {
+      "bytes": 48738778,
+      "sha256": "9618216d3b52fab8a59949eeacd3f740f78f7166964f9cae3d61ce68522ab79b"
+    },
+    "bert/structure.json": {
+      "bytes": 788213,
+      "sha256": "722a308ecd0934c5589d0e0f84f13a05bbfb662e0126f723d7ff250c261a4858"
+    },
+    "decisions.json": {
+      "bytes": 400109,
+      "sha256": "4e1785866be3dd15d3fe7cbb622a7a85c6af16ae8a89b22c4e8ccec2a594398a"
+    },
+    "execution.json": {
+      "bytes": 447,
+      "sha256": "7490b437f848778b9d2d4f88a9f2152a3921cc0346961b97fa80cdb83a53d687"
+    },
+    "summary.json": {
+      "bytes": 5967,
+      "sha256": "ab44f43440dad8518b8e5bc25940317377d21981d9671836c2d04718120ac04b"
+    },
+    "tabpfn_nature_2025-extraction.json": {
+      "bytes": 82320899,
+      "sha256": "edf3316f02a88602aa6fd863be70c0ef790c28d2ce954456d39659fddffe92d6"
+    },
+    "tabpfn_nature_2025/structure.json": {
+      "bytes": 1590165,
+      "sha256": "fcae50a62585d19c318d06b9b6cd97e843a4dda2b5e546431605b942eb620f2b"
+    }
+  },
+  "external_root": "/private/tmp/understanding-engine-m02a/run-001"
+}
