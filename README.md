@@ -120,6 +120,8 @@ See [coordinate conventions](docs/coordinates.md),
 - Embedded text can be missing, incorrectly mapped, invisible, or out of order.
   Backend output is not ground truth; CID placeholders and unusual mappings may
   survive unchanged.
+  For example, `(cid:80)` is an unmapped-glyph placeholder, not a recovered
+  mathematical symbol. Mathematical Unicode recovery is outside Milestone 01b.
 - No scientific layout, section, table, equation, prerequisite, or semantic
   reconstruction. Mathematical symbols are preserved only when the backend can
   decode them; two-dimensional formulas are not reconstructed.
@@ -136,6 +138,31 @@ See [coordinate conventions](docs/coordinates.md),
   documents, other operating systems, or large/malformed PDF populations have
   been established. Synthetic fixture tests are development evidence only.
 
-Development and held-out manifests are intentionally separate and empty until
-real documents are selected. This milestone does not run teacher models or
-automatically change extraction based on their suggestions.
+Development and held-out manifests remain separate. The development manifest now
+records two spacing-investigation papers; the held-out manifest is still empty
+and unchanged. This milestone does not run teacher models or automatically change
+extraction based on their suggestions.
+
+## Milestone 01b: development spacing investigation
+
+The production parser and its version 1.0.0 character contract remain unchanged.
+`x_tolerance=3` is retained pending human verification of real text samples.
+The research-only [spacing comparison](evaluation/spacing.py) measures missing
+and extra ASCII spaces independently for a fixed candidate grid. Non-space
+Unicode changes and unexpected line breaks are reported as unscoreable failures;
+they are never normalized or silently removed from the result counts.
+
+Experiment 002 compares absolute tolerances 3, 2.5, 2, and 1.5 points with
+font-relative ratios 0.10, 0.125, 0.15, 0.20, and 0.25. A relative threshold is
+the ratio times the preceding glyph's font size. The 54 authored synthetic lines
+show that lowering a global absolute threshold can insert spaces inside tracked
+text at larger sizes. Ratio 0.125 is promising on this limited development set,
+but no new production default is recommended without human-verified real
+samples and further independent development coverage.
+
+See the [report and reproduction commands](evaluation/experiments/002/report.md).
+The two real documents are development-only; transcriptions are explicitly
+`agent_visual_checked`, not human-verified ground truth. They are separate from
+the independent teacher's 16 anchors. No held-out document or manifest changed.
+The [Experiment 001 record](evaluation/experiments/001/baseline.json) preserves
+the original baseline fingerprints; its external artifacts were not rewritten.

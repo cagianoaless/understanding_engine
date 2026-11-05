@@ -1,0 +1,1145 @@
+{
+  "schema_version": "1.0.0",
+  "documents": [
+    {
+      "document_id": "synthetic_spacing",
+      "sha256": "27f32eabea59b267e13cef5cce3926bd01cf23873fda0a43ca33a8d81ddd2aec"
+    }
+  ],
+  "samples": [
+    {
+      "id": "Helvetica-6-plain",
+      "document_id": "synthetic_spacing",
+      "page_number": 1,
+      "bbox": [
+        30,
+        52.2,
+        710,
+        63.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 6,
+        "word_gap": 1.5,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Helvetica-6-tracked",
+      "document_id": "synthetic_spacing",
+      "page_number": 1,
+      "bbox": [
+        30,
+        132.2,
+        710,
+        143.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 6,
+        "word_gap": 1.6800000000000002,
+        "intra_word_tracking": 0.72,
+        "AV_VA_kerning": -0.24,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Helvetica-6-kerned",
+      "document_id": "synthetic_spacing",
+      "page_number": 1,
+      "bbox": [
+        30,
+        212.2,
+        710,
+        223.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 6,
+        "word_gap": 1.5,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": -0.48,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Helvetica-6-explicit",
+      "document_id": "synthetic_spacing",
+      "page_number": 1,
+      "bbox": [
+        30,
+        292.2,
+        710,
+        303.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 6,
+        "word_gap": 1.5,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": true
+      }
+    },
+    {
+      "id": "Helvetica-8-plain",
+      "document_id": "synthetic_spacing",
+      "page_number": 2,
+      "bbox": [
+        30,
+        49.6,
+        710,
+        64.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 8,
+        "word_gap": 2.0,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Helvetica-8-tracked",
+      "document_id": "synthetic_spacing",
+      "page_number": 2,
+      "bbox": [
+        30,
+        129.6,
+        710,
+        144.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 8,
+        "word_gap": 2.24,
+        "intra_word_tracking": 0.96,
+        "AV_VA_kerning": -0.32,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Helvetica-8-kerned",
+      "document_id": "synthetic_spacing",
+      "page_number": 2,
+      "bbox": [
+        30,
+        209.6,
+        710,
+        224.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 8,
+        "word_gap": 2.0,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": -0.64,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Helvetica-8-explicit",
+      "document_id": "synthetic_spacing",
+      "page_number": 2,
+      "bbox": [
+        30,
+        289.6,
+        710,
+        304.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 8,
+        "word_gap": 2.0,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": true
+      }
+    },
+    {
+      "id": "Helvetica-10-plain",
+      "document_id": "synthetic_spacing",
+      "page_number": 3,
+      "bbox": [
+        30,
+        47.0,
+        710,
+        65.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 10,
+        "word_gap": 2.5,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Helvetica-10-tracked",
+      "document_id": "synthetic_spacing",
+      "page_number": 3,
+      "bbox": [
+        30,
+        127.0,
+        710,
+        145.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 10,
+        "word_gap": 2.8000000000000003,
+        "intra_word_tracking": 1.2,
+        "AV_VA_kerning": -0.4,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Helvetica-10-kerned",
+      "document_id": "synthetic_spacing",
+      "page_number": 3,
+      "bbox": [
+        30,
+        207.0,
+        710,
+        225.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 10,
+        "word_gap": 2.5,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": -0.8,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Helvetica-10-explicit",
+      "document_id": "synthetic_spacing",
+      "page_number": 3,
+      "bbox": [
+        30,
+        287.0,
+        710,
+        305.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 10,
+        "word_gap": 2.5,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": true
+      }
+    },
+    {
+      "id": "Helvetica-12-plain",
+      "document_id": "synthetic_spacing",
+      "page_number": 4,
+      "bbox": [
+        30,
+        44.4,
+        710,
+        66.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 12,
+        "word_gap": 3.0,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Helvetica-12-tracked",
+      "document_id": "synthetic_spacing",
+      "page_number": 4,
+      "bbox": [
+        30,
+        124.4,
+        710,
+        146.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 12,
+        "word_gap": 3.3600000000000003,
+        "intra_word_tracking": 1.44,
+        "AV_VA_kerning": -0.48,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Helvetica-12-kerned",
+      "document_id": "synthetic_spacing",
+      "page_number": 4,
+      "bbox": [
+        30,
+        204.4,
+        710,
+        226.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 12,
+        "word_gap": 3.0,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": -0.96,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Helvetica-12-explicit",
+      "document_id": "synthetic_spacing",
+      "page_number": 4,
+      "bbox": [
+        30,
+        284.4,
+        710,
+        306.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 12,
+        "word_gap": 3.0,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": true
+      }
+    },
+    {
+      "id": "Helvetica-18-plain",
+      "document_id": "synthetic_spacing",
+      "page_number": 5,
+      "bbox": [
+        30,
+        36.599999999999994,
+        710,
+        69.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 18,
+        "word_gap": 4.5,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Helvetica-18-tracked",
+      "document_id": "synthetic_spacing",
+      "page_number": 5,
+      "bbox": [
+        30,
+        116.6,
+        710,
+        149.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 18,
+        "word_gap": 5.040000000000001,
+        "intra_word_tracking": 2.16,
+        "AV_VA_kerning": -0.72,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Helvetica-18-kerned",
+      "document_id": "synthetic_spacing",
+      "page_number": 5,
+      "bbox": [
+        30,
+        196.6,
+        710,
+        229.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 18,
+        "word_gap": 4.5,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": -1.44,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Helvetica-18-explicit",
+      "document_id": "synthetic_spacing",
+      "page_number": 5,
+      "bbox": [
+        30,
+        276.6,
+        710,
+        309.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 18,
+        "word_gap": 4.5,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": true
+      }
+    },
+    {
+      "id": "Helvetica-24-plain",
+      "document_id": "synthetic_spacing",
+      "page_number": 6,
+      "bbox": [
+        30,
+        28.799999999999997,
+        710,
+        72.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 24,
+        "word_gap": 6.0,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Helvetica-24-tracked",
+      "document_id": "synthetic_spacing",
+      "page_number": 6,
+      "bbox": [
+        30,
+        108.8,
+        710,
+        152.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 24,
+        "word_gap": 6.720000000000001,
+        "intra_word_tracking": 2.88,
+        "AV_VA_kerning": -0.96,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Helvetica-24-kerned",
+      "document_id": "synthetic_spacing",
+      "page_number": 6,
+      "bbox": [
+        30,
+        188.8,
+        710,
+        232.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 24,
+        "word_gap": 6.0,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": -1.92,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Helvetica-24-explicit",
+      "document_id": "synthetic_spacing",
+      "page_number": 6,
+      "bbox": [
+        30,
+        268.8,
+        710,
+        312.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 24,
+        "word_gap": 6.0,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": true
+      }
+    },
+    {
+      "id": "Times-Roman-6-plain",
+      "document_id": "synthetic_spacing",
+      "page_number": 7,
+      "bbox": [
+        30,
+        52.2,
+        710,
+        63.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 6,
+        "word_gap": 1.5,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Times-Roman-6-tracked",
+      "document_id": "synthetic_spacing",
+      "page_number": 7,
+      "bbox": [
+        30,
+        132.2,
+        710,
+        143.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 6,
+        "word_gap": 1.6800000000000002,
+        "intra_word_tracking": 0.72,
+        "AV_VA_kerning": -0.24,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Times-Roman-6-kerned",
+      "document_id": "synthetic_spacing",
+      "page_number": 7,
+      "bbox": [
+        30,
+        212.2,
+        710,
+        223.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 6,
+        "word_gap": 1.5,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": -0.48,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Times-Roman-6-explicit",
+      "document_id": "synthetic_spacing",
+      "page_number": 7,
+      "bbox": [
+        30,
+        292.2,
+        710,
+        303.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 6,
+        "word_gap": 1.5,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": true
+      }
+    },
+    {
+      "id": "Times-Roman-8-plain",
+      "document_id": "synthetic_spacing",
+      "page_number": 8,
+      "bbox": [
+        30,
+        49.6,
+        710,
+        64.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 8,
+        "word_gap": 2.0,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Times-Roman-8-tracked",
+      "document_id": "synthetic_spacing",
+      "page_number": 8,
+      "bbox": [
+        30,
+        129.6,
+        710,
+        144.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 8,
+        "word_gap": 2.24,
+        "intra_word_tracking": 0.96,
+        "AV_VA_kerning": -0.32,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Times-Roman-8-kerned",
+      "document_id": "synthetic_spacing",
+      "page_number": 8,
+      "bbox": [
+        30,
+        209.6,
+        710,
+        224.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 8,
+        "word_gap": 2.0,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": -0.64,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Times-Roman-8-explicit",
+      "document_id": "synthetic_spacing",
+      "page_number": 8,
+      "bbox": [
+        30,
+        289.6,
+        710,
+        304.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 8,
+        "word_gap": 2.0,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": true
+      }
+    },
+    {
+      "id": "Times-Roman-10-plain",
+      "document_id": "synthetic_spacing",
+      "page_number": 9,
+      "bbox": [
+        30,
+        47.0,
+        710,
+        65.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 10,
+        "word_gap": 2.5,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Times-Roman-10-tracked",
+      "document_id": "synthetic_spacing",
+      "page_number": 9,
+      "bbox": [
+        30,
+        127.0,
+        710,
+        145.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 10,
+        "word_gap": 2.8000000000000003,
+        "intra_word_tracking": 1.2,
+        "AV_VA_kerning": -0.4,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Times-Roman-10-kerned",
+      "document_id": "synthetic_spacing",
+      "page_number": 9,
+      "bbox": [
+        30,
+        207.0,
+        710,
+        225.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 10,
+        "word_gap": 2.5,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": -0.8,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Times-Roman-10-explicit",
+      "document_id": "synthetic_spacing",
+      "page_number": 9,
+      "bbox": [
+        30,
+        287.0,
+        710,
+        305.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 10,
+        "word_gap": 2.5,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": true
+      }
+    },
+    {
+      "id": "Times-Roman-12-plain",
+      "document_id": "synthetic_spacing",
+      "page_number": 10,
+      "bbox": [
+        30,
+        44.4,
+        710,
+        66.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 12,
+        "word_gap": 3.0,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Times-Roman-12-tracked",
+      "document_id": "synthetic_spacing",
+      "page_number": 10,
+      "bbox": [
+        30,
+        124.4,
+        710,
+        146.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 12,
+        "word_gap": 3.3600000000000003,
+        "intra_word_tracking": 1.44,
+        "AV_VA_kerning": -0.48,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Times-Roman-12-kerned",
+      "document_id": "synthetic_spacing",
+      "page_number": 10,
+      "bbox": [
+        30,
+        204.4,
+        710,
+        226.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 12,
+        "word_gap": 3.0,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": -0.96,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Times-Roman-12-explicit",
+      "document_id": "synthetic_spacing",
+      "page_number": 10,
+      "bbox": [
+        30,
+        284.4,
+        710,
+        306.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 12,
+        "word_gap": 3.0,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": true
+      }
+    },
+    {
+      "id": "Times-Roman-18-plain",
+      "document_id": "synthetic_spacing",
+      "page_number": 11,
+      "bbox": [
+        30,
+        36.599999999999994,
+        710,
+        69.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 18,
+        "word_gap": 4.5,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Times-Roman-18-tracked",
+      "document_id": "synthetic_spacing",
+      "page_number": 11,
+      "bbox": [
+        30,
+        116.6,
+        710,
+        149.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 18,
+        "word_gap": 5.040000000000001,
+        "intra_word_tracking": 2.16,
+        "AV_VA_kerning": -0.72,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Times-Roman-18-kerned",
+      "document_id": "synthetic_spacing",
+      "page_number": 11,
+      "bbox": [
+        30,
+        196.6,
+        710,
+        229.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 18,
+        "word_gap": 4.5,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": -1.44,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Times-Roman-18-explicit",
+      "document_id": "synthetic_spacing",
+      "page_number": 11,
+      "bbox": [
+        30,
+        276.6,
+        710,
+        309.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 18,
+        "word_gap": 4.5,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": true
+      }
+    },
+    {
+      "id": "Times-Roman-24-plain",
+      "document_id": "synthetic_spacing",
+      "page_number": 12,
+      "bbox": [
+        30,
+        28.799999999999997,
+        710,
+        72.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 24,
+        "word_gap": 6.0,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Times-Roman-24-tracked",
+      "document_id": "synthetic_spacing",
+      "page_number": 12,
+      "bbox": [
+        30,
+        108.8,
+        710,
+        152.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 24,
+        "word_gap": 6.720000000000001,
+        "intra_word_tracking": 2.88,
+        "AV_VA_kerning": -0.96,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Times-Roman-24-kerned",
+      "document_id": "synthetic_spacing",
+      "page_number": 12,
+      "bbox": [
+        30,
+        188.8,
+        710,
+        232.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 24,
+        "word_gap": 6.0,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": -1.92,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "Times-Roman-24-explicit",
+      "document_id": "synthetic_spacing",
+      "page_number": 12,
+      "bbox": [
+        30,
+        268.8,
+        710,
+        312.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 24,
+        "word_gap": 6.0,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": true
+      }
+    },
+    {
+      "id": "attention-gap-2.49",
+      "document_id": "synthetic_spacing",
+      "page_number": 13,
+      "bbox": [
+        30,
+        47.0,
+        710,
+        65.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 10,
+        "word_gap": 2.49,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "attention-gap-2.68",
+      "document_id": "synthetic_spacing",
+      "page_number": 13,
+      "bbox": [
+        30,
+        127.0,
+        710,
+        145.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 10,
+        "word_gap": 2.68,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "tight-heading-24",
+      "document_id": "synthetic_spacing",
+      "page_number": 13,
+      "bbox": [
+        30,
+        188.8,
+        710,
+        232.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Helvetica",
+        "font_size": 24,
+        "word_gap": 3.2,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "tight-small-8",
+      "document_id": "synthetic_spacing",
+      "page_number": 13,
+      "bbox": [
+        30,
+        289.6,
+        710,
+        304.0
+      ],
+      "expected": "AVATAR, next. (x+y)=z",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "Times-Roman",
+        "font_size": 8,
+        "word_gap": 1.8,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "unicode-math",
+      "document_id": "synthetic_spacing",
+      "page_number": 14,
+      "bbox": [
+        30,
+        84.4,
+        710,
+        106.0
+      ],
+      "expected": "Ω+Ω = Ω, Ω−Ω.",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "SpacingVera",
+        "font_size": 12,
+        "word_gap": 2.6,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": false
+      }
+    },
+    {
+      "id": "ligature-accent",
+      "document_id": "synthetic_spacing",
+      "page_number": 14,
+      "bbox": [
+        30,
+        184.4,
+        710,
+        206.0
+      ],
+      "expected": "café ﬁ = Ω.",
+      "verification": "synthetic_designed",
+      "design": {
+        "font": "SpacingVera",
+        "font_size": 12,
+        "word_gap": 2.6,
+        "intra_word_tracking": 0,
+        "AV_VA_kerning": 0,
+        "explicit_space_glyphs": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,508 @@
+{
+  "agent_visual_checked_real_sample_count": 25,
+  "aggregates": [
+    {
+      "candidate": "absolute_3",
+      "document_id": "attention",
+      "exact_samples": 4,
+      "expected_no_space_boundaries": 755,
+      "expected_spaces": 137,
+      "extra_spaces": 0,
+      "missing_spaces": 110,
+      "non_space_boundaries": 892,
+      "sample_count": 16,
+      "unscoreable_count": 0,
+      "verification": "agent_visual_checked"
+    },
+    {
+      "candidate": "absolute_2.5",
+      "document_id": "attention",
+      "exact_samples": 8,
+      "expected_no_space_boundaries": 755,
+      "expected_spaces": 137,
+      "extra_spaces": 0,
+      "missing_spaces": 59,
+      "non_space_boundaries": 892,
+      "sample_count": 16,
+      "unscoreable_count": 0,
+      "verification": "agent_visual_checked"
+    },
+    {
+      "candidate": "absolute_2",
+      "document_id": "attention",
+      "exact_samples": 16,
+      "expected_no_space_boundaries": 755,
+      "expected_spaces": 137,
+      "extra_spaces": 0,
+      "missing_spaces": 0,
+      "non_space_boundaries": 892,
+      "sample_count": 16,
+      "unscoreable_count": 0,
+      "verification": "agent_visual_checked"
+    },
+    {
+      "candidate": "absolute_1.5",
+      "document_id": "attention",
+      "exact_samples": 16,
+      "expected_no_space_boundaries": 755,
+      "expected_spaces": 137,
+      "extra_spaces": 0,
+      "missing_spaces": 0,
+      "non_space_boundaries": 892,
+      "sample_count": 16,
+      "unscoreable_count": 0,
+      "verification": "agent_visual_checked"
+    },
+    {
+      "candidate": "relative_0.10",
+      "document_id": "attention",
+      "exact_samples": 16,
+      "expected_no_space_boundaries": 755,
+      "expected_spaces": 137,
+      "extra_spaces": 0,
+      "missing_spaces": 0,
+      "non_space_boundaries": 892,
+      "sample_count": 16,
+      "unscoreable_count": 0,
+      "verification": "agent_visual_checked"
+    },
+    {
+      "candidate": "relative_0.125",
+      "document_id": "attention",
+      "exact_samples": 16,
+      "expected_no_space_boundaries": 755,
+      "expected_spaces": 137,
+      "extra_spaces": 0,
+      "missing_spaces": 0,
+      "non_space_boundaries": 892,
+      "sample_count": 16,
+      "unscoreable_count": 0,
+      "verification": "agent_visual_checked"
+    },
+    {
+      "candidate": "relative_0.15",
+      "document_id": "attention",
+      "exact_samples": 16,
+      "expected_no_space_boundaries": 755,
+      "expected_spaces": 137,
+      "extra_spaces": 0,
+      "missing_spaces": 0,
+      "non_space_boundaries": 892,
+      "sample_count": 16,
+      "unscoreable_count": 0,
+      "verification": "agent_visual_checked"
+    },
+    {
+      "candidate": "relative_0.20",
+      "document_id": "attention",
+      "exact_samples": 16,
+      "expected_no_space_boundaries": 755,
+      "expected_spaces": 137,
+      "extra_spaces": 0,
+      "missing_spaces": 0,
+      "non_space_boundaries": 892,
+      "sample_count": 16,
+      "unscoreable_count": 0,
+      "verification": "agent_visual_checked"
+    },
+    {
+      "candidate": "relative_0.25",
+      "document_id": "attention",
+      "exact_samples": 9,
+      "expected_no_space_boundaries": 755,
+      "expected_spaces": 137,
+      "extra_spaces": 0,
+      "missing_spaces": 39,
+      "non_space_boundaries": 892,
+      "sample_count": 16,
+      "unscoreable_count": 0,
+      "verification": "agent_visual_checked"
+    },
+    {
+      "candidate": "absolute_3",
+      "document_id": "bert",
+      "exact_samples": 7,
+      "expected_no_space_boundaries": 127,
+      "expected_spaces": 13,
+      "extra_spaces": 0,
+      "missing_spaces": 4,
+      "non_space_boundaries": 140,
+      "sample_count": 9,
+      "unscoreable_count": 0,
+      "verification": "agent_visual_checked"
+    },
+    {
+      "candidate": "absolute_2.5",
+      "document_id": "bert",
+      "exact_samples": 9,
+      "expected_no_space_boundaries": 127,
+      "expected_spaces": 13,
+      "extra_spaces": 0,
+      "missing_spaces": 0,
+      "non_space_boundaries": 140,
+      "sample_count": 9,
+      "unscoreable_count": 0,
+      "verification": "agent_visual_checked"
+    },
+    {
+      "candidate": "absolute_2",
+      "document_id": "bert",
+      "exact_samples": 9,
+      "expected_no_space_boundaries": 127,
+      "expected_spaces": 13,
+      "extra_spaces": 0,
+      "missing_spaces": 0,
+      "non_space_boundaries": 140,
+      "sample_count": 9,
+      "unscoreable_count": 0,
+      "verification": "agent_visual_checked"
+    },
+    {
+      "candidate": "absolute_1.5",
+      "document_id": "bert",
+      "exact_samples": 9,
+      "expected_no_space_boundaries": 127,
+      "expected_spaces": 13,
+      "extra_spaces": 0,
+      "missing_spaces": 0,
+      "non_space_boundaries": 140,
+      "sample_count": 9,
+      "unscoreable_count": 0,
+      "verification": "agent_visual_checked"
+    },
+    {
+      "candidate": "relative_0.10",
+      "document_id": "bert",
+      "exact_samples": 9,
+      "expected_no_space_boundaries": 127,
+      "expected_spaces": 13,
+      "extra_spaces": 0,
+      "missing_spaces": 0,
+      "non_space_boundaries": 140,
+      "sample_count": 9,
+      "unscoreable_count": 0,
+      "verification": "agent_visual_checked"
+    },
+    {
+      "candidate": "relative_0.125",
+      "document_id": "bert",
+      "exact_samples": 9,
+      "expected_no_space_boundaries": 127,
+      "expected_spaces": 13,
+      "extra_spaces": 0,
+      "missing_spaces": 0,
+      "non_space_boundaries": 140,
+      "sample_count": 9,
+      "unscoreable_count": 0,
+      "verification": "agent_visual_checked"
+    },
+    {
+      "candidate": "relative_0.15",
+      "document_id": "bert",
+      "exact_samples": 9,
+      "expected_no_space_boundaries": 127,
+      "expected_spaces": 13,
+      "extra_spaces": 0,
+      "missing_spaces": 0,
+      "non_space_boundaries": 140,
+      "sample_count": 9,
+      "unscoreable_count": 0,
+      "verification": "agent_visual_checked"
+    },
+    {
+      "candidate": "relative_0.20",
+      "document_id": "bert",
+      "exact_samples": 9,
+      "expected_no_space_boundaries": 127,
+      "expected_spaces": 13,
+      "extra_spaces": 0,
+      "missing_spaces": 0,
+      "non_space_boundaries": 140,
+      "sample_count": 9,
+      "unscoreable_count": 0,
+      "verification": "agent_visual_checked"
+    },
+    {
+      "candidate": "relative_0.25",
+      "document_id": "bert",
+      "exact_samples": 6,
+      "expected_no_space_boundaries": 127,
+      "expected_spaces": 13,
+      "extra_spaces": 0,
+      "missing_spaces": 5,
+      "non_space_boundaries": 140,
+      "sample_count": 9,
+      "unscoreable_count": 0,
+      "verification": "agent_visual_checked"
+    },
+    {
+      "candidate": "absolute_3",
+      "document_id": "synthetic_spacing",
+      "exact_samples": 27,
+      "expected_no_space_boundaries": 842,
+      "expected_spaces": 110,
+      "extra_spaces": 0,
+      "missing_spaces": 56,
+      "non_space_boundaries": 952,
+      "sample_count": 54,
+      "unscoreable_count": 0,
+      "verification": "synthetic_designed"
+    },
+    {
+      "candidate": "absolute_2.5",
+      "document_id": "synthetic_spacing",
+      "exact_samples": 34,
+      "expected_no_space_boundaries": 842,
+      "expected_spaces": 110,
+      "extra_spaces": 28,
+      "missing_spaces": 36,
+      "non_space_boundaries": 952,
+      "sample_count": 54,
+      "unscoreable_count": 0,
+      "verification": "synthetic_designed"
+    },
+    {
+      "candidate": "absolute_2",
+      "document_id": "synthetic_spacing",
+      "exact_samples": 39,
+      "expected_no_space_boundaries": 842,
+      "expected_spaces": 110,
+      "extra_spaces": 56,
+      "missing_spaces": 22,
+      "non_space_boundaries": 952,
+      "sample_count": 54,
+      "unscoreable_count": 0,
+      "verification": "synthetic_designed"
+    },
+    {
+      "candidate": "absolute_1.5",
+      "document_id": "synthetic_spacing",
+      "exact_samples": 46,
+      "expected_no_space_boundaries": 842,
+      "expected_spaces": 110,
+      "extra_spaces": 60,
+      "missing_spaces": 8,
+      "non_space_boundaries": 952,
+      "sample_count": 54,
+      "unscoreable_count": 0,
+      "verification": "synthetic_designed"
+    },
+    {
+      "candidate": "relative_0.10",
+      "document_id": "synthetic_spacing",
+      "exact_samples": 42,
+      "expected_no_space_boundaries": 842,
+      "expected_spaces": 110,
+      "extra_spaces": 168,
+      "missing_spaces": 0,
+      "non_space_boundaries": 952,
+      "sample_count": 54,
+      "unscoreable_count": 0,
+      "verification": "synthetic_designed"
+    },
+    {
+      "candidate": "relative_0.125",
+      "document_id": "synthetic_spacing",
+      "exact_samples": 54,
+      "expected_no_space_boundaries": 842,
+      "expected_spaces": 110,
+      "extra_spaces": 0,
+      "missing_spaces": 0,
+      "non_space_boundaries": 952,
+      "sample_count": 54,
+      "unscoreable_count": 0,
+      "verification": "synthetic_designed"
+    },
+    {
+      "candidate": "relative_0.15",
+      "document_id": "synthetic_spacing",
+      "exact_samples": 53,
+      "expected_no_space_boundaries": 842,
+      "expected_spaces": 110,
+      "extra_spaces": 0,
+      "missing_spaces": 2,
+      "non_space_boundaries": 952,
+      "sample_count": 54,
+      "unscoreable_count": 0,
+      "verification": "synthetic_designed"
+    },
+    {
+      "candidate": "relative_0.20",
+      "document_id": "synthetic_spacing",
+      "exact_samples": 53,
+      "expected_no_space_boundaries": 842,
+      "expected_spaces": 110,
+      "extra_spaces": 0,
+      "missing_spaces": 2,
+      "non_space_boundaries": 952,
+      "sample_count": 54,
+      "unscoreable_count": 0,
+      "verification": "synthetic_designed"
+    },
+    {
+      "candidate": "relative_0.25",
+      "document_id": "synthetic_spacing",
+      "exact_samples": 25,
+      "expected_no_space_boundaries": 842,
+      "expected_spaces": 110,
+      "extra_spaces": 0,
+      "missing_spaces": 60,
+      "non_space_boundaries": 952,
+      "sample_count": 54,
+      "unscoreable_count": 0,
+      "verification": "synthetic_designed"
+    }
+  ],
+  "application_baseline_commit": "e6c34a02674400f8cfddb7c389d015be6ff8a462",
+  "candidates": [
+    {
+      "name": "absolute_3",
+      "x_tolerance": 3
+    },
+    {
+      "name": "absolute_2.5",
+      "x_tolerance": 2.5
+    },
+    {
+      "name": "absolute_2",
+      "x_tolerance": 2
+    },
+    {
+      "name": "absolute_1.5",
+      "x_tolerance": 1.5
+    },
+    {
+      "name": "relative_0.10",
+      "x_tolerance": 3,
+      "x_tolerance_ratio": 0.1
+    },
+    {
+      "name": "relative_0.125",
+      "x_tolerance": 3,
+      "x_tolerance_ratio": 0.125
+    },
+    {
+      "name": "relative_0.15",
+      "x_tolerance": 3,
+      "x_tolerance_ratio": 0.15
+    },
+    {
+      "name": "relative_0.20",
+      "x_tolerance": 3,
+      "x_tolerance_ratio": 0.2
+    },
+    {
+      "name": "relative_0.25",
+      "x_tolerance": 3,
+      "x_tolerance_ratio": 0.25
+    }
+  ],
+  "control_runs": [
+    {
+      "artifacts": {
+        "extraction.json": "732cb726b4e41728d1ef5e2c2999a3f31cd27b67ef0c9534445bdd0f70dec936",
+        "paper.txt": "c8ba9ef02267f9d2306949cea50d726b28aa5cf712cb74469096e020faf8081b",
+        "run.json": "de41fbbb27e2134768dd35cdc07aefb7f7a999514a2e21ec9ee7ddc364509151"
+      },
+      "command": [
+        "/Users/alessandrocagiano/Documents/vibecoding/understanding_engine/.venv/bin/python",
+        "-B",
+        "-m",
+        "understanding_engine",
+        "/Users/alessandrocagiano/Documents/vibecoding/1706.03762v7.pdf",
+        "--output-dir",
+        "/private/tmp/understanding-engine-experiments/m01b-development/attention-unchanged-control"
+      ],
+      "document_id": "attention",
+      "exit_code": 0,
+      "statistics": {
+        "character_count": 33460,
+        "derived_character_count": 36159,
+        "empty_page_count": 0,
+        "image_count": 3,
+        "page_count": 15
+      }
+    },
+    {
+      "artifacts": {
+        "extraction.json": "9618216d3b52fab8a59949eeacd3f740f78f7166964f9cae3d61ce68522ab79b",
+        "paper.txt": "917834f06fe79eea95a18a4cf7299a576e88a0d716e92c777939f03f4db41885",
+        "run.json": "f0dd50c68a17554ccdc84e3dae7d6a61c2fae4dbd415a06a69b55eb81f8c75bc"
+      },
+      "command": [
+        "/Users/alessandrocagiano/Documents/vibecoding/understanding_engine/.venv/bin/python",
+        "-B",
+        "-m",
+        "understanding_engine",
+        "/private/tmp/understanding-engine-experiments/m01b-development/1810.04805v2.pdf",
+        "--output-dir",
+        "/private/tmp/understanding-engine-experiments/m01b-development/bert-unchanged-control"
+      ],
+      "document_id": "bert",
+      "exit_code": 0,
+      "statistics": {
+        "character_count": 54003,
+        "derived_character_count": 61373,
+        "empty_page_count": 0,
+        "image_count": 38,
+        "page_count": 16
+      }
+    }
+  ],
+  "default_decision": {
+    "changed": false,
+    "reason": "Human verification absent; limited selective development evidence does not justify a new default. Ratio 0.125 is an experimental candidate, not a validated recommendation.",
+    "x_tolerance": 3
+  },
+  "environment": {
+    "dependencies": {
+      "Pygments": "2.21.0",
+      "attrs": "26.1.0",
+      "cffi": "2.1.1",
+      "charset-normalizer": "3.5.2",
+      "cryptography": "50.0.2",
+      "iniconfig": "2.3.1",
+      "jsonschema": "4.25.1",
+      "jsonschema-specifications": "2025.9.1",
+      "packaging": "26.3",
+      "pdfminer.six": "20251107",
+      "pdfplumber": "0.11.8",
+      "pillow": "13.0.0",
+      "pluggy": "1.7.0",
+      "pycparser": "3.12",
+      "pypdf": "6.1.1",
+      "pypdfium2": "5.14.0",
+      "pytest": "8.4.2",
+      "referencing": "0.37.0",
+      "reportlab": "4.4.4",
+      "rpds-py": "2026.9.1",
+      "typing_extensions": "4.16.0",
+      "understanding-engine": "0.1.0"
+    },
+    "python": "3.11.13 (main, Jun 12 2025, 12:22:50) [Clang 20.1.4 ]"
+  },
+  "evaluation_tool_sha256": "c18f61b5b2824893217e5c1dd39169f2429fd2e7fbb52f97e23daa986cdcf007",
+  "experiment": "Experiment 002: Milestone 01b deterministic spacing investigation",
+  "held_out_manifest_sha256": "68587f4136bc75640c717308a6bc6c12da1d4ee12d16690e51b226155b2f5628",
+  "human_verified_real_sample_count": 0,
+  "initial_test_failures": {
+    "cause": "Authored fixture used lowercase Greek missing from the bundled Vera font, yielding NULs; corrected fixture generator to use covered symbols and assert coverage. Parser was not changed.",
+    "count": 2
+  },
+  "plan_sha256": "b6a0268219720cb4d11a446954e9da8398fc9c07f4616d507457e25cc8c0f7cf",
+  "python_version": "3.11.13",
+  "raw_real_results_sha256": "68f970376c839fdae98b30a96547738ec75c94f63e004225652d273a9af39166",
+  "raw_synthetic_results_sha256": "724ad8b37632fc69cd83a5c2be465b118c385679e9ac401e26f6ea58b54fa3a0",
+  "regression_tests": {
+    "failed": 0,
+    "new_tests": 22,
+    "original_tests": 60,
+    "passed": 82,
+    "python": "3.11.13"
+  },
+  "sample_sha256": "79b70c69c5c310df4f5e3da3935d022731aed60d65181c1d8d85a1d7a06bed72",
+  "synthetic_designed_sample_count": 54,
+  "synthetic_pdf_sha256": "27f32eabea59b267e13cef5cce3926bd01cf23873fda0a43ca33a8d81ddd2aec",
+  "synthetic_sample_sha256": "9f434a5021e8a871adf20f8403e14372ab1a7c8b6d641a1e6482514eea2f77a1",
+  "uv_lock_sha256": "5960561121647f0387230c8216a2d461aa119e45eb4b5bfba359454c53fe664e"
+}

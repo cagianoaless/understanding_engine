@@ -1,0 +1,366 @@
+{
+  "schema_version": "1.0.0",
+  "sampling": "Development-only, selected visual regions across title/body/footnote/caption and two documents; no comprehensive accuracy claim. Frozen before candidate scoring. Human verification pending.",
+  "documents": [
+    {
+      "document_id": "attention",
+      "sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697"
+    },
+    {
+      "document_id": "bert",
+      "sha256": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e"
+    }
+  ],
+  "samples": [
+    {
+      "document_id": "attention",
+      "id": "a01",
+      "page_number": 1,
+      "bbox": [
+        210,
+        147,
+        401,
+        167
+      ],
+      "expected": "Attention Is All You Need",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "attention",
+      "id": "a02",
+      "page_number": 1,
+      "bbox": [
+        143,
+        412,
+        470,
+        424
+      ],
+      "expected": "The dominant sequence transduction models are based on complex recurrent or",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "attention",
+      "id": "a03",
+      "page_number": 1,
+      "bbox": [
+        143,
+        423.5,
+        470,
+        434.5
+      ],
+      "expected": "convolutional neural networks that include an encoder and a decoder. The best",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "attention",
+      "id": "a04",
+      "page_number": 1,
+      "bbox": [
+        143,
+        434.5,
+        470,
+        445.5
+      ],
+      "expected": "performing models also connect the encoder and decoder through an attention",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "attention",
+      "id": "a05",
+      "page_number": 1,
+      "bbox": [
+        143,
+        445.5,
+        470,
+        456.5
+      ],
+      "expected": "mechanism. We propose a new simple network architecture, the Transformer,",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "attention",
+      "id": "a06",
+      "page_number": 1,
+      "bbox": [
+        143,
+        456.5,
+        470,
+        467
+      ],
+      "expected": "based solely on attention mechanisms, dispensing with recurrence and convolutions",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "attention",
+      "id": "a07",
+      "page_number": 1,
+      "bbox": [
+        143,
+        565,
+        268,
+        577
+      ],
+      "expected": "large and limited training data.",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "attention",
+      "id": "a08",
+      "page_number": 1,
+      "bbox": [
+        119,
+        687,
+        268,
+        699
+      ],
+      "expected": "†Work performed while at Google Brain.",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "attention",
+      "id": "a09",
+      "page_number": 2,
+      "bbox": [
+        107,
+        71,
+        192,
+        86
+      ],
+      "expected": "1 Introduction",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "attention",
+      "id": "a10",
+      "page_number": 2,
+      "bbox": [
+        107,
+        98,
+        505,
+        109.2
+      ],
+      "expected": "Recurrent neural networks, long short-term memory [13] and gated recurrent [7] neural networks",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "attention",
+      "id": "a11",
+      "page_number": 2,
+      "bbox": [
+        107,
+        109.2,
+        505,
+        120.2
+      ],
+      "expected": "in particular, have been firmly established as state of the art approaches in sequence modeling and",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "attention",
+      "id": "a12",
+      "page_number": 2,
+      "bbox": [
+        107,
+        120.2,
+        505,
+        131.2
+      ],
+      "expected": "transduction problems such as language modeling and machine translation [35, 2, 5]. Numerous",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "attention",
+      "id": "a13",
+      "page_number": 2,
+      "bbox": [
+        107,
+        131.2,
+        505,
+        142.1
+      ],
+      "expected": "efforts have since continued to push the boundaries of recurrent language models and encoder-decoder",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "attention",
+      "id": "a14",
+      "page_number": 2,
+      "bbox": [
+        107,
+        142.1,
+        212,
+        153
+      ],
+      "expected": "architectures [38, 24, 15].",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "attention",
+      "id": "a15",
+      "page_number": 2,
+      "bbox": [
+        107,
+        158,
+        505,
+        169.3
+      ],
+      "expected": "Recurrent models typically factor computation along the symbol positions of the input and output",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "attention",
+      "id": "a16",
+      "page_number": 3,
+      "bbox": [
+        209,
+        403.5,
+        403,
+        415.5
+      ],
+      "expected": "Figure 1: The Transformer - model architecture.",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "bert",
+      "id": "b01",
+      "page_number": 1,
+      "bbox": [
+        220.751,
+        86.18515579999999,
+        376.7937706,
+        100.73135580000005
+      ],
+      "expected": "Language Understanding",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "bert",
+      "id": "b02",
+      "page_number": 1,
+      "bbox": [
+        249.704,
+        144.48312320000005,
+        350.8297984,
+        156.63832320000003
+      ],
+      "expected": "Google AI Language",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "bert",
+      "id": "b03",
+      "page_number": 1,
+      "bbox": [
+        88.90799999999997,
+        245.46432159999998,
+        157.23225879999995,
+        255.62692160000003
+      ],
+      "expected": "We introduce a",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "bert",
+      "id": "b04",
+      "page_number": 1,
+      "bbox": [
+        151.65240059999996,
+        281.33032160000005,
+        206.6765884,
+        291.49292160000016
+      ],
+      "expected": "Unlike recent",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "bert",
+      "id": "b05",
+      "page_number": 1,
+      "bbox": [
+        307.17599999999993,
+        265.49426560000006,
+        414.4815438,
+        276.6033656000001
+      ],
+      "expected": "feature-based approach,",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "bert",
+      "id": "b06",
+      "page_number": 1,
+      "bbox": [
+        307.17599999999993,
+        414.5352655999998,
+        453.0888487,
+        425.64436559999984
+      ],
+      "expected": "general language representations.",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "bert",
+      "id": "b07",
+      "page_number": 3,
+      "bbox": [
+        71.89999999999992,
+        541.5894367999999,
+        122.10860159999991,
+        553.7446368
+      ],
+      "expected": "3 BERT",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "bert",
+      "id": "b08",
+      "page_number": 4,
+      "bbox": [
+        117.41276519999997,
+        592.2889018999992,
+        175.72554089999997,
+        603.3980018999993
+      ],
+      "expected": "Masked LM",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    },
+    {
+      "document_id": "bert",
+      "id": "b09",
+      "page_number": 4,
+      "bbox": [
+        363.97968369999995,
+        470.76790189999934,
+        490.34342519999996,
+        481.8770018999994
+      ],
+      "expected": "Next Sentence Prediction",
+      "verification": "agent_visual_checked",
+      "verification_note": "Visually checked against rendered PDF crop by Codex; not human-verified ground truth."
+    }
+  ]
+}

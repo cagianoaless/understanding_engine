@@ -10,6 +10,7 @@ Regenerate intentionally with the pinned development environment:
 
 ```sh
 uv run --frozen --offline python tests/fixtures/generate.py
+uv run --frozen --offline python tests/fixtures/generate_spacing.py
 ```
 
 Tests never regenerate fixtures. `manifest.json` records their byte hashes.
@@ -29,9 +30,15 @@ reproducible. The RC4 encryption is only for input rejection tests.
 | cropped | CropBox recorded while text outside the crop is retained |
 | shifted | Nonzero MediaBox origin, translated text, CropBox, UserUnit=2 |
 | invalid, encrypted, encrypted_empty_password, bad_rotation | Explicit input rejection |
+| spacing | 54 authored lines: two standard fonts at 6–24 points, tracking, negative kerning, implicit/explicit word spaces, punctuation, tight gaps, and supported mathematical/ligature Unicode |
 
 Expected text and analytic Helvetica coordinates are maintained independently in
 the tests. Backend parity tests additionally check faithful copying; parity alone
 is not evidence that the PDF was interpreted correctly. The decomposed mapping
 renders the same accented glyph while intentionally testing a multi-codepoint
 Unicode mapping.
+
+`spacing_samples.json` records each spacing line's intended text, region, and
+generative parameters; these are synthetic design expectations, not student or
+teacher predictions. `generate_spacing.py` changes only the new spacing fixture
+and its manifest entry. All 17 original fixture bytes remain unchanged.
