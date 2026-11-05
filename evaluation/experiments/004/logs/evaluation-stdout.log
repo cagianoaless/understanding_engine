@@ -1,0 +1,25 @@
+{
+  "output": "/private/tmp/understanding-engine-m02a/run-001",
+  "aggregate": {
+    "reference_regions": 16,
+    "predicted_regions_in_windows": 21,
+    "matched_regions": 13,
+    "false_positive_regions": 8,
+    "missed_regions": 3,
+    "correct_region_types": 10,
+    "order_pairs": 13,
+    "correct_order_pairs": 9,
+    "inverted_order_pairs": 0,
+    "paragraph_decisions": 9,
+    "correct_paragraph_decisions": 8,
+    "paragraph_tp": 4,
+    "paragraph_fp": 1,
+    "paragraph_fn": 0,
+    "unaligned_paragraph_pairs": 0,
+    "character_references": 13056,
+    "unique_character_references": 13056,
+    "unknown_text_regions": 0,
+    "unsupported_figure_references": 1,
+    "localized_figure_matches": 0
+  }
+}

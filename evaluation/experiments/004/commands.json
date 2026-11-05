@@ -1,0 +1,34 @@
+{
+  "evaluation": {
+    "argv": [
+      ".venv/bin/python",
+      "-B",
+      "evaluation/experiments/004/run.py",
+      "--pdf",
+      "attention=../1706.03762v7.pdf",
+      "--pdf",
+      "bert=/private/tmp/understanding-engine-experiments/m01b-development/1810.04805v2.pdf",
+      "--pdf",
+      "tabpfn_nature_2025=/private/tmp/understanding-engine-experiments/003/s41586-024-08328-6.pdf",
+      "--output-dir",
+      "/private/tmp/understanding-engine-m02a/run-001"
+    ],
+    "repository_commit": "0b326d28ac482f59343d183ed4066c10ad037c0b"
+  },
+  "exit_code": 0,
+  "structure_example": [
+    "uv",
+    "run",
+    "--frozen",
+    "--offline",
+    "python",
+    "-m",
+    "understanding_engine.structure",
+    "/path/to/extraction.json",
+    "--output-dir",
+    "/path/to/new-structure",
+    "--pages",
+    "2"
+  ],
+  "tests": "UV_CACHE_DIR=/private/tmp/understanding-engine-uv-cache UV_PYTHON_INSTALL_DIR=/private/tmp/understanding-engine-python uv run --frozen --offline pytest"
+}
