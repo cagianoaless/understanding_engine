@@ -1,0 +1,19 @@
+{
+  "candidate_outputs_generated_at_freeze": false,
+  "experiment": "Experiment 003",
+  "files": {
+    "annotations.json": "4cd789c46848fe1cead051a46af4a8fc11d4e324d0dfbb4dc2f1b05fa158be3f",
+    "page_geometry.json": "9f9e8be5c306b6ef5ae6ee3852b69fc22cb5f9a1a105b2fbc930e42e395378db",
+    "plan.json": "2c3ce30c1f0624eba7455125ab1a89aab32eba57ad28a21c05a30a6354af6c7e",
+    "source.json": "845a12e248a16062124c68d9d6fb3cc5fd10ee74e5a67ec7c82e85bde14d7040"
+  },
+  "frozen_at_utc": "2026-11-05T21:23:19.171049+00:00",
+  "human_verified_sample_count": 0,
+  "rendered_review_sheets": {
+    "samples-01.png": "909ab49587741ddc2acac7ab5db83b1fd591cc84157b7af31092b0a5a2e86172",
+    "samples-11.png": "b762fba1af4ac06bca96323cc20f241508766dc03ab5d41cbfb2be8cd1638033",
+    "samples-21.png": "38f668c2b72b59a5194d264bd02ff651740bf4be6ad953e15f5ab660160230b9"
+  },
+  "sample_count": 30,
+  "selection_basis": "Visually transcribed PDFium crops; geometry/font metadata only from pdfplumber, no candidate-derived strings."
+}

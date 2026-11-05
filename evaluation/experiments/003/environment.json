@@ -1,0 +1,32 @@
+{
+  "baseline_evaluator_sha256": "c18f61b5b2824893217e5c1dd39169f2429fd2e7fbb52f97e23daa986cdcf007",
+  "branch": "feat/milestone-01-pdf-extraction",
+  "dependencies": {
+    "attrs": "26.1.0",
+    "cffi": "2.1.1",
+    "charset-normalizer": "3.5.2",
+    "cryptography": "50.0.2",
+    "iniconfig": "2.3.1",
+    "jsonschema": "4.25.1",
+    "jsonschema-specifications": "2025.9.1",
+    "packaging": "26.3",
+    "pdfminer-six": "20251107",
+    "pdfplumber": "0.11.8",
+    "pillow": "13.0.0",
+    "pluggy": "1.7.0",
+    "pycparser": "3.12",
+    "pygments": "2.21.0",
+    "pypdf": "6.1.1",
+    "pypdfium2": "5.14.0",
+    "pytest": "8.4.2",
+    "referencing": "0.37.0",
+    "reportlab": "4.4.4",
+    "rpds-py": "2026.9.1",
+    "typing-extensions": "4.16.0",
+    "understanding-engine": "0.1.0"
+  },
+  "experiment_runner_sha256": "4c2ea256e93dbcb738fa0088b1065905723d85836b199a0320b7390a947fb380",
+  "python": "3.11.13",
+  "repository_commit": "3a903b29eda7942064aa73ce8f0ba4e7bbafe211",
+  "uv_lock_sha256": "5960561121647f0387230c8216a2d461aa119e45eb4b5bfba359454c53fe664e"
+}

@@ -1,0 +1,5 @@
+Official publisher acquisition completed with curl exit code 0.
+HTTP 200; Content-Type application/pdf; 16957699 bytes.
+Source: https://www.nature.com/articles/s41586-024-08328-6.pdf
+An initial metadata read while curl was still downloading raised pypdf.errors.PdfStreamError (Stream has ended unexpectedly / EOF marker not found).
+No candidate was evaluated on that partial download. No PDF repair was attempted. Metadata and SHA-256 were recorded after curl completed successfully.

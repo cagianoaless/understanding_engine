@@ -1,0 +1,424 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/cagianoaless/understanding_engine/schemas/extraction-1.0.0",
+  "title": "Understanding Engine extraction 1.0.0",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "source_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "page_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "status": {
+      "enum": [
+        "text",
+        "textless"
+      ]
+    },
+    "parser": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "const": "understanding_engine"
+        },
+        "version": {
+          "type": "string"
+        },
+        "python": {
+          "type": "string"
+        },
+        "dependencies": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          },
+          "minProperties": 1
+        },
+        "settings": {
+          "$ref": "#/$defs/settings"
+        }
+      },
+      "required": [
+        "name",
+        "version",
+        "python",
+        "dependencies",
+        "settings"
+      ],
+      "additionalProperties": false
+    },
+    "coordinate_system": {
+      "const": "pdfplumber-native-v1"
+    },
+    "pages": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/page"
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/warning"
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "source_sha256",
+    "page_count",
+    "status",
+    "parser",
+    "coordinate_system",
+    "pages",
+    "warnings"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "bbox": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "minItems": 4,
+      "maxItems": 4
+    },
+    "warning": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "page_number": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "character_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "message": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "code",
+        "page_number",
+        "character_id",
+        "message"
+      ],
+      "additionalProperties": false
+    },
+    "settings": {
+      "type": "object",
+      "properties": {
+        "unicode_norm": {
+          "type": "null"
+        },
+        "laparams": {
+          "type": "null"
+        },
+        "deduplicate_characters": {
+          "const": false
+        },
+        "crop_to_cropbox": {
+          "const": false
+        },
+        "text_map": {
+          "type": "object",
+          "properties": {
+            "layout": {
+              "const": false
+            },
+            "x_tolerance": {
+              "const": 3
+            },
+            "y_tolerance": {
+              "const": 3
+            },
+            "use_text_flow": {
+              "const": false
+            },
+            "expand_ligatures": {
+              "const": false
+            },
+            "line_dir": {
+              "const": "ttb"
+            },
+            "char_dir": {
+              "const": "ltr"
+            },
+            "line_dir_rotated": {
+              "const": "ttb"
+            },
+            "char_dir_rotated": {
+              "const": "ltr"
+            }
+          },
+          "required": [
+            "layout",
+            "x_tolerance",
+            "y_tolerance",
+            "use_text_flow",
+            "expand_ligatures",
+            "line_dir",
+            "char_dir",
+            "line_dir_rotated",
+            "char_dir_rotated"
+          ],
+          "additionalProperties": false
+        },
+        "raise_unicode_errors": {
+          "const": true
+        },
+        "repair": {
+          "const": false
+        }
+      },
+      "required": [
+        "unicode_norm",
+        "laparams",
+        "deduplicate_characters",
+        "crop_to_cropbox",
+        "text_map",
+        "raise_unicode_errors",
+        "repair"
+      ],
+      "additionalProperties": false
+    },
+    "character": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}:p[1-9][0-9]*:c[0-9]+$"
+        },
+        "backend_index": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "text": {
+          "type": "string"
+        },
+        "bbox": {
+          "$ref": "#/$defs/bbox"
+        },
+        "backend_bbox_bottom_origin": {
+          "$ref": "#/$defs/bbox"
+        },
+        "doctop": {
+          "type": "number"
+        },
+        "matrix": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 6,
+          "maxItems": 6
+        },
+        "upright": {
+          "type": "boolean"
+        },
+        "fontname": {
+          "type": "string"
+        },
+        "size": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "id",
+        "backend_index",
+        "text",
+        "bbox",
+        "backend_bbox_bottom_origin",
+        "doctop",
+        "matrix",
+        "upright",
+        "fontname",
+        "size"
+      ],
+      "additionalProperties": false
+    },
+    "line": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "bbox": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/bbox"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "source_character_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "text",
+        "bbox",
+        "source_character_ids"
+      ],
+      "additionalProperties": false
+    },
+    "geometry": {
+      "type": "object",
+      "properties": {
+        "width": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "height": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "rotation": {
+          "enum": [
+            0,
+            90,
+            180,
+            270
+          ]
+        },
+        "raw_rotation": {
+          "type": "number"
+        },
+        "bbox": {
+          "$ref": "#/$defs/bbox"
+        },
+        "mediabox": {
+          "$ref": "#/$defs/bbox"
+        },
+        "cropbox": {
+          "$ref": "#/$defs/bbox"
+        },
+        "raw_mediabox": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/bbox"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "raw_cropbox": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/bbox"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "pdfminer_layout_bbox": {
+          "$ref": "#/$defs/bbox"
+        },
+        "initial_doctop": {
+          "type": "number"
+        },
+        "user_unit": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "required": [
+        "width",
+        "height",
+        "rotation",
+        "raw_rotation",
+        "bbox",
+        "mediabox",
+        "cropbox",
+        "raw_mediabox",
+        "raw_cropbox",
+        "pdfminer_layout_bbox",
+        "initial_doctop",
+        "user_unit"
+      ],
+      "additionalProperties": false
+    },
+    "page": {
+      "type": "object",
+      "properties": {
+        "page_number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "status": {
+          "enum": [
+            "text",
+            "empty_text_layer"
+          ]
+        },
+        "geometry": {
+          "$ref": "#/$defs/geometry"
+        },
+        "image_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "characters": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/character"
+          }
+        },
+        "derived": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string"
+            },
+            "lines": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/line"
+              }
+            }
+          },
+          "required": [
+            "text",
+            "lines"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "page_number",
+        "status",
+        "geometry",
+        "image_count",
+        "characters",
+        "derived"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

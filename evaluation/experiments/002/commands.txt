@@ -1,0 +1,5 @@
+cd /Users/alessandrocagiano/Documents/vibecoding/understanding_engine
+/Users/alessandrocagiano/Documents/vibecoding/understanding_engine/.venv/bin/python -B evaluation/spacing.py --pdf attention=/Users/alessandrocagiano/Documents/vibecoding/1706.03762v7.pdf --pdf bert=/private/tmp/understanding-engine-experiments/m01b-development/1810.04805v2.pdf --samples evaluation/development/spacing_samples.json --output /private/tmp/understanding-engine-experiments/m01b-development/real-results-final.json
+
+cd /Users/alessandrocagiano/Documents/vibecoding/understanding_engine
+/Users/alessandrocagiano/Documents/vibecoding/understanding_engine/.venv/bin/python -B evaluation/spacing.py --pdf synthetic_spacing=tests/fixtures/spacing.pdf --samples tests/fixtures/spacing_samples.json --output /private/tmp/understanding-engine-experiments/m01b-development/synthetic-results-final.json

@@ -1,0 +1,33 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.11.13, pytest-8.4.2, pluggy-1.7.0
+rootdir: /Users/alessandrocagiano/Documents/vibecoding/understanding_engine
+configfile: pyproject.toml
+testpaths: tests
+collected 82 items
+
+tests/test_cli.py ...................                                    [ 23%]
+tests/test_contracts.py .............                                    [ 39%]
+tests/test_pdf_parser.py ............................                    [ 73%]
+tests/test_spacing.py .....................F                             [100%]
+
+=================================== FAILURES ===================================
+____________ test_annotations_have_explicit_development_provenance _____________
+
+    def test_annotations_have_explicit_development_provenance():
+        root = Path(__file__).parents[1]
+        samples = json.loads((root / "evaluation/development/spacing_samples.json").read_text())
+        manifest = json.loads((root / "evaluation/development/manifest.json").read_text())
+        assert len(samples["samples"]) == 25
+>       assert {d["document_id"]: d["sha256"] for d in samples["documents"]} == {
+            d["document_id"]: d["sha256"] for d in manifest["documents"]}
+E       AssertionError: assert {'attention':...83947e2acf6e'} == {'attention':...0e977caaa013'}
+E         
+E         Omitting 2 identical items, use -vv to show
+E         Right contains 1 more item:
+E         {'tabpfn_nature_2025': '6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013'}
+E         Use -v to get more diff
+
+tests/test_spacing.py:123: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_spacing.py::test_annotations_have_explicit_development_provenance
+========================= 1 failed, 81 passed in 0.94s =========================

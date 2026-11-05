@@ -1,0 +1,75 @@
+{
+  "archive_filename": "experiment-001-q1k7seky.zip",
+  "archive_sha256": "ac8bf466106598b2542c5d59b1eae45f849d9c66b4f04008acc00892c3cfe708",
+  "commit": "e6c34a02674400f8cfddb7c389d015be6ff8a462",
+  "configuration": {
+    "crop_to_cropbox": false,
+    "deduplicate_characters": false,
+    "laparams": null,
+    "raise_unicode_errors": true,
+    "repair": false,
+    "text_map": {
+      "char_dir": "ltr",
+      "char_dir_rotated": "ltr",
+      "expand_ligatures": false,
+      "layout": false,
+      "line_dir": "ttb",
+      "line_dir_rotated": "ttb",
+      "use_text_flow": false,
+      "x_tolerance": 3,
+      "y_tolerance": 3
+    },
+    "unicode_norm": null
+  },
+  "exit_code": 0,
+  "experiment": "Experiment 001 (unchanged baseline)",
+  "input_filename": "1706.03762v7.pdf",
+  "input_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+  "manifest_sha256": "8480bd2e33e523d197d4ec5f26a8c53a91d62aaa5313da7dfa176cba4f86c8dd",
+  "original_artifacts": {
+    "artifacts/extraction.json": {
+      "bytes": 29644580,
+      "sha256": "732cb726b4e41728d1ef5e2c2999a3f31cd27b67ef0c9534445bdd0f70dec936"
+    },
+    "artifacts/paper.txt": {
+      "bytes": 36602,
+      "sha256": "c8ba9ef02267f9d2306949cea50d726b28aa5cf712cb74469096e020faf8081b"
+    },
+    "artifacts/run.json": {
+      "bytes": 1327,
+      "sha256": "67a5f310a553412ab622fed631d0e36365246c25ee0923e10877cd9c679d209c"
+    },
+    "command.txt": {
+      "bytes": 337,
+      "sha256": "9012e5d3cfc1c6dc1a3f5a18e80b6bd5663c5c5f5cad8051ae3e243657cadc24"
+    },
+    "environment.json": {
+      "bytes": 1106,
+      "sha256": "18a47aeecb4faa707136d5da499617e08757f2d1a64d765a00f344c2697b6c4a"
+    },
+    "exit_code.txt": {
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "stderr.log": {
+      "bytes": 207,
+      "sha256": "989b653029ac76436d3ef91d573bc4a54a06541e45c6ecdd8ee0f9b508f4474c"
+    },
+    "stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "original_files_modified": false,
+  "teacher_diagnostic": {
+    "anchor_matches": {
+      "absolute_1.5": "16/16",
+      "absolute_2": "16/16",
+      "absolute_2.5": "8/16",
+      "absolute_3": "7/16"
+    },
+    "not_ground_truth": true,
+    "status": "User-reported selective anchor diagnostic, not independently reproduced here; original 16 strings not supplied."
+  },
+  "tree": "796fc2e0064ecf47a23b89f9548c8dce44e225cc"
+}

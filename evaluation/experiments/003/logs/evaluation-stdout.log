@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "aggregate": [
+    {
+      "candidate": "absolute_3",
+      "category": "all",
+      "verification": "agent_visual_checked",
+      "sample_count": 30,
+      "exact_match_samples": 24,
+      "scoreable_samples": 24,
+      "unscoreable_samples": 6,
+      "missing_spaces": 0,
+      "extra_spaces": 0,
+      "space_error_counts_complete": false,
+      "space_error_scope": "Measured only on scoreable samples; unknown on unscoreable samples, which remain in all sample/reference denominators.",
+      "expected_space_boundaries": 278,
+      "expected_no_space_boundaries": 1279,
+      "scoreable_expected_space_boundaries": 215,
+      "scoreable_expected_no_space_boundaries": 992,
+      "non_space_unicode_mismatch_samples": 6,
+      "unexpected_whitespace_samples": 0
+    },
+    {
+      "candidate": "absolute_2",
+      "category": "all",
+      "verification": "agent_visual_checked",
+      "sample_count": 30,
+      "exact_match_samples": 24,
+      "scoreable_samples": 24,
+      "unscoreable_samples": 6,
+      "missing_spaces": 0,
+      "extra_spaces": 0,
+      "space_error_counts_complete": false,
+      "space_error_scope": "Measured only on scoreable samples; unknown on unscoreable samples, which remain in all sample/reference denominators.",
+      "expected_space_boundaries": 278,
+      "expected_no_space_boundaries": 1279,
+      "scoreable_expected_space_boundaries": 215,
+      "scoreable_expected_no_space_boundaries": 992,
+      "non_space_unicode_mismatch_samples": 6,
+      "unexpected_whitespace_samples": 0
+    },
+    {
+      "candidate": "relative_0.125",
+      "category": "all",
+      "verification": "agent_visual_checked",
+      "sample_count": 30,
+      "exact_match_samples": 24,
+      "scoreable_samples": 24,
+      "unscoreable_samples": 6,
+      "missing_spaces": 0,
+      "extra_spaces": 0,
+      "space_error_counts_complete": false,
+      "space_error_scope": "Measured only on scoreable samples; unknown on unscoreable samples, which remain in all sample/reference denominators.",
+      "expected_space_boundaries": 278,
+      "expected_no_space_boundaries": 1279,
+      "scoreable_expected_space_boundaries": 215,
+      "scoreable_expected_no_space_boundaries": 992,
+      "non_space_unicode_mismatch_samples": 6,
+      "unexpected_whitespace_samples": 0
+    }
+  ]
+}

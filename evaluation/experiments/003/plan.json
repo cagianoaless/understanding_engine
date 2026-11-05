@@ -1,0 +1,22 @@
+{
+  "experiment": "Experiment 003: cross-document spacing generalization",
+  "baseline_commit": "3a903b29eda7942064aa73ce8f0ba4e7bbafe211",
+  "document_id": "tabpfn_nature_2025",
+  "source_url": "https://www.nature.com/articles/s41586-024-08328-6.pdf",
+  "split": "development",
+  "candidates": [
+    {"name": "absolute_3", "x_tolerance": 3},
+    {"name": "absolute_2", "x_tolerance": 2},
+    {"name": "relative_0.125", "x_tolerance": 3, "x_tolerance_ratio": 0.125}
+  ],
+  "metric": "Reuse evaluation/spacing.py without normalization. Count every sample, including unscoreable failures, and derive expected-space denominators from all frozen transcriptions independently of candidate output.",
+  "sample_protocol": [
+    "Use the official publisher PDF only; record identity and provenance before sample selection.",
+    "Select approximately 30 single-line regions across the document, covering body text, headings, figure captions, table captions, references and mathematical symbols, with multiple font sizes/styles.",
+    "Transcribe from PDFium-rendered images before inspecting candidate-derived text. Use backend geometry only to locate complete glyphs, never as transcription ground truth.",
+    "Freeze coordinates, expected Unicode transcriptions, categories and verification status with SHA-256 before evaluating any candidate.",
+    "Label every agent transcription agent_visual_checked; do not invent human verification.",
+    "Keep non-space mismatches and unexpected line breaks explicit. Never change a frozen sample to improve a candidate score.",
+    "No new thresholds, parameter search, production parser edits or held-out-set changes."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "experiment": "Milestone 01b spacing comparison",
+  "baseline_commit": "e6c34a02674400f8cfddb7c389d015be6ff8a462",
+  "baseline_x_tolerance": 3,
+  "candidates": [
+    {"name": "absolute_3", "x_tolerance": 3},
+    {"name": "absolute_2.5", "x_tolerance": 2.5},
+    {"name": "absolute_2", "x_tolerance": 2},
+    {"name": "absolute_1.5", "x_tolerance": 1.5},
+    {"name": "relative_0.10", "x_tolerance": 3, "x_tolerance_ratio": 0.10},
+    {"name": "relative_0.125", "x_tolerance": 3, "x_tolerance_ratio": 0.125},
+    {"name": "relative_0.15", "x_tolerance": 3, "x_tolerance_ratio": 0.15},
+    {"name": "relative_0.20", "x_tolerance": 3, "x_tolerance_ratio": 0.20},
+    {"name": "relative_0.25", "x_tolerance": 3, "x_tolerance_ratio": 0.25}
+  ],
+  "metric": "Exact non-space code-point equality, then missing and extra ASCII-space counts at non-space offsets; mismatches are unscorable failures, never silently discarded.",
+  "selection_rule": [
+    "Retain all original glyph text, identifiers, geometry and extraction indices.",
+    "A default change needs human-verified real samples from at least two development PDFs, including both positive and negative spacing boundaries.",
+    "Require strictly fewer missing spaces and no extra-space increase versus baseline on each real document, with no unscorable samples or synthetic regressions.",
+    "Report agent-checked transcriptions separately; never promote them to human-verified ground truth automatically.",
+    "Passing this limited grid does not establish universal spacing or reading-order accuracy.",
+    "Leave the held-out manifest and documents unchanged."
+  ]
+}

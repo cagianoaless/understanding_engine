@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "split": "development",
+  "documents": [
+    {
+      "document_id": "attention",
+      "sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "local_path": "../1706.03762v7.pdf",
+      "source": "User-supplied local arXiv 1706.03762v7 PDF; never substituted",
+      "source_url": "https://arxiv.org/abs/1706.03762v7",
+      "redistribution_permission": "Not established for the full PDF; PDF not committed",
+      "challenges": "Implicit word gaps near 2.49–2.68 points; single-column prose, captions and mathematics"
+    },
+    {
+      "document_id": "bert",
+      "sha256": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e",
+      "local_path": null,
+      "source": "Manually acquired small development PDF from arXiv, 1810.04805v2",
+      "source_url": "https://arxiv.org/pdf/1810.04805v2",
+      "redistribution_permission": "Not established for the full PDF; PDF not committed",
+      "challenges": "Two columns, multiple font sizes and styles; only short explicitly annotated regions are scored"
+    },
+    {
+      "document_id": "tabpfn_nature_2025",
+      "sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "local_path": null,
+      "source": "Official Nature publisher PDF, version of record; main article, methods and extended data; acquired for Experiment 003",
+      "source_url": "https://www.nature.com/articles/s41586-024-08328-6.pdf",
+      "redistribution_permission": "Publisher article licensed CC BY 4.0 with possible third-party exceptions; PDF intentionally kept outside Git",
+      "challenges": "New publisher fonts, 5–26 pt text, captions, references, mathematical glyph mappings; 30 frozen regions distributed across 20 pages",
+      "role": "Development evaluation only; not held-out test data"
+    }
+  ]
+}

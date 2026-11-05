@@ -1,0 +1,49 @@
+{
+  "acquisition": {
+    "argv": [
+      "curl",
+      "--fail",
+      "--location",
+      "--max-time",
+      "90",
+      "--dump-header",
+      "/private/tmp/understanding-engine-experiments/003/download-headers.txt",
+      "--output",
+      "/private/tmp/understanding-engine-experiments/003/s41586-024-08328-6.pdf",
+      "--write-out",
+      "\\nFINAL_URL=%{url_effective}\\nHTTP_CODE=%{http_code}\\nCONTENT_TYPE=%{content_type}\\nSIZE=%{size_download}\\n",
+      "https://www.nature.com/articles/s41586-024-08328-6.pdf"
+    ],
+    "exit_code": 0
+  },
+  "evaluation": {
+    "command_file": "command.txt",
+    "exit_code": 0,
+    "stdout": "logs/evaluation-stdout.log",
+    "stderr": "logs/evaluation-stderr.log"
+  },
+  "tests": {
+    "command": "UV_CACHE_DIR=/private/tmp/understanding-engine-uv-cache UV_PYTHON_INSTALL_DIR=/private/tmp/understanding-engine-python uv run --frozen --offline pytest",
+    "exit_code": 1,
+    "log": "logs/pytest.log"
+  },
+  "repeat_evaluation": {
+    "argv": [
+      "/Users/alessandrocagiano/Documents/vibecoding/understanding_engine/.venv/bin/python",
+      "-B",
+      "evaluation/experiments/003/run.py",
+      "--pdf",
+      "/private/tmp/understanding-engine-experiments/003/s41586-024-08328-6.pdf",
+      "--output-dir",
+      "/private/tmp/understanding-engine-experiments/003/run-002"
+    ],
+    "exit_code": 0,
+    "raw_artifacts_byte_identical": {
+      "raw_results.json": true,
+      "results_by_sample.json": true,
+      "character_fingerprints.json": true,
+      "summary.json": true,
+      "artifact_hashes.json": true
+    }
+  }
+}
