@@ -1,0 +1,693 @@
+{
+  "schema_version": "1.0.0",
+  "experiment": "Experiment 003",
+  "sampling": "30 agent-transcribed single-line regions selected visually across 20 of the 23 PDF pages; purposive category/font coverage, not random sampling. Coordinates and expected text are frozen before any candidate output.",
+  "attribution": "Text and crops from Hollmann et al., Nature 637, 319–326 (2025), DOI 10.1038/s41586-024-08328-6, CC BY 4.0. Regions cropped and transcribed for evaluation; original PDF unchanged.",
+  "documents": [
+    {
+      "document_id": "tabpfn_nature_2025",
+      "sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "source_url": "https://www.nature.com/articles/s41586-024-08328-6.pdf"
+    }
+  ],
+  "samples": [
+    {
+      "id": "s01",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 1,
+      "bbox": [
+        39.3,
+        50.3,
+        524,
+        77.1
+      ],
+      "expected": "Accurate predictions on small data with a",
+      "category": "section_heading",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        26.0
+      ],
+      "fonts": [
+        "Harding-Bold"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s02",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 1,
+      "bbox": [
+        217,
+        292.3,
+        528.1,
+        302.1
+      ],
+      "expected": "Network (TabPFN), a tabular foundation model that outperforms all previous",
+      "category": "body_text",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        9.0
+      ],
+      "fonts": [
+        "HardingText-Regular"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s03",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 2,
+      "bbox": [
+        39.3,
+        337.1,
+        296.5,
+        344.9
+      ],
+      "expected": "Fig. 1 | Overview of the proposed method. a, The high-level overview of TabPFN",
+      "category": "figure_caption",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        7.0
+      ],
+      "fonts": [
+        "HardingText-Bold",
+        "HardingText-Regular"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s04",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 3,
+      "bbox": [
+        39.3,
+        400.8,
+        204.3,
+        411.4
+      ],
+      "expected": "An architecture designed for tables",
+      "category": "section_heading",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        9.75
+      ],
+      "fonts": [
+        "HardingText-Bold"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s05",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 3,
+      "bbox": [
+        314.3,
+        532.9,
+        561.7,
+        541.9
+      ],
+      "expected": "For regression, we use a piece-wise constant output distribu-",
+      "category": "body_text",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        8.25
+      ],
+      "fonts": [
+        "HardingText-Regular"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s06",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 4,
+      "bbox": [
+        39.3,
+        300.7,
+        292.4,
+        308.5
+      ],
+      "expected": "Fig. 3 | The behaviour of TabPFN and a set of baselines on simple functions.",
+      "category": "figure_caption",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        7.0
+      ],
+      "fonts": [
+        "HardingText-Bold",
+        "HardingText-Regular"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s07",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 6,
+      "bbox": [
+        305.8,
+        551.3,
+        491.7,
+        561.9
+      ],
+      "expected": "Foundation model with interpretability",
+      "category": "section_heading",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        9.75
+      ],
+      "fonts": [
+        "HardingText-Bold"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s08",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 6,
+      "bbox": [
+        39.3,
+        489.9,
+        105.8,
+        498.9
+      ],
+      "expected": "using all samples.",
+      "category": "body_text",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        8.25
+      ],
+      "fonts": [
+        "HardingText-Regular"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s09",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 6,
+      "bbox": [
+        56.8,
+        216.4,
+        104,
+        222.2
+      ],
+      "expected": "Wilcoxon P = 0.0024",
+      "category": "mathematical_symbols",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        5.0
+      ],
+      "fonts": [
+        "HelveticaNeueLTStd-It",
+        "HelveticaNeueLTStd-Roman7"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review.",
+      "visual_math_spacing_ambiguous": true
+    },
+    {
+      "id": "s10",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 11,
+      "bbox": [
+        39.3,
+        70.6,
+        296.7,
+        79.7
+      ],
+      "expected": "To get the most performance out of TabPFN, it is crucial to optimize",
+      "category": "body_text",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        8.25
+      ],
+      "fonts": [
+        "HardingText-Regular"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s11",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 7,
+      "bbox": [
+        39.3,
+        194.7,
+        295.9,
+        202.5
+      ],
+      "expected": "Fig. 6 | Showcase of the application of TabPFN as tabular foundation model.",
+      "category": "figure_caption",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        7.0
+      ],
+      "fonts": [
+        "HardingText-Bold",
+        "HardingText-Regular"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s12",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 8,
+      "bbox": [
+        39.3,
+        155.6,
+        283.6,
+        162.4
+      ],
+      "expected": "24. Kingma, D. & Ba, J. Adam: a method for stochastic optimization. In Proc. International",
+      "category": "references",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        6.0
+      ],
+      "fonts": [
+        "GraphikNaturel-Regular",
+        "GraphikNaturel-RegularItalic"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s13",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 8,
+      "bbox": [
+        39.3,
+        311.4,
+        209.7,
+        318.3
+      ],
+      "expected": "31. Pearl, J. Causality 2nd edn (Cambridge Univ. Press, 2009).",
+      "category": "references",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        6.0
+      ],
+      "fonts": [
+        "GraphikNaturel-Regular",
+        "GraphikNaturel-RegularItalic"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s14",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 8,
+      "bbox": [
+        39.3,
+        409.9,
+        214.1,
+        416.7
+      ],
+      "expected": "38. Breiman, L. Random forests. Mach. Learn. 45, 5–32 (2001).",
+      "category": "references",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        6.0
+      ],
+      "fonts": [
+        "GraphikNaturel-Regular",
+        "GraphikNaturel-RegularItalic",
+        "GraphikNaturel-Semibold"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s15",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 9,
+      "bbox": [
+        39.3,
+        47.4,
+        91.5,
+        60.2
+      ],
+      "expected": "Methods",
+      "category": "section_heading",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        12.0
+      ],
+      "fonts": [
+        "HardingText-Bold"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s16",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 9,
+      "bbox": [
+        39.3,
+        350.1,
+        296.8,
+        359.2
+      ],
+      "expected": "ally efficient and can run on consumer hardware for most datasets.",
+      "category": "body_text",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        8.25
+      ],
+      "fonts": [
+        "HardingText-Regular"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s17",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 10,
+      "bbox": [
+        39.3,
+        264.0,
+        296.7,
+        273.3
+      ],
+      "expected": "P ∼ Γ(α,β), where α and β are shape and rate parameters, respectively.",
+      "category": "mathematical_symbols",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        8.25
+      ],
+      "fonts": [
+        "HardingText-Regular",
+        "HardingText-RegularItalic"
+      ],
+      "unicode_note": "Math symbols visually transcribed as U+223C, U+0393, U+03B1 and U+03B2; source glyph mappings not consulted. Math spacing is visually ambiguous and remains unverified.",
+      "visual_math_spacing_ambiguous": true
+    },
+    {
+      "id": "s18",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 10,
+      "bbox": [
+        305.8,
+        640.3,
+        563.3,
+        649.5
+      ],
+      "expected": "(k = 0.95, b = 8.0) that we linearly scale to the range 1–160. To avoid",
+      "category": "mathematical_symbols",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        8.25
+      ],
+      "fonts": [
+        "HardingText-Regular",
+        "HardingText-RegularItalic"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review.",
+      "visual_math_spacing_ambiguous": true
+    },
+    {
+      "id": "s19",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 12,
+      "bbox": [
+        314.3,
+        467.3,
+        561.8,
+        477.5
+      ],
+      "expected": "For regression tasks, we use R² and negative RMSE as evaluation met-",
+      "category": "mathematical_symbols",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        4.95,
+        8.25
+      ],
+      "fonts": [
+        "HardingText-Regular",
+        "HardingText-RegularItalic"
+      ],
+      "unicode_note": "Rendered superscript 2 is transcribed as U+00B2. The source glyph encoding is unknown to the transcriber; no compatibility normalization will be applied.",
+      "visual_math_spacing_ambiguous": true
+    },
+    {
+      "id": "s20",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 12,
+      "bbox": [
+        39.3,
+        359.7,
+        155.6,
+        369.0
+      ],
+      "expected": "Detailed evaluation protocol",
+      "category": "section_heading",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        8.5
+      ],
+      "fonts": [
+        "HardingText-Semibold"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s21",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 12,
+      "bbox": [
+        39.3,
+        403.9,
+        156.1,
+        412.9
+      ],
+      "expected": "under a standardized protocol.",
+      "category": "body_text",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        8.25
+      ],
+      "fonts": [
+        "HardingText-Regular"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s22",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 13,
+      "bbox": [
+        39.3,
+        455.8,
+        244.4,
+        462.7
+      ],
+      "expected": "60. Quinlan, J. R. Induction of decision trees. Mach. Learn. 1, 81–106 (1986).",
+      "category": "references",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        6.0
+      ],
+      "fonts": [
+        "GraphikNaturel-Regular",
+        "GraphikNaturel-RegularItalic",
+        "GraphikNaturel-Semibold"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s23",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 14,
+      "bbox": [
+        39.3,
+        211.4,
+        290.2,
+        219.2
+      ],
+      "expected": "Extended Data Fig. 1 | Performance comparison across additional dataset",
+      "category": "figure_caption",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        7.0
+      ],
+      "fonts": [
+        "HardingText-Bold"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s24",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 16,
+      "bbox": [
+        39.3,
+        285.7,
+        286.1,
+        293.5
+      ],
+      "expected": "Extended Data Fig. 3 | Comparing SHAP (Shapley Additive exPlanations)",
+      "category": "figure_caption",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        7.0
+      ],
+      "fonts": [
+        "HardingText-Bold"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s25",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 17,
+      "bbox": [
+        39.3,
+        297.3,
+        277.9,
+        305.1
+      ],
+      "expected": "Extended Data Fig. 4 | Finetuning TabPFN on 2-dimensional sine curve",
+      "category": "figure_caption",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        7.0
+      ],
+      "fonts": [
+        "HardingText-Bold"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s26",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 18,
+      "bbox": [
+        39.3,
+        49.2,
+        434.3,
+        59.0
+      ],
+      "expected": "Extended Data Table 1 | Aggregated results on the 29 AMLB classification Benchmark datasets",
+      "category": "table_caption",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        9.0
+      ],
+      "fonts": [
+        "GraphikNaturel-Semibold"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s27",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 20,
+      "bbox": [
+        39.3,
+        49.2,
+        431.2,
+        59.0
+      ],
+      "expected": "Extended Data Table 3 | List of test datasets used for primary evaluation of classification tasks",
+      "category": "table_caption",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        9.0
+      ],
+      "fonts": [
+        "GraphikNaturel-Semibold"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s28",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 21,
+      "bbox": [
+        39.3,
+        49.2,
+        420.1,
+        59.0
+      ],
+      "expected": "Extended Data Table 4 | List of test datasets used for primary evaluation of regression tasks",
+      "category": "table_caption",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        9.0
+      ],
+      "fonts": [
+        "GraphikNaturel-Semibold"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s29",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 22,
+      "bbox": [
+        39.3,
+        49.2,
+        446.4,
+        59.0
+      ],
+      "expected": "Extended Data Table 5 | Hyperparameter defaults and search space for TabPFN and our baselines",
+      "category": "table_caption",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        9.0
+      ],
+      "fonts": [
+        "GraphikNaturel-Semibold"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    },
+    {
+      "id": "s30",
+      "document_id": "tabpfn_nature_2025",
+      "document_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page_number": 23,
+      "bbox": [
+        39.3,
+        49.2,
+        347.6,
+        59.0
+      ],
+      "expected": "Extended Data Table 6 | Performance on Kaggle Data Science Challenges",
+      "category": "table_caption",
+      "verification": "agent_visual_checked",
+      "font_sizes": [
+        9.0
+      ],
+      "fonts": [
+        "GraphikNaturel-Semibold"
+      ],
+      "unicode_note": "Literal agent visual transcription; no candidate output used. Spacing/Unicode identity remains subject to human review."
+    }
+  ]
+}

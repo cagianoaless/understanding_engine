@@ -1,0 +1,78 @@
+{
+  "all_candidates_same_frozen_pdf_and_regions": true,
+  "authoritative_character_fingerprints_equal": true,
+  "authoritative_character_unit_count": 94163,
+  "authoritative_page_count": 23,
+  "branch": "feat/milestone-01-pdf-extraction",
+  "candidate_outputs_identical_for_every_sample": true,
+  "evaluation_exit_code": 0,
+  "frozen_files_unchanged": {
+    "annotations.json": true,
+    "page_geometry.json": true,
+    "plan.json": true,
+    "source.json": true
+  },
+  "no_held_out_changes": true,
+  "no_production_default_change": true,
+  "offline_tests": {
+    "command": "uv run --frozen --offline pytest",
+    "exit_code": 1,
+    "failed": 1,
+    "failed_test": "tests/test_spacing.py::test_annotations_have_explicit_development_provenance",
+    "passed": 81,
+    "reason": "Existing test asserts Experiment 002 document IDs equal the entire development manifest. Required registration of the third development document violates this exact-set assumption. Test and implementation left unchanged."
+  },
+  "original_archives_unchanged": {
+    "/private/tmp/understanding-engine-experiments/experiment-001-q1k7seky.zip": true,
+    "/private/tmp/understanding-engine-experiments/m01b-development/m01b-spacing-review.zip": true
+  },
+  "original_experiment_001_artifacts_unchanged": {
+    "artifacts/extraction.json": true,
+    "artifacts/paper.txt": true,
+    "artifacts/run.json": true,
+    "command.txt": true,
+    "environment.json": true,
+    "exit_code.txt": true,
+    "stderr.log": true,
+    "stdout.log": true
+  },
+  "original_experiment_002_raw_results_unchanged": {
+    "real-results-final.json": true,
+    "synthetic-results-final.json": true
+  },
+  "pdf_unchanged": true,
+  "protected_files_unchanged": {
+    "evaluation/development/spacing_samples.json": true,
+    "evaluation/experiments/001/baseline.json": true,
+    "evaluation/experiments/002/commands.txt": true,
+    "evaluation/experiments/002/report.md": true,
+    "evaluation/experiments/002/summary.json": true,
+    "evaluation/held_out/manifest.json": true,
+    "evaluation/spacing.py": true,
+    "evaluation/spacing_plan.json": true,
+    "pyproject.toml": true,
+    "src/understanding_engine.egg-info/PKG-INFO": true,
+    "src/understanding_engine.egg-info/SOURCES.txt": true,
+    "src/understanding_engine.egg-info/dependency_links.txt": true,
+    "src/understanding_engine.egg-info/entry_points.txt": true,
+    "src/understanding_engine.egg-info/requires.txt": true,
+    "src/understanding_engine.egg-info/top_level.txt": true,
+    "src/understanding_engine/__init__.py": true,
+    "src/understanding_engine/__main__.py": true,
+    "src/understanding_engine/contracts.py": true,
+    "src/understanding_engine/output.py": true,
+    "src/understanding_engine/pdf_parser.py": true,
+    "src/understanding_engine/schemas/extraction.schema.json": true,
+    "src/understanding_engine/schemas/run.schema.json": true,
+    "uv.lock": true
+  },
+  "repeat_run_byte_identical_external_artifacts": {
+    "artifact_hashes.json": true,
+    "character_fingerprints.json": true,
+    "raw_results.json": true,
+    "results_by_sample.json": true,
+    "summary.json": true
+  },
+  "repository_commit_at_start": "3a903b29eda7942064aa73ce8f0ba4e7bbafe211",
+  "runtime_and_test_files_git_diff": ""
+}

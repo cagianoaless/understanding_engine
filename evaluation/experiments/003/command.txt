@@ -1,0 +1,2 @@
+cd /Users/alessandrocagiano/Documents/vibecoding/understanding_engine
+/Users/alessandrocagiano/Documents/vibecoding/understanding_engine/.venv/bin/python -B evaluation/experiments/003/run.py --pdf /private/tmp/understanding-engine-experiments/003/s41586-024-08328-6.pdf --output-dir /private/tmp/understanding-engine-experiments/003/run-001

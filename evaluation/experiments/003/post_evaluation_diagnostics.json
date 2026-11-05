@@ -1,0 +1,619 @@
+{
+  "status": "Agent post-evaluation observations only; not human-verified; no annotations changed or rescored",
+  "source_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+  "space_unit_total": 285,
+  "samples": [
+    {
+      "sample_id": "s01",
+      "page_number": 1,
+      "category": "section_heading",
+      "font_sizes": [
+        26.0
+      ],
+      "fonts": [
+        "Harding-Bold"
+      ],
+      "source_character_units": 42,
+      "literal_ascii_space_units": 7,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s02",
+      "page_number": 1,
+      "category": "body_text",
+      "font_sizes": [
+        9.0
+      ],
+      "fonts": [
+        "HardingText-Regular"
+      ],
+      "source_character_units": 75,
+      "literal_ascii_space_units": 10,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s03",
+      "page_number": 2,
+      "category": "figure_caption",
+      "font_sizes": [
+        7.0
+      ],
+      "fonts": [
+        "HardingText-Bold",
+        "HardingText-Regular"
+      ],
+      "source_character_units": 79,
+      "literal_ascii_space_units": 14,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s04",
+      "page_number": 3,
+      "category": "section_heading",
+      "font_sizes": [
+        9.75
+      ],
+      "fonts": [
+        "HardingText-Bold"
+      ],
+      "source_character_units": 35,
+      "literal_ascii_space_units": 4,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s05",
+      "page_number": 3,
+      "category": "body_text",
+      "font_sizes": [
+        8.25
+      ],
+      "fonts": [
+        "HardingText-Regular"
+      ],
+      "source_character_units": 67,
+      "literal_ascii_space_units": 9,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s06",
+      "page_number": 4,
+      "category": "figure_caption",
+      "font_sizes": [
+        7.0
+      ],
+      "fonts": [
+        "HardingText-Bold",
+        "HardingText-Regular"
+      ],
+      "source_character_units": 77,
+      "literal_ascii_space_units": 15,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s07",
+      "page_number": 6,
+      "category": "section_heading",
+      "font_sizes": [
+        9.75
+      ],
+      "fonts": [
+        "HardingText-Bold"
+      ],
+      "source_character_units": 38,
+      "literal_ascii_space_units": 3,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s08",
+      "page_number": 6,
+      "category": "body_text",
+      "font_sizes": [
+        8.25
+      ],
+      "fonts": [
+        "HardingText-Regular"
+      ],
+      "source_character_units": 18,
+      "literal_ascii_space_units": 2,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s09",
+      "page_number": 6,
+      "category": "mathematical_symbols",
+      "font_sizes": [
+        5.0
+      ],
+      "fonts": [
+        "HelveticaNeueLTStd-It",
+        "HelveticaNeueLTStd-Roman7"
+      ],
+      "source_character_units": 19,
+      "literal_ascii_space_units": 3,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s10",
+      "page_number": 11,
+      "category": "body_text",
+      "font_sizes": [
+        8.25
+      ],
+      "fonts": [
+        "HardingText-Regular"
+      ],
+      "source_character_units": 69,
+      "literal_ascii_space_units": 13,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s11",
+      "page_number": 7,
+      "category": "figure_caption",
+      "font_sizes": [
+        7.0
+      ],
+      "fonts": [
+        "HardingText-Bold",
+        "HardingText-Regular"
+      ],
+      "source_character_units": 76,
+      "literal_ascii_space_units": 13,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s12",
+      "page_number": 8,
+      "category": "references",
+      "font_sizes": [
+        6.0
+      ],
+      "fonts": [
+        "GraphikNaturel-Regular",
+        "GraphikNaturel-RegularItalic"
+      ],
+      "source_character_units": 91,
+      "literal_ascii_space_units": 15,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s13",
+      "page_number": 8,
+      "category": "references",
+      "font_sizes": [
+        6.0
+      ],
+      "fonts": [
+        "GraphikNaturel-Regular",
+        "GraphikNaturel-RegularItalic"
+      ],
+      "source_character_units": 62,
+      "literal_ascii_space_units": 9,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s14",
+      "page_number": 8,
+      "category": "references",
+      "font_sizes": [
+        6.0
+      ],
+      "fonts": [
+        "GraphikNaturel-Regular",
+        "GraphikNaturel-RegularItalic",
+        "GraphikNaturel-Semibold"
+      ],
+      "source_character_units": 62,
+      "literal_ascii_space_units": 9,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s15",
+      "page_number": 9,
+      "category": "section_heading",
+      "font_sizes": [
+        12.0
+      ],
+      "fonts": [
+        "HardingText-Bold"
+      ],
+      "source_character_units": 7,
+      "literal_ascii_space_units": 0,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s16",
+      "page_number": 9,
+      "category": "body_text",
+      "font_sizes": [
+        8.25
+      ],
+      "fonts": [
+        "HardingText-Regular"
+      ],
+      "source_character_units": 67,
+      "literal_ascii_space_units": 11,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s17",
+      "page_number": 10,
+      "category": "mathematical_symbols",
+      "font_sizes": [
+        8.25
+      ],
+      "fonts": [
+        "HardingText-Regular",
+        "HardingText-RegularItalic"
+      ],
+      "source_character_units": 72,
+      "literal_ascii_space_units": 11,
+      "other_whitespace_units": [
+        {
+          "text": " ",
+          "codepoints": [
+            "U+2009"
+          ]
+        },
+        {
+          "text": " ",
+          "codepoints": [
+            "U+2009"
+          ]
+        },
+        {
+          "text": " ",
+          "codepoints": [
+            "U+2009"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "s18",
+      "page_number": 10,
+      "category": "mathematical_symbols",
+      "font_sizes": [
+        8.25
+      ],
+      "fonts": [
+        "HardingText-Regular",
+        "HardingText-RegularItalic"
+      ],
+      "source_character_units": 72,
+      "literal_ascii_space_units": 11,
+      "other_whitespace_units": [
+        {
+          "text": " ",
+          "codepoints": [
+            "U+2009"
+          ]
+        },
+        {
+          "text": " ",
+          "codepoints": [
+            "U+2009"
+          ]
+        },
+        {
+          "text": " ",
+          "codepoints": [
+            "U+00A0"
+          ]
+        },
+        {
+          "text": " ",
+          "codepoints": [
+            "U+2009"
+          ]
+        },
+        {
+          "text": " ",
+          "codepoints": [
+            "U+2009"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "s19",
+      "page_number": 12,
+      "category": "mathematical_symbols",
+      "font_sizes": [
+        4.95,
+        8.25
+      ],
+      "fonts": [
+        "HardingText-Regular",
+        "HardingText-RegularItalic"
+      ],
+      "source_character_units": 68,
+      "literal_ascii_space_units": 11,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s20",
+      "page_number": 12,
+      "category": "section_heading",
+      "font_sizes": [
+        8.5
+      ],
+      "fonts": [
+        "HardingText-Semibold"
+      ],
+      "source_character_units": 28,
+      "literal_ascii_space_units": 2,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s21",
+      "page_number": 12,
+      "category": "body_text",
+      "font_sizes": [
+        8.25
+      ],
+      "fonts": [
+        "HardingText-Regular"
+      ],
+      "source_character_units": 30,
+      "literal_ascii_space_units": 3,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s22",
+      "page_number": 13,
+      "category": "references",
+      "font_sizes": [
+        6.0
+      ],
+      "fonts": [
+        "GraphikNaturel-Regular",
+        "GraphikNaturel-RegularItalic",
+        "GraphikNaturel-Semibold"
+      ],
+      "source_character_units": 78,
+      "literal_ascii_space_units": 12,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s23",
+      "page_number": 14,
+      "category": "figure_caption",
+      "font_sizes": [
+        7.0
+      ],
+      "fonts": [
+        "HardingText-Bold"
+      ],
+      "source_character_units": 72,
+      "literal_ascii_space_units": 10,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s24",
+      "page_number": 16,
+      "category": "figure_caption",
+      "font_sizes": [
+        7.0
+      ],
+      "fonts": [
+        "HardingText-Bold"
+      ],
+      "source_character_units": 70,
+      "literal_ascii_space_units": 10,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s25",
+      "page_number": 17,
+      "category": "figure_caption",
+      "font_sizes": [
+        7.0
+      ],
+      "fonts": [
+        "HardingText-Bold"
+      ],
+      "source_character_units": 69,
+      "literal_ascii_space_units": 11,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s26",
+      "page_number": 18,
+      "category": "table_caption",
+      "font_sizes": [
+        9.0
+      ],
+      "fonts": [
+        "GraphikNaturel-Semibold"
+      ],
+      "source_character_units": 91,
+      "literal_ascii_space_units": 13,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s27",
+      "page_number": 20,
+      "category": "table_caption",
+      "font_sizes": [
+        9.0
+      ],
+      "fonts": [
+        "GraphikNaturel-Semibold"
+      ],
+      "source_character_units": 97,
+      "literal_ascii_space_units": 15,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s28",
+      "page_number": 21,
+      "category": "table_caption",
+      "font_sizes": [
+        9.0
+      ],
+      "fonts": [
+        "GraphikNaturel-Semibold"
+      ],
+      "source_character_units": 93,
+      "literal_ascii_space_units": 15,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s29",
+      "page_number": 22,
+      "category": "table_caption",
+      "font_sizes": [
+        9.0
+      ],
+      "fonts": [
+        "GraphikNaturel-Semibold"
+      ],
+      "source_character_units": 93,
+      "literal_ascii_space_units": 14,
+      "other_whitespace_units": []
+    },
+    {
+      "sample_id": "s30",
+      "page_number": 23,
+      "category": "table_caption",
+      "font_sizes": [
+        9.0
+      ],
+      "fonts": [
+        "GraphikNaturel-Semibold"
+      ],
+      "source_character_units": 69,
+      "literal_ascii_space_units": 10,
+      "other_whitespace_units": []
+    }
+  ],
+  "glyph_encoding_evidence": [
+    {
+      "sample_id": "s19",
+      "text": "R",
+      "codepoints": [
+        "U+0052"
+      ],
+      "bbox": [
+        415.7406558728923,
+        468.776097168,
+        420.8088461955163,
+        477.026097168
+      ],
+      "font_size": 8.25
+    },
+    {
+      "sample_id": "s19",
+      "text": "2",
+      "codepoints": [
+        "U+0032"
+      ],
+      "bbox": [
+        420.78891,
+        467.665702238666,
+        423.4302386,
+        472.615702047666
+      ],
+      "font_size": 4.949999809000019
+    },
+    {
+      "sample_id": "s19",
+      "text": "R",
+      "codepoints": [
+        "U+0052"
+      ],
+      "bbox": [
+        472.3909681915845,
+        468.776097168,
+        477.64596681135646,
+        477.026097168
+      ],
+      "font_size": 8.25
+    },
+    {
+      "sample_id": "s17",
+      "text": "~",
+      "codepoints": [
+        "U+007E"
+      ],
+      "bbox": [
+        45.864251373,
+        264.52621923899994,
+        49.345751373,
+        272.77621923899994
+      ],
+      "font_size": 8.25
+    },
+    {
+      "sample_id": "s17",
+      "text": "Γ",
+      "codepoints": [
+        "U+0393"
+      ],
+      "bbox": [
+        50.839001373,
+        264.52621923899994,
+        55.021751373,
+        272.77621923899994
+      ],
+      "font_size": 8.25
+    },
+    {
+      "sample_id": "s17",
+      "text": "α",
+      "codepoints": [
+        "U+03B1"
+      ],
+      "bbox": [
+        58.057751373,
+        264.52621923899994,
+        62.991251373000004,
+        272.77621923899994
+      ],
+      "font_size": 8.25
+    },
+    {
+      "sample_id": "s17",
+      "text": "β",
+      "codepoints": [
+        "U+03B2"
+      ],
+      "bbox": [
+        66.753251373,
+        264.52621923899994,
+        71.530001373,
+        272.77621923899994
+      ],
+      "font_size": 8.25
+    },
+    {
+      "sample_id": "s17",
+      "text": "α",
+      "codepoints": [
+        "U+03B1"
+      ],
+      "bbox": [
+        102.739751373,
+        264.52621923899994,
+        107.673251373,
+        272.77621923899994
+      ],
+      "font_size": 8.25
+    },
+    {
+      "sample_id": "s17",
+      "text": "β",
+      "codepoints": [
+        "U+03B2"
+      ],
+      "bbox": [
+        124.63525137300002,
+        264.52621923899994,
+        129.412001373,
+        272.77621923899994
+      ],
+      "font_size": 8.25
+    }
+  ]
+}

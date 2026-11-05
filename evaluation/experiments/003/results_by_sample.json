@@ -1,0 +1,3104 @@
+[
+  {
+    "actual": "Accurate predictions on small data with a",
+    "bbox": [
+      39.3,
+      50.3,
+      524,
+      77.1
+    ],
+    "candidate": "absolute_3",
+    "category": "section_heading",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Accurate predictions on small data with a",
+    "expected_no_space_boundaries": 28,
+    "expected_spaces": 6,
+    "extra_spaces": 0,
+    "font_sizes": [
+      26.0
+    ],
+    "fonts": [
+      "Harding-Bold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 34,
+    "non_space_codepoints": 35,
+    "page_number": 1,
+    "sample_id": "s01",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Accurate predictions on small data with a",
+    "bbox": [
+      39.3,
+      50.3,
+      524,
+      77.1
+    ],
+    "candidate": "absolute_2",
+    "category": "section_heading",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Accurate predictions on small data with a",
+    "expected_no_space_boundaries": 28,
+    "expected_spaces": 6,
+    "extra_spaces": 0,
+    "font_sizes": [
+      26.0
+    ],
+    "fonts": [
+      "Harding-Bold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 34,
+    "non_space_codepoints": 35,
+    "page_number": 1,
+    "sample_id": "s01",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Accurate predictions on small data with a",
+    "bbox": [
+      39.3,
+      50.3,
+      524,
+      77.1
+    ],
+    "candidate": "relative_0.125",
+    "category": "section_heading",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Accurate predictions on small data with a",
+    "expected_no_space_boundaries": 28,
+    "expected_spaces": 6,
+    "extra_spaces": 0,
+    "font_sizes": [
+      26.0
+    ],
+    "fonts": [
+      "Harding-Bold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 34,
+    "non_space_codepoints": 35,
+    "page_number": 1,
+    "sample_id": "s01",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Network (TabPFN), a tabular foundation model that outperforms all previous",
+    "bbox": [
+      217,
+      292.3,
+      528.1,
+      302.1
+    ],
+    "candidate": "absolute_3",
+    "category": "body_text",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Network (TabPFN), a tabular foundation model that outperforms all previous",
+    "expected_no_space_boundaries": 55,
+    "expected_spaces": 9,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.0
+    ],
+    "fonts": [
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 64,
+    "non_space_codepoints": 65,
+    "page_number": 1,
+    "sample_id": "s02",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Network (TabPFN), a tabular foundation model that outperforms all previous",
+    "bbox": [
+      217,
+      292.3,
+      528.1,
+      302.1
+    ],
+    "candidate": "absolute_2",
+    "category": "body_text",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Network (TabPFN), a tabular foundation model that outperforms all previous",
+    "expected_no_space_boundaries": 55,
+    "expected_spaces": 9,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.0
+    ],
+    "fonts": [
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 64,
+    "non_space_codepoints": 65,
+    "page_number": 1,
+    "sample_id": "s02",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Network (TabPFN), a tabular foundation model that outperforms all previous",
+    "bbox": [
+      217,
+      292.3,
+      528.1,
+      302.1
+    ],
+    "candidate": "relative_0.125",
+    "category": "body_text",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Network (TabPFN), a tabular foundation model that outperforms all previous",
+    "expected_no_space_boundaries": 55,
+    "expected_spaces": 9,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.0
+    ],
+    "fonts": [
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 64,
+    "non_space_codepoints": 65,
+    "page_number": 1,
+    "sample_id": "s02",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Fig. 1 | Overview of the proposed method. a, The high-level overview of TabPFN",
+    "bbox": [
+      39.3,
+      337.1,
+      296.5,
+      344.9
+    ],
+    "candidate": "absolute_3",
+    "category": "figure_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Fig. 1 | Overview of the proposed method. a, The high-level overview of TabPFN",
+    "expected_no_space_boundaries": 51,
+    "expected_spaces": 13,
+    "extra_spaces": 0,
+    "font_sizes": [
+      7.0
+    ],
+    "fonts": [
+      "HardingText-Bold",
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 64,
+    "non_space_codepoints": 65,
+    "page_number": 2,
+    "sample_id": "s03",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Fig. 1 | Overview of the proposed method. a, The high-level overview of TabPFN",
+    "bbox": [
+      39.3,
+      337.1,
+      296.5,
+      344.9
+    ],
+    "candidate": "absolute_2",
+    "category": "figure_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Fig. 1 | Overview of the proposed method. a, The high-level overview of TabPFN",
+    "expected_no_space_boundaries": 51,
+    "expected_spaces": 13,
+    "extra_spaces": 0,
+    "font_sizes": [
+      7.0
+    ],
+    "fonts": [
+      "HardingText-Bold",
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 64,
+    "non_space_codepoints": 65,
+    "page_number": 2,
+    "sample_id": "s03",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Fig. 1 | Overview of the proposed method. a, The high-level overview of TabPFN",
+    "bbox": [
+      39.3,
+      337.1,
+      296.5,
+      344.9
+    ],
+    "candidate": "relative_0.125",
+    "category": "figure_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Fig. 1 | Overview of the proposed method. a, The high-level overview of TabPFN",
+    "expected_no_space_boundaries": 51,
+    "expected_spaces": 13,
+    "extra_spaces": 0,
+    "font_sizes": [
+      7.0
+    ],
+    "fonts": [
+      "HardingText-Bold",
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 64,
+    "non_space_codepoints": 65,
+    "page_number": 2,
+    "sample_id": "s03",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "An architecture designed for tables",
+    "bbox": [
+      39.3,
+      400.8,
+      204.3,
+      411.4
+    ],
+    "candidate": "absolute_3",
+    "category": "section_heading",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "An architecture designed for tables",
+    "expected_no_space_boundaries": 26,
+    "expected_spaces": 4,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.75
+    ],
+    "fonts": [
+      "HardingText-Bold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 30,
+    "non_space_codepoints": 31,
+    "page_number": 3,
+    "sample_id": "s04",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "An architecture designed for tables",
+    "bbox": [
+      39.3,
+      400.8,
+      204.3,
+      411.4
+    ],
+    "candidate": "absolute_2",
+    "category": "section_heading",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "An architecture designed for tables",
+    "expected_no_space_boundaries": 26,
+    "expected_spaces": 4,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.75
+    ],
+    "fonts": [
+      "HardingText-Bold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 30,
+    "non_space_codepoints": 31,
+    "page_number": 3,
+    "sample_id": "s04",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "An architecture designed for tables",
+    "bbox": [
+      39.3,
+      400.8,
+      204.3,
+      411.4
+    ],
+    "candidate": "relative_0.125",
+    "category": "section_heading",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "An architecture designed for tables",
+    "expected_no_space_boundaries": 26,
+    "expected_spaces": 4,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.75
+    ],
+    "fonts": [
+      "HardingText-Bold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 30,
+    "non_space_codepoints": 31,
+    "page_number": 3,
+    "sample_id": "s04",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "For regression tasks, we use a piece-wise constant output distribu-",
+    "bbox": [
+      314.3,
+      532.9,
+      561.7,
+      541.9
+    ],
+    "candidate": "absolute_3",
+    "category": "body_text",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "For regression, we use a piece-wise constant output distribu-",
+    "font_sizes": [
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular"
+    ],
+    "page_number": 3,
+    "reason": "Non-space code points differ; spacing score would hide another error",
+    "sample_id": "s05",
+    "scoreable": false,
+    "unexpected_whitespace": [],
+    "unicode_differences": [
+      {
+        "actual": "tasks",
+        "actual_codepoints": [
+          "U+0074",
+          "U+0061",
+          "U+0073",
+          "U+006B",
+          "U+0073"
+        ],
+        "actual_offsets": [
+          13,
+          18
+        ],
+        "expected": "",
+        "expected_codepoints": [],
+        "expected_offsets": [
+          13,
+          13
+        ],
+        "operation": "insert"
+      }
+    ],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "For regression tasks, we use a piece-wise constant output distribu-",
+    "bbox": [
+      314.3,
+      532.9,
+      561.7,
+      541.9
+    ],
+    "candidate": "absolute_2",
+    "category": "body_text",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "For regression, we use a piece-wise constant output distribu-",
+    "font_sizes": [
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular"
+    ],
+    "page_number": 3,
+    "reason": "Non-space code points differ; spacing score would hide another error",
+    "sample_id": "s05",
+    "scoreable": false,
+    "unexpected_whitespace": [],
+    "unicode_differences": [
+      {
+        "actual": "tasks",
+        "actual_codepoints": [
+          "U+0074",
+          "U+0061",
+          "U+0073",
+          "U+006B",
+          "U+0073"
+        ],
+        "actual_offsets": [
+          13,
+          18
+        ],
+        "expected": "",
+        "expected_codepoints": [],
+        "expected_offsets": [
+          13,
+          13
+        ],
+        "operation": "insert"
+      }
+    ],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "For regression tasks, we use a piece-wise constant output distribu-",
+    "bbox": [
+      314.3,
+      532.9,
+      561.7,
+      541.9
+    ],
+    "candidate": "relative_0.125",
+    "category": "body_text",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "For regression, we use a piece-wise constant output distribu-",
+    "font_sizes": [
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular"
+    ],
+    "page_number": 3,
+    "reason": "Non-space code points differ; spacing score would hide another error",
+    "sample_id": "s05",
+    "scoreable": false,
+    "unexpected_whitespace": [],
+    "unicode_differences": [
+      {
+        "actual": "tasks",
+        "actual_codepoints": [
+          "U+0074",
+          "U+0061",
+          "U+0073",
+          "U+006B",
+          "U+0073"
+        ],
+        "actual_offsets": [
+          13,
+          18
+        ],
+        "expected": "",
+        "expected_codepoints": [],
+        "expected_offsets": [
+          13,
+          13
+        ],
+        "operation": "insert"
+      }
+    ],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Fig. 3 | The behaviour of TabPFN and a set of baselines on simple functions.",
+    "bbox": [
+      39.3,
+      300.7,
+      292.4,
+      308.5
+    ],
+    "candidate": "absolute_3",
+    "category": "figure_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Fig. 3 | The behaviour of TabPFN and a set of baselines on simple functions.",
+    "expected_no_space_boundaries": 47,
+    "expected_spaces": 14,
+    "extra_spaces": 0,
+    "font_sizes": [
+      7.0
+    ],
+    "fonts": [
+      "HardingText-Bold",
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 61,
+    "non_space_codepoints": 62,
+    "page_number": 4,
+    "sample_id": "s06",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Fig. 3 | The behaviour of TabPFN and a set of baselines on simple functions.",
+    "bbox": [
+      39.3,
+      300.7,
+      292.4,
+      308.5
+    ],
+    "candidate": "absolute_2",
+    "category": "figure_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Fig. 3 | The behaviour of TabPFN and a set of baselines on simple functions.",
+    "expected_no_space_boundaries": 47,
+    "expected_spaces": 14,
+    "extra_spaces": 0,
+    "font_sizes": [
+      7.0
+    ],
+    "fonts": [
+      "HardingText-Bold",
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 61,
+    "non_space_codepoints": 62,
+    "page_number": 4,
+    "sample_id": "s06",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Fig. 3 | The behaviour of TabPFN and a set of baselines on simple functions.",
+    "bbox": [
+      39.3,
+      300.7,
+      292.4,
+      308.5
+    ],
+    "candidate": "relative_0.125",
+    "category": "figure_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Fig. 3 | The behaviour of TabPFN and a set of baselines on simple functions.",
+    "expected_no_space_boundaries": 47,
+    "expected_spaces": 14,
+    "extra_spaces": 0,
+    "font_sizes": [
+      7.0
+    ],
+    "fonts": [
+      "HardingText-Bold",
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 61,
+    "non_space_codepoints": 62,
+    "page_number": 4,
+    "sample_id": "s06",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Foundation model with interpretability",
+    "bbox": [
+      305.8,
+      551.3,
+      491.7,
+      561.9
+    ],
+    "candidate": "absolute_3",
+    "category": "section_heading",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Foundation model with interpretability",
+    "expected_no_space_boundaries": 31,
+    "expected_spaces": 3,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.75
+    ],
+    "fonts": [
+      "HardingText-Bold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 34,
+    "non_space_codepoints": 35,
+    "page_number": 6,
+    "sample_id": "s07",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Foundation model with interpretability",
+    "bbox": [
+      305.8,
+      551.3,
+      491.7,
+      561.9
+    ],
+    "candidate": "absolute_2",
+    "category": "section_heading",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Foundation model with interpretability",
+    "expected_no_space_boundaries": 31,
+    "expected_spaces": 3,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.75
+    ],
+    "fonts": [
+      "HardingText-Bold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 34,
+    "non_space_codepoints": 35,
+    "page_number": 6,
+    "sample_id": "s07",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Foundation model with interpretability",
+    "bbox": [
+      305.8,
+      551.3,
+      491.7,
+      561.9
+    ],
+    "candidate": "relative_0.125",
+    "category": "section_heading",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Foundation model with interpretability",
+    "expected_no_space_boundaries": 31,
+    "expected_spaces": 3,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.75
+    ],
+    "fonts": [
+      "HardingText-Bold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 34,
+    "non_space_codepoints": 35,
+    "page_number": 6,
+    "sample_id": "s07",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "using all samples.",
+    "bbox": [
+      39.3,
+      489.9,
+      105.8,
+      498.9
+    ],
+    "candidate": "absolute_3",
+    "category": "body_text",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "using all samples.",
+    "expected_no_space_boundaries": 13,
+    "expected_spaces": 2,
+    "extra_spaces": 0,
+    "font_sizes": [
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 15,
+    "non_space_codepoints": 16,
+    "page_number": 6,
+    "sample_id": "s08",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "using all samples.",
+    "bbox": [
+      39.3,
+      489.9,
+      105.8,
+      498.9
+    ],
+    "candidate": "absolute_2",
+    "category": "body_text",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "using all samples.",
+    "expected_no_space_boundaries": 13,
+    "expected_spaces": 2,
+    "extra_spaces": 0,
+    "font_sizes": [
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 15,
+    "non_space_codepoints": 16,
+    "page_number": 6,
+    "sample_id": "s08",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "using all samples.",
+    "bbox": [
+      39.3,
+      489.9,
+      105.8,
+      498.9
+    ],
+    "candidate": "relative_0.125",
+    "category": "body_text",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "using all samples.",
+    "expected_no_space_boundaries": 13,
+    "expected_spaces": 2,
+    "extra_spaces": 0,
+    "font_sizes": [
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 15,
+    "non_space_codepoints": 16,
+    "page_number": 6,
+    "sample_id": "s08",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Wilcoxon P = 0.0024",
+    "bbox": [
+      56.8,
+      216.4,
+      104,
+      222.2
+    ],
+    "candidate": "absolute_3",
+    "category": "mathematical_symbols",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Wilcoxon P = 0.0024",
+    "expected_no_space_boundaries": 12,
+    "expected_spaces": 3,
+    "extra_spaces": 0,
+    "font_sizes": [
+      5.0
+    ],
+    "fonts": [
+      "HelveticaNeueLTStd-It",
+      "HelveticaNeueLTStd-Roman7"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 15,
+    "non_space_codepoints": 16,
+    "page_number": 6,
+    "sample_id": "s09",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Wilcoxon P = 0.0024",
+    "bbox": [
+      56.8,
+      216.4,
+      104,
+      222.2
+    ],
+    "candidate": "absolute_2",
+    "category": "mathematical_symbols",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Wilcoxon P = 0.0024",
+    "expected_no_space_boundaries": 12,
+    "expected_spaces": 3,
+    "extra_spaces": 0,
+    "font_sizes": [
+      5.0
+    ],
+    "fonts": [
+      "HelveticaNeueLTStd-It",
+      "HelveticaNeueLTStd-Roman7"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 15,
+    "non_space_codepoints": 16,
+    "page_number": 6,
+    "sample_id": "s09",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Wilcoxon P = 0.0024",
+    "bbox": [
+      56.8,
+      216.4,
+      104,
+      222.2
+    ],
+    "candidate": "relative_0.125",
+    "category": "mathematical_symbols",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Wilcoxon P = 0.0024",
+    "expected_no_space_boundaries": 12,
+    "expected_spaces": 3,
+    "extra_spaces": 0,
+    "font_sizes": [
+      5.0
+    ],
+    "fonts": [
+      "HelveticaNeueLTStd-It",
+      "HelveticaNeueLTStd-Roman7"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 15,
+    "non_space_codepoints": 16,
+    "page_number": 6,
+    "sample_id": "s09",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "To get the most performance out of TabPFN, it is crucial to optimize",
+    "bbox": [
+      39.3,
+      70.6,
+      296.7,
+      79.7
+    ],
+    "candidate": "absolute_3",
+    "category": "body_text",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "To get the most performance out of TabPFN, it is crucial to optimize",
+    "expected_no_space_boundaries": 43,
+    "expected_spaces": 12,
+    "extra_spaces": 0,
+    "font_sizes": [
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 55,
+    "non_space_codepoints": 56,
+    "page_number": 11,
+    "sample_id": "s10",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "To get the most performance out of TabPFN, it is crucial to optimize",
+    "bbox": [
+      39.3,
+      70.6,
+      296.7,
+      79.7
+    ],
+    "candidate": "absolute_2",
+    "category": "body_text",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "To get the most performance out of TabPFN, it is crucial to optimize",
+    "expected_no_space_boundaries": 43,
+    "expected_spaces": 12,
+    "extra_spaces": 0,
+    "font_sizes": [
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 55,
+    "non_space_codepoints": 56,
+    "page_number": 11,
+    "sample_id": "s10",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "To get the most performance out of TabPFN, it is crucial to optimize",
+    "bbox": [
+      39.3,
+      70.6,
+      296.7,
+      79.7
+    ],
+    "candidate": "relative_0.125",
+    "category": "body_text",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "To get the most performance out of TabPFN, it is crucial to optimize",
+    "expected_no_space_boundaries": 43,
+    "expected_spaces": 12,
+    "extra_spaces": 0,
+    "font_sizes": [
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 55,
+    "non_space_codepoints": 56,
+    "page_number": 11,
+    "sample_id": "s10",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Fig. 6 | Showcase of the application of TabPFN as tabular foundation model.",
+    "bbox": [
+      39.3,
+      194.7,
+      295.9,
+      202.5
+    ],
+    "candidate": "absolute_3",
+    "category": "figure_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Fig. 6 | Showcase of the application of TabPFN as tabular foundation model.",
+    "expected_no_space_boundaries": 50,
+    "expected_spaces": 12,
+    "extra_spaces": 0,
+    "font_sizes": [
+      7.0
+    ],
+    "fonts": [
+      "HardingText-Bold",
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 62,
+    "non_space_codepoints": 63,
+    "page_number": 7,
+    "sample_id": "s11",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Fig. 6 | Showcase of the application of TabPFN as tabular foundation model.",
+    "bbox": [
+      39.3,
+      194.7,
+      295.9,
+      202.5
+    ],
+    "candidate": "absolute_2",
+    "category": "figure_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Fig. 6 | Showcase of the application of TabPFN as tabular foundation model.",
+    "expected_no_space_boundaries": 50,
+    "expected_spaces": 12,
+    "extra_spaces": 0,
+    "font_sizes": [
+      7.0
+    ],
+    "fonts": [
+      "HardingText-Bold",
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 62,
+    "non_space_codepoints": 63,
+    "page_number": 7,
+    "sample_id": "s11",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Fig. 6 | Showcase of the application of TabPFN as tabular foundation model.",
+    "bbox": [
+      39.3,
+      194.7,
+      295.9,
+      202.5
+    ],
+    "candidate": "relative_0.125",
+    "category": "figure_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Fig. 6 | Showcase of the application of TabPFN as tabular foundation model.",
+    "expected_no_space_boundaries": 50,
+    "expected_spaces": 12,
+    "extra_spaces": 0,
+    "font_sizes": [
+      7.0
+    ],
+    "fonts": [
+      "HardingText-Bold",
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 62,
+    "non_space_codepoints": 63,
+    "page_number": 7,
+    "sample_id": "s11",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "24. Kingma, D. & Ba, J. Adam: A method for stochastic optimization. In Proc. International",
+    "bbox": [
+      39.3,
+      155.6,
+      283.6,
+      162.4
+    ],
+    "candidate": "absolute_3",
+    "category": "references",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "24. Kingma, D. & Ba, J. Adam: a method for stochastic optimization. In Proc. International",
+    "font_sizes": [
+      6.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Regular",
+      "GraphikNaturel-RegularItalic"
+    ],
+    "page_number": 8,
+    "reason": "Non-space code points differ; spacing score would hide another error",
+    "sample_id": "s12",
+    "scoreable": false,
+    "unexpected_whitespace": [],
+    "unicode_differences": [
+      {
+        "actual": "A",
+        "actual_codepoints": [
+          "U+0041"
+        ],
+        "actual_offsets": [
+          23,
+          24
+        ],
+        "expected": "a",
+        "expected_codepoints": [
+          "U+0061"
+        ],
+        "expected_offsets": [
+          23,
+          24
+        ],
+        "operation": "replace"
+      }
+    ],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "24. Kingma, D. & Ba, J. Adam: A method for stochastic optimization. In Proc. International",
+    "bbox": [
+      39.3,
+      155.6,
+      283.6,
+      162.4
+    ],
+    "candidate": "absolute_2",
+    "category": "references",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "24. Kingma, D. & Ba, J. Adam: a method for stochastic optimization. In Proc. International",
+    "font_sizes": [
+      6.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Regular",
+      "GraphikNaturel-RegularItalic"
+    ],
+    "page_number": 8,
+    "reason": "Non-space code points differ; spacing score would hide another error",
+    "sample_id": "s12",
+    "scoreable": false,
+    "unexpected_whitespace": [],
+    "unicode_differences": [
+      {
+        "actual": "A",
+        "actual_codepoints": [
+          "U+0041"
+        ],
+        "actual_offsets": [
+          23,
+          24
+        ],
+        "expected": "a",
+        "expected_codepoints": [
+          "U+0061"
+        ],
+        "expected_offsets": [
+          23,
+          24
+        ],
+        "operation": "replace"
+      }
+    ],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "24. Kingma, D. & Ba, J. Adam: A method for stochastic optimization. In Proc. International",
+    "bbox": [
+      39.3,
+      155.6,
+      283.6,
+      162.4
+    ],
+    "candidate": "relative_0.125",
+    "category": "references",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "24. Kingma, D. & Ba, J. Adam: a method for stochastic optimization. In Proc. International",
+    "font_sizes": [
+      6.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Regular",
+      "GraphikNaturel-RegularItalic"
+    ],
+    "page_number": 8,
+    "reason": "Non-space code points differ; spacing score would hide another error",
+    "sample_id": "s12",
+    "scoreable": false,
+    "unexpected_whitespace": [],
+    "unicode_differences": [
+      {
+        "actual": "A",
+        "actual_codepoints": [
+          "U+0041"
+        ],
+        "actual_offsets": [
+          23,
+          24
+        ],
+        "expected": "a",
+        "expected_codepoints": [
+          "U+0061"
+        ],
+        "expected_offsets": [
+          23,
+          24
+        ],
+        "operation": "replace"
+      }
+    ],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "31. Pearl, J. Causality 2nd edn (Cambridge Univ. Press, 2009).",
+    "bbox": [
+      39.3,
+      311.4,
+      209.7,
+      318.3
+    ],
+    "candidate": "absolute_3",
+    "category": "references",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "31. Pearl, J. Causality 2nd edn (Cambridge Univ. Press, 2009).",
+    "expected_no_space_boundaries": 43,
+    "expected_spaces": 9,
+    "extra_spaces": 0,
+    "font_sizes": [
+      6.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Regular",
+      "GraphikNaturel-RegularItalic"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 52,
+    "non_space_codepoints": 53,
+    "page_number": 8,
+    "sample_id": "s13",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "31. Pearl, J. Causality 2nd edn (Cambridge Univ. Press, 2009).",
+    "bbox": [
+      39.3,
+      311.4,
+      209.7,
+      318.3
+    ],
+    "candidate": "absolute_2",
+    "category": "references",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "31. Pearl, J. Causality 2nd edn (Cambridge Univ. Press, 2009).",
+    "expected_no_space_boundaries": 43,
+    "expected_spaces": 9,
+    "extra_spaces": 0,
+    "font_sizes": [
+      6.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Regular",
+      "GraphikNaturel-RegularItalic"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 52,
+    "non_space_codepoints": 53,
+    "page_number": 8,
+    "sample_id": "s13",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "31. Pearl, J. Causality 2nd edn (Cambridge Univ. Press, 2009).",
+    "bbox": [
+      39.3,
+      311.4,
+      209.7,
+      318.3
+    ],
+    "candidate": "relative_0.125",
+    "category": "references",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "31. Pearl, J. Causality 2nd edn (Cambridge Univ. Press, 2009).",
+    "expected_no_space_boundaries": 43,
+    "expected_spaces": 9,
+    "extra_spaces": 0,
+    "font_sizes": [
+      6.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Regular",
+      "GraphikNaturel-RegularItalic"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 52,
+    "non_space_codepoints": 53,
+    "page_number": 8,
+    "sample_id": "s13",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "38. Breimann, L. Random forests. Mach. Learn. 45, 5–32 (2001).",
+    "bbox": [
+      39.3,
+      409.9,
+      214.1,
+      416.7
+    ],
+    "candidate": "absolute_3",
+    "category": "references",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "38. Breiman, L. Random forests. Mach. Learn. 45, 5–32 (2001).",
+    "font_sizes": [
+      6.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Regular",
+      "GraphikNaturel-RegularItalic",
+      "GraphikNaturel-Semibold"
+    ],
+    "page_number": 8,
+    "reason": "Non-space code points differ; spacing score would hide another error",
+    "sample_id": "s14",
+    "scoreable": false,
+    "unexpected_whitespace": [],
+    "unicode_differences": [
+      {
+        "actual": "n",
+        "actual_codepoints": [
+          "U+006E"
+        ],
+        "actual_offsets": [
+          9,
+          10
+        ],
+        "expected": "",
+        "expected_codepoints": [],
+        "expected_offsets": [
+          9,
+          9
+        ],
+        "operation": "insert"
+      }
+    ],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "38. Breimann, L. Random forests. Mach. Learn. 45, 5–32 (2001).",
+    "bbox": [
+      39.3,
+      409.9,
+      214.1,
+      416.7
+    ],
+    "candidate": "absolute_2",
+    "category": "references",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "38. Breiman, L. Random forests. Mach. Learn. 45, 5–32 (2001).",
+    "font_sizes": [
+      6.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Regular",
+      "GraphikNaturel-RegularItalic",
+      "GraphikNaturel-Semibold"
+    ],
+    "page_number": 8,
+    "reason": "Non-space code points differ; spacing score would hide another error",
+    "sample_id": "s14",
+    "scoreable": false,
+    "unexpected_whitespace": [],
+    "unicode_differences": [
+      {
+        "actual": "n",
+        "actual_codepoints": [
+          "U+006E"
+        ],
+        "actual_offsets": [
+          9,
+          10
+        ],
+        "expected": "",
+        "expected_codepoints": [],
+        "expected_offsets": [
+          9,
+          9
+        ],
+        "operation": "insert"
+      }
+    ],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "38. Breimann, L. Random forests. Mach. Learn. 45, 5–32 (2001).",
+    "bbox": [
+      39.3,
+      409.9,
+      214.1,
+      416.7
+    ],
+    "candidate": "relative_0.125",
+    "category": "references",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "38. Breiman, L. Random forests. Mach. Learn. 45, 5–32 (2001).",
+    "font_sizes": [
+      6.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Regular",
+      "GraphikNaturel-RegularItalic",
+      "GraphikNaturel-Semibold"
+    ],
+    "page_number": 8,
+    "reason": "Non-space code points differ; spacing score would hide another error",
+    "sample_id": "s14",
+    "scoreable": false,
+    "unexpected_whitespace": [],
+    "unicode_differences": [
+      {
+        "actual": "n",
+        "actual_codepoints": [
+          "U+006E"
+        ],
+        "actual_offsets": [
+          9,
+          10
+        ],
+        "expected": "",
+        "expected_codepoints": [],
+        "expected_offsets": [
+          9,
+          9
+        ],
+        "operation": "insert"
+      }
+    ],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Methods",
+    "bbox": [
+      39.3,
+      47.4,
+      91.5,
+      60.2
+    ],
+    "candidate": "absolute_3",
+    "category": "section_heading",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Methods",
+    "expected_no_space_boundaries": 6,
+    "expected_spaces": 0,
+    "extra_spaces": 0,
+    "font_sizes": [
+      12.0
+    ],
+    "fonts": [
+      "HardingText-Bold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 6,
+    "non_space_codepoints": 7,
+    "page_number": 9,
+    "sample_id": "s15",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Methods",
+    "bbox": [
+      39.3,
+      47.4,
+      91.5,
+      60.2
+    ],
+    "candidate": "absolute_2",
+    "category": "section_heading",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Methods",
+    "expected_no_space_boundaries": 6,
+    "expected_spaces": 0,
+    "extra_spaces": 0,
+    "font_sizes": [
+      12.0
+    ],
+    "fonts": [
+      "HardingText-Bold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 6,
+    "non_space_codepoints": 7,
+    "page_number": 9,
+    "sample_id": "s15",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Methods",
+    "bbox": [
+      39.3,
+      47.4,
+      91.5,
+      60.2
+    ],
+    "candidate": "relative_0.125",
+    "category": "section_heading",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Methods",
+    "expected_no_space_boundaries": 6,
+    "expected_spaces": 0,
+    "extra_spaces": 0,
+    "font_sizes": [
+      12.0
+    ],
+    "fonts": [
+      "HardingText-Bold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 6,
+    "non_space_codepoints": 7,
+    "page_number": 9,
+    "sample_id": "s15",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "ally efficient and can run on consumer hardware for most datasets.",
+    "bbox": [
+      39.3,
+      350.1,
+      296.8,
+      359.2
+    ],
+    "candidate": "absolute_3",
+    "category": "body_text",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "ally efficient and can run on consumer hardware for most datasets.",
+    "expected_no_space_boundaries": 45,
+    "expected_spaces": 10,
+    "extra_spaces": 0,
+    "font_sizes": [
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 55,
+    "non_space_codepoints": 56,
+    "page_number": 9,
+    "sample_id": "s16",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "ally efficient and can run on consumer hardware for most datasets.",
+    "bbox": [
+      39.3,
+      350.1,
+      296.8,
+      359.2
+    ],
+    "candidate": "absolute_2",
+    "category": "body_text",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "ally efficient and can run on consumer hardware for most datasets.",
+    "expected_no_space_boundaries": 45,
+    "expected_spaces": 10,
+    "extra_spaces": 0,
+    "font_sizes": [
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 55,
+    "non_space_codepoints": 56,
+    "page_number": 9,
+    "sample_id": "s16",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "ally efficient and can run on consumer hardware for most datasets.",
+    "bbox": [
+      39.3,
+      350.1,
+      296.8,
+      359.2
+    ],
+    "candidate": "relative_0.125",
+    "category": "body_text",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "ally efficient and can run on consumer hardware for most datasets.",
+    "expected_no_space_boundaries": 45,
+    "expected_spaces": 10,
+    "extra_spaces": 0,
+    "font_sizes": [
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 55,
+    "non_space_codepoints": 56,
+    "page_number": 9,
+    "sample_id": "s16",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "P ~ Γ(α, β), where α and β are shape and rate parameters, respectively.",
+    "bbox": [
+      39.3,
+      264.0,
+      296.7,
+      273.3
+    ],
+    "candidate": "absolute_3",
+    "category": "mathematical_symbols",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "P ∼ Γ(α,β), where α and β are shape and rate parameters, respectively.",
+    "font_sizes": [
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular",
+      "HardingText-RegularItalic"
+    ],
+    "page_number": 10,
+    "reason": "Non-space code points differ; spacing score would hide another error",
+    "sample_id": "s17",
+    "scoreable": false,
+    "unexpected_whitespace": [],
+    "unicode_differences": [
+      {
+        "actual": "~",
+        "actual_codepoints": [
+          "U+007E"
+        ],
+        "actual_offsets": [
+          1,
+          2
+        ],
+        "expected": "∼",
+        "expected_codepoints": [
+          "U+223C"
+        ],
+        "expected_offsets": [
+          1,
+          2
+        ],
+        "operation": "replace"
+      }
+    ],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "P ~ Γ(α, β), where α and β are shape and rate parameters, respectively.",
+    "bbox": [
+      39.3,
+      264.0,
+      296.7,
+      273.3
+    ],
+    "candidate": "absolute_2",
+    "category": "mathematical_symbols",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "P ∼ Γ(α,β), where α and β are shape and rate parameters, respectively.",
+    "font_sizes": [
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular",
+      "HardingText-RegularItalic"
+    ],
+    "page_number": 10,
+    "reason": "Non-space code points differ; spacing score would hide another error",
+    "sample_id": "s17",
+    "scoreable": false,
+    "unexpected_whitespace": [],
+    "unicode_differences": [
+      {
+        "actual": "~",
+        "actual_codepoints": [
+          "U+007E"
+        ],
+        "actual_offsets": [
+          1,
+          2
+        ],
+        "expected": "∼",
+        "expected_codepoints": [
+          "U+223C"
+        ],
+        "expected_offsets": [
+          1,
+          2
+        ],
+        "operation": "replace"
+      }
+    ],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "P ~ Γ(α, β), where α and β are shape and rate parameters, respectively.",
+    "bbox": [
+      39.3,
+      264.0,
+      296.7,
+      273.3
+    ],
+    "candidate": "relative_0.125",
+    "category": "mathematical_symbols",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "P ∼ Γ(α,β), where α and β are shape and rate parameters, respectively.",
+    "font_sizes": [
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular",
+      "HardingText-RegularItalic"
+    ],
+    "page_number": 10,
+    "reason": "Non-space code points differ; spacing score would hide another error",
+    "sample_id": "s17",
+    "scoreable": false,
+    "unexpected_whitespace": [],
+    "unicode_differences": [
+      {
+        "actual": "~",
+        "actual_codepoints": [
+          "U+007E"
+        ],
+        "actual_offsets": [
+          1,
+          2
+        ],
+        "expected": "∼",
+        "expected_codepoints": [
+          "U+223C"
+        ],
+        "expected_offsets": [
+          1,
+          2
+        ],
+        "operation": "replace"
+      }
+    ],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "(k = 0.95, b = 8.0) that we linearly scale to the range 1–160. To avoid",
+    "bbox": [
+      305.8,
+      640.3,
+      563.3,
+      649.5
+    ],
+    "candidate": "absolute_3",
+    "category": "mathematical_symbols",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "(k = 0.95, b = 8.0) that we linearly scale to the range 1–160. To avoid",
+    "expected_no_space_boundaries": 40,
+    "expected_spaces": 15,
+    "extra_spaces": 0,
+    "font_sizes": [
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular",
+      "HardingText-RegularItalic"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 55,
+    "non_space_codepoints": 56,
+    "page_number": 10,
+    "sample_id": "s18",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "(k = 0.95, b = 8.0) that we linearly scale to the range 1–160. To avoid",
+    "bbox": [
+      305.8,
+      640.3,
+      563.3,
+      649.5
+    ],
+    "candidate": "absolute_2",
+    "category": "mathematical_symbols",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "(k = 0.95, b = 8.0) that we linearly scale to the range 1–160. To avoid",
+    "expected_no_space_boundaries": 40,
+    "expected_spaces": 15,
+    "extra_spaces": 0,
+    "font_sizes": [
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular",
+      "HardingText-RegularItalic"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 55,
+    "non_space_codepoints": 56,
+    "page_number": 10,
+    "sample_id": "s18",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "(k = 0.95, b = 8.0) that we linearly scale to the range 1–160. To avoid",
+    "bbox": [
+      305.8,
+      640.3,
+      563.3,
+      649.5
+    ],
+    "candidate": "relative_0.125",
+    "category": "mathematical_symbols",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "(k = 0.95, b = 8.0) that we linearly scale to the range 1–160. To avoid",
+    "expected_no_space_boundaries": 40,
+    "expected_spaces": 15,
+    "extra_spaces": 0,
+    "font_sizes": [
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular",
+      "HardingText-RegularItalic"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 55,
+    "non_space_codepoints": 56,
+    "page_number": 10,
+    "sample_id": "s18",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "For regression tasks, we use R2 and negative RMSE as evaluation met-",
+    "bbox": [
+      314.3,
+      467.3,
+      561.8,
+      477.5
+    ],
+    "candidate": "absolute_3",
+    "category": "mathematical_symbols",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "For regression tasks, we use R² and negative RMSE as evaluation met-",
+    "font_sizes": [
+      4.95,
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular",
+      "HardingText-RegularItalic"
+    ],
+    "page_number": 12,
+    "reason": "Non-space code points differ; spacing score would hide another error",
+    "sample_id": "s19",
+    "scoreable": false,
+    "unexpected_whitespace": [],
+    "unicode_differences": [
+      {
+        "actual": "2",
+        "actual_codepoints": [
+          "U+0032"
+        ],
+        "actual_offsets": [
+          25,
+          26
+        ],
+        "expected": "²",
+        "expected_codepoints": [
+          "U+00B2"
+        ],
+        "expected_offsets": [
+          25,
+          26
+        ],
+        "operation": "replace"
+      }
+    ],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "For regression tasks, we use R2 and negative RMSE as evaluation met-",
+    "bbox": [
+      314.3,
+      467.3,
+      561.8,
+      477.5
+    ],
+    "candidate": "absolute_2",
+    "category": "mathematical_symbols",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "For regression tasks, we use R² and negative RMSE as evaluation met-",
+    "font_sizes": [
+      4.95,
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular",
+      "HardingText-RegularItalic"
+    ],
+    "page_number": 12,
+    "reason": "Non-space code points differ; spacing score would hide another error",
+    "sample_id": "s19",
+    "scoreable": false,
+    "unexpected_whitespace": [],
+    "unicode_differences": [
+      {
+        "actual": "2",
+        "actual_codepoints": [
+          "U+0032"
+        ],
+        "actual_offsets": [
+          25,
+          26
+        ],
+        "expected": "²",
+        "expected_codepoints": [
+          "U+00B2"
+        ],
+        "expected_offsets": [
+          25,
+          26
+        ],
+        "operation": "replace"
+      }
+    ],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "For regression tasks, we use R2 and negative RMSE as evaluation met-",
+    "bbox": [
+      314.3,
+      467.3,
+      561.8,
+      477.5
+    ],
+    "candidate": "relative_0.125",
+    "category": "mathematical_symbols",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "For regression tasks, we use R² and negative RMSE as evaluation met-",
+    "font_sizes": [
+      4.95,
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular",
+      "HardingText-RegularItalic"
+    ],
+    "page_number": 12,
+    "reason": "Non-space code points differ; spacing score would hide another error",
+    "sample_id": "s19",
+    "scoreable": false,
+    "unexpected_whitespace": [],
+    "unicode_differences": [
+      {
+        "actual": "2",
+        "actual_codepoints": [
+          "U+0032"
+        ],
+        "actual_offsets": [
+          25,
+          26
+        ],
+        "expected": "²",
+        "expected_codepoints": [
+          "U+00B2"
+        ],
+        "expected_offsets": [
+          25,
+          26
+        ],
+        "operation": "replace"
+      }
+    ],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Detailed evaluation protocol",
+    "bbox": [
+      39.3,
+      359.7,
+      155.6,
+      369.0
+    ],
+    "candidate": "absolute_3",
+    "category": "section_heading",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Detailed evaluation protocol",
+    "expected_no_space_boundaries": 23,
+    "expected_spaces": 2,
+    "extra_spaces": 0,
+    "font_sizes": [
+      8.5
+    ],
+    "fonts": [
+      "HardingText-Semibold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 25,
+    "non_space_codepoints": 26,
+    "page_number": 12,
+    "sample_id": "s20",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Detailed evaluation protocol",
+    "bbox": [
+      39.3,
+      359.7,
+      155.6,
+      369.0
+    ],
+    "candidate": "absolute_2",
+    "category": "section_heading",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Detailed evaluation protocol",
+    "expected_no_space_boundaries": 23,
+    "expected_spaces": 2,
+    "extra_spaces": 0,
+    "font_sizes": [
+      8.5
+    ],
+    "fonts": [
+      "HardingText-Semibold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 25,
+    "non_space_codepoints": 26,
+    "page_number": 12,
+    "sample_id": "s20",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Detailed evaluation protocol",
+    "bbox": [
+      39.3,
+      359.7,
+      155.6,
+      369.0
+    ],
+    "candidate": "relative_0.125",
+    "category": "section_heading",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Detailed evaluation protocol",
+    "expected_no_space_boundaries": 23,
+    "expected_spaces": 2,
+    "extra_spaces": 0,
+    "font_sizes": [
+      8.5
+    ],
+    "fonts": [
+      "HardingText-Semibold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 25,
+    "non_space_codepoints": 26,
+    "page_number": 12,
+    "sample_id": "s20",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "under a standardized protocol.",
+    "bbox": [
+      39.3,
+      403.9,
+      156.1,
+      412.9
+    ],
+    "candidate": "absolute_3",
+    "category": "body_text",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "under a standardized protocol.",
+    "expected_no_space_boundaries": 23,
+    "expected_spaces": 3,
+    "extra_spaces": 0,
+    "font_sizes": [
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 26,
+    "non_space_codepoints": 27,
+    "page_number": 12,
+    "sample_id": "s21",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "under a standardized protocol.",
+    "bbox": [
+      39.3,
+      403.9,
+      156.1,
+      412.9
+    ],
+    "candidate": "absolute_2",
+    "category": "body_text",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "under a standardized protocol.",
+    "expected_no_space_boundaries": 23,
+    "expected_spaces": 3,
+    "extra_spaces": 0,
+    "font_sizes": [
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 26,
+    "non_space_codepoints": 27,
+    "page_number": 12,
+    "sample_id": "s21",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "under a standardized protocol.",
+    "bbox": [
+      39.3,
+      403.9,
+      156.1,
+      412.9
+    ],
+    "candidate": "relative_0.125",
+    "category": "body_text",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "under a standardized protocol.",
+    "expected_no_space_boundaries": 23,
+    "expected_spaces": 3,
+    "extra_spaces": 0,
+    "font_sizes": [
+      8.25
+    ],
+    "fonts": [
+      "HardingText-Regular"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 26,
+    "non_space_codepoints": 27,
+    "page_number": 12,
+    "sample_id": "s21",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "60. Quinlan, J. R. Induction of decision trees. Mach. Learn. 1, 81–106 (1986).",
+    "bbox": [
+      39.3,
+      455.8,
+      244.4,
+      462.7
+    ],
+    "candidate": "absolute_3",
+    "category": "references",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "60. Quinlan, J. R. Induction of decision trees. Mach. Learn. 1, 81–106 (1986).",
+    "expected_no_space_boundaries": 53,
+    "expected_spaces": 12,
+    "extra_spaces": 0,
+    "font_sizes": [
+      6.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Regular",
+      "GraphikNaturel-RegularItalic",
+      "GraphikNaturel-Semibold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 65,
+    "non_space_codepoints": 66,
+    "page_number": 13,
+    "sample_id": "s22",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "60. Quinlan, J. R. Induction of decision trees. Mach. Learn. 1, 81–106 (1986).",
+    "bbox": [
+      39.3,
+      455.8,
+      244.4,
+      462.7
+    ],
+    "candidate": "absolute_2",
+    "category": "references",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "60. Quinlan, J. R. Induction of decision trees. Mach. Learn. 1, 81–106 (1986).",
+    "expected_no_space_boundaries": 53,
+    "expected_spaces": 12,
+    "extra_spaces": 0,
+    "font_sizes": [
+      6.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Regular",
+      "GraphikNaturel-RegularItalic",
+      "GraphikNaturel-Semibold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 65,
+    "non_space_codepoints": 66,
+    "page_number": 13,
+    "sample_id": "s22",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "60. Quinlan, J. R. Induction of decision trees. Mach. Learn. 1, 81–106 (1986).",
+    "bbox": [
+      39.3,
+      455.8,
+      244.4,
+      462.7
+    ],
+    "candidate": "relative_0.125",
+    "category": "references",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "60. Quinlan, J. R. Induction of decision trees. Mach. Learn. 1, 81–106 (1986).",
+    "expected_no_space_boundaries": 53,
+    "expected_spaces": 12,
+    "extra_spaces": 0,
+    "font_sizes": [
+      6.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Regular",
+      "GraphikNaturel-RegularItalic",
+      "GraphikNaturel-Semibold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 65,
+    "non_space_codepoints": 66,
+    "page_number": 13,
+    "sample_id": "s22",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Fig. 1 | Performance comparison across additional dataset",
+    "bbox": [
+      39.3,
+      211.4,
+      290.2,
+      219.2
+    ],
+    "candidate": "absolute_3",
+    "category": "figure_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Fig. 1 | Performance comparison across additional dataset",
+    "expected_no_space_boundaries": 52,
+    "expected_spaces": 9,
+    "extra_spaces": 0,
+    "font_sizes": [
+      7.0
+    ],
+    "fonts": [
+      "HardingText-Bold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 61,
+    "non_space_codepoints": 62,
+    "page_number": 14,
+    "sample_id": "s23",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Fig. 1 | Performance comparison across additional dataset",
+    "bbox": [
+      39.3,
+      211.4,
+      290.2,
+      219.2
+    ],
+    "candidate": "absolute_2",
+    "category": "figure_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Fig. 1 | Performance comparison across additional dataset",
+    "expected_no_space_boundaries": 52,
+    "expected_spaces": 9,
+    "extra_spaces": 0,
+    "font_sizes": [
+      7.0
+    ],
+    "fonts": [
+      "HardingText-Bold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 61,
+    "non_space_codepoints": 62,
+    "page_number": 14,
+    "sample_id": "s23",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Fig. 1 | Performance comparison across additional dataset",
+    "bbox": [
+      39.3,
+      211.4,
+      290.2,
+      219.2
+    ],
+    "candidate": "relative_0.125",
+    "category": "figure_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Fig. 1 | Performance comparison across additional dataset",
+    "expected_no_space_boundaries": 52,
+    "expected_spaces": 9,
+    "extra_spaces": 0,
+    "font_sizes": [
+      7.0
+    ],
+    "fonts": [
+      "HardingText-Bold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 61,
+    "non_space_codepoints": 62,
+    "page_number": 14,
+    "sample_id": "s23",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Fig. 3 | Comparing SHAP (SHapley Additive exPlanations)",
+    "bbox": [
+      39.3,
+      285.7,
+      286.1,
+      293.5
+    ],
+    "candidate": "absolute_3",
+    "category": "figure_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Fig. 3 | Comparing SHAP (Shapley Additive exPlanations)",
+    "font_sizes": [
+      7.0
+    ],
+    "fonts": [
+      "HardingText-Bold"
+    ],
+    "page_number": 16,
+    "reason": "Non-space code points differ; spacing score would hide another error",
+    "sample_id": "s24",
+    "scoreable": false,
+    "unexpected_whitespace": [],
+    "unicode_differences": [
+      {
+        "actual": "H",
+        "actual_codepoints": [
+          "U+0048"
+        ],
+        "actual_offsets": [
+          33,
+          34
+        ],
+        "expected": "h",
+        "expected_codepoints": [
+          "U+0068"
+        ],
+        "expected_offsets": [
+          33,
+          34
+        ],
+        "operation": "replace"
+      }
+    ],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Fig. 3 | Comparing SHAP (SHapley Additive exPlanations)",
+    "bbox": [
+      39.3,
+      285.7,
+      286.1,
+      293.5
+    ],
+    "candidate": "absolute_2",
+    "category": "figure_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Fig. 3 | Comparing SHAP (Shapley Additive exPlanations)",
+    "font_sizes": [
+      7.0
+    ],
+    "fonts": [
+      "HardingText-Bold"
+    ],
+    "page_number": 16,
+    "reason": "Non-space code points differ; spacing score would hide another error",
+    "sample_id": "s24",
+    "scoreable": false,
+    "unexpected_whitespace": [],
+    "unicode_differences": [
+      {
+        "actual": "H",
+        "actual_codepoints": [
+          "U+0048"
+        ],
+        "actual_offsets": [
+          33,
+          34
+        ],
+        "expected": "h",
+        "expected_codepoints": [
+          "U+0068"
+        ],
+        "expected_offsets": [
+          33,
+          34
+        ],
+        "operation": "replace"
+      }
+    ],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Fig. 3 | Comparing SHAP (SHapley Additive exPlanations)",
+    "bbox": [
+      39.3,
+      285.7,
+      286.1,
+      293.5
+    ],
+    "candidate": "relative_0.125",
+    "category": "figure_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Fig. 3 | Comparing SHAP (Shapley Additive exPlanations)",
+    "font_sizes": [
+      7.0
+    ],
+    "fonts": [
+      "HardingText-Bold"
+    ],
+    "page_number": 16,
+    "reason": "Non-space code points differ; spacing score would hide another error",
+    "sample_id": "s24",
+    "scoreable": false,
+    "unexpected_whitespace": [],
+    "unicode_differences": [
+      {
+        "actual": "H",
+        "actual_codepoints": [
+          "U+0048"
+        ],
+        "actual_offsets": [
+          33,
+          34
+        ],
+        "expected": "h",
+        "expected_codepoints": [
+          "U+0068"
+        ],
+        "expected_offsets": [
+          33,
+          34
+        ],
+        "operation": "replace"
+      }
+    ],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Fig. 4 | Finetuning TabPFN on 2-dimensional sine curve",
+    "bbox": [
+      39.3,
+      297.3,
+      277.9,
+      305.1
+    ],
+    "candidate": "absolute_3",
+    "category": "figure_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Fig. 4 | Finetuning TabPFN on 2-dimensional sine curve",
+    "expected_no_space_boundaries": 47,
+    "expected_spaces": 10,
+    "extra_spaces": 0,
+    "font_sizes": [
+      7.0
+    ],
+    "fonts": [
+      "HardingText-Bold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 57,
+    "non_space_codepoints": 58,
+    "page_number": 17,
+    "sample_id": "s25",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Fig. 4 | Finetuning TabPFN on 2-dimensional sine curve",
+    "bbox": [
+      39.3,
+      297.3,
+      277.9,
+      305.1
+    ],
+    "candidate": "absolute_2",
+    "category": "figure_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Fig. 4 | Finetuning TabPFN on 2-dimensional sine curve",
+    "expected_no_space_boundaries": 47,
+    "expected_spaces": 10,
+    "extra_spaces": 0,
+    "font_sizes": [
+      7.0
+    ],
+    "fonts": [
+      "HardingText-Bold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 57,
+    "non_space_codepoints": 58,
+    "page_number": 17,
+    "sample_id": "s25",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Fig. 4 | Finetuning TabPFN on 2-dimensional sine curve",
+    "bbox": [
+      39.3,
+      297.3,
+      277.9,
+      305.1
+    ],
+    "candidate": "relative_0.125",
+    "category": "figure_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Fig. 4 | Finetuning TabPFN on 2-dimensional sine curve",
+    "expected_no_space_boundaries": 47,
+    "expected_spaces": 10,
+    "extra_spaces": 0,
+    "font_sizes": [
+      7.0
+    ],
+    "fonts": [
+      "HardingText-Bold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 57,
+    "non_space_codepoints": 58,
+    "page_number": 17,
+    "sample_id": "s25",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Table 1 | Aggregated results on the 29 AMLB classification Benchmark datasets",
+    "bbox": [
+      39.3,
+      49.2,
+      434.3,
+      59.0
+    ],
+    "candidate": "absolute_3",
+    "category": "table_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Table 1 | Aggregated results on the 29 AMLB classification Benchmark datasets",
+    "expected_no_space_boundaries": 64,
+    "expected_spaces": 13,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Semibold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 77,
+    "non_space_codepoints": 78,
+    "page_number": 18,
+    "sample_id": "s26",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Table 1 | Aggregated results on the 29 AMLB classification Benchmark datasets",
+    "bbox": [
+      39.3,
+      49.2,
+      434.3,
+      59.0
+    ],
+    "candidate": "absolute_2",
+    "category": "table_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Table 1 | Aggregated results on the 29 AMLB classification Benchmark datasets",
+    "expected_no_space_boundaries": 64,
+    "expected_spaces": 13,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Semibold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 77,
+    "non_space_codepoints": 78,
+    "page_number": 18,
+    "sample_id": "s26",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Table 1 | Aggregated results on the 29 AMLB classification Benchmark datasets",
+    "bbox": [
+      39.3,
+      49.2,
+      434.3,
+      59.0
+    ],
+    "candidate": "relative_0.125",
+    "category": "table_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Table 1 | Aggregated results on the 29 AMLB classification Benchmark datasets",
+    "expected_no_space_boundaries": 64,
+    "expected_spaces": 13,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Semibold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 77,
+    "non_space_codepoints": 78,
+    "page_number": 18,
+    "sample_id": "s26",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Table 3 | List of test datasets used for primary evaluation of classification tasks",
+    "bbox": [
+      39.3,
+      49.2,
+      431.2,
+      59.0
+    ],
+    "candidate": "absolute_3",
+    "category": "table_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Table 3 | List of test datasets used for primary evaluation of classification tasks",
+    "expected_no_space_boundaries": 66,
+    "expected_spaces": 15,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Semibold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 81,
+    "non_space_codepoints": 82,
+    "page_number": 20,
+    "sample_id": "s27",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Table 3 | List of test datasets used for primary evaluation of classification tasks",
+    "bbox": [
+      39.3,
+      49.2,
+      431.2,
+      59.0
+    ],
+    "candidate": "absolute_2",
+    "category": "table_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Table 3 | List of test datasets used for primary evaluation of classification tasks",
+    "expected_no_space_boundaries": 66,
+    "expected_spaces": 15,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Semibold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 81,
+    "non_space_codepoints": 82,
+    "page_number": 20,
+    "sample_id": "s27",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Table 3 | List of test datasets used for primary evaluation of classification tasks",
+    "bbox": [
+      39.3,
+      49.2,
+      431.2,
+      59.0
+    ],
+    "candidate": "relative_0.125",
+    "category": "table_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Table 3 | List of test datasets used for primary evaluation of classification tasks",
+    "expected_no_space_boundaries": 66,
+    "expected_spaces": 15,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Semibold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 81,
+    "non_space_codepoints": 82,
+    "page_number": 20,
+    "sample_id": "s27",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Table 4 | List of test datasets used for primary evaluation of regression tasks",
+    "bbox": [
+      39.3,
+      49.2,
+      420.1,
+      59.0
+    ],
+    "candidate": "absolute_3",
+    "category": "table_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Table 4 | List of test datasets used for primary evaluation of regression tasks",
+    "expected_no_space_boundaries": 62,
+    "expected_spaces": 15,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Semibold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 77,
+    "non_space_codepoints": 78,
+    "page_number": 21,
+    "sample_id": "s28",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Table 4 | List of test datasets used for primary evaluation of regression tasks",
+    "bbox": [
+      39.3,
+      49.2,
+      420.1,
+      59.0
+    ],
+    "candidate": "absolute_2",
+    "category": "table_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Table 4 | List of test datasets used for primary evaluation of regression tasks",
+    "expected_no_space_boundaries": 62,
+    "expected_spaces": 15,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Semibold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 77,
+    "non_space_codepoints": 78,
+    "page_number": 21,
+    "sample_id": "s28",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Table 4 | List of test datasets used for primary evaluation of regression tasks",
+    "bbox": [
+      39.3,
+      49.2,
+      420.1,
+      59.0
+    ],
+    "candidate": "relative_0.125",
+    "category": "table_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Table 4 | List of test datasets used for primary evaluation of regression tasks",
+    "expected_no_space_boundaries": 62,
+    "expected_spaces": 15,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Semibold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 77,
+    "non_space_codepoints": 78,
+    "page_number": 21,
+    "sample_id": "s28",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Table 5 | Hyperparameter defaults and search space for TabPFN and our baselines",
+    "bbox": [
+      39.3,
+      49.2,
+      446.4,
+      59.0
+    ],
+    "candidate": "absolute_3",
+    "category": "table_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Table 5 | Hyperparameter defaults and search space for TabPFN and our baselines",
+    "expected_no_space_boundaries": 64,
+    "expected_spaces": 14,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Semibold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 78,
+    "non_space_codepoints": 79,
+    "page_number": 22,
+    "sample_id": "s29",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Table 5 | Hyperparameter defaults and search space for TabPFN and our baselines",
+    "bbox": [
+      39.3,
+      49.2,
+      446.4,
+      59.0
+    ],
+    "candidate": "absolute_2",
+    "category": "table_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Table 5 | Hyperparameter defaults and search space for TabPFN and our baselines",
+    "expected_no_space_boundaries": 64,
+    "expected_spaces": 14,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Semibold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 78,
+    "non_space_codepoints": 79,
+    "page_number": 22,
+    "sample_id": "s29",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Table 5 | Hyperparameter defaults and search space for TabPFN and our baselines",
+    "bbox": [
+      39.3,
+      49.2,
+      446.4,
+      59.0
+    ],
+    "candidate": "relative_0.125",
+    "category": "table_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Table 5 | Hyperparameter defaults and search space for TabPFN and our baselines",
+    "expected_no_space_boundaries": 64,
+    "expected_spaces": 14,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Semibold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 78,
+    "non_space_codepoints": 79,
+    "page_number": 22,
+    "sample_id": "s29",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Table 6 | Performance on Kaggle Data Science Challenges",
+    "bbox": [
+      39.3,
+      49.2,
+      347.6,
+      59.0
+    ],
+    "candidate": "absolute_3",
+    "category": "table_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Table 6 | Performance on Kaggle Data Science Challenges",
+    "expected_no_space_boundaries": 48,
+    "expected_spaces": 10,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Semibold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 58,
+    "non_space_codepoints": 59,
+    "page_number": 23,
+    "sample_id": "s30",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Table 6 | Performance on Kaggle Data Science Challenges",
+    "bbox": [
+      39.3,
+      49.2,
+      347.6,
+      59.0
+    ],
+    "candidate": "absolute_2",
+    "category": "table_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Table 6 | Performance on Kaggle Data Science Challenges",
+    "expected_no_space_boundaries": 48,
+    "expected_spaces": 10,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Semibold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 58,
+    "non_space_codepoints": 59,
+    "page_number": 23,
+    "sample_id": "s30",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  },
+  {
+    "actual": "Extended Data Table 6 | Performance on Kaggle Data Science Challenges",
+    "bbox": [
+      39.3,
+      49.2,
+      347.6,
+      59.0
+    ],
+    "candidate": "relative_0.125",
+    "category": "table_caption",
+    "document_id": "tabpfn_nature_2025",
+    "expected": "Extended Data Table 6 | Performance on Kaggle Data Science Challenges",
+    "expected_no_space_boundaries": 48,
+    "expected_spaces": 10,
+    "extra_spaces": 0,
+    "font_sizes": [
+      9.0
+    ],
+    "fonts": [
+      "GraphikNaturel-Semibold"
+    ],
+    "missing_spaces": 0,
+    "non_space_boundaries": 58,
+    "non_space_codepoints": 59,
+    "page_number": 23,
+    "sample_id": "s30",
+    "scoreable": true,
+    "unexpected_whitespace": [],
+    "unicode_differences": [],
+    "verification": "agent_visual_checked"
+  }
+]
