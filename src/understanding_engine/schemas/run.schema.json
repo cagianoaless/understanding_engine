@@ -1,0 +1,226 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/cagianoaless/understanding_engine/schemas/run-1.0.0",
+  "title": "Understanding Engine run 1.0.0",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "status": {
+      "enum": [
+        "success",
+        "textless"
+      ]
+    },
+    "input_path": {
+      "type": "string"
+    },
+    "output_directory": {
+      "type": "string"
+    },
+    "started_at_utc": {
+      "type": "string"
+    },
+    "finished_at_utc": {
+      "type": "string"
+    },
+    "duration_seconds": {
+      "type": "number",
+      "minimum": 0
+    },
+    "source_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "configuration": {
+      "$ref": "#/$defs/settings"
+    },
+    "statistics": {
+      "type": "object",
+      "properties": {
+        "page_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "character_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "derived_character_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "empty_page_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "image_count": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "page_count",
+        "character_count",
+        "derived_character_count",
+        "empty_page_count",
+        "image_count"
+      ],
+      "additionalProperties": false
+    },
+    "artifacts": {
+      "type": "object",
+      "properties": {
+        "extraction.json": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "paper.txt": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "required": [
+        "extraction.json",
+        "paper.txt"
+      ],
+      "additionalProperties": false
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/warning"
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "status",
+    "input_path",
+    "output_directory",
+    "started_at_utc",
+    "finished_at_utc",
+    "duration_seconds",
+    "source_sha256",
+    "configuration",
+    "statistics",
+    "artifacts",
+    "warnings"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "settings": {
+      "type": "object",
+      "properties": {
+        "unicode_norm": {
+          "type": "null"
+        },
+        "laparams": {
+          "type": "null"
+        },
+        "deduplicate_characters": {
+          "const": false
+        },
+        "crop_to_cropbox": {
+          "const": false
+        },
+        "text_map": {
+          "type": "object",
+          "properties": {
+            "layout": {
+              "const": false
+            },
+            "x_tolerance": {
+              "const": 3
+            },
+            "y_tolerance": {
+              "const": 3
+            },
+            "use_text_flow": {
+              "const": false
+            },
+            "expand_ligatures": {
+              "const": false
+            },
+            "line_dir": {
+              "const": "ttb"
+            },
+            "char_dir": {
+              "const": "ltr"
+            },
+            "line_dir_rotated": {
+              "const": "ttb"
+            },
+            "char_dir_rotated": {
+              "const": "ltr"
+            }
+          },
+          "required": [
+            "layout",
+            "x_tolerance",
+            "y_tolerance",
+            "use_text_flow",
+            "expand_ligatures",
+            "line_dir",
+            "char_dir",
+            "line_dir_rotated",
+            "char_dir_rotated"
+          ],
+          "additionalProperties": false
+        },
+        "raise_unicode_errors": {
+          "const": true
+        },
+        "repair": {
+          "const": false
+        }
+      },
+      "required": [
+        "unicode_norm",
+        "laparams",
+        "deduplicate_characters",
+        "crop_to_cropbox",
+        "text_map",
+        "raise_unicode_errors",
+        "repair"
+      ],
+      "additionalProperties": false
+    },
+    "warning": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "page_number": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "character_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "message": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "code",
+        "page_number",
+        "character_id",
+        "message"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

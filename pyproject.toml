@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "understanding-engine"
+version = "0.1.0"
+description = "Deterministic, traceable extraction of scientific PDFs"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["pdfplumber==0.11.8", "jsonschema==4.25.1"]
+
+[project.optional-dependencies]
+dev = ["pytest==8.4.2", "reportlab==4.4.4", "pypdf==6.1.1"]
+
+[project.scripts]
+understanding-engine = "understanding_engine.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+understanding_engine = ["schemas/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
