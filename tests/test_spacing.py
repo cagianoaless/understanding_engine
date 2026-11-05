@@ -1,5 +1,6 @@
 import importlib.util
 import json
+from copy import deepcopy
 from pathlib import Path
 
 import pytest
@@ -115,14 +116,80 @@ def test_human_verification_cannot_be_claimed_without_reviewer(fixtures):
         SPACING.compare({"single": fixtures / "single.pdf"}, samples, {"candidates": []})
 
 
+def _assert_development_documents_registered(samples, manifest):
+    # Check uniqueness before building dictionaries, which would hide conflicts.
+    for documents, label in ((samples["documents"], "annotation"),
+                             (manifest["documents"], "registered")):
+        ids = [document["document_id"] for document in documents]
+        assert len(ids) == len(set(ids)), f"Duplicate {label} document ID"
+    declared = {document["document_id"]: document["sha256"] for document in samples["documents"]}
+    registered = {document["document_id"]: document["sha256"] for document in manifest["documents"]}
+    for sample in samples["samples"]:
+        assert sample["document_id"] in declared, "Sample references an undeclared document"
+    for document_id, expected_sha in declared.items():
+        assert document_id in registered, f"Missing document registration: {document_id}"
+        assert registered[document_id] == expected_sha, f"Document hash mismatch: {document_id}"
+
+
 def test_annotations_have_explicit_development_provenance():
     root = Path(__file__).parents[1]
     samples = json.loads((root / "evaluation/development/spacing_samples.json").read_text())
     manifest = json.loads((root / "evaluation/development/manifest.json").read_text())
     assert len(samples["samples"]) == 25
-    assert {d["document_id"]: d["sha256"] for d in samples["documents"]} == {
-        d["document_id"]: d["sha256"] for d in manifest["documents"]}
+    _assert_development_documents_registered(samples, manifest)
     for sample in samples["samples"]:
         assert sample["verification"] in {"agent_visual_checked", "human_verified"}
         if sample["verification"] == "human_verified":
             assert sample.get("human_reviewer")
+
+
+@pytest.fixture
+def provenance_catalogs():
+    documents = [{"document_id": "attention", "sha256": "a" * 64},
+                 {"document_id": "bert", "sha256": "b" * 64}]
+    return ({"documents": deepcopy(documents), "samples": [
+        {"document_id": "attention"}, {"document_id": "bert"}]},
+        {"documents": deepcopy(documents)})
+
+
+@pytest.mark.parametrize("extra_count", [0, 1, 3])
+def test_experiment_provenance_allows_additional_registered_documents(provenance_catalogs, extra_count):
+    samples, manifest = provenance_catalogs
+    manifest["documents"].extend({"document_id": f"future-{i}", "sha256": "c" * 64}
+                                for i in range(extra_count))
+    _assert_development_documents_registered(samples, manifest)
+
+
+@pytest.mark.parametrize("problem,message", [
+    ("missing_registration", "Missing document registration"),
+    ("duplicate_registered_id", "Duplicate registered document ID"),
+    ("conflicting_registered_id", "Duplicate registered document ID"),
+    ("duplicate_unreferenced_id", "Duplicate registered document ID"),
+    ("changed_hash", "Document hash mismatch"),
+    ("duplicate_annotation_id", "Duplicate annotation document ID"),
+    ("conflicting_annotation_id", "Duplicate annotation document ID"),
+    ("undeclared_sample_document", "Sample references an undeclared document"),
+])
+def test_experiment_provenance_rejects_missing_or_conflicting_sources(provenance_catalogs, problem, message):
+    samples, manifest = provenance_catalogs
+    if problem == "missing_registration":
+        manifest["documents"].pop()
+    elif problem in {"duplicate_registered_id", "conflicting_registered_id"}:
+        duplicate = deepcopy(manifest["documents"][0])
+        if problem == "conflicting_registered_id":
+            duplicate["sha256"] = "d" * 64
+        manifest["documents"].append(duplicate)
+    elif problem == "duplicate_unreferenced_id":
+        manifest["documents"].extend([{"document_id": "future", "sha256": "c" * 64}] * 2)
+    elif problem == "changed_hash":
+        manifest["documents"][0]["sha256"] = "d" * 64
+    elif problem in {"duplicate_annotation_id", "conflicting_annotation_id"}:
+        duplicate = deepcopy(samples["documents"][0])
+        if problem == "conflicting_annotation_id":
+            duplicate["sha256"] = "d" * 64
+        samples["documents"].append(duplicate)
+    else:
+        manifest["documents"].append({"document_id": "future", "sha256": "c" * 64})
+        samples["samples"].append({"document_id": "future"})
+    with pytest.raises(AssertionError, match=message):
+        _assert_development_documents_registered(samples, manifest)
