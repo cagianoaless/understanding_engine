@@ -1,6 +1,7 @@
 # Understanding Engine
 
 Milestone 01: offline scientific PDF extraction using Python 3.11 and pdfplumber.
+Milestone 02a adds a separate experimental geometric structure layer.
 The package preserves positioned backend text units separately from derived page
 text. No LLM, OCR, GPU, database, UI, or semantic analysis is included.
 
@@ -115,6 +116,24 @@ See [coordinate conventions](docs/coordinates.md),
 [evaluation protocol](evaluation/protocol.md), and
 [fixture provenance](tests/fixtures/README.md).
 
+## Candidate document structure (Milestone 02a)
+
+Use an existing, unchanged extraction file; the original PDF CLI is unchanged:
+
+```sh
+uv run --frozen --offline python -m understanding_engine.structure \
+  /path/to/extraction.json --output-dir output/structure --pages 2
+```
+
+The new directory contains versioned `structure.json`, with source glyph
+references, candidate lines/paragraphs/headings, basic columns, and partial
+reading-order relations. It contains no corrected text. Omit `--pages` to process
+all pages; supply `--config settings.json` to override explicit geometric settings.
+Unknown orientation and possible non-text content remain visible in the output.
+Cross-column order is deliberately unresolved. See the
+[structure contract and limitations](docs/structure.md) and the
+[three-page development report](evaluation/experiments/004/report.md).
+
 ## Known limitations
 
 - Embedded text can be missing, incorrectly mapped, invisible, or out of order.
@@ -122,8 +141,9 @@ See [coordinate conventions](docs/coordinates.md),
   survive unchanged.
   For example, `(cid:80)` is an unmapped-glyph placeholder, not a recovered
   mathematical symbol. Mathematical Unicode recovery is outside Milestone 01b.
-- No scientific layout, section, table, equation, prerequisite, or semantic
-  reconstruction. Mathematical symbols are preserved only when the backend can
+- The original parser performs no scientific layout, section, table, equation,
+  prerequisite, or semantic reconstruction. The separate structure experiment
+  provides geometric candidates only. Mathematical symbols are preserved only when the backend can
   decode them; two-dimensional formulas are not reconstructed.
 - No claim to solve reading order, bidirectional/vertical text, complex scripts,
   rotated line order, or overlapping text. Derived text assumes top-to-bottom,
