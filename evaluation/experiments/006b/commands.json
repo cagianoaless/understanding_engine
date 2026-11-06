@@ -1,0 +1,96 @@
+{
+  "working_directory": "/Users/alessandrocagiano/Documents/vibecoding/understanding_engine",
+  "stage_order": [
+    "source_PDF_hash_verification_and_visual_annotation",
+    "review_pack_and_focused_tests",
+    "local_freeze_commit_555e4d4",
+    "read_official_Docker_docs",
+    "runtime_discovery",
+    "NO_GO_stop_no_install_or_predictions",
+    "offline_regression_tests",
+    "publish_dedicated_PR_and_wait_for_CI"
+  ],
+  "executed": [
+    {
+      "stage": "A",
+      "argv": [
+        ".venv/bin/python",
+        "evaluation/experiments/006b/review_pack.py",
+        "--pdf-map",
+        "/private/tmp/understanding-engine-e006b/pdf-map.json",
+        "--output",
+        "/private/tmp/understanding-engine-e006b/human-review-v1-final"
+      ],
+      "stdout": "/private/tmp/understanding-engine-e006b/review-package.json",
+      "exit_code": 0
+    },
+    {
+      "stage": "A",
+      "argv": [
+        "uv",
+        "run",
+        "--frozen",
+        "--offline",
+        "pytest",
+        "tests/test_experiment006b.py",
+        "-q"
+      ],
+      "env": {
+        "UV_CACHE_DIR": "/private/tmp/understanding-engine-uv-cache"
+      },
+      "exit_code": 0,
+      "passed": 19
+    },
+    {
+      "stage": "B",
+      "argv": [
+        ".venv/bin/python",
+        "evaluation/experiments/006b/discover_runtime.py",
+        "--output",
+        "evaluation/experiments/006b/runtime-discovery-expanded.json"
+      ],
+      "exit_code": 0,
+      "note": "Discovery command succeeds at reporting missing prerequisites; this is NOT a GO."
+    },
+    {
+      "stage": "validation",
+      "argv": [
+        ".venv/bin/python",
+        "evaluation/experiments/006b/reproduce_review.py",
+        "--pdf-map",
+        "/private/tmp/understanding-engine-e006b/pdf-map.json",
+        "--output",
+        "/private/tmp/understanding-engine-e006b/atomic-review-rebuild"
+      ],
+      "stdout": "/private/tmp/understanding-engine-e006b/atomic-rebuild.json",
+      "exit_code": 0
+    },
+    {
+      "stage": "validation",
+      "argv": [
+        "uv",
+        "run",
+        "--frozen",
+        "--offline",
+        "pytest"
+      ],
+      "env": {
+        "UV_CACHE_DIR": "/private/tmp/understanding-engine-uv-cache"
+      },
+      "exit_code": 0,
+      "passed": 255,
+      "stdout": "logs/pytest.stdout.log",
+      "stderr": "logs/pytest.stderr.log"
+    }
+  ],
+  "unexecuted": [
+    "Linux container model-free control probes",
+    "Linux dependency resolution / license closure audit",
+    "docker or podman install/start/pull",
+    "pip install Docling",
+    "Heron weights download",
+    "Structure0.2 predictions on selected pages",
+    "Docling smoke or comparison inference"
+  ],
+  "nonautomated_reference_preparation": "Raw rendered PDFs checked visually by agent; committed revision is source of frozen references. See source-inputs, page_geometry and annotation-source-audit. This is not human verification."
+}

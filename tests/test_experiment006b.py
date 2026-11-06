@@ -84,3 +84,118 @@ def test_freeze_detects_changed_bytes(tmp_path):
     (tmp_path / "freeze.json").write_text(json.dumps({"files": {"annotations.json": "0" * 64}}))
     with pytest.raises(ValueError, match="Frozen input changed"):
         module("references").verify_freeze(tmp_path)
+
+
+def test_cgroup_v2_finite_boundary_and_observation_requirement():
+    gates = module("gates")
+    values = {"memory.max": str(4 * gates.GIB), "memory.swap.max": "0", "cpu.max": "400000 100000"}
+    assert gates.cgroup_limits(values) == {"memory_bytes": 4 * gates.GIB, "swap_bytes": 0, "cpu_cores": 4}
+    observations = {key: True for key in gates.OBSERVATIONS}  # synthetic only
+    assert not gates.authorize_install(False, values, observations, 0, 0)
+    assert not gates.authorize_install(True, values, {}, 0, 0)
+    assert gates.authorize_install(True, values, observations, 2 * gates.GIB, 4 * gates.GIB)
+    for key in gates.OBSERVATIONS:
+        incomplete = dict(observations, **{key: None})
+        assert not gates.authorize_install(True, values, incomplete, 0, 0)
+
+
+@pytest.mark.parametrize("key,value", [
+    ("memory.max", "max"), ("memory.max", "4294967297"), ("memory.max", "0"),
+    ("memory.max", "-1"), ("memory.max", "4G"), ("memory.max", "nan"),
+    ("memory.swap.max", "max"), ("memory.swap.max", "1"),
+    ("cpu.max", "max 100000"), ("cpu.max", "400001 100000"),
+    ("cpu.max", "1 0"), ("cpu.max", "0 100000"), ("cpu.max", "1 2 3"),
+    ("cpu.max", "nan 100000"), ("memory.max", "４２"),
+])
+def test_unbounded_or_malformed_cgroups_rejected(key, value):
+    gates = module("gates")
+    values = {"memory.max": "4294967296", "memory.swap.max": "0", "cpu.max": "400000 100000"}
+    values[key] = value
+    with pytest.raises(ValueError):
+        gates.cgroup_limits(values)
+    assert not gates.authorize_install(True, values, {k: True for k in gates.OBSERVATIONS}, 0, 0)
+
+
+@pytest.mark.parametrize("limit", [2 * 1024 ** 3, 4 * 1024 ** 3])
+def test_byte_accounting_includes_existing_images_and_cache(limit):
+    gates = module("gates")
+    image, wheels, model = limit // 2, limit // 4, limit // 4
+    count = gates.add_bytes(gates.add_bytes(image, wheels, limit), model, limit)
+    assert count == limit
+    with pytest.raises(ValueError, match="budget"):
+        gates.add_bytes(count, 1, limit)
+    assert count == limit  # refusal before accepting more bytes
+    for invalid in (-1, True, 1.5):
+        with pytest.raises(ValueError):
+            gates.add_bytes(0, invalid, limit)
+
+
+@pytest.mark.parametrize("elapsed,code,timeout,expected", [
+    (119.9, 0, False, "success"), (120, 0, False, "timeout"),
+    (120.1, 0, False, "timeout"), (0.1, -9, False, "failed"),
+    (0.1, 0, True, "timeout"),
+])
+def test_failed_or_timed_out_samples_never_leave_denominator(elapsed, code, timeout, expected):
+    result = module("gates").page_outcome(elapsed, code, timeout)
+    assert result["status"] == expected and result["denominator"] == 1
+    assert result["successful_pages"] == int(expected == "success")
+
+
+@pytest.mark.parametrize("elapsed", [-1, float("nan"), float("inf")])
+def test_invalid_timeout_measurements_rejected(elapsed):
+    with pytest.raises(ValueError):
+        module("gates").page_outcome(elapsed, 0)
+
+
+def test_fixed_versions_budgets_and_registered_hashes():
+    plan = read("plan.json")
+    assert plan["docling_version"] == "2.148.0"
+    assert plan["heron_revision"] == "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8"
+    assert plan["limits"] == {"new_download_bytes": 2147483648, "installed_cache_bytes": 4294967296,
+                              "container_memory_bytes": 4294967296, "swap_bytes": 0,
+                              "cpu_quota_cores": 4, "effective_inference_threads": 4, "seconds_per_page": 120}
+    prior = json.loads((ROOT / "evaluation/experiments/006/summary.json").read_text())
+    assert {d["document_id"]: d["source_sha256"] for d in read("annotations.json")["documents"]} == {
+        d["document_id"]: d["source_sha256"] for d in prior["benchmark"]["per_document"]}
+
+
+def test_blocked_stages_cannot_be_reported_as_measured_comparison():
+    summary = read("summary.json")
+    assert summary["decision"] == "NO_GO"
+    assert summary["stages"] == {"A": "complete", "B": "blocked_prerequisite", "C": "not_run", "D": "not_run"}
+    assert summary["annotations"]["human_verified_count"] == 0
+    benchmark = summary["benchmark"]
+    assert benchmark["planned_page_denominator"] == benchmark["unexecuted_pages"] == 6
+    assert benchmark["executed_pages"] == 0
+    assert benchmark["aggregate_metrics"] is None and benchmark["macro_metrics"] is None
+    assert all(doc[candidate] == {"status": "not_run", "metrics": None}
+               for doc in benchmark["per_document"] for candidate in ("structure_0_2", "docling"))
+    preflight = read("preflight.json")
+    assert all(g["status"] == "not_run" for g in preflight["actual_container_gates"].values())
+    assert preflight["image_pulls"] == preflight["docling_installations"] == preflight["weight_downloads"] == 0
+
+
+def test_review_rebuild_failure_is_not_published(monkeypatch, tmp_path):
+    monkeypatch.syspath_prepend(str(HERE))
+    helper = module("reproduce_review")
+
+    def fail(paths, destination):
+        destination.mkdir()
+        (destination / "partial.png").write_bytes(b"incomplete")
+        raise RuntimeError("render failed")
+
+    monkeypatch.setattr(helper, "build", fail)
+    destination = tmp_path / "review"
+    with pytest.raises(RuntimeError, match="render failed"):
+        helper.rebuild({}, destination)
+    assert not destination.exists()
+    assert not list(tmp_path.iterdir())
+
+
+def test_review_rebuild_rejects_repo_and_existing_directory(monkeypatch, tmp_path):
+    monkeypatch.syspath_prepend(str(HERE))
+    helper = module("reproduce_review")
+    with pytest.raises(ValueError, match="outside"):
+        helper.rebuild({}, ROOT / "review-renders")
+    with pytest.raises(FileExistsError):
+        helper.rebuild({}, tmp_path)

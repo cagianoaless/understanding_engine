@@ -1,0 +1,23 @@
+{
+  "command": [
+    "uv",
+    "run",
+    "--frozen",
+    "--offline",
+    "pytest"
+  ],
+  "environment_override": {
+    "UV_CACHE_DIR": "/private/tmp/understanding-engine-uv-cache"
+  },
+  "exit_code": 0,
+  "elapsed_seconds": 13.091747416183352,
+  "passed": 255,
+  "stdout": "logs/pytest.stdout.log",
+  "stderr": "logs/pytest.stderr.log",
+  "protected_file_count": 161,
+  "protected_files_changed": [],
+  "production_and_ci_diff_from_structure_baseline_exit_code": 0,
+  "production_and_ci_diff": "",
+  "final_local_stage": "B_blocked_C_D_not_run",
+  "atomic_review_rebuild_sha256": "b1ed02b722fb73e8c0dce480403c95a74a4b414e207663e2d645fba7c6552ab6"
+}

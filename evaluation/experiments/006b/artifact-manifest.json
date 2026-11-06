@@ -1,0 +1,170 @@
+{
+  "scope": "Frozen experiment inputs and completed NO-GO evidence/test source before PR publication metadata; excludes this manifest and later publication.json",
+  "files": [
+    {
+      "path": "evaluation/experiments/006b/annotation-source-audit.json",
+      "bytes": 3873,
+      "sha256": "4d568638ccc4d29db862062479bb8cae230d88dbedc059fa9bcb0296ce6db284"
+    },
+    {
+      "path": "evaluation/experiments/006b/annotations.json",
+      "bytes": 231292,
+      "sha256": "779b5a6b05d3d53729000ce98fb03791edc84b2f118cb5857a85b17ef01e60d5"
+    },
+    {
+      "path": "evaluation/experiments/006b/baseline-settings.json",
+      "bytes": 672,
+      "sha256": "e964e8a72b9b6f1a88628e8ac833b4eaa599a3b3d5a0193263a4b5fdd1e0ced7"
+    },
+    {
+      "path": "evaluation/experiments/006b/commands.json",
+      "bytes": 2913,
+      "sha256": "365dc9d8ad0fd08809153630f8dbf9899c9889f3a275ddbd810822e9c8a8256a"
+    },
+    {
+      "path": "evaluation/experiments/006b/commands.md",
+      "bytes": 4202,
+      "sha256": "a4b5305cb168c21a9f36a5f6c9204e8e6056605711e950133ff9f253082afdbe"
+    },
+    {
+      "path": "evaluation/experiments/006b/discover_runtime.py",
+      "bytes": 2667,
+      "sha256": "b7d287304f6a6287c3a5dfb173e06fe20d79cd8bb73491dacea3121f49de4549"
+    },
+    {
+      "path": "evaluation/experiments/006b/environment.json",
+      "bytes": 994,
+      "sha256": "03c7d67dba95ada22dca37139e4024c9abbc64c3b70a2e4d2db61856d1db3df3"
+    },
+    {
+      "path": "evaluation/experiments/006b/freeze.json",
+      "bytes": 1427,
+      "sha256": "af5df8bde2b76ba442f333367b9b4ff5ab00f23df1e4a632b4e7d0b8d70631b8"
+    },
+    {
+      "path": "evaluation/experiments/006b/gates.py",
+      "bytes": 2809,
+      "sha256": "b84f8c1cc376cd7d81a4fc01ffb4b59e1a1964bb2f20736ce58bc70e49364f98"
+    },
+    {
+      "path": "evaluation/experiments/006b/human-review-form.json",
+      "bytes": 15764,
+      "sha256": "3d17188a35b7d1905c9bf82911cfa637c95383e67d61107520943b14a474c9c5"
+    },
+    {
+      "path": "evaluation/experiments/006b/issue-8.md",
+      "bytes": 9874,
+      "sha256": "0c421125a7d2244fafd59066f25b3119c0317a940f415886f775705797d73034"
+    },
+    {
+      "path": "evaluation/experiments/006b/logs/pytest.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evaluation/experiments/006b/logs/pytest.stdout.log",
+      "bytes": 1246,
+      "sha256": "3a7dac913733797ee5a88fcf082a8e01a415c26cfbc38fdb8ff8624700a96502"
+    },
+    {
+      "path": "evaluation/experiments/006b/page_geometry.json",
+      "bytes": 3473,
+      "sha256": "08c5f59c3ce9e096517de8758a401735ae0117246946c658724eab386ccef7bf"
+    },
+    {
+      "path": "evaluation/experiments/006b/plan.json",
+      "bytes": 6417,
+      "sha256": "4e175a303b7b92889c1f47c629b1814e409b19bae0049d1cae0103757d5b6b1b"
+    },
+    {
+      "path": "evaluation/experiments/006b/plan.md",
+      "bytes": 3520,
+      "sha256": "98e052ec5aaf3331b44df40cec542d8a8516ab1a02bb3fde3cd4b714f4748173"
+    },
+    {
+      "path": "evaluation/experiments/006b/preflight.json",
+      "bytes": 3160,
+      "sha256": "8bb68d324148431d63b2f740a5fd374ed387ce6fd95c82b0284e4d91240a4315"
+    },
+    {
+      "path": "evaluation/experiments/006b/preflight.md",
+      "bytes": 3663,
+      "sha256": "1ab0836d18c965c2a4ad3c508729a08298133cfbae4bad334acf636d4098432d"
+    },
+    {
+      "path": "evaluation/experiments/006b/protected-files.json",
+      "bytes": 18605,
+      "sha256": "fabb75bfabca2f278f49fd0ae30b9cfe86f4e079c832d773dfc6cc7e66be098f"
+    },
+    {
+      "path": "evaluation/experiments/006b/references.py",
+      "bytes": 3589,
+      "sha256": "ede095d954024432669d55061ff962fc1cab54b0f4e67859a8b086a6c75ef77f"
+    },
+    {
+      "path": "evaluation/experiments/006b/report.md",
+      "bytes": 7393,
+      "sha256": "b205d332a38db056a16cbb0f6947bc402b1307e22d5eae7a0679634fc5a2bc59"
+    },
+    {
+      "path": "evaluation/experiments/006b/reproduce_review.py",
+      "bytes": 1461,
+      "sha256": "e763da62f25389796d8ba4c13c145a2f71f758d9f14c79f727f514d9aa3cfd5a"
+    },
+    {
+      "path": "evaluation/experiments/006b/review-package.json",
+      "bytes": 5391,
+      "sha256": "12f12bff26438ec62e1a321d57d27cd1d6c24a9bf41db4f98c24becc03785e71"
+    },
+    {
+      "path": "evaluation/experiments/006b/review_pack.py",
+      "bytes": 6126,
+      "sha256": "379c00b1d2495e1a294a256e64c286d525aefbf14c40da4cb2f6e299605a1a1e"
+    },
+    {
+      "path": "evaluation/experiments/006b/review_protocol.md",
+      "bytes": 2807,
+      "sha256": "3c015122dfa6724eb26c97e66748755e857ff2d3873a267276766b3832b55794"
+    },
+    {
+      "path": "evaluation/experiments/006b/runtime-discovery-expanded.json",
+      "bytes": 2594,
+      "sha256": "91e41ef3a6907ff7a659b2bb287e69a5c27fbc29659efbc5a8437d71f78d1dbd"
+    },
+    {
+      "path": "evaluation/experiments/006b/runtime-discovery.json",
+      "bytes": 1528,
+      "sha256": "8edd16b00b6ce39ac8910e16d674c21c59f619d5b3e311e294d4ee3550c6ee52"
+    },
+    {
+      "path": "evaluation/experiments/006b/selection.json",
+      "bytes": 1247,
+      "sha256": "3e89cf030f6c9b151399094be0ea3984641acd04d5597d6a57af2d1f55918078"
+    },
+    {
+      "path": "evaluation/experiments/006b/source-inputs.json",
+      "bytes": 2080,
+      "sha256": "4609502f6dcfae904f90be522d9a0ee1682b45eb7e515ac32ea9f3bc899a9469"
+    },
+    {
+      "path": "evaluation/experiments/006b/stage-a-validation.json",
+      "bytes": 1166,
+      "sha256": "480231a849dd5558b947697f02e0cb19817b92a56721a1fe4d281ae6ff70ffdb"
+    },
+    {
+      "path": "evaluation/experiments/006b/summary.json",
+      "bytes": 4641,
+      "sha256": "4127495146d7758f336a79fcb718dcd48cb39c9602c689f06d719a93d6113b8d"
+    },
+    {
+      "path": "evaluation/experiments/006b/validation.json",
+      "bytes": 651,
+      "sha256": "f6057cf26897a37d0138cfee9740dd8a818cc645f2fc88ccb49e8df238eace85"
+    },
+    {
+      "path": "tests/test_experiment006b.py",
+      "bytes": 9478,
+      "sha256": "2178485962436f8345e37c8ecf459b42c1d7937e99e6b294280fa492c59c65fa"
+    }
+  ]
+}
