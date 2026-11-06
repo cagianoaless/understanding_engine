@@ -1,0 +1,500 @@
+{
+  "baseline_commit": "af590135a81ac3f76508d9b81f0389ea54d1b74e",
+  "documents": [
+    {
+      "document_id": "attention",
+      "human_reviewer": null,
+      "layout": "single-column mathematics and figures",
+      "order_pairs": [
+        {
+          "after": "a-p1",
+          "before": "a-h1"
+        },
+        {
+          "after": "a-p2",
+          "before": "a-p1"
+        },
+        {
+          "after": "a-h2",
+          "before": "a-p2"
+        },
+        {
+          "after": "a-p3",
+          "before": "a-h2"
+        }
+      ],
+      "page_number": 4,
+      "paragraph_pairs": [
+        {
+          "break": false,
+          "points": [
+            [
+              200,
+              380
+            ],
+            [
+              200,
+              390
+            ]
+          ]
+        },
+        {
+          "break": true,
+          "points": [
+            [
+              200,
+              404
+            ],
+            [
+              200,
+              425
+            ]
+          ]
+        },
+        {
+          "break": false,
+          "points": [
+            [
+              200,
+              660
+            ],
+            [
+              200,
+              670
+            ]
+          ]
+        }
+      ],
+      "regions": [
+        {
+          "bbox": [
+            108,
+            351,
+            270,
+            361
+          ],
+          "id": "a-h1",
+          "type": "heading"
+        },
+        {
+          "bbox": [
+            108,
+            369,
+            505,
+            409
+          ],
+          "id": "a-p1",
+          "type": "paragraph"
+        },
+        {
+          "bbox": [
+            108,
+            419,
+            505,
+            450
+          ],
+          "id": "a-p2",
+          "type": "paragraph"
+        },
+        {
+          "bbox": [
+            108,
+            632,
+            258,
+            642
+          ],
+          "id": "a-h2",
+          "type": "heading"
+        },
+        {
+          "bbox": [
+            108,
+            650,
+            505,
+            691
+          ],
+          "id": "a-p3",
+          "type": "paragraph"
+        }
+      ],
+      "source_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "verification": "agent_visual_checked",
+      "windows": [
+        [
+          103,
+          348,
+          513,
+          452
+        ],
+        [
+          103,
+          629,
+          513,
+          695
+        ]
+      ]
+    },
+    {
+      "document_id": "bert",
+      "human_reviewer": null,
+      "layout": "two-column prose with inline and standalone headings",
+      "order_pairs": [
+        {
+          "after": "b-p1",
+          "before": "b-h1"
+        },
+        {
+          "after": "b-p2",
+          "before": "b-p1"
+        },
+        {
+          "after": "b-h2",
+          "before": "b-p2"
+        },
+        {
+          "after": "b-p3",
+          "before": "b-h2"
+        }
+      ],
+      "page_number": 4,
+      "paragraph_pairs": [
+        {
+          "break": false,
+          "points": [
+            [
+              200,
+              510
+            ],
+            [
+              200,
+              524
+            ]
+          ]
+        },
+        {
+          "break": true,
+          "points": [
+            [
+              200,
+              573
+            ],
+            [
+              200,
+              599
+            ]
+          ]
+        },
+        {
+          "break": false,
+          "points": [
+            [
+              400,
+              490
+            ],
+            [
+              400,
+              505
+            ]
+          ]
+        },
+        {
+          "break": false,
+          "points": [
+            [
+              200,
+              640
+            ],
+            [
+              200,
+              655
+            ]
+          ]
+        }
+      ],
+      "regions": [
+        {
+          "bbox": [
+            72,
+            484,
+            188,
+            494
+          ],
+          "id": "b-h1",
+          "type": "heading"
+        },
+        {
+          "bbox": [
+            72,
+            505,
+            291,
+            580
+          ],
+          "id": "b-p1",
+          "type": "paragraph"
+        },
+        {
+          "bbox": [
+            72,
+            594,
+            291,
+            724
+          ],
+          "id": "b-p2",
+          "type": "paragraph"
+        },
+        {
+          "bbox": [
+            307,
+            471,
+            529,
+            482
+          ],
+          "id": "b-h2",
+          "type": "heading"
+        },
+        {
+          "bbox": [
+            307,
+            485,
+            529,
+            724
+          ],
+          "id": "b-p3",
+          "type": "paragraph"
+        }
+      ],
+      "source_sha256": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e",
+      "verification": "agent_visual_checked",
+      "windows": [
+        [
+          68,
+          479,
+          294,
+          582
+        ],
+        [
+          68,
+          590,
+          294,
+          727
+        ],
+        [
+          304,
+          466,
+          534,
+          726
+        ]
+      ]
+    },
+    {
+      "document_id": "tabpfn_nature_2025",
+      "human_reviewer": null,
+      "layout": "publisher two-column prose below multi-panel charts",
+      "order_pairs": [
+        {
+          "after": "n-p1",
+          "before": "n-h1"
+        },
+        {
+          "after": "n-p2",
+          "before": "n-p1"
+        },
+        {
+          "after": "n-h2",
+          "before": "n-p2"
+        },
+        {
+          "after": "n-p3",
+          "before": "n-h2"
+        },
+        {
+          "after": "n-p4",
+          "before": "n-p3"
+        },
+        {
+          "after": "n-h3",
+          "before": "n-p4"
+        },
+        {
+          "after": "n-p5",
+          "before": "n-h3"
+        }
+      ],
+      "page_number": 5,
+      "paragraph_pairs": [
+        {
+          "break": false,
+          "points": [
+            [
+              200,
+              443
+            ],
+            [
+              200,
+              454
+            ]
+          ]
+        },
+        {
+          "break": true,
+          "points": [
+            [
+              200,
+              515
+            ],
+            [
+              200,
+              527
+            ]
+          ]
+        },
+        {
+          "break": false,
+          "points": [
+            [
+              400,
+              411
+            ],
+            [
+              400,
+              422
+            ]
+          ]
+        },
+        {
+          "break": true,
+          "points": [
+            [
+              400,
+              514
+            ],
+            [
+              400,
+              530
+            ]
+          ]
+        }
+      ],
+      "regions": [
+        {
+          "bbox": [
+            39,
+            422,
+            170,
+            432
+          ],
+          "id": "n-h1",
+          "type": "heading"
+        },
+        {
+          "bbox": [
+            39,
+            437,
+            295,
+            520
+          ],
+          "id": "n-p1",
+          "type": "paragraph"
+        },
+        {
+          "bbox": [
+            39,
+            522,
+            295,
+            562
+          ],
+          "id": "n-p2",
+          "type": "paragraph"
+        },
+        {
+          "bbox": [
+            306,
+            392,
+            510,
+            402
+          ],
+          "id": "n-h2",
+          "type": "heading"
+        },
+        {
+          "bbox": [
+            306,
+            405,
+            562,
+            520
+          ],
+          "id": "n-p3",
+          "type": "paragraph"
+        },
+        {
+          "bbox": [
+            306,
+            522,
+            562,
+            585
+          ],
+          "id": "n-p4",
+          "type": "paragraph"
+        },
+        {
+          "bbox": [
+            306,
+            682,
+            503,
+            692
+          ],
+          "id": "n-h3",
+          "type": "heading"
+        },
+        {
+          "bbox": [
+            306,
+            695,
+            562,
+            723
+          ],
+          "id": "n-p5",
+          "type": "paragraph"
+        }
+      ],
+      "source_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "verification": "agent_visual_checked",
+      "windows": [
+        [
+          36,
+          420,
+          298,
+          565
+        ],
+        [
+          303,
+          390,
+          565,
+          586
+        ],
+        [
+          303,
+          679,
+          565,
+          725
+        ]
+      ]
+    }
+  ],
+  "experiment": "005: structural robustness",
+  "exposure": "Development only. New relative to Experiment 004; same papers have prior spacing exposure. Not an independent held-out benchmark. Training and evaluation pages remain disjoint.",
+  "freeze_stage": "Visual PDF annotations before modified structure implementation or any evaluation predictions",
+  "human_verified_count": 0,
+  "scoring": "Experiment 004 score() reused unchanged: greedy IoU >=0.5, all predictions with centers in frozen windows, failed/unaligned pairs kept; classification reported with missing and spurious headings. No Unicode/text correction.",
+  "training_pages": {
+    "attention": [
+      3
+    ],
+    "bert": [
+      3
+    ],
+    "tabpfn_nature_2025": [
+      2
+    ]
+  }
+}
