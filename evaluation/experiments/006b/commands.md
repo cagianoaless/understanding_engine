@@ -76,7 +76,10 @@ UV_CACHE_DIR=/private/tmp/understanding-engine-uv-cache uv run --frozen --offlin
 ```
 
 Exact command arguments, stdout/stderr, exit code and duration of the final local
-test execution are preserved in `validation.json` and `logs/`. A prior full run
+test execution are preserved in `validation-final.json` and `logs/pytest-final.*.log`.
+The 255-test execution and its CI result are retained separately in `validation.json`,
+`logs/pytest.*.log` and `publication.json`. The final 256-test suite adds an explicit
+guard against neural imports in all five experiment helpers. A prior full run
 passed 252 tests before additional atomic-publish and summary checks were added.
 `publication.json` links the public commits, dedicated PR and CI evidence. Git
 credential-helper access from the shell was unavailable, so Git objects/refs and

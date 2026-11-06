@@ -148,5 +148,13 @@
     "B": "blocked_prerequisite",
     "C": "not_run",
     "D": "not_run"
+  },
+  "validation": {
+    "evidence": "validation-final.json",
+    "final_follow_up_ci": "See live PR checks and final PR body; never relabel earlier CI as a later commit test",
+    "final_local_failed": 0,
+    "final_local_passed": 256,
+    "prior_ci_commit": "79f933cd46461a2c174c540b36ef60124d199653",
+    "prior_ci_passed": 255
   }
 }

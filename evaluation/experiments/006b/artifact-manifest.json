@@ -1,5 +1,6 @@
 {
-  "scope": "Frozen experiment inputs and completed NO-GO evidence/test source before PR publication metadata; excludes this manifest and later publication.json",
+  "revision": 2,
+  "scope": "Completed experiment evidence and test source at final follow-up; excludes this manifest and publication/CI metadata. Earlier evidence manifest is preserved at commit 79f933cd46461a2c174c540b36ef60124d199653. Stage A freeze remains unchanged.",
   "files": [
     {
       "path": "evaluation/experiments/006b/annotation-source-audit.json",
@@ -18,13 +19,13 @@
     },
     {
       "path": "evaluation/experiments/006b/commands.json",
-      "bytes": 2913,
-      "sha256": "365dc9d8ad0fd08809153630f8dbf9899c9889f3a275ddbd810822e9c8a8256a"
+      "bytes": 3324,
+      "sha256": "19fbdca0b33b7fa3de024e4d9768387fab1ab9ba57a36c47098794e557730e02"
     },
     {
       "path": "evaluation/experiments/006b/commands.md",
-      "bytes": 4202,
-      "sha256": "a4b5305cb168c21a9f36a5f6c9204e8e6056605711e950133ff9f253082afdbe"
+      "bytes": 4460,
+      "sha256": "3dac309760794d73343c7e04970cbcef6b542a0e56e8b86f9dd9a5b8d466e04b"
     },
     {
       "path": "evaluation/experiments/006b/discover_runtime.py",
@@ -55,6 +56,16 @@
       "path": "evaluation/experiments/006b/issue-8.md",
       "bytes": 9874,
       "sha256": "0c421125a7d2244fafd59066f25b3119c0317a940f415886f775705797d73034"
+    },
+    {
+      "path": "evaluation/experiments/006b/logs/pytest-final.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evaluation/experiments/006b/logs/pytest-final.stdout.log",
+      "bytes": 1246,
+      "sha256": "67d3160d9efb9bdd0ac4687226d8c3810eb25aac7972f935c74242fb2b75e7bc"
     },
     {
       "path": "evaluation/experiments/006b/logs/pytest.stderr.log",
@@ -103,8 +114,8 @@
     },
     {
       "path": "evaluation/experiments/006b/report.md",
-      "bytes": 7393,
-      "sha256": "b205d332a38db056a16cbb0f6947bc402b1307e22d5eae7a0679634fc5a2bc59"
+      "bytes": 7924,
+      "sha256": "50d4fbb683b2a2aaca18919b26fe7279bed51a684af39bc5586f196a49e0db95"
     },
     {
       "path": "evaluation/experiments/006b/reproduce_review.py",
@@ -153,8 +164,13 @@
     },
     {
       "path": "evaluation/experiments/006b/summary.json",
-      "bytes": 4641,
-      "sha256": "4127495146d7758f336a79fcb718dcd48cb39c9602c689f06d719a93d6113b8d"
+      "bytes": 4974,
+      "sha256": "694daf80e5cf878b43cef4c28cc3e7dca0648cf9c9b694e869cd669b89f98b65"
+    },
+    {
+      "path": "evaluation/experiments/006b/validation-final.json",
+      "bytes": 648,
+      "sha256": "424c1f0f40ee81448ed1364b0662e866566704b3d572397f459fab0d0cccaf91"
     },
     {
       "path": "evaluation/experiments/006b/validation.json",
@@ -163,8 +179,8 @@
     },
     {
       "path": "tests/test_experiment006b.py",
-      "bytes": 9478,
-      "sha256": "2178485962436f8345e37c8ecf459b42c1d7937e99e6b294280fa492c59c65fa"
+      "bytes": 10449,
+      "sha256": "cabf9c5dc529f9ec3f13a6679679a79094983524fd47924cb636241da9048ed8"
     }
   ]
 }

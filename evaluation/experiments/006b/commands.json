@@ -81,6 +81,23 @@
       "passed": 255,
       "stdout": "logs/pytest.stdout.log",
       "stderr": "logs/pytest.stderr.log"
+    },
+    {
+      "stage": "final_validation_neural_import_guard",
+      "argv": [
+        "uv",
+        "run",
+        "--frozen",
+        "--offline",
+        "pytest"
+      ],
+      "env": {
+        "UV_CACHE_DIR": "/private/tmp/understanding-engine-uv-cache"
+      },
+      "exit_code": 0,
+      "passed": 256,
+      "stdout": "logs/pytest-final.stdout.log",
+      "stderr": "logs/pytest-final.stderr.log"
     }
   ],
   "unexecuted": [

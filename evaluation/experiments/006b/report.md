@@ -65,7 +65,9 @@ per-document/layout and macro reporting before predictions. Chart panels are fou
 separate localization units; table cells and chart labels are not nested truth
 regions. One table-note classification is explicitly ambiguous; its localization
 is retained. Optional image/table/caption order and some cross-column relations
-remain unresolved. Windows exclude unannotated material rather than claiming
+remain unresolved. Ambiguity groups flag the interactions described in their
+reason, rather than declaring every pair of members unknown; known caption order
+is retained even in a group with uncertain image/caption interactions. Windows exclude unannotated material rather than claiming
 exhaustive page coverage. Existing parser text and Unicode are untouched.
 
 ## Unexecuted comparison and limitations
@@ -95,9 +97,10 @@ development pages cannot establish generalization or independent human accuracy.
 
 ## Validation and next step
 
-`validation.json` and `logs/` record the full offline regression command/results;
+`validation-final.json` and `logs/pytest-final.*.log` record the final full offline
+regression command/results; the earlier `validation.json` and 255-test logs are preserved;
 `publication.json` records the dedicated PR and GitHub CI (for its explicitly
-identified tested commit; subsequent publication metadata does not change code). The new tests check
+identified tested commit; final follow-up checks are linked in the PR). The new tests check
 freeze integrity, prior-file preservation, identifiers/source references, geometry,
 fresh page selection, pending-human status, finite cgroup limits and boundary cases,
 byte budgets, timeout/failure denominators and honest not_run reporting. Ordinary
@@ -107,8 +110,11 @@ Before the freeze, source boxes/probes were checked against raw renders and the
 review builder's unsupported PdfPage context-manager use was corrected. A uv
 default-cache permission failure was resolved by selecting the existing writable
 temporary cache, with frozen offline dependencies. Focused checks passed 19/19
-at the freeze; the first complete suite subsequently passed 252/252. The final local run passed **255/255 tests**, with exit 0 and no stderr;
-GitHub CI evidence is recorded separately in `publication.json`. No candidate failure was repaired.
+at the freeze; the first complete suite subsequently passed 252/252. A 255-test run and GitHub CI passed before the explicit neural-import guard
+was added. The final local run passed **256/256 tests**, with exit 0 and no
+stderr. `publication.json` preserves the earlier CI evidence with its exact
+commit scope; final follow-up CI is linked in the PR. GitHub Actions runs only
+unit tests and was not selected or validated as the benchmark host. No candidate failure was repaired.
 
 An existing suitable Linux environment must be supplied or made available by the
 user before resuming the model-free gates. Do not install a runtime or relax any

@@ -5,6 +5,8 @@ import hashlib
 import importlib.util
 import json
 from pathlib import Path
+import subprocess
+import sys
 
 import pytest
 
@@ -199,3 +201,24 @@ def test_review_rebuild_rejects_repo_and_existing_directory(monkeypatch, tmp_pat
         helper.rebuild({}, ROOT / "review-renders")
     with pytest.raises(FileExistsError):
         helper.rebuild({}, tmp_path)
+
+
+def test_all_experiment_helpers_import_without_neural_stack():
+    program = """import builtins, runpy, sys
+from pathlib import Path
+directory = Path(sys.argv[1])
+sys.path.insert(0, str(directory))
+original = builtins.__import__
+forbidden = {'docling', 'docling_ibm_models', 'torch', 'transformers', 'onnxruntime', 'tensorflow'}
+def guarded(name, *args, **kwargs):
+    if name.split('.')[0] in forbidden:
+        raise AssertionError('Neural import in offline helpers: ' + name)
+    return original(name, *args, **kwargs)
+builtins.__import__ = guarded
+for name in ('references', 'review_pack', 'reproduce_review', 'discover_runtime', 'gates'):
+    runpy.run_path(str(directory / (name + '.py')))
+assert not forbidden.intersection(sys.modules)
+"""
+    result = subprocess.run([sys.executable, "-c", program, str(HERE)],
+                            capture_output=True, text=True, timeout=10)
+    assert result.returncode == 0, result.stderr
