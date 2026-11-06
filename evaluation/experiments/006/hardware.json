@@ -1,0 +1,72 @@
+{
+  "commands": [
+    {
+      "argv": [
+        "/usr/sbin/sysctl",
+        "-n",
+        "hw.memsize"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "17179869184\n"
+    },
+    {
+      "argv": [
+        "/usr/sbin/sysctl",
+        "-n",
+        "hw.model"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "Mac14,2\n"
+    },
+    {
+      "argv": [
+        "/bin/ps",
+        "-o",
+        "pid=,ppid=,rss=,comm=",
+        "-p",
+        "43548"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "43548 13686  24576 .venv/bin/python\n"
+    },
+    {
+      "argv": [
+        "/usr/bin/which",
+        "sandbox-exec"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "/usr/bin/sandbox-exec\n"
+    }
+  ],
+  "disk": {
+    "free": 12816334848,
+    "total": 245107195904,
+    "used": 232290861056
+  },
+  "logical_cpus": 8,
+  "machine": "arm64",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "python": "3.11.13",
+  "resource_limits": {
+    "RLIMIT_AS": [
+      9223372036854775807,
+      9223372036854775807
+    ],
+    "RLIMIT_CPU": [
+      9223372036854775807,
+      9223372036854775807
+    ],
+    "RLIMIT_NPROC": [
+      2666,
+      4000
+    ],
+    "RLIMIT_RSS": [
+      9223372036854775807,
+      9223372036854775807
+    ]
+  }
+}

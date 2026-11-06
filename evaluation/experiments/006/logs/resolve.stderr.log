@@ -1,0 +1,21 @@
+  × No solution found when resolving dependencies:
+  ╰─▶ Because only the following versions of docling-parse are available:
+          docling-parse<=7.22.2
+          docling-parse==7.22.3
+          docling-parse==7.22.4
+          docling-parse==7.23.0
+          docling-parse==7.23.1
+          docling-parse==7.24.0
+          docling-parse==7.24.1
+          docling-parse==7.24.2
+      and docling-parse>=7.22.2 has no usable wheels, we can conclude that
+      docling-parse>=7.22.2 cannot be used.
+      And because docling-slim[standard]==2.148.0 depends
+      on docling-parse>=7.22.2, we can conclude that
+      docling-slim[standard]==2.148.0 cannot be used.
+      And because docling==2.148.0 depends on docling-slim[standard]==2.148.0
+      and you require docling==2.148.0, we can conclude that your requirements
+      are unsatisfiable.
+
+      hint: Wheels are required for `docling-parse` because building from
+      source is disabled for all packages (i.e., with `--no-build`)

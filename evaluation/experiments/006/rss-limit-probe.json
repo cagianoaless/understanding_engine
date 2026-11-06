@@ -1,0 +1,7 @@
+{
+  "exit_code": 0,
+  "stdout": "{\"RLIMIT_RSS\": 5, \"RLIMIT_AS\": 5, \"requested_cap_bytes\": 4294967296, \"RLIMIT_RSS_before\": [9223372036854775807, 9223372036854775807], \"RLIMIT_RSS_error\": \"ValueError('current limit exceeds maximum limit')\", \"RLIMIT_AS_before\": [9223372036854775807, 9223372036854775807], \"RLIMIT_AS_error\": \"ValueError('current limit exceeds maximum limit')\", \"process_rss_bytes\": 19070976}\n",
+  "stderr": "",
+  "probe_source": "import json,resource\nresult={\"RLIMIT_RSS\":resource.RLIMIT_RSS,\"RLIMIT_AS\":resource.RLIMIT_AS,\"requested_cap_bytes\":4*1024**3}\nfor name in [\"RLIMIT_RSS\",\"RLIMIT_AS\"]:\n key=getattr(resource,name);result[name+\"_before\"]=resource.getrlimit(key)\n try:resource.setrlimit(key,(4*1024**3,4*1024**3));result[name+\"_after\"]=resource.getrlimit(key)\n except (OSError,ValueError) as exc:result[name+\"_error\"]=repr(exc)\nresult[\"process_rss_bytes\"]=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss\nprint(json.dumps(result))\n",
+  "allocation_bytes": 0
+}
