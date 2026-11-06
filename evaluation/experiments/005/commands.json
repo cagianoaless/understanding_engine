@@ -1,0 +1,139 @@
+{
+  "benchmark_template": [
+    ".venv/bin/python",
+    "-B",
+    "evaluation/structure_benchmark.py",
+    "--regions",
+    "50|100|300",
+    "--layout",
+    "single_column|two_column",
+    "--representation",
+    "original|compact"
+  ],
+  "evaluation": {
+    "argv": [
+      ".venv/bin/python",
+      "-B",
+      "evaluation/experiments/005/run.py",
+      "--pdf",
+      "attention=../1706.03762v7.pdf",
+      "--pdf",
+      "bert=/private/tmp/understanding-engine-experiments/m01b-development/1810.04805v2.pdf",
+      "--pdf",
+      "tabpfn_nature_2025=/private/tmp/understanding-engine-experiments/003/s41586-024-08328-6.pdf",
+      "--extraction",
+      "attention=/private/tmp/understanding-engine-m02a/run-001/attention-extraction.json",
+      "--extraction",
+      "bert=/private/tmp/understanding-engine-m02a/run-001/bert-extraction.json",
+      "--extraction",
+      "tabpfn_nature_2025=/private/tmp/understanding-engine-m02a/run-001/tabpfn_nature_2025-extraction.json",
+      "--output-dir",
+      "/private/tmp/understanding-engine-m02b/evaluation-001"
+    ]
+  },
+  "tests": "UV_CACHE_DIR=/private/tmp/understanding-engine-uv-cache UV_PYTHON_INSTALL_DIR=/private/tmp/understanding-engine-python uv run --frozen --offline pytest",
+  "workers": [
+    {
+      "argv": [
+        "/Users/alessandrocagiano/Documents/vibecoding/understanding_engine/.venv/bin/python",
+        "-B",
+        "/Users/alessandrocagiano/Documents/vibecoding/understanding_engine/evaluation/experiments/005/run.py",
+        "--worker",
+        "--engine",
+        "original",
+        "--source",
+        "/private/tmp/understanding-engine-m02a/run-001/attention-extraction.json",
+        "--annotation-index",
+        "0",
+        "--output-dir",
+        "/private/tmp/understanding-engine-m02b/evaluation-001/attention-original"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/Users/alessandrocagiano/Documents/vibecoding/understanding_engine/.venv/bin/python",
+        "-B",
+        "/Users/alessandrocagiano/Documents/vibecoding/understanding_engine/evaluation/experiments/005/run.py",
+        "--worker",
+        "--engine",
+        "proposed",
+        "--source",
+        "/private/tmp/understanding-engine-m02a/run-001/attention-extraction.json",
+        "--annotation-index",
+        "0",
+        "--output-dir",
+        "/private/tmp/understanding-engine-m02b/evaluation-001/attention-proposed"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/Users/alessandrocagiano/Documents/vibecoding/understanding_engine/.venv/bin/python",
+        "-B",
+        "/Users/alessandrocagiano/Documents/vibecoding/understanding_engine/evaluation/experiments/005/run.py",
+        "--worker",
+        "--engine",
+        "original",
+        "--source",
+        "/private/tmp/understanding-engine-m02a/run-001/bert-extraction.json",
+        "--annotation-index",
+        "1",
+        "--output-dir",
+        "/private/tmp/understanding-engine-m02b/evaluation-001/bert-original"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/Users/alessandrocagiano/Documents/vibecoding/understanding_engine/.venv/bin/python",
+        "-B",
+        "/Users/alessandrocagiano/Documents/vibecoding/understanding_engine/evaluation/experiments/005/run.py",
+        "--worker",
+        "--engine",
+        "proposed",
+        "--source",
+        "/private/tmp/understanding-engine-m02a/run-001/bert-extraction.json",
+        "--annotation-index",
+        "1",
+        "--output-dir",
+        "/private/tmp/understanding-engine-m02b/evaluation-001/bert-proposed"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/Users/alessandrocagiano/Documents/vibecoding/understanding_engine/.venv/bin/python",
+        "-B",
+        "/Users/alessandrocagiano/Documents/vibecoding/understanding_engine/evaluation/experiments/005/run.py",
+        "--worker",
+        "--engine",
+        "original",
+        "--source",
+        "/private/tmp/understanding-engine-m02a/run-001/tabpfn_nature_2025-extraction.json",
+        "--annotation-index",
+        "2",
+        "--output-dir",
+        "/private/tmp/understanding-engine-m02b/evaluation-001/tabpfn_nature_2025-original"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "/Users/alessandrocagiano/Documents/vibecoding/understanding_engine/.venv/bin/python",
+        "-B",
+        "/Users/alessandrocagiano/Documents/vibecoding/understanding_engine/evaluation/experiments/005/run.py",
+        "--worker",
+        "--engine",
+        "proposed",
+        "--source",
+        "/private/tmp/understanding-engine-m02a/run-001/tabpfn_nature_2025-extraction.json",
+        "--annotation-index",
+        "2",
+        "--output-dir",
+        "/private/tmp/understanding-engine-m02b/evaluation-001/tabpfn_nature_2025-proposed"
+      ],
+      "exit_code": 0
+    }
+  ]
+}

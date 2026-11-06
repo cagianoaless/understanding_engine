@@ -1,0 +1,246 @@
+{
+  "measurement_stage": "After all paired evaluation workers completed; shared host, no dedicated CPU or timing significance claim",
+  "repository_commit": "c83d08b38157cdfa993acd63862eb16d6b8520e4",
+  "rows": [
+    {
+      "accepted_edges": 1225,
+      "explicit_ambiguities": 0,
+      "layout": "single_column",
+      "original_order_block_sha256": "3eb0e8630fdfdf2a872f765081b017e22559bd3f27f0f545f1a4735d2b0127db",
+      "output_bytes": 308255,
+      "peak_process_rss_bytes": 36175872,
+      "platform": "macOS-26.5.1-arm64-arm-64bit",
+      "python": "3.11.13",
+      "region_count": 50,
+      "repeats": 3,
+      "representation": "original",
+      "scope": "order construction and canonical serialization only; fresh subprocess per row; peak RSS includes imports and all three repetitions, not incremental allocations",
+      "seconds_median": 0.0033338339999318123,
+      "seconds_runs": [
+        0.0033338339999318123,
+        0.003446958027780056,
+        0.003154667094349861
+      ]
+    },
+    {
+      "accepted_edges": 49,
+      "explicit_ambiguities": 0,
+      "layout": "single_column",
+      "original_order_block_sha256": "3eb0e8630fdfdf2a872f765081b017e22559bd3f27f0f545f1a4735d2b0127db",
+      "output_bytes": 12560,
+      "peak_process_rss_bytes": 33865728,
+      "platform": "macOS-26.5.1-arm64-arm-64bit",
+      "python": "3.11.13",
+      "region_count": 50,
+      "repeats": 3,
+      "representation": "compact",
+      "scope": "order construction and canonical serialization only; fresh subprocess per row; peak RSS includes imports and all three repetitions, not incremental allocations",
+      "seconds_median": 0.0005199997685849667,
+      "seconds_runs": [
+        0.0005753342993557453,
+        0.0005199997685849667,
+        0.0004986664280295372
+      ]
+    },
+    {
+      "accepted_edges": 4950,
+      "explicit_ambiguities": 0,
+      "layout": "single_column",
+      "original_order_block_sha256": "3eb0e8630fdfdf2a872f765081b017e22559bd3f27f0f545f1a4735d2b0127db",
+      "output_bytes": 1246455,
+      "peak_process_rss_bytes": 42991616,
+      "platform": "macOS-26.5.1-arm64-arm-64bit",
+      "python": "3.11.13",
+      "region_count": 100,
+      "repeats": 3,
+      "representation": "original",
+      "scope": "order construction and canonical serialization only; fresh subprocess per row; peak RSS includes imports and all three repetitions, not incremental allocations",
+      "seconds_median": 0.012915084138512611,
+      "seconds_runs": [
+        0.012996833771467209,
+        0.012557583395391703,
+        0.012915084138512611
+      ]
+    },
+    {
+      "accepted_edges": 99,
+      "explicit_ambiguities": 0,
+      "layout": "single_column",
+      "original_order_block_sha256": "3eb0e8630fdfdf2a872f765081b017e22559bd3f27f0f545f1a4735d2b0127db",
+      "output_bytes": 25160,
+      "peak_process_rss_bytes": 34111488,
+      "platform": "macOS-26.5.1-arm64-arm-64bit",
+      "python": "3.11.13",
+      "region_count": 100,
+      "repeats": 3,
+      "representation": "compact",
+      "scope": "order construction and canonical serialization only; fresh subprocess per row; peak RSS includes imports and all three repetitions, not incremental allocations",
+      "seconds_median": 0.0018693748861551285,
+      "seconds_runs": [
+        0.0018693748861551285,
+        0.001866040751338005,
+        0.0019269580952823162
+      ]
+    },
+    {
+      "accepted_edges": 44850,
+      "explicit_ambiguities": 0,
+      "layout": "single_column",
+      "original_order_block_sha256": "3eb0e8630fdfdf2a872f765081b017e22559bd3f27f0f545f1a4735d2b0127db",
+      "output_bytes": 11359055,
+      "peak_process_rss_bytes": 132333568,
+      "platform": "macOS-26.5.1-arm64-arm-64bit",
+      "python": "3.11.13",
+      "region_count": 300,
+      "repeats": 3,
+      "representation": "original",
+      "scope": "order construction and canonical serialization only; fresh subprocess per row; peak RSS includes imports and all three repetitions, not incremental allocations",
+      "seconds_median": 0.12140229111537337,
+      "seconds_runs": [
+        0.12140229111537337,
+        0.12261104164645076,
+        0.11780912475660443
+      ]
+    },
+    {
+      "accepted_edges": 299,
+      "explicit_ambiguities": 0,
+      "layout": "single_column",
+      "original_order_block_sha256": "3eb0e8630fdfdf2a872f765081b017e22559bd3f27f0f545f1a4735d2b0127db",
+      "output_bytes": 75959,
+      "peak_process_rss_bytes": 34488320,
+      "platform": "macOS-26.5.1-arm64-arm-64bit",
+      "python": "3.11.13",
+      "region_count": 300,
+      "repeats": 3,
+      "representation": "compact",
+      "scope": "order construction and canonical serialization only; fresh subprocess per row; peak RSS includes imports and all three repetitions, not incremental allocations",
+      "seconds_median": 0.01602841727435589,
+      "seconds_runs": [
+        0.015852584037929773,
+        0.016176708973944187,
+        0.01602841727435589
+      ]
+    },
+    {
+      "accepted_edges": 600,
+      "explicit_ambiguities": 625,
+      "layout": "two_column",
+      "original_order_block_sha256": "3eb0e8630fdfdf2a872f765081b017e22559bd3f27f0f545f1a4735d2b0127db",
+      "output_bytes": 322632,
+      "peak_process_rss_bytes": 36159488,
+      "platform": "macOS-26.5.1-arm64-arm-64bit",
+      "python": "3.11.13",
+      "region_count": 50,
+      "repeats": 3,
+      "representation": "original",
+      "scope": "order construction and canonical serialization only; fresh subprocess per row; peak RSS includes imports and all three repetitions, not incremental allocations",
+      "seconds_median": 0.0036948341876268387,
+      "seconds_runs": [
+        0.0041081253439188,
+        0.0036948341876268387,
+        0.003682082984596491
+      ]
+    },
+    {
+      "accepted_edges": 48,
+      "explicit_ambiguities": 0,
+      "layout": "two_column",
+      "original_order_block_sha256": "3eb0e8630fdfdf2a872f765081b017e22559bd3f27f0f545f1a4735d2b0127db",
+      "output_bytes": 12308,
+      "peak_process_rss_bytes": 34013184,
+      "platform": "macOS-26.5.1-arm64-arm-64bit",
+      "python": "3.11.13",
+      "region_count": 50,
+      "repeats": 3,
+      "representation": "compact",
+      "scope": "order construction and canonical serialization only; fresh subprocess per row; peak RSS includes imports and all three repetitions, not incremental allocations",
+      "seconds_median": 0.00047062523663043976,
+      "seconds_runs": [
+        0.0005019158124923706,
+        0.00047062523663043976,
+        0.000459291972219944
+      ]
+    },
+    {
+      "accepted_edges": 2450,
+      "explicit_ambiguities": 2500,
+      "layout": "two_column",
+      "original_order_block_sha256": "3eb0e8630fdfdf2a872f765081b017e22559bd3f27f0f545f1a4735d2b0127db",
+      "output_bytes": 1303957,
+      "peak_process_rss_bytes": 43581440,
+      "platform": "macOS-26.5.1-arm64-arm-64bit",
+      "python": "3.11.13",
+      "region_count": 100,
+      "repeats": 3,
+      "representation": "original",
+      "scope": "order construction and canonical serialization only; fresh subprocess per row; peak RSS includes imports and all three repetitions, not incremental allocations",
+      "seconds_median": 0.01596041675657034,
+      "seconds_runs": [
+        0.017006124835461378,
+        0.015628499910235405,
+        0.01596041675657034
+      ]
+    },
+    {
+      "accepted_edges": 98,
+      "explicit_ambiguities": 0,
+      "layout": "two_column",
+      "original_order_block_sha256": "3eb0e8630fdfdf2a872f765081b017e22559bd3f27f0f545f1a4735d2b0127db",
+      "output_bytes": 24908,
+      "peak_process_rss_bytes": 34045952,
+      "platform": "macOS-26.5.1-arm64-arm-64bit",
+      "python": "3.11.13",
+      "region_count": 100,
+      "repeats": 3,
+      "representation": "compact",
+      "scope": "order construction and canonical serialization only; fresh subprocess per row; peak RSS includes imports and all three repetitions, not incremental allocations",
+      "seconds_median": 0.0015864577144384384,
+      "seconds_runs": [
+        0.001621707808226347,
+        0.0015864577144384384,
+        0.0015765419229865074
+      ]
+    },
+    {
+      "accepted_edges": 22350,
+      "explicit_ambiguities": 22500,
+      "layout": "two_column",
+      "original_order_block_sha256": "3eb0e8630fdfdf2a872f765081b017e22559bd3f27f0f545f1a4735d2b0127db",
+      "output_bytes": 11876557,
+      "peak_process_rss_bytes": 133873664,
+      "platform": "macOS-26.5.1-arm64-arm-64bit",
+      "python": "3.11.13",
+      "region_count": 300,
+      "repeats": 3,
+      "representation": "original",
+      "scope": "order construction and canonical serialization only; fresh subprocess per row; peak RSS includes imports and all three repetitions, not incremental allocations",
+      "seconds_median": 0.1422644997946918,
+      "seconds_runs": [
+        0.14231291599571705,
+        0.13798883324488997,
+        0.1422644997946918
+      ]
+    },
+    {
+      "accepted_edges": 298,
+      "explicit_ambiguities": 0,
+      "layout": "two_column",
+      "original_order_block_sha256": "3eb0e8630fdfdf2a872f765081b017e22559bd3f27f0f545f1a4735d2b0127db",
+      "output_bytes": 75705,
+      "peak_process_rss_bytes": 34537472,
+      "platform": "macOS-26.5.1-arm64-arm-64bit",
+      "python": "3.11.13",
+      "region_count": 300,
+      "repeats": 3,
+      "representation": "compact",
+      "scope": "order construction and canonical serialization only; fresh subprocess per row; peak RSS includes imports and all three repetitions, not incremental allocations",
+      "seconds_median": 0.01423691725358367,
+      "seconds_runs": [
+        0.01433704188093543,
+        0.01423691725358367,
+        0.014173749834299088
+      ]
+    }
+  ]
+}

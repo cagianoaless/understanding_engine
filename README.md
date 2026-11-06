@@ -134,6 +134,18 @@ Cross-column order is deliberately unresolved. See the
 [structure contract and limitations](docs/structure.md) and the
 [three-page development report](evaluation/experiments/004/report.md).
 
+Milestone 02b provides an opt-in **structure 0.2.0** experiment:
+
+```sh
+uv run --frozen --offline python -m understanding_engine.structure_v2 \
+  /path/to/extraction.json --output-dir output/structure-v2 --pages 4
+```
+
+It adds compact partial-order semantics, gutter-aware fragmentation and
+font-identity heading evidence. The original 0.1 CLI remains available unchanged.
+See [migration and limitations](docs/structure-0.2.md) and the
+[paired development comparison](evaluation/experiments/005/report.md).
+
 ## Known limitations
 
 - Embedded text can be missing, incorrectly mapped, invisible, or out of order.
