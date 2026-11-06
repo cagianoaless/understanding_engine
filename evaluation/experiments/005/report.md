@@ -152,6 +152,9 @@ the timer; parsing/validation of the full cached extraction, page reconstruction
 contract validation and serialization are timed. RSS includes the entire worker,
 imports and scoring. Full cached documents differ in size, so these are not
 isolated per-page throughput measurements. No original PDF parsing is timed.
+Early paired timings also overlapped preliminary benchmark workers on the shared
+host. Treat these as execution records, not causal speedup estimates; the final
+representation-only table was measured after all paired workers completed.
 
 | Document | Seconds, 02a → 02b | Complete JSON bytes, 02a → 02b | Peak worker RSS MiB, 02a → 02b |
 | --- | ---: | ---: | ---: |

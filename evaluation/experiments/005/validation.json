@@ -75,5 +75,6 @@
     "src/understanding_engine/pdf_parser.py": true,
     "src/understanding_engine/schemas/extraction.schema.json": true,
     "uv.lock": true
-  }
+  },
+  "timing_caveat": "Early paired timings overlapped preliminary benchmark workers on a shared host. Single-run execution records are not causal speedup estimates. Final representation-only benchmark ran after paired evaluation completed."
 }
