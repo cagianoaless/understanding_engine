@@ -1,0 +1,90 @@
+{
+  "acquisition_authorized": false,
+  "annotations": {
+    "human_verified_count": 0,
+    "status": "not_created"
+  },
+  "baseline_commit": "ba82b2c7f71604d5bcc2859b1a05de112723107d",
+  "benchmark": {
+    "aggregate_metrics": null,
+    "macro_metrics": null,
+    "per_document": [
+      {
+        "docling": {
+          "metrics": null,
+          "status": "not_run"
+        },
+        "document_id": "attention",
+        "pages": null,
+        "source_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+        "structure_0_2": {
+          "metrics": null,
+          "status": "not_run"
+        }
+      },
+      {
+        "docling": {
+          "metrics": null,
+          "status": "not_run"
+        },
+        "document_id": "bert",
+        "pages": null,
+        "source_sha256": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e",
+        "structure_0_2": {
+          "metrics": null,
+          "status": "not_run"
+        }
+      },
+      {
+        "docling": {
+          "metrics": null,
+          "status": "not_run"
+        },
+        "document_id": "tabpfn_nature_2025",
+        "pages": null,
+        "source_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+        "structure_0_2": {
+          "metrics": null,
+          "status": "not_run"
+        }
+      }
+    ],
+    "reason": "preflight_NO_GO",
+    "status": "not_run"
+  },
+  "blocking_checks": {
+    "cpu_thread_enforcement": "Static API exposes CPU/num_threads=4, but all native/backend pools and effective process-tree CPU usage are unverified without a permitted isolated run.",
+    "installed_cache_budget": "Installed/uncompressed and peak cache usage not established. Compressed wheel bytes are not installed footprint; no installation attempted.",
+    "license_compatibility": "MIT Docling packages and Apache-2.0 model declarations recorded separately. All 103 packages have declarations, including compound/bundled notices; full artifact compatibility clearance stopped at the resource blocker. No incompatibility is asserted.",
+    "offline_and_plugin_isolation": "Static flags and local artifacts_path exist, but offline, no-telemetry and external-plugin isolation have not been execution-verified. No conversion launched.",
+    "page_timeout_enforcement": "No end-to-end external worker timeout guard validated for this candidate; no processed pages.",
+    "process_tree_rss_enforcement": "Exact 4 GiB RLIMIT_RSS and RLIMIT_AS setters both reject the request on this host; both identifiers alias 5. No alternative whole-process-tree hard limiter has been validated."
+  },
+  "candidate_resources": {
+    "effective_cpu_threads": null,
+    "installed_cache_bytes": null,
+    "peak_process_tree_rss_bytes": null,
+    "status": "not_run",
+    "wall_seconds_per_page": null
+  },
+  "decision": "NO_GO",
+  "experiment": "006",
+  "grounding": {
+    "ambiguous": null,
+    "contradictory": null,
+    "missing": null,
+    "status": "not_run",
+    "unassigned": null,
+    "unmapped": null,
+    "valid": null
+  },
+  "known_artifact_bytes": 500726377,
+  "limits": {
+    "cpu_threads": 4,
+    "installed_cache_bytes": 4294967296,
+    "new_download_bytes": 2147483648,
+    "process_tree_rss_bytes": 4294967296,
+    "seconds_per_page": 120
+  },
+  "next_step": "Stop; no candidate installation, weight acquisition, annotations or predictions"
+}

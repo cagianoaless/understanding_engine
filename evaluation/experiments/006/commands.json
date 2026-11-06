@@ -1,0 +1,83 @@
+{
+  "collector_python": "3.11.13",
+  "cross_target_attempt": {
+    "argv": [
+      "uv",
+      "--no-config",
+      "--cache-dir",
+      "/private/tmp/understanding-engine-e006/resolver-cache",
+      "pip",
+      "compile",
+      "/private/tmp/understanding-engine-e006/requirements.in",
+      "--python",
+      "/Users/alessandrocagiano/Documents/vibecoding/understanding_engine/.venv/bin/python",
+      "--python-version",
+      "3.11.13",
+      "--python-platform",
+      "aarch64-apple-darwin",
+      "--only-binary",
+      ":all:",
+      "--generate-hashes",
+      "--default-index",
+      "https://pypi.org/simple",
+      "--exclude-newer",
+      "2026-11-06T00:00:00Z",
+      "--output-file",
+      "/private/tmp/understanding-engine-e006/requirements.lock",
+      "--no-python-downloads"
+    ],
+    "exit_code": 1,
+    "metadata_only": true,
+    "note": "Initial combination of --only-binary and --no-build was rejected by uv before resolution; this command uses the mutually exclusive --only-binary safety policy alone.",
+    "source_builds_allowed": false
+  },
+  "exact_limit_probe": {
+    "allocation_bytes": 0,
+    "exit_code": 0,
+    "probe_source": "import json,resource\nresult={\"RLIMIT_RSS\":resource.RLIMIT_RSS,\"RLIMIT_AS\":resource.RLIMIT_AS,\"requested_cap_bytes\":4*1024**3}\nfor name in [\"RLIMIT_RSS\",\"RLIMIT_AS\"]:\n key=getattr(resource,name);result[name+\"_before\"]=resource.getrlimit(key)\n try:resource.setrlimit(key,(4*1024**3,4*1024**3));result[name+\"_after\"]=resource.getrlimit(key)\n except (OSError,ValueError) as exc:result[name+\"_error\"]=repr(exc)\nresult[\"process_rss_bytes\"]=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss\nprint(json.dumps(result))\n",
+    "stderr": "",
+    "stdout": "{\"RLIMIT_RSS\": 5, \"RLIMIT_AS\": 5, \"requested_cap_bytes\": 4294967296, \"RLIMIT_RSS_before\": [9223372036854775807, 9223372036854775807], \"RLIMIT_RSS_error\": \"ValueError('current limit exceeds maximum limit')\", \"RLIMIT_AS_before\": [9223372036854775807, 9223372036854775807], \"RLIMIT_AS_error\": \"ValueError('current limit exceeds maximum limit')\", \"process_rss_bytes\": 19070976}\n"
+  },
+  "native_target_resolution": {
+    "argv": [
+      "uv",
+      "--no-config",
+      "--cache-dir",
+      "/private/tmp/understanding-engine-e006/resolver-cache",
+      "pip",
+      "compile",
+      "/private/tmp/understanding-engine-e006/requirements.in",
+      "--python",
+      "/Users/alessandrocagiano/Documents/vibecoding/understanding_engine/.venv/bin/python",
+      "--python-version",
+      "3.11.13",
+      "--only-binary",
+      ":all:",
+      "--generate-hashes",
+      "--default-index",
+      "https://pypi.org/simple",
+      "--exclude-newer",
+      "2026-11-06T00:00:00Z",
+      "--output-file",
+      "/private/tmp/understanding-engine-e006/requirements-native.lock",
+      "--no-python-downloads"
+    ],
+    "exit_code": 0,
+    "metadata_only": true,
+    "source_builds_allowed": false,
+    "target": "native macOS 26.5.1 arm64, CPython 3.11.13; no cross-platform compatibility baseline"
+  },
+  "notes": [
+    "The first --only-binary plus --no-build attempt was rejected as mutually exclusive before network resolution. --only-binary alone retains the no-source-build policy.",
+    "The cross-target resolver minimum macOS excluded macOS 14 arm64 wheels; native resolution plus packaging.tags.sys_tags verified compatibility. The initial error is not treated as an incompatibility."
+  ],
+  "resolution_cutoff": "2026-11-06T00:00:00Z",
+  "resolver": "uv 0.7.13",
+  "small_limit_probe": {
+    "exit_code": 1,
+    "probe_source": "import json,resource\ncap=16*1024*1024\nresource.setrlimit(resource.RLIMIT_RSS,(cap,cap))\nallocation=bytearray(64*1024*1024)\nfor i in range(0,len(allocation),4096):allocation[i]=1\npeak=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss\nprint(json.dumps({\"probe_rss_limit_bytes\":cap,\"allocation_bytes\":len(allocation),\"observed_peak_rss_bytes\":peak,\"limit_enforced\":peak<=cap,\"RLIMIT_RSS\":resource.RLIMIT_RSS,\"RLIMIT_AS\":resource.RLIMIT_AS}))\n",
+    "scope": "Bounded 64 MiB synthetic allocation tests OS limit behavior; does not run a model or allocate 4 GiB.",
+    "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 3, in <module>\nValueError: current limit exceeds maximum limit\n",
+    "stdout": ""
+  }
+}

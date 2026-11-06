@@ -1,0 +1,93 @@
+{
+  "actual_benchmark_peak_rss_bytes": null,
+  "actual_installed_bytes": null,
+  "annotation_status": "not_created_phase_1_not_entered",
+  "baseline_commit": "ba82b2c7f71604d5bcc2859b1a05de112723107d",
+  "checks": {
+    "artifact_download_budget": {
+      "reason": "Known selected wheel plus minimal model payload is 500726377 bytes, below 2 GiB. Metadata/wire traffic is reported separately; this is not actual binary download usage.",
+      "status": "pass"
+    },
+    "baseline_integrity": {
+      "reason": "All 139 baseline tracked files protected; validation performed again before publication.",
+      "status": "pass"
+    },
+    "cpu_thread_enforcement": {
+      "reason": "Static API exposes CPU/num_threads=4, but all native/backend pools and effective process-tree CPU usage are unverified without a permitted isolated run.",
+      "status": "unknown"
+    },
+    "dependency_inventory": {
+      "reason": "103 exact versions, compatible selected wheels, bytes, URLs and SHA-256 recorded.",
+      "status": "pass"
+    },
+    "installed_cache_budget": {
+      "reason": "Installed/uncompressed and peak cache usage not established. Compressed wheel bytes are not installed footprint; no installation attempted.",
+      "status": "unknown"
+    },
+    "license_compatibility": {
+      "reason": "MIT Docling packages and Apache-2.0 model declarations recorded separately. All 103 packages have declarations, including compound/bundled notices; full artifact compatibility clearance stopped at the resource blocker. No incompatibility is asserted.",
+      "status": "unknown"
+    },
+    "model_inventory": {
+      "reason": "Heron default transformers path; immutable revision, three inference files and expected weight digest inventoried. Weight bytes are not downloaded/content-verified.",
+      "status": "pass"
+    },
+    "offline_and_plugin_isolation": {
+      "reason": "Static flags and local artifacts_path exist, but offline, no-telemetry and external-plugin isolation have not been execution-verified. No conversion launched.",
+      "status": "unknown"
+    },
+    "package_and_platform": {
+      "reason": "Native CPython 3.11.13/macOS arm64 resolution succeeds for docling==2.148.0 and matching slim standard extra.",
+      "status": "pass"
+    },
+    "page_timeout_enforcement": {
+      "reason": "No end-to-end external worker timeout guard validated for this candidate; no processed pages.",
+      "status": "unknown"
+    },
+    "process_tree_rss_enforcement": {
+      "reason": "Exact 4 GiB RLIMIT_RSS and RLIMIT_AS setters both reject the request on this host; both identifiers alias 5. No alternative whole-process-tree hard limiter has been validated.",
+      "status": "fail"
+    }
+  },
+  "development_documents": [
+    {
+      "document_id": "attention",
+      "sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "source_url": "https://arxiv.org/abs/1706.03762v7"
+    },
+    {
+      "document_id": "bert",
+      "sha256": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e",
+      "source_url": "https://arxiv.org/pdf/1810.04805v2"
+    },
+    {
+      "document_id": "tabpfn_nature_2025",
+      "sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "source_url": "https://www.nature.com/articles/s41586-024-08328-6.pdf"
+    }
+  ],
+  "expected_model_bytes": 171662708,
+  "expected_wheel_bytes": 329063669,
+  "experiment": "006",
+  "hardware": {
+    "free_disk_bytes": 12816334848,
+    "logical_cpus": 8,
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "ram_bytes": 17179869184
+  },
+  "human_verified_count": 0,
+  "installation_attempted": false,
+  "limits": {
+    "cpu_threads": 4,
+    "installed_cache_bytes": 4294967296,
+    "new_download_bytes": 2147483648,
+    "process_tree_rss_bytes": 4294967296,
+    "seconds_per_page": 120
+  },
+  "predictions_generated": false,
+  "preflight_directory_logical_bytes": 52579615,
+  "preflight_resolver_cache_logical_bytes": 48194015,
+  "proposed_pin": "docling==2.148.0",
+  "tested_docling_release": null,
+  "weight_downloads_attempted": false
+}

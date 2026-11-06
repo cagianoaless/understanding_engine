@@ -1,0 +1,62 @@
+{
+  "engine": "transformers",
+  "inference_download_bytes": 171662708,
+  "inventory_scope": "Static source inspection of Docling 2.148.0 and pinned model metadata. No runtime import or inference verified.",
+  "model_files": [
+    {
+      "bytes": 3219,
+      "content_verified": true,
+      "filename": "README.md",
+      "git_blob_sha1": "2c5b32c47fb9789ed49606988f58bc4741a731ab",
+      "license_basis": "README.md at same pinned repository revision; no per-file override listed. Declaration reviewed; legal compatibility approval not asserted.",
+      "license_declaration": "Apache-2.0",
+      "role": "license_declaration",
+      "sha256": "175700839bc7808eac6af1d0c23e4f483606ab2276fe01122f4093e61a1a65b6",
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/README.md"
+    },
+    {
+      "bytes": 3268,
+      "content_verified": true,
+      "filename": "config.json",
+      "git_blob_sha1": "98434d37ace2399b824d685b0795ab7a68e53dd2",
+      "license_basis": "README.md at same pinned repository revision; no per-file override listed. Declaration reviewed; legal compatibility approval not asserted.",
+      "license_declaration": "Apache-2.0",
+      "role": "inference_metadata",
+      "sha256": "fdea30805ce2f5666b147fca941dcdd27ad468e27d6ed21902207d3da056a97d",
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/config.json"
+    },
+    {
+      "bytes": 444,
+      "content_verified": true,
+      "filename": "preprocessor_config.json",
+      "git_blob_sha1": "fcdff16b42e5ebc51d28f59184490c6eff91a88b",
+      "license_basis": "README.md at same pinned repository revision; no per-file override listed. Declaration reviewed; legal compatibility approval not asserted.",
+      "license_declaration": "Apache-2.0",
+      "role": "inference_metadata",
+      "sha256": "cd38cd59999e7a95d68e487fbe5132df3d4e5c32a0836add57e6126ba0c4eaf1",
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/preprocessor_config.json"
+    },
+    {
+      "bytes": 171658996,
+      "content_verified": false,
+      "downloaded": false,
+      "filename": "model.safetensors",
+      "git_blob_sha1": "fdbf7f57ab84ba924eab94530c6cabb0a5d83a5e",
+      "license_basis": "README.md at same pinned repository revision; no per-file override listed. Declaration reviewed; legal compatibility approval not asserted.",
+      "license_declaration": "Apache-2.0",
+      "role": "weights",
+      "sha256": "00333a43451945aaf89db8ca9c0a17e75d1537c17db60fdb91aa95f4c7929e0c",
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/model.safetensors"
+    }
+  ],
+  "repo_id": "docling-project/docling-layout-heron",
+  "required_inference_files": [
+    "config.json",
+    "preprocessor_config.json",
+    "model.safetensors"
+  ],
+  "revision": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8",
+  "standard_preset": "layout_heron_default",
+  "tokenizer_files": [],
+  "weights_downloaded": false
+}

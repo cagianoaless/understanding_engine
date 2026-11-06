@@ -1,0 +1,108 @@
+{
+  "artifacts_path": "isolated approved local artifact directory; offline behavior not executed",
+  "compile_model": false,
+  "deprecated_api": "LayoutOptions remains a compatibility shim; do not mistake it for the default modern path",
+  "device": "AcceleratorDevice.CPU",
+  "docling_slim_pin": "docling-slim[standard]==2.148.0",
+  "flags_to_disable": [
+    "do_ocr",
+    "do_table_structure",
+    "do_code_enrichment",
+    "do_formula_enrichment",
+    "do_picture_classification",
+    "do_picture_description",
+    "do_chart_extraction",
+    "enable_remote_services",
+    "allow_external_plugins"
+  ],
+  "minimal_model_metadata": "model-inventory.json",
+  "model_output_grounding": "Inspected engine emits labels/scores/bboxes, not Understanding Engine character IDs. A crosswalk remains unimplemented/unmeasured.",
+  "num_threads": 4,
+  "package_pin": "docling==2.148.0",
+  "page_selection": "DocumentConverter.convert has page_range; no derivative PDF is currently required or created",
+  "review_type": "static_source_only; runtime configuration not instantiated",
+  "source_commit": "0fa0918d16de7769d942f9b06ca18cb673cbbc2e",
+  "source_files": [
+    {
+      "bytes": 98898,
+      "file": "pipeline_options.py",
+      "git_blob_sha1": "079239107b5f2e50e072c14977088549cc7b472d",
+      "git_blob_verified": true,
+      "sha256": "be4c4c16392e9395e0132de92de0fb19a618e8601d2882b26938b251fd62289f",
+      "url": "https://raw.githubusercontent.com/docling-project/docling/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/docling/datamodel/pipeline_options.py"
+    },
+    {
+      "bytes": 57578,
+      "file": "standard_pdf_pipeline.py",
+      "git_blob_sha1": "25dd728fef09fedd59f01f734f3d6f88728c9ebc",
+      "git_blob_verified": true,
+      "sha256": "bbc3e48b35eebe7274e1a89bf577507af750ab440eb0775fb1b001ef4b99470b",
+      "url": "https://raw.githubusercontent.com/docling-project/docling/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/docling/pipeline/standard_pdf_pipeline.py"
+    },
+    {
+      "bytes": 84844,
+      "file": "stage_model_specs.py",
+      "git_blob_sha1": "d9531eff8e335da79e6c1051997e42ff5b86c08e",
+      "git_blob_verified": true,
+      "sha256": "8823e0b466150e3931d0330a2737c8d06f82663c5a7525007aea335421ed0477",
+      "url": "https://raw.githubusercontent.com/docling-project/docling/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/docling/datamodel/stage_model_specs.py"
+    },
+    {
+      "bytes": 4208,
+      "file": "accelerator_options.py",
+      "git_blob_sha1": "a67a24491673cbf4b9f7ca7c8cafcfb2489ba85f",
+      "git_blob_verified": true,
+      "sha256": "efb8cfe6fda4aa65db661a462ab208bdca04fb5cedc06c69249248a986730311",
+      "url": "https://raw.githubusercontent.com/docling-project/docling/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/docling/datamodel/accelerator_options.py"
+    },
+    {
+      "bytes": 2590,
+      "file": "object_detection_engine_options.py",
+      "git_blob_sha1": "1e4614c1ce487bf4b52358f69ffecd0d8fc05b5e",
+      "git_blob_verified": true,
+      "sha256": "f60363279eea297aad347090dea2d5181552d1966fe0ddb5cbb5086b939eff8f",
+      "url": "https://raw.githubusercontent.com/docling-project/docling/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/docling/datamodel/object_detection_engine_options.py"
+    },
+    {
+      "bytes": 6997,
+      "file": "layout_object_detection_model.py",
+      "git_blob_sha1": "9a8a3b5e6842989f449f6d5b64dca44a89c02648",
+      "git_blob_verified": true,
+      "sha256": "e724cb26c44c9f8fbe7bf42f3562889f7dbc432882146b04ef436fbf22bfa07e",
+      "url": "https://raw.githubusercontent.com/docling-project/docling/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/docling/models/stages/layout/layout_object_detection_model.py"
+    },
+    {
+      "bytes": 9591,
+      "file": "transformers_engine.py",
+      "git_blob_sha1": "bc13efa9f9cb292c093d21d2fa63e68c8498a3a1",
+      "git_blob_verified": true,
+      "sha256": "f2f5390360f1b87ad98d336b0a80935de686b1a5d071b2c48da4000ac6ef4144",
+      "url": "https://raw.githubusercontent.com/docling-project/docling/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/docling/models/inference_engines/object_detection/transformers_engine.py"
+    },
+    {
+      "bytes": 2586,
+      "file": "hf_base.py",
+      "git_blob_sha1": "02d3b3fe9fa698415a99bbbeca946171c4d730bb",
+      "git_blob_verified": true,
+      "sha256": "e2697fd22768bdd5e4b6060da98a1f3cbb08b98eff441e744124cec48af6a0b8",
+      "url": "https://raw.githubusercontent.com/docling-project/docling/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/docling/models/inference_engines/object_detection/hf_base.py"
+    },
+    {
+      "bytes": 4165,
+      "file": "factory.py",
+      "git_blob_sha1": "f5114d7c0aca626bdd0f904a3b0742b63f1b104f",
+      "git_blob_verified": true,
+      "sha256": "f737787d414dbd051ee4433400f5b45707247c60608084acd5f43b155d5385d4",
+      "url": "https://raw.githubusercontent.com/docling-project/docling/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/docling/models/inference_engines/object_detection/factory.py"
+    },
+    {
+      "bytes": 41664,
+      "file": "document_converter.py",
+      "git_blob_sha1": "753166a88fd828afea2a368c6a18a2478ca7341a",
+      "git_blob_verified": true,
+      "sha256": "961374a1877313c5896c397efc88865f8d8c9e7a0840c76492bc520f3625fa2d",
+      "url": "https://raw.githubusercontent.com/docling-project/docling/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/docling/document_converter.py"
+    }
+  ],
+  "standard_layout": "LayoutObjectDetectionOptions, layout_heron_default, transformers engine"
+}
