@@ -145,7 +145,14 @@
   "candidate_installed": false,
   "decision_replay": "preflight.py exits 3 with NO_GO; all benchmark/grounding metrics not_run",
   "github_ci": {
-    "status": "pending_new_pr"
+    "commit": "fcc046e970e9bf462e6273b0c74c4e7f62f7e694",
+    "failed": 0,
+    "passed": 206,
+    "python": "3.11.13",
+    "runner": "ubuntu-24.04",
+    "skipped": 0,
+    "status": "success",
+    "url": "https://github.com/cagianoaless/understanding_engine/actions/runs/42210127918"
   },
   "local_tests": {
     "command": "UV_CACHE_DIR=/private/tmp/understanding-engine-uv-cache UV_PYTHON_INSTALL_DIR=/private/tmp/understanding-engine-python uv run --frozen --offline pytest",
@@ -153,7 +160,7 @@
     "passed": 206,
     "pytest": "8.4.2",
     "python": "3.11.13",
-    "seconds": 12.87,
+    "seconds": 12.85,
     "skipped": 0
   },
   "normal_environment_has_no_docling_torch_transformers": true,

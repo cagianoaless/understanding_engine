@@ -91,8 +91,11 @@ source/model identity accounting, collector-error interpretation and preservatio
 of previous audit output, without neural imports/downloads. Coordinate/model-
 adapter and candidate resource-runner tests are **deferred with Phase 2**, not
 invented for an unexecuted implementation. The full existing suite and unchanged
-GitHub CI run for this branch; test results are in [validation.json](validation.json)
-and the PR.
+GitHub CI pass **206 tests**, zero failures/skips: local Python 3.11.13/pytest
+8.4.2, 12.85 seconds, and [Ubuntu 24.04/Python 3.11.13 CI](https://github.com/cagianoaless/understanding_engine/actions/runs/42210127918).
+All 171 existing tests pass with 35 new preflight cases. Final metadata revisions
+also trigger the unchanged workflow. Details are in [validation.json](validation.json)
+and [PR #7](https://github.com/cagianoaless/understanding_engine/pull/7).
 
 All 139 baseline tracked files, including the parser, Structure 0.1/0.2, schemas,
 production dependencies/lockfile, Experiments 001–005 and held-out manifest,
