@@ -1,0 +1,84 @@
+{
+  "coordinates": {
+    "docling_adapter": "Docling bottom-left boxes -> [left,H-top,right,H-bottom] with original page height; top-left boxes unchanged. Check page dimensions, crop/rotation and UserUnit explicitly; fail sample if ambiguous transformation.",
+    "native": "pdfplumber extraction bbox [x0, top, x1, bottom], PDF points, origin page top-left. Original page geometry retained in page_geometry.json. No normalized coordinates.",
+    "review_raster": "Verified pages only: rotation=0, UserUnit=1, media=crop=bbox=[0,0,W,H]; actual raster Wpx/W and Hpx/H independently, not assumed 1.5 after rounding."
+  },
+  "docling_version": "2.148.0",
+  "experiment": "006b",
+  "gates": {
+    "accounting": "Include base-image pulls/layers + all Linux cp311 wheels, model/config and metadata under 2GiB new downloads and 4GiB installed/cache. Never reuse macOS wheel resolution. Linux closure/license review occurs only after actual architecture/runtime established. No image/model install if feasibility/control enforcement unproven.",
+    "controls": "Before Docling install: disposable model-free container reads actual cgroup memory.max <=4GiB, memory.swap.max=0, cpu.max <=4 cores; demonstrate child-inclusive memory enforcement, observed CPU quota, external timeout whole-tree/container termination and bounded disk/download accounting. Config flags alone are not proof.",
+    "on_failure": "Stop at first unmet prerequisite. C/D not_run, comparative metrics null, no model-memory/accuracy conclusions. Preserve freeze and independent review package.",
+    "runtime": "Already available local Docker/Podman Linux runtime only; no daemon start, runtime install, remote host, privilege elevation or settings changes. No GPU, host network, socket/secret mounts, privileged mode or network in inference. Prefer native arm64."
+  },
+  "heron_inventory": "../006/model-inventory.json",
+  "heron_revision": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8",
+  "limits": {
+    "container_memory_bytes": 4294967296,
+    "cpu_quota_cores": 4,
+    "effective_inference_threads": 4,
+    "installed_cache_bytes": 4294967296,
+    "new_download_bytes": 2147483648,
+    "seconds_per_page": 120,
+    "swap_bytes": 0
+  },
+  "metrics": {
+    "aggregation": "Per-page, per-document and per-layout raw TP/FP/FN and counts. Per-document macro scores separate from micro. Failed/timed-out pages remain all-six-page denominator with full truth FN, no fabricated successful predictions; unsupported metrics null plus counts and reasons. Agent-only versus human references never pooled.",
+    "classification": "Coarse mapped types on matched boxes plus unmatched boxes as FP/FN; heading and caption end-to-end P/R/F1, confusion matrix and false headings on math category. One ambiguous table-note type excluded ONLY from type denominator; localization kept.",
+    "order": "Enumerated known ordered region pairs only. Match localization endpoints; unmatched endpoints count unscoreable failures in denominator. Strict DAG reachability in Structure0.2, Docling document item order where exposed; classify correct/inversion/abstention/unscoreable. An ambiguous or cyclic relation never earns correct. Ambiguity groups not expanded into asserted orders.",
+    "paragraph": "Each frozen decision references two original source-character sets inside visual line strips. Assign each strip to unique predicted text region covering >=50% of its source-character centers; ties ambiguous. Same region means join, distinct means break. Unmapped/ambiguous counts unscoreable in full denominator. Report join/break confusion, accuracy and coverage.",
+    "region_localization": "One-to-one greedy matching at IoU >= 0.5, ignore type; sort descending IoU then frozen truth ID then stable prediction ID. Prediction eligible when center lies in any page window, counted once. All truth regions in windows. Duplicates/unmatched predictions FP; unmatched truth FN. Panel granularity fixed; no enclosing-figure substitution.",
+    "resources": "Per page external wall timeout <=120s, cgroup memory.peak incl children, memory.events/OOM, swap and cpu.stat; CPU quota and effective native pools <=4. Cold initialization and warm inference separately; installed logical/uncompressed, physical allocated and layer/cache peaks separate from compressed downloads. Output bytes and source adapter time separately.",
+    "source_grounding": "For each prediction retain original geometry/label, map original character centers inside bbox to original IDs, preserve Unicode/order. Unique ownership valid; overlaps many-to-many/ambiguous, missing/unmapped/contradictory explicit. Figure with no text legitimately empty, not fabricated. Compare content only separately; no normalization or semantic/Unicode repair. Native model text is never authoritative."
+  },
+  "model_options": {
+    "chart_enrichment": false,
+    "device": "cpu",
+    "external_plugins": false,
+    "formula": false,
+    "inference_engine": "transformers",
+    "layout_preset": "layout_heron_default",
+    "ocr": false,
+    "offline_inference": true,
+    "picture_classification": false,
+    "picture_description": false,
+    "remote_services": false,
+    "tables": false,
+    "telemetry": false
+  },
+  "parent_commit": "0cebd59980b156499a60aee24d625f9203676cf8",
+  "parent_pr": 7,
+  "schema_version": "006b.plan.1",
+  "stage_order": [
+    "A_frozen_annotations_and_review_pack",
+    "B_existing_linux_runtime_and_model_free_gates",
+    "C_bounded_install_and_offline_smoke",
+    "D_comparison"
+  ],
+  "structure_baseline_commit": "ba82b2c7f71604d5bcc2859b1a05de112723107d",
+  "type_mapping": {
+    "docling": {
+      "caption": "caption",
+      "footnote": "footnote",
+      "formula": "equation",
+      "list_item": "text",
+      "other": "unknown",
+      "page_footer": "furniture",
+      "page_header": "furniture",
+      "picture": "figure",
+      "reference": "reference",
+      "section_header": "heading",
+      "table": "table",
+      "text": "text",
+      "title": "heading"
+    },
+    "reference_scoring": "reference and text are one coarse text class for classification; reference category still reported separately",
+    "structure_0_2": {
+      "heading": "heading",
+      "paragraph": "text",
+      "unknown": "unknown"
+    },
+    "unknown_policy": "Unknown labels retained as unknown, never discarded or silently reclassified. Figures cannot be inferred from text on the baseline."
+  }
+}

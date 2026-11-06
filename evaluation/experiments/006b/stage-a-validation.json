@@ -1,0 +1,27 @@
+{
+  "stage": "A",
+  "status": "complete",
+  "annotations": "agent_visual_checked",
+  "human_verified_count": 0,
+  "raw_pages_inspected": 6,
+  "overlays_inspected": 6,
+  "regions": 48,
+  "known_order_pairs": 24,
+  "paragraph_decisions": 18,
+  "source_probe_integrity": "18/18",
+  "review_zip_sha256": "b1ed02b722fb73e8c0dce480403c95a74a4b414e207663e2d645fba7c6552ab6",
+  "review_zip_bytes": 4744612,
+  "independent_rebuild_byte_identical": true,
+  "focused_offline_tests": {
+    "passed": 19,
+    "failed": 0
+  },
+  "runtime_checks_before_freeze": 0,
+  "candidate_predictions_before_freeze": 0,
+  "test_command": "UV_CACHE_DIR=/private/tmp/understanding-engine-uv-cache uv run --frozen --offline pytest tests/test_experiment006b.py -q",
+  "preparation_failures_resolved_before_freeze": [
+    "Review builder initially used unsupported PdfPage context-manager protocol; replaced with explicit close before successful rebuild.",
+    "Source-coordinate probes and boxes corrected against raw pages before freeze. No candidate predictions used.",
+    "uv default-cache access denied; rerun used writable temporary cache with identical frozen offline dependencies."
+  ]
+}

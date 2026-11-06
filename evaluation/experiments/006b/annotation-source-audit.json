@@ -1,0 +1,168 @@
+{
+  "basis": "Original cached extraction character geometry, not either candidate structure output",
+  "verification": "agent_visual_checked",
+  "paragraph_source_audit": [
+    {
+      "decision_id": "attention-p06:p1",
+      "source_ids_exist": true,
+      "reference_owners": [
+        "attention-p06:r4",
+        "attention-p06:r4"
+      ],
+      "same_paragraph": true
+    },
+    {
+      "decision_id": "attention-p06:p2",
+      "source_ids_exist": true,
+      "reference_owners": [
+        "attention-p06:r4",
+        "attention-p06:r5"
+      ],
+      "same_paragraph": false
+    },
+    {
+      "decision_id": "attention-p06:p3",
+      "source_ids_exist": true,
+      "reference_owners": [
+        "attention-p06:r8",
+        "attention-p06:r8"
+      ],
+      "same_paragraph": true
+    },
+    {
+      "decision_id": "attention-p09:p1",
+      "source_ids_exist": true,
+      "reference_owners": [
+        "attention-p09:r3",
+        "attention-p09:r3"
+      ],
+      "same_paragraph": true
+    },
+    {
+      "decision_id": "attention-p09:p2",
+      "source_ids_exist": true,
+      "reference_owners": [
+        "attention-p09:r3",
+        "attention-p09:r4"
+      ],
+      "same_paragraph": false
+    },
+    {
+      "decision_id": "attention-p09:p3",
+      "source_ids_exist": true,
+      "reference_owners": [
+        "attention-p09:r4",
+        "attention-p09:r4"
+      ],
+      "same_paragraph": true
+    },
+    {
+      "decision_id": "attention-p09:p4",
+      "source_ids_exist": true,
+      "reference_owners": [
+        "attention-p09:r4",
+        "attention-p09:r5"
+      ],
+      "same_paragraph": false
+    },
+    {
+      "decision_id": "bert-p06:p1",
+      "source_ids_exist": true,
+      "reference_owners": [
+        "bert-p06:r3",
+        "bert-p06:r3"
+      ],
+      "same_paragraph": true
+    },
+    {
+      "decision_id": "bert-p06:p2",
+      "source_ids_exist": true,
+      "reference_owners": [
+        "bert-p06:r3",
+        "bert-p06:r4"
+      ],
+      "same_paragraph": false
+    },
+    {
+      "decision_id": "bert-p06:p3",
+      "source_ids_exist": true,
+      "reference_owners": [
+        "bert-p06:r5",
+        "bert-p06:r5"
+      ],
+      "same_paragraph": true
+    },
+    {
+      "decision_id": "bert-p06:p4",
+      "source_ids_exist": true,
+      "reference_owners": [
+        "bert-p06:r10",
+        "bert-p06:r10"
+      ],
+      "same_paragraph": true
+    },
+    {
+      "decision_id": "bert-p10:p1",
+      "source_ids_exist": true,
+      "reference_owners": [
+        "bert-p10:r2",
+        "bert-p10:r2"
+      ],
+      "same_paragraph": true
+    },
+    {
+      "decision_id": "bert-p10:p2",
+      "source_ids_exist": true,
+      "reference_owners": [
+        "bert-p10:r2",
+        "bert-p10:r3"
+      ],
+      "same_paragraph": false
+    },
+    {
+      "decision_id": "bert-p10:p3",
+      "source_ids_exist": true,
+      "reference_owners": [
+        "bert-p10:r6",
+        "bert-p10:r6"
+      ],
+      "same_paragraph": true
+    },
+    {
+      "decision_id": "bert-p10:p4",
+      "source_ids_exist": true,
+      "reference_owners": [
+        "bert-p10:r7",
+        "bert-p10:r8"
+      ],
+      "same_paragraph": false
+    },
+    {
+      "decision_id": "tabpfn_nature_2025-p15:p1",
+      "source_ids_exist": true,
+      "reference_owners": [
+        "tabpfn_nature_2025-p15:r5",
+        "tabpfn_nature_2025-p15:r5"
+      ],
+      "same_paragraph": true
+    },
+    {
+      "decision_id": "tabpfn_nature_2025-p15:p2",
+      "source_ids_exist": true,
+      "reference_owners": [
+        "tabpfn_nature_2025-p15:r6",
+        "tabpfn_nature_2025-p15:r6"
+      ],
+      "same_paragraph": true
+    },
+    {
+      "decision_id": "tabpfn_nature_2025-p19:p1",
+      "source_ids_exist": true,
+      "reference_owners": [
+        "tabpfn_nature_2025-p19:r3",
+        "tabpfn_nature_2025-p19:r3"
+      ],
+      "same_paragraph": true
+    }
+  ]
+}

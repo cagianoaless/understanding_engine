@@ -1,0 +1,169 @@
+{
+  "archive": "/private/tmp/understanding-engine-e006b/human-review-v1-final.zip",
+  "bytes": 4744612,
+  "sha256": "b1ed02b722fb73e8c0dce480403c95a74a4b414e207663e2d645fba7c6552ab6",
+  "files": [
+    {
+      "path": "annotations.json",
+      "bytes": 231292,
+      "sha256": "779b5a6b05d3d53729000ce98fb03791edc84b2f118cb5857a85b17ef01e60d5"
+    },
+    {
+      "path": "crops/attention-p06-w1.png",
+      "bytes": 41262,
+      "sha256": "a6082c993317ed8fe4173f6c59767c4f5b290eee88199cd751a6a9f8305d8cc1"
+    },
+    {
+      "path": "crops/attention-p06-w2.png",
+      "bytes": 80299,
+      "sha256": "def43d5d84ec65e09f7b3df80748a4b351bc9950393a04245be6fb31496430ba"
+    },
+    {
+      "path": "crops/attention-p06-w3.png",
+      "bytes": 32897,
+      "sha256": "f98f4b2c983709638069b5c035f481a52a0758f6d93172b37f2189a903c181e7"
+    },
+    {
+      "path": "crops/attention-p09-w1.png",
+      "bytes": 74949,
+      "sha256": "3d300ca6204c55cdff5e851438d6377e7aca8281118af36c9a9e7af81663f9b0"
+    },
+    {
+      "path": "crops/attention-p09-w2.png",
+      "bytes": 67657,
+      "sha256": "0133c54f15f75d8d5bcceca6cb7481affbd42723490ccfca41ca7aa2fdf2dcf9"
+    },
+    {
+      "path": "crops/attention-p09-w3.png",
+      "bytes": 64056,
+      "sha256": "a2c1b40076e1d0da102c43fc0a04e2103cdc5ff643c334e26e77afbdf27f3a61"
+    },
+    {
+      "path": "crops/bert-p06-w1.png",
+      "bytes": 80134,
+      "sha256": "f521e749757322d58dc88ef6c1327952c431d620ab33fa66b1ef49cd6dd3ea9e"
+    },
+    {
+      "path": "crops/bert-p06-w2.png",
+      "bytes": 110459,
+      "sha256": "b406705206daf98b315ba911438dae2c030274ea5f1ec969f7f8327be53ebd81"
+    },
+    {
+      "path": "crops/bert-p06-w3.png",
+      "bytes": 32979,
+      "sha256": "3c54e803638c37b6f11b100ae429b00bce90f3c5213c9d655e01e658c47e25cd"
+    },
+    {
+      "path": "crops/bert-p06-w4.png",
+      "bytes": 75879,
+      "sha256": "d51829e5021b8c24d74ef587832ed439af979d8a051032944078c447beb0788b"
+    },
+    {
+      "path": "crops/bert-p06-w5.png",
+      "bytes": 8133,
+      "sha256": "2365fe69574aa47b541daaab51b87319df3e935ed1929991842ad4a00b1b8540"
+    },
+    {
+      "path": "crops/bert-p10-w1.png",
+      "bytes": 66561,
+      "sha256": "83aeb1227ae54b0f60d419a890fcdf689b509c68f2a6a6d70381f2ecbc35dd01"
+    },
+    {
+      "path": "crops/bert-p10-w2.png",
+      "bytes": 90232,
+      "sha256": "552e6fe019e45b10c5ab2a84a8544cb6b3ab59c8113e054004855ee7e5bbf13c"
+    },
+    {
+      "path": "crops/tabpfn_nature_2025-p15-w1.png",
+      "bytes": 206155,
+      "sha256": "b5765213895cfbb0fb31018de56ad1aa0f7a251557210918ab7bce3f962e213d"
+    },
+    {
+      "path": "crops/tabpfn_nature_2025-p19-w1.png",
+      "bytes": 312676,
+      "sha256": "4a47e21b1f5bed5c3c9609b74a1a541320f4aea952bbedf75649a8fbde96981b"
+    },
+    {
+      "path": "human-review-form.json",
+      "bytes": 15764,
+      "sha256": "3d17188a35b7d1905c9bf82911cfa637c95383e67d61107520943b14a474c9c5"
+    },
+    {
+      "path": "overlays/attention-p06.png",
+      "bytes": 263640,
+      "sha256": "50ca70fa0dffa988a0744b1bb5b6f7fe75c35fc63dd7ca7daf80ab62a5ec22ba"
+    },
+    {
+      "path": "overlays/attention-p09.png",
+      "bytes": 239744,
+      "sha256": "49c885b24b56aebef06da2427099253696a2c8f3a94bcd1a9e5cbf0bb0660e4c"
+    },
+    {
+      "path": "overlays/bert-p06.png",
+      "bytes": 408434,
+      "sha256": "a1cae5057e5290a17a0078127763a42d174fb593989d02613b17186b7f91619c"
+    },
+    {
+      "path": "overlays/bert-p10.png",
+      "bytes": 434991,
+      "sha256": "0bed42e651b7c7254223ab3b08bd4574e3ffb53badbb6947284cd6e410c47f34"
+    },
+    {
+      "path": "overlays/tabpfn_nature_2025-p15.png",
+      "bytes": 208348,
+      "sha256": "e00b12991466d8148765671c8f247d1b28239dc2233c0d83fbfccc705584f607"
+    },
+    {
+      "path": "overlays/tabpfn_nature_2025-p19.png",
+      "bytes": 319576,
+      "sha256": "4f667992c047238191abe9d3d972e13f0f0ab52d465093f8801c82c3badae8b6"
+    },
+    {
+      "path": "page_geometry.json",
+      "bytes": 3473,
+      "sha256": "08c5f59c3ce9e096517de8758a401735ae0117246946c658724eab386ccef7bf"
+    },
+    {
+      "path": "plan.json",
+      "bytes": 6417,
+      "sha256": "4e175a303b7b92889c1f47c629b1814e409b19bae0049d1cae0103757d5b6b1b"
+    },
+    {
+      "path": "raw/attention-p06.png",
+      "bytes": 272362,
+      "sha256": "3e7c8dceb0e376b9b261a103a333720391747ce357c1cd83b1e716e8c27fcb56"
+    },
+    {
+      "path": "raw/attention-p09.png",
+      "bytes": 253622,
+      "sha256": "564cd548228f86ee4b414d530f68b10a5312b2cd8f5fdf3e7b0d5047fc113612"
+    },
+    {
+      "path": "raw/bert-p06.png",
+      "bytes": 410584,
+      "sha256": "f7a21a7a7590d17b6cb12a2628e6e7394f62bbce56718baa37f0813bf173cc25"
+    },
+    {
+      "path": "raw/bert-p10.png",
+      "bytes": 442151,
+      "sha256": "29e009c11afb5f70ad334fec38e4b9f48be9d39f18c82daa5027db495e7e0fd5"
+    },
+    {
+      "path": "raw/tabpfn_nature_2025-p15.png",
+      "bytes": 213281,
+      "sha256": "5e0f22bf3afe115a20f5cfefa168ecfd88fba72aeaf8b5db7706f066ab188924"
+    },
+    {
+      "path": "raw/tabpfn_nature_2025-p19.png",
+      "bytes": 323185,
+      "sha256": "80b9f2f56fff787b0cedd5bcb7b51f412f25741c7579c743f5919e9f5c3e4201"
+    },
+    {
+      "path": "review_protocol.md",
+      "bytes": 2807,
+      "sha256": "3c015122dfa6724eb26c97e66748755e857ff2d3873a267276766b3832b55794"
+    }
+  ],
+  "verification": "agent_visual_checked",
+  "human_review": "pending"
+}
