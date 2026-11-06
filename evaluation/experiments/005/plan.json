@@ -1,0 +1,23 @@
+{
+  "annotations_sha256": "8add8847a4576d66585a27121800ddc342ca6df68129e94fdabf71ac5c9f0bd2",
+  "baseline_commit": "af590135a81ac3f76508d9b81f0389ea54d1b74e",
+  "candidate_count": 1,
+  "configuration_sha256": "bb1568311391cc842210799310fae5c5524ec89254b3e4f8b849ee4b044fa1d3",
+  "evaluation_not_yet_run": true,
+  "metrics": "Unmodified Experiment 004 scorer; additional end-to-end heading TP/FP/FN; unknown/missing output kept in denominators. Greedy IoU matching, not optimal assignment.",
+  "no_post_evaluation_tuning": true,
+  "performance": "Order benchmark: 3 repetitions in fresh subprocess per size/layout/representation. Real evaluation: 1 run per engine/document in fresh worker; no timing significance claims.",
+  "training_pages": {
+    "attention": [
+      3
+    ],
+    "bert": [
+      3
+    ],
+    "tabpfn_nature_2025": [
+      2
+    ]
+  },
+  "training_review": "Attention prose/headings largely coherent. BERT main headings recovered but subscript lines fragmented and diagram labels yield false headings. Nature prose split by small indents and superscripts; image/table roles unresolved. No empirical threshold grid; one synthetic-informed configuration.",
+  "worker_timeout_seconds": 300
+}

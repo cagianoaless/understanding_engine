@@ -1,0 +1,14 @@
+{
+  "gutter_min_side_fraction": 0.15,
+  "gutter_min_support": 3,
+  "gutter_split_gap_em": 0.5,
+  "heading_isolation_em": 0.3,
+  "heading_max_characters": 100,
+  "heading_rare_style_fraction": 0.35,
+  "heading_size_ratio": 1.12,
+  "heading_style_fraction": 0.8,
+  "line_gap_em": 1.2,
+  "paragraph_gap_em": 0.45,
+  "paragraph_indent_em": 0.9,
+  "row_overlap": 0.5
+}
