@@ -1,0 +1,614 @@
+{
+  "annotation_revision": 1,
+  "instructions": "Actual independent human: inspect raw pages first, then boxes/relations; fill name and each decision. Corrections must be a new version, never mutate the frozen revision. An agent may not submit this as human review.",
+  "pages": [
+    {
+      "ambiguity_comments": null,
+      "order_decisions": [
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "attention-p06:o1"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "attention-p06:o2"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "attention-p06:o3"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "attention-p06:o4"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "attention-p06:o5"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "attention-p06:o6"
+        }
+      ],
+      "page_id": "attention-p06",
+      "paragraph_decisions": [
+        {
+          "comment": null,
+          "decision": "pending",
+          "decision_id": "attention-p06:p1"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "decision_id": "attention-p06:p2"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "decision_id": "attention-p06:p3"
+        }
+      ],
+      "region_decisions": [
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "attention-p06:r1"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "attention-p06:r2"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "attention-p06:r3"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "attention-p06:r4"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "attention-p06:r5"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "attention-p06:r6"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "attention-p06:r7"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "attention-p06:r8"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "attention-p06:r9"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "attention-p06:r10"
+        }
+      ]
+    },
+    {
+      "ambiguity_comments": null,
+      "order_decisions": [
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "attention-p09:o1"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "attention-p09:o2"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "attention-p09:o3"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "attention-p09:o4"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "attention-p09:o5"
+        }
+      ],
+      "page_id": "attention-p09",
+      "paragraph_decisions": [
+        {
+          "comment": null,
+          "decision": "pending",
+          "decision_id": "attention-p09:p1"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "decision_id": "attention-p09:p2"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "decision_id": "attention-p09:p3"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "decision_id": "attention-p09:p4"
+        }
+      ],
+      "region_decisions": [
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "attention-p09:r1"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "attention-p09:r2"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "attention-p09:r3"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "attention-p09:r4"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "attention-p09:r5"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "attention-p09:r6"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "attention-p09:r7"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "attention-p09:r8"
+        }
+      ]
+    },
+    {
+      "ambiguity_comments": null,
+      "order_decisions": [
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "bert-p06:o1"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "bert-p06:o2"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "bert-p06:o3"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "bert-p06:o4"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "bert-p06:o5"
+        }
+      ],
+      "page_id": "bert-p06",
+      "paragraph_decisions": [
+        {
+          "comment": null,
+          "decision": "pending",
+          "decision_id": "bert-p06:p1"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "decision_id": "bert-p06:p2"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "decision_id": "bert-p06:p3"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "decision_id": "bert-p06:p4"
+        }
+      ],
+      "region_decisions": [
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "bert-p06:r1"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "bert-p06:r2"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "bert-p06:r3"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "bert-p06:r4"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "bert-p06:r5"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "bert-p06:r6"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "bert-p06:r7"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "bert-p06:r8"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "bert-p06:r9"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "bert-p06:r10"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "bert-p06:r11"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "bert-p06:r12"
+        }
+      ]
+    },
+    {
+      "ambiguity_comments": null,
+      "order_decisions": [
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "bert-p10:o1"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "bert-p10:o2"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "bert-p10:o3"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "bert-p10:o4"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "bert-p10:o5"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "bert-p10:o6"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "bert-p10:o7"
+        }
+      ],
+      "page_id": "bert-p10",
+      "paragraph_decisions": [
+        {
+          "comment": null,
+          "decision": "pending",
+          "decision_id": "bert-p10:p1"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "decision_id": "bert-p10:p2"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "decision_id": "bert-p10:p3"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "decision_id": "bert-p10:p4"
+        }
+      ],
+      "region_decisions": [
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "bert-p10:r1"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "bert-p10:r2"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "bert-p10:r3"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "bert-p10:r4"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "bert-p10:r5"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "bert-p10:r6"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "bert-p10:r7"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "bert-p10:r8"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "bert-p10:r9"
+        }
+      ]
+    },
+    {
+      "ambiguity_comments": null,
+      "order_decisions": [
+        {
+          "comment": null,
+          "decision": "pending",
+          "pair_id": "tabpfn_nature_2025-p15:o1"
+        }
+      ],
+      "page_id": "tabpfn_nature_2025-p15",
+      "paragraph_decisions": [
+        {
+          "comment": null,
+          "decision": "pending",
+          "decision_id": "tabpfn_nature_2025-p15:p1"
+        },
+        {
+          "comment": null,
+          "decision": "pending",
+          "decision_id": "tabpfn_nature_2025-p15:p2"
+        }
+      ],
+      "region_decisions": [
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "tabpfn_nature_2025-p15:r1"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "tabpfn_nature_2025-p15:r2"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "tabpfn_nature_2025-p15:r3"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "tabpfn_nature_2025-p15:r4"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "tabpfn_nature_2025-p15:r5"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "tabpfn_nature_2025-p15:r6"
+        }
+      ]
+    },
+    {
+      "ambiguity_comments": null,
+      "order_decisions": [],
+      "page_id": "tabpfn_nature_2025-p19",
+      "paragraph_decisions": [
+        {
+          "comment": null,
+          "decision": "pending",
+          "decision_id": "tabpfn_nature_2025-p19:p1"
+        }
+      ],
+      "region_decisions": [
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "tabpfn_nature_2025-p19:r1"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "tabpfn_nature_2025-p19:r2"
+        },
+        {
+          "comment": null,
+          "corrected_bbox": null,
+          "corrected_type": null,
+          "decision": "pending",
+          "region_id": "tabpfn_nature_2025-p19:r3"
+        }
+      ]
+    }
+  ],
+  "review_status": "pending",
+  "reviewer_name": null,
+  "schema_version": "006b.human-review.1"
+}

@@ -1,0 +1,67 @@
+{
+  "stage": "B",
+  "stage_a_freeze_commit": "555e4d4",
+  "platform": {
+    "system": "Darwin",
+    "release": "25.5.0",
+    "machine": "arm64",
+    "python": "3.11.13"
+  },
+  "executables": {
+    "docker": null,
+    "podman": null,
+    "nerdctl": null,
+    "ctr": null,
+    "limactl": null,
+    "colima": null
+  },
+  "known_locations": {
+    "/Applications/Docker.app": {
+      "exists": false,
+      "symlink": false
+    },
+    "/Applications/Docker.app/Contents/Resources/bin/docker": {
+      "exists": false,
+      "symlink": false
+    },
+    "/usr/local/bin/docker": {
+      "exists": false,
+      "symlink": false
+    },
+    "/opt/homebrew/bin/docker": {
+      "exists": false,
+      "symlink": false
+    },
+    "/opt/podman/bin/podman": {
+      "exists": false,
+      "symlink": false
+    },
+    "/opt/homebrew/bin/podman": {
+      "exists": false,
+      "symlink": false
+    },
+    "/usr/local/bin/podman": {
+      "exists": false,
+      "symlink": false
+    },
+    "/var/run/docker.sock": {
+      "exists": false,
+      "symlink": false
+    },
+    "/run/podman/podman.sock": {
+      "exists": false,
+      "symlink": false
+    },
+    "/sys/fs/cgroup": {
+      "exists": false,
+      "symlink": false
+    }
+  },
+  "host_disk": {
+    "total_bytes": 245107195904,
+    "used_bytes": 234121306112,
+    "free_bytes": 10985889792
+  },
+  "host_logical_cpu_count": 8,
+  "probe_policy": "Discovery only; no daemon start, installation, image pulls, privilege elevation or settings changes; no secrets or runtime contexts read."
+}

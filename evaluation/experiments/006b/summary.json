@@ -1,0 +1,160 @@
+{
+  "annotations": {
+    "classification_ambiguous_regions": 1,
+    "human_verified_count": 0,
+    "independent_human_review": "pending",
+    "known_order_pairs": 24,
+    "pages": 6,
+    "paragraph_decisions": 18,
+    "regions": 48,
+    "revision": 1,
+    "status": "frozen",
+    "verification": "agent_visual_checked"
+  },
+  "baseline_commit": "ba82b2c7f71604d5bcc2859b1a05de112723107d",
+  "benchmark": {
+    "aggregate_metrics": null,
+    "executed_pages": 0,
+    "failed_executions": 0,
+    "macro_metrics": null,
+    "per_document": [
+      {
+        "docling": {
+          "metrics": null,
+          "status": "not_run"
+        },
+        "document_id": "attention",
+        "layout_types": [
+          "single_column_math",
+          "single_column_table"
+        ],
+        "pages": [
+          6,
+          9
+        ],
+        "reference_counts": {
+          "known_order_pairs": 11,
+          "paragraph_decisions": 7,
+          "regions": 18
+        },
+        "reference_verification": "agent_visual_checked",
+        "source_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+        "structure_0_2": {
+          "metrics": null,
+          "status": "not_run"
+        }
+      },
+      {
+        "docling": {
+          "metrics": null,
+          "status": "not_run"
+        },
+        "document_id": "bert",
+        "layout_types": [
+          "two_column_spanning_table_math",
+          "two_column_references"
+        ],
+        "pages": [
+          6,
+          10
+        ],
+        "reference_counts": {
+          "known_order_pairs": 12,
+          "paragraph_decisions": 8,
+          "regions": 21
+        },
+        "reference_verification": "agent_visual_checked",
+        "source_sha256": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e",
+        "structure_0_2": {
+          "metrics": null,
+          "status": "not_run"
+        }
+      },
+      {
+        "docling": {
+          "metrics": null,
+          "status": "not_run"
+        },
+        "document_id": "tabpfn_nature_2025",
+        "layout_types": [
+          "four_chart_panels_two_column_caption",
+          "full_width_extended_table"
+        ],
+        "pages": [
+          15,
+          19
+        ],
+        "reference_counts": {
+          "known_order_pairs": 1,
+          "paragraph_decisions": 3,
+          "regions": 9
+        },
+        "reference_verification": "agent_visual_checked",
+        "source_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+        "structure_0_2": {
+          "metrics": null,
+          "status": "not_run"
+        }
+      }
+    ],
+    "planned_page_denominator": 6,
+    "status": "not_run",
+    "unexecuted_pages": 6
+  },
+  "candidate_resources": {
+    "artifact_download_note": "No image, wheel or weights acquired in 006b; documentation was read online, no claim of zero network traffic.",
+    "candidate_artifact_download_bytes": 0,
+    "cold_initialization_seconds": null,
+    "effective_cpu_threads": null,
+    "installed_cache_bytes": null,
+    "output_bytes": null,
+    "peak_container_memory_bytes": null,
+    "status": "not_run",
+    "warm_seconds_per_page": null
+  },
+  "decision": "NO_GO",
+  "docling_version": "2.148.0",
+  "experiment": "006b",
+  "heron_revision": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8",
+  "limits": {
+    "container_memory_bytes": 4294967296,
+    "cpu_quota_cores": 4,
+    "effective_inference_threads": 4,
+    "installed_cache_bytes": 4294967296,
+    "new_download_bytes": 2147483648,
+    "seconds_per_page": 120,
+    "swap_bytes": 0
+  },
+  "next_step": "A user-provided existing Linux runtime/authorized host is required before rerunning gates; independently review frozen references. Do not install a runtime or change caps automatically.",
+  "parent_commit": "0cebd59980b156499a60aee24d625f9203676cf8",
+  "parent_pr": 7,
+  "reason_code": "existing_local_linux_runtime_unavailable",
+  "review_package": {
+    "archive": "/private/tmp/understanding-engine-e006b/human-review-v1-final.zip",
+    "bytes": 4744612,
+    "sha256": "b1ed02b722fb73e8c0dce480403c95a74a4b414e207663e2d645fba7c6552ab6"
+  },
+  "source_grounding": {
+    "contradictory": null,
+    "many_to_many": null,
+    "missing": null,
+    "note": "No prediction grounding performed. Separately, all 18 frozen paragraph probes resolved against original cached authoritative character IDs and expected geometry.",
+    "status": "not_run",
+    "valid": null
+  },
+  "stage_a_local_freeze_commit": "555e4d4c582fdb6a7ce35d66739760b63a4bed36",
+  "stages": {
+    "A": "complete",
+    "B": "blocked_prerequisite",
+    "C": "not_run",
+    "D": "not_run"
+  },
+  "validation": {
+    "evidence": "validation-final.json",
+    "final_follow_up_ci": "See live PR checks and final PR body; never relabel earlier CI as a later commit test",
+    "final_local_failed": 0,
+    "final_local_passed": 256,
+    "prior_ci_commit": "79f933cd46461a2c174c540b36ef60124d199653",
+    "prior_ci_passed": 255
+  }
+}

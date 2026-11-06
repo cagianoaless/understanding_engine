@@ -1,0 +1,22 @@
+{
+  "command": [
+    "uv",
+    "run",
+    "--frozen",
+    "--offline",
+    "pytest"
+  ],
+  "environment_override": {
+    "UV_CACHE_DIR": "/private/tmp/understanding-engine-uv-cache"
+  },
+  "exit_code": 0,
+  "elapsed_seconds": 13.141565041150898,
+  "passed": 256,
+  "stdout": "logs/pytest-final.stdout.log",
+  "stderr": "logs/pytest-final.stderr.log",
+  "protected_file_count": 161,
+  "protected_files_changed": [],
+  "production_and_ci_diff_from_structure_baseline_exit_code": 0,
+  "production_and_ci_diff": "",
+  "new_check": "All five experiment helpers imported under subprocess neural-import guard; prior 255-test logs preserved separately."
+}

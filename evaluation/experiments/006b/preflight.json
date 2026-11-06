@@ -1,0 +1,82 @@
+{
+  "actual_container_gates": {
+    "child_inclusive_memory_enforcement": {
+      "reason": "no_existing_linux_runtime",
+      "status": "not_run"
+    },
+    "container_disk_accounting": {
+      "reason": "no_existing_linux_runtime",
+      "status": "not_run"
+    },
+    "container_memory_hard_limit": {
+      "reason": "no_existing_linux_runtime",
+      "status": "not_run"
+    },
+    "cpu_quota_and_effective_threads": {
+      "reason": "no_existing_linux_runtime",
+      "status": "not_run"
+    },
+    "download_accounting_enforcement": {
+      "reason": "no_existing_linux_runtime",
+      "status": "not_run"
+    },
+    "external_timeout_and_whole_tree_cleanup": {
+      "reason": "no_existing_linux_runtime",
+      "status": "not_run"
+    },
+    "offline_inference_and_plugin_isolation": {
+      "reason": "no_existing_linux_runtime",
+      "status": "not_run"
+    },
+    "swap_enforcement": {
+      "reason": "no_existing_linux_runtime",
+      "status": "not_run"
+    }
+  },
+  "base_image": null,
+  "blocker": "No docker/podman executable in PATH or checked conventional paths; no Docker/Podman/OrbStack/Rancher application at checked locations, no standard runtime socket or Linux cgroup filesystem. No authorized Linux host registered.",
+  "decision": "NO_GO",
+  "discovery": "runtime-discovery-expanded.json",
+  "docker_vm_allocation": null,
+  "docling_installations": 0,
+  "documentation": [
+    {
+      "review": "Hard memory vs soft reservation; swap disabled via equal memory and memory-swap values, not memory-swap=0; CPU quotas vs shares; verify actual kernel support.",
+      "url": "https://docs.docker.com/engine/containers/resource_constraints/"
+    },
+    {
+      "review": "Desktop VM CPU/memory/swap/disk allocation is distinct from per-container constraints. No settings opened or changed.",
+      "url": "https://docs.docker.com/desktop/settings-and-maintenance/settings/"
+    },
+    {
+      "review": "Namespaces/cgroups and daemon attack surface. No privileged container, host root/secret/socket mount, remote daemon or settings changes.",
+      "url": "https://docs.docker.com/engine/security/"
+    }
+  ],
+  "image_pulls": 0,
+  "linux_architecture": null,
+  "linux_cp311_dependency_resolution": {
+    "reason": "No validated actual Linux target; macOS closure not reused",
+    "status": "not_run"
+  },
+  "linux_license_audit": {
+    "reason": "stopped_before_resolution_or_artifact_acquisition",
+    "status": "not_run"
+  },
+  "machine_settings_changes": 0,
+  "measurement_scope": "Local host discovery measured. Gate helpers and tests are synthetic only, not empirical cgroup, disk or timeout validation.",
+  "model_imports": 0,
+  "model_license": "Prior fixed-revision Apache-2.0 declaration retained, not a new all-artifact compatibility clearance",
+  "permission_escalations": 0,
+  "reason_code": "existing_local_linux_runtime_unavailable",
+  "resource_limits": {
+    "container_memory_bytes": 4294967296,
+    "cpu_quota_cores": 4,
+    "effective_inference_threads": 4,
+    "installed_cache_bytes": 4294967296,
+    "new_download_bytes": 2147483648,
+    "seconds_per_page": 120,
+    "swap_bytes": 0
+  },
+  "weight_downloads": 0
+}

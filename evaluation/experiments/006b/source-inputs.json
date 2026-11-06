@@ -1,0 +1,44 @@
+[
+  {
+    "authoritative_cached_extraction_path": "/private/tmp/understanding-engine-m02a/run-001/attention-extraction.json",
+    "authoritative_cached_extraction_sha256": "732cb726b4e41728d1ef5e2c2999a3f31cd27b67ef0c9534445bdd0f70dec936",
+    "document_id": "attention",
+    "pdf_bytes": 2215244,
+    "pdf_path": "/Users/alessandrocagiano/Documents/vibecoding/1706.03762v7.pdf",
+    "pdf_sha256_verified": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+    "role": "Original source geometry only; structure predictions not loaded or generated",
+    "selected_pages": [
+      6,
+      9
+    ],
+    "source_url": "https://arxiv.org/abs/1706.03762v7"
+  },
+  {
+    "authoritative_cached_extraction_path": "/private/tmp/understanding-engine-m02a/run-001/bert-extraction.json",
+    "authoritative_cached_extraction_sha256": "9618216d3b52fab8a59949eeacd3f740f78f7166964f9cae3d61ce68522ab79b",
+    "document_id": "bert",
+    "pdf_bytes": 775166,
+    "pdf_path": "/private/tmp/understanding-engine-experiments/m01b-development/1810.04805v2.pdf",
+    "pdf_sha256_verified": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e",
+    "role": "Original source geometry only; structure predictions not loaded or generated",
+    "selected_pages": [
+      6,
+      10
+    ],
+    "source_url": "https://arxiv.org/pdf/1810.04805v2"
+  },
+  {
+    "authoritative_cached_extraction_path": "/private/tmp/understanding-engine-m02a/run-001/tabpfn_nature_2025-extraction.json",
+    "authoritative_cached_extraction_sha256": "edf3316f02a88602aa6fd863be70c0ef790c28d2ce954456d39659fddffe92d6",
+    "document_id": "tabpfn_nature_2025",
+    "pdf_bytes": 16957699,
+    "pdf_path": "/private/tmp/understanding-engine-experiments/003/s41586-024-08328-6.pdf",
+    "pdf_sha256_verified": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+    "role": "Original source geometry only; structure predictions not loaded or generated",
+    "selected_pages": [
+      15,
+      19
+    ],
+    "source_url": "https://www.nature.com/articles/s41586-024-08328-6.pdf"
+  }
+]

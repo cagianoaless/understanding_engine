@@ -1,0 +1,22 @@
+{
+  "annotation_revision": 1,
+  "files": {
+    "annotation-source-audit.json": "4d568638ccc4d29db862062479bb8cae230d88dbedc059fa9bcb0296ce6db284",
+    "annotations.json": "779b5a6b05d3d53729000ce98fb03791edc84b2f118cb5857a85b17ef01e60d5",
+    "human-review-form.json": "3d17188a35b7d1905c9bf82911cfa637c95383e67d61107520943b14a474c9c5",
+    "page_geometry.json": "08c5f59c3ce9e096517de8758a401735ae0117246946c658724eab386ccef7bf",
+    "plan.json": "4e175a303b7b92889c1f47c629b1814e409b19bae0049d1cae0103757d5b6b1b",
+    "plan.md": "98e052ec5aaf3331b44df40cec542d8a8516ab1a02bb3fde3cd4b714f4748173",
+    "protected-files.json": "fabb75bfabca2f278f49fd0ae30b9cfe86f4e079c832d773dfc6cc7e66be098f",
+    "references.py": "ede095d954024432669d55061ff962fc1cab54b0f4e67859a8b086a6c75ef77f",
+    "review-package.json": "12f12bff26438ec62e1a321d57d27cd1d6c24a9bf41db4f98c24becc03785e71",
+    "review_pack.py": "379c00b1d2495e1a294a256e64c286d525aefbf14c40da4cb2f6e299605a1a1e",
+    "review_protocol.md": "3c015122dfa6724eb26c97e66748755e857ff2d3873a267276766b3832b55794",
+    "selection.json": "3e89cf030f6c9b151399094be0ea3984641acd04d5597d6a57af2d1f55918078",
+    "stage-a-validation.json": "480231a849dd5558b947697f02e0cb19817b92a56721a1fe4d281ae6ff70ffdb"
+  },
+  "human_verified_count": 0,
+  "prediction_count_at_freeze": 0,
+  "schema_version": "006b.freeze.1",
+  "stage": "A_complete_before_runtime_investigation_or_predictions"
+}
