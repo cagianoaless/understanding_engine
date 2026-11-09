@@ -1,0 +1,107 @@
+{
+  "architecture": "arm64",
+  "dep_enrolled": false,
+  "homebrew_user_writable": true,
+  "hypervisor_supported": true,
+  "initial_docker_context": "default",
+  "initial_runtime_tools_absent": [
+    "colima",
+    "limactl",
+    "docker"
+  ],
+  "logical_cpus": 8,
+  "macos": "26.5.1",
+  "mdm_enrolled": false,
+  "observed_commands": [
+    {
+      "argv": [
+        "/usr/sbin/sysctl",
+        "-n",
+        "hw.memsize"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "17179869184\n"
+    },
+    {
+      "argv": [
+        "/usr/sbin/sysctl",
+        "-n",
+        "hw.physicalcpu"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "8\n"
+    },
+    {
+      "argv": [
+        "/usr/sbin/sysctl",
+        "-n",
+        "hw.logicalcpu"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "8\n"
+    },
+    {
+      "argv": [
+        "/usr/sbin/sysctl",
+        "-n",
+        "kern.hv_support"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "1\n"
+    },
+    {
+      "argv": [
+        "/usr/bin/sw_vers"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "ProductName:\t\tmacOS\nProductVersion:\t\t26.5.1\nBuildVersion:\t\t25F80\n"
+    },
+    {
+      "argv": [
+        "/usr/bin/uname",
+        "-m"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "arm64\n"
+    },
+    {
+      "argv": [
+        "/usr/bin/memory_pressure",
+        "-Q"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 40%\n"
+    },
+    {
+      "argv": [
+        "/usr/bin/profiles",
+        "status",
+        "-type",
+        "enrollment"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "Enrolled via DEP: No\nMDM enrollment: No\n"
+    },
+    {
+      "argv": [
+        "/bin/df",
+        "-k",
+        "/System/Volumes/Data"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "Filesystem   1024-blocks      Used Available Capacity iused     ifree %iused  Mounted on\n/dev/disk3s5   239362496 173919356  35793068    83% 2016673 357930680    1%   /System/Volumes/Data\n"
+    }
+  ],
+  "physical_cpus": 8,
+  "ram_bytes": 17179869184,
+  "timestamp": "2026-11-09T10:16:32.447977+01:00"
+}

@@ -1,0 +1,90 @@
+{
+  "container_peak_bytes": 20656128,
+  "cpu_max": "100000 100000",
+  "docling_version": "2.148.0",
+  "download_upper_bytes": 531998893,
+  "gates": {
+    "candidate_4GiB_runtime_and_120s_page": "not_run",
+    "candidate_inclusive_storage_and_download_fit": "UNKNOWN",
+    "candidate_linux_wheel_closure_and_licenses": "UNKNOWN",
+    "cgroup_v2_memory_128MiB": "PASS",
+    "child_inclusive_accounting": "PASS",
+    "current_inclusive_2GiB_download_budget": "PASS",
+    "current_inclusive_4GiB_storage_budget": "PASS",
+    "effective_inference_thread_pools": "UNKNOWN",
+    "external_2s_timeout_and_container_cleanup": "PASS",
+    "homebrew_installation": "PASS",
+    "host_reserve_20GiB": "PASS",
+    "native_arm64_vz_vm": "PASS",
+    "no_host_mounts_or_socket": "PASS",
+    "offline_container_network": "PASS",
+    "one_cpu_quota_and_throttling": "PASS",
+    "provisioning_peak_storage": "UNKNOWN",
+    "zero_swap": "PASS"
+  },
+  "heron_revision": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8",
+  "host_free_bytes": 34874974208,
+  "installed_cache_upper_bytes": 1800134656,
+  "issue": 10,
+  "memory_max_bytes": 134217728,
+  "memory_swap_max_bytes": 0,
+  "offline_tests": {
+    "command": [
+      "uv",
+      "run",
+      "--frozen",
+      "--offline",
+      "pytest"
+    ],
+    "failed": 0,
+    "passed": 278,
+    "python": "3.11.13",
+    "skipped": 0
+  },
+  "original_context_preserved": true,
+  "original_files_unchanged": 200,
+  "parent_commit": "1b4c17cab993be0a7aecfeb1793863bf5ee4f56c",
+  "parent_pr": 9,
+  "probe_containers_remaining": 0,
+  "run": "2026-11-09-local-runtime",
+  "schema_version": "006b.local-runtime-summary.1",
+  "scientific_evaluation": {
+    "comparative_metrics": null,
+    "docling_installations": 0,
+    "frozen_pages": 6,
+    "frozen_regions": 48,
+    "human_verified_references": 0,
+    "neural_downloads": 0,
+    "pages_executed": 0,
+    "verification_status": "agent_visual_checked"
+  },
+  "smoke_authorized": false,
+  "smoke_readiness": "Runtime mechanism ready; candidate smoke NOT cleared until separate authorization plus Linux cp311 wheel/license/byte audit and correct ongoing accounting. Historical provisioning peak remains unknown.",
+  "status": "INFRASTRUCTURE_PASS_WITH_LIMITATIONS",
+  "structure_baseline_commit": "ba82b2c7f71604d5bcc2859b1a05de112723107d",
+  "timeout": {
+    "deadline_seconds": 2,
+    "elapsed_seconds": 2.096355624962598,
+    "tree_cleanup_verified": true,
+    "triggered": true
+  },
+  "tooling_versions": {
+    "colima": "0.10.3",
+    "docker": "29.9.3",
+    "lima": "2.3.0"
+  },
+  "vm": {
+    "architecture": "aarch64",
+    "auto_activate": false,
+    "cpus": 4,
+    "data_disk_virtual_bytes": 5368709120,
+    "driver": "vz",
+    "memory_bytes": 5368709120,
+    "mounts": null,
+    "profile": "ue006b",
+    "root_disk_virtual_bytes": 4294967296,
+    "running_at_final_check": true,
+    "ssh_agent_forwarding": false,
+    "ssh_config_modification": false
+  }
+}

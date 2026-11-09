@@ -1,0 +1,61 @@
+{
+  "compressed_layer_bytes": 899736,
+  "config": {
+    "architecture": "arm64",
+    "config": {
+      "Cmd": [
+        "sh"
+      ],
+      "Env": [
+        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+      ]
+    },
+    "created": "2024-09-26T21:31:42Z",
+    "history": [
+      {
+        "created": "2024-09-26T21:31:42Z",
+        "created_by": "BusyBox 1.37.0 (musl), Alpine 3.23.7"
+      }
+    ],
+    "os": "linux",
+    "rootfs": {
+      "diff_ids": [
+        "sha256:97dddee331680f34991865c8d456c35e1babe93ce90f8823f51ca3fc31b5c8b7"
+      ],
+      "type": "layers"
+    },
+    "variant": "v8"
+  },
+  "config_bytes": 480,
+  "image": "busybox@sha256:a4b7bbbb14a7e50bec3f6cbc4e2560c9b6792a7ae7062637bdfc25793817d4ff",
+  "index_digest": "sha256:f6a95d611e0a8780fabdb2aec43e31275b2720dfefa3e41b16835bfc42454478",
+  "layer_downloads_not_yet_performed": false,
+  "license": "BusyBox GPL-2.0-only; musl MIT (declared upstream; no paid subscription or model)",
+  "manifest": {
+    "annotations": {
+      "org.opencontainers.image.url": "https://github.com/docker-library/busybox",
+      "org.opencontainers.image.version": "1.37.0-musl"
+    },
+    "config": {
+      "digest": "sha256:dd49c0d573f5889338e0eea7d5ee614e94914f3a576f087e058e1dadd17368cc",
+      "mediaType": "application/vnd.oci.image.config.v1+json",
+      "size": 480
+    },
+    "layers": [
+      {
+        "digest": "sha256:61debed77f7e72fe616a3e1979fb25c09fd55c1ef465ff2e3dfb0d7a9d52e96b",
+        "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+        "size": 899736
+      }
+    ],
+    "mediaType": "application/vnd.oci.image.manifest.v1+json",
+    "schemaVersion": 2
+  },
+  "manifest_bytes": 9030,
+  "platform": {
+    "architecture": "arm64",
+    "os": "linux",
+    "variant": "v8"
+  },
+  "source_tag": "docker.io/library/busybox:1.37.0-musl"
+}

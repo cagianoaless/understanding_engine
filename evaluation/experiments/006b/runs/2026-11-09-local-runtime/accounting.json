@@ -1,0 +1,482 @@
+{
+  "additional_filesystem_metadata_reservation_bytes": 16777216,
+  "apfs_clone_exclusivity_not_measured": true,
+  "artifact_components": {
+    "busybox_layers": 899736,
+    "busybox_manifest_and_config": 9510,
+    "homebrew_bottles": 64517518,
+    "vm_image": 332354401
+  },
+  "compressed_artifact_payload_bytes": 397781165,
+  "core_image": {
+    "bytes": 332354401,
+    "sha256": "1fc0354f4f99734ce3886628cc7af8b0437c1a1d391b126bd09cba0df35ee53f",
+    "sha512": "32242674b046b5057e60c4aba334b51e3665f05412cda89ed081cc2de153ae5c41f6b105b5c442cbe48d78e2cc21e9ba1950e406b6fb4fc2fd1dd2259240abbd"
+  },
+  "final_commands": [
+    {
+      "argv": [
+        "/opt/homebrew/bin/colima",
+        "-p",
+        "ue006b",
+        "status",
+        "--json"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\"display_name\":\"colima [profile=ue006b]\",\"driver\":\"macOS Virtualization.Framework\",\"arch\":\"aarch64\",\"runtime\":\"docker\",\"mount_type\":\"virtiofs\",\"docker_socket\":\"unix://$HOME/.colima/ue006b/docker.sock\",\"containerd_socket\":\"unix://$HOME/.colima/ue006b/containerd.sock\",\"kubernetes\":false,\"cpu\":4,\"memory\":5368709120,\"disk\":5368709120}\n"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/docker",
+        "--context",
+        "colima-ue006b",
+        "ps",
+        "-a",
+        "--format",
+        "{{json .}}"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/docker",
+        "--context",
+        "colima-ue006b",
+        "system",
+        "df",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "Images space usage:\n\nREPOSITORY   TAG       IMAGE ID       CREATED       SIZE      SHARED SIZE   UNIQUE SIZE   CONTAINERS\n<none>       <none>    a4b7bbbb14a7   2 years ago   2.64MB    0B            2.638MB       0\n\nContainers space usage:\n\nCONTAINER ID   IMAGE     COMMAND   LOCAL VOLUMES   SIZE      CREATED   STATUS    NAMES\n\nLocal Volumes space usage:\n\nVOLUME NAME   LINKS     SIZE\n\nBuild cache usage: 0B\n\nCACHE ID   CACHE TYPE   SIZE      CREATED   LAST USED   USAGE     SHARED\n"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/colima",
+        "-p",
+        "ue006b",
+        "ssh",
+        "--",
+        "sh",
+        "-c",
+        "df -k / /var/lib/docker; cat /proc/swaps; cat /proc/mounts"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "Filesystem     1K-blocks   Used Available Use% Mounted on\n/dev/root        2974484 884364   2073736  30% /\n/dev/vdb1        5072544   3116   4791004   1% /var/lib/docker\nFilename\t\t\t\tType\t\tSize\t\tUsed\t\tPriority\n/dev/root / ext4 rw,relatime,discard,errors=remount-ro,commit=30 0 0\ndevtmpfs /dev devtmpfs rw,nosuid,noexec,relatime,size=2488468k,nr_inodes=622117,mode=755,inode64 0 0\nproc /proc proc rw,nosuid,nodev,noexec,relatime 0 0\nsysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0\nsecurityfs /sys/kernel/security securityfs rw,nosuid,nodev,noexec,relatime 0 0\ntmpfs /dev/shm tmpfs rw,nosuid,nodev,inode64 0 0\ndevpts /dev/pts devpts rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000 0 0\ntmpfs /run tmpfs rw,nosuid,nodev,size=1004400k,nr_inodes=819200,mode=755,inode64 0 0\ntmpfs /run/lock tmpfs rw,nosuid,nodev,noexec,relatime,size=5120k,inode64 0 0\ncgroup2 /sys/fs/cgroup cgroup2 rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot 0 0\npstore /sys/fs/pstore pstore rw,nosuid,nodev,noexec,relatime 0 0\nefivarfs /sys/firmware/efi/efivars efivarfs rw,nosuid,nodev,noexec,relatime 0 0\nbpf /sys/fs/bpf bpf rw,nosuid,nodev,noexec,relatime,mode=700 0 0\nsystemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=33,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=288 0 0\ndebugfs /sys/kernel/debug debugfs rw,nosuid,nodev,noexec,relatime 0 0\ntracefs /sys/kernel/tracing tracefs rw,nosuid,nodev,noexec,relatime 0 0\nhugetlbfs /dev/hugepages hugetlbfs rw,nosuid,nodev,relatime,pagesize=2M 0 0\nmqueue /dev/mqueue mqueue rw,nosuid,nodev,noexec,relatime 0 0\nfusectl /sys/fs/fuse/connections fusectl rw,nosuid,nodev,noexec,relatime 0 0\nconfigfs /sys/kernel/config configfs rw,nosuid,nodev,noexec,relatime 0 0\n/dev/vda16 /boot ext4 rw,relatime 0 0\n/dev/vda15 /boot/efi vfat rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro 0 0\nbinfmt_misc /proc/sys/fs/binfmt_misc binfmt_misc rw,nosuid,nodev,noexec,relatime 0 0\n/dev/vdc /mnt/lima-cidata iso9660 ro,relatime,nojoliet,overriderockperm,check=s,map=n,blocksize=2048,uid=0,dmode=700,fmode=700,iocharset=utf8 0 0\n/dev/vdb1 /mnt/lima-colima-ue006b ext4 rw,relatime 0 0\ntmpfs /run/user/501 tmpfs rw,nosuid,nodev,relatime,size=502196k,nr_inodes=125549,mode=700,uid=501,gid=1000,inode64 0 0\n/dev/vdb1 /var/lib/docker ext4 rw,relatime 0 0\n/dev/vdb1 /var/lib/containerd ext4 rw,relatime 0 0\n/dev/vdb1 /var/lib/rancher ext4 rw,relatime 0 0\n/dev/vdb1 /var/lib/cni ext4 rw,relatime 0 0\n/dev/vdb1 /var/lib/ramalama ext4 rw,relatime 0 0\n"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/docker",
+        "context",
+        "show"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "default\n"
+    },
+    {
+      "argv": [
+        "/usr/bin/memory_pressure",
+        "-Q"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 39%\n"
+    },
+    {
+      "argv": [
+        "/bin/df",
+        "-k",
+        "/System/Volumes/Data"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "Filesystem   1024-blocks      Used Available Capacity iused     ifree %iused  Mounted on\n/dev/disk3s5   239362496 175654828  34057592    84% 2018779 340575920    1%   /System/Volumes/Data\n"
+    }
+  ],
+  "guest_layers_already_inside_vm_files_not_added_twice": true,
+  "host_free_bytes": 34874974208,
+  "host_sampled_vm_max_cpu_percent": 100.3,
+  "host_sampled_vm_max_rss_KiB": 506160,
+  "host_samples": [
+    {
+      "free_disk_bytes": 34871742464,
+      "inclusive_allocated_upper_bytes": 1781399552,
+      "processes": [
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92956,
+          "rss_KiB": 40912
+        },
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92965,
+          "rss_KiB": 45568
+        },
+        {
+          "cpu_percent": 0.0,
+          "executable": "/System/Library/Frameworks/Virtualization.framework/Versions/A/XPCServices/com.apple.Virtualization.VirtualMachine.xpc/Contents/MacOS/com.apple.Virtualization.VirtualMachine",
+          "pid": 92974,
+          "rss_KiB": 384848
+        }
+      ],
+      "timestamp_monotonic": 0.143810875
+    },
+    {
+      "free_disk_bytes": 34871087104,
+      "inclusive_allocated_upper_bytes": 1782022144,
+      "processes": [
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92956,
+          "rss_KiB": 40912
+        },
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92965,
+          "rss_KiB": 45536
+        },
+        {
+          "cpu_percent": 15.5,
+          "executable": "/System/Library/Frameworks/Virtualization.framework/Versions/A/XPCServices/com.apple.Virtualization.VirtualMachine.xpc/Contents/MacOS/com.apple.Virtualization.VirtualMachine",
+          "pid": 92974,
+          "rss_KiB": 406848
+        }
+      ],
+      "timestamp_monotonic": 0.744881875
+    },
+    {
+      "free_disk_bytes": 34871062528,
+      "inclusive_allocated_upper_bytes": 1782022144,
+      "processes": [
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92956,
+          "rss_KiB": 40912
+        },
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92965,
+          "rss_KiB": 45536
+        },
+        {
+          "cpu_percent": 3.3,
+          "executable": "/System/Library/Frameworks/Virtualization.framework/Versions/A/XPCServices/com.apple.Virtualization.VirtualMachine.xpc/Contents/MacOS/com.apple.Virtualization.VirtualMachine",
+          "pid": 92974,
+          "rss_KiB": 406848
+        }
+      ],
+      "timestamp_monotonic": 1.346983375
+    },
+    {
+      "free_disk_bytes": 34871054336,
+      "inclusive_allocated_upper_bytes": 1782022144,
+      "processes": [
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92956,
+          "rss_KiB": 40912
+        },
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92965,
+          "rss_KiB": 45536
+        },
+        {
+          "cpu_percent": 3.4,
+          "executable": "/System/Library/Frameworks/Virtualization.framework/Versions/A/XPCServices/com.apple.Virtualization.VirtualMachine.xpc/Contents/MacOS/com.apple.Virtualization.VirtualMachine",
+          "pid": 92974,
+          "rss_KiB": 406896
+        }
+      ],
+      "timestamp_monotonic": 1.940825958
+    },
+    {
+      "free_disk_bytes": 34871050240,
+      "inclusive_allocated_upper_bytes": 1782022144,
+      "processes": [
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92956,
+          "rss_KiB": 40912
+        },
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92965,
+          "rss_KiB": 45536
+        },
+        {
+          "cpu_percent": 23.7,
+          "executable": "/System/Library/Frameworks/Virtualization.framework/Versions/A/XPCServices/com.apple.Virtualization.VirtualMachine.xpc/Contents/MacOS/com.apple.Virtualization.VirtualMachine",
+          "pid": 92974,
+          "rss_KiB": 407040
+        }
+      ],
+      "timestamp_monotonic": 2.536356833
+    },
+    {
+      "free_disk_bytes": 34871033856,
+      "inclusive_allocated_upper_bytes": 1782022144,
+      "processes": [
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92956,
+          "rss_KiB": 40912
+        },
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92965,
+          "rss_KiB": 45632
+        },
+        {
+          "cpu_percent": 93.6,
+          "executable": "/System/Library/Frameworks/Virtualization.framework/Versions/A/XPCServices/com.apple.Virtualization.VirtualMachine.xpc/Contents/MacOS/com.apple.Virtualization.VirtualMachine",
+          "pid": 92974,
+          "rss_KiB": 407040
+        }
+      ],
+      "timestamp_monotonic": 3.120261083
+    },
+    {
+      "free_disk_bytes": 34871033856,
+      "inclusive_allocated_upper_bytes": 1782022144,
+      "processes": [
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92956,
+          "rss_KiB": 40912
+        },
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92965,
+          "rss_KiB": 45632
+        },
+        {
+          "cpu_percent": 100.3,
+          "executable": "/System/Library/Frameworks/Virtualization.framework/Versions/A/XPCServices/com.apple.Virtualization.VirtualMachine.xpc/Contents/MacOS/com.apple.Virtualization.VirtualMachine",
+          "pid": 92974,
+          "rss_KiB": 407040
+        }
+      ],
+      "timestamp_monotonic": 3.688983833
+    },
+    {
+      "free_disk_bytes": 34871029760,
+      "inclusive_allocated_upper_bytes": 1782022144,
+      "processes": [
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92956,
+          "rss_KiB": 40912
+        },
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92965,
+          "rss_KiB": 45632
+        },
+        {
+          "cpu_percent": 91.7,
+          "executable": "/System/Library/Frameworks/Virtualization.framework/Versions/A/XPCServices/com.apple.Virtualization.VirtualMachine.xpc/Contents/MacOS/com.apple.Virtualization.VirtualMachine",
+          "pid": 92974,
+          "rss_KiB": 407040
+        }
+      ],
+      "timestamp_monotonic": 4.277999666
+    },
+    {
+      "free_disk_bytes": 34870116352,
+      "inclusive_allocated_upper_bytes": 1782923264,
+      "processes": [
+        {
+          "cpu_percent": 0.7,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92956,
+          "rss_KiB": 40912
+        },
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92965,
+          "rss_KiB": 45632
+        },
+        {
+          "cpu_percent": 62.6,
+          "executable": "/System/Library/Frameworks/Virtualization.framework/Versions/A/XPCServices/com.apple.Virtualization.VirtualMachine.xpc/Contents/MacOS/com.apple.Virtualization.VirtualMachine",
+          "pid": 92974,
+          "rss_KiB": 410912
+        }
+      ],
+      "timestamp_monotonic": 4.87415525
+    },
+    {
+      "free_disk_bytes": 34870284288,
+      "inclusive_allocated_upper_bytes": 1782923264,
+      "processes": [
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92956,
+          "rss_KiB": 40912
+        },
+        {
+          "cpu_percent": 0.1,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92965,
+          "rss_KiB": 53840
+        },
+        {
+          "cpu_percent": 6.7,
+          "executable": "/System/Library/Frameworks/Virtualization.framework/Versions/A/XPCServices/com.apple.Virtualization.VirtualMachine.xpc/Contents/MacOS/com.apple.Virtualization.VirtualMachine",
+          "pid": 92974,
+          "rss_KiB": 410944
+        }
+      ],
+      "timestamp_monotonic": 5.477665833
+    },
+    {
+      "free_disk_bytes": 34870276096,
+      "inclusive_allocated_upper_bytes": 1782923264,
+      "processes": [
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92956,
+          "rss_KiB": 40912
+        },
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92965,
+          "rss_KiB": 53840
+        },
+        {
+          "cpu_percent": 1.8,
+          "executable": "/System/Library/Frameworks/Virtualization.framework/Versions/A/XPCServices/com.apple.Virtualization.VirtualMachine.xpc/Contents/MacOS/com.apple.Virtualization.VirtualMachine",
+          "pid": 92974,
+          "rss_KiB": 410928
+        }
+      ],
+      "timestamp_monotonic": 6.073447166
+    },
+    {
+      "free_disk_bytes": 34870018048,
+      "inclusive_allocated_upper_bytes": 1783218176,
+      "processes": [
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92956,
+          "rss_KiB": 40912
+        },
+        {
+          "cpu_percent": 0.0,
+          "executable": "/opt/homebrew/bin/limactl",
+          "pid": 92965,
+          "rss_KiB": 53840
+        },
+        {
+          "cpu_percent": 0.8,
+          "executable": "/System/Library/Frameworks/Virtualization.framework/Versions/A/XPCServices/com.apple.Virtualization.VirtualMachine.xpc/Contents/MacOS/com.apple.Virtualization.VirtualMachine",
+          "pid": 92974,
+          "rss_KiB": 411408
+        }
+      ],
+      "timestamp_monotonic": 6.630910791
+    }
+  ],
+  "inclusive_allocated_with_reservation_bytes": 1800134656,
+  "inclusive_download_upper_bytes_with_reservation": 531998893,
+  "inclusive_measured_allocated_upper_bytes": 1783357440,
+  "metadata_and_unmetered_small_setup_transfer_reservation_bytes": 134217728,
+  "metadata_reservation_is_not_measured_wire_traffic": true,
+  "probe_sampled_storage_peak_upper_bytes": 1783218176,
+  "roots": {
+    "$EXTERNAL_RUN": {
+      "allocated_bytes": 442777600,
+      "large_files": [
+        {
+          "allocated_bytes": 50724864,
+          "logical_bytes": 50470883,
+          "path": "$EXTERNAL_RUN/homebrew-cache/downloads/67deceaf22d170816242f42d75828f01ede5ae8442ffc938a1ce631cc1306b3c--lima--2.3.0.arm64_tahoe.bottle.tar.gz"
+        },
+        {
+          "allocated_bytes": 336117760,
+          "logical_bytes": 332354401,
+          "path": "$EXTERNAL_RUN/xdg-cache/colima/caches/b0992ab88f5a3c0c436bbb3065c01466f20dc1dd0eb0a60299d410176f21a1c3"
+        }
+      ],
+      "logical_bytes": 436247248
+    },
+    "$HOME/.colima": {
+      "allocated_bytes": 1187246080,
+      "large_files": [
+        {
+          "allocated_bytes": 20156416,
+          "logical_bytes": 20154368,
+          "path": "$HOME/.colima/_lima/colima-ue006b/cidata.iso"
+        },
+        {
+          "allocated_bytes": 1155649536,
+          "logical_bytes": 4294967296,
+          "path": "$HOME/.colima/_lima/colima-ue006b/disk"
+        },
+        {
+          "allocated_bytes": 11173888,
+          "logical_bytes": 5368709120,
+          "path": "$HOME/.colima/_lima/_disks/colima-ue006b/datadisk"
+        }
+      ],
+      "logical_bytes": 9684022659
+    },
+    "$HOME/Library/Caches/colima": {
+      "allocated_bytes": 0,
+      "large_files": [],
+      "logical_bytes": 0
+    },
+    "$HOME/Library/Caches/lima": {
+      "allocated_bytes": 0,
+      "large_files": [],
+      "logical_bytes": 0
+    },
+    "$HOME/Library/Logs/Homebrew/colima": {
+      "allocated_bytes": 0,
+      "large_files": [],
+      "logical_bytes": 0
+    },
+    "$HOME/Library/Logs/Homebrew/docker": {
+      "allocated_bytes": 0,
+      "large_files": [],
+      "logical_bytes": 0
+    },
+    "$HOME/Library/Logs/Homebrew/lima": {
+      "allocated_bytes": 0,
+      "large_files": [],
+      "logical_bytes": 0
+    }
+  },
+  "schema_version": "006b.local-accounting.1",
+  "setup_peak_reason": "UNKNOWN: initial monitor omitted actual standard Colima state directory; corrected final and probe-time measurements are separate.",
+  "setup_peak_storage_status": "UNKNOWN",
+  "snapshot": "2026-11-09T10:37:53.146795+01:00",
+  "tooling_allocated_bytes": 153333760
+}

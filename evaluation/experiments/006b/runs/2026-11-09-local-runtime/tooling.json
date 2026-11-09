@@ -1,0 +1,72 @@
+{
+  "after": {
+    "available_bytes": 36354424832,
+    "stdout": "Filesystem   1024-blocks      Used Available Capacity iused     ifree %iused  Mounted on\n/dev/disk3s5   239362496 174210044  35502368    84% 2018496 355023680    1%   /System/Volumes/Data\n",
+    "timestamp": "2026-11-09T10:23:31.641279+01:00"
+  },
+  "argv": [
+    "/opt/homebrew/bin/brew",
+    "install",
+    "--force-bottle",
+    "colima",
+    "docker"
+  ],
+  "before": {
+    "available_bytes": 36567797760,
+    "stdout": "Filesystem   1024-blocks      Used Available Capacity iused     ifree %iused  Mounted on\n/dev/disk3s5   239362496 174001680  35710740    83% 2018188 357107400    1%   /System/Volumes/Data\n",
+    "timestamp": "2026-11-09T10:23:23.798890+01:00"
+  },
+  "bottle_files": [
+    {
+      "bytes": 4152160,
+      "name": "770c3641a368d1590606d68d3432cd068d0d7f9959394d02657fe2298c1e5b8d--colima--0.10.3.arm64_tahoe.bottle.tar.gz",
+      "sha256": "a9dfd1fa0a4aee62fef75974f39f174e4da774f7ba495c43dd0bcc23633381b8"
+    },
+    {
+      "bytes": 9894475,
+      "name": "c3b78ce7cf3f1eaae1a2546adc56c3c2d8fe24d747ba6569db68b5129343aa01--docker--29.9.3.arm64_tahoe.bottle.tar.gz",
+      "sha256": "42aa841a6f84f15241b68eaca7cebdaea5108a8f003cfb176acbd8aa0d7d4f67"
+    },
+    {
+      "bytes": 50470883,
+      "name": "67deceaf22d170816242f42d75828f01ede5ae8442ffc938a1ce631cc1306b3c--lima--2.3.0.arm64_tahoe.bottle.tar.gz",
+      "sha256": "31d56468c1ea24705ebe1a195a7b6cb8953031ebcf14beb9b979e2a50326092f"
+    }
+  ],
+  "cache": {
+    "allocated_bytes": 106237952,
+    "logical_bytes": 103580878
+  },
+  "elapsed_seconds": 7.24690675,
+  "exit_code": 0,
+  "installed": {
+    "colima": {
+      "allocated_bytes": 10612736,
+      "exists": true,
+      "logical_bytes": 10581496,
+      "version": "0.10.3"
+    },
+    "docker": {
+      "allocated_bytes": 29204480,
+      "exists": true,
+      "logical_bytes": 29177326,
+      "version": "29.9.3"
+    },
+    "lima": {
+      "allocated_bytes": 113516544,
+      "exists": true,
+      "logical_bytes": 113033380,
+      "version": "2.3.0"
+    }
+  },
+  "stop_reason": null,
+  "temp": {
+    "allocated_bytes": 0,
+    "logical_bytes": 0
+  },
+  "versions": {
+    "colima": "0.10.3",
+    "docker": "29.9.3",
+    "lima": "2.3.0"
+  }
+}

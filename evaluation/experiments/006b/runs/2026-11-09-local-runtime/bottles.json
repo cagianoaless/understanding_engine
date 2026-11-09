@@ -1,0 +1,37 @@
+{
+  "bottle_bytes": 64517518,
+  "bottles": [
+    {
+      "compressed_bytes": 4152160,
+      "dependencies": [
+        "lima"
+      ],
+      "license": "MIT",
+      "name": "colima",
+      "post_install_defined": false,
+      "sha256": "a9dfd1fa0a4aee62fef75974f39f174e4da774f7ba495c43dd0bcc23633381b8",
+      "url": "https://ghcr.io/v2/homebrew/core/colima/blobs/sha256:a9dfd1fa0a4aee62fef75974f39f174e4da774f7ba495c43dd0bcc23633381b8",
+      "version": "0.10.3"
+    },
+    {
+      "compressed_bytes": 9894475,
+      "dependencies": [],
+      "license": "Apache-2.0",
+      "name": "docker",
+      "post_install_defined": false,
+      "sha256": "42aa841a6f84f15241b68eaca7cebdaea5108a8f003cfb176acbd8aa0d7d4f67",
+      "url": "https://ghcr.io/v2/homebrew/core/docker/blobs/sha256:42aa841a6f84f15241b68eaca7cebdaea5108a8f003cfb176acbd8aa0d7d4f67",
+      "version": "29.9.3"
+    },
+    {
+      "compressed_bytes": 50470883,
+      "dependencies": [],
+      "license": "Apache-2.0",
+      "name": "lima",
+      "post_install_defined": false,
+      "sha256": "31d56468c1ea24705ebe1a195a7b6cb8953031ebcf14beb9b979e2a50326092f",
+      "url": "https://ghcr.io/v2/homebrew/core/lima/blobs/sha256:31d56468c1ea24705ebe1a195a7b6cb8953031ebcf14beb9b979e2a50326092f",
+      "version": "2.3.0"
+    }
+  ]
+}
