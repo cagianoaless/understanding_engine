@@ -1,0 +1,35 @@
+{
+  "combined_payload_bytes": 379580121,
+  "combined_unique_http_payload_requests": 103,
+  "continuation_exit_code": 0,
+  "continuation_new_http_bytes": 200425613,
+  "continuation_reused_and_rehashed_archives": 80,
+  "continuation_source_sha256": "60cb24c9f86929ddf4e4519890186b63ed72c8cdbe5a932b52d6f5d030617b80",
+  "failure_analysis": "Inspector selected nested setuptools/_vendor/*/METADATA instead of root setuptools-84.2.1.dist-info/METADATA. The setuptools archive matched its source size/SHA256 and root identity; this was an audit-tool bug, not a candidate extraction failure.",
+  "fix": "Restrict identity metadata to the sole root .dist-info/METADATA; add offline vendor regression. Preserve the first source and STOPPED audit verbatim.",
+  "initial_error": "ValueError: Wheel identity differs from the exact allowlist",
+  "initial_exit_code": 3,
+  "initial_http_bytes": 179154508,
+  "initial_source_sha256": "7f356c0f84e5f91b21865502569bdada530b9d073ab28a85664f7a7b085dcc03",
+  "initial_synthetic_test_issue": "A hard-coded fixture byte-count expectation was incorrect; corrected before any network acquisition. Initial focused run: 1 failed, 7 passed. Subsequent focused runs: 9 passed before acquisition, 10 passed after root-metadata regression.",
+  "initial_verified_downloads": 80,
+  "logs": [
+    "logs/acquisition.stdout.log",
+    "logs/acquisition.stderr.log",
+    "logs/continuation.stdout.log",
+    "logs/continuation.stderr.log"
+  ],
+  "new_continuation_downloads": 23,
+  "no_alternate_source_or_resource_change": true,
+  "no_failed_payload_retries": true,
+  "raw_completed_evidence": [
+    "continuation-audit.json",
+    "continuation-resource-samples.json"
+  ],
+  "raw_initial_evidence": [
+    "audit.json",
+    "resource-samples.json",
+    "archive_audit.initial.py"
+  ],
+  "schema_version": "006b.archive-execution.1"
+}

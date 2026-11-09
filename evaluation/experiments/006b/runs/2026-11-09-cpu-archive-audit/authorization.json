@@ -1,0 +1,20 @@
+{
+  "active_inclusive_installed_cache_cap_bytes": 4294967296,
+  "authority": "Explicit user approval after PR #13 for the exact 103 CPU wheels and bounded ZIP/license inspection",
+  "candidate_installation_authorized": false,
+  "container_memory_bytes": 4294967296,
+  "cpu_cores": 4,
+  "date": "2026-11-09",
+  "download_cap_bytes": null,
+  "heron_weight_acquisition_authorized": false,
+  "historical_records_changed": false,
+  "host_free_reserve_bytes": 21474836480,
+  "inference_authorized": false,
+  "inference_threads": 4,
+  "proposal_sha256": "81c9a936575a8376acb835c2d33949b81719e96dfbc1cf009b41cfae5026ff5e",
+  "proposed_inclusive_cap_bytes_not_authorized": 6442450944,
+  "schema_version": "006b.archive-authorization.1",
+  "seconds_per_page": 120,
+  "swap_bytes": 0,
+  "wheel_acquisition_authorized": true
+}

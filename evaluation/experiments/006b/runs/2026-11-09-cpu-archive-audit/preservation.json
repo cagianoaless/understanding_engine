@@ -1,0 +1,10 @@
+{
+  "changed_prior_paths": [],
+  "historical_results_frozen_references_and_production_unchanged": true,
+  "new_branch": "feat/experiment-006b-wheel-audit",
+  "parent_commit": "cff63071a1bc2762268be461e0b79579549b38c4",
+  "prior_file_hash_manifest_sha256": "cb3796b222a69b9c6f33d2f50c1acc53228ea1c57024c8ea0a051198e21ab81f",
+  "prior_tracked_files_identical": 258,
+  "raw_directory_outside_every_git_root": true,
+  "schema_version": "006b.archive-preservation.1"
+}

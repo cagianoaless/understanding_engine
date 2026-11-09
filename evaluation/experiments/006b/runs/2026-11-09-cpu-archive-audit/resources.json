@@ -1,0 +1,152 @@
+{
+  "acquisition_resource_check_count": 912,
+  "actual_candidate_installed_bytes": null,
+  "actual_cp311_runtime_bytes": null,
+  "actual_installation_peak_bytes": null,
+  "archive_directory_copy_count": 1,
+  "archive_measured_allocated_bytes": 396374016,
+  "archive_payload_bytes": 379580121,
+  "caveats": [
+    "ZIP sizes are central-directory declarations, not actual extracted allocation. Only notices/root METADATA were decompressed and CRC checked.",
+    "4 KiB per-file rounding is an explicit Linux planning estimate; directory metadata, pyc, scripts and allocation details are unmeasured. No automatic bytecode generation assumed in the proposed budget.",
+    "APFS exclusive clones/sharing and continuous peaks are unknown. Concurrent host writes affect df; observed free-space changes are not identical to payload sizes.",
+    "All prior runtime/cache/evidence roots and partial files stayed counted. No cleanup or deletion assumed. Subsequent generated reports fit the separate 64 MiB work allowance.",
+    "512 MiB runtime and scratch/duplicate terms are budgets, not observed payload/install sizes. Future image selection must verify them. No extra image was fetched."
+  ],
+  "conservative_scenario": {
+    "D_guest_wheel_and_model_extra_copies_allowance_bytes": 551242829,
+    "H_measured_retained_roots_bytes": 2456641536,
+    "M_pinned_heron_estimate_bytes": 171662708,
+    "R_cp311_runtime_image_download_and_installed_allowance_bytes": 536870912,
+    "T_one_largest_package_scratch_allowance_bytes": 656220160,
+    "U_rounded_package_files_estimate_bytes": 1318440960,
+    "W_metadata_directory_and_install_work_allowance_bytes": 67108864,
+    "conditions": "One installation copy, sequential installs, at most one largest-package staging copy, <=512 MiB for new runtime plus retained image/cache layers; no extra Docker build/export copies. Abort if those assumptions fail; 6 GiB is not active authorization.",
+    "fits_active_4GiB": false,
+    "projection_is_observed_installation": false,
+    "proposed_6GiB_margin_bytes": 684262975,
+    "total_projected_bytes": 5758187969
+  },
+  "cumulative_download_accounting_with_carried_allowances_bytes": 981529895,
+  "download_ceiling": "Withdrawn prospectively; no consumption reset or historical correction",
+  "estimated_4KiB_rounded_package_file_bytes": 1318440960,
+  "future_projection_with_one_heron_payload_excluding_unknown_runtime_bytes": 1153192603,
+  "historical_provisioning_peak": "UNKNOWN",
+  "host_initial_available_bytes": 34685857792,
+  "host_min_sampled_during_acquisition_bytes": 34270756864,
+  "host_post_acquisition_available_bytes": 34250293248,
+  "initial_inclusive_allocated_bytes": 2050318336,
+  "interpretation": "4 GiB is not established sufficient. Minimal footprint leaves only 281,113,228 bytes for every missing runtime/temp/duplicate term. Conservative reproducible plan exceeds it; propose 6 GiB separately. An optimized in-place installation might fit, but was not executed or demonstrated.",
+  "max_sampled_inclusive_during_acquisition_bytes": 2455052288,
+  "method": "st_blocks*512 for regular files in registered roots, unique device/inode; directory symlinks not followed. Sparse VM capacities are not physical allocation. Guest layers already in VM disk allocation, not added again.",
+  "minimal_subtotal_H_U_M_work_bytes": 4013854068,
+  "model_bytes_not_acquired": 171662708,
+  "new_verified_http_payload_bytes": 379580121,
+  "post_acquisition_inclusive_allocated_bytes": 2456641536,
+  "post_acquisition_storage_roots": {
+    "$ARCHIVE_RAW": {
+      "allocated_bytes": 406380544,
+      "exists": true,
+      "logical_bytes": 388803380,
+      "regular_files": 445,
+      "symlinks_not_followed": 0
+    },
+    "$CPU_RAW": {
+      "allocated_bytes": 63356928,
+      "exists": true,
+      "logical_bytes": 62341544,
+      "regular_files": 444,
+      "symlinks_not_followed": 0
+    },
+    "$EXPERIMENT006_RAW": {
+      "allocated_bytes": 53460992,
+      "exists": true,
+      "logical_bytes": 52583251,
+      "regular_files": 356,
+      "symlinks_not_followed": 0
+    },
+    "$HOME/.colima": {
+      "allocated_bytes": 1187692544,
+      "exists": true,
+      "logical_bytes": 9684271157,
+      "regular_files": 26,
+      "symlinks_not_followed": 0
+    },
+    "$HOME/Library/Caches/colima": {
+      "allocated_bytes": 0,
+      "exists": false,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0
+    },
+    "$HOME/Library/Caches/lima": {
+      "allocated_bytes": 0,
+      "exists": false,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0
+    },
+    "$HOME/Library/Logs/Homebrew/colima": {
+      "allocated_bytes": 0,
+      "exists": false,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0
+    },
+    "$HOME/Library/Logs/Homebrew/docker": {
+      "allocated_bytes": 0,
+      "exists": false,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0
+    },
+    "$HOME/Library/Logs/Homebrew/lima": {
+      "allocated_bytes": 0,
+      "exists": false,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0
+    },
+    "$PREFLIGHT_RAW": {
+      "allocated_bytes": 149458944,
+      "exists": true,
+      "logical_bytes": 146713950,
+      "regular_files": 1220,
+      "symlinks_not_followed": 0
+    },
+    "$REPO_artifacts/experiment-006b-local/20261109T101525+0100": {
+      "allocated_bytes": 442957824,
+      "exists": true,
+      "logical_bytes": 436355941,
+      "regular_files": 853,
+      "symlinks_not_followed": 6
+    },
+    "/opt/homebrew/Cellar/colima/0.10.3": {
+      "allocated_bytes": 10612736,
+      "exists": true,
+      "logical_bytes": 10579928,
+      "regular_files": 14,
+      "symlinks_not_followed": 0
+    },
+    "/opt/homebrew/Cellar/docker/29.9.3": {
+      "allocated_bytes": 29204480,
+      "exists": true,
+      "logical_bytes": 29175374,
+      "regular_files": 17,
+      "symlinks_not_followed": 0
+    },
+    "/opt/homebrew/Cellar/lima/2.3.0": {
+      "allocated_bytes": 113516544,
+      "exists": true,
+      "logical_bytes": 113026468,
+      "regular_files": 157,
+      "symlinks_not_followed": 0
+    }
+  },
+  "prior_cumulative_download_accounting_with_allowances_bytes": 601949774,
+  "remaining_for_runtime_all_temporary_and_duplicates_under_4GiB_bytes": 281113228,
+  "schema_version": "006b.cpu-archive-resources.1",
+  "snapshot": "2026-11-09T15:52:48.849293+01:00",
+  "work_planning_allowance_bytes": 67108864,
+  "zip_declared_unpacked_logical_bytes": 1250768241
+}

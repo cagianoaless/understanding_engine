@@ -1,0 +1,23 @@
+{
+  "candidate_installed": false,
+  "command": [
+    "uv",
+    "run",
+    "--frozen",
+    "--offline",
+    "pytest"
+  ],
+  "exit_code": 0,
+  "failed": 0,
+  "neural_imports_or_inference": false,
+  "new_images": 0,
+  "new_offline_audit_regressions": 10,
+  "old_tracked_files_unchanged": 258,
+  "partial_archives_remaining": 0,
+  "passed": 324,
+  "python": "3.11.13",
+  "redirects": 0,
+  "seconds": 7.98,
+  "skipped": 0,
+  "unverified_archives": 0
+}

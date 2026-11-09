@@ -1,0 +1,126 @@
+{
+  "findings": [
+    {
+      "next_action": "Obtain version-matched authoritative license/notice evidence and assess native coverage; no package-name inference. No additional source download was performed.",
+      "observation": "No LICENSE/NOTICE candidate exists in these three wheels. Their root METADATA respectively declares SPDX MIT, legacy MIT, and an Apache Software License classifier only; no License-File header is present. Tokenizers native/transitive notice completeness cannot be established from its classifier.",
+      "packages": [
+        "docling",
+        "latex2mathml",
+        "tokenizers"
+      ],
+      "status": "UNRESOLVED_NOTICE_GAP"
+    },
+    {
+      "evidence": [
+        {
+          "path": "shapely-2.2.0.dist-info/licenses/LICENSE_GEOS",
+          "sha256": "81d9aaf9ab7e3e6184568a70f27ee3e138d8d1e543b46dad5af88cff61cf1b36",
+          "wheel": "shapely-2.2.0-cp311-cp311-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl"
+        }
+      ],
+      "observation": "LICENSE_GEOS identifies GEOS shared libraries and LGPLv2.1. This is an actual bundled component notice; applicability/redistribution requirements must be respected. It is not evidence that private CPU execution is prohibited.",
+      "packages": [
+        "shapely"
+      ],
+      "status": "BUNDLED_LGPL_TERMS_IDENTIFIED"
+    },
+    {
+      "evidence": [
+        {
+          "path": "setuptools/_vendor/autocommand-2.2.2.dist-info/LICENSE",
+          "sha256": "ade78d04982d69972d444a8e14a94f87a2334dd3855cc80348ea8e240aa0df2d",
+          "wheel": "setuptools-84.2.1-py3-none-any.whl"
+        },
+        {
+          "path": "setuptools/config/_validate_pyproject/NOTICE",
+          "sha256": "09c9bcea95ca086f8bc5bed174e40bc835b297d40fb5f86bbbb570fe0a5581a7",
+          "wheel": "setuptools-84.2.1-py3-none-any.whl"
+        }
+      ],
+      "observation": "Vendored autocommand 2.2.2 contains LGPLv3 text; generated validation-code NOTICE includes MPL terms. This is not an all-MIT dependency closure. Future redistribution/native applicability has not been fully mapped.",
+      "packages": [
+        "setuptools"
+      ],
+      "status": "VENDORED_LGPL_AND_GENERATED_CODE_TERMS_IDENTIFIED"
+    },
+    {
+      "evidence": [
+        {
+          "path": "cv2/LICENSE-3RD-PARTY.txt",
+          "sha256": "2537f5653345db7231ff12f307bcfa4c89807d45ed1c4bb8ebfb6f26f61b160a",
+          "wheel": "opencv_python_headless-5.0.0.93-cp37-abi3-manylinux_2_28_aarch64.whl"
+        }
+      ],
+      "observation": "Third-party text includes LGPLv2.1 for bundled FFmpeg library binaries. The non-commercial keyword occurs in a sentence expressly permitting commercial and non-commercial use (OpenSSL attribution), not a noncommercial-only prohibition. Preserve all component notices; native-library applicability is not exhaustively reviewed.",
+      "packages": [
+        "opencv-python-headless"
+      ],
+      "status": "BUNDLED_NATIVE_TERMS_IDENTIFIED"
+    },
+    {
+      "evidence": [
+        {
+          "path": "numpy-2.4.6.dist-info/licenses/LICENSE.txt",
+          "sha256": "4860083caa0de2ac3292ca98bd074bd8f45d8b32624e37b1e70a240bff61e488",
+          "wheel": "numpy-2.4.6-cp311-cp311-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl"
+        },
+        {
+          "path": "scipy-1.17.1.dist-info/LICENSE.txt",
+          "sha256": "4daf14e37432e7026165979ecb7a39930707a3e89bef4876cfaf9dad36ed364a",
+          "wheel": "scipy-1.17.1-cp311-cp311-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl"
+        }
+      ],
+      "observation": "Bundled libgfortran notices state GPLv3 with GCC Runtime Library Exception 3.1. GPL/AGPL words inside full license text are not proof that the whole wheel or this project is GPL/AGPL. Component conditions need correct attribution.",
+      "packages": [
+        "numpy",
+        "scipy"
+      ],
+      "status": "GCC_RUNTIME_EXCEPTION_IDENTIFIED"
+    },
+    {
+      "observation": "Pillow contains component dual-license/toolchain discussion; PDFium ICU notices include Autoconf/configuration-script exceptions; PSF historical terms reference GPL. No blanket wheel incompatibility follows from keyword matches. Complete native-component applicability remains unverified.",
+      "packages": [
+        "pillow",
+        "pypdfium2",
+        "et-xmlfile",
+        "pandas",
+        "typing-extensions"
+      ],
+      "status": "CONTEXT_CHECKED_NO_BLANKET_GPL_INFERENCE"
+    },
+    {
+      "evidence": [
+        {
+          "path": "rapidocr-3.10.0.dist-info/licenses/MODEL_LICENSES.md",
+          "sha256": "c5fd0e8603d3df743355b546121e6fe0f4ef8ff455c5a85c1681fd3ae520e153",
+          "wheel": "rapidocr-3.10.0-py3-none-any.whl"
+        }
+      ],
+      "observation": "MODEL_LICENSES.md explicitly identifies the three bundled PaddleOCR-derived ONNX files and Apache-2.0 terms, distinguishes upstream ownership/conversion, and states that permissions are not limited to non-commercial use. Upstream independent provenance and per-model hashes were not separately revalidated; the acquired wheel hash covers the packaged bytes. No OCR or separate model request occurred.",
+      "packages": [
+        "rapidocr"
+      ],
+      "status": "BUNDLED_MODELS_APACHE_DECLARATION_FOUND"
+    },
+    {
+      "evidence": [
+        {
+          "path": "shellingham-1.5.4.dist-info/LICENSE",
+          "sha256": "f388fd38cad13112c1dc0f669bbe80e7f84541edbafb72f3030d2ca7642c3c9d",
+          "wheel": "shellingham-1.5.4-py2.py3-none-any.whl"
+        }
+      ],
+      "observation": "Actual LICENSE grants use/copy/modify/distribution with notice retention. The automated signature missed the wording variant; no missing-license claim is made.",
+      "packages": [
+        "shellingham"
+      ],
+      "status": "ISC_STYLE_GRANT_AGENT_CHECKED"
+    }
+  ],
+  "full_closure_license_clearance": "UNKNOWN",
+  "review_status": "agent_checked; no independent human/legal verification",
+  "schema_version": "006b.cpu-license-review.1",
+  "scope": "Bounded text inspection of all discovered notices plus targeted context review. License expressions and filename matching do not establish completeness for every bundled native/Rust dependency or give legal approval.",
+  "wheels_with_discovered_notice_text": 100,
+  "wheels_without_discovered_notice_text": 3
+}
