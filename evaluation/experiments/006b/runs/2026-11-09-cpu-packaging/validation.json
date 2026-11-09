@@ -1,0 +1,22 @@
+{
+  "candidate_artifact_get_requests": 0,
+  "exit_code": 0,
+  "failed": 0,
+  "logs": [
+    "logs/pytest.stdout.log",
+    "logs/pytest.stderr.log"
+  ],
+  "metadata_payload_guard_triggered": false,
+  "new_gateway_policy_regressions": 10,
+  "no_runtime_inference_claim": true,
+  "offline_test_command": [
+    "uv",
+    "run",
+    "--frozen",
+    "--offline",
+    "pytest"
+  ],
+  "passed": 314,
+  "prior_tracked_files_identical": 237,
+  "skipped": 0
+}

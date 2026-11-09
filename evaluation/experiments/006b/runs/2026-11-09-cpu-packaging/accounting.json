@@ -1,0 +1,132 @@
+{
+  "active_download_cap_bytes": null,
+  "additional_cp311_runtime_image_bytes": null,
+  "allocation_method": "Bounded walk of previously registered runtime/cache/evidence roots plus this run; no symlink traversal. Hard-linked regular files counted once by device/inode; du totals include directory metadata and may conservatively count shared allocations. APFS exclusive allocation unknown. Guest layers are already in VM disks, not added again.",
+  "archive_only_planning_upper_bytes": 2496110297,
+  "archives_and_model_planning_subtotal_bytes": 2667773005,
+  "candidate_measured_installed_bytes": null,
+  "candidate_unpacked_logical_bytes": null,
+  "caveats": [
+    "HTTP body counts exclude protocol headers; allowances remain estimates, not measured transfers.",
+    "Prior allowances retained without resetting cumulative consumption; model configs conservatively counted again.",
+    "Compressed sizes and ZIP logical sizes do not establish installed allocated space.",
+    "APFS exclusive sharing unknown; snapshots are not peak measurements.",
+    "No future image, model copy, pip cache or temporary extraction may be excluded from inclusive accounting.",
+    "64 MiB planning allowance is additional storage headroom, not authorization or a relaxed 4 GiB cap."
+  ],
+  "cumulative_accounted_bytes_before_candidate": 601949774,
+  "current_inclusive_allocated_upper_bytes": 2049421312,
+  "expected_cpu_compressed_wheel_bytes": 379580121,
+  "expected_minimal_heron_bytes": 171662708,
+  "forecast_formula": "H + E + M + U + R + T + D + 64 MiB <= 4 GiB. H includes all retained setup/runtime/evidence roots, E retained wheel archives once, M pinned model files once, U unpacked candidate, R additional CPython 3.11 runtime/image and build layers, T temporary extraction, D pip/image/model duplicate copies. No automatic cache cleanup assumed.",
+  "historical_provisioning_peak": "UNKNOWN",
+  "host_available_bytes": 34759376896,
+  "host_reserve_bytes": 21474836480,
+  "installed_cache_cap_bytes": 4294967296,
+  "new_image_bytes": 0,
+  "new_model_weight_bytes": 0,
+  "new_storage_planning_allowance_bytes": 67108864,
+  "new_wheel_payload_bytes": 0,
+  "prior_accounting_reference": "../2026-11-09-linux-preflight/accounting.json",
+  "prior_consumption_and_allowances_carried_bytes": 573540111,
+  "projected_cumulative_accounted_wheels_and_heron_bytes_excluding_unknown_runtime": 1153192603,
+  "remaining_for_unpacked_runtime_temporary_duplicates_bytes": 1627194291,
+  "schema_version": "006b.cpu-accounting.1",
+  "snapshot": "2026-11-09T13:11:39.556293+01:00",
+  "storage_roots": {
+    "$CPU_RAW": {
+      "allocated_file_bytes": 62713856,
+      "du_k": "61244",
+      "exists": true,
+      "logical_file_bytes": 61711118,
+      "regular_file_count": 439
+    },
+    "$EXPERIMENT006_RAW": {
+      "allocated_file_bytes": 53460992,
+      "du_k": "52208",
+      "exists": true,
+      "logical_file_bytes": 52583251,
+      "regular_file_count": 356
+    },
+    "$HOME/.colima": {
+      "allocated_file_bytes": 1187495936,
+      "du_k": "1159664",
+      "exists": true,
+      "logical_file_bytes": 9684146057,
+      "regular_file_count": 26
+    },
+    "$HOME/Library/Caches/colima": {
+      "allocated_file_bytes": 0,
+      "du_k": null,
+      "exists": false,
+      "logical_file_bytes": 0,
+      "regular_file_count": 0
+    },
+    "$HOME/Library/Caches/lima": {
+      "allocated_file_bytes": 0,
+      "du_k": null,
+      "exists": false,
+      "logical_file_bytes": 0,
+      "regular_file_count": 0
+    },
+    "$HOME/Library/Logs/Homebrew/colima": {
+      "allocated_file_bytes": 0,
+      "du_k": null,
+      "exists": false,
+      "logical_file_bytes": 0,
+      "regular_file_count": 0
+    },
+    "$HOME/Library/Logs/Homebrew/docker": {
+      "allocated_file_bytes": 0,
+      "du_k": null,
+      "exists": false,
+      "logical_file_bytes": 0,
+      "regular_file_count": 0
+    },
+    "$HOME/Library/Logs/Homebrew/lima": {
+      "allocated_file_bytes": 0,
+      "du_k": null,
+      "exists": false,
+      "logical_file_bytes": 0,
+      "regular_file_count": 0
+    },
+    "$PREFLIGHT_RAW": {
+      "allocated_file_bytes": 149458944,
+      "du_k": "145956",
+      "exists": true,
+      "logical_file_bytes": 146713950,
+      "regular_file_count": 1220
+    },
+    "$REPO_artifacts/experiment-006b-local/20261109T101525+0100": {
+      "allocated_file_bytes": 442957824,
+      "du_k": "432576",
+      "exists": true,
+      "logical_file_bytes": 436355941,
+      "regular_file_count": 853
+    },
+    "/opt/homebrew/Cellar/colima/0.10.3": {
+      "allocated_file_bytes": 10612736,
+      "du_k": "10364",
+      "exists": true,
+      "logical_file_bytes": 10579928,
+      "regular_file_count": 14
+    },
+    "/opt/homebrew/Cellar/docker/29.9.3": {
+      "allocated_file_bytes": 29204480,
+      "du_k": "28520",
+      "exists": true,
+      "logical_file_bytes": 29175374,
+      "regular_file_count": 17
+    },
+    "/opt/homebrew/Cellar/lima/2.3.0": {
+      "allocated_file_bytes": 113516544,
+      "du_k": "110856",
+      "exists": true,
+      "logical_file_bytes": 113026468,
+      "regular_file_count": 157
+    }
+  },
+  "temporary_extraction_and_duplicate_allocation_bytes": null,
+  "this_stage_measured_metadata_body_bytes": 11632447,
+  "this_stage_small_transfer_allowance_bytes": 16777216
+}
