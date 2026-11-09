@@ -1,0 +1,24 @@
+{"name": "shapely", "verified_bytes": 2184352, "uncompressed": 8204374, "completed": 81}
+{"name": "shellingham", "verified_bytes": 9755, "uncompressed": 18479, "completed": 82}
+{"name": "six", "verified_bytes": 11050, "uncompressed": 37975, "completed": 83}
+{"name": "soupsieve", "verified_bytes": 50688, "uncompressed": 190456, "completed": 84}
+{"name": "sympy", "verified_bytes": 6299353, "uncompressed": 26841861, "completed": 85}
+{"name": "tabulate", "verified_bytes": 39814, "uncompressed": 150857, "completed": 86}
+{"name": "tokenizers", "verified_bytes": 3519944, "uncompressed": 11502579, "completed": 87}
+{"name": "torch", "verified_bytes": 170730380, "uncompressed": 624644760, "completed": 88}
+{"name": "torchvision", "verified_bytes": 2072349, "uncompressed": 6784050, "completed": 89}
+{"name": "tqdm", "verified_bytes": 80199, "uncompressed": 233479, "completed": 90}
+{"name": "transformers", "verified_bytes": 13051755, "uncompressed": 52139056, "completed": 91}
+{"name": "tree-sitter", "verified_bytes": 637206, "uncompressed": 2045801, "completed": 92}
+{"name": "tree-sitter-c", "verified_bytes": 94560, "uncompressed": 781458, "completed": 93}
+{"name": "tree-sitter-javascript", "verified_bytes": 106072, "uncompressed": 688369, "completed": 94}
+{"name": "tree-sitter-python", "verified_bytes": 110603, "uncompressed": 717522, "completed": 95}
+{"name": "tree-sitter-typescript", "verified_bytes": 351987, "uncompressed": 3164747, "completed": 96}
+{"name": "typer", "verified_bytes": 123312, "uncompressed": 487603, "completed": 97}
+{"name": "typing-extensions", "verified_bytes": 45571, "uncompressed": 182767, "completed": 98}
+{"name": "typing-inspection", "verified_bytes": 14874, "uncompressed": 55266, "completed": 99}
+{"name": "tzdata", "verified_bytes": 348210, "uncompressed": 582438, "completed": 100}
+{"name": "urllib3", "verified_bytes": 135717, "uncompressed": 450461, "completed": 101}
+{"name": "websockets", "verified_bytes": 227279, "uncompressed": 1021657, "completed": 102}
+{"name": "xlsxwriter", "verified_bytes": 180583, "uncompressed": 877583, "completed": 103}
+{"outcome": "COMPLETE", "error": null, "verified_count": 103, "downloaded_http_body_bytes": 379580121, "zip_uncompressed_logical_bytes": 1250768241, "max_sampled_allocated_bytes": 2455052288, "min_sampled_host_available_bytes": 34270756864}

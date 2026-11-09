@@ -1,0 +1,2938 @@
+{
+  "bytes_read_including_repeated_notice_contents": 1479194,
+  "classification": "Automated text signatures are evidence pointers, never compatibility clearance. Raw notice text stays outside Git; recover it from the verified named wheel entry and check its recorded SHA-256.",
+  "discovered_notices": 263,
+  "files": [
+    {
+      "package": "accelerate",
+      "path": "accelerate-1.15.0.dist-info/licenses/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11357
+    },
+    {
+      "package": "annotated-doc",
+      "path": "annotated_doc-0.0.5.dist-info/licenses/LICENSE",
+      "sha256": "fff170779a6acbf65abdb405c087f1cee1786691e4a96a4034517e4a504a0cdf",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1086
+    },
+    {
+      "package": "annotated-types",
+      "path": "annotated_types-0.8.0.dist-info/licenses/LICENSE",
+      "sha256": "fe1049884b1a0d9342901e88e07f32925d24b3121d9972b6a6805fb9824b095d",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1083
+    },
+    {
+      "package": "anyio",
+      "path": "anyio-4.16.0.dist-info/licenses/LICENSE",
+      "sha256": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1081
+    },
+    {
+      "package": "attrs",
+      "path": "attrs-26.1.0.dist-info/licenses/LICENSE",
+      "sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1109
+    },
+    {
+      "package": "beautifulsoup4",
+      "path": "beautifulsoup4-4.15.0.dist-info/licenses/AUTHORS",
+      "sha256": "b989238918e1fdac1e46717cb405b63e92497a272413af0d989c1df6c8abcb6f",
+      "signatures": [],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 2201
+    },
+    {
+      "package": "beautifulsoup4",
+      "path": "beautifulsoup4-4.15.0.dist-info/licenses/LICENSE",
+      "sha256": "55b4d8d4b1e5bc86d10efac91b74c87bcb77526b0f5b9edaf8b9cd2adc7397b2",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1441
+    },
+    {
+      "package": "certifi",
+      "path": "certifi-2026.10.23.dist-info/licenses/LICENSE",
+      "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+      "signatures": [
+        "MPL"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 989
+    },
+    {
+      "package": "charset-normalizer",
+      "path": "charset_normalizer-3.5.2.dist-info/licenses/LICENSE",
+      "sha256": "6d0d41bfe170ac6c7dc248c9a63e254d0fb45a60d50a8257d0af92c6e249b887",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1071
+    },
+    {
+      "package": "click",
+      "path": "click-8.5.0.dist-info/licenses/LICENSE.txt",
+      "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1475
+    },
+    {
+      "package": "colorlog",
+      "path": "colorlog-6.12.0.dist-info/licenses/LICENSE",
+      "sha256": "b1d9082bc483623fd59fc7279b457f0e40d942a76426cde257239e04dfe4125a",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1107
+    },
+    {
+      "package": "defusedxml",
+      "path": "defusedxml-0.7.1.dist-info/LICENSE",
+      "sha256": "b80ce9da8c42a1f91079627fbbe2bf27210ae108a0ffe5f077d5b08e076c24c8",
+      "signatures": [
+        "Python_Software_Foundation"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 2409
+    },
+    {
+      "package": "dill",
+      "path": "dill-0.4.1.dist-info/LICENSE",
+      "sha256": "f669d63bebf765baaa0b20d8b0c1193296a7e0ea0c22c50a308b74d76ab3939c",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1790
+    },
+    {
+      "package": "doclang",
+      "path": "doclang-0.9.0.dist-info/licenses/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11357
+    },
+    {
+      "package": "docling-core",
+      "path": "docling_core-2.106.0.dist-info/licenses/LICENSE",
+      "sha256": "d8cf7ee84a10d6cc45ced4ce917180b7050326f9d66801dd07d058595c06908c",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1087
+    },
+    {
+      "package": "docling-ibm-models",
+      "path": "docling_ibm_models-4.0.4.dist-info/licenses/LICENSE",
+      "sha256": "9816fb12b11c33c552f4e8621879d0da493be47c0f86be785b53a2cf7f7ae4c6",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1088
+    },
+    {
+      "package": "docling-parse",
+      "path": "docling_parse/pdf_resources/cmap-resources/LICENSE.md",
+      "sha256": "feb8b068a417681821823ef2e8995072aa111121fa11f8664038f78717f4497c",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1453
+    },
+    {
+      "package": "docling-parse",
+      "path": "docling_parse-7.24.2.dist-info/licenses/LICENSE",
+      "sha256": "002c2696d92b5c8cf956c11072baa58eaf9f6ade995c031ea635c6a1ee342ad1",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1069
+    },
+    {
+      "package": "docling-slim",
+      "path": "docling_slim-2.148.0.dist-info/licenses/LICENSE",
+      "sha256": "edb765d1e3e60d0c7a7d5fba5f2bb2c3c29f7465cecb5c22cf1185c884954e4c",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1072
+    },
+    {
+      "package": "et-xmlfile",
+      "path": "et_xmlfile-2.0.0.dist-info/LICENCE.python",
+      "sha256": "4ccdaaebc0f44b83720ec0399bb7ab329adce067dd62f73c5535a2dc05628ab2",
+      "signatures": [
+        "ISC_grant",
+        "Python_Software_Foundation",
+        "GPL_mention"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 14688
+    },
+    {
+      "package": "et-xmlfile",
+      "path": "et_xmlfile-2.0.0.dist-info/LICENCE.rst",
+      "sha256": "0c84bb42f5d367e5ebf9fc2dde35b16141df5ee0fdc189250858bc6c5560f69e",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1131
+    },
+    {
+      "package": "faker",
+      "path": "faker-40.44.0.dist-info/licenses/LICENSE.txt",
+      "sha256": "cd5a5fbc8bacca52b88158ca562ac5f7c2e9adb27371cead51aaf4e61a657928",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1060
+    },
+    {
+      "package": "filelock",
+      "path": "filelock-4.2.9.dist-info/licenses/LICENSE",
+      "sha256": "608c89d5060ae9921adccf3236695bc654a9946e12323ef6c021dfa04e294d48",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1088
+    },
+    {
+      "package": "filetype",
+      "path": "filetype-1.2.0.dist-info/LICENSE",
+      "sha256": "8e44e2aa35b371bdcc856bcf0d2442a410dd55fde66b0dfc2fcdf076d97946ac",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1082
+    },
+    {
+      "package": "fsspec",
+      "path": "fsspec-2026.9.0.dist-info/licenses/LICENSE",
+      "sha256": "2dc35496ce53a7307915c008a844aad53e772b49b34cdd00445067691407ec94",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1513
+    },
+    {
+      "package": "h11",
+      "path": "h11-0.16.0.dist-info/licenses/LICENSE.txt",
+      "sha256": "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1124
+    },
+    {
+      "package": "hf-xet",
+      "path": "hf_xet-1.8.0.dist-info/licenses/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11357
+    },
+    {
+      "package": "httpcore",
+      "path": "httpcore-1.0.9.dist-info/licenses/LICENSE.md",
+      "sha256": "fdcb59154c74cbaba16a11242f7740bea9f23d6feb5547917d8c5f94a80392a5",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1518
+    },
+    {
+      "package": "httpx",
+      "path": "httpx-0.28.1.dist-info/licenses/LICENSE.md",
+      "sha256": "4ec59d544f12b5f539a3a716fd321ac58ccd8030b465221f2c880200cdf28d8d",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1508
+    },
+    {
+      "package": "huggingface-hub",
+      "path": "huggingface_hub-1.33.0.dist-info/licenses/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11357
+    },
+    {
+      "package": "idna",
+      "path": "idna-3.20.dist-info/licenses/LICENSE.md",
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1541
+    },
+    {
+      "package": "jinja2",
+      "path": "jinja2-3.1.6.dist-info/licenses/LICENSE.txt",
+      "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1475
+    },
+    {
+      "package": "jsonref",
+      "path": "jsonref-1.1.0.dist-info/licenses/LICENSE",
+      "sha256": "c93d594f97a1bc45d04908cd47c707cd7ff078f038a011443e0049ed28da3f31",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1074
+    },
+    {
+      "package": "jsonschema",
+      "path": "jsonschema-4.26.0.dist-info/licenses/COPYING",
+      "sha256": "4f92a015a13c4d1a040bef018aa13430b4f1bc73b41b16bb846c346766de7439",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1057
+    },
+    {
+      "package": "jsonschema-specifications",
+      "path": "jsonschema_specifications-2025.9.1.dist-info/licenses/COPYING",
+      "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1057
+    },
+    {
+      "package": "langcodes",
+      "path": "langcodes-3.5.1.dist-info/licenses/LICENSE.txt",
+      "sha256": "a0cceca169e5eed22f00f4c001c3851026e56cb60632904548889eb79a3c226d",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1090
+    },
+    {
+      "package": "lxml",
+      "path": "lxml-6.1.3.dist-info/licenses/LICENSE.txt",
+      "sha256": "8fc2b568133516e46845d2147917adeee1648e70ae9ab5ed6c5417afef4ce855",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1507
+    },
+    {
+      "package": "lxml",
+      "path": "lxml-6.1.3.dist-info/licenses/LICENSES.txt",
+      "sha256": "388fa99f3bde4447cd5a4cbb114037be026854db6cfe89e112691c1d8abdcf3c",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 6221
+    },
+    {
+      "package": "mail-parser",
+      "path": "mail_parser-4.10.0.dist-info/licenses/LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11358
+    },
+    {
+      "package": "mail-parser",
+      "path": "mail_parser-4.10.0.dist-info/licenses/NOTICE.txt",
+      "sha256": "60fa93b2ebffb599093388aa9fd81c989d42446368944ed07df7ea033bf9a79f",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 593
+    },
+    {
+      "package": "markdown-it-py",
+      "path": "markdown_it_py-4.2.0.dist-info/licenses/LICENSE",
+      "sha256": "4a2260d6e2cd0f5a151a1e86dbfe7d3ed552b1e2beabf9941c1ba5c49cbce484",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1078
+    },
+    {
+      "package": "markdown-it-py",
+      "path": "markdown_it_py-4.2.0.dist-info/licenses/LICENSE.markdown-it",
+      "sha256": "792c48c5a849a15fdf9e37e8bcf9e6d1dd13b32b46c642a748a0a46a9919d473",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1073
+    },
+    {
+      "package": "marko",
+      "path": "marko-2.2.5.dist-info/licenses/LICENSE",
+      "sha256": "1da058ed0440fea5df1765b19a1418800439b18fd6f1c13c7d429cb81e9c6d47",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1067
+    },
+    {
+      "package": "markupsafe",
+      "path": "markupsafe-3.0.4.dist-info/licenses/LICENSE.txt",
+      "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1475
+    },
+    {
+      "package": "mdurl",
+      "path": "mdurl-0.1.2.dist-info/LICENSE",
+      "sha256": "7c605df6e28667a9603118e98274f64a49ce3eed0d26fccce9534a345e0ef955",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 2338
+    },
+    {
+      "package": "mpire",
+      "path": "mpire-2.10.2.dist-info/LICENSE",
+      "sha256": "7234781681ef4f84b27f5d9da017bca154d597249d63e7706cd06d7cbdc94cce",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1070
+    },
+    {
+      "package": "mpmath",
+      "path": "mpmath-1.3.0.dist-info/LICENSE",
+      "sha256": "c26cae81da4508e5e249985777a33821f183223ebb74d7f8cfbf90fe7eef2fb7",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1537
+    },
+    {
+      "package": "multiprocess",
+      "path": "multiprocess-0.70.19.dist-info/licenses/COPYING",
+      "sha256": "9f7ff27cb930d2c3202ee07e3d2d6146f4de676d069a33da3166c98cdba83a95",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1493
+    },
+    {
+      "package": "multiprocess",
+      "path": "multiprocess-0.70.19.dist-info/licenses/LICENSE",
+      "sha256": "4e693e45d442befb87c1f9d27e8d6b1566ee8ddac083d6f5c7c6829ba40878c9",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1930
+    },
+    {
+      "package": "networkx",
+      "path": "networkx-3.6.1.dist-info/licenses/LICENSE.txt",
+      "sha256": "3cf7c3a179d817b23b8b8568211769fefdf93797d207d984b8b2fa24d0220b33",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1763
+    },
+    {
+      "package": "numpy",
+      "path": "numpy/_core/include/numpy/random/LICENSE.txt",
+      "sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec",
+      "signatures": [
+        "Zlib"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1018
+    },
+    {
+      "package": "numpy",
+      "path": "numpy/ma/LICENSE",
+      "sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1593
+    },
+    {
+      "package": "numpy",
+      "path": "numpy/random/LICENSE.md",
+      "sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f",
+      "signatures": [
+        "MIT_grant",
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 3511
+    },
+    {
+      "package": "numpy",
+      "path": "numpy-2.4.6.dist-info/licenses/LICENSE.txt",
+      "sha256": "4860083caa0de2ac3292ca98bd074bd8f45d8b32624e37b1e70a240bff61e488",
+      "signatures": [
+        "BSD_redistribution",
+        "LGPL_mention",
+        "GPL_mention",
+        "AGPL_mention"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 46794
+    },
+    {
+      "package": "numpy",
+      "path": "numpy-2.4.6.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+      "sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec",
+      "signatures": [
+        "Zlib"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1018
+    },
+    {
+      "package": "numpy",
+      "path": "numpy-2.4.6.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+      "sha256": "3f2c1ffa76383a55ae0aac01c9737cd70050dff63e1f026694fbe9d662573c98",
+      "signatures": [
+        "ISC_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 690
+    },
+    {
+      "package": "numpy",
+      "path": "numpy-2.4.6.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+      "sha256": "e340270d4f64384569a91d546acb5b094d69ce47f0c015db77abb74dc6f815af",
+      "signatures": [
+        "BSD_redistribution",
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 20785
+    },
+    {
+      "package": "numpy",
+      "path": "numpy-2.4.6.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+      "sha256": "f7b14309e5f54e5022b26448eefd419988ada2aec01d3c1162d84a0ea8f21f2c",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1414
+    },
+    {
+      "package": "numpy",
+      "path": "numpy-2.4.6.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+      "sha256": "211e7d737d6179a08f791ebb0a99897ce7cd2457410c542876d125576edfe910",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1514
+    },
+    {
+      "package": "numpy",
+      "path": "numpy-2.4.6.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+      "sha256": "c17011467b4fe6e20fbfbeda4df09e58c2bca5480a063e55735a4000a379aad9",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1543
+    },
+    {
+      "package": "numpy",
+      "path": "numpy-2.4.6.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+      "sha256": "a85ca13fdf90160b64a0698215868c13b74d835ad0a4e2ba44713b8c5058a056",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1498
+    },
+    {
+      "package": "numpy",
+      "path": "numpy-2.4.6.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+      "sha256": "a14cc25e10d40a3aa705b7de2fb764a6535d8ee9b2db4e1724900585457dfd55",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 2266
+    },
+    {
+      "package": "numpy",
+      "path": "numpy-2.4.6.dist-info/licenses/numpy/ma/LICENSE",
+      "sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1593
+    },
+    {
+      "package": "numpy",
+      "path": "numpy-2.4.6.dist-info/licenses/numpy/random/LICENSE.md",
+      "sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f",
+      "signatures": [
+        "MIT_grant",
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 3511
+    },
+    {
+      "package": "numpy",
+      "path": "numpy-2.4.6.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+      "sha256": "469778be8f33d54e1bcaab28c281cc472916d2d273f835e55bc487d30503face",
+      "signatures": [
+        "MIT_grant",
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 2745
+    },
+    {
+      "package": "numpy",
+      "path": "numpy-2.4.6.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+      "sha256": "0e111337b25494a773106695f0e799f642b8567aaacca4f116a74a8177179156",
+      "signatures": [
+        "MIT_grant",
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 2926
+    },
+    {
+      "package": "numpy",
+      "path": "numpy-2.4.6.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+      "sha256": "e7d4f4fb20358f314210a892ae17351e04993813646f697ec387385ca2a36918",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1154
+    },
+    {
+      "package": "numpy",
+      "path": "numpy-2.4.6.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+      "sha256": "6f5828a57223d4cc7f8ea505a2623e7b978b242752c1515e355f46ba2cec1800",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1509
+    },
+    {
+      "package": "numpy",
+      "path": "numpy-2.4.6.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+      "sha256": "9d4098846018319cd68e228ee6220361787f73bccbf00237a85e4fc9621b998f",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1226
+    },
+    {
+      "package": "numpy",
+      "path": "numpy-2.4.6.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+      "sha256": "268b0ca06759d31ea3ca68dd35f20e877916e927b1c2a835e4592a3c4354b1f9",
+      "signatures": [],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 332
+    },
+    {
+      "package": "olefile",
+      "path": "olefile/LICENSE.txt",
+      "sha256": "0c349bed31cd2af10983a8d95e7455e2d15744b98585b55941ca35bd70f5bcd7",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 2915
+    },
+    {
+      "package": "olefile",
+      "path": "olefile/doc/License.html",
+      "sha256": "0dbceed92e36dbdc11d21154b2b4c40b7e0d766c0c12d6e704df3edca8974ff9",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 3833
+    },
+    {
+      "package": "olefile",
+      "path": "olefile/doc/License.md",
+      "sha256": "17cc0185ea7dac964e318ad80b7000bd65c09485c3fdec8617c7422ea54a9105",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 3191
+    },
+    {
+      "package": "olefile",
+      "path": "olefile-0.47.dist-info/LICENSE.txt",
+      "sha256": "cf1498d5b834b3758a89d06d224a1502c54a28b3a852f46130b761deaa4890d1",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 2846
+    },
+    {
+      "package": "omegaconf",
+      "path": "omegaconf-2.4.0.dist-info/licenses/LICENSE",
+      "sha256": "b31375ed5d5cbe7ec2d0c4c14df8afa7a8e5501bbe25f70b6cbc461685f4b91a",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1518
+    },
+    {
+      "package": "omegaconf",
+      "path": "omegaconf-2.4.0.dist-info/licenses/ATTRIBUTION/LICENSE-antlr4",
+      "sha256": "3db1fb3ee79a4b4f9918fc4d0f6133bf18a3cf787f126cd22f8aa9b862281c0c",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1480
+    },
+    {
+      "package": "opencv-python-headless",
+      "path": "cv2/LICENSE-3RD-PARTY.txt",
+      "sha256": "2537f5653345db7231ff12f307bcfa4c89807d45ed1c4bb8ebfb6f26f61b160a",
+      "signatures": [
+        "MIT_grant",
+        "BSD_redistribution",
+        "Apache_license",
+        "ISC_grant",
+        "MPL",
+        "Zlib",
+        "LGPL_mention",
+        "GPL_mention",
+        "AGPL_mention",
+        "noncommercial_mention"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 179634
+    },
+    {
+      "package": "opencv-python-headless",
+      "path": "cv2/LICENSE.txt",
+      "sha256": "09d719058e782ac7bc71ba21c944e1136cde2bb957c0e888121f0218d6b5f02c",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1070
+    },
+    {
+      "package": "opencv-python-headless",
+      "path": "opencv_python_headless-5.0.0.93.dist-info/LICENSE-3RD-PARTY.txt",
+      "sha256": "2537f5653345db7231ff12f307bcfa4c89807d45ed1c4bb8ebfb6f26f61b160a",
+      "signatures": [
+        "MIT_grant",
+        "BSD_redistribution",
+        "Apache_license",
+        "ISC_grant",
+        "MPL",
+        "Zlib",
+        "LGPL_mention",
+        "GPL_mention",
+        "AGPL_mention",
+        "noncommercial_mention"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 179634
+    },
+    {
+      "package": "opencv-python-headless",
+      "path": "opencv_python_headless-5.0.0.93.dist-info/LICENSE.txt",
+      "sha256": "09d719058e782ac7bc71ba21c944e1136cde2bb957c0e888121f0218d6b5f02c",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1070
+    },
+    {
+      "package": "openpyxl",
+      "path": "openpyxl-3.1.5.dist-info/LICENCE.rst",
+      "sha256": "0c84bb42f5d367e5ebf9fc2dde35b16141df5ee0fdc189250858bc6c5560f69e",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1131
+    },
+    {
+      "package": "packaging",
+      "path": "packaging-26.3.dist-info/licenses/LICENSE",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "signatures": [],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 197
+    },
+    {
+      "package": "packaging",
+      "path": "packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 10174
+    },
+    {
+      "package": "packaging",
+      "path": "packaging-26.3.dist-info/licenses/LICENSE.BSD",
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1344
+    },
+    {
+      "package": "pandas",
+      "path": "pandas-3.1.1.dist-info/licenses/LICENSE",
+      "sha256": "9850f6b5bdef7346503065807b878deb8058b976c5c329f4c4d23bf4796ce9ae",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1634
+    },
+    {
+      "package": "pandas",
+      "path": "pandas-3.1.1.dist-info/licenses/LICENSES/BOTTLENECK_LICENCE",
+      "sha256": "053a90e30580f5d9d79817add1567f88b4a3eeb11bcded9ecf74619d17768066",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1360
+    },
+    {
+      "package": "pandas",
+      "path": "pandas-3.1.1.dist-info/licenses/LICENSES/DATEUTIL_LICENSE",
+      "sha256": "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e",
+      "signatures": [
+        "BSD_redistribution",
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 2889
+    },
+    {
+      "package": "pandas",
+      "path": "pandas-3.1.1.dist-info/licenses/LICENSES/HAVEN_LICENSE",
+      "sha256": "48216b40b3d1b19452923dd6fd74655bf5c0df9d76b51eb0efade7e0b88bfbcc",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1099
+    },
+    {
+      "package": "pandas",
+      "path": "pandas-3.1.1.dist-info/licenses/LICENSES/HAVEN_MIT",
+      "sha256": "87217d0a79195441ab615a3abb3ab6777502e57804ea83f973df975a67ebd720",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1264
+    },
+    {
+      "package": "pandas",
+      "path": "pandas-3.1.1.dist-info/licenses/LICENSES/KLIB_LICENSE",
+      "sha256": "7463172c3a23321c1838896eba437f70a6de80ac5a840b2960966c8c5444abf1",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1104
+    },
+    {
+      "package": "pandas",
+      "path": "pandas-3.1.1.dist-info/licenses/LICENSES/MUSL_LICENSE",
+      "sha256": "50a343c1ce9e27cd6c58023f13b91d2cd679861fe7fb6bbbbfbec3dcafc3583f",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 6203
+    },
+    {
+      "package": "pandas",
+      "path": "pandas-3.1.1.dist-info/licenses/LICENSES/NUMPY_LICENSE",
+      "sha256": "81d42da02a56b611c35abc83d2241564b46bec3a5b1960b395d55cebca68fb6f",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1542
+    },
+    {
+      "package": "pandas",
+      "path": "pandas-3.1.1.dist-info/licenses/LICENSES/PACKAGING_LICENSE",
+      "sha256": "1871330068a18f1f07c3f147a41c008e59f367f217041ca6eb20b0298639a128",
+      "signatures": [
+        "BSD_redistribution",
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11519
+    },
+    {
+      "package": "pandas",
+      "path": "pandas-3.1.1.dist-info/licenses/LICENSES/PSF_LICENSE",
+      "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+      "signatures": [
+        "ISC_grant",
+        "Python_Software_Foundation",
+        "GPL_mention"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 13936
+    },
+    {
+      "package": "pandas",
+      "path": "pandas-3.1.1.dist-info/licenses/LICENSES/PYPERCLIP_LICENSE",
+      "sha256": "eafcd440e3570c6bc7b77dcec15dec398d13bc9b5e897336b221ff81ff19f345",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1486
+    },
+    {
+      "package": "pandas",
+      "path": "pandas-3.1.1.dist-info/licenses/LICENSES/PYUPGRADE_LICENSE",
+      "sha256": "70aedcd6928272bd176e4fdc3384af22ee759d006fb15105d994756e4f2d1b7a",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1058
+    },
+    {
+      "package": "pandas",
+      "path": "pandas-3.1.1.dist-info/licenses/LICENSES/SAS7BDAT_LICENSE",
+      "sha256": "458d5fd4175825440ad32d6bf6af45d1a19d4adb316b557d869c6560b6692e00",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1059
+    },
+    {
+      "package": "pandas",
+      "path": "pandas-3.1.1.dist-info/licenses/LICENSES/STATSBASE_JL_LICENSE",
+      "sha256": "f371ccf0fb892a4cd9f2e550c4b8cf4362793d17028dc642ad55c1e01a41dfe1",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1249
+    },
+    {
+      "package": "pandas",
+      "path": "pandas-3.1.1.dist-info/licenses/LICENSES/ULTRAJSON_LICENSE",
+      "sha256": "2bfbb5bb8ec66d136ec62d836ddc0c0019d44ef4d9389f1f6cab1c1109d774a2",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 5974
+    },
+    {
+      "package": "pandas",
+      "path": "pandas-3.1.1.dist-info/licenses/LICENSES/XSIMD_LICENSE",
+      "sha256": "501352acba62cc54e8e3d293754d606f919c9b425b962193c211f9fa29cd9940",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1606
+    },
+    {
+      "package": "pandas",
+      "path": "pandas-3.1.1.dist-info/licenses/subprojects/fast_float-8.2.10/LICENSE-APACHE",
+      "sha256": "097a889aa954d04e088b790b10a4014d6189561d0a6013935a73ce3d4ddaaf06",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 10767
+    },
+    {
+      "package": "pandas",
+      "path": "pandas-3.1.1.dist-info/licenses/subprojects/fast_float-8.2.10/LICENSE-BOOST",
+      "sha256": "8d8291caf1cee26d23acf3eb67c9f9a2d58f1c681b16a4fbe8cbfb9e3c0b5a9b",
+      "signatures": [
+        "MIT_grant",
+        "Boost"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1337
+    },
+    {
+      "package": "pandas",
+      "path": "pandas-3.1.1.dist-info/licenses/subprojects/fast_float-8.2.10/LICENSE-MIT",
+      "sha256": "e562f3f974ced7e69dd1db77b820b36bcf8f30377f1aa105723fba449c53c4e6",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1079
+    },
+    {
+      "package": "pillow",
+      "path": "pillow-13.0.0.dist-info/licenses/LICENSE",
+      "sha256": "dda12a98c1979cf3d94df1cff45d27a4cb3f04a60c76f76902ac54cac03ec0ce",
+      "signatures": [
+        "MIT_grant",
+        "BSD_redistribution",
+        "Apache_license",
+        "Zlib",
+        "LGPL_mention",
+        "GPL_mention"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 70307
+    },
+    {
+      "package": "pluggy",
+      "path": "pluggy-1.7.0.dist-info/licenses/LICENSE",
+      "sha256": "d6b65e6c213a5d0b577911d34d6e5949b9f59d76c238c5071a2f3fc16cfb2606",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1110
+    },
+    {
+      "package": "polyfactory",
+      "path": "polyfactory-3.5.0.dist-info/licenses/LICENSE",
+      "sha256": "34443055757c82025d9e6f9ae810849823fd664a8fa5a0ac05cd6252c3e164f6",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1092
+    },
+    {
+      "package": "psutil",
+      "path": "psutil-7.2.2.dist-info/LICENSE",
+      "sha256": "b89c063b3786e28e0c0a38f1931db61fed35e69dd2a2966fbecffee0f46c8d10",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1548
+    },
+    {
+      "package": "pyclipper",
+      "path": "pyclipper-1.4.0.dist-info/licenses/LICENSE",
+      "sha256": "32ee7398e3123736fd14e9f08287edc2d97ace102ab54d8dc4edc8d31c651fa8",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1110
+    },
+    {
+      "package": "pydantic",
+      "path": "pydantic-2.14.3.dist-info/licenses/LICENSE",
+      "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1129
+    },
+    {
+      "package": "pydantic-core",
+      "path": "pydantic_core-2.50.4.dist-info/licenses/LICENSE",
+      "sha256": "2afdd30d54b4d62b6f488a6bcc1546e84ec5061f13f4209c03d012348783795a",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1080
+    },
+    {
+      "package": "pydantic-settings",
+      "path": "pydantic_settings-2.16.2.dist-info/licenses/LICENSE",
+      "sha256": "eb355a753e020346d33d83bf9769135b89fc610568ac531a01c295bcee7fd998",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1103
+    },
+    {
+      "package": "pygments",
+      "path": "pygments-2.21.0.dist-info/licenses/AUTHORS",
+      "sha256": "71a83872ad82f57be692cf827e048e2cd51d45169cfa1ea3f28706d97a872c0f",
+      "signatures": [],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11048
+    },
+    {
+      "package": "pygments",
+      "path": "pygments-2.21.0.dist-info/licenses/LICENSE",
+      "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1331
+    },
+    {
+      "package": "pylatexenc",
+      "path": "pylatexenc-2.11.dist-info/licenses/LICENSE.txt",
+      "sha256": "90b6f8fc23cb0328a9678562627fb2ebc5f9c871712fad698d781869eb02862c",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1086
+    },
+    {
+      "package": "pypdfium2",
+      "path": "pypdfium2-5.14.0.dist-info/licenses/LICENSES/Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11358
+    },
+    {
+      "package": "pypdfium2",
+      "path": "pypdfium2-5.14.0.dist-info/licenses/LICENSES/BSD-3-Clause.txt",
+      "sha256": "a6d11f0694c0137e9b02924b9d33a159f6c72f220fa4655bb2e1ea3654377d39",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1459
+    },
+    {
+      "package": "pypdfium2",
+      "path": "pypdfium2-5.14.0.dist-info/licenses/LICENSES/CC-BY-4.0.txt",
+      "sha256": "419896aea50c15d6e40c5b4baf4bd346f78223b9a354c7357ad00262afdc08ec",
+      "signatures": [],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 14527
+    },
+    {
+      "package": "pypdfium2",
+      "path": "pypdfium2-5.14.0.dist-info/licenses/data/linux_arm64/BUILD_LICENSES/abseil.txt",
+      "sha256": "c79a7fea0e3cac04cd43f20e7b648e5a0ff8fa5344e644b0ee09ca1162b62747",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11361
+    },
+    {
+      "package": "pypdfium2",
+      "path": "pypdfium2-5.14.0.dist-info/licenses/data/linux_arm64/BUILD_LICENSES/agg23.txt",
+      "sha256": "c110d3ea2ad77467ce0dcff7d3337e6c8be8049a5103f4b9bd5fd911a77972e5",
+      "signatures": [],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 725
+    },
+    {
+      "package": "pypdfium2",
+      "path": "pypdfium2-5.14.0.dist-info/licenses/data/linux_arm64/BUILD_LICENSES/fast_float.txt",
+      "sha256": "e562f3f974ced7e69dd1db77b820b36bcf8f30377f1aa105723fba449c53c4e6",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1079
+    },
+    {
+      "package": "pypdfium2",
+      "path": "pypdfium2-5.14.0.dist-info/licenses/data/linux_arm64/BUILD_LICENSES/freetype.txt",
+      "sha256": "f4b133e25df1f86ad3ffea453aa0e613f0474f34778dbbb3e437e7b2724937d8",
+      "signatures": [],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": false,
+      "uncompressed_bytes": 6741
+    },
+    {
+      "package": "pypdfium2",
+      "path": "pypdfium2-5.14.0.dist-info/licenses/data/linux_arm64/BUILD_LICENSES/icu.txt",
+      "sha256": "e55522d81edc687a341a4411e0776e54ca654e90147f354a90458aaced4116af",
+      "signatures": [
+        "MIT_grant",
+        "BSD_redistribution",
+        "GPL_mention"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 27718
+    },
+    {
+      "package": "pypdfium2",
+      "path": "pypdfium2-5.14.0.dist-info/licenses/data/linux_arm64/BUILD_LICENSES/lcms.txt",
+      "sha256": "7312b68c5b25e9bf2b828706fb4e29588f22705112f411fd42e1f7d84c3d139a",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1353
+    },
+    {
+      "package": "pypdfium2",
+      "path": "pypdfium2-5.14.0.dist-info/licenses/data/linux_arm64/BUILD_LICENSES/libjpeg_turbo.ijg",
+      "sha256": "75815e3bf6484201a3c3d17a1bbf10f2e8e3237f84df10a2357ea896db2a81d6",
+      "signatures": [],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 12799
+    },
+    {
+      "package": "pypdfium2",
+      "path": "pypdfium2-5.14.0.dist-info/licenses/data/linux_arm64/BUILD_LICENSES/libjpeg_turbo.md",
+      "sha256": "96f5b328adbb78eeaaec6980d73fd558cb1e4d62560ed615646bc3cf5e532430",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 5620
+    },
+    {
+      "package": "pypdfium2",
+      "path": "pypdfium2-5.14.0.dist-info/licenses/data/linux_arm64/BUILD_LICENSES/libopenjpeg.txt",
+      "sha256": "c5ab0890a737c2dfa7ba675036554f6d17741d98629b0c2a145354d00617e6b2",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1794
+    },
+    {
+      "package": "pypdfium2",
+      "path": "pypdfium2-5.14.0.dist-info/licenses/data/linux_arm64/BUILD_LICENSES/libpng.txt",
+      "sha256": "bdb0a645ea18c60507d0368379b1ac5474b92255fcc2d115e07486a7672ba526",
+      "signatures": [
+        "Zlib"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 5345
+    },
+    {
+      "package": "pypdfium2",
+      "path": "pypdfium2-5.14.0.dist-info/licenses/data/linux_arm64/BUILD_LICENSES/llvm-libc.txt",
+      "sha256": "ebcd9bbf783a73d05c53ba4d586b8d5813dcdf3bbec50265860ccc885e606f47",
+      "signatures": [
+        "MIT_grant",
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 15140
+    },
+    {
+      "package": "pypdfium2",
+      "path": "pypdfium2-5.14.0.dist-info/licenses/data/linux_arm64/BUILD_LICENSES/pdfium-binaries.txt",
+      "sha256": "ba26c1263131696b86c10496b5066b918a20b7161822a80c274d0080105f6c93",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1177
+    },
+    {
+      "package": "pypdfium2",
+      "path": "pypdfium2-5.14.0.dist-info/licenses/data/linux_arm64/BUILD_LICENSES/pdfium.txt",
+      "sha256": "961eacd9633fff6d051db7208b755e9210e30efac7adec3e6a6d52798f0ccf0e",
+      "signatures": [
+        "BSD_redistribution",
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 12818
+    },
+    {
+      "package": "pypdfium2",
+      "path": "pypdfium2-5.14.0.dist-info/licenses/data/linux_arm64/BUILD_LICENSES/simdutf.txt",
+      "sha256": "fc8dbc04e03ad4efc08a647ffe7f995b811a95bc04c0e85a56d5277c6593fa5f",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1059
+    },
+    {
+      "package": "pypdfium2",
+      "path": "pypdfium2-5.14.0.dist-info/licenses/data/linux_arm64/BUILD_LICENSES/zlib.txt",
+      "sha256": "33fd641c9f3b0e0be64bc78fea9e94807674cdd70c48477599226cb8956565fe",
+      "signatures": [
+        "Zlib"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1332
+    },
+    {
+      "package": "python-dateutil",
+      "path": "python_dateutil-4.0.0.dist-info/licenses/AUTHORS.md",
+      "sha256": "56004c45a95e9ee5582ea60f9a7ee42179c8594c7b9c245bbfb4a3445b4af640",
+      "signatures": [],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 7031
+    },
+    {
+      "package": "python-dateutil",
+      "path": "python_dateutil-4.0.0.dist-info/licenses/LICENSE",
+      "sha256": "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e",
+      "signatures": [
+        "BSD_redistribution",
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 2889
+    },
+    {
+      "package": "python-docx",
+      "path": "python_docx-1.2.0.dist-info/licenses/LICENSE",
+      "sha256": "7652f271e46d0d533e9dc463f3b5fcbdcacf4d6a9c8d6b554d15efd0f37f6132",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1104
+    },
+    {
+      "package": "python-dotenv",
+      "path": "python_dotenv-1.2.4.dist-info/licenses/LICENSE",
+      "sha256": "80619b7049f08c81683ad0e01f08f257a840652dd71ee83146d36658c7d2c2b9",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1556
+    },
+    {
+      "package": "python-oxmsg",
+      "path": "python_oxmsg-0.0.2.dist-info/LICENSE.txt",
+      "sha256": "c2458afc527e978a8f12eb4b5776cab74faede98e09c57684d54735e1439e08c",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1104
+    },
+    {
+      "package": "python-pptx",
+      "path": "python_pptx-1.0.2.dist-info/LICENSE",
+      "sha256": "7652f271e46d0d533e9dc463f3b5fcbdcacf4d6a9c8d6b554d15efd0f37f6132",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1104
+    },
+    {
+      "package": "pyyaml",
+      "path": "pyyaml-6.0.3.dist-info/licenses/LICENSE",
+      "sha256": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1101
+    },
+    {
+      "package": "rapidocr",
+      "path": "rapidocr-3.10.0.dist-info/licenses/LICENSE",
+      "sha256": "3e0af25fdd06aa9586ae97adb00ea927ebe5a3805ac77d2d3a81ce5f55693333",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11422
+    },
+    {
+      "package": "rapidocr",
+      "path": "rapidocr-3.10.0.dist-info/licenses/MODEL_LICENSES.md",
+      "sha256": "c5fd0e8603d3df743355b546121e6fe0f4ef8ff455c5a85c1681fd3ae520e153",
+      "signatures": [
+        "Apache_license",
+        "noncommercial_mention"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 8398
+    },
+    {
+      "package": "referencing",
+      "path": "referencing-0.37.0.dist-info/licenses/COPYING",
+      "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1057
+    },
+    {
+      "package": "regex",
+      "path": "regex-2026.9.29.dist-info/licenses/LICENSE.txt",
+      "sha256": "bff55ef4cdcc8c14ce259f8e8ab60e264418440d6335f4dc138273fbd506144d",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11584
+    },
+    {
+      "package": "requests",
+      "path": "requests-2.34.2.dist-info/licenses/LICENSE",
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 10142
+    },
+    {
+      "package": "requests",
+      "path": "requests-2.34.2.dist-info/licenses/NOTICE",
+      "sha256": "f5110972dedad2b4e9d314518daf3b7d72d6e02e499acd802181de6f74571dcc",
+      "signatures": [],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 38
+    },
+    {
+      "package": "rich",
+      "path": "rich-15.0.0.dist-info/licenses/LICENSE",
+      "sha256": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1056
+    },
+    {
+      "package": "rpds-py",
+      "path": "rpds_py-2026.9.1.dist-info/licenses/LICENSE",
+      "sha256": "314e4e91be3baa93c0fb4bccc9e4e97cd643eb839b065af921782c2175fe9909",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1057
+    },
+    {
+      "package": "rtree",
+      "path": "rtree-1.4.1.dist-info/licenses/LICENSE.txt",
+      "sha256": "2e3e6e756da9258484bdd0e81dcd57c9094a58ca23c37c79b14cc23eeb6b7b21",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1115
+    },
+    {
+      "package": "safetensors",
+      "path": "safetensors-0.8.0.dist-info/licenses/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11357
+    },
+    {
+      "package": "scipy",
+      "path": "scipy/_lib/_uarray/LICENSE",
+      "sha256": "c80c39b5fce06ba4897e14e0b0a88b54458334d951eb1361402ffad2cfb863b4",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1514
+    },
+    {
+      "package": "scipy",
+      "path": "scipy/fft/_pocketfft/LICENSE.md",
+      "sha256": "c254b2b5fd30ae3c89d36ba061730563b9760fca04f1b746a1b2c3157da2c789",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1498
+    },
+    {
+      "package": "scipy",
+      "path": "scipy/integrate/LICENSE_DOP",
+      "sha256": "ed9bf58c6d74d3fad9d92d1d67d9bff8141d8ab60de784516b0711364fd43357",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 3572
+    },
+    {
+      "package": "scipy",
+      "path": "scipy/spatial/qhull_src/COPYING_QHULL.txt",
+      "sha256": "106d55c931fd6a84822e5345d900273d059f1c27310d02567ccb313c5d18c55d",
+      "signatures": [],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1720
+    },
+    {
+      "package": "scipy",
+      "path": "scipy-1.17.1.dist-info/LICENSE.txt",
+      "sha256": "4daf14e37432e7026165979ecb7a39930707a3e89bef4876cfaf9dad36ed364a",
+      "signatures": [
+        "BSD_redistribution",
+        "LGPL_mention",
+        "GPL_mention",
+        "AGPL_mention"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 46838
+    },
+    {
+      "package": "semchunk",
+      "path": "semchunk-3.2.5.dist-info/licenses/LICENCE",
+      "sha256": "cd3e4ebfa715a1e79e7f9514fce1891db178cc7e9370959f916146649f1869e4",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1079
+    },
+    {
+      "package": "setuptools",
+      "path": "setuptools/_vendor/importlib_metadata-8.7.1.dist-info/licenses/LICENSE",
+      "sha256": "458502e12d97bbf64438606a20044aa85eb05fb0a8a807bb35dbec253fd1fc04",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 10278
+    },
+    {
+      "package": "setuptools",
+      "path": "setuptools/_vendor/jaraco_context-6.1.0.dist-info/licenses/LICENSE",
+      "sha256": "9755a18519666e5f0f4cae3daad3d7012bcae48a600b31237d75e9fe134e6683",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1076
+    },
+    {
+      "package": "setuptools",
+      "path": "setuptools/_vendor/jaraco_functools-4.4.0.dist-info/licenses/LICENSE",
+      "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1076
+    },
+    {
+      "package": "setuptools",
+      "path": "setuptools/_vendor/more_itertools-10.8.0.dist-info/licenses/LICENSE",
+      "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1053
+    },
+    {
+      "package": "setuptools",
+      "path": "setuptools/_vendor/packaging-26.3.dist-info/licenses/LICENSE",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "signatures": [],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 197
+    },
+    {
+      "package": "setuptools",
+      "path": "setuptools/_vendor/packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 10174
+    },
+    {
+      "package": "setuptools",
+      "path": "setuptools/_vendor/packaging-26.3.dist-info/licenses/LICENSE.BSD",
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1344
+    },
+    {
+      "package": "setuptools",
+      "path": "setuptools/_vendor/platformdirs-4.4.0.dist-info/licenses/LICENSE",
+      "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1089
+    },
+    {
+      "package": "setuptools",
+      "path": "setuptools/_vendor/tomli-2.4.0.dist-info/licenses/LICENSE",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1072
+    },
+    {
+      "package": "setuptools",
+      "path": "setuptools/_vendor/wheel-0.46.3.dist-info/licenses/LICENSE.txt",
+      "sha256": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1107
+    },
+    {
+      "package": "setuptools",
+      "path": "setuptools/_vendor/zipp-3.23.0.dist-info/licenses/LICENSE",
+      "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1076
+    },
+    {
+      "package": "setuptools",
+      "path": "setuptools/config/NOTICE",
+      "sha256": "2dddf08818297a3b89d43d95ff659d8da85741108c9136dfa3a4d856c0623bd8",
+      "signatures": [
+        "MPL"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 493
+    },
+    {
+      "package": "setuptools",
+      "path": "setuptools/config/_validate_pyproject/NOTICE",
+      "sha256": "09c9bcea95ca086f8bc5bed174e40bc835b297d40fb5f86bbbb570fe0a5581a7",
+      "signatures": [
+        "BSD_redistribution",
+        "MPL",
+        "LGPL_mention",
+        "GPL_mention",
+        "AGPL_mention"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 18737
+    },
+    {
+      "package": "setuptools",
+      "path": "setuptools-84.2.1.dist-info/licenses/LICENSE",
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1023
+    },
+    {
+      "package": "setuptools",
+      "path": "setuptools/_vendor/autocommand-2.2.2.dist-info/LICENSE",
+      "sha256": "ade78d04982d69972d444a8e14a94f87a2334dd3855cc80348ea8e240aa0df2d",
+      "signatures": [
+        "LGPL_mention",
+        "GPL_mention"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 7634
+    },
+    {
+      "package": "setuptools",
+      "path": "setuptools/_vendor/backports.tarfile-1.2.0.dist-info/LICENSE",
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1023
+    },
+    {
+      "package": "setuptools",
+      "path": "setuptools/_vendor/jaraco.text-4.0.0.dist-info/LICENSE",
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1023
+    },
+    {
+      "package": "shapely",
+      "path": "shapely-2.2.0.dist-info/licenses/LICENSE.txt",
+      "sha256": "4a207eac9bf257ed286e1c6f0fce253d1abfdb134fc61ec855e37f5692a3f754",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1583
+    },
+    {
+      "package": "shapely",
+      "path": "shapely-2.2.0.dist-info/licenses/LICENSE_GEOS",
+      "sha256": "81d9aaf9ab7e3e6184568a70f27ee3e138d8d1e543b46dad5af88cff61cf1b36",
+      "signatures": [
+        "LGPL_mention",
+        "GPL_mention"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 26787
+    },
+    {
+      "package": "shellingham",
+      "path": "shellingham-1.5.4.dist-info/LICENSE",
+      "sha256": "f388fd38cad13112c1dc0f669bbe80e7f84541edbafb72f3030d2ca7642c3c9d",
+      "signatures": [],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 751
+    },
+    {
+      "package": "six",
+      "path": "six-1.17.0.dist-info/LICENSE",
+      "sha256": "4375ba20e2b9c6c4e7cad2940a628fd90e95cc3d50ee92aae755715d8ba1fbd0",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1066
+    },
+    {
+      "package": "soupsieve",
+      "path": "soupsieve-4.0.1.dist-info/licenses/LICENSE.md",
+      "sha256": "76a0acdb98c3a63681e20b6f096699ef8cad5fb35d56eef8387e0fa71d797a9a",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1096
+    },
+    {
+      "package": "sympy",
+      "path": "sympy/parsing/latex/LICENSE.txt",
+      "sha256": "007bc30a58fa40a996e772047120de4eaf31f5110e4f9c3b5f93fcdfbe2eaca1",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1075
+    },
+    {
+      "package": "sympy",
+      "path": "sympy-1.14.0.dist-info/licenses/AUTHORS",
+      "sha256": "82b1038521b0696c63c90b31ed4a0a2c9c4c16871c648b157b07ca44b6f18f8d",
+      "signatures": [],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 55779
+    },
+    {
+      "package": "sympy",
+      "path": "sympy-1.14.0.dist-info/licenses/LICENSE",
+      "sha256": "07a5e9819f727b4986ad2829c7a29a6320d42575f720eb24d71b7fef573a0286",
+      "signatures": [
+        "MIT_grant",
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 7885
+    },
+    {
+      "package": "tabulate",
+      "path": "tabulate-0.10.0.dist-info/licenses/LICENSE",
+      "sha256": "cdfab50d37d8ead06468fb76a3abafcd05c16749ec8a18eebfa50fd48c7cb2d2",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1080
+    },
+    {
+      "package": "torch",
+      "path": "torch/_vendor/packaging/LICENSE",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "signatures": [],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 197
+    },
+    {
+      "package": "torch",
+      "path": "torch/_vendor/packaging/LICENSE.APACHE",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 10174
+    },
+    {
+      "package": "torch",
+      "path": "torch/_vendor/packaging/LICENSE.BSD",
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1344
+    },
+    {
+      "package": "torch",
+      "path": "torch/_vendor/quack/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11357
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/LICENSE",
+      "sha256": "bd018feef8825e88181c84eb7e3aa4eafb8f08a20d9fd6ef948569610c4a3e43",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 3464
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/FP16/LICENSE",
+      "sha256": "17e4f539024be2749ee729d1e2f01d24cef12ece8c9bf18e91a4349be29c80bf",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1157
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/FXdiv/LICENSE",
+      "sha256": "7cac00006125b1486a27e4801ed66357236e984c540bd323945ab7b66b078ec3",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1117
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/NNPACK/LICENSE",
+      "sha256": "ab09e33621f513ebdd1ef685b324f39c1f6bee9221d15600bafd958322df1231",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1352
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/NVTX/LICENSE.txt",
+      "sha256": "abdfd8a6738b27cd1504e091f77b682dbae928339f040b8a6f59a548245991a0",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 12483
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/VulkanMemoryAllocator/LICENSE.txt",
+      "sha256": "8d70e4cf2a9941f6454da71cd60e38484dd3e34810c824760d550e982af6d97a",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1099
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/XNNPACK/LICENSE",
+      "sha256": "63f519e15726f4c4f830bd958f694c84fecb4e0a4cacc527d2696bb71ef95ada",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1560
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/aiter/LICENSE",
+      "sha256": "0baca809927cad448401b252ce3bae12687c2987597ad7088cf3423f872d5bcd",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1100
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/aiter/3rdparty/composable_kernel/LICENSE",
+      "sha256": "20f3b83dfda01bd18d285e0edbb9d044be6dde04cdf76a1ec18d9fc7127936bf",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1726
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/composable_kernel/LICENSE",
+      "sha256": "20f3b83dfda01bd18d285e0edbb9d044be6dde04cdf76a1ec18d9fc7127936bf",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1726
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/concurrentqueue/moodycamel/LICENSE.md",
+      "sha256": "22331571e5e3dbe4c79ad715e23127bdf3beabd75052c953ddabf191ef799e14",
+      "signatures": [
+        "MIT_grant",
+        "BSD_redistribution",
+        "Boost"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 3266
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/cpp-httplib/LICENSE",
+      "sha256": "4b45cbe16d7b71b89ae6127e26e0d90a029198ca5e958ad8e3d0b8bbed364d8b",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1075
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/cpuinfo/LICENSE",
+      "sha256": "8e7e60636c3aa0cb03571a1a841ce5697f9551ff92b3c426c2561613d15ade70",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1424
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/cpuinfo/deps/clog/LICENSE",
+      "sha256": "68a14c3e79add023eecd83d611e73f05b8bf1d16852efeb7eb4033a96736da9e",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1384
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/cudnn_frontend/LICENSE-MIT.txt",
+      "sha256": "6a1e5992580aadeeea1023b2594d415a87457a4af12162c4eb7e5e1168fd92af",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1116
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/cudnn_frontend/LICENSE.txt",
+      "sha256": "a58e7a5653d57f4907c73b6ed3bde05119cd9fb96a985bc944b4239a22d8f7ea",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11438
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/cudnn_frontend/python/cudnn/moe_ep/_megamoe_backend/cutedsl_src/LICENSE.Apache-2.0",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11357
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/cutlass/LICENSE.txt",
+      "sha256": "ad1513ca983da737a6843364ad19e8424a56d860736c2da773b8c5be527e1475",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1861
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/fbgemm/LICENSE",
+      "sha256": "12c2370ec32e78115dcd71ba22cdcb1297320fdc4ade81f798136d42357c58b8",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1535
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/fbgemm/external/asmjit/LICENSE.md",
+      "sha256": "8fc74133788bc8a7aa94168e9913a2d0b0e3f0a6064a0e72a0f1206d5ce9189e",
+      "signatures": [
+        "Zlib"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 862
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/fbgemm/external/composable_kernel/LICENSE",
+      "sha256": "20f3b83dfda01bd18d285e0edbb9d044be6dde04cdf76a1ec18d9fc7127936bf",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1726
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/fbgemm/external/cpuinfo/LICENSE",
+      "sha256": "8e7e60636c3aa0cb03571a1a841ce5697f9551ff92b3c426c2561613d15ade70",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1424
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/fbgemm/external/cpuinfo/deps/clog/LICENSE",
+      "sha256": "68a14c3e79add023eecd83d611e73f05b8bf1d16852efeb7eb4033a96736da9e",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1384
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/fbgemm/external/cutlass/LICENSE.txt",
+      "sha256": "80a7a18b73d41f64dd9ca881af35938f8de88b18c728703251f4c94d1299884d",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1854
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/flash-attention/LICENSE",
+      "sha256": "8c9ccb96c065e706135b6cbad279b721da6156e51f3a5f27c6b3329af9416d73",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1558
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/flash-attention/csrc/composable_kernel/LICENSE",
+      "sha256": "20f3b83dfda01bd18d285e0edbb9d044be6dde04cdf76a1ec18d9fc7127936bf",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1726
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/flash-attention/csrc/cutlass/LICENSE.txt",
+      "sha256": "80a7a18b73d41f64dd9ca881af35938f8de88b18c728703251f4c94d1299884d",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1854
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/flash-attention/flash_attn/cute/LICENSE",
+      "sha256": "8c9ccb96c065e706135b6cbad279b721da6156e51f3a5f27c6b3329af9416d73",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1558
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/flash-attention/third_party/aiter/LICENSE",
+      "sha256": "0baca809927cad448401b252ce3bae12687c2987597ad7088cf3423f872d5bcd",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1100
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/flash-attention/third_party/aiter/3rdparty/composable_kernel/LICENSE",
+      "sha256": "20f3b83dfda01bd18d285e0edbb9d044be6dde04cdf76a1ec18d9fc7127936bf",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1726
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/flatbuffers/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11358
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/fmt/LICENSE",
+      "sha256": "a65fcc5a1095fc33cc37e4fff69366e49d7e92f613558a2b95ed1b70e33758b4",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1094
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/gemmlowp/gemmlowp/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11358
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/gloo/LICENSE",
+      "sha256": "2afbc572cf7f60888159bc2ca48ba58f8adec06682ae5de820d61449d1eeea81",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1525
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/gloo/gloo/transport/uv/LICENSE.uvw",
+      "sha256": "ea786619b4d1b2ba0a188e923111122dfefea1d01c86e37f9e8c80bdbc3ea400",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1081
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/ideep/LICENSE",
+      "sha256": "a26add03107a53a605a89711b9b7dbd4f5dd668ae193a912e01a879366a23b0e",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1062
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/ideep/mkl-dnn/LICENSE",
+      "sha256": "e9fc874fc09801b9acf3411ba72394098473704d832d713404b6c4861a086318",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11607
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/ideep/mkl-dnn/third_party/ittnotify/LICENSE.BSD",
+      "sha256": "51e80f0261cdc1962e9b9a1c80f9aa6a7adf0b05f0f217caf59141f59b2ad1c1",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1503
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/ideep/mkl-dnn/third_party/opencl/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11358
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/kineto/LICENSE",
+      "sha256": "6f3d59b9103e72e5c977eecf61b261c2e1546a9be2995847e3ee2d31021fd39b",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1609
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/kineto/libkineto/third_party/dynolog_headers/LICENSE",
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1086
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/llvm-openmp/LICENSE.txt",
+      "sha256": "68395143f21a9aa29b8232168c71892af5ec4f1ae2529571cd250a71c9e37a03",
+      "signatures": [
+        "MIT_grant",
+        "BSD_redistribution",
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 17003
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/mimalloc/LICENSE",
+      "sha256": "82ade5d7d9b029044b5fbbc326207fc47c2d44ee4dd71e8a559c36d728217de9",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1096
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/miniz-3.0.2/LICENSE",
+      "sha256": "0115478d567121238cf6cc1c0c361926cf07a49d9e4c9e66da97fac6a01646b3",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1184
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/mslk/LICENSE",
+      "sha256": "44519cbe722d7bf092cd7e0fa26558b9e3905b88fca4c0c278e2733a9f6b4cf9",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1533
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/mslk/external/composable_kernel/LICENSE",
+      "sha256": "20f3b83dfda01bd18d285e0edbb9d044be6dde04cdf76a1ec18d9fc7127936bf",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1726
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/mslk/external/cutlass/LICENSE.txt",
+      "sha256": "80a7a18b73d41f64dd9ca881af35938f8de88b18c728703251f4c94d1299884d",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1854
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/mslk/mslk/attention/flash_attn/LICENSE",
+      "sha256": "8c9ccb96c065e706135b6cbad279b721da6156e51f3a5f27c6b3329af9416d73",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1558
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/nlohmann/LICENSE.MIT",
+      "sha256": "46a65cffd1ea955132d95a8dd921640714a8d6b537d2e4e482d31145ae95b603",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1076
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/onnx/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11358
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/perfetto/LICENSE",
+      "sha256": "9a682a56cffc9524dfa9b0b1c0dca9cb81a19e96d5bd0793aaf02c08a95ee7ca",
+      "signatures": [
+        "BSD_redistribution",
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 14990
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/pocketfft/LICENSE.md",
+      "sha256": "a85ca13fdf90160b64a0698215868c13b74d835ad0a4e2ba44713b8c5058a056",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1498
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/protobuf/LICENSE",
+      "sha256": "6e5e117324afd944dcf67f36cf329843bc1a92229a8cd9bb573d7a83130fea7d",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1732
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/psimd/LICENSE",
+      "sha256": "984ce1e0b8ee89d234e28b960381f240e03a07a8031f35012f9c3256f56964e2",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1162
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/pthreadpool/LICENSE",
+      "sha256": "57814a606b4d0fb087d9a534919084b6c11b58a4174cb5a4aef200187780dc3a",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1378
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/pybind11/LICENSE",
+      "sha256": "83965b843b98f670d3a85bd041ed4b372c8ec50d7b4a5995a83ac697ba675dcb",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1684
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/sleef/LICENSE.txt",
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+      "signatures": [
+        "MIT_grant",
+        "Boost"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1338
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/tensorpipe/LICENSE.txt",
+      "sha256": "f4dcef0d1f0520b414d5bfaeed8df02f188e4ec05c0a17bf1c18f25f6cc66245",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1535
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/tensorpipe/third_party/libnop/LICENSE",
+      "sha256": "876e8f7432440974ee5543a2aa1344370ef1f2f7949ad98a1f3899cf722d5631",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 577
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/tensorpipe/third_party/libuv/LICENSE",
+      "sha256": "16de0c32b265cb7d46a6d3bd614f259dd4d693a5e26b3407b04aae8d73041f0c",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1079
+    },
+    {
+      "package": "torch",
+      "path": "torch-2.15.0+cpu.dist-info/licenses/third_party/tensorpipe/third_party/libuv/LICENSE-extra",
+      "sha256": "262c44bd2cdba037e6d2a82fba15f5800d292bc993a6f5d6b6ea487744d02836",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1603
+    },
+    {
+      "package": "torchvision",
+      "path": "torchvision-0.29.2+cpu.dist-info/LICENSE",
+      "sha256": "6502f676851cfe25f8af75531dfb32375b7325b73c37e7b43741fa422893e71d",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1517
+    },
+    {
+      "package": "tqdm",
+      "path": "tqdm-4.70.1.dist-info/licenses/LICENCE",
+      "sha256": "fcff87c3a47ce8028a8512aa182d4fcf0ad1c90544ee75cf9b343684cac194de",
+      "signatures": [
+        "MIT_grant",
+        "MPL"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1985
+    },
+    {
+      "package": "transformers",
+      "path": "transformers-5.22.1.dist-info/licenses/LICENSE",
+      "sha256": "77fd4710def9ec3c0f6225800e0235f15a425abd4a8b03559127fcd782612049",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11418
+    },
+    {
+      "package": "tree-sitter",
+      "path": "tree_sitter-0.26.0.dist-info/licenses/LICENSE",
+      "sha256": "1af0790543fffac99dd3bd290bf83ca963f4f8029065eb6f35638f4df863ae8e",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1088
+    },
+    {
+      "package": "tree-sitter-c",
+      "path": "tree_sitter_c-0.24.2.dist-info/licenses/LICENSE",
+      "sha256": "2e0110e07abef7c2548b26ec9d6969775617ca539a0dc8dbeeb14d6452c711d1",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1080
+    },
+    {
+      "package": "tree-sitter-javascript",
+      "path": "tree_sitter_javascript-0.25.0.dist-info/licenses/LICENSE",
+      "sha256": "2e0110e07abef7c2548b26ec9d6969775617ca539a0dc8dbeeb14d6452c711d1",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1080
+    },
+    {
+      "package": "tree-sitter-python",
+      "path": "tree_sitter_python-0.25.0.dist-info/licenses/LICENSE",
+      "sha256": "d724405ce238a22c0d35769c5a36b386ad5958192efe8bbb304fb2896254575f",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1080
+    },
+    {
+      "package": "tree-sitter-typescript",
+      "path": "tree_sitter_typescript-0.23.2.dist-info/LICENSE",
+      "sha256": "49bf33cf78ef5897e4e161ce1517df7de1ae5042a65b6bcfd44401e0fc606559",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1080
+    },
+    {
+      "package": "typer",
+      "path": "typer-0.27.3.dist-info/licenses/LICENSE",
+      "sha256": "58992cebcf8dfb6e40c4e2112ed12126c243666dca3912a3d78b7ecac4859d49",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1086
+    },
+    {
+      "package": "typer",
+      "path": "typer/_click/LICENSE.txt",
+      "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1475
+    },
+    {
+      "package": "typing-extensions",
+      "path": "typing_extensions-4.16.0.dist-info/licenses/LICENSE",
+      "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+      "signatures": [
+        "ISC_grant",
+        "Python_Software_Foundation",
+        "GPL_mention"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 13936
+    },
+    {
+      "package": "typing-inspection",
+      "path": "typing_inspection-0.4.5.dist-info/licenses/LICENSE",
+      "sha256": "804b59b25f2c31bd278f9202a19ae49a3945aa2664387e2d0a128c7cacc61ec3",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1090
+    },
+    {
+      "package": "tzdata",
+      "path": "tzdata-2026.6.dist-info/licenses/LICENSE",
+      "sha256": "df58f69ea88683035d720b5375bcef0cf5aeaa98a1d098d572e0992c378deb46",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 625
+    },
+    {
+      "package": "tzdata",
+      "path": "tzdata-2026.6.dist-info/licenses/licenses/LICENSE_APACHE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "signatures": [
+        "Apache_license"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 11357
+    },
+    {
+      "package": "urllib3",
+      "path": "urllib3-2.8.0.dist-info/licenses/LICENSE.txt",
+      "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686",
+      "signatures": [
+        "MIT_grant"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1093
+    },
+    {
+      "package": "websockets",
+      "path": "websockets-17.4.dist-info/licenses/LICENSE",
+      "sha256": "3d6a0c050d8bec52fabad502e45fb25bd02bcadbd70dea34d447b6a0ff4e6da8",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1514
+    },
+    {
+      "package": "xlsxwriter",
+      "path": "xlsxwriter-3.3.1.dist-info/licenses/LICENSE.txt",
+      "sha256": "79cd3a88b65ecd9996f4bbfb7f3adf0a75df366aa1d3bbb7fe150b9e43d5b4c7",
+      "signatures": [
+        "BSD_redistribution"
+      ],
+      "status": "READ_CRC_CHECKED",
+      "text_utf8_decodable": true,
+      "uncompressed_bytes": 1349
+    }
+  ],
+  "per_file_bound_bytes": 2097152,
+  "read_errors_or_bounded_skips": [],
+  "schema_version": "006b.cpu-wheel-notices.1",
+  "total_read_bound_bytes": 33554432,
+  "unique_notice_sha256_count": 216
+}

@@ -1,0 +1,41 @@
+{
+  "heron_weight_requests": 0,
+  "note": "These 31,749,509 bytes were already inside the explicitly allowlisted RapidOCR wheel. Read only ZIP metadata and model notices; no model import/execution or separate payload acquisition.",
+  "other_candidate_caveat": "A .pth Python path-hook candidate and a tiny Torch test .pt are not evidence of separately acquired pretrained weights; contents were not executed or deserialized.",
+  "other_filename_candidates": {
+    "setuptools": [
+      {
+        "bytes": 151,
+        "path": "distutils-precedence.pth",
+        "status": "filename-based bundled-asset candidate; not executed"
+      }
+    ],
+    "torch": [
+      {
+        "bytes": 2840,
+        "path": "torch/bin/test_interpreter_async.pt",
+        "status": "filename-based bundled-asset candidate; not executed"
+      }
+    ]
+  },
+  "rapidocr_bundled_onnx_files": [
+    {
+      "bytes": 9929594,
+      "path": "rapidocr/models/PP-OCRv6_det_small.onnx",
+      "status": "filename-based bundled-asset candidate; not executed"
+    },
+    {
+      "bytes": 21234383,
+      "path": "rapidocr/models/PP-OCRv6_rec_small.onnx",
+      "status": "filename-based bundled-asset candidate; not executed"
+    },
+    {
+      "bytes": 585532,
+      "path": "rapidocr/models/ch_ppocr_mobile_v2.0_cls_mobile.onnx",
+      "status": "filename-based bundled-asset candidate; not executed"
+    }
+  ],
+  "rapidocr_bundled_onnx_logical_bytes": 31749509,
+  "schema_version": "006b.bundled-assets.1",
+  "separate_model_http_requests": 0
+}
