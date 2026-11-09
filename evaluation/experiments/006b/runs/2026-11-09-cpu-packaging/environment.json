@@ -1,0 +1,15 @@
+{
+  "builds": false,
+  "colima_and_cgroup_validation": "Existing local-runtime evidence reused; no repeat tests, VM/context changes or image pulls.",
+  "dependency_source_policy": "PyTorch family only from official CPU index; all other packages PyPI. No arbitrary extra index.",
+  "host_architecture": "arm64",
+  "host_system": "Darwin",
+  "neural_dependencies_installed": false,
+  "packaging": "26.3",
+  "pytest": "8.4.2",
+  "python": "3.11.13",
+  "resolver_runs_on": "Existing macOS CPython 3.11.13; explicitly cross-targeted Linux wheel tags and Linux Requires-Dist marker evaluation, not native macOS selection.",
+  "source_date_cutoff": "2026-11-06T00:00:00Z",
+  "target": "CPython 3.11.13 / Linux aarch64 / glibc 2.39",
+  "uv": "0.7.13"
+}

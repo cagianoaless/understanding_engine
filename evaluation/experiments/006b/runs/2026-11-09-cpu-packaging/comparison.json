@@ -1,0 +1,127 @@
+{
+  "active_linux_dependency_edge_errors": [],
+  "added_packages": [],
+  "all_selected_wheels_target_tag_compatible": true,
+  "changed_versions": [
+    {
+      "after": "2.15.0+cpu",
+      "before": "2.15.0",
+      "name": "torch"
+    },
+    {
+      "after": "0.29.2+cpu",
+      "before": "0.29.2",
+      "name": "torchvision"
+    }
+  ],
+  "compressed_bytes_avoided": 3017280351,
+  "compressed_reduction_percent": 88.82556042178231,
+  "cpu_compressed_wheel_bytes": 379580121,
+  "cpu_package_count": 103,
+  "cutoff": "2026-11-06T00:00:00Z",
+  "default_pypi_compressed_wheel_bytes": 3396860472,
+  "default_pypi_package_count": 122,
+  "payload_hashes_verified": false,
+  "removed_packages": [
+    {
+      "compressed_bytes": 7434875,
+      "name": "cuda-bindings",
+      "version": "13.5.0"
+    },
+    {
+      "compressed_bytes": 62603,
+      "name": "cuda-pathfinder",
+      "version": "1.8.6"
+    },
+    {
+      "compressed_bytes": 2607,
+      "name": "cuda-toolkit",
+      "version": "13.2.2"
+    },
+    {
+      "compressed_bytes": 513048232,
+      "name": "nvidia-cublas",
+      "version": "13.4.1.3"
+    },
+    {
+      "compressed_bytes": 4113650,
+      "name": "nvidia-cuda-cccl",
+      "version": "13.3.5.0.6"
+    },
+    {
+      "compressed_bytes": 11760263,
+      "name": "nvidia-cuda-cupti",
+      "version": "13.2.86"
+    },
+    {
+      "compressed_bytes": 44755454,
+      "name": "nvidia-cuda-nvrtc",
+      "version": "13.2.86"
+    },
+    {
+      "compressed_bytes": 2341433,
+      "name": "nvidia-cuda-runtime",
+      "version": "13.2.86"
+    },
+    {
+      "compressed_bytes": 595329497,
+      "name": "nvidia-cudnn-cu13",
+      "version": "9.26.0.51"
+    },
+    {
+      "compressed_bytes": 218244742,
+      "name": "nvidia-cufft",
+      "version": "12.2.0.57"
+    },
+    {
+      "compressed_bytes": 1226736,
+      "name": "nvidia-cufile",
+      "version": "1.17.1.22"
+    },
+    {
+      "compressed_bytes": 250383075,
+      "name": "nvidia-cusolver",
+      "version": "12.2.0.11"
+    },
+    {
+      "compressed_bytes": 169043093,
+      "name": "nvidia-cusparse",
+      "version": "12.7.10.12"
+    },
+    {
+      "compressed_bytes": 221051344,
+      "name": "nvidia-cusparselt-cu13",
+      "version": "0.8.1"
+    },
+    {
+      "compressed_bytes": 215983881,
+      "name": "nvidia-nccl-cu13",
+      "version": "2.30.7"
+    },
+    {
+      "compressed_bytes": 45253761,
+      "name": "nvidia-nvjitlink",
+      "version": "13.5.37"
+    },
+    {
+      "compressed_bytes": 135174619,
+      "name": "nvidia-nvshmem-cu13",
+      "version": "3.7.2"
+    },
+    {
+      "compressed_bytes": 154292,
+      "name": "nvidia-nvtx",
+      "version": "13.2.86"
+    },
+    {
+      "compressed_bytes": 263373771,
+      "name": "triton",
+      "version": "3.9.0"
+    }
+  ],
+  "runtime_import_or_abi_validation": "NOT_EXECUTED",
+  "schema_version": "006b.cpu-comparison.1",
+  "target": "CPython 3.11.13 / Linux aarch64 / glibc 2.39",
+  "unchanged_artifact_and_sidecar_hash_count": 101,
+  "version_control": "All PR12 public versions constrained; constraints do not force unused dependencies. Only official +cpu local builds differ."
+}
