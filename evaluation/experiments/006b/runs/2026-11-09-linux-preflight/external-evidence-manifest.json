@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "bytes": 25472,
+      "external_file": "original-files.json",
+      "sha256": "6b04eac2c1b0c2ea4adcd38976e7325e5047999a3e614af7dc96a009dcbc9fe7"
+    },
+    {
+      "bytes": 126,
+      "external_file": "start.json",
+      "sha256": "e59fdc579dd8ae7bff37078358565da30fac54fb64cd0fe8801c30c8882bc231"
+    },
+    {
+      "bytes": 18786,
+      "external_file": "host-runtime-before.json",
+      "sha256": "4ccbe8a07752a9eaa7718d07c6db8c4def8d9a361075ace618fc2f6317c5d4c2"
+    },
+    {
+      "bytes": 18654,
+      "external_file": "host-runtime-verified.json",
+      "sha256": "6ad5c06e9b5ec7cf9dafc114cc0da537b046e93793e72a1fe8adfe11d8d27e3d"
+    },
+    {
+      "bytes": 18809,
+      "external_file": "host-runtime-final.json",
+      "sha256": "68f2ab688171162dc23dd2b60b5fa7617a87430c2008a2f4dfbba68c14a8dace"
+    },
+    {
+      "bytes": 14897,
+      "external_file": "audit-attempt01.py",
+      "sha256": "4ccc1655ae4089835a78a9a7a19ce0fcbbf679f3222500920e5693c8ee6e493a"
+    },
+    {
+      "bytes": 15747,
+      "external_file": "audit-attempt02.py",
+      "sha256": "8434334ee4d2555f6095eb3bfee6787246ac268c17820885b9b8639126f7c517"
+    },
+    {
+      "bytes": 16476,
+      "external_file": "audit-attempt03.py",
+      "sha256": "5792611b8173ab46ff06a160ce5994039407c072c39b50cb4eeb44df6d5c2bf4"
+    },
+    {
+      "bytes": 1573,
+      "external_file": "model/model-api.json",
+      "sha256": "63d7d5289c67b5bdf75ed85bca8ee849ee99a0ada0eac71c363d95e1b54ed6c5"
+    },
+    {
+      "bytes": 3219,
+      "external_file": "model/README.md",
+      "sha256": "175700839bc7808eac6af1d0c23e4f483606ab2276fe01122f4093e61a1a65b6"
+    },
+    {
+      "bytes": 3268,
+      "external_file": "model/config.json",
+      "sha256": "fdea30805ce2f5666b147fca941dcdd27ad468e27d6ed21902207d3da056a97d"
+    },
+    {
+      "bytes": 444,
+      "external_file": "model/preprocessor_config.json",
+      "sha256": "cd38cd59999e7a95d68e487fbe5132df3d4e5c32a0836add57e6126ba0c4eaf1"
+    },
+    {
+      "bytes": 4678,
+      "external_file": "model/model.json",
+      "sha256": "ff492dfe07e462208d551938334b200d0960545b1105cd34bce7e20e2b299da6"
+    },
+    {
+      "bytes": 346357,
+      "external_file": "inventory/dependencies.json",
+      "sha256": "72c5d0f07777350eb1448697092138d05a5d89aef2aed50fe967e2fe67485698"
+    },
+    {
+      "bytes": 80941,
+      "external_file": "resolver/resolution.json",
+      "sha256": "11eeb042af5ceb921ec84a9765901cedd44630e7c56a9d9bce8902569a6bd124"
+    },
+    {
+      "bytes": 332542,
+      "external_file": "resolver-attempt02/resolution.json",
+      "sha256": "31c3bfc3e2d0a404a22d888ba58f42b5b48771556981ff08a82183baa2f8918d"
+    },
+    {
+      "bytes": 367373,
+      "external_file": "resolver-attempt03/resolution.json",
+      "sha256": "7a9dd9d0e07fc64f270918f183238474378c908b1b0898605aef6ed7536eca1f"
+    }
+  ],
+  "location": "$PREFLIGHT_RAW; local-only locator retained outside Git",
+  "no_payload_archives_acquired": true,
+  "raw_metadata": "Content-addressed .metadata response files retained in each producer directory. Selected metadata origin URLs/hashes are in dependencies.json."
+}

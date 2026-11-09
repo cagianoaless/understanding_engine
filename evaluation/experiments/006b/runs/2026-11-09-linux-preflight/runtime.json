@@ -1,0 +1,103 @@
+{
+  "commands": [
+    {
+      "argv": [
+        "/bin/df",
+        "-k",
+        "/System/Volumes/Data"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "Filesystem   1024-blocks      Used Available Capacity iused     ifree %iused  Mounted on\n/dev/disk3s5   239362496 175696972  34015444    84% 2020876 340154440    1%   /System/Volumes/Data\n"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/colima",
+        "-p",
+        "ue006b",
+        "status",
+        "--json"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\"display_name\":\"colima [profile=ue006b]\",\"driver\":\"macOS Virtualization.Framework\",\"arch\":\"aarch64\",\"runtime\":\"docker\",\"mount_type\":\"virtiofs\",\"docker_socket\":\"unix://$HOME/.colima/ue006b/docker.sock\",\"containerd_socket\":\"unix://$HOME/.colima/ue006b/containerd.sock\",\"kubernetes\":false,\"cpu\":4,\"memory\":5368709120,\"disk\":5368709120}\n"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/docker",
+        "--context",
+        "colima-ue006b",
+        "info",
+        "--format",
+        "{\"Architecture\":\"{{.Architecture}}\",\"CgroupVersion\":\"{{.CgroupVersion}}\",\"NCPU\":{{.NCPU}},\"MemTotal\":{{.MemTotal}},\"MemoryLimit\":{{.MemoryLimit}},\"SwapLimit\":{{.SwapLimit}},\"ServerVersion\":\"{{.ServerVersion}}\"}"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\"Architecture\":\"aarch64\",\"CgroupVersion\":\"2\",\"NCPU\":4,\"MemTotal\":5142519808,\"MemoryLimit\":true,\"SwapLimit\":true,\"ServerVersion\":\"29.5.2\"}\n"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/docker",
+        "--context",
+        "colima-ue006b",
+        "ps",
+        "-a",
+        "--format",
+        "{{json .}}"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/docker",
+        "--context",
+        "colima-ue006b",
+        "images",
+        "--digests",
+        "--format",
+        "{{json .}}"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\"Containers\":\"0\",\"CreatedAt\":\"2024-09-26 23:31:42 +0200 CEST\",\"CreatedSince\":\"2 years ago\",\"Digest\":\"sha256:a4b7bbbb14a7e50bec3f6cbc4e2560c9b6792a7ae7062637bdfc25793817d4ff\",\"ID\":\"a4b7bbbb14a7\",\"Repository\":\"busybox\",\"SharedSize\":\"N/A\",\"Size\":\"2.64MB\",\"Tag\":\"\\u003cnone\\u003e\",\"UniqueSize\":\"N/A\"}\n"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/docker",
+        "context",
+        "show"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "default\n"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/colima",
+        "-p",
+        "ue006b",
+        "ssh",
+        "--",
+        "sh",
+        "-c",
+        "uname -m; getconf GNU_LIBC_VERSION; getconf _NPROCESSORS_ONLN; python3 --version; cat /proc/swaps; cat /sys/fs/cgroup/cgroup.controllers; df -k / /var/lib/docker; cat /proc/mounts"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "aarch64\nglibc 2.39\n4\nPython 3.12.3\nFilename\t\t\t\tType\t\tSize\t\tUsed\t\tPriority\ncpuset cpu io memory hugetlb pids rdma misc\nFilesystem     1K-blocks   Used Available Use% Mounted on\n/dev/root        2974484 884364   2073736  30% /\n/dev/vdb1        5072544   3116   4791004   1% /var/lib/docker\n/dev/root / ext4 rw,relatime,discard,errors=remount-ro,commit=30 0 0\ndevtmpfs /dev devtmpfs rw,nosuid,noexec,relatime,size=2488468k,nr_inodes=622117,mode=755,inode64 0 0\nproc /proc proc rw,nosuid,nodev,noexec,relatime 0 0\nsysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0\nsecurityfs /sys/kernel/security securityfs rw,nosuid,nodev,noexec,relatime 0 0\ntmpfs /dev/shm tmpfs rw,nosuid,nodev,inode64 0 0\ndevpts /dev/pts devpts rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000 0 0\ntmpfs /run tmpfs rw,nosuid,nodev,size=1004400k,nr_inodes=819200,mode=755,inode64 0 0\ntmpfs /run/lock tmpfs rw,nosuid,nodev,noexec,relatime,size=5120k,inode64 0 0\ncgroup2 /sys/fs/cgroup cgroup2 rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot 0 0\npstore /sys/fs/pstore pstore rw,nosuid,nodev,noexec,relatime 0 0\nefivarfs /sys/firmware/efi/efivars efivarfs rw,nosuid,nodev,noexec,relatime 0 0\nbpf /sys/fs/bpf bpf rw,nosuid,nodev,noexec,relatime,mode=700 0 0\nsystemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=33,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=288 0 0\ndebugfs /sys/kernel/debug debugfs rw,nosuid,nodev,noexec,relatime 0 0\ntracefs /sys/kernel/tracing tracefs rw,nosuid,nodev,noexec,relatime 0 0\nhugetlbfs /dev/hugepages hugetlbfs rw,nosuid,nodev,relatime,pagesize=2M 0 0\nmqueue /dev/mqueue mqueue rw,nosuid,nodev,noexec,relatime 0 0\nfusectl /sys/fs/fuse/connections fusectl rw,nosuid,nodev,noexec,relatime 0 0\nconfigfs /sys/kernel/config configfs rw,nosuid,nodev,noexec,relatime 0 0\n/dev/vda16 /boot ext4 rw,relatime 0 0\n/dev/vda15 /boot/efi vfat rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro 0 0\nbinfmt_misc /proc/sys/fs/binfmt_misc binfmt_misc rw,nosuid,nodev,noexec,relatime 0 0\n/dev/vdc /mnt/lima-cidata iso9660 ro,relatime,nojoliet,overriderockperm,check=s,map=n,blocksize=2048,uid=0,dmode=700,fmode=700,iocharset=utf8 0 0\n/dev/vdb1 /mnt/lima-colima-ue006b ext4 rw,relatime 0 0\ntmpfs /run/user/501 tmpfs rw,nosuid,nodev,relatime,size=502196k,nr_inodes=125549,mode=700,uid=501,gid=1000,inode64 0 0\n/dev/vdb1 /var/lib/docker ext4 rw,relatime 0 0\n/dev/vdb1 /var/lib/containerd ext4 rw,relatime 0 0\n/dev/vdb1 /var/lib/rancher ext4 rw,relatime 0 0\n/dev/vdb1 /var/lib/cni ext4 rw,relatime 0 0\n/dev/vdb1 /var/lib/ramalama ext4 rw,relatime 0 0\n"
+    }
+  ],
+  "configuration_sha256": "31138994e6ea01d8b354bf2d8e3f7c310c047ff57f8dac85759efe5379aff55a",
+  "configuration_unchanged": true,
+  "containers_created": 0,
+  "cp311_runtime_provisioned": false,
+  "default_context_unchanged": true,
+  "host_free_bytes": 34831814656,
+  "images_acquired": 0,
+  "schema_version": "006b.linux-runtime-recheck.1",
+  "system_python": "3.12.3",
+  "target_python": "3.11.13",
+  "timestamp": "2026-11-09T11:31:33.236078+01:00"
+}

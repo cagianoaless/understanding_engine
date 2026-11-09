@@ -1,0 +1,22 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.11.13, pytest-8.4.2, pluggy-1.7.0
+rootdir: $REPO
+configfile: pyproject.toml
+testpaths: tests
+collected 304 items
+
+tests/test_cli.py ...................                                    [  6%]
+tests/test_contracts.py .............                                    [ 10%]
+tests/test_experiment006_preflight.py .................................. [ 21%]
+.                                                                        [ 22%]
+tests/test_experiment006b.py ........................................... [ 36%]
+.......                                                                  [ 38%]
+tests/test_linux_metadata_preflight.py ..........................        [ 47%]
+tests/test_local_runtime_probe.py ......................                 [ 54%]
+tests/test_pdf_parser.py ............................                    [ 63%]
+tests/test_spacing.py .................................                  [ 74%]
+tests/test_structure.py .....................................            [ 86%]
+tests/test_structure_evaluation.py ......                                [ 88%]
+tests/test_structure_robust.py ...................................       [100%]
+
+============================= 304 passed in 7.97s ==============================

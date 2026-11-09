@@ -1,0 +1,95 @@
+{
+  "declared_license": "apache-2.0",
+  "files": [
+    {
+      "bytes": 3219,
+      "content_verified": true,
+      "downloaded_this_stage": true,
+      "filename": "README.md",
+      "git_blob_sha1": "2c5b32c47fb9789ed49606988f58bc4741a731ab",
+      "license_basis": "README.md at same pinned repository revision; no per-file override listed. Declaration reviewed; legal compatibility approval not asserted.",
+      "license_declaration": "Apache-2.0",
+      "metadata_matches": true,
+      "role": "license_declaration",
+      "sha256": "175700839bc7808eac6af1d0c23e4f483606ab2276fe01122f4093e61a1a65b6",
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/README.md"
+    },
+    {
+      "bytes": 3268,
+      "content_verified": true,
+      "downloaded_this_stage": true,
+      "filename": "config.json",
+      "git_blob_sha1": "98434d37ace2399b824d685b0795ab7a68e53dd2",
+      "license_basis": "README.md at same pinned repository revision; no per-file override listed. Declaration reviewed; legal compatibility approval not asserted.",
+      "license_declaration": "Apache-2.0",
+      "metadata_matches": true,
+      "role": "inference_metadata",
+      "sha256": "fdea30805ce2f5666b147fca941dcdd27ad468e27d6ed21902207d3da056a97d",
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/config.json"
+    },
+    {
+      "bytes": 444,
+      "content_verified": true,
+      "downloaded_this_stage": true,
+      "filename": "preprocessor_config.json",
+      "git_blob_sha1": "fcdff16b42e5ebc51d28f59184490c6eff91a88b",
+      "license_basis": "README.md at same pinned repository revision; no per-file override listed. Declaration reviewed; legal compatibility approval not asserted.",
+      "license_declaration": "Apache-2.0",
+      "metadata_matches": true,
+      "role": "inference_metadata",
+      "sha256": "cd38cd59999e7a95d68e487fbe5132df3d4e5c32a0836add57e6126ba0c4eaf1",
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/preprocessor_config.json"
+    },
+    {
+      "bytes": 171658996,
+      "content_verified": false,
+      "downloaded": false,
+      "downloaded_this_stage": false,
+      "filename": "model.safetensors",
+      "git_blob_sha1": "fdbf7f57ab84ba924eab94530c6cabb0a5d83a5e",
+      "license_basis": "README.md at same pinned repository revision; no per-file override listed. Declaration reviewed; legal compatibility approval not asserted.",
+      "license_declaration": "Apache-2.0",
+      "live_bytes": 171658996,
+      "live_lfs_sha256": "00333a43451945aaf89db8ca9c0a17e75d1537c17db60fdb91aa95f4c7929e0c",
+      "metadata_matches": true,
+      "role": "weights",
+      "sha256": "00333a43451945aaf89db8ca9c0a17e75d1537c17db60fdb91aa95f4c7929e0c",
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/model.safetensors"
+    }
+  ],
+  "license_clearance": "UNKNOWN",
+  "live_api_revision": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8",
+  "metadata_body_bytes": 8504,
+  "pinned_identity_status": "PASS",
+  "requests": [
+    {
+      "body_bytes": 1573,
+      "external_file": "model-api.json",
+      "sha256": "63d7d5289c67b5bdf75ed85bca8ee849ee99a0ada0eac71c363d95e1b54ed6c5",
+      "url": "https://huggingface.co/api/models/docling-project/docling-layout-heron/revision/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8?blobs=true"
+    },
+    {
+      "body_bytes": 3219,
+      "external_file": "README.md",
+      "sha256": "175700839bc7808eac6af1d0c23e4f483606ab2276fe01122f4093e61a1a65b6",
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/README.md"
+    },
+    {
+      "body_bytes": 3268,
+      "external_file": "config.json",
+      "sha256": "fdea30805ce2f5666b147fca941dcdd27ad468e27d6ed21902207d3da056a97d",
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/config.json"
+    },
+    {
+      "body_bytes": 444,
+      "external_file": "preprocessor_config.json",
+      "sha256": "cd38cd59999e7a95d68e487fbe5132df3d4e5c32a0836add57e6126ba0c4eaf1",
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/preprocessor_config.json"
+    }
+  ],
+  "required_inference_payload_bytes": 171662708,
+  "revision": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8",
+  "schema_version": "006b.linux-model-audit.1",
+  "weight_payload_bytes_acquired": 0,
+  "weights_content_verified": false
+}

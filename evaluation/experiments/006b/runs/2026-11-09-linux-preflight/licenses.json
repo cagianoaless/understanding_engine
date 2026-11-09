@@ -1,0 +1,624 @@
+{
+  "declaration_counts": {
+    "PASS": 48,
+    "UNKNOWN": 74
+  },
+  "full_clearance": "UNKNOWN",
+  "heron_declaration": "apache-2.0",
+  "heron_full_clearance": "UNKNOWN",
+  "parseable_declaration_is_not_full_clearance": true,
+  "review_status": "agent_metadata_checked; no independent human/legal approval invented",
+  "schema_version": "006b.linux-licenses.1",
+  "scope": "Version-specific PyPI JSON and selected wheel METADATA declarations; no wheel bodies or bundled notices inspected",
+  "unknown_declarations": [
+    {
+      "classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "Apache",
+      "name": "accelerate",
+      "version": "1.15.0"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MIT License",
+      "name": "beautifulsoup4",
+      "version": "4.15.0"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MPL-2.0",
+      "name": "certifi",
+      "version": "2026.10.23"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "charset-normalizer",
+      "version": "3.5.2"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MIT License",
+      "name": "colorlog",
+      "version": "6.12.0"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": null,
+      "name": "cuda-toolkit",
+      "version": "13.2.2"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: Python Software Foundation License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "PSFL",
+      "name": "defusedxml",
+      "version": "0.7.1"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "BSD-3-Clause",
+      "name": "dill",
+      "version": "0.4.1"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "et-xmlfile",
+      "version": "2.0.0"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MIT License",
+      "name": "faker",
+      "version": "40.44.0"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "filetype",
+      "version": "1.2.0"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "h11",
+      "version": "0.16.0"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "BSD-3-Clause",
+      "name": "httpx",
+      "version": "0.28.1"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "Apache-2.0",
+      "name": "huggingface-hub",
+      "version": "1.33.0"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "expression": null,
+      "legacy_excerpt": null,
+      "name": "jinja2",
+      "version": "3.1.6"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "jsonref",
+      "version": "1.1.0"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": null,
+      "name": "langcodes",
+      "version": "3.5.1"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "latex2mathml",
+      "version": "3.81.1"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": "BSD-3-Clause",
+      "name": "lxml",
+      "version": "6.1.3"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": null,
+      "name": "markdown-it-py",
+      "version": "4.2.0"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "marko",
+      "version": "2.2.5"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": null,
+      "name": "mdurl",
+      "version": "0.1.2"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "mpire",
+      "version": "2.10.2"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "BSD",
+      "name": "mpmath",
+      "version": "1.3.0"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "BSD-3-Clause",
+      "name": "multiprocess",
+      "version": "0.70.19"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": null,
+      "name": "nvidia-cublas",
+      "version": "13.4.1.3"
+    },
+    {
+      "classifiers": [],
+      "expression": "LicenseRef-NVIDIA-Proprietary",
+      "legacy_excerpt": null,
+      "name": "nvidia-cuda-cccl",
+      "version": "13.3.5.0.6"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": null,
+      "name": "nvidia-cuda-cupti",
+      "version": "13.2.86"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": null,
+      "name": "nvidia-cuda-nvrtc",
+      "version": "13.2.86"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": null,
+      "name": "nvidia-cuda-runtime",
+      "version": "13.2.86"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": null,
+      "name": "nvidia-cudnn-cu13",
+      "version": "9.26.0.51"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": null,
+      "name": "nvidia-cufft",
+      "version": "12.2.0.57"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": null,
+      "name": "nvidia-cufile",
+      "version": "1.17.1.22"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": null,
+      "name": "nvidia-cusolver",
+      "version": "12.2.0.11"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": null,
+      "name": "nvidia-cusparse",
+      "version": "12.7.10.12"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": "NVIDIA Proprietary Software",
+      "name": "nvidia-cusparselt-cu13",
+      "version": "0.8.1"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": null,
+      "name": "nvidia-nccl-cu13",
+      "version": "2.30.7"
+    },
+    {
+      "classifiers": [],
+      "expression": "LicenseRef-NVIDIA-Proprietary",
+      "legacy_excerpt": null,
+      "name": "nvidia-nvjitlink",
+      "version": "13.5.37"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": null,
+      "name": "nvidia-nvshmem-cu13",
+      "version": "3.7.2"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": null,
+      "name": "nvidia-nvtx",
+      "version": "13.2.86"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "BSD",
+      "name": "olefile",
+      "version": "0.47"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "expression": null,
+      "legacy_excerpt": null,
+      "name": "omegaconf",
+      "version": "2.4.0"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "Apache 2.0",
+      "name": "opencv-python-headless",
+      "version": "5.0.0.93"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "openpyxl",
+      "version": "3.1.5"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "pluggy",
+      "version": "1.7.0"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "polyfactory",
+      "version": "3.5.0"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": "BSD-3-Clause",
+      "name": "psutil",
+      "version": "7.2.2"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved",
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "pyclipper",
+      "version": "1.4.0"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "pylatexenc",
+      "version": "2.11"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": "BSD-3-Clause, Apache-2.0, dependency licenses",
+      "name": "pypdfium2",
+      "version": "5.14.0"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "python-docx",
+      "version": "1.2.0"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": "BSD-3-Clause",
+      "name": "python-dotenv",
+      "version": "1.2.4"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "python-oxmsg",
+      "version": "0.0.2"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "python-pptx",
+      "version": "1.0.2"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "pyyaml",
+      "version": "6.0.3"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "Apache-2.0",
+      "name": "requests",
+      "version": "2.34.2"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "rich",
+      "version": "15.0.0"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "expression": null,
+      "legacy_excerpt": null,
+      "name": "safetensors",
+      "version": "0.8.0"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers.\n         All rights reserved.\n      ",
+      "name": "scipy",
+      "version": "1.17.1"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "semchunk",
+      "version": "3.2.5"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: ISC License (ISCL)"
+      ],
+      "expression": null,
+      "legacy_excerpt": "ISC License",
+      "name": "shellingham",
+      "version": "1.5.4"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "six",
+      "version": "1.17.0"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "BSD",
+      "name": "sympy",
+      "version": "1.14.0"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "expression": null,
+      "legacy_excerpt": null,
+      "name": "tokenizers",
+      "version": "0.23.3"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": "BSD",
+      "name": "torchvision",
+      "version": "0.29.2"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": "MPL-2.0 AND MIT",
+      "name": "tqdm",
+      "version": "4.70.1"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": "Apache 2.0 License",
+      "name": "transformers",
+      "version": "5.22.1"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": null,
+      "name": "tree-sitter",
+      "version": "0.26.0"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "tree-sitter-c",
+      "version": "0.24.2"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "tree-sitter-javascript",
+      "version": "0.25.0"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "tree-sitter-python",
+      "version": "0.25.0"
+    },
+    {
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "tree-sitter-typescript",
+      "version": "0.23.2"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": "MIT",
+      "name": "triton",
+      "version": "3.9.0"
+    },
+    {
+      "classifiers": [],
+      "expression": null,
+      "legacy_excerpt": "Apache-2.0",
+      "name": "tzdata",
+      "version": "2026.6"
+    }
+  ],
+  "unresolved_custom_references": [
+    "nvidia-cuda-cccl",
+    "nvidia-nvjitlink"
+  ]
+}

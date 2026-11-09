@@ -1,0 +1,151 @@
+{
+  "additional_cp311_runtime_or_image_bytes": null,
+  "candidate_measured_installed_bytes": null,
+  "carried_prior_metadata_reservation_bytes": 134217728,
+  "consumption_upper_before_candidate": 573540111,
+  "download_cap_bytes": 2147483648,
+  "expected_compressed_wheel_bytes": 3396860472,
+  "expected_minimal_model_payload_bytes": 171662708,
+  "installed_cache_cap_bytes": 4294967296,
+  "measured_current_allocated_upper_bytes": 1986494464,
+  "metadata_components": {
+    "all_resolver_attempts": 23932907,
+    "model_metadata": 8504,
+    "release_json": 822591
+  },
+  "model_weight_bytes_acquired": 0,
+  "new_metadata_body_bytes": 24764002,
+  "new_small_transfer_reservation_bytes": 16777216,
+  "planning_assumptions": "Cache subtotal assumes each compressed wheel and minimal model file is fully allocated once; no unpacked copy, temporary extraction or future interpreter/image is included. This is a planning scenario, not observed physical allocation or a guaranteed lower bound.",
+  "prior_artifact_payload_bytes": 397781165,
+  "projected_download_gate": "FAIL",
+  "projected_inclusive_download_bytes": 4142063291,
+  "projected_installed_cache_gate": "UNKNOWN",
+  "provisioning_peak_status": "UNKNOWN",
+  "retained_cache_planning_subtotal_bytes": 5571794860,
+  "rules": [
+    "No reset or subtraction of prior consumption",
+    "All setup and runtime/cache roots retained; prior Experiment006 raw metadata cache included if present",
+    "VM files already include guest layers; not double-counted",
+    "APFS exclusive sharing not measured",
+    "No compressed-wheel size treated as unpacked size",
+    "Future model configs conservatively counted again for possible isolated copying/redownload"
+  ],
+  "schema_version": "006b.linux-accounting.1",
+  "snapshot": "2026-11-09T11:31:33.236078+01:00",
+  "storage_metadata_reservation_bytes": 16777216,
+  "storage_roots": {
+    "$EXPERIMENT006_RAW": {
+      "allocated_bytes": 53460992,
+      "large_files": [],
+      "logical_bytes": 52605555
+    },
+    "$HOME/.colima": {
+      "allocated_bytes": 1187397632,
+      "large_files": [
+        {
+          "allocated_bytes": 20156416,
+          "logical_bytes": 20154368,
+          "path": "$HOME/.colima/_lima/colima-ue006b/cidata.iso"
+        },
+        {
+          "allocated_bytes": 1155649536,
+          "logical_bytes": 4294967296,
+          "path": "$HOME/.colima/_lima/colima-ue006b/disk"
+        },
+        {
+          "allocated_bytes": 11223040,
+          "logical_bytes": 5368709120,
+          "path": "$HOME/.colima/_lima/_disks/colima-ue006b/datadisk"
+        }
+      ],
+      "logical_bytes": 9684068353
+    },
+    "$HOME/Library/Caches/colima": {
+      "allocated_bytes": 0,
+      "large_files": [],
+      "logical_bytes": 0
+    },
+    "$HOME/Library/Caches/lima": {
+      "allocated_bytes": 0,
+      "large_files": [],
+      "logical_bytes": 0
+    },
+    "$HOME/Library/Logs/Homebrew/colima": {
+      "allocated_bytes": 0,
+      "large_files": [],
+      "logical_bytes": 0
+    },
+    "$HOME/Library/Logs/Homebrew/docker": {
+      "allocated_bytes": 0,
+      "large_files": [],
+      "logical_bytes": 0
+    },
+    "$HOME/Library/Logs/Homebrew/lima": {
+      "allocated_bytes": 0,
+      "large_files": [],
+      "logical_bytes": 0
+    },
+    "$PREFLIGHT_RAW": {
+      "allocated_bytes": 149344256,
+      "large_files": [],
+      "logical_bytes": 146692241
+    },
+    "$REPO_artifacts/experiment-006b-local/20261109T101525+0100": {
+      "allocated_bytes": 442957824,
+      "large_files": [
+        {
+          "allocated_bytes": 50724864,
+          "logical_bytes": 50470883,
+          "path": "$REPO_artifacts/experiment-006b-local/20261109T101525+0100/homebrew-cache/downloads/67deceaf22d170816242f42d75828f01ede5ae8442ffc938a1ce631cc1306b3c--lima--2.3.0.arm64_tahoe.bottle.tar.gz"
+        },
+        {
+          "allocated_bytes": 336117760,
+          "logical_bytes": 332354401,
+          "path": "$REPO_artifacts/experiment-006b-local/20261109T101525+0100/xdg-cache/colima/caches/b0992ab88f5a3c0c436bbb3065c01466f20dc1dd0eb0a60299d410176f21a1c3"
+        }
+      ],
+      "logical_bytes": 436409605
+    },
+    "/opt/homebrew/Cellar/colima/0.10.3": {
+      "allocated_bytes": 10612736,
+      "large_files": [],
+      "logical_bytes": 10581496
+    },
+    "/opt/homebrew/Cellar/docker/29.9.3": {
+      "allocated_bytes": 29204480,
+      "large_files": [
+        {
+          "allocated_bytes": 28983296,
+          "logical_bytes": 28981314,
+          "path": "/opt/homebrew/Cellar/docker/29.9.3/bin/docker"
+        }
+      ],
+      "logical_bytes": 29177326
+    },
+    "/opt/homebrew/Cellar/lima/2.3.0": {
+      "allocated_bytes": 113516544,
+      "large_files": [
+        {
+          "allocated_bytes": 34631680,
+          "logical_bytes": 34628480,
+          "path": "/opt/homebrew/Cellar/lima/2.3.0/bin/limactl"
+        },
+        {
+          "allocated_bytes": 28856320,
+          "logical_bytes": 28855602,
+          "path": "/opt/homebrew/Cellar/lima/2.3.0/libexec/lima/lima-driver-krunkit"
+        },
+        {
+          "allocated_bytes": 23539712,
+          "logical_bytes": 23539490,
+          "path": "/opt/homebrew/Cellar/lima/2.3.0/libexec/lima/limactl-menu"
+        }
+      ],
+      "logical_bytes": 113033380
+    }
+  },
+  "temporary_extraction_bytes": null,
+  "unpacked_candidate_bytes": null,
+  "wheel_payload_bytes_acquired": 0
+}
