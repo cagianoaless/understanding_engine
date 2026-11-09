@@ -1,0 +1,14 @@
+{
+  "schema_version": "006b.cpu-post-acquisition-verification.1",
+  "verified_final_files": 103,
+  "verified_bytes": 379580121,
+  "method": "Independent final-file SHA-256 read pass, sequential 1 MiB chunks; O_NOFOLLOW; regular-file ownership and stable inode/size/mtime checked. Matches the frozen original URL/length/hash allowlist; source URLs are evidenced in artifacts.json. No network requests or decompression.",
+  "failures": 0,
+  "disk_manifest_canonical_sha256": "3148457df8e3db467392a5959b0de3d5c05172e67f13716abdb60529956219bb",
+  "host_available_bytes": 34219134976,
+  "inclusive_allocated_bytes": 2457055232,
+  "resource_gates": "PASS",
+  "candidate_installed": false,
+  "heron_requested": false,
+  "inference_run": false
+}

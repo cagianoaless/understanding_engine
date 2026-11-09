@@ -23,6 +23,8 @@ Docling stays **2.148.0**, CPU Torch **2.15.0+cpu**, CPU Torchvision **0.29.2+cp
 
 All archives stay in **one isolated directory outside every Git root**, with one copy of each wheel. ZIP member lists, CRC/size declarations, original notices and raw logs stay there too. Only root wheel METADATA and bounded notice text were decompressed/CRC checked. No package extraction, executable import, install, bytecode generation from downloaded packages, OCR or inference occurred. ZIP size totals are central-directory declarations, **not observed extracted allocation**. The 4 KiB estimate excludes directory/script/installation details and does not claim equivalence to APFS allocation.
 
+After acquisition, a separate sequential read pass recomputed SHA-256 from **all 103 final on-disk files** (379,580,121 bytes), with no symlink following and stable regular-file identity/size/mtime checks: **zero mismatches**. Both resource gates still passed. [post-acquisition-verification.json](post-acquisition-verification.json) records this independent final-file verification and the updated storage snapshot.
+
 [artifacts.json](artifacts.json) records each exact URL, verified length/hash, physical archive allocation, file count and ZIP sizes. [license-files.json](license-files.json) gives every notice's member path, hash and automated text signatures. Raw metadata and resource-sample files are hash-manifested in [external-evidence-manifest.json](external-evidence-manifest.json). Completed Colima/cgroup and dependency-resolution work was not repeated.
 
 ## Execution failure, correction and continuation

@@ -57,6 +57,28 @@ Continuation: exit **0**; rehash/reinspect the 80 retained archives, download on
 
 For each verified archive, load its ZIP central directory (`zipfile.ZipFile(...).infolist()`), reject unsafe/duplicate member paths, symlinks/encryption, and sum non-directory `file_size`. Sum `ceil(file_size / 4096) * 4096` separately for the explicit file-allocation estimate. Compare per-package totals with `artifacts.json`; these sum to 1,250,768,241 logical and 1,318,440,960 rounded bytes. Do not extract all files or import the packages. Notice SHA-256 values are recoverable from the named wheel member; only bounded notice/root METADATA decompression occurred.
 
+A final **no-network** verification independently re-read every retained final archive. Its summary is `post-acquisition-verification.json`; the raw canonical per-file hash manifest is `final-disk-hash-manifest.json`. Reproduce the read pass with the existing standard-library interpreter and the following loop, supplying the original allowlist and archive paths:
+
+```python
+for row in proposal["artifacts"]:
+    path = archive_directory / row["filename"]
+    assert not path.is_symlink()
+    fd = os.open(path, os.O_RDONLY | os.O_NOFOLLOW)
+    with os.fdopen(fd, "rb") as stream:
+        before = os.fstat(stream.fileno())
+        assert stat.S_ISREG(before.st_mode) and before.st_uid == os.getuid()
+        digest = hashlib.sha256()
+        for data in iter(lambda: stream.read(1024**2), b""):
+            digest.update(data)
+        after = os.fstat(stream.fileno())
+        assert (before.st_ino, before.st_size, before.st_mtime_ns) == (
+            after.st_ino, after.st_size, after.st_mtime_ns)
+    assert before.st_size == row["bytes"]
+    assert digest.hexdigest() == row["sha256"]
+```
+
+All 103 passed. No payload was re-downloaded, unpacked or imported. After the pass, rerun the same allocation/reserve guards; both remained PASS. The canonical manifest hash in the verification summary uses sorted JSON keys with separators `(',', ':')`, excluding the file's trailing newline.
+
 `archive_audit.py` exposes `allocation_snapshot(registered_roots)` and `check_limits(snapshot)` for the same bounded no-symlink-following measurement. It deduplicates real regular files by device/inode and sums `st_blocks * 512`; host availability comes from `statvfs('/System/Volumes/Data')`, cross-checked with `df -k /System/Volumes/Data`. Include current raw evidence, old runtime/cache roots and all `.part` files. VM disks already contain guest layers. Preserve APFS sharing/peak caveats.
 
 Projection in `resources.json`: measured `H` + rounded `U` + frozen Heron `M` + explicit scratch/runtime/duplicate/work allowances `T/R/D/W`. Do not substitute compressed sizes for unpacked installation or treat the 512 MiB runtime allowance as measured. Archive-file allocation, payload length, guest file estimate and unknown actual installation peak are separate quantities.
