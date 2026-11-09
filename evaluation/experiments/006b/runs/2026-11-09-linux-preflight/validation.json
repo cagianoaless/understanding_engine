@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "/opt/homebrew/bin/uv",
+    "run",
+    "--frozen",
+    "--offline",
+    "pytest"
+  ],
+  "elapsed_seconds": 8.362119416,
+  "exit_code": 0,
+  "python": "Python 3.11.13"
+}
