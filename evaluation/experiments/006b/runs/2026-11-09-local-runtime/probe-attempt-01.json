@@ -1,0 +1,415 @@
+{
+  "assessment": {
+    "cpu_usage_delta_usec": 2108309,
+    "gates": {
+      "cgroup_v2_limits": true,
+      "child_memory_accounting": true,
+      "cpu_throttling_observed": true,
+      "host_filesystem_isolation": true,
+      "native_arm64": true,
+      "network_disabled": false,
+      "no_oom": true,
+      "zero_container_swap": true
+    },
+    "inference_threads": null,
+    "inference_threads_status": "not_run",
+    "memory_peak_bytes": 20598784,
+    "oom_boundary_stress_test": "not_run; deliberately no OOM allocation",
+    "throttled_period_delta": 21
+  },
+  "commands": [
+    {
+      "argv": [
+        "/opt/homebrew/bin/docker",
+        "--context",
+        "colima-ue006b",
+        "image",
+        "inspect",
+        "busybox@sha256:a4b7bbbb14a7e50bec3f6cbc4e2560c9b6792a7ae7062637bdfc25793817d4ff"
+      ],
+      "elapsed_seconds": 0.12209483329206705,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "[\n    {\n        \"Id\": \"sha256:a4b7bbbb14a7e50bec3f6cbc4e2560c9b6792a7ae7062637bdfc25793817d4ff\",\n        \"RepoTags\": [\n            \"busybox@sha256:a4b7bbbb14a7e50bec3f6cbc4e2560c9b6792a7ae7062637bdfc25793817d4ff\"\n        ],\n        \"RepoDigests\": [\n            \"busybox@sha256:a4b7bbbb14a7e50bec3f6cbc4e2560c9b6792a7ae7062637bdfc25793817d4ff\"\n        ],\n        \"Created\": \"2024-09-26T21:31:42Z\",\n        \"Config\": {\n            \"Env\": [\n                \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"\n            ],\n            \"Cmd\": [\n                \"sh\"\n            ]\n        },\n        \"Architecture\": \"arm64\",\n        \"Variant\": \"v8\",\n        \"Os\": \"linux\",\n        \"Size\": 900824,\n        \"RootFS\": {\n            \"Type\": \"layers\",\n            \"Layers\": [\n                \"sha256:97dddee331680f34991865c8d456c35e1babe93ce90f8823f51ca3fc31b5c8b7\"\n            ]\n        },\n        \"Metadata\": {\n            \"LastTagTime\": \"2026-11-09T09:32:47.228829671Z\"\n        },\n        \"Descriptor\": {\n            \"mediaType\": \"application/vnd.oci.image.manifest.v1+json\",\n            \"digest\": \"sha256:a4b7bbbb14a7e50bec3f6cbc4e2560c9b6792a7ae7062637bdfc25793817d4ff\",\n            \"size\": 608\n        },\n        \"Identity\": {\n            \"Pull\": [\n                {\n                    \"Repository\": \"docker.io/library/busybox\"\n                }\n            ]\n        }\n    }\n]\n"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/docker",
+        "--context",
+        "colima-ue006b",
+        "create",
+        "--pull=never",
+        "--name",
+        "ue006b-probe-c327e0726b",
+        "--platform",
+        "linux/arm64",
+        "--memory",
+        "128m",
+        "--memory-swap",
+        "128m",
+        "--cpus",
+        "1",
+        "--pids-limit",
+        "32",
+        "--network",
+        "none",
+        "--read-only",
+        "--cap-drop",
+        "ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--user",
+        "65534:65534",
+        "--cgroupns",
+        "private",
+        "--ipc",
+        "private",
+        "--tmpfs",
+        "/tmp:size=32m,noexec,nosuid,nodev",
+        "--env",
+        "OMP_NUM_THREADS=4",
+        "--env",
+        "MKL_NUM_THREADS=4",
+        "--env",
+        "OPENBLAS_NUM_THREADS=4",
+        "--env",
+        "NUMEXPR_NUM_THREADS=4",
+        "busybox@sha256:a4b7bbbb14a7e50bec3f6cbc4e2560c9b6792a7ae7062637bdfc25793817d4ff",
+        "sh",
+        "-c",
+        "set -eu\nsection() { printf '\\n@@ %s\\n' \"$1\"; }\nfor file in memory.max memory.swap.max memory.swap.current cpu.max memory.events; do\n  section \"$file\"; cat \"/sys/fs/cgroup/$file\"\ndone\nsection memory.before; cat /sys/fs/cgroup/memory.current\nawk 'BEGIN { s=sprintf(\"%16384s\", \"x\"); for(i=0;i<1024;i++) a[i]=s i; system(\"sleep 2\") }' &\nchild=$!\nsleep 0.5\nsection memory.during; cat /sys/fs/cgroup/memory.current\nsection child.pid; printf '%s\\n' \"$child\"\nsection cgroup.procs; cat /sys/fs/cgroup/cgroup.procs\nwait \"$child\"\nsection memory.after; cat /sys/fs/cgroup/memory.current\nsection cpu.before; cat /sys/fs/cgroup/cpu.stat\nworkers=''\nfor n in 1 2 3 4; do\n  sh -c 'while :; do :; done' &\n  workers=\"$workers $!\"\ndone\nsleep 2\nfor worker in $workers; do kill \"$worker\"; done\nwait || true\nsection cpu.after; cat /sys/fs/cgroup/cpu.stat\nsection memory.peak; cat /sys/fs/cgroup/memory.peak\nsection memory.events.after; cat /sys/fs/cgroup/memory.events\nsection swaps; cat /proc/swaps\nsection interfaces; ls /sys/class/net\nsection routes; cat /proc/net/route\nsection egress\nif nc -w 1 1.1.1.1 443 </dev/null >/tmp/network.out 2>/tmp/network.err; then\n  echo unexpected_success\nelse\n  echo failed; cat /tmp/network.err\nfi\nsection filesystem\nif touch /must-not-write 2>/tmp/rootfs.err; then echo unexpected_writable_root; else echo readonly_root; fi\ntest ! -e /Users && test ! -e /host && test ! -S /var/run/docker.sock && echo no_host_paths_or_socket\nsection security; grep -E '^(CapEff|NoNewPrivs|Seccomp):' /proc/self/status\nsection architecture; uname -m\n"
+      ],
+      "elapsed_seconds": 0.03340637497603893,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "d59fb697271a7b5c93c480b55e12e50ffc0eea920024a2f7afbf22f49a79302d\n"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/docker",
+        "--context",
+        "colima-ue006b",
+        "start",
+        "-a",
+        "ue006b-probe-c327e0726b"
+      ],
+      "elapsed_seconds": 4.215381749905646,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "\n@@ memory.max\n134217728\n\n@@ memory.swap.max\n0\n\n@@ memory.swap.current\n0\n\n@@ cpu.max\n100000 100000\n\n@@ memory.events\nlow 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\n\n@@ memory.before\n1634304\n\n@@ memory.during\n20365312\n\n@@ child.pid\n13\n\n@@ cgroup.procs\n1\n13\n15\n17\n\n@@ memory.after\n1028096\n\n@@ cpu.before\nusage_usec 24840\nuser_usec 12960\nsystem_usec 11880\ncore_sched.force_idle_usec 0\nnr_periods 4\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0\n\n@@ cpu.after\nusage_usec 2133149\nuser_usec 2118349\nsystem_usec 14799\ncore_sched.force_idle_usec 0\nnr_periods 25\nnr_throttled 21\nthrottled_usec 6112734\nnr_bursts 0\nburst_usec 0\n\n@@ memory.peak\n20598784\n\n@@ memory.events.after\nlow 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\n\n@@ swaps\nFilename\t\t\t\tType\t\tSize\t\tUsed\t\tPriority\n\n@@ interfaces\nlo\n\n@@ routes\nIface\tDestination\tGateway \tFlags\tRefCnt\tUse\tMetric\tMask\t\tMTU\tWindow\tIRTT                                                       \n\n@@ egress\nfailed\n\n@@ filesystem\nreadonly_root\nno_host_paths_or_socket\n\n@@ security\nCapEff:\t0000000000000000\nNoNewPrivs:\t1\nSeccomp:\t2\n\n@@ architecture\naarch64\n"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/docker",
+        "--context",
+        "colima-ue006b",
+        "inspect",
+        "ue006b-probe-c327e0726b"
+      ],
+      "elapsed_seconds": 0.019461375195533037,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "[\n    {\n        \"Id\": \"d59fb697271a7b5c93c480b55e12e50ffc0eea920024a2f7afbf22f49a79302d\",\n        \"Created\": \"2026-11-09T09:34:08.619520402Z\",\n        \"Path\": \"sh\",\n        \"Args\": [\n            \"-c\",\n            \"set -eu\\nsection() { printf '\\\\n@@ %s\\\\n' \\\"$1\\\"; }\\nfor file in memory.max memory.swap.max memory.swap.current cpu.max memory.events; do\\n  section \\\"$file\\\"; cat \\\"/sys/fs/cgroup/$file\\\"\\ndone\\nsection memory.before; cat /sys/fs/cgroup/memory.current\\nawk 'BEGIN { s=sprintf(\\\"%16384s\\\", \\\"x\\\"); for(i=0;i<1024;i++) a[i]=s i; system(\\\"sleep 2\\\") }' &\\nchild=$!\\nsleep 0.5\\nsection memory.during; cat /sys/fs/cgroup/memory.current\\nsection child.pid; printf '%s\\\\n' \\\"$child\\\"\\nsection cgroup.procs; cat /sys/fs/cgroup/cgroup.procs\\nwait \\\"$child\\\"\\nsection memory.after; cat /sys/fs/cgroup/memory.current\\nsection cpu.before; cat /sys/fs/cgroup/cpu.stat\\nworkers=''\\nfor n in 1 2 3 4; do\\n  sh -c 'while :; do :; done' &\\n  workers=\\\"$workers $!\\\"\\ndone\\nsleep 2\\nfor worker in $workers; do kill \\\"$worker\\\"; done\\nwait || true\\nsection cpu.after; cat /sys/fs/cgroup/cpu.stat\\nsection memory.peak; cat /sys/fs/cgroup/memory.peak\\nsection memory.events.after; cat /sys/fs/cgroup/memory.events\\nsection swaps; cat /proc/swaps\\nsection interfaces; ls /sys/class/net\\nsection routes; cat /proc/net/route\\nsection egress\\nif nc -w 1 1.1.1.1 443 </dev/null >/tmp/network.out 2>/tmp/network.err; then\\n  echo unexpected_success\\nelse\\n  echo failed; cat /tmp/network.err\\nfi\\nsection filesystem\\nif touch /must-not-write 2>/tmp/rootfs.err; then echo unexpected_writable_root; else echo readonly_root; fi\\ntest ! -e /Users && test ! -e /host && test ! -S /var/run/docker.sock && echo no_host_paths_or_socket\\nsection security; grep -E '^(CapEff|NoNewPrivs|Seccomp):' /proc/self/status\\nsection architecture; uname -m\\n\"\n        ],\n        \"State\": {\n            \"Status\": \"exited\",\n            \"Running\": false,\n            \"Paused\": false,\n            \"Restarting\": false,\n            \"OOMKilled\": false,\n            \"Dead\": false,\n            \"Pid\": 0,\n            \"ExitCode\": 0,\n            \"Error\": \"\",\n            \"StartedAt\": \"2026-11-09T09:34:08.659205568Z\",\n            \"FinishedAt\": \"2026-11-09T09:34:12.817619942Z\"\n        },\n        \"Image\": \"sha256:a4b7bbbb14a7e50bec3f6cbc4e2560c9b6792a7ae7062637bdfc25793817d4ff\",\n        \"ResolvConfPath\": \"/var/lib/docker/containers/d59fb697271a7b5c93c480b55e12e50ffc0eea920024a2f7afbf22f49a79302d/resolv.conf\",\n        \"HostnamePath\": \"/var/lib/docker/containers/d59fb697271a7b5c93c480b55e12e50ffc0eea920024a2f7afbf22f49a79302d/hostname\",\n        \"HostsPath\": \"/var/lib/docker/containers/d59fb697271a7b5c93c480b55e12e50ffc0eea920024a2f7afbf22f49a79302d/hosts\",\n        \"LogPath\": \"/var/lib/docker/containers/d59fb697271a7b5c93c480b55e12e50ffc0eea920024a2f7afbf22f49a79302d/d59fb697271a7b5c93c480b55e12e50ffc0eea920024a2f7afbf22f49a79302d-json.log\",\n        \"Name\": \"/ue006b-probe-c327e0726b\",\n        \"RestartCount\": 0,\n        \"Driver\": \"overlayfs\",\n        \"Platform\": \"linux\",\n        \"MountLabel\": \"\",\n        \"ProcessLabel\": \"\",\n        \"AppArmorProfile\": \"docker-default\",\n        \"ExecIDs\": null,\n        \"HostConfig\": {\n            \"Binds\": null,\n            \"ContainerIDFile\": \"\",\n            \"LogConfig\": {\n                \"Type\": \"json-file\",\n                \"Config\": {}\n            },\n            \"NetworkMode\": \"none\",\n            \"PortBindings\": {},\n            \"RestartPolicy\": {\n                \"Name\": \"no\",\n                \"MaximumRetryCount\": 0\n            },\n            \"AutoRemove\": false,\n            \"VolumeDriver\": \"\",\n            \"VolumesFrom\": null,\n            \"ConsoleSize\": [\n                0,\n                0\n            ],\n            \"CapAdd\": null,\n            \"CapDrop\": [\n                \"ALL\"\n            ],\n            \"CgroupnsMode\": \"private\",\n            \"Dns\": null,\n            \"DnsOptions\": [],\n            \"DnsSearch\": [],\n            \"ExtraHosts\": null,\n            \"GroupAdd\": null,\n            \"IpcMode\": \"private\",\n            \"Cgroup\": \"\",\n            \"Links\": null,\n            \"OomScoreAdj\": 0,\n            \"PidMode\": \"\",\n            \"Privileged\": false,\n            \"PublishAllPorts\": false,\n            \"ReadonlyRootfs\": true,\n            \"SecurityOpt\": [\n                \"no-new-privileges\"\n            ],\n            \"Tmpfs\": {\n                \"/tmp\": \"size=32m,noexec,nosuid,nodev\"\n            },\n            \"UTSMode\": \"\",\n            \"UsernsMode\": \"\",\n            \"ShmSize\": 67108864,\n            \"Runtime\": \"runc\",\n            \"Isolation\": \"\",\n            \"CpuShares\": 0,\n            \"Memory\": 134217728,\n            \"NanoCpus\": 1000000000,\n            \"CgroupParent\": \"\",\n            \"BlkioWeight\": 0,\n            \"BlkioWeightDevice\": [],\n            \"BlkioDeviceReadBps\": [],\n            \"BlkioDeviceWriteBps\": [],\n            \"BlkioDeviceReadIOps\": [],\n            \"BlkioDeviceWriteIOps\": [],\n            \"CpuPeriod\": 0,\n            \"CpuQuota\": 0,\n            \"CpuRealtimePeriod\": 0,\n            \"CpuRealtimeRuntime\": 0,\n            \"CpusetCpus\": \"\",\n            \"CpusetMems\": \"\",\n            \"Devices\": [],\n            \"DeviceCgroupRules\": null,\n            \"DeviceRequests\": null,\n            \"MemoryReservation\": 0,\n            \"MemorySwap\": 134217728,\n            \"MemorySwappiness\": null,\n            \"OomKillDisable\": null,\n            \"PidsLimit\": 32,\n            \"Ulimits\": null,\n            \"CpuCount\": 0,\n            \"CpuPercent\": 0,\n            \"IOMaximumIOps\": 0,\n            \"IOMaximumBandwidth\": 0,\n            \"MaskedPaths\": [\n                \"/proc/acpi\",\n                \"/proc/asound\",\n                \"/proc/interrupts\",\n                \"/proc/kcore\",\n                \"/proc/keys\",\n                \"/proc/latency_stats\",\n                \"/proc/sched_debug\",\n                \"/proc/scsi\",\n                \"/proc/timer_list\",\n                \"/proc/timer_stats\",\n                \"/sys/devices/virtual/powercap\",\n                \"/sys/firmware\"\n            ],\n            \"ReadonlyPaths\": [\n                \"/proc/bus\",\n                \"/proc/fs\",\n                \"/proc/irq\",\n                \"/proc/sys\",\n                \"/proc/sysrq-trigger\"\n            ]\n        },\n        \"Storage\": {\n            \"RootFS\": {\n                \"Snapshot\": {\n                    \"Name\": \"overlayfs\"\n                }\n            }\n        },\n        \"Mounts\": [],\n        \"Config\": {\n            \"Hostname\": \"d59fb697271a\",\n            \"Domainname\": \"\",\n            \"User\": \"65534:65534\",\n            \"AttachStdin\": false,\n            \"AttachStdout\": true,\n            \"AttachStderr\": true,\n            \"Tty\": false,\n            \"OpenStdin\": false,\n            \"StdinOnce\": false,\n            \"Env\": [\n                \"OPENBLAS_NUM_THREADS=4\",\n                \"NUMEXPR_NUM_THREADS=4\",\n                \"OMP_NUM_THREADS=4\",\n                \"MKL_NUM_THREADS=4\",\n                \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"\n            ],\n            \"Cmd\": [\n                \"sh\",\n                \"-c\",\n                \"set -eu\\nsection() { printf '\\\\n@@ %s\\\\n' \\\"$1\\\"; }\\nfor file in memory.max memory.swap.max memory.swap.current cpu.max memory.events; do\\n  section \\\"$file\\\"; cat \\\"/sys/fs/cgroup/$file\\\"\\ndone\\nsection memory.before; cat /sys/fs/cgroup/memory.current\\nawk 'BEGIN { s=sprintf(\\\"%16384s\\\", \\\"x\\\"); for(i=0;i<1024;i++) a[i]=s i; system(\\\"sleep 2\\\") }' &\\nchild=$!\\nsleep 0.5\\nsection memory.during; cat /sys/fs/cgroup/memory.current\\nsection child.pid; printf '%s\\\\n' \\\"$child\\\"\\nsection cgroup.procs; cat /sys/fs/cgroup/cgroup.procs\\nwait \\\"$child\\\"\\nsection memory.after; cat /sys/fs/cgroup/memory.current\\nsection cpu.before; cat /sys/fs/cgroup/cpu.stat\\nworkers=''\\nfor n in 1 2 3 4; do\\n  sh -c 'while :; do :; done' &\\n  workers=\\\"$workers $!\\\"\\ndone\\nsleep 2\\nfor worker in $workers; do kill \\\"$worker\\\"; done\\nwait || true\\nsection cpu.after; cat /sys/fs/cgroup/cpu.stat\\nsection memory.peak; cat /sys/fs/cgroup/memory.peak\\nsection memory.events.after; cat /sys/fs/cgroup/memory.events\\nsection swaps; cat /proc/swaps\\nsection interfaces; ls /sys/class/net\\nsection routes; cat /proc/net/route\\nsection egress\\nif nc -w 1 1.1.1.1 443 </dev/null >/tmp/network.out 2>/tmp/network.err; then\\n  echo unexpected_success\\nelse\\n  echo failed; cat /tmp/network.err\\nfi\\nsection filesystem\\nif touch /must-not-write 2>/tmp/rootfs.err; then echo unexpected_writable_root; else echo readonly_root; fi\\ntest ! -e /Users && test ! -e /host && test ! -S /var/run/docker.sock && echo no_host_paths_or_socket\\nsection security; grep -E '^(CapEff|NoNewPrivs|Seccomp):' /proc/self/status\\nsection architecture; uname -m\\n\"\n            ],\n            \"Image\": \"busybox@sha256:a4b7bbbb14a7e50bec3f6cbc4e2560c9b6792a7ae7062637bdfc25793817d4ff\",\n            \"Volumes\": null,\n            \"WorkingDir\": \"\",\n            \"Entrypoint\": null,\n            \"Labels\": {}\n        },\n        \"NetworkSettings\": {\n            \"SandboxID\": \"\",\n            \"SandboxKey\": \"\",\n            \"Ports\": {},\n            \"Networks\": {\n                \"none\": {\n                    \"IPAMConfig\": null,\n                    \"Links\": null,\n                    \"Aliases\": null,\n                    \"DriverOpts\": null,\n                    \"GwPriority\": 0,\n                    \"NetworkID\": \"bc7253de77ca0e979e26dc116b0f085e35d2bc9443c1a399dc4238041ac515fe\",\n                    \"EndpointID\": \"\",\n                    \"Gateway\": \"\",\n                    \"IPAddress\": \"\",\n                    \"MacAddress\": \"\",\n                    \"IPPrefixLen\": 0,\n                    \"IPv6Gateway\": \"\",\n                    \"GlobalIPv6Address\": \"\",\n                    \"GlobalIPv6PrefixLen\": 0,\n                    \"DNSNames\": null\n                }\n            }\n        },\n        \"ImageManifestDescriptor\": {\n            \"mediaType\": \"application/vnd.oci.image.manifest.v1+json\",\n            \"digest\": \"sha256:a4b7bbbb14a7e50bec3f6cbc4e2560c9b6792a7ae7062637bdfc25793817d4ff\",\n            \"size\": 608,\n            \"platform\": {\n                \"architecture\": \"arm64\",\n                \"os\": \"linux\",\n                \"variant\": \"v8\"\n            }\n        }\n    }\n]\n"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/docker",
+        "--context",
+        "colima-ue006b",
+        "rm",
+        "ue006b-probe-c327e0726b"
+      ],
+      "elapsed_seconds": 0.018773582763969898,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "ue006b-probe-c327e0726b\n"
+    },
+    {
+      "argv": [
+        "/opt/homebrew/bin/docker",
+        "--context",
+        "colima-ue006b",
+        "inspect",
+        "ue006b-probe-c327e0726b"
+      ],
+      "elapsed_seconds": 0.020454375073313713,
+      "exit_code": 1,
+      "stderr": "error: no such object: ue006b-probe-c327e0726b\n",
+      "stdout": "[]\n"
+    }
+  ],
+  "error": "RuntimeError: Container cleanup not confirmed",
+  "image": {
+    "Architecture": "arm64",
+    "Config": {
+      "Cmd": [
+        "sh"
+      ],
+      "Env": [
+        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+      ]
+    },
+    "Created": "2024-09-26T21:31:42Z",
+    "Descriptor": {
+      "digest": "sha256:a4b7bbbb14a7e50bec3f6cbc4e2560c9b6792a7ae7062637bdfc25793817d4ff",
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "size": 608
+    },
+    "Id": "sha256:a4b7bbbb14a7e50bec3f6cbc4e2560c9b6792a7ae7062637bdfc25793817d4ff",
+    "Identity": {
+      "Pull": [
+        {
+          "Repository": "docker.io/library/busybox"
+        }
+      ]
+    },
+    "Metadata": {
+      "LastTagTime": "2026-11-09T09:32:47.228829671Z"
+    },
+    "Os": "linux",
+    "RepoDigests": [
+      "busybox@sha256:a4b7bbbb14a7e50bec3f6cbc4e2560c9b6792a7ae7062637bdfc25793817d4ff"
+    ],
+    "RepoTags": [
+      "busybox@sha256:a4b7bbbb14a7e50bec3f6cbc4e2560c9b6792a7ae7062637bdfc25793817d4ff"
+    ],
+    "RootFS": {
+      "Layers": [
+        "sha256:97dddee331680f34991865c8d456c35e1babe93ce90f8823f51ca3fc31b5c8b7"
+      ],
+      "Type": "layers"
+    },
+    "Size": 900824,
+    "Variant": "v8"
+  },
+  "inspection": {
+    "AppArmorProfile": "docker-default",
+    "Args": [
+      "-c",
+      "set -eu\nsection() { printf '\\n@@ %s\\n' \"$1\"; }\nfor file in memory.max memory.swap.max memory.swap.current cpu.max memory.events; do\n  section \"$file\"; cat \"/sys/fs/cgroup/$file\"\ndone\nsection memory.before; cat /sys/fs/cgroup/memory.current\nawk 'BEGIN { s=sprintf(\"%16384s\", \"x\"); for(i=0;i<1024;i++) a[i]=s i; system(\"sleep 2\") }' &\nchild=$!\nsleep 0.5\nsection memory.during; cat /sys/fs/cgroup/memory.current\nsection child.pid; printf '%s\\n' \"$child\"\nsection cgroup.procs; cat /sys/fs/cgroup/cgroup.procs\nwait \"$child\"\nsection memory.after; cat /sys/fs/cgroup/memory.current\nsection cpu.before; cat /sys/fs/cgroup/cpu.stat\nworkers=''\nfor n in 1 2 3 4; do\n  sh -c 'while :; do :; done' &\n  workers=\"$workers $!\"\ndone\nsleep 2\nfor worker in $workers; do kill \"$worker\"; done\nwait || true\nsection cpu.after; cat /sys/fs/cgroup/cpu.stat\nsection memory.peak; cat /sys/fs/cgroup/memory.peak\nsection memory.events.after; cat /sys/fs/cgroup/memory.events\nsection swaps; cat /proc/swaps\nsection interfaces; ls /sys/class/net\nsection routes; cat /proc/net/route\nsection egress\nif nc -w 1 1.1.1.1 443 </dev/null >/tmp/network.out 2>/tmp/network.err; then\n  echo unexpected_success\nelse\n  echo failed; cat /tmp/network.err\nfi\nsection filesystem\nif touch /must-not-write 2>/tmp/rootfs.err; then echo unexpected_writable_root; else echo readonly_root; fi\ntest ! -e /Users && test ! -e /host && test ! -S /var/run/docker.sock && echo no_host_paths_or_socket\nsection security; grep -E '^(CapEff|NoNewPrivs|Seccomp):' /proc/self/status\nsection architecture; uname -m\n"
+    ],
+    "Config": {
+      "AttachStderr": true,
+      "AttachStdin": false,
+      "AttachStdout": true,
+      "Cmd": [
+        "sh",
+        "-c",
+        "set -eu\nsection() { printf '\\n@@ %s\\n' \"$1\"; }\nfor file in memory.max memory.swap.max memory.swap.current cpu.max memory.events; do\n  section \"$file\"; cat \"/sys/fs/cgroup/$file\"\ndone\nsection memory.before; cat /sys/fs/cgroup/memory.current\nawk 'BEGIN { s=sprintf(\"%16384s\", \"x\"); for(i=0;i<1024;i++) a[i]=s i; system(\"sleep 2\") }' &\nchild=$!\nsleep 0.5\nsection memory.during; cat /sys/fs/cgroup/memory.current\nsection child.pid; printf '%s\\n' \"$child\"\nsection cgroup.procs; cat /sys/fs/cgroup/cgroup.procs\nwait \"$child\"\nsection memory.after; cat /sys/fs/cgroup/memory.current\nsection cpu.before; cat /sys/fs/cgroup/cpu.stat\nworkers=''\nfor n in 1 2 3 4; do\n  sh -c 'while :; do :; done' &\n  workers=\"$workers $!\"\ndone\nsleep 2\nfor worker in $workers; do kill \"$worker\"; done\nwait || true\nsection cpu.after; cat /sys/fs/cgroup/cpu.stat\nsection memory.peak; cat /sys/fs/cgroup/memory.peak\nsection memory.events.after; cat /sys/fs/cgroup/memory.events\nsection swaps; cat /proc/swaps\nsection interfaces; ls /sys/class/net\nsection routes; cat /proc/net/route\nsection egress\nif nc -w 1 1.1.1.1 443 </dev/null >/tmp/network.out 2>/tmp/network.err; then\n  echo unexpected_success\nelse\n  echo failed; cat /tmp/network.err\nfi\nsection filesystem\nif touch /must-not-write 2>/tmp/rootfs.err; then echo unexpected_writable_root; else echo readonly_root; fi\ntest ! -e /Users && test ! -e /host && test ! -S /var/run/docker.sock && echo no_host_paths_or_socket\nsection security; grep -E '^(CapEff|NoNewPrivs|Seccomp):' /proc/self/status\nsection architecture; uname -m\n"
+      ],
+      "Domainname": "",
+      "Entrypoint": null,
+      "Env": [
+        "OPENBLAS_NUM_THREADS=4",
+        "NUMEXPR_NUM_THREADS=4",
+        "OMP_NUM_THREADS=4",
+        "MKL_NUM_THREADS=4",
+        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+      ],
+      "Hostname": "d59fb697271a",
+      "Image": "busybox@sha256:a4b7bbbb14a7e50bec3f6cbc4e2560c9b6792a7ae7062637bdfc25793817d4ff",
+      "Labels": {},
+      "OpenStdin": false,
+      "StdinOnce": false,
+      "Tty": false,
+      "User": "65534:65534",
+      "Volumes": null,
+      "WorkingDir": ""
+    },
+    "Created": "2026-11-09T09:34:08.619520402Z",
+    "Driver": "overlayfs",
+    "ExecIDs": null,
+    "HostConfig": {
+      "AutoRemove": false,
+      "Binds": null,
+      "BlkioDeviceReadBps": [],
+      "BlkioDeviceReadIOps": [],
+      "BlkioDeviceWriteBps": [],
+      "BlkioDeviceWriteIOps": [],
+      "BlkioWeight": 0,
+      "BlkioWeightDevice": [],
+      "CapAdd": null,
+      "CapDrop": [
+        "ALL"
+      ],
+      "Cgroup": "",
+      "CgroupParent": "",
+      "CgroupnsMode": "private",
+      "ConsoleSize": [
+        0,
+        0
+      ],
+      "ContainerIDFile": "",
+      "CpuCount": 0,
+      "CpuPercent": 0,
+      "CpuPeriod": 0,
+      "CpuQuota": 0,
+      "CpuRealtimePeriod": 0,
+      "CpuRealtimeRuntime": 0,
+      "CpuShares": 0,
+      "CpusetCpus": "",
+      "CpusetMems": "",
+      "DeviceCgroupRules": null,
+      "DeviceRequests": null,
+      "Devices": [],
+      "Dns": null,
+      "DnsOptions": [],
+      "DnsSearch": [],
+      "ExtraHosts": null,
+      "GroupAdd": null,
+      "IOMaximumBandwidth": 0,
+      "IOMaximumIOps": 0,
+      "IpcMode": "private",
+      "Isolation": "",
+      "Links": null,
+      "LogConfig": {
+        "Config": {},
+        "Type": "json-file"
+      },
+      "MaskedPaths": [
+        "/proc/acpi",
+        "/proc/asound",
+        "/proc/interrupts",
+        "/proc/kcore",
+        "/proc/keys",
+        "/proc/latency_stats",
+        "/proc/sched_debug",
+        "/proc/scsi",
+        "/proc/timer_list",
+        "/proc/timer_stats",
+        "/sys/devices/virtual/powercap",
+        "/sys/firmware"
+      ],
+      "Memory": 134217728,
+      "MemoryReservation": 0,
+      "MemorySwap": 134217728,
+      "MemorySwappiness": null,
+      "NanoCpus": 1000000000,
+      "NetworkMode": "none",
+      "OomKillDisable": null,
+      "OomScoreAdj": 0,
+      "PidMode": "",
+      "PidsLimit": 32,
+      "PortBindings": {},
+      "Privileged": false,
+      "PublishAllPorts": false,
+      "ReadonlyPaths": [
+        "/proc/bus",
+        "/proc/fs",
+        "/proc/irq",
+        "/proc/sys",
+        "/proc/sysrq-trigger"
+      ],
+      "ReadonlyRootfs": true,
+      "RestartPolicy": {
+        "MaximumRetryCount": 0,
+        "Name": "no"
+      },
+      "Runtime": "runc",
+      "SecurityOpt": [
+        "no-new-privileges"
+      ],
+      "ShmSize": 67108864,
+      "Tmpfs": {
+        "/tmp": "size=32m,noexec,nosuid,nodev"
+      },
+      "UTSMode": "",
+      "Ulimits": null,
+      "UsernsMode": "",
+      "VolumeDriver": "",
+      "VolumesFrom": null
+    },
+    "HostnamePath": "/var/lib/docker/containers/d59fb697271a7b5c93c480b55e12e50ffc0eea920024a2f7afbf22f49a79302d/hostname",
+    "HostsPath": "/var/lib/docker/containers/d59fb697271a7b5c93c480b55e12e50ffc0eea920024a2f7afbf22f49a79302d/hosts",
+    "Id": "d59fb697271a7b5c93c480b55e12e50ffc0eea920024a2f7afbf22f49a79302d",
+    "Image": "sha256:a4b7bbbb14a7e50bec3f6cbc4e2560c9b6792a7ae7062637bdfc25793817d4ff",
+    "ImageManifestDescriptor": {
+      "digest": "sha256:a4b7bbbb14a7e50bec3f6cbc4e2560c9b6792a7ae7062637bdfc25793817d4ff",
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "platform": {
+        "architecture": "arm64",
+        "os": "linux",
+        "variant": "v8"
+      },
+      "size": 608
+    },
+    "LogPath": "/var/lib/docker/containers/d59fb697271a7b5c93c480b55e12e50ffc0eea920024a2f7afbf22f49a79302d/d59fb697271a7b5c93c480b55e12e50ffc0eea920024a2f7afbf22f49a79302d-json.log",
+    "MountLabel": "",
+    "Mounts": [],
+    "Name": "/ue006b-probe-c327e0726b",
+    "NetworkSettings": {
+      "Networks": {
+        "none": {
+          "Aliases": null,
+          "DNSNames": null,
+          "DriverOpts": null,
+          "EndpointID": "",
+          "Gateway": "",
+          "GlobalIPv6Address": "",
+          "GlobalIPv6PrefixLen": 0,
+          "GwPriority": 0,
+          "IPAMConfig": null,
+          "IPAddress": "",
+          "IPPrefixLen": 0,
+          "IPv6Gateway": "",
+          "Links": null,
+          "MacAddress": "",
+          "NetworkID": "bc7253de77ca0e979e26dc116b0f085e35d2bc9443c1a399dc4238041ac515fe"
+        }
+      },
+      "Ports": {},
+      "SandboxID": "",
+      "SandboxKey": ""
+    },
+    "Path": "sh",
+    "Platform": "linux",
+    "ProcessLabel": "",
+    "ResolvConfPath": "/var/lib/docker/containers/d59fb697271a7b5c93c480b55e12e50ffc0eea920024a2f7afbf22f49a79302d/resolv.conf",
+    "RestartCount": 0,
+    "State": {
+      "Dead": false,
+      "Error": "",
+      "ExitCode": 0,
+      "FinishedAt": "2026-11-09T09:34:12.817619942Z",
+      "OOMKilled": false,
+      "Paused": false,
+      "Pid": 0,
+      "Restarting": false,
+      "Running": false,
+      "StartedAt": "2026-11-09T09:34:08.659205568Z",
+      "Status": "exited"
+    },
+    "Storage": {
+      "RootFS": {
+        "Snapshot": {
+          "Name": "overlayfs"
+        }
+      }
+    }
+  },
+  "schema_version": "006b.local-runtime-probe.1",
+  "snapshot": {
+    "architecture": "aarch64",
+    "cgroup.procs": "1\n13\n15\n17",
+    "child.pid": "13",
+    "cpu.after": "usage_usec 2133149\nuser_usec 2118349\nsystem_usec 14799\ncore_sched.force_idle_usec 0\nnr_periods 25\nnr_throttled 21\nthrottled_usec 6112734\nnr_bursts 0\nburst_usec 0",
+    "cpu.before": "usage_usec 24840\nuser_usec 12960\nsystem_usec 11880\ncore_sched.force_idle_usec 0\nnr_periods 4\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+    "cpu.max": "100000 100000",
+    "egress": "failed",
+    "filesystem": "readonly_root\nno_host_paths_or_socket",
+    "interfaces": "lo",
+    "memory.after": "1028096",
+    "memory.before": "1634304",
+    "memory.during": "20365312",
+    "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+    "memory.events.after": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+    "memory.max": "134217728",
+    "memory.peak": "20598784",
+    "memory.swap.current": "0",
+    "memory.swap.max": "0",
+    "routes": "Iface\tDestination\tGateway \tFlags\tRefCnt\tUse\tMetric\tMask\t\tMTU\tWindow\tIRTT",
+    "security": "CapEff:\t0000000000000000\nNoNewPrivs:\t1\nSeccomp:\t2",
+    "swaps": "Filename\t\t\t\tType\t\tSize\t\tUsed\t\tPriority"
+  },
+  "success": false
+}

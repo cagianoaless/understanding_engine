@@ -1,0 +1,106 @@
+{
+  "files": [
+    {
+      "bytes": 1779,
+      "external_relative_path": "host_preflight.py",
+      "sha256": "f3326e9648dc3dc3d087f67f53937580a2092012cfd9eee52fde63faa45f629c"
+    },
+    {
+      "bytes": 4267,
+      "external_relative_path": "host-preflight.json",
+      "sha256": "b6f2ced7b4c42dcb202d05c9d64914a2190b3426b8e39c754a58f82d4f5bb036"
+    },
+    {
+      "bytes": 5617,
+      "external_relative_path": "download-estimates.json",
+      "sha256": "5a1ba245d75e6ae0e086aff717eed9344d708e7ef8daf4b4a0193e7353f2ba55"
+    },
+    {
+      "bytes": 1291,
+      "external_relative_path": "bottles-current.json",
+      "sha256": "b314b84bc035fe9583fa88ad469b9244c715e825b5cb63faaffab536abcc36ba"
+    },
+    {
+      "bytes": 1384,
+      "external_relative_path": "brew-dry-run.json",
+      "sha256": "065f749daabe8a0b14a6e9fec93065e5df3ae74f76d33671a04c1db88f178e67"
+    },
+    {
+      "bytes": 787,
+      "external_relative_path": "brew-install.stdout.log",
+      "sha256": "c93f0eca70f3a15718a8729421f5381a297213100605f81e492a9789964fc413"
+    },
+    {
+      "bytes": 3112,
+      "external_relative_path": "brew-install.stderr.log",
+      "sha256": "28596f1ef8d68885c81832e2d84a5ff4872dfef9688fa835bff74c4c71914e16"
+    },
+    {
+      "bytes": 2245,
+      "external_relative_path": "installation.json",
+      "sha256": "315aae0c1d2dcb88076118f6d10ff7562632ab87b460d203347f46ac5125e13c"
+    },
+    {
+      "bytes": 1654,
+      "external_relative_path": "vm-plan.json",
+      "sha256": "68fdf69e3418226045f7c493f829515a47baa5d7c6d8dd9f054fdbc9337b7e9e"
+    },
+    {
+      "bytes": 16107,
+      "external_relative_path": "provisioning.json",
+      "sha256": "ca60ce4624975adea5e39fd01156fb4f26e67175a5578a3d7de8b0e1ea26baeb"
+    },
+    {
+      "bytes": 5074,
+      "external_relative_path": "vm-start.stdout.log",
+      "sha256": "fc6410daf487fc3fa5629ceb9a17242b24f94fd66b1fe3f33a2c805d4a338562"
+    },
+    {
+      "bytes": 537,
+      "external_relative_path": "vm-start.stderr.log",
+      "sha256": "4aec32e231de3d537c1094776db87e7fe18e88eded27912e19b42cd25027da0e"
+    },
+    {
+      "bytes": 63522,
+      "external_relative_path": "vm-resource-samples.jsonl",
+      "sha256": "477811524bde6852ab36bc6e3e59fdee46e2fb7e61fe76d896014dad1ef4a7f6"
+    },
+    {
+      "bytes": 15371,
+      "external_relative_path": "runtime-accounting-corrected.json",
+      "sha256": "2771ac383eb057565a671c59f91de2e76113d4eeb80b8fb8e382c51be9904923"
+    },
+    {
+      "bytes": 1842,
+      "external_relative_path": "image-lock.json",
+      "sha256": "02ec13f5657ff7450c3f3424dd9c4809beab2779815a25daebf67a2bed2b0676"
+    },
+    {
+      "bytes": 913,
+      "external_relative_path": "image-pull.json",
+      "sha256": "0f9234f2088212e3a42941c1dfc218534bb7ba5eda65b6da270186ba6651604d"
+    },
+    {
+      "bytes": 10706,
+      "external_relative_path": "probe-attempt-01-source.py",
+      "sha256": "99bbf1c342dbf821cc269448f11b39b1e38c71fb21ebcbd1bf763f8f110a02a1"
+    },
+    {
+      "bytes": 6904,
+      "external_relative_path": "probe-run.json",
+      "sha256": "97cbc8d0b8b1101632ce3b5a5583dc7ed3500f8ff6400fb77b1085c43483d0da"
+    },
+    {
+      "bytes": 10089,
+      "external_relative_path": "probe-run-02.json",
+      "sha256": "23b98009c81b46d468d7163fefedcf2f0cabc70dd4eb79fdbedc2fb034809813"
+    },
+    {
+      "bytes": 8383,
+      "external_relative_path": "final-runtime.json",
+      "sha256": "f1d0c4592dc34e9221f7babb8f2939b4220ccdf713b38fa11cbc3cba59778af0"
+    }
+  ],
+  "no_keys_or_credentials_in_manifest": true,
+  "raw_data_location": "$EXTERNAL_RUN (local only; machine-specific locator kept outside Git)"
+}
