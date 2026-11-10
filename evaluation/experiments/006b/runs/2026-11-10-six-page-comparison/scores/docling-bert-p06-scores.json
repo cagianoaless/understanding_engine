@@ -1,0 +1,561 @@
+{
+  "adapter_error": null,
+  "adapter_seconds": 0.04057270893827081,
+  "adapter_status": "success",
+  "category_counts": {
+    "body": {
+      "classification_denominator": 5,
+      "classified_correct": 5,
+      "localized": 5,
+      "truth": 5
+    },
+    "footnote": {
+      "classification_denominator": 3,
+      "classified_correct": 3,
+      "localized": 3,
+      "truth": 3
+    },
+    "inline_math": {
+      "classification_denominator": 1,
+      "classified_correct": 1,
+      "localized": 1,
+      "truth": 1
+    },
+    "section_heading": {
+      "classification_denominator": 1,
+      "classified_correct": 1,
+      "localized": 1,
+      "truth": 1
+    },
+    "table": {
+      "classification_denominator": 1,
+      "classified_correct": 1,
+      "localized": 1,
+      "truth": 1
+    },
+    "table_caption": {
+      "classification_denominator": 1,
+      "classified_correct": 1,
+      "localized": 1,
+      "truth": 1
+    }
+  },
+  "classification": {
+    "caption": {
+      "f1": 1.0,
+      "f1_denominator": 2,
+      "f1_numerator": 2,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "precision_denominator": 1,
+      "precision_numerator": 1,
+      "recall": 1.0,
+      "recall_denominator": 1,
+      "recall_numerator": 1,
+      "tp": 1,
+      "undefined_reason": null
+    },
+    "equation": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "figure": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "footnote": {
+      "f1": 1.0,
+      "f1_denominator": 6,
+      "f1_numerator": 6,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "precision_denominator": 3,
+      "precision_numerator": 3,
+      "recall": 1.0,
+      "recall_denominator": 3,
+      "recall_numerator": 3,
+      "tp": 3,
+      "undefined_reason": null
+    },
+    "heading": {
+      "f1": 1.0,
+      "f1_denominator": 2,
+      "f1_numerator": 2,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "precision_denominator": 1,
+      "precision_numerator": 1,
+      "recall": 1.0,
+      "recall_denominator": 1,
+      "recall_numerator": 1,
+      "tp": 1,
+      "undefined_reason": null
+    },
+    "table": {
+      "f1": 1.0,
+      "f1_denominator": 2,
+      "f1_numerator": 2,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "precision_denominator": 1,
+      "precision_numerator": 1,
+      "recall": 1.0,
+      "recall_denominator": 1,
+      "recall_numerator": 1,
+      "tp": 1,
+      "undefined_reason": null
+    },
+    "text": {
+      "f1": 0.16666666666666666,
+      "f1_denominator": 72,
+      "f1_numerator": 12,
+      "fn": 0,
+      "fp": 60,
+      "precision": 0.09090909090909091,
+      "precision_denominator": 66,
+      "precision_numerator": 6,
+      "recall": 1.0,
+      "recall_denominator": 6,
+      "recall_numerator": 6,
+      "tp": 6,
+      "undefined_reason": null
+    }
+  },
+  "classification_excluded_truth_ids": [],
+  "classification_truth_denominator": 12,
+  "confusion": {
+    "__unmatched__ -> text": 60,
+    "caption -> caption": 1,
+    "footnote -> footnote": 3,
+    "heading -> heading": 1,
+    "table -> table": 1,
+    "text -> text": 6
+  },
+  "decisions": {
+    "matches": [
+      {
+        "iou": 0.9896835182246159,
+        "prediction_id": "#/texts/62:prov0",
+        "truth_id": "bert-p06:r4"
+      },
+      {
+        "iou": 0.9866993668840579,
+        "prediction_id": "#/texts/65:prov0",
+        "truth_id": "bert-p06:r7"
+      },
+      {
+        "iou": 0.98549444134125,
+        "prediction_id": "#/tables/0:prov0",
+        "truth_id": "bert-p06:r1"
+      },
+      {
+        "iou": 0.977655939798568,
+        "prediction_id": "#/texts/61:prov0",
+        "truth_id": "bert-p06:r3"
+      },
+      {
+        "iou": 0.9767510520443216,
+        "prediction_id": "#/texts/68:prov0",
+        "truth_id": "bert-p06:r11"
+      },
+      {
+        "iou": 0.948359375474713,
+        "prediction_id": "#/texts/0:prov0",
+        "truth_id": "bert-p06:r2"
+      },
+      {
+        "iou": 0.9424424772687258,
+        "prediction_id": "#/texts/63:prov0",
+        "truth_id": "bert-p06:r5"
+      },
+      {
+        "iou": 0.9378653015371758,
+        "prediction_id": "#/texts/66:prov0",
+        "truth_id": "bert-p06:r8"
+      },
+      {
+        "iou": 0.9052486835301136,
+        "prediction_id": "#/texts/65:prov1",
+        "truth_id": "bert-p06:r10"
+      },
+      {
+        "iou": 0.8421470801845914,
+        "prediction_id": "#/texts/71:prov0",
+        "truth_id": "bert-p06:r12"
+      },
+      {
+        "iou": 0.8382247970805643,
+        "prediction_id": "#/texts/64:prov0",
+        "truth_id": "bert-p06:r6"
+      },
+      {
+        "iou": 0.6033972296489903,
+        "prediction_id": "#/texts/67:prov0",
+        "truth_id": "bert-p06:r9"
+      }
+    ],
+    "order": [
+      {
+        "after": "bert-p06:r4",
+        "before": "bert-p06:r3",
+        "id": "bert-p06:o1",
+        "prediction_after": "#/texts/62:prov0",
+        "prediction_before": "#/texts/61:prov0",
+        "status": "correct",
+        "verification": "agent_visual_checked"
+      },
+      {
+        "after": "bert-p06:r5",
+        "before": "bert-p06:r4",
+        "id": "bert-p06:o2",
+        "prediction_after": "#/texts/63:prov0",
+        "prediction_before": "#/texts/62:prov0",
+        "status": "correct",
+        "verification": "agent_visual_checked"
+      },
+      {
+        "after": "bert-p06:r7",
+        "before": "bert-p06:r6",
+        "id": "bert-p06:o3",
+        "prediction_after": "#/texts/65:prov0",
+        "prediction_before": "#/texts/64:prov0",
+        "status": "correct",
+        "verification": "agent_visual_checked"
+      },
+      {
+        "after": "bert-p06:r10",
+        "before": "bert-p06:r7",
+        "id": "bert-p06:o4",
+        "prediction_after": "#/texts/65:prov1",
+        "prediction_before": "#/texts/65:prov0",
+        "status": "abstention",
+        "verification": "agent_visual_checked"
+      },
+      {
+        "after": "bert-p06:r11",
+        "before": "bert-p06:r10",
+        "id": "bert-p06:o5",
+        "prediction_after": "#/texts/68:prov0",
+        "prediction_before": "#/texts/65:prov1",
+        "status": "correct",
+        "verification": "agent_visual_checked"
+      }
+    ],
+    "paragraph": [
+      {
+        "correct": true,
+        "expected": "join",
+        "id": "bert-p06:p1",
+        "predicted": "join",
+        "probes": [
+          {
+            "candidates": [
+              {
+                "covered": 34,
+                "denominator": 34,
+                "prediction_id": "#/texts/61:prov0"
+              }
+            ],
+            "owner": "#/texts/61:prov0",
+            "status": "valid"
+          },
+          {
+            "candidates": [
+              {
+                "covered": 40,
+                "denominator": 40,
+                "prediction_id": "#/texts/61:prov0"
+              }
+            ],
+            "owner": "#/texts/61:prov0",
+            "status": "valid"
+          }
+        ]
+      },
+      {
+        "correct": true,
+        "expected": "break",
+        "id": "bert-p06:p2",
+        "predicted": "break",
+        "probes": [
+          {
+            "candidates": [
+              {
+                "covered": 25,
+                "denominator": 25,
+                "prediction_id": "#/texts/61:prov0"
+              }
+            ],
+            "owner": "#/texts/61:prov0",
+            "status": "valid"
+          },
+          {
+            "candidates": [
+              {
+                "covered": 32,
+                "denominator": 32,
+                "prediction_id": "#/texts/62:prov0"
+              }
+            ],
+            "owner": "#/texts/62:prov0",
+            "status": "valid"
+          }
+        ]
+      },
+      {
+        "correct": true,
+        "expected": "join",
+        "id": "bert-p06:p3",
+        "predicted": "join",
+        "probes": [
+          {
+            "candidates": [
+              {
+                "covered": 32,
+                "denominator": 32,
+                "prediction_id": "#/texts/63:prov0"
+              }
+            ],
+            "owner": "#/texts/63:prov0",
+            "status": "valid"
+          },
+          {
+            "candidates": [
+              {
+                "covered": 38,
+                "denominator": 38,
+                "prediction_id": "#/texts/63:prov0"
+              }
+            ],
+            "owner": "#/texts/63:prov0",
+            "status": "valid"
+          }
+        ]
+      },
+      {
+        "correct": true,
+        "expected": "join",
+        "id": "bert-p06:p4",
+        "predicted": "join",
+        "probes": [
+          {
+            "candidates": [
+              {
+                "covered": 40,
+                "denominator": 40,
+                "prediction_id": "#/texts/65:prov1"
+              }
+            ],
+            "owner": "#/texts/65:prov1",
+            "status": "valid"
+          },
+          {
+            "candidates": [
+              {
+                "covered": 37,
+                "denominator": 37,
+                "prediction_id": "#/texts/65:prov1"
+              }
+            ],
+            "owner": "#/texts/65:prov1",
+            "status": "valid"
+          }
+        ]
+      }
+    ],
+    "unmatched_predictions": [
+      "#/texts/10:prov0",
+      "#/texts/11:prov0",
+      "#/texts/12:prov0",
+      "#/texts/13:prov0",
+      "#/texts/14:prov0",
+      "#/texts/15:prov0",
+      "#/texts/16:prov0",
+      "#/texts/17:prov0",
+      "#/texts/18:prov0",
+      "#/texts/19:prov0",
+      "#/texts/1:prov0",
+      "#/texts/20:prov0",
+      "#/texts/21:prov0",
+      "#/texts/22:prov0",
+      "#/texts/23:prov0",
+      "#/texts/24:prov0",
+      "#/texts/25:prov0",
+      "#/texts/26:prov0",
+      "#/texts/27:prov0",
+      "#/texts/28:prov0",
+      "#/texts/29:prov0",
+      "#/texts/2:prov0",
+      "#/texts/30:prov0",
+      "#/texts/31:prov0",
+      "#/texts/32:prov0",
+      "#/texts/33:prov0",
+      "#/texts/34:prov0",
+      "#/texts/35:prov0",
+      "#/texts/36:prov0",
+      "#/texts/37:prov0",
+      "#/texts/38:prov0",
+      "#/texts/39:prov0",
+      "#/texts/3:prov0",
+      "#/texts/40:prov0",
+      "#/texts/41:prov0",
+      "#/texts/42:prov0",
+      "#/texts/43:prov0",
+      "#/texts/44:prov0",
+      "#/texts/45:prov0",
+      "#/texts/46:prov0",
+      "#/texts/47:prov0",
+      "#/texts/48:prov0",
+      "#/texts/49:prov0",
+      "#/texts/4:prov0",
+      "#/texts/50:prov0",
+      "#/texts/51:prov0",
+      "#/texts/52:prov0",
+      "#/texts/53:prov0",
+      "#/texts/54:prov0",
+      "#/texts/55:prov0",
+      "#/texts/56:prov0",
+      "#/texts/57:prov0",
+      "#/texts/58:prov0",
+      "#/texts/59:prov0",
+      "#/texts/5:prov0",
+      "#/texts/60:prov0",
+      "#/texts/6:prov0",
+      "#/texts/7:prov0",
+      "#/texts/8:prov0",
+      "#/texts/9:prov0"
+    ],
+    "unmatched_truth": []
+  },
+  "document_id": "bert",
+  "engine": "docling",
+  "execution_status": "success",
+  "external_wall_seconds": 9.385411458089948,
+  "false_headings_on_math": 0,
+  "grounding_whole_page": {
+    "foreign_native_ids": [],
+    "native_crosswalk_reason": "Docling charspan indexes its own text; bbox associations are not native character provenance",
+    "native_ids_once": null,
+    "source_characters": 3690,
+    "status_counts": {
+      "ambiguous": 345,
+      "valid": 3345
+    }
+  },
+  "grounding_window_characters": 3097,
+  "grounding_window_counts": {
+    "ambiguous": 345,
+    "contradictory": 0,
+    "unmatched": 0,
+    "valid": 2752
+  },
+  "layout": "two_column_spanning_table_math",
+  "localization": {
+    "f1": 0.2857142857142857,
+    "f1_denominator": 84,
+    "f1_numerator": 24,
+    "fn": 0,
+    "fp": 60,
+    "precision": 0.16666666666666666,
+    "precision_denominator": 72,
+    "precision_numerator": 12,
+    "recall": 1.0,
+    "recall_denominator": 12,
+    "recall_numerator": 12,
+    "tp": 12,
+    "undefined_reason": null
+  },
+  "localization_by_type": {
+    "equation": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "figure": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "table": {
+      "f1": 1.0,
+      "f1_denominator": 2,
+      "f1_numerator": 2,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "precision_denominator": 1,
+      "precision_numerator": 1,
+      "recall": 1.0,
+      "recall_denominator": 1,
+      "recall_numerator": 1,
+      "tp": 1,
+      "undefined_reason": null
+    }
+  },
+  "math_content_reconstruction": {
+    "reason": "Not defined or authorized by frozen protocol",
+    "value": null
+  },
+  "order": {
+    "abstention": 1,
+    "correct": 4,
+    "inversion": 0,
+    "unscoreable": 0
+  },
+  "order_denominator": 5,
+  "page_id": "bert-p06",
+  "paragraph_confusion": {
+    "break -> break": 1,
+    "join -> join": 3
+  },
+  "paragraph_correct": 4,
+  "paragraph_denominator": 4,
+  "paragraph_scoreable": 4,
+  "provisional": true
+}

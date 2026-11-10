@@ -1,0 +1,171 @@
+{
+  "all_observed_gates_pass": true,
+  "both_external_evidence_copies_counted": true,
+  "caveats": "Regular-file st_blocks by inode; symlinks not followed; directories/FS metadata not exhaustive, APFS exclusive allocation unknown. Guest layers counted inside host sparse VM files. Periodic samples are not continuous high-water counters. Current run and Git metadata counted conservatively.",
+  "final_allocated_bytes": 5416017920,
+  "final_host_available_bytes": 29670948864,
+  "historical_provisioning_peak": "UNKNOWN",
+  "host_reserve_bytes": 21474836480,
+  "inclusive_cap_bytes": 6442450944,
+  "new_artifact_download_bytes": 0,
+  "observed_max_allocated_bytes": 5416017920,
+  "observed_min_host_available_bytes": 29662629888,
+  "roots": {
+    "$ARCHIVE_RAW": {
+      "allocated_bytes": 406822912,
+      "exists": true,
+      "logical_bytes": 389222907,
+      "regular_files": 455,
+      "symlinks_not_followed": 0
+    },
+    "$CPU_RAW": {
+      "allocated_bytes": 63356928,
+      "exists": true,
+      "logical_bytes": 62341544,
+      "regular_files": 444,
+      "symlinks_not_followed": 0
+    },
+    "$EXPERIMENT006_RAW": {
+      "allocated_bytes": 53460992,
+      "exists": true,
+      "logical_bytes": 52583251,
+      "regular_files": 356,
+      "symlinks_not_followed": 0
+    },
+    "$HOME/.colima": {
+      "allocated_bytes": 3559858176,
+      "exists": true,
+      "logical_bytes": 9684555273,
+      "regular_files": 26,
+      "symlinks_not_followed": 0
+    },
+    "$HOME/Library/Caches/colima": {
+      "allocated_bytes": 0,
+      "exists": false,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0
+    },
+    "$HOME/Library/Caches/lima": {
+      "allocated_bytes": 0,
+      "exists": false,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0
+    },
+    "$HOME/Library/Logs/Homebrew/colima": {
+      "allocated_bytes": 0,
+      "exists": false,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0
+    },
+    "$HOME/Library/Logs/Homebrew/docker": {
+      "allocated_bytes": 0,
+      "exists": false,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0
+    },
+    "$HOME/Library/Logs/Homebrew/lima": {
+      "allocated_bytes": 0,
+      "exists": false,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0
+    },
+    "$INPUT_RESTORATION_RAW": {
+      "allocated_bytes": 368640,
+      "exists": true,
+      "logical_bytes": 275045,
+      "regular_files": 36,
+      "symlinks_not_followed": 0
+    },
+    "$PREFLIGHT_RAW": {
+      "allocated_bytes": 149458944,
+      "exists": true,
+      "logical_bytes": 146713950,
+      "regular_files": 1220,
+      "symlinks_not_followed": 0
+    },
+    "$REGRESSION_TESTS": {
+      "allocated_bytes": 868352,
+      "exists": true,
+      "logical_bytes": 744683,
+      "regular_files": 55,
+      "symlinks_not_followed": 0
+    },
+    "$REPOSITORY_GIT_METADATA": {
+      "allocated_bytes": 3215360,
+      "exists": true,
+      "logical_bytes": 1203212,
+      "regular_files": 624,
+      "symlinks_not_followed": 0
+    },
+    "$REPO_artifacts/experiment-006b-local/20261109T101525+0100": {
+      "allocated_bytes": 442957824,
+      "exists": true,
+      "logical_bytes": 436355941,
+      "regular_files": 853,
+      "symlinks_not_followed": 6
+    },
+    "$RESTORED_INPUTS": {
+      "allocated_bytes": 20856832,
+      "exists": true,
+      "logical_bytes": 19970169,
+      "regular_files": 7,
+      "symlinks_not_followed": 0
+    },
+    "$SMOKE_RAW": {
+      "allocated_bytes": 189362176,
+      "exists": true,
+      "logical_bytes": 175158684,
+      "regular_files": 110,
+      "symlinks_not_followed": 0
+    },
+    "$STAGE_D_PERSISTENT_EVIDENCE": {
+      "allocated_bytes": 185671680,
+      "exists": true,
+      "logical_bytes": 185245358,
+      "regular_files": 214,
+      "symlinks_not_followed": 0
+    },
+    "$STAGE_D_PUBLIC": {
+      "allocated_bytes": 753664,
+      "exists": true,
+      "logical_bytes": 692381,
+      "regular_files": 31,
+      "symlinks_not_followed": 0
+    },
+    "$STAGE_D_RAW": {
+      "allocated_bytes": 185671680,
+      "exists": true,
+      "logical_bytes": 185245358,
+      "regular_files": 214,
+      "symlinks_not_followed": 0
+    },
+    "/opt/homebrew/Cellar/colima/0.10.3": {
+      "allocated_bytes": 10612736,
+      "exists": true,
+      "logical_bytes": 10579928,
+      "regular_files": 14,
+      "symlinks_not_followed": 0
+    },
+    "/opt/homebrew/Cellar/docker/29.9.3": {
+      "allocated_bytes": 29204480,
+      "exists": true,
+      "logical_bytes": 29175374,
+      "regular_files": 17,
+      "symlinks_not_followed": 0
+    },
+    "/opt/homebrew/Cellar/lima/2.3.0": {
+      "allocated_bytes": 113516544,
+      "exists": true,
+      "logical_bytes": 113026468,
+      "regular_files": 157,
+      "symlinks_not_followed": 0
+    }
+  },
+  "sample_count": 780,
+  "schema_version": "006b.stage-d-storage.1"
+}

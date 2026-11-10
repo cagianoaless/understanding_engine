@@ -1,0 +1,14 @@
+{
+  "both_evidence_copies_counted": true,
+  "copied_logical_bytes": 185103662,
+  "copies_verified": 211,
+  "final_allocated_bytes": 5415690240,
+  "historical_provisioning_peak": "UNKNOWN",
+  "host_available_bytes": 29662629888,
+  "mode": "0700",
+  "observed_max_allocated_bytes": 5415690240,
+  "observed_min_host_available_bytes": 29662629888,
+  "outside_all_git": true,
+  "schema_version": "006b.evidence-persistence.1",
+  "temporary_evidence_preserved": true
+}

@@ -1,0 +1,13 @@
+{
+  "ci": "pending publication; not claimed passed",
+  "interpreter_workaround": "Existing intact host interpreter and unchanged project site-packages read-only; original broken .venv launcher not repaired",
+  "offline_tests": {
+    "failed": 0,
+    "new_adapter_tests": 10,
+    "passed": 367,
+    "seconds": 7.56,
+    "skipped": 0
+  },
+  "python": "3.11.13",
+  "uv_caveat": "--frozen has no effect alongside --no-project; no resolution/sync/install occurred"
+}

@@ -1,0 +1,471 @@
+{
+  "adapter_error": null,
+  "adapter_seconds": 0.03269083285704255,
+  "adapter_status": "success",
+  "category_counts": {
+    "reference": {
+      "classification_denominator": 8,
+      "classified_correct": 7,
+      "localized": 7,
+      "truth": 8
+    },
+    "section_heading": {
+      "classification_denominator": 1,
+      "classified_correct": 1,
+      "localized": 1,
+      "truth": 1
+    }
+  },
+  "classification": {
+    "caption": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "equation": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "figure": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "heading": {
+      "f1": 0.6666666666666666,
+      "f1_denominator": 3,
+      "f1_numerator": 2,
+      "fn": 0,
+      "fp": 1,
+      "precision": 0.5,
+      "precision_denominator": 2,
+      "precision_numerator": 1,
+      "recall": 1.0,
+      "recall_denominator": 1,
+      "recall_numerator": 1,
+      "tp": 1,
+      "undefined_reason": null
+    },
+    "table": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "text": {
+      "f1": 0.5833333333333334,
+      "f1_denominator": 24,
+      "f1_numerator": 14,
+      "fn": 1,
+      "fp": 9,
+      "precision": 0.4375,
+      "precision_denominator": 16,
+      "precision_numerator": 7,
+      "recall": 0.875,
+      "recall_denominator": 8,
+      "recall_numerator": 7,
+      "tp": 7,
+      "undefined_reason": null
+    }
+  },
+  "classification_excluded_truth_ids": [],
+  "classification_truth_denominator": 9,
+  "confusion": {
+    "__unmatched__ -> heading": 1,
+    "__unmatched__ -> text": 9,
+    "heading -> heading": 1,
+    "text -> __missing__": 1,
+    "text -> text": 7
+  },
+  "decisions": {
+    "matches": [
+      {
+        "iou": 0.9132014554817787,
+        "prediction_id": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region0",
+        "truth_id": "bert-p10:r1"
+      },
+      {
+        "iou": 0.814560290961583,
+        "prediction_id": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region30",
+        "truth_id": "bert-p10:r8"
+      },
+      {
+        "iou": 0.7504866118813939,
+        "prediction_id": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region2",
+        "truth_id": "bert-p10:r2"
+      },
+      {
+        "iou": 0.7393853319203024,
+        "prediction_id": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region26",
+        "truth_id": "bert-p10:r6"
+      },
+      {
+        "iou": 0.727411514543057,
+        "prediction_id": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region28",
+        "truth_id": "bert-p10:r7"
+      },
+      {
+        "iou": 0.6636556939834998,
+        "prediction_id": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region9",
+        "truth_id": "bert-p10:r5"
+      },
+      {
+        "iou": 0.6593451854187184,
+        "prediction_id": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region7",
+        "truth_id": "bert-p10:r4"
+      },
+      {
+        "iou": 0.6173701927018552,
+        "prediction_id": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region32",
+        "truth_id": "bert-p10:r9"
+      }
+    ],
+    "order": [
+      {
+        "after": "bert-p10:r2",
+        "before": "bert-p10:r1",
+        "id": "bert-p10:o1",
+        "prediction_after": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region2",
+        "prediction_before": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region0",
+        "status": "correct",
+        "verification": "agent_visual_checked"
+      },
+      {
+        "after": "bert-p10:r3",
+        "before": "bert-p10:r2",
+        "id": "bert-p10:o2",
+        "prediction_after": null,
+        "prediction_before": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region2",
+        "status": "unscoreable",
+        "verification": "agent_visual_checked"
+      },
+      {
+        "after": "bert-p10:r4",
+        "before": "bert-p10:r3",
+        "id": "bert-p10:o3",
+        "prediction_after": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region7",
+        "prediction_before": null,
+        "status": "unscoreable",
+        "verification": "agent_visual_checked"
+      },
+      {
+        "after": "bert-p10:r5",
+        "before": "bert-p10:r4",
+        "id": "bert-p10:o4",
+        "prediction_after": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region9",
+        "prediction_before": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region7",
+        "status": "correct",
+        "verification": "agent_visual_checked"
+      },
+      {
+        "after": "bert-p10:r7",
+        "before": "bert-p10:r6",
+        "id": "bert-p10:o5",
+        "prediction_after": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region28",
+        "prediction_before": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region26",
+        "status": "correct",
+        "verification": "agent_visual_checked"
+      },
+      {
+        "after": "bert-p10:r8",
+        "before": "bert-p10:r7",
+        "id": "bert-p10:o6",
+        "prediction_after": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region30",
+        "prediction_before": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region28",
+        "status": "correct",
+        "verification": "agent_visual_checked"
+      },
+      {
+        "after": "bert-p10:r9",
+        "before": "bert-p10:r8",
+        "id": "bert-p10:o7",
+        "prediction_after": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region32",
+        "prediction_before": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region30",
+        "status": "correct",
+        "verification": "agent_visual_checked"
+      }
+    ],
+    "paragraph": [
+      {
+        "correct": false,
+        "expected": "join",
+        "id": "bert-p10:p1",
+        "predicted": "break",
+        "probes": [
+          {
+            "candidates": [
+              {
+                "covered": 41,
+                "denominator": 41,
+                "prediction_id": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region1"
+              }
+            ],
+            "owner": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region1",
+            "status": "valid"
+          },
+          {
+            "candidates": [
+              {
+                "covered": 42,
+                "denominator": 42,
+                "prediction_id": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region2"
+              }
+            ],
+            "owner": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region2",
+            "status": "valid"
+          }
+        ]
+      },
+      {
+        "correct": true,
+        "expected": "break",
+        "id": "bert-p10:p2",
+        "predicted": "break",
+        "probes": [
+          {
+            "candidates": [
+              {
+                "covered": 10,
+                "denominator": 10,
+                "prediction_id": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region2"
+              }
+            ],
+            "owner": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region2",
+            "status": "valid"
+          },
+          {
+            "candidates": [
+              {
+                "covered": 41,
+                "denominator": 41,
+                "prediction_id": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region3"
+              }
+            ],
+            "owner": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region3",
+            "status": "valid"
+          }
+        ]
+      },
+      {
+        "correct": false,
+        "expected": "join",
+        "id": "bert-p10:p3",
+        "predicted": "break",
+        "probes": [
+          {
+            "candidates": [
+              {
+                "covered": 43,
+                "denominator": 43,
+                "prediction_id": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region25"
+              }
+            ],
+            "owner": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region25",
+            "status": "valid"
+          },
+          {
+            "candidates": [
+              {
+                "covered": 38,
+                "denominator": 38,
+                "prediction_id": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region26"
+              }
+            ],
+            "owner": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region26",
+            "status": "valid"
+          }
+        ]
+      },
+      {
+        "correct": true,
+        "expected": "break",
+        "id": "bert-p10:p4",
+        "predicted": "break",
+        "probes": [
+          {
+            "candidates": [
+              {
+                "covered": 33,
+                "denominator": 33,
+                "prediction_id": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region28"
+              }
+            ],
+            "owner": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region28",
+            "status": "valid"
+          },
+          {
+            "candidates": [
+              {
+                "covered": 44,
+                "denominator": 44,
+                "prediction_id": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region29"
+              }
+            ],
+            "owner": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region29",
+            "status": "valid"
+          }
+        ]
+      }
+    ],
+    "unmatched_predictions": [
+      "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region1",
+      "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region25",
+      "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region27",
+      "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region29",
+      "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region3",
+      "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region31",
+      "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region4",
+      "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region5",
+      "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region6",
+      "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p10:region8"
+    ],
+    "unmatched_truth": [
+      "bert-p10:r3"
+    ]
+  },
+  "document_id": "bert",
+  "engine": "structure",
+  "execution_status": "success",
+  "external_wall_seconds": 11.367946833837777,
+  "false_headings_on_math": 0,
+  "grounding_whole_page": {
+    "foreign_native_ids": [],
+    "native_crosswalk_reason": null,
+    "native_ids_once": true,
+    "source_characters": 3919,
+    "status_counts": {
+      "ambiguous": 25,
+      "valid": 3894
+    }
+  },
+  "grounding_window_characters": 1486,
+  "grounding_window_counts": {
+    "ambiguous": 0,
+    "contradictory": 0,
+    "unmatched": 0,
+    "valid": 1486
+  },
+  "layout": "two_column_references",
+  "localization": {
+    "f1": 0.5925925925925926,
+    "f1_denominator": 27,
+    "f1_numerator": 16,
+    "fn": 1,
+    "fp": 10,
+    "precision": 0.4444444444444444,
+    "precision_denominator": 18,
+    "precision_numerator": 8,
+    "recall": 0.8888888888888888,
+    "recall_denominator": 9,
+    "recall_numerator": 8,
+    "tp": 8,
+    "undefined_reason": null
+  },
+  "localization_by_type": {
+    "equation": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "figure": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "table": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    }
+  },
+  "math_content_reconstruction": {
+    "reason": "Not defined or authorized by frozen protocol",
+    "value": null
+  },
+  "order": {
+    "abstention": 0,
+    "correct": 5,
+    "inversion": 0,
+    "unscoreable": 2
+  },
+  "order_denominator": 7,
+  "page_id": "bert-p10",
+  "paragraph_confusion": {
+    "break -> break": 2,
+    "join -> break": 2
+  },
+  "paragraph_correct": 2,
+  "paragraph_denominator": 4,
+  "paragraph_scoreable": 4,
+  "provisional": true
+}

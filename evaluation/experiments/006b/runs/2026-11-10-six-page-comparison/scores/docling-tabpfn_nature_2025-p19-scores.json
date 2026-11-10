@@ -1,0 +1,283 @@
+{
+  "adapter_error": null,
+  "adapter_seconds": 0.0006454172544181347,
+  "adapter_status": "success",
+  "category_counts": {
+    "table": {
+      "classification_denominator": 1,
+      "classified_correct": 1,
+      "localized": 1,
+      "truth": 1
+    },
+    "table_caption": {
+      "classification_denominator": 1,
+      "classified_correct": 0,
+      "localized": 1,
+      "truth": 1
+    },
+    "table_note": {
+      "classification_denominator": 0,
+      "classified_correct": 0,
+      "localized": 1,
+      "truth": 1
+    }
+  },
+  "classification": {
+    "caption": {
+      "f1": 0.0,
+      "f1_denominator": 1,
+      "f1_numerator": 0,
+      "fn": 1,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": 0.0,
+      "recall_denominator": 1,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "equation": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "figure": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "heading": {
+      "f1": 0.0,
+      "f1_denominator": 1,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 1,
+      "precision": 0.0,
+      "precision_denominator": 1,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "table": {
+      "f1": 1.0,
+      "f1_denominator": 2,
+      "f1_numerator": 2,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "precision_denominator": 1,
+      "precision_numerator": 1,
+      "recall": 1.0,
+      "recall_denominator": 1,
+      "recall_numerator": 1,
+      "tp": 1,
+      "undefined_reason": null
+    },
+    "text": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    }
+  },
+  "classification_excluded_truth_ids": [
+    "tabpfn_nature_2025-p19:r3"
+  ],
+  "classification_truth_denominator": 2,
+  "confusion": {
+    "caption -> heading": 1,
+    "table -> table": 1
+  },
+  "decisions": {
+    "matches": [
+      {
+        "iou": 0.9866516384325504,
+        "prediction_id": "#/tables/0:prov0",
+        "truth_id": "tabpfn_nature_2025-p19:r2"
+      },
+      {
+        "iou": 0.9605397629990597,
+        "prediction_id": "#/texts/1:prov0",
+        "truth_id": "tabpfn_nature_2025-p19:r3"
+      },
+      {
+        "iou": 0.6577656803103124,
+        "prediction_id": "#/texts/0:prov0",
+        "truth_id": "tabpfn_nature_2025-p19:r1"
+      }
+    ],
+    "order": [],
+    "paragraph": [
+      {
+        "correct": true,
+        "expected": "join",
+        "id": "tabpfn_nature_2025-p19:p1",
+        "predicted": "join",
+        "probes": [
+          {
+            "candidates": [
+              {
+                "covered": 159,
+                "denominator": 159,
+                "prediction_id": "#/texts/1:prov0"
+              }
+            ],
+            "owner": "#/texts/1:prov0",
+            "status": "valid"
+          },
+          {
+            "candidates": [
+              {
+                "covered": 159,
+                "denominator": 159,
+                "prediction_id": "#/texts/1:prov0"
+              }
+            ],
+            "owner": "#/texts/1:prov0",
+            "status": "valid"
+          }
+        ]
+      }
+    ],
+    "unmatched_predictions": [],
+    "unmatched_truth": []
+  },
+  "document_id": "tabpfn_nature_2025",
+  "engine": "docling",
+  "execution_status": "success",
+  "external_wall_seconds": 9.35524187469855,
+  "false_headings_on_math": 0,
+  "grounding_whole_page": {
+    "foreign_native_ids": [],
+    "native_crosswalk_reason": "Docling charspan indexes its own text; bbox associations are not native character provenance",
+    "native_ids_once": null,
+    "source_characters": 680,
+    "status_counts": {
+      "unmatched": 2,
+      "valid": 678
+    }
+  },
+  "grounding_window_characters": 680,
+  "grounding_window_counts": {
+    "ambiguous": 0,
+    "contradictory": 0,
+    "unmatched": 2,
+    "valid": 678
+  },
+  "layout": "full_width_extended_table",
+  "localization": {
+    "f1": 1.0,
+    "f1_denominator": 6,
+    "f1_numerator": 6,
+    "fn": 0,
+    "fp": 0,
+    "precision": 1.0,
+    "precision_denominator": 3,
+    "precision_numerator": 3,
+    "recall": 1.0,
+    "recall_denominator": 3,
+    "recall_numerator": 3,
+    "tp": 3,
+    "undefined_reason": null
+  },
+  "localization_by_type": {
+    "equation": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "figure": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "table": {
+      "f1": 1.0,
+      "f1_denominator": 2,
+      "f1_numerator": 2,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "precision_denominator": 1,
+      "precision_numerator": 1,
+      "recall": 1.0,
+      "recall_denominator": 1,
+      "recall_numerator": 1,
+      "tp": 1,
+      "undefined_reason": null
+    }
+  },
+  "math_content_reconstruction": {
+    "reason": "Not defined or authorized by frozen protocol",
+    "value": null
+  },
+  "order": {
+    "abstention": 0,
+    "correct": 0,
+    "inversion": 0,
+    "unscoreable": 0
+  },
+  "order_denominator": 0,
+  "page_id": "tabpfn_nature_2025-p19",
+  "paragraph_confusion": {
+    "join -> join": 1
+  },
+  "paragraph_correct": 1,
+  "paragraph_denominator": 1,
+  "paragraph_scoreable": 1,
+  "provisional": true
+}

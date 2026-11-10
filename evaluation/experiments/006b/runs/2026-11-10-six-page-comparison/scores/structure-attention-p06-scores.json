@@ -1,0 +1,475 @@
+{
+  "adapter_error": null,
+  "adapter_seconds": 0.030071500223129988,
+  "adapter_status": "success",
+  "category_counts": {
+    "body": {
+      "classification_denominator": 4,
+      "classified_correct": 1,
+      "localized": 1,
+      "truth": 4
+    },
+    "display_math": {
+      "classification_denominator": 2,
+      "classified_correct": 0,
+      "localized": 1,
+      "truth": 2
+    },
+    "section_heading": {
+      "classification_denominator": 2,
+      "classified_correct": 2,
+      "localized": 2,
+      "truth": 2
+    },
+    "table": {
+      "classification_denominator": 1,
+      "classified_correct": 0,
+      "localized": 0,
+      "truth": 1
+    },
+    "table_caption": {
+      "classification_denominator": 1,
+      "classified_correct": 0,
+      "localized": 0,
+      "truth": 1
+    }
+  },
+  "classification": {
+    "caption": {
+      "f1": 0.0,
+      "f1_denominator": 1,
+      "f1_numerator": 0,
+      "fn": 1,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": 0.0,
+      "recall_denominator": 1,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "equation": {
+      "f1": 0.0,
+      "f1_denominator": 2,
+      "f1_numerator": 0,
+      "fn": 2,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": 0.0,
+      "recall_denominator": 2,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "figure": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "heading": {
+      "f1": 0.36363636363636365,
+      "f1_denominator": 11,
+      "f1_numerator": 4,
+      "fn": 0,
+      "fp": 7,
+      "precision": 0.2222222222222222,
+      "precision_denominator": 9,
+      "precision_numerator": 2,
+      "recall": 1.0,
+      "recall_denominator": 2,
+      "recall_numerator": 2,
+      "tp": 2,
+      "undefined_reason": null
+    },
+    "table": {
+      "f1": 0.0,
+      "f1_denominator": 1,
+      "f1_numerator": 0,
+      "fn": 1,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": 0.0,
+      "recall_denominator": 1,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "text": {
+      "f1": 0.044444444444444446,
+      "f1_denominator": 45,
+      "f1_numerator": 2,
+      "fn": 3,
+      "fp": 40,
+      "precision": 0.024390243902439025,
+      "precision_denominator": 41,
+      "precision_numerator": 1,
+      "recall": 0.25,
+      "recall_denominator": 4,
+      "recall_numerator": 1,
+      "tp": 1,
+      "undefined_reason": null
+    }
+  },
+  "classification_excluded_truth_ids": [],
+  "classification_truth_denominator": 10,
+  "confusion": {
+    "__unmatched__ -> heading": 7,
+    "__unmatched__ -> text": 39,
+    "caption -> __missing__": 1,
+    "equation -> __missing__": 1,
+    "equation -> text": 1,
+    "heading -> heading": 2,
+    "table -> __missing__": 1,
+    "text -> __missing__": 3,
+    "text -> text": 1
+  },
+  "decisions": {
+    "matches": [
+      {
+        "iou": 0.8410355432882775,
+        "prediction_id": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region48",
+        "truth_id": "attention-p06:r9"
+      },
+      {
+        "iou": 0.7958022136047654,
+        "prediction_id": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region25",
+        "truth_id": "attention-p06:r3"
+      },
+      {
+        "iou": 0.578303817329659,
+        "prediction_id": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region32",
+        "truth_id": "attention-p06:r5"
+      },
+      {
+        "iou": 0.56904846314236,
+        "prediction_id": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region33",
+        "truth_id": "attention-p06:r6"
+      }
+    ],
+    "order": [
+      {
+        "after": "attention-p06:r4",
+        "before": "attention-p06:r3",
+        "id": "attention-p06:o1",
+        "prediction_after": null,
+        "prediction_before": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region25",
+        "status": "unscoreable",
+        "verification": "agent_visual_checked"
+      },
+      {
+        "after": "attention-p06:r5",
+        "before": "attention-p06:r4",
+        "id": "attention-p06:o2",
+        "prediction_after": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region32",
+        "prediction_before": null,
+        "status": "unscoreable",
+        "verification": "agent_visual_checked"
+      },
+      {
+        "after": "attention-p06:r6",
+        "before": "attention-p06:r5",
+        "id": "attention-p06:o3",
+        "prediction_after": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region33",
+        "prediction_before": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region32",
+        "status": "abstention",
+        "verification": "agent_visual_checked"
+      },
+      {
+        "after": "attention-p06:r7",
+        "before": "attention-p06:r6",
+        "id": "attention-p06:o4",
+        "prediction_after": null,
+        "prediction_before": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region33",
+        "status": "unscoreable",
+        "verification": "agent_visual_checked"
+      },
+      {
+        "after": "attention-p06:r8",
+        "before": "attention-p06:r7",
+        "id": "attention-p06:o5",
+        "prediction_after": null,
+        "prediction_before": null,
+        "status": "unscoreable",
+        "verification": "agent_visual_checked"
+      },
+      {
+        "after": "attention-p06:r10",
+        "before": "attention-p06:r9",
+        "id": "attention-p06:o6",
+        "prediction_after": null,
+        "prediction_before": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region48",
+        "status": "unscoreable",
+        "verification": "agent_visual_checked"
+      }
+    ],
+    "paragraph": [
+      {
+        "correct": false,
+        "expected": "join",
+        "id": "attention-p06:p1",
+        "predicted": "break",
+        "probes": [
+          {
+            "candidates": [
+              {
+                "covered": 82,
+                "denominator": 82,
+                "prediction_id": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region26"
+              }
+            ],
+            "owner": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region26",
+            "status": "valid"
+          },
+          {
+            "candidates": [
+              {
+                "covered": 85,
+                "denominator": 85,
+                "prediction_id": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region27"
+              }
+            ],
+            "owner": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region27",
+            "status": "valid"
+          }
+        ]
+      },
+      {
+        "correct": true,
+        "expected": "break",
+        "id": "attention-p06:p2",
+        "predicted": "break",
+        "probes": [
+          {
+            "candidates": [
+              {
+                "covered": 17,
+                "denominator": 17,
+                "prediction_id": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region31"
+              }
+            ],
+            "owner": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region31",
+            "status": "valid"
+          },
+          {
+            "candidates": [
+              {
+                "covered": 60,
+                "denominator": 60,
+                "prediction_id": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region32"
+              }
+            ],
+            "owner": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region32",
+            "status": "valid"
+          }
+        ]
+      },
+      {
+        "correct": false,
+        "expected": "join",
+        "id": "attention-p06:p3",
+        "predicted": "break",
+        "probes": [
+          {
+            "candidates": [
+              {
+                "covered": 83,
+                "denominator": 83,
+                "prediction_id": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region39"
+              }
+            ],
+            "owner": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region39",
+            "status": "valid"
+          },
+          {
+            "candidates": [
+              {
+                "covered": 81,
+                "denominator": 81,
+                "prediction_id": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region40"
+              }
+            ],
+            "owner": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region40",
+            "status": "valid"
+          }
+        ]
+      }
+    ],
+    "unmatched_predictions": [
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region0",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region1",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region10",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region11",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region12",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region13",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region14",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region15",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region16",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region17",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region18",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region19",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region2",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region20",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region21",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region22",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region23",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region24",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region26",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region27",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region28",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region29",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region3",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region30",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region31",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region34",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region35",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region36",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region37",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region38",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region39",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region4",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region40",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region41",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region42",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region43",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region49",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region5",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region50",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region51",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region52",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region53",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region6",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region7",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region8",
+      "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region9"
+    ],
+    "unmatched_truth": [
+      "attention-p06:r1",
+      "attention-p06:r10",
+      "attention-p06:r2",
+      "attention-p06:r4",
+      "attention-p06:r7",
+      "attention-p06:r8"
+    ]
+  },
+  "document_id": "attention",
+  "engine": "structure",
+  "execution_status": "success",
+  "external_wall_seconds": 6.98265550006181,
+  "false_headings_on_math": 0,
+  "grounding_whole_page": {
+    "foreign_native_ids": [],
+    "native_crosswalk_reason": null,
+    "native_ids_once": true,
+    "source_characters": 2924,
+    "status_counts": {
+      "ambiguous": 1,
+      "valid": 2923
+    }
+  },
+  "grounding_window_characters": 1729,
+  "grounding_window_counts": {
+    "ambiguous": 1,
+    "contradictory": 0,
+    "unmatched": 0,
+    "valid": 1728
+  },
+  "layout": "single_column_math",
+  "localization": {
+    "f1": 0.13333333333333333,
+    "f1_denominator": 60,
+    "f1_numerator": 8,
+    "fn": 6,
+    "fp": 46,
+    "precision": 0.08,
+    "precision_denominator": 50,
+    "precision_numerator": 4,
+    "recall": 0.4,
+    "recall_denominator": 10,
+    "recall_numerator": 4,
+    "tp": 4,
+    "undefined_reason": null
+  },
+  "localization_by_type": {
+    "equation": {
+      "f1": 0.6666666666666666,
+      "f1_denominator": 3,
+      "f1_numerator": 2,
+      "fn": 1,
+      "fp": 0,
+      "precision": 1.0,
+      "precision_denominator": 1,
+      "precision_numerator": 1,
+      "recall": 0.5,
+      "recall_denominator": 2,
+      "recall_numerator": 1,
+      "tp": 1,
+      "undefined_reason": null
+    },
+    "figure": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "table": {
+      "f1": 0.0,
+      "f1_denominator": 1,
+      "f1_numerator": 0,
+      "fn": 1,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": 0.0,
+      "recall_denominator": 1,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    }
+  },
+  "math_content_reconstruction": {
+    "reason": "Not defined or authorized by frozen protocol",
+    "value": null
+  },
+  "order": {
+    "abstention": 1,
+    "correct": 0,
+    "inversion": 0,
+    "unscoreable": 5
+  },
+  "order_denominator": 6,
+  "page_id": "attention-p06",
+  "paragraph_confusion": {
+    "break -> break": 1,
+    "join -> break": 2
+  },
+  "paragraph_correct": 1,
+  "paragraph_denominator": 3,
+  "paragraph_scoreable": 3,
+  "provisional": true
+}

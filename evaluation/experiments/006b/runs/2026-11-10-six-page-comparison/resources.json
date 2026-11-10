@@ -1,0 +1,587 @@
+{
+  "engines": {
+    "docling": {
+      "adapter_total_seconds": 0.09410108393058181,
+      "cpu_total_seconds": 65.78607600000001,
+      "external_max_seconds": 10.226649375166744,
+      "external_mean_seconds": 9.522280680170903,
+      "external_min_seconds": 9.21790387481451,
+      "external_total_seconds": 57.13368408102542,
+      "max_cgroup_peak_bytes": 679227392,
+      "native_output_total_bytes": 1033908,
+      "pages": 6,
+      "timeouts": 0
+    },
+    "structure": {
+      "adapter_total_seconds": 0.1554982913658023,
+      "cpu_total_seconds": 70.625108,
+      "external_max_seconds": 18.22656795894727,
+      "external_mean_seconds": 12.16669347944359,
+      "external_min_seconds": 6.98265550006181,
+      "external_total_seconds": 73.00016087666154,
+      "max_cgroup_peak_bytes": 546332672,
+      "native_output_total_bytes": 3329072,
+      "pages": 6,
+      "timeouts": 0
+    }
+  },
+  "guest_after": [
+    {
+      "available_bytes": 2123157504,
+      "mount": "/"
+    },
+    {
+      "available_bytes": 2608353280,
+      "mount": "/var/lib/docker"
+    }
+  ],
+  "guest_before": [
+    {
+      "available_bytes": 2123157504,
+      "mount": "/"
+    },
+    {
+      "available_bytes": 2795560960,
+      "mount": "/var/lib/docker"
+    }
+  ],
+  "historical_provisioning_peak": "UNKNOWN",
+  "per_page": [
+    {
+      "adapter_seconds": 0.030071500223129988,
+      "average_cpu_percent_one_core": 99.69247307962422,
+      "cgroup_peak_bytes": 211955712,
+      "conversion_or_reconstruction_seconds": 6.497986816997582,
+      "cpu_seconds": 6.582416,
+      "effective_computation_threads": 1,
+      "engine": "structure",
+      "exit_code": 0,
+      "external_seconds": 6.98265550006181,
+      "final_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 6745297\nuser_usec 6652481\nsystem_usec 92815\ncore_sched.force_idle_usec 0\nnr_periods 68\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "70782976",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "211955712",
+        "memory.swap.max": "0"
+      },
+      "initial_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 162881\nuser_usec 150890\nsystem_usec 11991\ncore_sched.force_idle_usec 0\nnr_periods 2\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "15622144",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "16023552",
+        "memory.swap.max": "0"
+      },
+      "initialization_reason": "Not separately instrumented; conversion includes lazy model/pipeline initialization and PDF processing",
+      "model_prediction_batches": null,
+      "native_output_bytes": 599718,
+      "page_id": "attention-p06",
+      "process_seconds": 6.602721144998213,
+      "pure_initialization_seconds": null,
+      "status": "success",
+      "timeout": false,
+      "torch_interop_threads": null,
+      "warm_repeat_reason": "No extra inference or warm repetitions performed",
+      "warm_repeat_seconds": null
+    },
+    {
+      "adapter_seconds": 0.013878291007131338,
+      "average_cpu_percent_one_core": 129.21623537812044,
+      "cgroup_peak_bytes": 630239232,
+      "conversion_or_reconstruction_seconds": 4.183099005000258,
+      "cpu_seconds": 11.05037,
+      "effective_computation_threads": 4,
+      "engine": "docling",
+      "exit_code": 0,
+      "external_seconds": 9.641434707678854,
+      "final_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 11204105\nuser_usec 10557062\nsystem_usec 647043\ncore_sched.force_idle_usec 0\nnr_periods 87\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "600756224",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "630239232",
+        "memory.swap.max": "0"
+      },
+      "initial_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 153735\nuser_usec 143752\nsystem_usec 9982\ncore_sched.force_idle_usec 0\nnr_periods 1\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "15667200",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "16072704",
+        "memory.swap.max": "0"
+      },
+      "initialization_reason": "Not separately instrumented; conversion includes lazy model/pipeline initialization and PDF processing",
+      "model_prediction_batches": [
+        {
+          "image_size": [
+            612,
+            792
+          ],
+          "page_no": 6,
+          "predict_batch_seconds": 0.7470988360000774
+        }
+      ],
+      "native_output_bytes": 163313,
+      "page_id": "attention-p06",
+      "process_seconds": 8.551843324999936,
+      "pure_initialization_seconds": null,
+      "status": "success",
+      "timeout": false,
+      "torch_interop_threads": 1,
+      "warm_repeat_reason": "No extra inference or warm repetitions performed",
+      "warm_repeat_seconds": null
+    },
+    {
+      "adapter_seconds": 0.03900383319705725,
+      "average_cpu_percent_one_core": 99.91261137254523,
+      "cgroup_peak_bytes": 212213760,
+      "conversion_or_reconstruction_seconds": 6.537471677002031,
+      "cpu_seconds": 6.631393,
+      "effective_computation_threads": 1,
+      "engine": "structure",
+      "exit_code": 0,
+      "external_seconds": 7.063645042013377,
+      "final_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 6791196\nuser_usec 6730641\nsystem_usec 60554\ncore_sched.force_idle_usec 0\nnr_periods 68\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "73035776",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "212213760",
+        "memory.swap.max": "0"
+      },
+      "initial_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 159803\nuser_usec 145993\nsystem_usec 13810\ncore_sched.force_idle_usec 0\nnr_periods 2\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "15605760",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "16007168",
+        "memory.swap.max": "0"
+      },
+      "initialization_reason": "Not separately instrumented; conversion includes lazy model/pipeline initialization and PDF processing",
+      "model_prediction_batches": null,
+      "native_output_bytes": 678383,
+      "page_id": "attention-p09",
+      "process_seconds": 6.637193151997053,
+      "pure_initialization_seconds": null,
+      "status": "success",
+      "timeout": false,
+      "torch_interop_threads": null,
+      "warm_repeat_reason": "No extra inference or warm repetitions performed",
+      "warm_repeat_seconds": null
+    },
+    {
+      "adapter_seconds": 0.02358791697770357,
+      "average_cpu_percent_one_core": 126.56621843789809,
+      "cgroup_peak_bytes": 643158016,
+      "conversion_or_reconstruction_seconds": 4.929302237000229,
+      "cpu_seconds": 11.490367,
+      "effective_computation_threads": 4,
+      "engine": "docling",
+      "exit_code": 0,
+      "external_seconds": 10.226649375166744,
+      "final_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 11657956\nuser_usec 11175891\nsystem_usec 482065\ncore_sched.force_idle_usec 0\nnr_periods 93\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "570515456",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "643158016",
+        "memory.swap.max": "0"
+      },
+      "initial_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 167589\nuser_usec 156067\nsystem_usec 11521\ncore_sched.force_idle_usec 0\nnr_periods 2\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "15867904",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "16007168",
+        "memory.swap.max": "0"
+      },
+      "initialization_reason": "Not separately instrumented; conversion includes lazy model/pipeline initialization and PDF processing",
+      "model_prediction_batches": [
+        {
+          "image_size": [
+            612,
+            792
+          ],
+          "page_no": 9,
+          "predict_batch_seconds": 0.7107739829989441
+        }
+      ],
+      "native_output_bytes": 269349,
+      "page_id": "attention-p09",
+      "process_seconds": 9.078541763999965,
+      "pure_initialization_seconds": null,
+      "status": "success",
+      "timeout": false,
+      "torch_interop_threads": 1,
+      "warm_repeat_reason": "No extra inference or warm repetitions performed",
+      "warm_repeat_seconds": null
+    },
+    {
+      "adapter_seconds": 0.048921499866992235,
+      "average_cpu_percent_one_core": 99.95116590984425,
+      "cgroup_peak_bytes": 319750144,
+      "conversion_or_reconstruction_seconds": 10.78230264800004,
+      "cpu_seconds": 10.89549,
+      "effective_computation_threads": 1,
+      "engine": "structure",
+      "exit_code": 0,
+      "external_seconds": 11.234568583779037,
+      "final_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 11059933\nuser_usec 10937863\nsystem_usec 122069\ncore_sched.force_idle_usec 0\nnr_periods 111\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "95195136",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "319750144",
+        "memory.swap.max": "0"
+      },
+      "initial_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 164443\nuser_usec 150574\nsystem_usec 13868\ncore_sched.force_idle_usec 0\nnr_periods 2\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "15634432",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "16039936",
+        "memory.swap.max": "0"
+      },
+      "initialization_reason": "Not separately instrumented; conversion includes lazy model/pipeline initialization and PDF processing",
+      "model_prediction_batches": null,
+      "native_output_bytes": 890032,
+      "page_id": "bert-p06",
+      "process_seconds": 10.900813313000981,
+      "pure_initialization_seconds": null,
+      "status": "success",
+      "timeout": false,
+      "torch_interop_threads": null,
+      "warm_repeat_reason": "No extra inference or warm repetitions performed",
+      "warm_repeat_seconds": null
+    },
+    {
+      "adapter_seconds": 0.04057270893827081,
+      "average_cpu_percent_one_core": 131.01072249010997,
+      "cgroup_peak_bytes": 632303616,
+      "conversion_or_reconstruction_seconds": 4.151073439003085,
+      "cpu_seconds": 11.096182,
+      "effective_computation_threads": 4,
+      "engine": "docling",
+      "exit_code": 0,
+      "external_seconds": 9.385411458089948,
+      "final_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 11248093\nuser_usec 10571087\nsystem_usec 677006\ncore_sched.force_idle_usec 0\nnr_periods 86\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "607883264",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "632303616",
+        "memory.swap.max": "0"
+      },
+      "initial_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 151911\nuser_usec 142917\nsystem_usec 8994\ncore_sched.force_idle_usec 0\nnr_periods 1\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "15618048",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "16019456",
+        "memory.swap.max": "0"
+      },
+      "initialization_reason": "Not separately instrumented; conversion includes lazy model/pipeline initialization and PDF processing",
+      "model_prediction_batches": [
+        {
+          "image_size": [
+            596,
+            842
+          ],
+          "page_no": 6,
+          "predict_batch_seconds": 0.8012399330000335
+        }
+      ],
+      "native_output_bytes": 315075,
+      "page_id": "bert-p06",
+      "process_seconds": 8.469674686999497,
+      "pure_initialization_seconds": null,
+      "status": "success",
+      "timeout": false,
+      "torch_interop_threads": 1,
+      "warm_repeat_reason": "No extra inference or warm repetitions performed",
+      "warm_repeat_seconds": null
+    },
+    {
+      "adapter_seconds": 0.03269083285704255,
+      "average_cpu_percent_one_core": 99.15739241973314,
+      "cgroup_peak_bytes": 319598592,
+      "conversion_or_reconstruction_seconds": 10.958412820000376,
+      "cpu_seconds": 10.971227,
+      "effective_computation_threads": 1,
+      "engine": "structure",
+      "exit_code": 0,
+      "external_seconds": 11.367946833837777,
+      "final_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 11127950\nuser_usec 11046090\nsystem_usec 81859\ncore_sched.force_idle_usec 0\nnr_periods 112\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "93954048",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "319598592",
+        "memory.swap.max": "0"
+      },
+      "initial_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 156723\nuser_usec 150695\nsystem_usec 6027\ncore_sched.force_idle_usec 0\nnr_periods 1\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "15757312",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "16162816",
+        "memory.swap.max": "0"
+      },
+      "initialization_reason": "Not separately instrumented; conversion includes lazy model/pipeline initialization and PDF processing",
+      "model_prediction_batches": null,
+      "native_output_bytes": 825518,
+      "page_id": "bert-p10",
+      "process_seconds": 11.064456953001354,
+      "pure_initialization_seconds": null,
+      "status": "success",
+      "timeout": false,
+      "torch_interop_threads": null,
+      "warm_repeat_reason": "No extra inference or warm repetitions performed",
+      "warm_repeat_seconds": null
+    },
+    {
+      "adapter_seconds": 0.01411279197782278,
+      "average_cpu_percent_one_core": 130.20275381307488,
+      "cgroup_peak_bytes": 643706880,
+      "conversion_or_reconstruction_seconds": 4.027490217999002,
+      "cpu_seconds": 10.650134,
+      "effective_computation_threads": 4,
+      "engine": "docling",
+      "exit_code": 0,
+      "external_seconds": 9.21790387481451,
+      "final_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 10799642\nuser_usec 10384855\nsystem_usec 414787\ncore_sched.force_idle_usec 0\nnr_periods 83\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "573751296",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "643706880",
+        "memory.swap.max": "0"
+      },
+      "initial_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 149508\nuser_usec 138544\nsystem_usec 10963\ncore_sched.force_idle_usec 0\nnr_periods 1\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "15699968",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "15839232",
+        "memory.swap.max": "0"
+      },
+      "initialization_reason": "Not separately instrumented; conversion includes lazy model/pipeline initialization and PDF processing",
+      "model_prediction_batches": [
+        {
+          "image_size": [
+            596,
+            842
+          ],
+          "page_no": 10,
+          "predict_batch_seconds": 0.7110938449986861
+        }
+      ],
+      "native_output_bytes": 170821,
+      "page_id": "bert-p10",
+      "process_seconds": 8.179653416002111,
+      "pure_initialization_seconds": null,
+      "status": "success",
+      "timeout": false,
+      "torch_interop_threads": 1,
+      "warm_repeat_reason": "No extra inference or warm repetitions performed",
+      "warm_repeat_seconds": null
+    },
+    {
+      "adapter_seconds": 0.0031810421496629715,
+      "average_cpu_percent_one_core": 99.37151892517066,
+      "cgroup_peak_bytes": 546332672,
+      "conversion_or_reconstruction_seconds": 17.86886981999851,
+      "cpu_seconds": 17.883062,
+      "effective_computation_threads": 1,
+      "engine": "structure",
+      "exit_code": 0,
+      "external_seconds": 18.22656795894727,
+      "final_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 18044114\nuser_usec 17914495\nsystem_usec 129618\ncore_sched.force_idle_usec 0\nnr_periods 182\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "124280832",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "546332672",
+        "memory.swap.max": "0"
+      },
+      "initial_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 161052\nuser_usec 149048\nsystem_usec 12003\ncore_sched.force_idle_usec 0\nnr_periods 2\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "15605760",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "16007168",
+        "memory.swap.max": "0"
+      },
+      "initialization_reason": "Not separately instrumented; conversion includes lazy model/pipeline initialization and PDF processing",
+      "model_prediction_batches": null,
+      "native_output_bytes": 200962,
+      "page_id": "tabpfn_nature_2025-p15",
+      "process_seconds": 17.99616448800225,
+      "pure_initialization_seconds": null,
+      "status": "success",
+      "timeout": false,
+      "torch_interop_threads": null,
+      "warm_repeat_reason": "No extra inference or warm repetitions performed",
+      "warm_repeat_seconds": null
+    },
+    {
+      "adapter_seconds": 0.001303957775235176,
+      "average_cpu_percent_one_core": 129.12888577602192,
+      "cgroup_peak_bytes": 640815104,
+      "conversion_or_reconstruction_seconds": 4.090081468999415,
+      "cpu_seconds": 10.713034,
+      "effective_computation_threads": 4,
+      "engine": "docling",
+      "exit_code": 0,
+      "external_seconds": 9.307042790576816,
+      "final_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 10865731\nuser_usec 10395579\nsystem_usec 470151\ncore_sched.force_idle_usec 0\nnr_periods 84\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "583020544",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "640815104",
+        "memory.swap.max": "0"
+      },
+      "initial_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 152697\nuser_usec 145711\nsystem_usec 6986\ncore_sched.force_idle_usec 0\nnr_periods 1\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "15843328",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "15982592",
+        "memory.swap.max": "0"
+      },
+      "initialization_reason": "Not separately instrumented; conversion includes lazy model/pipeline initialization and PDF processing",
+      "model_prediction_batches": [
+        {
+          "image_size": [
+            596,
+            791
+          ],
+          "page_no": 15,
+          "predict_batch_seconds": 0.7402584600022237
+        }
+      ],
+      "native_output_bytes": 63520,
+      "page_id": "tabpfn_nature_2025-p15",
+      "process_seconds": 8.29638847699971,
+      "pure_initialization_seconds": null,
+      "status": "success",
+      "timeout": false,
+      "torch_interop_threads": 1,
+      "warm_repeat_reason": "No extra inference or warm repetitions performed",
+      "warm_repeat_seconds": null
+    },
+    {
+      "adapter_seconds": 0.0016295830719172955,
+      "average_cpu_percent_one_core": 99.4821195913475,
+      "cgroup_peak_bytes": 546332672,
+      "conversion_or_reconstruction_seconds": 17.637909908997244,
+      "cpu_seconds": 17.66152,
+      "effective_computation_threads": 1,
+      "engine": "structure",
+      "exit_code": 0,
+      "external_seconds": 18.124776958022267,
+      "final_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 17822188\nuser_usec 17672060\nsystem_usec 150127\ncore_sched.force_idle_usec 0\nnr_periods 179\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "122331136",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "546332672",
+        "memory.swap.max": "0"
+      },
+      "initial_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 160668\nuser_usec 145699\nsystem_usec 14969\ncore_sched.force_idle_usec 0\nnr_periods 1\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "15581184",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "15982592",
+        "memory.swap.max": "0"
+      },
+      "initialization_reason": "Not separately instrumented; conversion includes lazy model/pipeline initialization and PDF processing",
+      "model_prediction_batches": null,
+      "native_output_bytes": 134459,
+      "page_id": "tabpfn_nature_2025-p19",
+      "process_seconds": 17.753461700001935,
+      "pure_initialization_seconds": null,
+      "status": "success",
+      "timeout": false,
+      "torch_interop_threads": null,
+      "warm_repeat_reason": "No extra inference or warm repetitions performed",
+      "warm_repeat_seconds": null
+    },
+    {
+      "adapter_seconds": 0.0006454172544181347,
+      "average_cpu_percent_one_core": 128.7107168047562,
+      "cgroup_peak_bytes": 679227392,
+      "conversion_or_reconstruction_seconds": 4.190834004999488,
+      "cpu_seconds": 10.785989,
+      "effective_computation_threads": 4,
+      "engine": "docling",
+      "exit_code": 0,
+      "external_seconds": 9.35524187469855,
+      "final_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 10974322\nuser_usec 10485746\nsystem_usec 488575\ncore_sched.force_idle_usec 0\nnr_periods 86\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "591138816",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "679227392",
+        "memory.swap.max": "0"
+      },
+      "initial_cgroup": {
+        "cpu.max": "400000 100000",
+        "cpu.stat": "usage_usec 188333\nuser_usec 172823\nsystem_usec 15509\ncore_sched.force_idle_usec 0\nnr_periods 2\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0",
+        "memory.current": "15609856",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+        "memory.max": "4294967296",
+        "memory.peak": "16011264",
+        "memory.swap.max": "0"
+      },
+      "initialization_reason": "Not separately instrumented; conversion includes lazy model/pipeline initialization and PDF processing",
+      "model_prediction_batches": [
+        {
+          "image_size": [
+            596,
+            791
+          ],
+          "page_no": 19,
+          "predict_batch_seconds": 0.7330855949985562
+        }
+      ],
+      "native_output_bytes": 51830,
+      "page_id": "tabpfn_nature_2025-p19",
+      "process_seconds": 8.38002403200153,
+      "pure_initialization_seconds": null,
+      "status": "success",
+      "timeout": false,
+      "torch_interop_threads": 1,
+      "warm_repeat_reason": "No extra inference or warm repetitions performed",
+      "warm_repeat_seconds": null
+    }
+  ],
+  "schema_version": "006b.stage-d-resources.1",
+  "scope": "Fresh measured Linux container/cgroup per candidate/page. Frozen full-cache validation/serialization included for baseline; original-PDF selected-page conversion for Docling. Host equivalence checks excluded from comparative cost, included in retained evidence/storage. Filesystem caches warm; no warm-repeat inference."
+}

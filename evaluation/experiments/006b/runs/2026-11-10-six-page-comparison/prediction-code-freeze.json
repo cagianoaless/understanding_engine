@@ -1,0 +1,14 @@
+{
+  "adapter_units": "all native document items, each provenance box retained, no reference-dependent merging",
+  "baseline_resource_domain": "unchanged frozen source in Linux ARM64 cgroup; existing Linux validator dependencies; exact decisions checked against original host dependency environment",
+  "candidate_prediction_selection": "source-inputs.json selected_pages only; annotations not read by prediction workers",
+  "code_sha256": {
+    "baseline_page.py": "fdc479b0c8547ae9cced30cf3d6b46950c5932326d24650f05e519853ca4e235",
+    "comparison.py": "9205eb604d49e64f5d5f338a01f56648ab9ae24a1909cefe10c4bcdbe8de8dff",
+    "docling_page.py": "2d7ed6dc676216fe4cdbb3a7f909b74b4fa5269661d25103c19c0bf7b025e0db",
+    "prepare_sources.py": "39782a3948a4ce71a95e76dcf7b2473a5b073dd7892f2a4ed4863778d9fd093e",
+    "run.py": "d51049b685e10e3f04de667a5b3046d69ce5853a34a12ac44a71a544ff5eee7b"
+  },
+  "docling_resource_domain": "fresh Linux ARM64 cgroup per page, same installed candidate/model",
+  "reference_sha256": "779b5a6b05d3d53729000ce98fb03791edc84b2f118cb5857a85b17ef01e60d5"
+}
