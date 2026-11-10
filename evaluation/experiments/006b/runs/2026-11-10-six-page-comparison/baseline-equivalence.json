@@ -1,0 +1,306 @@
+{
+  "note": "Only generated structure IDs excluded from decision comparison. Native source-character IDs and all other page contents compared exactly.",
+  "pages": [
+    {
+      "all_page_decisions_geometry_and_source_ids_identical": true,
+      "comparison_excludes_only_generated_structure_identity_prefixes": true,
+      "host_algorithm": {
+        "dependencies": {
+          "jsonschema": "4.25.1"
+        },
+        "implementation_sha256": "3ef28f2e256ed0e7867cd6a3b047ece31ff34e6c032c07093651e1223070bc19",
+        "name": "deterministic_geometry",
+        "python": "3.11.13",
+        "settings": {
+          "gutter_min_side_fraction": 0.15,
+          "gutter_min_support": 3,
+          "gutter_split_gap_em": 0.5,
+          "heading_isolation_em": 0.3,
+          "heading_max_characters": 100,
+          "heading_rare_style_fraction": 0.35,
+          "heading_size_ratio": 1.12,
+          "heading_style_fraction": 0.8,
+          "line_gap_em": 1.2,
+          "paragraph_gap_em": 0.45,
+          "paragraph_indent_em": 0.9,
+          "row_overlap": 0.5
+        },
+        "version": "0.2.0"
+      },
+      "linux_algorithm": {
+        "dependencies": {
+          "jsonschema": "4.26.0"
+        },
+        "implementation_sha256": "3ef28f2e256ed0e7867cd6a3b047ece31ff34e6c032c07093651e1223070bc19",
+        "name": "deterministic_geometry",
+        "python": "3.11.13",
+        "settings": {
+          "gutter_min_side_fraction": 0.15,
+          "gutter_min_support": 3,
+          "gutter_split_gap_em": 0.5,
+          "heading_isolation_em": 0.3,
+          "heading_max_characters": 100,
+          "heading_rare_style_fraction": 0.35,
+          "heading_size_ratio": 1.12,
+          "heading_style_fraction": 0.8,
+          "line_gap_em": 1.2,
+          "paragraph_gap_em": 0.45,
+          "paragraph_indent_em": 0.9,
+          "row_overlap": 0.5
+        },
+        "version": "0.2.0"
+      }
+    },
+    {
+      "all_page_decisions_geometry_and_source_ids_identical": true,
+      "comparison_excludes_only_generated_structure_identity_prefixes": true,
+      "host_algorithm": {
+        "dependencies": {
+          "jsonschema": "4.25.1"
+        },
+        "implementation_sha256": "3ef28f2e256ed0e7867cd6a3b047ece31ff34e6c032c07093651e1223070bc19",
+        "name": "deterministic_geometry",
+        "python": "3.11.13",
+        "settings": {
+          "gutter_min_side_fraction": 0.15,
+          "gutter_min_support": 3,
+          "gutter_split_gap_em": 0.5,
+          "heading_isolation_em": 0.3,
+          "heading_max_characters": 100,
+          "heading_rare_style_fraction": 0.35,
+          "heading_size_ratio": 1.12,
+          "heading_style_fraction": 0.8,
+          "line_gap_em": 1.2,
+          "paragraph_gap_em": 0.45,
+          "paragraph_indent_em": 0.9,
+          "row_overlap": 0.5
+        },
+        "version": "0.2.0"
+      },
+      "linux_algorithm": {
+        "dependencies": {
+          "jsonschema": "4.26.0"
+        },
+        "implementation_sha256": "3ef28f2e256ed0e7867cd6a3b047ece31ff34e6c032c07093651e1223070bc19",
+        "name": "deterministic_geometry",
+        "python": "3.11.13",
+        "settings": {
+          "gutter_min_side_fraction": 0.15,
+          "gutter_min_support": 3,
+          "gutter_split_gap_em": 0.5,
+          "heading_isolation_em": 0.3,
+          "heading_max_characters": 100,
+          "heading_rare_style_fraction": 0.35,
+          "heading_size_ratio": 1.12,
+          "heading_style_fraction": 0.8,
+          "line_gap_em": 1.2,
+          "paragraph_gap_em": 0.45,
+          "paragraph_indent_em": 0.9,
+          "row_overlap": 0.5
+        },
+        "version": "0.2.0"
+      }
+    },
+    {
+      "all_page_decisions_geometry_and_source_ids_identical": true,
+      "comparison_excludes_only_generated_structure_identity_prefixes": true,
+      "host_algorithm": {
+        "dependencies": {
+          "jsonschema": "4.25.1"
+        },
+        "implementation_sha256": "3ef28f2e256ed0e7867cd6a3b047ece31ff34e6c032c07093651e1223070bc19",
+        "name": "deterministic_geometry",
+        "python": "3.11.13",
+        "settings": {
+          "gutter_min_side_fraction": 0.15,
+          "gutter_min_support": 3,
+          "gutter_split_gap_em": 0.5,
+          "heading_isolation_em": 0.3,
+          "heading_max_characters": 100,
+          "heading_rare_style_fraction": 0.35,
+          "heading_size_ratio": 1.12,
+          "heading_style_fraction": 0.8,
+          "line_gap_em": 1.2,
+          "paragraph_gap_em": 0.45,
+          "paragraph_indent_em": 0.9,
+          "row_overlap": 0.5
+        },
+        "version": "0.2.0"
+      },
+      "linux_algorithm": {
+        "dependencies": {
+          "jsonschema": "4.26.0"
+        },
+        "implementation_sha256": "3ef28f2e256ed0e7867cd6a3b047ece31ff34e6c032c07093651e1223070bc19",
+        "name": "deterministic_geometry",
+        "python": "3.11.13",
+        "settings": {
+          "gutter_min_side_fraction": 0.15,
+          "gutter_min_support": 3,
+          "gutter_split_gap_em": 0.5,
+          "heading_isolation_em": 0.3,
+          "heading_max_characters": 100,
+          "heading_rare_style_fraction": 0.35,
+          "heading_size_ratio": 1.12,
+          "heading_style_fraction": 0.8,
+          "line_gap_em": 1.2,
+          "paragraph_gap_em": 0.45,
+          "paragraph_indent_em": 0.9,
+          "row_overlap": 0.5
+        },
+        "version": "0.2.0"
+      }
+    },
+    {
+      "all_page_decisions_geometry_and_source_ids_identical": true,
+      "comparison_excludes_only_generated_structure_identity_prefixes": true,
+      "host_algorithm": {
+        "dependencies": {
+          "jsonschema": "4.25.1"
+        },
+        "implementation_sha256": "3ef28f2e256ed0e7867cd6a3b047ece31ff34e6c032c07093651e1223070bc19",
+        "name": "deterministic_geometry",
+        "python": "3.11.13",
+        "settings": {
+          "gutter_min_side_fraction": 0.15,
+          "gutter_min_support": 3,
+          "gutter_split_gap_em": 0.5,
+          "heading_isolation_em": 0.3,
+          "heading_max_characters": 100,
+          "heading_rare_style_fraction": 0.35,
+          "heading_size_ratio": 1.12,
+          "heading_style_fraction": 0.8,
+          "line_gap_em": 1.2,
+          "paragraph_gap_em": 0.45,
+          "paragraph_indent_em": 0.9,
+          "row_overlap": 0.5
+        },
+        "version": "0.2.0"
+      },
+      "linux_algorithm": {
+        "dependencies": {
+          "jsonschema": "4.26.0"
+        },
+        "implementation_sha256": "3ef28f2e256ed0e7867cd6a3b047ece31ff34e6c032c07093651e1223070bc19",
+        "name": "deterministic_geometry",
+        "python": "3.11.13",
+        "settings": {
+          "gutter_min_side_fraction": 0.15,
+          "gutter_min_support": 3,
+          "gutter_split_gap_em": 0.5,
+          "heading_isolation_em": 0.3,
+          "heading_max_characters": 100,
+          "heading_rare_style_fraction": 0.35,
+          "heading_size_ratio": 1.12,
+          "heading_style_fraction": 0.8,
+          "line_gap_em": 1.2,
+          "paragraph_gap_em": 0.45,
+          "paragraph_indent_em": 0.9,
+          "row_overlap": 0.5
+        },
+        "version": "0.2.0"
+      }
+    },
+    {
+      "all_page_decisions_geometry_and_source_ids_identical": true,
+      "comparison_excludes_only_generated_structure_identity_prefixes": true,
+      "host_algorithm": {
+        "dependencies": {
+          "jsonschema": "4.25.1"
+        },
+        "implementation_sha256": "3ef28f2e256ed0e7867cd6a3b047ece31ff34e6c032c07093651e1223070bc19",
+        "name": "deterministic_geometry",
+        "python": "3.11.13",
+        "settings": {
+          "gutter_min_side_fraction": 0.15,
+          "gutter_min_support": 3,
+          "gutter_split_gap_em": 0.5,
+          "heading_isolation_em": 0.3,
+          "heading_max_characters": 100,
+          "heading_rare_style_fraction": 0.35,
+          "heading_size_ratio": 1.12,
+          "heading_style_fraction": 0.8,
+          "line_gap_em": 1.2,
+          "paragraph_gap_em": 0.45,
+          "paragraph_indent_em": 0.9,
+          "row_overlap": 0.5
+        },
+        "version": "0.2.0"
+      },
+      "linux_algorithm": {
+        "dependencies": {
+          "jsonschema": "4.26.0"
+        },
+        "implementation_sha256": "3ef28f2e256ed0e7867cd6a3b047ece31ff34e6c032c07093651e1223070bc19",
+        "name": "deterministic_geometry",
+        "python": "3.11.13",
+        "settings": {
+          "gutter_min_side_fraction": 0.15,
+          "gutter_min_support": 3,
+          "gutter_split_gap_em": 0.5,
+          "heading_isolation_em": 0.3,
+          "heading_max_characters": 100,
+          "heading_rare_style_fraction": 0.35,
+          "heading_size_ratio": 1.12,
+          "heading_style_fraction": 0.8,
+          "line_gap_em": 1.2,
+          "paragraph_gap_em": 0.45,
+          "paragraph_indent_em": 0.9,
+          "row_overlap": 0.5
+        },
+        "version": "0.2.0"
+      }
+    },
+    {
+      "all_page_decisions_geometry_and_source_ids_identical": true,
+      "comparison_excludes_only_generated_structure_identity_prefixes": true,
+      "host_algorithm": {
+        "dependencies": {
+          "jsonschema": "4.25.1"
+        },
+        "implementation_sha256": "3ef28f2e256ed0e7867cd6a3b047ece31ff34e6c032c07093651e1223070bc19",
+        "name": "deterministic_geometry",
+        "python": "3.11.13",
+        "settings": {
+          "gutter_min_side_fraction": 0.15,
+          "gutter_min_support": 3,
+          "gutter_split_gap_em": 0.5,
+          "heading_isolation_em": 0.3,
+          "heading_max_characters": 100,
+          "heading_rare_style_fraction": 0.35,
+          "heading_size_ratio": 1.12,
+          "heading_style_fraction": 0.8,
+          "line_gap_em": 1.2,
+          "paragraph_gap_em": 0.45,
+          "paragraph_indent_em": 0.9,
+          "row_overlap": 0.5
+        },
+        "version": "0.2.0"
+      },
+      "linux_algorithm": {
+        "dependencies": {
+          "jsonschema": "4.26.0"
+        },
+        "implementation_sha256": "3ef28f2e256ed0e7867cd6a3b047ece31ff34e6c032c07093651e1223070bc19",
+        "name": "deterministic_geometry",
+        "python": "3.11.13",
+        "settings": {
+          "gutter_min_side_fraction": 0.15,
+          "gutter_min_support": 3,
+          "gutter_split_gap_em": 0.5,
+          "heading_isolation_em": 0.3,
+          "heading_max_characters": 100,
+          "heading_rare_style_fraction": 0.35,
+          "heading_size_ratio": 1.12,
+          "heading_style_fraction": 0.8,
+          "line_gap_em": 1.2,
+          "paragraph_gap_em": 0.45,
+          "paragraph_indent_em": 0.9,
+          "row_overlap": 0.5
+        },
+        "version": "0.2.0"
+      }
+    }
+  ],
+  "schema_version": "006b.baseline-equivalence.1"
+}

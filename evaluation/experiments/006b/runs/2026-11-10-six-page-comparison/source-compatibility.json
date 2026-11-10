@@ -1,0 +1,487 @@
+{
+  "all_inputs_reverified": true,
+  "baseline_commit": "ba82b2c7f71604d5bcc2859b1a05de112723107d",
+  "comparative_scoring_run": false,
+  "documents": [
+    {
+      "byte_identical_to_original_cache": true,
+      "bytes": 29644580,
+      "document_id": "attention",
+      "extraction_sha256": "732cb726b4e41728d1ef5e2c2999a3f31cd27b67ef0c9534445bdd0f70dec936",
+      "original_extraction_sha256": "732cb726b4e41728d1ef5e2c2999a3f31cd27b67ef0c9534445bdd0f70dec936",
+      "page_count": 15,
+      "parser": {
+        "dependencies": {
+          "Pillow": "13.0.0",
+          "attrs": "26.1.0",
+          "cffi": "2.1.1",
+          "charset-normalizer": "3.5.2",
+          "cryptography": "50.0.2",
+          "jsonschema": "4.25.1",
+          "jsonschema-specifications": "2025.9.1",
+          "pdfminer.six": "20251107",
+          "pdfplumber": "0.11.8",
+          "pycparser": "3.12",
+          "pypdfium2": "5.14.0",
+          "referencing": "0.37.0",
+          "rpds-py": "2026.9.1",
+          "typing-extensions": "4.16.0"
+        },
+        "name": "understanding_engine",
+        "python": "3.11.13",
+        "settings": {
+          "crop_to_cropbox": false,
+          "deduplicate_characters": false,
+          "laparams": null,
+          "raise_unicode_errors": true,
+          "repair": false,
+          "text_map": {
+            "char_dir": "ltr",
+            "char_dir_rotated": "ltr",
+            "expand_ligatures": false,
+            "layout": false,
+            "line_dir": "ttb",
+            "line_dir_rotated": "ttb",
+            "use_text_flow": false,
+            "x_tolerance": 3,
+            "y_tolerance": 3
+          },
+          "unicode_norm": null
+        },
+        "version": "0.1.0"
+      },
+      "seconds": 4.195828125346452,
+      "selected_pages": [
+        {
+          "all_frozen_ids_exist_and_centers_match": true,
+          "character_count": 2924,
+          "character_layer_sha256": "f0b16d445032ef9cbfdeec54f1a14bdda3e055812d93d34072b67e4c9cb39077",
+          "frozen_strip_references": 408,
+          "geometry": {
+            "bbox": [
+              0,
+              0,
+              612,
+              792
+            ],
+            "cropbox": [
+              0,
+              0,
+              612,
+              792
+            ],
+            "height": 792,
+            "initial_doctop": 3960,
+            "mediabox": [
+              0,
+              0,
+              612,
+              792
+            ],
+            "pdfminer_layout_bbox": [
+              0,
+              0,
+              612.0,
+              792.0
+            ],
+            "raw_cropbox": null,
+            "raw_mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              792.0
+            ],
+            "raw_rotation": 0.0,
+            "rotation": 0,
+            "user_unit": 1.0,
+            "width": 612
+          },
+          "id": "attention-p06",
+          "page_number": 6
+        },
+        {
+          "all_frozen_ids_exist_and_centers_match": true,
+          "character_count": 2475,
+          "character_layer_sha256": "11bcff746917e458a354cac1e95289791bb8d659389671b3f77d0b105d25a544",
+          "frozen_strip_references": 583,
+          "geometry": {
+            "bbox": [
+              0,
+              0,
+              612,
+              792
+            ],
+            "cropbox": [
+              0,
+              0,
+              612,
+              792
+            ],
+            "height": 792,
+            "initial_doctop": 6336,
+            "mediabox": [
+              0,
+              0,
+              612,
+              792
+            ],
+            "pdfminer_layout_bbox": [
+              0,
+              0,
+              612.0,
+              792.0
+            ],
+            "raw_cropbox": null,
+            "raw_mediabox": [
+              0.0,
+              0.0,
+              612.0,
+              792.0
+            ],
+            "raw_rotation": 0.0,
+            "rotation": 0,
+            "user_unit": 1.0,
+            "width": 612
+          },
+          "id": "attention-p09",
+          "page_number": 9
+        }
+      ],
+      "source_pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697"
+    },
+    {
+      "byte_identical_to_original_cache": true,
+      "bytes": 48738778,
+      "document_id": "bert",
+      "extraction_sha256": "9618216d3b52fab8a59949eeacd3f740f78f7166964f9cae3d61ce68522ab79b",
+      "original_extraction_sha256": "9618216d3b52fab8a59949eeacd3f740f78f7166964f9cae3d61ce68522ab79b",
+      "page_count": 16,
+      "parser": {
+        "dependencies": {
+          "Pillow": "13.0.0",
+          "attrs": "26.1.0",
+          "cffi": "2.1.1",
+          "charset-normalizer": "3.5.2",
+          "cryptography": "50.0.2",
+          "jsonschema": "4.25.1",
+          "jsonschema-specifications": "2025.9.1",
+          "pdfminer.six": "20251107",
+          "pdfplumber": "0.11.8",
+          "pycparser": "3.12",
+          "pypdfium2": "5.14.0",
+          "referencing": "0.37.0",
+          "rpds-py": "2026.9.1",
+          "typing-extensions": "4.16.0"
+        },
+        "name": "understanding_engine",
+        "python": "3.11.13",
+        "settings": {
+          "crop_to_cropbox": false,
+          "deduplicate_characters": false,
+          "laparams": null,
+          "raise_unicode_errors": true,
+          "repair": false,
+          "text_map": {
+            "char_dir": "ltr",
+            "char_dir_rotated": "ltr",
+            "expand_ligatures": false,
+            "layout": false,
+            "line_dir": "ttb",
+            "line_dir_rotated": "ttb",
+            "use_text_flow": false,
+            "x_tolerance": 3,
+            "y_tolerance": 3
+          },
+          "unicode_norm": null
+        },
+        "version": "0.1.0"
+      },
+      "seconds": 6.307896832935512,
+      "selected_pages": [
+        {
+          "all_frozen_ids_exist_and_centers_match": true,
+          "character_count": 3690,
+          "character_layer_sha256": "e7ccbeae0f6a02ba6dabd7b6c7954352e63291b4bb6f242224757fce3fcc4a33",
+          "frozen_strip_references": 278,
+          "geometry": {
+            "bbox": [
+              0,
+              0.0,
+              595.276,
+              841.89
+            ],
+            "cropbox": [
+              0,
+              0.0,
+              595.276,
+              841.89
+            ],
+            "height": 841.89,
+            "initial_doctop": 4209.45,
+            "mediabox": [
+              0,
+              0.0,
+              595.276,
+              841.89
+            ],
+            "pdfminer_layout_bbox": [
+              0,
+              0,
+              595.276,
+              841.89
+            ],
+            "raw_cropbox": null,
+            "raw_mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              841.89
+            ],
+            "raw_rotation": 0.0,
+            "rotation": 0,
+            "user_unit": 1.0,
+            "width": 595.276
+          },
+          "id": "bert-p06",
+          "page_number": 6
+        },
+        {
+          "all_frozen_ids_exist_and_centers_match": true,
+          "character_count": 3919,
+          "character_layer_sha256": "86390b2207f5fb8518f8dc0b7b63fda39eed2b737ed03e13eda5384140952033",
+          "frozen_strip_references": 292,
+          "geometry": {
+            "bbox": [
+              0,
+              0.0,
+              595.276,
+              841.89
+            ],
+            "cropbox": [
+              0,
+              0.0,
+              595.276,
+              841.89
+            ],
+            "height": 841.89,
+            "initial_doctop": 7577.010000000001,
+            "mediabox": [
+              0,
+              0.0,
+              595.276,
+              841.89
+            ],
+            "pdfminer_layout_bbox": [
+              0,
+              0,
+              595.276,
+              841.89
+            ],
+            "raw_cropbox": null,
+            "raw_mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              841.89
+            ],
+            "raw_rotation": 0.0,
+            "rotation": 0,
+            "user_unit": 1.0,
+            "width": 595.276
+          },
+          "id": "bert-p10",
+          "page_number": 10
+        }
+      ],
+      "source_pdf_sha256": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e"
+    },
+    {
+      "byte_identical_to_original_cache": true,
+      "bytes": 82320899,
+      "document_id": "tabpfn_nature_2025",
+      "extraction_sha256": "edf3316f02a88602aa6fd863be70c0ef790c28d2ce954456d39659fddffe92d6",
+      "original_extraction_sha256": "edf3316f02a88602aa6fd863be70c0ef790c28d2ce954456d39659fddffe92d6",
+      "page_count": 23,
+      "parser": {
+        "dependencies": {
+          "Pillow": "13.0.0",
+          "attrs": "26.1.0",
+          "cffi": "2.1.1",
+          "charset-normalizer": "3.5.2",
+          "cryptography": "50.0.2",
+          "jsonschema": "4.25.1",
+          "jsonschema-specifications": "2025.9.1",
+          "pdfminer.six": "20251107",
+          "pdfplumber": "0.11.8",
+          "pycparser": "3.12",
+          "pypdfium2": "5.14.0",
+          "referencing": "0.37.0",
+          "rpds-py": "2026.9.1",
+          "typing-extensions": "4.16.0"
+        },
+        "name": "understanding_engine",
+        "python": "3.11.13",
+        "settings": {
+          "crop_to_cropbox": false,
+          "deduplicate_characters": false,
+          "laparams": null,
+          "raise_unicode_errors": true,
+          "repair": false,
+          "text_map": {
+            "char_dir": "ltr",
+            "char_dir_rotated": "ltr",
+            "expand_ligatures": false,
+            "layout": false,
+            "line_dir": "ttb",
+            "line_dir_rotated": "ttb",
+            "use_text_flow": false,
+            "x_tolerance": 3,
+            "y_tolerance": 3
+          },
+          "unicode_norm": null
+        },
+        "version": "0.1.0"
+      },
+      "seconds": 17.17941720923409,
+      "selected_pages": [
+        {
+          "all_frozen_ids_exist_and_centers_match": true,
+          "character_count": 1032,
+          "character_layer_sha256": "3e7201e5459cbbe6c7d86982be7f0afadce97c9981612f31c08b8473c1eccfa9",
+          "frozen_strip_references": 244,
+          "geometry": {
+            "bbox": [
+              0.0,
+              0.0,
+              595.276,
+              790.866
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              595.276,
+              790.866
+            ],
+            "height": 790.866,
+            "initial_doctop": 11072.124,
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              790.866
+            ],
+            "pdfminer_layout_bbox": [
+              0,
+              0,
+              595.276,
+              790.866
+            ],
+            "raw_cropbox": [
+              0.0,
+              0.0,
+              595.276,
+              790.866
+            ],
+            "raw_mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              790.866
+            ],
+            "raw_rotation": 0.0,
+            "rotation": 0,
+            "user_unit": 1.0,
+            "width": 595.276
+          },
+          "id": "tabpfn_nature_2025-p15",
+          "page_number": 15
+        },
+        {
+          "all_frozen_ids_exist_and_centers_match": true,
+          "character_count": 680,
+          "character_layer_sha256": "cce2d9aa0da8bdb87d1e8cf62d2bd1c48f264edbc80687436bdf94b436df2ddb",
+          "frozen_strip_references": 318,
+          "geometry": {
+            "bbox": [
+              0.0,
+              0.0,
+              595.276,
+              790.866
+            ],
+            "cropbox": [
+              0.0,
+              0.0,
+              595.276,
+              790.866
+            ],
+            "height": 790.866,
+            "initial_doctop": 14235.588,
+            "mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              790.866
+            ],
+            "pdfminer_layout_bbox": [
+              0,
+              0,
+              595.276,
+              790.866
+            ],
+            "raw_cropbox": [
+              0.0,
+              0.0,
+              595.276,
+              790.866
+            ],
+            "raw_mediabox": [
+              0.0,
+              0.0,
+              595.276,
+              790.866
+            ],
+            "raw_rotation": 0.0,
+            "rotation": 0,
+            "user_unit": 1.0,
+            "width": 595.276
+          },
+          "id": "tabpfn_nature_2025-p19",
+          "page_number": 19
+        }
+      ],
+      "source_pdf_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013"
+    }
+  ],
+  "freeze": {
+    "annotation_revision": 1,
+    "files": {
+      "annotation-source-audit.json": "4d568638ccc4d29db862062479bb8cae230d88dbedc059fa9bcb0296ce6db284",
+      "annotations.json": "779b5a6b05d3d53729000ce98fb03791edc84b2f118cb5857a85b17ef01e60d5",
+      "human-review-form.json": "3d17188a35b7d1905c9bf82911cfa637c95383e67d61107520943b14a474c9c5",
+      "page_geometry.json": "08c5f59c3ce9e096517de8758a401735ae0117246946c658724eab386ccef7bf",
+      "plan.json": "4e175a303b7b92889c1f47c629b1814e409b19bae0049d1cae0103757d5b6b1b",
+      "plan.md": "98e052ec5aaf3331b44df40cec542d8a8516ab1a02bb3fde3cd4b714f4748173",
+      "protected-files.json": "fabb75bfabca2f278f49fd0ae30b9cfe86f4e079c832d773dfc6cc7e66be098f",
+      "references.py": "ede095d954024432669d55061ff962fc1cab54b0f4e67859a8b086a6c75ef77f",
+      "review-package.json": "12f12bff26438ec62e1a321d57d27cd1d6c24a9bf41db4f98c24becc03785e71",
+      "review_pack.py": "379c00b1d2495e1a294a256e64c286d525aefbf14c40da4cb2f6e299605a1a1e",
+      "review_protocol.md": "3c015122dfa6724eb26c97e66748755e857ff2d3873a267276766b3832b55794",
+      "selection.json": "3e89cf030f6c9b151399094be0ea3984641acd04d5597d6a57af2d1f55918078",
+      "stage-a-validation.json": "480231a849dd5558b947697f02e0cb19817b92a56721a1fe4d281ae6ff70ffdb"
+    },
+    "human_verified_count": 0,
+    "prediction_count_at_freeze": 0,
+    "schema_version": "006b.freeze.1",
+    "stage": "A_complete_before_runtime_investigation_or_predictions"
+  },
+  "gate": "PASS",
+  "mapping_sha256": "234f7d561cc803c27a991960882280db802daab4bcb1347751a7f54fe2168c2c",
+  "python": "3.11.13",
+  "reference_counts": {
+    "order_pairs": 24,
+    "pages": 6,
+    "paragraph_decisions": 18,
+    "regions": 48
+  },
+  "schema_version": "006b.source-regeneration.1"
+}

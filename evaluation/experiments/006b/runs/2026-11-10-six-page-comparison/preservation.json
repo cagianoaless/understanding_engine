@@ -1,0 +1,11 @@
+{
+  "all_byte_identical": true,
+  "baseline_extraction_original_hashes_reproduced": true,
+  "changed_files": [],
+  "colima_configuration_sha256_unchanged": "31138994e6ea01d8b354bf2d8e3f7c310c047ff57f8dac85759efe5379aff55a",
+  "docker_context_preserved": true,
+  "frozen_references_unmodified": true,
+  "old_candidate_volume_mounted_readonly": true,
+  "preexisting_tracked_files": 345,
+  "production_diff_from_baseline": ""
+}

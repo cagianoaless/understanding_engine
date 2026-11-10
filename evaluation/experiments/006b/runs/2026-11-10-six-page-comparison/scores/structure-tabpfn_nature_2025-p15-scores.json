@@ -1,0 +1,317 @@
+{
+  "adapter_error": null,
+  "adapter_seconds": 0.0031810421496629715,
+  "adapter_status": "success",
+  "category_counts": {
+    "chart": {
+      "classification_denominator": 4,
+      "classified_correct": 0,
+      "localized": 0,
+      "truth": 4
+    },
+    "figure_caption": {
+      "classification_denominator": 2,
+      "classified_correct": 0,
+      "localized": 2,
+      "truth": 2
+    }
+  },
+  "classification": {
+    "caption": {
+      "f1": 0.0,
+      "f1_denominator": 2,
+      "f1_numerator": 0,
+      "fn": 2,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": 0.0,
+      "recall_denominator": 2,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "equation": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "figure": {
+      "f1": 0.0,
+      "f1_denominator": 4,
+      "f1_numerator": 0,
+      "fn": 4,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": 0.0,
+      "recall_denominator": 4,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "heading": {
+      "f1": 0.0,
+      "f1_denominator": 1,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 1,
+      "precision": 0.0,
+      "precision_denominator": 1,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "table": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "text": {
+      "f1": 0.0,
+      "f1_denominator": 2,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 2,
+      "precision": 0.0,
+      "precision_denominator": 2,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    }
+  },
+  "classification_excluded_truth_ids": [],
+  "classification_truth_denominator": 6,
+  "confusion": {
+    "__unmatched__ -> heading": 1,
+    "caption -> text": 2,
+    "figure -> __missing__": 4
+  },
+  "decisions": {
+    "matches": [
+      {
+        "iou": 0.9704672306874659,
+        "prediction_id": "d60a510dcc6759f3d8a14783e6df72eac956cc446523b646547df68b6e8396ec:p15:region2",
+        "truth_id": "tabpfn_nature_2025-p15:r6"
+      },
+      {
+        "iou": 0.8123372321898695,
+        "prediction_id": "d60a510dcc6759f3d8a14783e6df72eac956cc446523b646547df68b6e8396ec:p15:region1",
+        "truth_id": "tabpfn_nature_2025-p15:r5"
+      }
+    ],
+    "order": [
+      {
+        "after": "tabpfn_nature_2025-p15:r6",
+        "before": "tabpfn_nature_2025-p15:r5",
+        "id": "tabpfn_nature_2025-p15:o1",
+        "prediction_after": "d60a510dcc6759f3d8a14783e6df72eac956cc446523b646547df68b6e8396ec:p15:region2",
+        "prediction_before": "d60a510dcc6759f3d8a14783e6df72eac956cc446523b646547df68b6e8396ec:p15:region1",
+        "status": "abstention",
+        "verification": "agent_visual_checked"
+      }
+    ],
+    "paragraph": [
+      {
+        "correct": true,
+        "expected": "join",
+        "id": "tabpfn_nature_2025-p15:p1",
+        "predicted": "join",
+        "probes": [
+          {
+            "candidates": [
+              {
+                "covered": 64,
+                "denominator": 64,
+                "prediction_id": "d60a510dcc6759f3d8a14783e6df72eac956cc446523b646547df68b6e8396ec:p15:region1"
+              }
+            ],
+            "owner": "d60a510dcc6759f3d8a14783e6df72eac956cc446523b646547df68b6e8396ec:p15:region1",
+            "status": "valid"
+          },
+          {
+            "candidates": [
+              {
+                "covered": 62,
+                "denominator": 62,
+                "prediction_id": "d60a510dcc6759f3d8a14783e6df72eac956cc446523b646547df68b6e8396ec:p15:region1"
+              }
+            ],
+            "owner": "d60a510dcc6759f3d8a14783e6df72eac956cc446523b646547df68b6e8396ec:p15:region1",
+            "status": "valid"
+          }
+        ]
+      },
+      {
+        "correct": true,
+        "expected": "join",
+        "id": "tabpfn_nature_2025-p15:p2",
+        "predicted": "join",
+        "probes": [
+          {
+            "candidates": [
+              {
+                "covered": 60,
+                "denominator": 60,
+                "prediction_id": "d60a510dcc6759f3d8a14783e6df72eac956cc446523b646547df68b6e8396ec:p15:region2"
+              }
+            ],
+            "owner": "d60a510dcc6759f3d8a14783e6df72eac956cc446523b646547df68b6e8396ec:p15:region2",
+            "status": "valid"
+          },
+          {
+            "candidates": [
+              {
+                "covered": 58,
+                "denominator": 58,
+                "prediction_id": "d60a510dcc6759f3d8a14783e6df72eac956cc446523b646547df68b6e8396ec:p15:region2"
+              }
+            ],
+            "owner": "d60a510dcc6759f3d8a14783e6df72eac956cc446523b646547df68b6e8396ec:p15:region2",
+            "status": "valid"
+          }
+        ]
+      }
+    ],
+    "unmatched_predictions": [
+      "d60a510dcc6759f3d8a14783e6df72eac956cc446523b646547df68b6e8396ec:p15:region0"
+    ],
+    "unmatched_truth": [
+      "tabpfn_nature_2025-p15:r1",
+      "tabpfn_nature_2025-p15:r2",
+      "tabpfn_nature_2025-p15:r3",
+      "tabpfn_nature_2025-p15:r4"
+    ]
+  },
+  "document_id": "tabpfn_nature_2025",
+  "engine": "structure",
+  "execution_status": "success",
+  "external_wall_seconds": 18.22656795894727,
+  "false_headings_on_math": 0,
+  "grounding_whole_page": {
+    "foreign_native_ids": [],
+    "native_crosswalk_reason": null,
+    "native_ids_once": true,
+    "source_characters": 1032,
+    "status_counts": {
+      "valid": 1032
+    }
+  },
+  "grounding_window_characters": 1032,
+  "grounding_window_counts": {
+    "ambiguous": 0,
+    "contradictory": 0,
+    "unmatched": 0,
+    "valid": 1032
+  },
+  "layout": "four_chart_panels_two_column_caption",
+  "localization": {
+    "f1": 0.4444444444444444,
+    "f1_denominator": 9,
+    "f1_numerator": 4,
+    "fn": 4,
+    "fp": 1,
+    "precision": 0.6666666666666666,
+    "precision_denominator": 3,
+    "precision_numerator": 2,
+    "recall": 0.3333333333333333,
+    "recall_denominator": 6,
+    "recall_numerator": 2,
+    "tp": 2,
+    "undefined_reason": null
+  },
+  "localization_by_type": {
+    "equation": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "figure": {
+      "f1": 0.0,
+      "f1_denominator": 4,
+      "f1_numerator": 0,
+      "fn": 4,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": 0.0,
+      "recall_denominator": 4,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "table": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    }
+  },
+  "math_content_reconstruction": {
+    "reason": "Not defined or authorized by frozen protocol",
+    "value": null
+  },
+  "order": {
+    "abstention": 1,
+    "correct": 0,
+    "inversion": 0,
+    "unscoreable": 0
+  },
+  "order_denominator": 1,
+  "page_id": "tabpfn_nature_2025-p15",
+  "paragraph_confusion": {
+    "join -> join": 2
+  },
+  "paragraph_correct": 2,
+  "paragraph_denominator": 2,
+  "paragraph_scoreable": 2,
+  "provisional": true
+}

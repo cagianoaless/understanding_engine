@@ -1,0 +1,459 @@
+{
+  "adapter_error": null,
+  "adapter_seconds": 0.01411279197782278,
+  "adapter_status": "success",
+  "category_counts": {
+    "reference": {
+      "classification_denominator": 8,
+      "classified_correct": 8,
+      "localized": 8,
+      "truth": 8
+    },
+    "section_heading": {
+      "classification_denominator": 1,
+      "classified_correct": 1,
+      "localized": 1,
+      "truth": 1
+    }
+  },
+  "classification": {
+    "caption": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "equation": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "figure": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "heading": {
+      "f1": 1.0,
+      "f1_denominator": 2,
+      "f1_numerator": 2,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "precision_denominator": 1,
+      "precision_numerator": 1,
+      "recall": 1.0,
+      "recall_denominator": 1,
+      "recall_numerator": 1,
+      "tp": 1,
+      "undefined_reason": null
+    },
+    "table": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "text": {
+      "f1": 1.0,
+      "f1_denominator": 16,
+      "f1_numerator": 16,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "precision_denominator": 8,
+      "precision_numerator": 8,
+      "recall": 1.0,
+      "recall_denominator": 8,
+      "recall_numerator": 8,
+      "tp": 8,
+      "undefined_reason": null
+    }
+  },
+  "classification_excluded_truth_ids": [],
+  "classification_truth_denominator": 9,
+  "confusion": {
+    "heading -> heading": 1,
+    "text -> text": 8
+  },
+  "decisions": {
+    "matches": [
+      {
+        "iou": 0.97225505985306,
+        "prediction_id": "#/texts/1:prov0",
+        "truth_id": "bert-p10:r2"
+      },
+      {
+        "iou": 0.9688124686627729,
+        "prediction_id": "#/texts/14:prov0",
+        "truth_id": "bert-p10:r8"
+      },
+      {
+        "iou": 0.9602533975198423,
+        "prediction_id": "#/texts/2:prov0",
+        "truth_id": "bert-p10:r3"
+      },
+      {
+        "iou": 0.943813374545942,
+        "prediction_id": "#/texts/13:prov0",
+        "truth_id": "bert-p10:r7"
+      },
+      {
+        "iou": 0.9361878803186612,
+        "prediction_id": "#/texts/15:prov0",
+        "truth_id": "bert-p10:r9"
+      },
+      {
+        "iou": 0.9243553608833417,
+        "prediction_id": "#/texts/12:prov0",
+        "truth_id": "bert-p10:r6"
+      },
+      {
+        "iou": 0.9230463301318559,
+        "prediction_id": "#/texts/0:prov0",
+        "truth_id": "bert-p10:r1"
+      },
+      {
+        "iou": 0.9175399786127666,
+        "prediction_id": "#/texts/3:prov0",
+        "truth_id": "bert-p10:r4"
+      },
+      {
+        "iou": 0.9175315015776053,
+        "prediction_id": "#/texts/4:prov0",
+        "truth_id": "bert-p10:r5"
+      }
+    ],
+    "order": [
+      {
+        "after": "bert-p10:r2",
+        "before": "bert-p10:r1",
+        "id": "bert-p10:o1",
+        "prediction_after": "#/texts/1:prov0",
+        "prediction_before": "#/texts/0:prov0",
+        "status": "correct",
+        "verification": "agent_visual_checked"
+      },
+      {
+        "after": "bert-p10:r3",
+        "before": "bert-p10:r2",
+        "id": "bert-p10:o2",
+        "prediction_after": "#/texts/2:prov0",
+        "prediction_before": "#/texts/1:prov0",
+        "status": "correct",
+        "verification": "agent_visual_checked"
+      },
+      {
+        "after": "bert-p10:r4",
+        "before": "bert-p10:r3",
+        "id": "bert-p10:o3",
+        "prediction_after": "#/texts/3:prov0",
+        "prediction_before": "#/texts/2:prov0",
+        "status": "correct",
+        "verification": "agent_visual_checked"
+      },
+      {
+        "after": "bert-p10:r5",
+        "before": "bert-p10:r4",
+        "id": "bert-p10:o4",
+        "prediction_after": "#/texts/4:prov0",
+        "prediction_before": "#/texts/3:prov0",
+        "status": "correct",
+        "verification": "agent_visual_checked"
+      },
+      {
+        "after": "bert-p10:r7",
+        "before": "bert-p10:r6",
+        "id": "bert-p10:o5",
+        "prediction_after": "#/texts/13:prov0",
+        "prediction_before": "#/texts/12:prov0",
+        "status": "correct",
+        "verification": "agent_visual_checked"
+      },
+      {
+        "after": "bert-p10:r8",
+        "before": "bert-p10:r7",
+        "id": "bert-p10:o6",
+        "prediction_after": "#/texts/14:prov0",
+        "prediction_before": "#/texts/13:prov0",
+        "status": "correct",
+        "verification": "agent_visual_checked"
+      },
+      {
+        "after": "bert-p10:r9",
+        "before": "bert-p10:r8",
+        "id": "bert-p10:o7",
+        "prediction_after": "#/texts/15:prov0",
+        "prediction_before": "#/texts/14:prov0",
+        "status": "correct",
+        "verification": "agent_visual_checked"
+      }
+    ],
+    "paragraph": [
+      {
+        "correct": true,
+        "expected": "join",
+        "id": "bert-p10:p1",
+        "predicted": "join",
+        "probes": [
+          {
+            "candidates": [
+              {
+                "covered": 41,
+                "denominator": 41,
+                "prediction_id": "#/texts/1:prov0"
+              }
+            ],
+            "owner": "#/texts/1:prov0",
+            "status": "valid"
+          },
+          {
+            "candidates": [
+              {
+                "covered": 42,
+                "denominator": 42,
+                "prediction_id": "#/texts/1:prov0"
+              }
+            ],
+            "owner": "#/texts/1:prov0",
+            "status": "valid"
+          }
+        ]
+      },
+      {
+        "correct": true,
+        "expected": "break",
+        "id": "bert-p10:p2",
+        "predicted": "break",
+        "probes": [
+          {
+            "candidates": [
+              {
+                "covered": 10,
+                "denominator": 10,
+                "prediction_id": "#/texts/1:prov0"
+              }
+            ],
+            "owner": "#/texts/1:prov0",
+            "status": "valid"
+          },
+          {
+            "candidates": [
+              {
+                "covered": 41,
+                "denominator": 41,
+                "prediction_id": "#/texts/2:prov0"
+              }
+            ],
+            "owner": "#/texts/2:prov0",
+            "status": "valid"
+          }
+        ]
+      },
+      {
+        "correct": true,
+        "expected": "join",
+        "id": "bert-p10:p3",
+        "predicted": "join",
+        "probes": [
+          {
+            "candidates": [
+              {
+                "covered": 43,
+                "denominator": 43,
+                "prediction_id": "#/texts/12:prov0"
+              }
+            ],
+            "owner": "#/texts/12:prov0",
+            "status": "valid"
+          },
+          {
+            "candidates": [
+              {
+                "covered": 38,
+                "denominator": 38,
+                "prediction_id": "#/texts/12:prov0"
+              }
+            ],
+            "owner": "#/texts/12:prov0",
+            "status": "valid"
+          }
+        ]
+      },
+      {
+        "correct": true,
+        "expected": "break",
+        "id": "bert-p10:p4",
+        "predicted": "break",
+        "probes": [
+          {
+            "candidates": [
+              {
+                "covered": 33,
+                "denominator": 33,
+                "prediction_id": "#/texts/13:prov0"
+              }
+            ],
+            "owner": "#/texts/13:prov0",
+            "status": "valid"
+          },
+          {
+            "candidates": [
+              {
+                "covered": 44,
+                "denominator": 44,
+                "prediction_id": "#/texts/14:prov0"
+              }
+            ],
+            "owner": "#/texts/14:prov0",
+            "status": "valid"
+          }
+        ]
+      }
+    ],
+    "unmatched_predictions": [],
+    "unmatched_truth": []
+  },
+  "document_id": "bert",
+  "engine": "docling",
+  "execution_status": "success",
+  "external_wall_seconds": 9.21790387481451,
+  "false_headings_on_math": 0,
+  "grounding_whole_page": {
+    "foreign_native_ids": [],
+    "native_crosswalk_reason": "Docling charspan indexes its own text; bbox associations are not native character provenance",
+    "native_ids_once": null,
+    "source_characters": 3919,
+    "status_counts": {
+      "valid": 3919
+    }
+  },
+  "grounding_window_characters": 1486,
+  "grounding_window_counts": {
+    "ambiguous": 0,
+    "contradictory": 0,
+    "unmatched": 0,
+    "valid": 1486
+  },
+  "layout": "two_column_references",
+  "localization": {
+    "f1": 1.0,
+    "f1_denominator": 18,
+    "f1_numerator": 18,
+    "fn": 0,
+    "fp": 0,
+    "precision": 1.0,
+    "precision_denominator": 9,
+    "precision_numerator": 9,
+    "recall": 1.0,
+    "recall_denominator": 9,
+    "recall_numerator": 9,
+    "tp": 9,
+    "undefined_reason": null
+  },
+  "localization_by_type": {
+    "equation": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "figure": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    },
+    "table": {
+      "f1": null,
+      "f1_denominator": 0,
+      "f1_numerator": 0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "precision_denominator": 0,
+      "precision_numerator": 0,
+      "recall": null,
+      "recall_denominator": 0,
+      "recall_numerator": 0,
+      "tp": 0,
+      "undefined_reason": "zero denominator for corresponding measure"
+    }
+  },
+  "math_content_reconstruction": {
+    "reason": "Not defined or authorized by frozen protocol",
+    "value": null
+  },
+  "order": {
+    "abstention": 0,
+    "correct": 7,
+    "inversion": 0,
+    "unscoreable": 0
+  },
+  "order_denominator": 7,
+  "page_id": "bert-p10",
+  "paragraph_confusion": {
+    "break -> break": 2,
+    "join -> join": 2
+  },
+  "paragraph_correct": 4,
+  "paragraph_denominator": 4,
+  "paragraph_scoreable": 4,
+  "provisional": true
+}

@@ -1,0 +1,415 @@
+{
+  "cases": [
+    {
+      "case": "four independent chart panels",
+      "caveat": "These raster chart panels contain no authoritative PDF glyph centers inside detected boxes; empty grounding is legitimate, not content reconstruction.",
+      "docling_matches": [
+        {
+          "iou": 0.8960943653334177,
+          "prediction": {
+            "bbox": [
+              46.60296076204953,
+              189.03234822613013,
+              278.29375995385084,
+              314.10141294666005
+            ],
+            "id": "#/pictures/2:prov0",
+            "native_bbox": {
+              "b": 476.76458705333994,
+              "coord_origin": "BOTTOMLEFT",
+              "l": 46.60296076204953,
+              "r": 278.29375995385084,
+              "t": 601.8336517738699
+            },
+            "native_label": "picture",
+            "order_index": 2,
+            "source_character_count": 0,
+            "source_character_examples": [],
+            "source_unicode_backend_order_excerpt": "",
+            "type": "figure"
+          },
+          "prediction_id": "#/pictures/2:prov0",
+          "truth_id": "tabpfn_nature_2025-p15:r3"
+        },
+        {
+          "iou": 0.7875614188079109,
+          "prediction": {
+            "bbox": [
+              328.76640008094324,
+              202.90118366940737,
+              560.4748817765409,
+              313.8083412652287
+            ],
+            "id": "#/pictures/3:prov0",
+            "native_bbox": {
+              "b": 477.0576587347713,
+              "coord_origin": "BOTTOMLEFT",
+              "l": 328.76640008094324,
+              "r": 560.4748817765409,
+              "t": 587.9648163305926
+            },
+            "native_label": "picture",
+            "order_index": 4,
+            "source_character_count": 0,
+            "source_character_examples": [],
+            "source_unicode_backend_order_excerpt": "",
+            "type": "figure"
+          },
+          "prediction_id": "#/pictures/3:prov0",
+          "truth_id": "tabpfn_nature_2025-p15:r4"
+        },
+        {
+          "iou": 0.6567067979835182,
+          "prediction": {
+            "bbox": [
+              69.52756682627633,
+              63.09643742880837,
+              270.3254240392902,
+              174.12293286742397
+            ],
+            "id": "#/pictures/0:prov0",
+            "native_bbox": {
+              "b": 616.743067132576,
+              "coord_origin": "BOTTOMLEFT",
+              "l": 69.52756682627633,
+              "r": 270.3254240392902,
+              "t": 727.7695625711916
+            },
+            "native_label": "picture",
+            "order_index": 0,
+            "source_character_count": 0,
+            "source_character_examples": [],
+            "source_unicode_backend_order_excerpt": "",
+            "type": "figure"
+          },
+          "prediction_id": "#/pictures/0:prov0",
+          "truth_id": "tabpfn_nature_2025-p15:r1"
+        },
+        {
+          "iou": 0.6345303697274592,
+          "prediction": {
+            "bbox": [
+              355.2368606098354,
+              65.88970728601964,
+              556.2378475378663,
+              174.8011016536284
+            ],
+            "id": "#/pictures/1:prov0",
+            "native_bbox": {
+              "b": 616.0648983463716,
+              "coord_origin": "BOTTOMLEFT",
+              "l": 355.2368606098354,
+              "r": 556.2378475378663,
+              "t": 724.9762927139803
+            },
+            "native_label": "picture",
+            "order_index": 1,
+            "source_character_count": 0,
+            "source_character_examples": [],
+            "source_unicode_backend_order_excerpt": "",
+            "type": "figure"
+          },
+          "prediction_id": "#/pictures/1:prov0",
+          "truth_id": "tabpfn_nature_2025-p15:r2"
+        }
+      ],
+      "page_id": "tabpfn_nature_2025-p15",
+      "reference_ids": [
+        "tabpfn_nature_2025-p15:r1",
+        "tabpfn_nature_2025-p15:r2",
+        "tabpfn_nature_2025-p15:r3",
+        "tabpfn_nature_2025-p15:r4"
+      ],
+      "source_pdf_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "structure_panels_localized": 0
+    },
+    {
+      "case": "two equation references versus one merged formula prediction",
+      "docling_prediction": {
+        "bbox": [
+          225.69400000000002,
+          336.8538946,
+          386.3064551400001,
+          365.73147326743515
+        ],
+        "id": "#/texts/23:prov0",
+        "native_bbox": {
+          "b": 426.26852673256485,
+          "coord_origin": "BOTTOMLEFT",
+          "l": 225.69400000000002,
+          "r": 386.3064551400001,
+          "t": 455.1461054
+        },
+        "native_label": "formula",
+        "order_index": 24,
+        "source_character_count": 70,
+        "source_character_examples": [
+          "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c952",
+          "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c953",
+          "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c954"
+        ],
+        "source_unicode_backend_order_excerpt": "PE(pos,2i)=sin(pos/100002i/dmodel)PE(pos,2i+1)=cos(pos/100002i/dmodel)",
+        "type": "equation"
+      },
+      "docling_text": "",
+      "note": "Docling formula bbox fails IoU0.5 for both individual references. Structure matches one equation geometrically as text; two tiny unmatched heading fragments show a math-heading error not captured by matched-region math confusion.",
+      "page_id": "attention-p06",
+      "reference_regions": [
+        {
+          "bbox": [
+            234,
+            336,
+            388,
+            350
+          ],
+          "category": "display_math",
+          "classification_scoreable": true,
+          "human_reviewer": null,
+          "id": "attention-p06:r6",
+          "type": "equation",
+          "verification": "agent_visual_checked"
+        },
+        {
+          "bbox": [
+            225,
+            354,
+            388,
+            369
+          ],
+          "category": "display_math",
+          "classification_scoreable": true,
+          "human_reviewer": null,
+          "id": "attention-p06:r7",
+          "type": "equation",
+          "verification": "agent_visual_checked"
+        }
+      ],
+      "source_pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "structure_small_heading_fragments": [
+        {
+          "bbox": [
+            235.50900000000001,
+            337.7001444,
+            250.64418192,
+            347.6627444
+          ],
+          "id": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region34",
+          "native_label": "heading",
+          "order_index": null,
+          "source_character_count": 2,
+          "source_character_examples": [
+            "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c952",
+            "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c953"
+          ],
+          "source_unicode_backend_order_excerpt": "PE",
+          "type": "heading"
+        },
+        {
+          "bbox": [
+            225.69400000000002,
+            354.5711444,
+            240.82918192,
+            364.5337444
+          ],
+          "id": "26ba973b4f67d415da7419ab4eda9014e4f6fa2585fa2d1b16411aec51713963:p6:region37",
+          "native_label": "heading",
+          "order_index": null,
+          "source_character_count": 2,
+          "source_character_examples": [
+            "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c986",
+            "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c987"
+          ],
+          "source_unicode_backend_order_excerpt": "PE",
+          "type": "heading"
+        }
+      ]
+    },
+    {
+      "case": "cross-column continuation has same native item order",
+      "frozen_order_pair": {
+        "after": "bert-p06:r10",
+        "before": "bert-p06:r7",
+        "id": "bert-p06:o4",
+        "prediction_after": "#/texts/65:prov1",
+        "prediction_before": "#/texts/65:prov0",
+        "status": "abstention",
+        "verification": "agent_visual_checked"
+      },
+      "note": "Two boxes of one native item have identical traversal position. Adapter abstains instead of inventing a within-item direction.",
+      "page_id": "bert-p06",
+      "predictions": [
+        {
+          "bbox": [
+            71.99999999999996,
+            662.7421758999997,
+            290.2692728000001,
+            712.7545280318582
+          ],
+          "id": "#/texts/65:prov0",
+          "native_bbox": {
+            "b": 129.13547196814181,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 71.99999999999996,
+            "r": 290.2692728000001,
+            "t": 179.14782410000032
+          },
+          "native_label": "text",
+          "order_index": 66,
+          "source_character_count": 149,
+          "source_character_examples": [
+            "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c1906",
+            "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c1907",
+            "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c1908"
+          ],
+          "source_unicode_backend_order_excerpt": "TheStanfordQuestionAnsweringDataset(SQuADv1.1)isacollectionof100kcrowd",
+          "type": "text"
+        },
+        {
+          "bbox": [
+            307.27600000000007,
+            252.47017589999996,
+            525.5452728000004,
+            275.3845280318584
+          ],
+          "id": "#/texts/65:prov1",
+          "native_bbox": {
+            "b": 566.5054719681416,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 307.27600000000007,
+            "r": 525.5452728000004,
+            "t": 589.4198241
+          },
+          "native_label": "text",
+          "order_index": 66,
+          "source_character_count": 77,
+          "source_character_examples": [
+            "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c2229",
+            "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c2230",
+            "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c2231"
+          ],
+          "source_unicode_backend_order_excerpt": "Wikipediacontainingtheanswer,thetaskistopredicttheanswertextspaninthep",
+          "type": "text"
+        }
+      ],
+      "source_pdf_sha256": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e"
+    },
+    {
+      "case": "extended-table caption misclassified as heading",
+      "note": "Localization passes, caption classification fails. The separate ambiguous table-note type is excluded only from classification.",
+      "page_id": "tabpfn_nature_2025-p19",
+      "prediction": {
+        "bbox": [
+          39.685001373,
+          49.886810547000096,
+          511.16440138673505,
+          57.759416929978784
+        ],
+        "id": "#/texts/0:prov0",
+        "native_bbox": {
+          "b": 733.1065830700212,
+          "coord_origin": "BOTTOMLEFT",
+          "l": 39.685001373,
+          "r": 511.16440138673505,
+          "t": 740.9791894529999
+        },
+        "native_label": "section_header",
+        "order_index": 0,
+        "source_character_count": 104,
+        "source_character_examples": [
+          "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p19:c0",
+          "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p19:c1",
+          "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p19:c2"
+        ],
+        "source_unicode_backend_order_excerpt": "Extended Data Table 2 | Aggregated results on the 28 AMLB and OpenML-C",
+        "type": "heading"
+      },
+      "reference": {
+        "bbox": [
+          39,
+          49,
+          552,
+          60
+        ],
+        "category": "table_caption",
+        "classification_scoreable": true,
+        "human_reviewer": null,
+        "id": "tabpfn_nature_2025-p19:r1",
+        "type": "caption",
+        "verification": "agent_visual_checked"
+      },
+      "source_pdf_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013"
+    },
+    {
+      "case": "overlapping table and text child ownership",
+      "note": "Multiple owners retained as ambiguous. No one-to-one character alignment manufactured. Nested table text remains in the frozen false-positive denominator.",
+      "page_id": "attention-p09",
+      "predictions": [
+        {
+          "bbox": [
+            107.0874252319336,
+            128.51998901367188,
+            509.6754455566406,
+            385.2930908203125
+          ],
+          "id": "#/tables/0:prov0",
+          "native_bbox": {
+            "b": 406.7069091796875,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 107.0874252319336,
+            "r": 509.6754455566406,
+            "t": 663.4800109863281
+          },
+          "native_label": "table",
+          "order_index": 0,
+          "source_character_count": 414,
+          "source_character_examples": [
+            "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p9:c280",
+            "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p9:c281",
+            "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p9:c282"
+          ],
+          "source_unicode_backend_order_excerpt": "NdmodeldffhdkdvPdropϵlstrainPPLBLEUparamssteps(dev)(dev)×106base651220",
+          "type": "table"
+        },
+        {
+          "bbox": [
+            146.127,
+            137.68754419999993,
+            355.9537497,
+            147.4333537769911
+          ],
+          "id": "#/texts/1:prov0",
+          "native_bbox": {
+            "b": 644.5666462230089,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 146.127,
+            "r": 355.9537497,
+            "t": 654.3124558000001
+          },
+          "native_label": "text",
+          "order_index": 2,
+          "source_character_count": 23,
+          "source_character_examples": [
+            "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p9:c280",
+            "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p9:c281",
+            "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p9:c282"
+          ],
+          "source_unicode_backend_order_excerpt": "NdmodeldffhdkdvPdropϵls",
+          "type": "text"
+        }
+      ],
+      "source_character": {
+        "prediction_ids": [
+          "#/tables/0:prov0",
+          "#/texts/1:prov0"
+        ],
+        "source_character_id": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p9:c280",
+        "status": "ambiguous"
+      },
+      "source_pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697"
+    }
+  ],
+  "human_verified_count": 0,
+  "schema_version": "006b.failure-cases.1",
+  "selection": "Post-score explanatory examples, no method or reference changes",
+  "verification": "agent_visual_checked"
+}
