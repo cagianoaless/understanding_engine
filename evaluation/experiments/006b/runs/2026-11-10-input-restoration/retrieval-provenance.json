@@ -1,0 +1,72 @@
+{
+  "schema_version": "006b.original-pdf-provenance.1",
+  "date": "2026-11-10",
+  "attention": "Original registered local file independently verified, copied byte-for-byte, verified again; original unchanged",
+  "bert": {
+    "source_url": "https://arxiv.org/pdf/1810.04805v2",
+    "http_status": 200,
+    "final_url": {
+      "origin_and_path": "https://arxiv.org/pdf/1810.04805v2",
+      "query_keys": [],
+      "exact_url_sha256": "1b6e847e2087d0de18ed57bb8c182743870e73f35f33b2c38e33d30dd0ad80af"
+    },
+    "actual_bytes": 775166,
+    "sha256": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e"
+  },
+  "nature": {
+    "source_url": "https://www.nature.com/articles/s41586-024-08328-6.pdf",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "advertised_bytes": 16957699,
+    "actual_bytes": 16957699,
+    "sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+    "redirects": [
+      {
+        "status": 303,
+        "origin_and_path": "https://idp.nature.com/authorize",
+        "query_keys": [
+          "client_id",
+          "redirect_uri",
+          "response_type"
+        ],
+        "exact_url_sha256": "12a670754401230cc5badff77cc0d8500dff4115b08217d0aef01ae3ad28b115"
+      },
+      {
+        "status": 302,
+        "origin_and_path": "https://idp.nature.com/transit",
+        "query_keys": [
+          "code",
+          "redirect_uri"
+        ],
+        "exact_url_sha256": "ee522b8d75ea3513c6b659f688ceeefd10bac059efa3466fb0fd75ea4b75eef0"
+      },
+      {
+        "status": 302,
+        "origin_and_path": "https://www.nature.com/articles/s41586-024-08328-6.pdf",
+        "query_keys": [
+          "code",
+          "error"
+        ],
+        "exact_url_sha256": "9705be72dffc2e6d7735ce339d4284b82dd8b18be06bcd320c1295d55c229710"
+      }
+    ],
+    "final_url": {
+      "origin_and_path": "https://www.nature.com/articles/s41586-024-08328-6.pdf",
+      "query_keys": [
+        "code",
+        "error"
+      ],
+      "exact_url_sha256": "9705be72dffc2e6d7735ce339d4284b82dd8b18be06bcd320c1295d55c229710"
+    },
+    "client_python": "3.9.6 (default, Aug  8 2025, 19:06:38) \n[Clang 17.0.0 (clang-1700.3.19.1)]",
+    "client_ssl": "LibreSSL 2.8.3",
+    "metadata_verification_python": "3.11.13",
+    "metadata_reader": "existing pypdf 6.1.1",
+    "transport_notes": "Two portable-client responses were HTTP 200 text/html, 3038 advertised bytes, rejected. A bounded native-client prefix probe read/discarded 65537 bytes; HEAD then advertised the exact PDF. Native stdlib GET from the identical recorded URL returned the exact expected PDF. No alternate paper/revision/rendering, credential/cookie-store access or PDF transformation occurred; transport-cause diagnosis is not asserted."
+  },
+  "accepted_new_pdf_http_payload_bytes": 17732865,
+  "additional_diagnostic_prefix_bytes_read": 65537,
+  "wire_traffic_bytes": "UNKNOWN; headers/TLS and prefetched rejected HTML were not measured",
+  "opaque_publisher_query_values": "Retained only in local raw evidence; query names and exact URL hashes committed",
+  "initial_rejected_and_resume_records_preserved": true
+}

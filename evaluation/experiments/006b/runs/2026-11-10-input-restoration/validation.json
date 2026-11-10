@@ -1,0 +1,23 @@
+{
+  "schema_version": "006b.input-verification.1",
+  "offline_reverification": {
+    "all_inputs_ready": true,
+    "verified_documents": 3,
+    "selected_pages_verified": 6,
+    "inference_invocations": 0
+  },
+  "targeted_test_file": "tests/test_input_restoration.py",
+  "targeted_tests_passed": 14,
+  "failed": 0,
+  "skipped": 0,
+  "source_registry_unchanged": true,
+  "no_text_extraction_or_inference": true,
+  "input_root_outside_all_git_roots": true,
+  "private_root_mode": "0700",
+  "active_inclusive_cap_bytes": 6442450944,
+  "active_host_reserve_bytes": 21474836480,
+  "highest_observed_registered_allocated_bytes": 4848283648,
+  "lowest_observed_host_available_bytes": 30258515968,
+  "final_input_root_allocated_bytes": 20844544,
+  "allocation_caveat": "Allocated-block snapshots, not APFS-exclusive allocation or network-wire counts. Existing limits unchanged; no runtime/API preflight was run."
+}

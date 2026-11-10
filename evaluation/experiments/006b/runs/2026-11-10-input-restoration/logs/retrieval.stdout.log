@@ -1,0 +1,37 @@
+{
+  "root": "$INPUT_ROOT",
+  "all_inputs_ready": false,
+  "documents": [
+    {
+      "document_id": "attention",
+      "selected_pages": [
+        6,
+        9
+      ],
+      "status": "ACCEPTED",
+      "actual_bytes": 2215244,
+      "actual_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "page_count": 15
+    },
+    {
+      "document_id": "bert",
+      "selected_pages": [
+        6,
+        10
+      ],
+      "status": "ACCEPTED",
+      "actual_bytes": 775166,
+      "actual_sha256": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e",
+      "page_count": 16
+    },
+    {
+      "document_id": "tabpfn_nature_2025",
+      "selected_pages": [
+        15,
+        19
+      ],
+      "status": "REJECTED",
+      "reason": "Publisher Content-Length mismatch"
+    }
+  ]
+}
