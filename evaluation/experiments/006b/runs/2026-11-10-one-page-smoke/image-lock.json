@@ -1,0 +1,64 @@
+{
+  "schema_version": "006b.python-image-lock.1",
+  "registry": "registry-1.docker.io",
+  "repository": "library/python",
+  "requested_tag": "3.11.13-slim-bookworm",
+  "index_digest": "sha256:86adf8dbadc3d6e82ee5dd2c74bec2e1c2467cdad47886280501df722372d2e1",
+  "platform_manifest_digest": "sha256:18ce9b03d18802119f4f9270d10a1ceb45d0acb768c305b7fbbd7c6b5b5a020b",
+  "image": "python@sha256:18ce9b03d18802119f4f9270d10a1ceb45d0acb768c305b7fbbd7c6b5b5a020b",
+  "config_digest": "sha256:f761e72cbf291a9129bbb50e0ea9e58ee70bd5124339669967028a990808a783",
+  "platform": "linux/arm64/v8",
+  "python": "3.11.13",
+  "layers": [
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:f4e51325a7cb57cd9ae67bd9540483838b96bf7c9b0bf18205d9d30819e9ca38",
+      "size": 28102145
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:bc485fc81f576df778489ef74d8c3ca20bfc6e1e4606c72cf43d16d51ed1d68f",
+      "size": 3349172
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:ffe6392fd24734d2d6e6e5fb42085239463c1a0fe6c45fbea1ab919d46ae31d4",
+      "size": 16146079
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:123d7f46036e24ad16fac44edc18d67861a25977eb3f799bb0d2477499123330",
+      "size": 249
+    }
+  ],
+  "expected_compressed_layer_bytes": 47597645,
+  "metadata_body_bytes": 21786,
+  "requests": [
+    {
+      "url": "https://auth.docker.io/token?service=registry.docker.io&scope=repository:library/python:pull",
+      "bytes": 5489,
+      "sha256": "50dc15c9e572c4b398de245a2248515c69b736bd2f0de351d0864d8ff812aae3",
+      "docker_content_digest": null
+    },
+    {
+      "url": "https://registry-1.docker.io/v2/library/python/manifests/3.11.13-slim-bookworm",
+      "bytes": 9131,
+      "sha256": "86adf8dbadc3d6e82ee5dd2c74bec2e1c2467cdad47886280501df722372d2e1",
+      "docker_content_digest": "sha256:86adf8dbadc3d6e82ee5dd2c74bec2e1c2467cdad47886280501df722372d2e1"
+    },
+    {
+      "url": "https://registry-1.docker.io/v2/library/python/manifests/sha256:18ce9b03d18802119f4f9270d10a1ceb45d0acb768c305b7fbbd7c6b5b5a020b",
+      "bytes": 1754,
+      "sha256": "18ce9b03d18802119f4f9270d10a1ceb45d0acb768c305b7fbbd7c6b5b5a020b",
+      "docker_content_digest": "sha256:18ce9b03d18802119f4f9270d10a1ceb45d0acb768c305b7fbbd7c6b5b5a020b"
+    },
+    {
+      "url": "https://registry-1.docker.io/v2/library/python/blobs/sha256:f761e72cbf291a9129bbb50e0ea9e58ee70bd5124339669967028a990808a783",
+      "bytes": 5412,
+      "sha256": "f761e72cbf291a9129bbb50e0ea9e58ee70bd5124339669967028a990808a783",
+      "docker_content_digest": null
+    }
+  ],
+  "auth_token_persisted": false,
+  "image_layers_acquired_by_scout": 0
+}

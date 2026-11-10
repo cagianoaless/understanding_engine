@@ -1,0 +1,215 @@
+{
+  "schema_version": "006b.smoke-resources.1",
+  "active_cap_bytes": 6442450944,
+  "host_reserve_bytes": 21474836480,
+  "initial_allocated_bytes": 2457731072,
+  "highest_observed_allocated_bytes": 4826791936,
+  "retained_allocated_bytes": 4826791936,
+  "minimum_observed_host_available_bytes": 30317051904,
+  "retained_host_available_bytes": 30317051904,
+  "guest_final_filesystems": [
+    {
+      "filesystem": "/dev/root",
+      "available_bytes": 2123157504,
+      "mount": "/"
+    },
+    {
+      "filesystem": "/dev/vdb1",
+      "available_bytes": 2795560960,
+      "mount": "/var/lib/docker"
+    }
+  ],
+  "retained_roots": {
+    "$CPU_RAW": {
+      "allocated_bytes": 63356928,
+      "logical_bytes": 62341544,
+      "regular_files": 444,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$EXPERIMENT006_RAW": {
+      "allocated_bytes": 53460992,
+      "logical_bytes": 52583251,
+      "regular_files": 356,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$HOME/.colima": {
+      "allocated_bytes": 3368280064,
+      "logical_bytes": 9684409898,
+      "regular_files": 26,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$HOME/Library/Caches/colima": {
+      "allocated_bytes": 0,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0,
+      "exists": false
+    },
+    "$HOME/Library/Caches/lima": {
+      "allocated_bytes": 0,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0,
+      "exists": false
+    },
+    "$HOME/Library/Logs/Homebrew/colima": {
+      "allocated_bytes": 0,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0,
+      "exists": false
+    },
+    "$HOME/Library/Logs/Homebrew/docker": {
+      "allocated_bytes": 0,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0,
+      "exists": false
+    },
+    "$HOME/Library/Logs/Homebrew/lima": {
+      "allocated_bytes": 0,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0,
+      "exists": false
+    },
+    "$PREFLIGHT_RAW": {
+      "allocated_bytes": 149458944,
+      "logical_bytes": 146713950,
+      "regular_files": 1220,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$REPO_artifacts/experiment-006b-local/20261109T101525+0100": {
+      "allocated_bytes": 442957824,
+      "logical_bytes": 436355941,
+      "regular_files": 853,
+      "symlinks_not_followed": 6,
+      "exists": true
+    },
+    "/opt/homebrew/Cellar/colima/0.10.3": {
+      "allocated_bytes": 10612736,
+      "logical_bytes": 10579928,
+      "regular_files": 14,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "/opt/homebrew/Cellar/docker/29.9.3": {
+      "allocated_bytes": 29204480,
+      "logical_bytes": 29175374,
+      "regular_files": 17,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "/opt/homebrew/Cellar/lima/2.3.0": {
+      "allocated_bytes": 113516544,
+      "logical_bytes": 113026468,
+      "regular_files": 157,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$ARCHIVE_RAW": {
+      "allocated_bytes": 406822912,
+      "logical_bytes": 389222907,
+      "regular_files": 455,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$SMOKE_RAW": {
+      "allocated_bytes": 189120512,
+      "logical_bytes": 174935236,
+      "regular_files": 102,
+      "symlinks_not_followed": 0,
+      "exists": true
+    }
+  },
+  "candidate_allocated_bytes": 1319063552,
+  "candidate_logical_bytes": 1250810900,
+  "maximum_observed_temporary_directory_allocated_bytes": 1319059456,
+  "temporary_sampling_seconds_approximately": 2,
+  "temporary_caveat": "Observed sample maximum, not a filesystem high-water counter. pip --target staged the entire candidate in the new volume then moved it; tmp/candidate maxima must not be added as simultaneous copies.",
+  "runtime_manifest_compressed_layer_bytes": 47597645,
+  "docker_reported_size_bytes": 47604811,
+  "runtime_setup_observed_allocation_growth_before_wheel_copy_bytes": 234725376,
+  "runtime_size_caveat": "The initial runtime stdout misnamed Docker API Size as unpacked bytes; it is not allocation. Corrected controller labels it Docker reported size. Actual observed runtime-setup delta includes compressed content, unpacked layers, new stopped-check-container/volume state and other small VM writes.",
+  "phase_observations": {
+    "runtime-pull.resources.json": {
+      "exit_code": 0,
+      "stop_reason": null,
+      "elapsed_seconds": 74.679022292,
+      "observed_max_allocated_bytes": 2512486400,
+      "observed_min_host_available_bytes": 34185043968,
+      "sample_count": 118,
+      "growth_reservation_bytes": 536870912
+    },
+    "copy-model.resources.json": {
+      "exit_code": 0,
+      "stop_reason": null,
+      "elapsed_seconds": 1.0480976659999968,
+      "observed_max_allocated_bytes": 4650053632,
+      "observed_min_host_available_bytes": 31545659392,
+      "sample_count": 3,
+      "growth_reservation_bytes": 238771572
+    },
+    "copy-wheels.resources.json": {
+      "exit_code": 0,
+      "stop_reason": null,
+      "elapsed_seconds": 2.049657875,
+      "observed_max_allocated_bytes": 2692653056,
+      "observed_min_host_available_bytes": 34612400128,
+      "sample_count": 6,
+      "growth_reservation_bytes": 446688985
+    },
+    "candidate-install.resources.json": {
+      "exit_code": 0,
+      "stop_reason": null,
+      "elapsed_seconds": 11.213295709,
+      "observed_max_allocated_bytes": 4082073600,
+      "observed_min_host_available_bytes": 33220075520,
+      "sample_count": 29,
+      "growth_reservation_bytes": 2108878848
+    },
+    "import-check.resources.json": {
+      "exit_code": 137,
+      "stop_reason": "STOP: stage growth reservation exceeded",
+      "elapsed_seconds": 3.79715575,
+      "observed_max_allocated_bytes": 4458328064,
+      "observed_min_host_available_bytes": 31769874432,
+      "sample_count": 9,
+      "growth_reservation_bytes": 67108864
+    },
+    "import-check-complete.resources.json": {
+      "exit_code": 0,
+      "stop_reason": null,
+      "elapsed_seconds": 9.148067958,
+      "observed_max_allocated_bytes": 4460875776,
+      "observed_min_host_available_bytes": 31762034688,
+      "sample_count": 29,
+      "growth_reservation_bytes": 536870912
+    },
+    "single-page.resources.json": {
+      "exit_code": 0,
+      "stop_reason": null,
+      "elapsed_seconds": 10.244979875,
+      "observed_max_allocated_bytes": 4826222592,
+      "observed_min_host_available_bytes": 31368429568,
+      "sample_count": 33,
+      "growth_reservation_bytes": 536870912
+    }
+  },
+  "all_user_storage_and_host_reserve_observations_pass": true,
+  "sampling_caveat": "Observed allocated-block samples plus preventive growth admission and 128 MiB margin; not a claim to observe every sub-sample transient or APFS-exclusive block. Delayed guest/VZ writeback crosses phase boundaries; sync was used to reconcile before final attribution.",
+  "historical_provisioning_peak": "UNKNOWN; unchanged",
+  "no_old_resource_cleanup_or_resize": true,
+  "all_vm_layers_models_archives_caches_duplicates_and_new_work_counted": true,
+  "new_exact_weight_body_bytes": 171658996,
+  "new_manifest_accounted_image_layer_bytes": 47597645,
+  "image_traffic_caveat": "All four layers reported download complete and digests were verified by the engine; protocol overhead/network packet bytes were not measured. Docker API Size must not substitute for allocated disk.",
+  "new_oci_metadata_body_bytes": 21786,
+  "new_license_source_body_bytes": 23776,
+  "carried_prior_download_accounting_including_allowances_bytes": 981529895,
+  "download_limit_bytes": null
+}

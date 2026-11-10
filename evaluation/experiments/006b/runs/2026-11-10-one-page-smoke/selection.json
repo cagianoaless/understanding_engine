@@ -1,0 +1,13 @@
+{
+  "schema_version": "006b.smoke-selection.1",
+  "document_id": "attention",
+  "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+  "page_number_one_based": 6,
+  "page_range": [6, 6],
+  "selection_rule": "First document and first page of the already frozen Experiment006b development selection, chosen before any candidate execution",
+  "original_pdf_unchanged": true,
+  "derivative_pdf": false,
+  "annotation_status": "agent_visual_checked",
+  "independent_human_verifications": 0,
+  "benchmark_pages_run": 0
+}

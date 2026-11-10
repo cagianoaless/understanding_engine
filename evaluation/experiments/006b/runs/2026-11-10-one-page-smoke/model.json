@@ -1,0 +1,45 @@
+{
+  "schema_version": "006b.acquired-heron.1",
+  "revision": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8",
+  "gate": "PASS",
+  "files": [
+    {
+      "filename": "config.json",
+      "bytes": 3268,
+      "sha256": "fdea30805ce2f5666b147fca941dcdd27ad468e27d6ed21902207d3da056a97d",
+      "source_url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/config.json",
+      "new_http_body_bytes": 0,
+      "allocated_bytes": 4096
+    },
+    {
+      "filename": "preprocessor_config.json",
+      "bytes": 444,
+      "sha256": "cd38cd59999e7a95d68e487fbe5132df3d4e5c32a0836add57e6126ba0c4eaf1",
+      "source_url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/preprocessor_config.json",
+      "new_http_body_bytes": 0,
+      "allocated_bytes": 4096
+    },
+    {
+      "filename": "model.safetensors",
+      "bytes": 171658996,
+      "sha256": "00333a43451945aaf89db8ca9c0a17e75d1537c17db60fdb91aa95f4c7929e0c",
+      "source_url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/model.safetensors",
+      "new_http_body_bytes": 171658996,
+      "allocated_bytes": 185597952
+    }
+  ],
+  "guest_verification": {
+    "verified_guest_model_files": 3,
+    "pdf_hash_verified": true
+  },
+  "new_http_body_bytes": 171658996,
+  "redirects_without_tokens": [
+    {
+      "host": "us.aws.cdn.hf.co",
+      "path_sha256": "b80cb113be283f49243f88864f7a7812369a73180984ee2a555026503a9eb4b4",
+      "status": 302
+    }
+  ],
+  "extra_model_acquisitions": 0,
+  "cached_configs_copied_with_frozen_hashes": true
+}

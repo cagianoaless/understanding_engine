@@ -1,0 +1,966 @@
+{
+  "schema_version": "006b.single-page-output.1",
+  "producer": "Docling 2.148.0; native predictions, not verified ground truth",
+  "source_pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+  "page_number": 6,
+  "page_metadata": {
+    "size": {
+      "width": 612.0,
+      "height": 792.0
+    },
+    "page_no": 6
+  },
+  "native_body_children": [
+    {
+      "$ref": "#/tables/0"
+    },
+    {
+      "$ref": "#/texts/20"
+    },
+    {
+      "$ref": "#/texts/21"
+    },
+    {
+      "$ref": "#/texts/22"
+    },
+    {
+      "$ref": "#/texts/23"
+    },
+    {
+      "$ref": "#/texts/24"
+    },
+    {
+      "$ref": "#/texts/25"
+    },
+    {
+      "$ref": "#/texts/26"
+    },
+    {
+      "$ref": "#/texts/27"
+    },
+    {
+      "$ref": "#/texts/28"
+    },
+    {
+      "$ref": "#/texts/29"
+    },
+    {
+      "$ref": "#/texts/30"
+    },
+    {
+      "$ref": "#/texts/31"
+    }
+  ],
+  "native_items_in_traversal_order": [
+    {
+      "order_index": 0,
+      "self_ref": "#/tables/0",
+      "label": "table",
+      "text": null,
+      "level": 1,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 117.45829772949219,
+            "t": 680.1777420043945,
+            "r": 494.3563537597656,
+            "b": 604.6787872314453,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 1,
+      "self_ref": "#/texts/0",
+      "label": "caption",
+      "text": "Table 1: Maximum path lengths, per-layer complexity and minimum number of sequential operations for different layer types. n is the sequence length, d is the representation dimension, k is the kernel size of convolutions and r the size of the neighborhood in restricted self-attention.",
+      "level": 2,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 107.691,
+            "t": 719.7306526,
+            "r": 504.00352578800005,
+            "b": 689.3607743929203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            285
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 2,
+      "self_ref": "#/texts/1",
+      "label": "text",
+      "text": "Layer Type",
+      "level": 3,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 124.547,
+            "t": 674.2916526,
+            "r": 169.94656820000003,
+            "b": 665.7397743929204,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 3,
+      "self_ref": "#/texts/2",
+      "label": "text",
+      "text": "Complexity per Layer Sequential Maximum Path Length",
+      "level": 3,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 239.70469340000002,
+            "t": 674.2916526,
+            "r": 487.45463019999966,
+            "b": 665.7397743929204,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            51
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 4,
+      "self_ref": "#/texts/3",
+      "label": "text",
+      "text": "Operations",
+      "level": 3,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 339.499,
+            "t": 663.3826526,
+            "r": 383.21488879999987,
+            "b": 654.8307743929204,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 5,
+      "self_ref": "#/texts/4",
+      "label": "text",
+      "text": "Self-Attention",
+      "level": 3,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 124.547,
+            "t": 650.7456526,
+            "r": 181.55299720000005,
+            "b": 642.1937743929203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 6,
+      "self_ref": "#/texts/5",
+      "label": "text",
+      "text": "O(n2 · d)",
+      "level": 3,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 264.39599999999996,
+            "t": 652.6381054,
+            "r": 302.8514551399999,
+            "b": 642.3578898772334,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 7,
+      "self_ref": "#/texts/6",
+      "label": "text",
+      "text": "O(1)",
+      "level": 3,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 351.0539999999999,
+            "t": 651.0644558,
+            "r": 371.6602102799999,
+            "b": 642.3578898772334,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 8,
+      "self_ref": "#/texts/7",
+      "label": "text",
+      "text": "O(1)",
+      "level": 3,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 431.0079999999999,
+            "t": 651.0644558,
+            "r": 451.6142102799999,
+            "b": 642.3578898772334,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 9,
+      "self_ref": "#/texts/8",
+      "label": "text",
+      "text": "Recurrent",
+      "level": 3,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 124.54699999999991,
+            "t": 639.3626525999999,
+            "r": 163.82953179999996,
+            "b": 630.8107743929203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 10,
+      "self_ref": "#/texts/9",
+      "label": "text",
+      "text": "O(n · d2 )",
+      "level": 3,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 264.3959999999999,
+            "t": 641.2561053999999,
+            "r": 302.8514551399999,
+            "b": 630.9748898772334,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 11,
+      "self_ref": "#/texts/10",
+      "label": "text",
+      "text": "O(n)",
+      "level": 3,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 350.5539999999999,
+            "t": 639.6814558,
+            "r": 372.1594551399999,
+            "b": 630.9748898772334,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 12,
+      "self_ref": "#/texts/11",
+      "label": "text",
+      "text": "O(n)",
+      "level": 3,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 430.5089999999999,
+            "t": 639.6814558,
+            "r": 452.1134551399999,
+            "b": 630.9748898772334,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 13,
+      "self_ref": "#/texts/12",
+      "label": "text",
+      "text": "Convolutional",
+      "level": 3,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 124.54699999999991,
+            "t": 627.9806526,
+            "r": 180.96520379999995,
+            "b": 619.4287743929203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 14,
+      "self_ref": "#/texts/13",
+      "label": "text",
+      "text": "O(k · n · d2 )",
+      "level": 3,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 258.0489999999999,
+            "t": 629.8731054,
+            "r": 309.19845513999996,
+            "b": 619.5928898772335,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 15,
+      "self_ref": "#/texts/14",
+      "label": "text",
+      "text": "O(1)",
+      "level": 3,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 351.054,
+            "t": 628.2994558,
+            "r": 371.66021027999994,
+            "b": 619.5928898772335,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 16,
+      "self_ref": "#/texts/15",
+      "label": "text",
+      "text": "O(logk(n))",
+      "level": 3,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 417.80899999999997,
+            "t": 628.2994558,
+            "r": 464.81391028,
+            "b": 618.6685267325648,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 17,
+      "self_ref": "#/texts/16",
+      "label": "text",
+      "text": "Self-Attention (restricted)",
+      "level": 3,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 124.54700000000003,
+            "t": 617.0716526,
+            "r": 227.74957340000012,
+            "b": 608.5197743929203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 18,
+      "self_ref": "#/texts/17",
+      "label": "text",
+      "text": "O(r · n · d)",
+      "level": 3,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 260.648,
+            "t": 617.3904558,
+            "r": 306.59945514000003,
+            "b": 608.6838898772335,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 19,
+      "self_ref": "#/texts/18",
+      "label": "text",
+      "text": "O(1)",
+      "level": 3,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 351.05400000000003,
+            "t": 617.3904558,
+            "r": 371.66021028,
+            "b": 608.6838898772335,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 20,
+      "self_ref": "#/texts/19",
+      "label": "text",
+      "text": "O(n/r)",
+      "level": 3,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 425.63300000000004,
+            "t": 617.3904558,
+            "r": 456.99045514000005,
+            "b": 608.6838898772335,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 21,
+      "self_ref": "#/texts/20",
+      "label": "section_header",
+      "text": "3.5 Positional Encoding",
+      "level": 1,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 108.0,
+            "t": 577.437194,
+            "r": 215.19757600000005,
+            "b": 568.4808166,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 22,
+      "self_ref": "#/texts/21",
+      "label": "text",
+      "text": "Since our model contains no recurrence and no convolution, in order for the model to make use of the order of the sequence, we must inject some information about the relative or absolute position of the tokens in the sequence. To this end, we add \"positional encodings\" to the input embeddings at the bottoms of the encoder and decoder stacks. The positional encodings have the same dimension dmodel as the embeddings, so that the two can be summed. There are many choices of positional encodings, learned and fixed [9].",
+      "level": 1,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 108.0,
+            "t": 557.0736526,
+            "r": 505.24786557900006,
+            "b": 493.97677439292033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            520
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 23,
+      "self_ref": "#/texts/22",
+      "label": "text",
+      "text": "In this work, we use sine and cosine functions of different frequencies:",
+      "level": 1,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 108.0,
+            "t": 486.1396526,
+            "r": 389.8618791999997,
+            "b": 477.5877743929203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            72
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 24,
+      "self_ref": "#/texts/23",
+      "label": "formula",
+      "text": "",
+      "level": 1,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 225.69400000000002,
+            "t": 455.1461054,
+            "r": 386.3064551400001,
+            "b": 426.26852673256485,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            77
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 25,
+      "self_ref": "#/texts/24",
+      "label": "text",
+      "text": "where pos is the position and i is the dimension. That is, each dimension of the positional encoding corresponds to a sinusoid. The wavelengths form a geometric progression from 2π to 10000 · 2π. We chose this function because we hypothesized it would allow the model to easily learn to attend by relative positions, since for any fixed offset k, PEpos+k can be represented as a linear function of P Epos.",
+      "level": 1,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 107.641,
+            "t": 413.72745580000003,
+            "r": 504.34271355599935,
+            "b": 360.4615267325648,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            405
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 26,
+      "self_ref": "#/texts/25",
+      "label": "text",
+      "text": "We also experimented with using learned positional embeddings [9] instead, and found that the two versions produced nearly identical results (see Table 3 row (E)). We chose the sinusoidal version because it may allow the model to extrapolate to sequence lengths longer than the ones encountered during training.",
+      "level": 1,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 107.532,
+            "t": 353.3836526,
+            "r": 504.00225688799924,
+            "b": 312.1047743929203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            311
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 27,
+      "self_ref": "#/texts/26",
+      "label": "section_header",
+      "text": "4 Why Self-Attention",
+      "level": 1,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 108.0,
+            "t": 294.186088,
+            "r": 225.04140800000008,
+            "b": 283.4383632,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 28,
+      "self_ref": "#/texts/27",
+      "label": "text",
+      "text": "In this section we compare various aspects of self-attention layers to the recurrent and convolutional layers commonly used for mapping one variable-length sequence of symbol representations (x1, ..., xn) to another sequence of equal length (z1, ..., zn), with xi, zi ∈ Rd , such as a hidden layer in a typical sequence transduction encoder or decoder. Motivating our use of self-attention we consider three desiderata.",
+      "level": 1,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 106.834,
+            "t": 269.4696526,
+            "r": 505.6535924639992,
+            "b": 217.28077439292042,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            419
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 29,
+      "self_ref": "#/texts/28",
+      "label": "text",
+      "text": "One is the total computational complexity per layer. Another is the amount of computation that can be parallelized, as measured by the minimum number of sequential operations required.",
+      "level": 1,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 108.0,
+            "t": 209.44465260000004,
+            "r": 504.0004882833993,
+            "b": 189.9837743929204,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            184
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 30,
+      "self_ref": "#/texts/29",
+      "label": "text",
+      "text": "The third is the path length between long-range dependencies in the network. Learning long-range dependencies is a key challenge in many sequence transduction tasks. One key factor affecting the ability to learn such dependencies is the length of the paths forward and backward signals have to traverse in the network. The shorter these paths between any combination of positions in the input and output sequences, the easier it is to learn long-range dependencies [12]. Hence we also compare the maximum path length between any two input and output positions in networks composed of the different layer types.",
+      "level": 1,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 107.691,
+            "t": 182.14665260000004,
+            "r": 504.00140484420035,
+            "b": 108.14077439292032,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            610
+          ]
+        }
+      ]
+    },
+    {
+      "order_index": 31,
+      "self_ref": "#/texts/30",
+      "label": "text",
+      "text": "As noted in Table 1, a self-attention layer connects all positions with a constant number of sequentially executed operations, whereas a recurrent layer requires O(n) sequential operations. In terms of computational complexity, self-attention layers are faster than recurrent layers when the sequence",
+      "level": 1,
+      "provenance": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 107.641,
+            "t": 100.30365259999996,
+            "r": 504.34535593599963,
+            "b": 69.93377439292033,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            300
+          ]
+        }
+      ]
+    }
+  ],
+  "layout_clusters": [
+    {
+      "id": 8,
+      "label": "caption",
+      "confidence": 0.9627816677093506,
+      "bbox": {
+        "l": 107.691,
+        "t": 72.26934740000002,
+        "r": 504.00352578800005,
+        "b": 102.63922560707965,
+        "coord_origin": "TOPLEFT"
+      }
+    },
+    {
+      "id": 6,
+      "label": "table",
+      "confidence": 0.9794353246688843,
+      "bbox": {
+        "l": 117.45829772949219,
+        "t": 111.82225799560547,
+        "r": 494.3563537597656,
+        "b": 187.3212127685547,
+        "coord_origin": "TOPLEFT"
+      }
+    },
+    {
+      "id": 11,
+      "label": "section_header",
+      "confidence": 0.9298664331436157,
+      "bbox": {
+        "l": 108.0,
+        "t": 214.56280600000002,
+        "r": 215.19757600000005,
+        "b": 223.51918339999997,
+        "coord_origin": "TOPLEFT"
+      }
+    },
+    {
+      "id": 1,
+      "label": "text",
+      "confidence": 0.9866747260093689,
+      "bbox": {
+        "l": 108.0,
+        "t": 234.92634740000005,
+        "r": 505.24786557900006,
+        "b": 298.02322560707967,
+        "coord_origin": "TOPLEFT"
+      }
+    },
+    {
+      "id": 9,
+      "label": "text",
+      "confidence": 0.9451754689216614,
+      "bbox": {
+        "l": 108.0,
+        "t": 305.8603474,
+        "r": 389.8618791999997,
+        "b": 314.4122256070797,
+        "coord_origin": "TOPLEFT"
+      }
+    },
+    {
+      "id": 13,
+      "label": "formula",
+      "confidence": 0.8067929744720459,
+      "bbox": {
+        "l": 225.69400000000002,
+        "t": 336.8538946,
+        "r": 386.3064551400001,
+        "b": 365.73147326743515,
+        "coord_origin": "TOPLEFT"
+      }
+    },
+    {
+      "id": 3,
+      "label": "text",
+      "confidence": 0.9853598475456238,
+      "bbox": {
+        "l": 107.641,
+        "t": 378.27254419999997,
+        "r": 504.34271355599935,
+        "b": 431.5384732674352,
+        "coord_origin": "TOPLEFT"
+      }
+    },
+    {
+      "id": 4,
+      "label": "text",
+      "confidence": 0.9850932359695435,
+      "bbox": {
+        "l": 107.532,
+        "t": 438.6163474,
+        "r": 504.00225688799924,
+        "b": 479.8952256070797,
+        "coord_origin": "TOPLEFT"
+      }
+    },
+    {
+      "id": 10,
+      "label": "section_header",
+      "confidence": 0.9418274164199829,
+      "bbox": {
+        "l": 108.0,
+        "t": 497.813912,
+        "r": 225.04140800000008,
+        "b": 508.5616368,
+        "coord_origin": "TOPLEFT"
+      }
+    },
+    {
+      "id": 2,
+      "label": "text",
+      "confidence": 0.9858953356742859,
+      "bbox": {
+        "l": 106.834,
+        "t": 522.5303474,
+        "r": 505.6535924639992,
+        "b": 574.7192256070796,
+        "coord_origin": "TOPLEFT"
+      }
+    },
+    {
+      "id": 7,
+      "label": "text",
+      "confidence": 0.9704678654670715,
+      "bbox": {
+        "l": 108.0,
+        "t": 582.5553474,
+        "r": 504.0004882833993,
+        "b": 602.0162256070796,
+        "coord_origin": "TOPLEFT"
+      }
+    },
+    {
+      "id": 0,
+      "label": "text",
+      "confidence": 0.9890323281288147,
+      "bbox": {
+        "l": 107.691,
+        "t": 609.8533474,
+        "r": 504.00140484420035,
+        "b": 683.8592256070797,
+        "coord_origin": "TOPLEFT"
+      }
+    },
+    {
+      "id": 5,
+      "label": "text",
+      "confidence": 0.9842779040336609,
+      "bbox": {
+        "l": 107.641,
+        "t": 691.6963474,
+        "r": 504.34535593599963,
+        "b": 722.0662256070797,
+        "coord_origin": "TOPLEFT"
+      }
+    },
+    {
+      "id": 12,
+      "label": "page_footer",
+      "confidence": 0.847447395324707,
+      "bbox": {
+        "l": 303.509,
+        "t": 743.4023474,
+        "r": 308.4903,
+        "b": 751.9542256070796,
+        "coord_origin": "TOPLEFT"
+      }
+    }
+  ],
+  "coordinate_caveat": "Native Docling provenance and layout coordinates preserved with their own origin metadata; no mapping to Structure0.2 character IDs, crop or rotation transforms is asserted.",
+  "charspan_caveat": "Docling charspan indexes its own text item, not authoritative PDF characters; no Structure0.2 character crosswalk exists.",
+  "table_grid_reconstruction": false,
+  "formula_recognition_or_latex_conversion": false
+}

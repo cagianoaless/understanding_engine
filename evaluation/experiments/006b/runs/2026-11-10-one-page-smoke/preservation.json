@@ -1,0 +1,14 @@
+{
+  "schema_version": "006b.smoke-preservation.1",
+  "parent_commit": "4104548e2779d8c44d9e000f2d364dc22271ecc8",
+  "old_tracked_files_identical": 281,
+  "changed_old_paths": [],
+  "old_file_hash_manifest_sha256": "3b05789fd5d44b7b50f4bbc1ff4ba317d0096f4bc332307b2744892d73329aad",
+  "colima_config_sha256": "31138994e6ea01d8b354bf2d8e3f7c310c047ff57f8dac85759efe5379aff55a",
+  "matches_previous_config": true,
+  "docker_context_before_and_after": "default",
+  "existing_host_python_and_conda_not_modified": true,
+  "frozen_annotations_and_previous_reports_not_modified": true,
+  "original_attention_pdf_unchanged": true,
+  "other_frozen_sources": "BERT and Nature PDFs absent at registered temporary paths; bounded workspace/Spotlight filename search found no replacements. Not acquired, substituted or deliberately modified by this run."
+}
