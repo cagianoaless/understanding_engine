@@ -1,0 +1,22 @@
+{
+  "mapping": "$INPUT_ROOT/input-remapping.verified.local.json",
+  "nature": {
+    "actual_bytes": 16957699,
+    "expected_bytes": 16957699,
+    "actual_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+    "expected_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+    "page_count": 23,
+    "selected_pages": [
+      15,
+      19
+    ],
+    "all_selected_pages_exist": true,
+    "metadata_only": true
+  },
+  "readiness": {
+    "all_inputs_ready": true,
+    "verified_documents": 3,
+    "selected_pages_verified": 6,
+    "inference_invocations": 0
+  }
+}

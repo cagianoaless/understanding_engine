@@ -1,0 +1,40 @@
+{
+  "schema_version": "006b.input-path-overlay.1",
+  "registry": "evaluation/experiments/006b/source-inputs.json",
+  "registry_sha256": "4609502f6dcfae904f90be522d9a0ee1682b45eb7e515ac32ea9f3bc899a9469",
+  "scientific_registry_modified": false,
+  "overlay_changes": "Local file locations only; identity/revision/hash/page selection unchanged",
+  "local_canonical_manifest": "$INPUT_ROOT/input-remapping.complete.local.json",
+  "documents": [
+    {
+      "document_id": "attention",
+      "registered_original_available": true,
+      "verified_location": "$INPUT_ROOT/documents/1706.03762v7.pdf",
+      "sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "selected_pages": [
+        6,
+        9
+      ]
+    },
+    {
+      "document_id": "bert",
+      "registered_original_available": false,
+      "verified_location": "$INPUT_ROOT/documents/1810.04805v2.pdf",
+      "sha256": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e",
+      "selected_pages": [
+        6,
+        10
+      ]
+    },
+    {
+      "document_id": "tabpfn_nature_2025",
+      "registered_original_available": false,
+      "verified_location": "$INPUT_ROOT/documents/s41586-024-08328-6.pdf",
+      "sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "selected_pages": [
+        15,
+        19
+      ]
+    }
+  ]
+}

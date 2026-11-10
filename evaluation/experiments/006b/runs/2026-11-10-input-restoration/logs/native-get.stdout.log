@@ -1,0 +1,14 @@
+{
+  "source_url": "https://www.nature.com/articles/s41586-024-08328-6.pdf",
+  "python": "3.9.6 (default, Aug  8 2025, 19:06:38) \n[Clang 17.0.0 (clang-1700.3.19.1)]",
+  "ssl": "LibreSSL 2.8.3",
+  "accepted_as_original": false,
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "advertised_content_length": "16957699",
+  "actual_bytes": 16957699,
+  "actual_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+  "status": "BYTES_VERIFIED_PENDING_PAGE_TREE",
+  "path": "$INPUT_ROOT/documents/s41586-024-08328-6.pdf.native.part",
+  "new_http_body_bytes": 16957699
+}

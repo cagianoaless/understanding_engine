@@ -1,0 +1,17 @@
+{
+  "schema_version": "006b.input-readiness-summary.1",
+  "decision": "PDF_INPUTS_READY",
+  "verified_original_documents": 3,
+  "verified_frozen_page_pairs": 6,
+  "accepted_new_pdf_payload_bytes": 17732865,
+  "persistent_original_pdf_bytes": 19948109,
+  "targeted_offline_tests_passed": 14,
+  "inference_invocations": 0,
+  "benchmark_executed": false,
+  "scientific_source_identity_changes": false,
+  "local_path_remapping": true,
+  "previous_runs_rewritten": false,
+  "candidate_runtime_touched": false,
+  "cached_extraction_status": "Registered paths already unavailable; preserved as observed, not part of PDF restoration",
+  "next_step": "Use the explicit external path overlay for a separately authorized frozen comparison; no benchmark executed here."
+}
