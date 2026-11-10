@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "$REPO/evaluation/experiments/006b/runs/2026-11-10-one-page-smoke/control.py", line 228, in <module>
+    try:getattr(c,args.phase.replace("-","_"))()
+  File "$REPO/evaluation/experiments/006b/runs/2026-11-10-one-page-smoke/control.py", line 210, in finish_install
+    checked=self.job("import-check",self.docker+["exec",name,"python","-B","/ue/validate_install.py"],timeout=90,growth=64*1024**2,owner=name,guest_probe=probe)
+  File "$REPO/evaluation/experiments/006b/runs/2026-11-10-one-page-smoke/control.py", line 132, in job
+    if reason or p.returncode:raise RuntimeError(name+" failed: "+str(reason or p.returncode))
+RuntimeError: import-check failed: STOP: stage growth reservation exceeded

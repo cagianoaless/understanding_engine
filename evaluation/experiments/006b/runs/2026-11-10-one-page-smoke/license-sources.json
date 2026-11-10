@@ -1,0 +1,79 @@
+[
+  {
+    "name": "docling-tag",
+    "url": "https://api.github.com/repos/docling-project/docling/git/ref/tags/v2.148.0",
+    "bytes": 354,
+    "sha256": "e6d7adbeb32ce0631f6fee549a90afe413abf87b44085d42271c08f6eb370193",
+    "file": "license-sources/docling-tag.json"
+  },
+  {
+    "name": "docling-license",
+    "url": "https://github.com/docling-project/docling/blob/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/LICENSE",
+    "bytes": 1072,
+    "sha256": "edb765d1e3e60d0c7a7d5fba5f2bb2c3c29f7465cecb5c22cf1185c884954e4c",
+    "file": "license-sources/docling-license.txt"
+  },
+  {
+    "name": "latex-tag",
+    "url": "https://api.github.com/repos/roniemartinez/latex2mathml/git/ref/tags/3.81.1",
+    "bytes": 355,
+    "sha256": "f0e9ad4ca06a86a7993211631b0716bd316f2b037ef770057d7c750df16a8e3c",
+    "file": "license-sources/latex-tag.json"
+  },
+  {
+    "name": "latex-annotated-tag",
+    "url": "https://api.github.com/repos/roniemartinez/latex2mathml/git/tags/994752d5553ab813ffb8a17e049a1b3893b4cc80",
+    "bytes": 1396,
+    "sha256": "dcb6982f7c957b19e6b945412bfc5b93b98a1a5d9f30cd163afeb1bdf04ed75b",
+    "file": "license-sources/latex-annotated-tag.json"
+  },
+  {
+    "name": "latex-license",
+    "url": "https://github.com/roniemartinez/latex2mathml/blob/fb724a91658cf41d2fad0192da0845b05446f208/LICENSE",
+    "bytes": 1071,
+    "sha256": "4ac1e1da07f6b343d54191c5e1716840534e08591b3f9eaec90d6800cdc47543",
+    "file": "license-sources/latex-license.txt"
+  },
+  {
+    "name": "tokenizers-tag",
+    "url": "https://api.github.com/repos/huggingface/tokenizers/git/ref/tags/v0.23.3",
+    "bytes": 349,
+    "sha256": "f80735524098c006bd8864bdf6a121900c3875a8c5ba0c74334d0b4a4bec414b",
+    "file": "license-sources/tokenizers-tag.json"
+  },
+  {
+    "name": "tokenizers-annotated-tag",
+    "url": "https://api.github.com/repos/huggingface/tokenizers/git/tags/9ab7691f497eff905f961aba51a4bb9be3e9555c",
+    "bytes": 1466,
+    "sha256": "f1781ea663450e71605eb8b926bdbac7fa19a6cd4963e76134869f4a47bea6e1",
+    "file": "license-sources/tokenizers-annotated-tag.json"
+  },
+  {
+    "name": "tokenizers-license",
+    "url": "https://github.com/huggingface/tokenizers/blob/301277072263fb3830eb66eec7e47adadf76f1dc/LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "file": "license-sources/tokenizers-license.txt"
+  },
+  {
+    "name": "tokenizers-rust-manifest",
+    "url": "https://github.com/huggingface/tokenizers/blob/301277072263fb3830eb66eec7e47adadf76f1dc/tokenizers/Cargo.toml",
+    "bytes": 2765,
+    "sha256": "a7550a462a6e4da8f6ff6aa3420f25f189c5e7ec7303485e9e7e31c20aa6f3e3",
+    "file": "license-sources/tokenizers-rust-manifest.txt"
+  },
+  {
+    "name": "tokenizers-python-manifest",
+    "url": "https://github.com/huggingface/tokenizers/blob/301277072263fb3830eb66eec7e47adadf76f1dc/bindings/python/Cargo.toml",
+    "bytes": 1160,
+    "sha256": "b22e1ccb03566a1d4d30ffa415dee41be1f3bd7f4188f53c393e27154f45126d",
+    "file": "license-sources/tokenizers-python-manifest.txt"
+  },
+  {
+    "name": "tokenizers-python-project",
+    "url": "https://github.com/huggingface/tokenizers/blob/301277072263fb3830eb66eec7e47adadf76f1dc/bindings/python/pyproject.toml",
+    "bytes": 2431,
+    "sha256": "347e3689f7178cc8a12cd946a66710c9fe676fe092087d0b387d925dc5924963",
+    "file": "license-sources/tokenizers-python-project.txt"
+  }
+]

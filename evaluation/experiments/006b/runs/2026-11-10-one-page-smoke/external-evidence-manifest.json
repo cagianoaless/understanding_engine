@@ -1,0 +1,607 @@
+{
+  "schema_version": "006b.smoke-external-evidence.1",
+  "root": "$SMOKE_RAW outside every Git root; path withheld",
+  "files": [
+    {
+      "path": "after-install-writeback.json",
+      "bytes": 2926,
+      "sha256": "761b8eae022ce2baf9c513d1ca53db8d72d0194831b5f64e8f6183f7be361517",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "all-control-tests.stderr.log",
+      "bytes": 69,
+      "sha256": "d9814eb7c3607bcc3c971e7021efd8a5e8db85d6a52f0b5cc05f0a8e28132001",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "all-control-tests.stdout.log",
+      "bytes": 99,
+      "sha256": "fd6da8997275e3065b2a4edb61bb9649a1d5e7450b196d4f42bd7f8a759f2ebe",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "candidate-install.resources.json",
+      "bytes": 7719,
+      "sha256": "a94e69ef50b2f7d1e184c8a0e527ef0d2d734d934d83a4fad60743b11d394a45",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "candidate-install.samples.json",
+      "bytes": 94696,
+      "sha256": "ccc7150df3624376d1369c4c68e8a04db1ed295bad4cc5e1162e2353961f0d39",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "candidate-install.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "candidate-install.stdout.log",
+      "bytes": 14987,
+      "sha256": "23c115bdfe869e27d5165c33cccd521447029f4ac26c09957a097ec274a059c9",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "check-imports-phase.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "check-imports-phase.stdout.log",
+      "bytes": 826,
+      "sha256": "585c67b0a67015841819b3ef58abd7e3eed6379b1a8be3d3668ee07dd758c33b",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "commands.jsonl",
+      "bytes": 97602,
+      "sha256": "29a0359c2c7c0f38ef004345289ffc6d92012ce200dd0c8a53e96b9029ebe4c5",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "configuration.json",
+      "bytes": 613,
+      "sha256": "20bab322253fe8e28e78ef74cdd9edc5608da20ec3b639eea55bdb7655f2b5d6",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "control-source-initial.py",
+      "bytes": 14001,
+      "sha256": "6fca26fa9cae8160d04b2b68253bdb1678695f3b7c93eb74e4dd6ae502731634",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "control-source-install.py",
+      "bytes": 15011,
+      "sha256": "7ba26d27f069cbc38f4446b63adc3d10644d8e73eeccc962ccf91f3a440a3a07",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "control-tests-isolated.stderr.log",
+      "bytes": 139,
+      "sha256": "5bdf71bac68c4e1a60c6f493445234f8292c31cad944af5a9cc96493b741457c",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "control-tests-isolated.stdout.log",
+      "bytes": 98,
+      "sha256": "58745d8011883213acd6d3ad00c73a2860f68e432f60fc956b8cb2a8bb6d8181",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "control-tests.stderr.log",
+      "bytes": 1511,
+      "sha256": "afd1ae93ca0ffb3c7cfc000e7365624075ddd9915271f91bc17224811ebc282c",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "control-tests.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "copy-model.resources.json",
+      "bytes": 7492,
+      "sha256": "d1034ed0d435738a4d77e78cad472a587b92bb34bd3478c57c42f060a1369bb2",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "copy-model.samples.json",
+      "bytes": 9869,
+      "sha256": "dc41c2ce9ecb4c1f7d10c8a9b9a288c0506d52841171e2e715c92ae485025f09",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "copy-model.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "copy-model.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "copy-wheels.resources.json",
+      "bytes": 7438,
+      "sha256": "d426de7587026a1735b263b042810d86a14632d66937e85a64abb505bc68503b",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "copy-wheels.samples.json",
+      "bytes": 19400,
+      "sha256": "cfb2c361d71b4e5663b8a83d5ee4a99721cba79c537f9c87d3fb376923da29e5",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "copy-wheels.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "copy-wheels.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "finish-install-failure.json",
+      "bytes": 3264,
+      "sha256": "77487d3bae463c15eac75e59ea02f64d2b0f69d34c2389f567871662d40a8d21",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "finish-install.stderr.log",
+      "bytes": 923,
+      "sha256": "f78adf7291c5cb6956af3c6a75909118a86c6b4bf158279f5f1527ce12b381e4",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "finish-install.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "frozen-pdf-preservation.json",
+      "bytes": 670,
+      "sha256": "d8bd61dcfc9283b3291bd111fe3e9330ec65c08377dbbbfcf501b27b139b6b68",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "host-test-environment.json",
+      "bytes": 584,
+      "sha256": "2c169b967ce248532a42afe219bd9c1badc0468281cdc65ed30d5d8174415702",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "image-lock.json",
+      "bytes": 2806,
+      "sha256": "fc9dc18d9f238cb9f871db7559d8463524e1d5a436ecdffd185d9a7ed9ed041e",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "import-check-complete.resources.json",
+      "bytes": 7400,
+      "sha256": "b4fe5fe634fb5bd304553054895e4aefcc3063a3f2d915fe76a7f559614a6446",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "import-check-complete.samples.json",
+      "bytes": 93483,
+      "sha256": "1b10e48b204d84a636492cd92c7045b2fcc27b534ace45034534b80b7d98d6bd",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "import-check-complete.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "import-check-complete.stdout.log",
+      "bytes": 4169,
+      "sha256": "09afd73badab967c050334a6d202f8ff859d35ac73ec3d5be9747ebe3570c068",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "import-check.resources.json",
+      "bytes": 7436,
+      "sha256": "2c5c0b1f621cb5d36165c5f7ad1b839aac8e49564182ad0fbd955b66a292789b",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "import-check.samples.json",
+      "bytes": 29637,
+      "sha256": "f691482c852745aeec7d8d0d08debe84e73ee4c632fc44b25cc9c81f601f5126",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "import-check.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "import-check.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "import-report.json",
+      "bytes": 4169,
+      "sha256": "09afd73badab967c050334a6d202f8ff859d35ac73ec3d5be9747ebe3570c068",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "install-failure.json",
+      "bytes": 3314,
+      "sha256": "d0e74dcae016f77b6d1f2fa1c7053493339582afb62ad6f7acb42e18e5884807",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "install-report.json",
+      "bytes": 1438050,
+      "sha256": "e792166bbba0979a2886c1c4f925fb15e9403a24993154d9aa06ba33f44fca63",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "install.stderr.log",
+      "bytes": 1347,
+      "sha256": "a0e760c5801080fe57dcd407d9137fa00047ad6198ad5308a28432992dd8ac37",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "install.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "installation-complete.json",
+      "bytes": 31327,
+      "sha256": "97c61c1b51d1017ed127c68ebf1b6121fd55d53cce2d56fe02cdfcfd7785c7bc",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "license-source-manifest.json",
+      "bytes": 3396,
+      "sha256": "5230eefcb6fdb0e0856046f0c1ec88d879deed8f317c0f052f17d1ca09412623",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "license-sources/docling-license.txt",
+      "bytes": 1072,
+      "sha256": "edb765d1e3e60d0c7a7d5fba5f2bb2c3c29f7465cecb5c22cf1185c884954e4c",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "license-sources/docling-tag.json",
+      "bytes": 354,
+      "sha256": "e6d7adbeb32ce0631f6fee549a90afe413abf87b44085d42271c08f6eb370193",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "license-sources/latex-annotated-tag.json",
+      "bytes": 1396,
+      "sha256": "dcb6982f7c957b19e6b945412bfc5b93b98a1a5d9f30cd163afeb1bdf04ed75b",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "license-sources/latex-license.txt",
+      "bytes": 1071,
+      "sha256": "4ac1e1da07f6b343d54191c5e1716840534e08591b3f9eaec90d6800cdc47543",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "license-sources/latex-tag.json",
+      "bytes": 355,
+      "sha256": "f0e9ad4ca06a86a7993211631b0716bd316f2b037ef770057d7c750df16a8e3c",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "license-sources/tokenizers-annotated-tag.json",
+      "bytes": 1466,
+      "sha256": "f1781ea663450e71605eb8b926bdbac7fa19a6cd4963e76134869f4a47bea6e1",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "license-sources/tokenizers-license.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "license-sources/tokenizers-python-manifest.txt",
+      "bytes": 1160,
+      "sha256": "b22e1ccb03566a1d4d30ffa415dee41be1f3bd7f4188f53c393e27154f45126d",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "license-sources/tokenizers-python-project.txt",
+      "bytes": 2431,
+      "sha256": "347e3689f7178cc8a12cd946a66710c9fe676fe092087d0b387d925dc5924963",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "license-sources/tokenizers-rust-manifest.txt",
+      "bytes": 2765,
+      "sha256": "a7550a462a6e4da8f6ff6aa3420f25f189c5e7ec7303485e9e7e31c20aa6f3e3",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "license-sources/tokenizers-tag.json",
+      "bytes": 349,
+      "sha256": "f80735524098c006bd8864bdf6a121900c3875a8c5ba0c74334d0b4a4bec414b",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "model/config.json",
+      "bytes": 3268,
+      "sha256": "fdea30805ce2f5666b147fca941dcdd27ad468e27d6ed21902207d3da056a97d",
+      "basis": "stream and guest SHA-256 verified"
+    },
+    {
+      "path": "model/model.safetensors",
+      "bytes": 171658996,
+      "sha256": "00333a43451945aaf89db8ca9c0a17e75d1537c17db60fdb91aa95f4c7929e0c",
+      "basis": "stream and guest SHA-256 verified"
+    },
+    {
+      "path": "model/preprocessor_config.json",
+      "bytes": 444,
+      "sha256": "cd38cd59999e7a95d68e487fbe5132df3d4e5c32a0836add57e6126ba0c4eaf1",
+      "basis": "stream and guest SHA-256 verified"
+    },
+    {
+      "path": "model-complete.json",
+      "bytes": 12764,
+      "sha256": "31e908730f9848fec0226b39534eb4527d03a592eb56813c94d0bf3501a59bb0",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "model-config.json.samples.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "model-manifest.json",
+      "bytes": 1081,
+      "sha256": "8f5a80b0008e846bb0fd835238041adf7be1c597db25931b4744396fd5964eac",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "model-model.safetensors.samples.json",
+      "bytes": 520386,
+      "sha256": "2043145a2104fec4977bda5e94d49bd998865407c22d7a5898e42b4eecb747ab",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "model-phase.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "model-phase.stdout.log",
+      "bytes": 69,
+      "sha256": "f8e43162d48ccfb66df2415eed4fdc6f7cfa7a7b5f9fae8c132258bb9fd68dac",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "model-preprocessor_config.json.samples.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "oci_scout.py",
+      "bytes": 2505,
+      "sha256": "295ee47e0969009310d81464a1f3c8e332b5539ca269add917598fb5542f664b",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "original-files.json",
+      "bytes": 34908,
+      "sha256": "3b05789fd5d44b7b50f4bbc1ff4ba317d0096f4bc332307b2744892d73329aad",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "page-output/cgroup-samples.jsonl",
+      "bytes": 36103,
+      "sha256": "1001ff348821ac853ef573c115bd33c49b5102eb26009c1f94c015df69cd9723",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "page-output/docling.json",
+      "bytes": 29014,
+      "sha256": "04385b6a5490897ca10a69956810fc08998009f6d1ebd1d03a0ee03fa78292f2",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "page-output/items.json",
+      "bytes": 17196,
+      "sha256": "890b0c1d22e99b2c8d1ff7afa5feaeef1f1326ede841a1f3bd1c8505c85862ac",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "page-output/layout.json",
+      "bytes": 73663,
+      "sha256": "82d1510f2a2e40f792a6455fbdf808de68ed733fc0e420ff1e4794e2c3f0e1ec",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "page-output/page.md",
+      "bytes": 3741,
+      "sha256": "dfc8d63b2fb59afad8ce3b7dcd993976144210989369ec2f6db690085a28f86b",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "page-output/pipeline-options.json",
+      "bytes": 5109,
+      "sha256": "2fba047ea61d6a88efb7823c5019f500109924a4aaf9b737fabea86a0f37e9c6",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "page-output/smoke-result.json",
+      "bytes": 1814,
+      "sha256": "51b1bac4738ae555537bc6be8b0bb7fdcc161a9463f9dbbdf4b0710d8fa1eb49",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "pre-install-hashes.json",
+      "bytes": 23503,
+      "sha256": "4e9c3fe832a7aabe9c425118376554c1edc3a702cc4084ca91a01234e37a52c9",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "pytest.stderr.log",
+      "bytes": 69,
+      "sha256": "d9814eb7c3607bcc3c971e7021efd8a5e8db85d6a52f0b5cc05f0a8e28132001",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "pytest.stdout.log",
+      "bytes": 1646,
+      "sha256": "74379b305aaf4576d89550026438465658569a74df182c602c06af6ce2ce548a",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "python-arm64-config.json",
+      "bytes": 5412,
+      "sha256": "f761e72cbf291a9129bbb50e0ea9e58ee70bd5124339669967028a990808a783",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "python-arm64-manifest.json",
+      "bytes": 1754,
+      "sha256": "18ce9b03d18802119f4f9270d10a1ceb45d0acb768c305b7fbbd7c6b5b5a020b",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "python-index.json",
+      "bytes": 9131,
+      "sha256": "86adf8dbadc3d6e82ee5dd2c74bec2e1c2467cdad47886280501df722372d2e1",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "retained-storage.json",
+      "bytes": 3332,
+      "sha256": "0dc609055660d31710526ba6f5d44cc0a6b449ff7fd023072302ef0f602fca91",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "runtime-complete.json",
+      "bytes": 12941,
+      "sha256": "4cfbc21f63a7c62f9ef9e9f4788d6c21ab7a082e5f232b39c4a036d6e131feca",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "runtime-pull.resources.json",
+      "bytes": 7424,
+      "sha256": "6b404a3f310f99ae74540c2cb2e146d4b5fc2a0831c80ae6aa71a150d2a5e783",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "runtime-pull.samples.json",
+      "bytes": 384397,
+      "sha256": "669bbf88789f610bbcb7fe0caca6e00baf49dcfe93d4fd0e2aaded8f78ce51ce",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "runtime-pull.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "runtime-pull.stdout.log",
+      "bytes": 781,
+      "sha256": "2ee0f04c64c465e09be22677dfe71a3a73f714318b2f7ae0a72750d7ce04fc0f",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "runtime.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "runtime.stdout.log",
+      "bytes": 261,
+      "sha256": "b0290cd4e6079e3096c8926b3fc6b29f256a68bcaead2ccb4338e24644bb84f9",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "single-attempt.json",
+      "bytes": 232,
+      "sha256": "c74260e8b5d9520688927dcb523157d9faf86aeafe708cd642cc4f389df70904",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "single-page.resources.json",
+      "bytes": 7371,
+      "sha256": "95db47292d8c740f83c480fb1f6b1680f1b7abb0f485116905f3aec6c522ecbb",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "single-page.samples.json",
+      "bytes": 106749,
+      "sha256": "5da9fadfc47ca8093e52fe1cca80c6489c2219a847e4040c29d0f6b7c6f8af5c",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "single-page.stderr.log",
+      "bytes": 147,
+      "sha256": "dfad4578c140ee6e2a7475bea1e898f2c37bc98818eb8431f3c30db3ce16f687",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "single-page.stdout.log",
+      "bytes": 1638,
+      "sha256": "660ab6cbe12eb21c8c78a1add508dab1e7bee2c281af24862983c0afc3df3007",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "smoke-execution.json",
+      "bytes": 18179,
+      "sha256": "830bf8cd41185b73a224002e6aa6ab7aaad336b18de0ee3e43a34cb896648e5b",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "smoke-phase.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "smoke-phase.stdout.log",
+      "bytes": 129,
+      "sha256": "aea42c7988d3b7151991b3bfb52b9104c95fca2c068ea2407b06c4540e6ff0cb",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "start.json",
+      "bytes": 502,
+      "sha256": "dcaee234ac7df38bd5eef1940e7422bcd0b8507e6e662361414a46419ba0f7b2",
+      "basis": "local SHA-256"
+    },
+    {
+      "path": "storage-roots.json",
+      "bytes": 1346,
+      "sha256": "8344e742d9cff36da8d42dbec540c9b1840ac8016255f43a44daffcf90f24cd8",
+      "basis": "local SHA-256"
+    }
+  ],
+  "weights_archives_images_and_full_native_outputs_committed": false
+}

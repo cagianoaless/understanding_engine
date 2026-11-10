@@ -1,0 +1,33 @@
+{
+  "schema_version": "006b.single-page-settings.1",
+  "docling": "2.148.0",
+  "python": "3.11.13",
+  "page_range": [
+    6,
+    6
+  ],
+  "allowed_formats": [
+    "pdf"
+  ],
+  "model_repo": "docling-project/docling-layout-heron",
+  "revision": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8",
+  "engine": "transformers",
+  "compile_model": false,
+  "device": "cpu",
+  "torch_threads": 4,
+  "torch_interop_threads": 1,
+  "disabled_flags": [
+    "do_ocr",
+    "do_table_structure",
+    "do_code_enrichment",
+    "do_formula_enrichment",
+    "do_picture_classification",
+    "do_picture_description",
+    "do_chart_extraction",
+    "enable_remote_services",
+    "allow_external_plugins"
+  ],
+  "backend_and_model_preprocessing": "Pinned package defaults; no backend override, threshold adjustment, input rewrite or tuning.",
+  "guard": "Wrap predictor only to reject any second nonempty batch, wrong page or batch size; otherwise delegate unchanged.",
+  "full_resolved_pipeline_options_external_sha256": "2fba047ea61d6a88efb7823c5019f500109924a4aaf9b737fabea86a0f37e9c6"
+}

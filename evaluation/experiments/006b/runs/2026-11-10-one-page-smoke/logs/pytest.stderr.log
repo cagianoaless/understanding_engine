@@ -1,0 +1,1 @@
+warning: `--frozen` has no effect when used alongside `--no-project`

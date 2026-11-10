@@ -1,0 +1,27 @@
+{
+  "schema_version": "006b.setup-interruptions.1",
+  "log_collision": {
+    "before_actual_pip_install": true,
+    "file": "install-failure.json",
+    "action": "Preserve first source/logs; use distinct candidate-install log name; validate and reuse the same prepared volume; do not recopy/redownload or reinstall."
+  },
+  "import_guard": {
+    "exit_code": 137,
+    "oom_killed": false,
+    "failed_internal_stage_estimate_bytes": 67108864,
+    "observed_inclusive_at_stop_bytes": 4458328064,
+    "authorized_cap_bytes": 6442450944,
+    "cause": "Deferred installation/VM writeback: wheel-copy job initially observed ~0.2 MB growth but the next stage saw ~380 MB; the post-install import stage likewise saw deferred ~376 MB. This was not evidence of OOM, ABI failure or crossing the authorized 6 GiB cap.",
+    "action": "Preserve failed check and source; sync guest; reserve 512 MiB within the unchanged 6 GiB cap; rerun only hash/import verification. One pip installation and one PDF prediction batch total."
+  },
+  "host_launcher": {
+    "python": "3.11.13",
+    "source": "Existing intact uv-managed interpreter; PYTHONPATH reads unchanged project src and .venv site-packages; no environment synchronization",
+    "lock_version_mismatches": {},
+    "installed_distributions_checked": 22,
+    "normal_project_interpreter": "Broken before this run: missing encodings stdlib source under its old temporary base; left untouched",
+    "no_project_warning": "uv warns --frozen has no effect with --no-project; no resolver/sync or dependency installation was performed. Existing installed lock versions were independently checked."
+  },
+  "no_candidate_versions_or_hashes_changed": true,
+  "no_scientific_retry_or_tuning": true
+}

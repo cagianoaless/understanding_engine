@@ -1,0 +1,1 @@
+{"runtime_gate": "PASS", "image": "python@sha256:18ce9b03d18802119f4f9270d10a1ceb45d0acb768c305b7fbbd7c6b5b5a020b", "python": "3.11.13", "compressed_layers": 47597645, "image_reported_unpacked_bytes": 47604811, "retained_inclusive_allocated_bytes": 2690576384}

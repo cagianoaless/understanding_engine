@@ -1,0 +1,44 @@
+{
+  "schema_version": "006b.local-use-license-decision.1",
+  "date": "2026-11-10",
+  "scope": "Unmodified software, private local research execution; no distribution of wheels, images or models in Git and no remote processing/service",
+  "material_local_execution_blocker_identified": false,
+  "local_execution_gate": "PASS",
+  "review_status": "agent_checked; not independent human/legal verification or universal redistribution clearance",
+  "version_specific_sources": [
+    {
+      "package": "docling",
+      "version": "2.148.0",
+      "tag": "v2.148.0",
+      "commit": "0fa0918d16de7769d942f9b06ca18cb673cbbc2e",
+      "license": "MIT",
+      "source": "https://github.com/docling-project/docling/blob/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/LICENSE"
+    },
+    {
+      "package": "latex2mathml",
+      "version": "3.81.1",
+      "tag": "3.81.1",
+      "commit": "fb724a91658cf41d2fad0192da0845b05446f208",
+      "license": "MIT",
+      "source": "https://github.com/roniemartinez/latex2mathml/blob/fb724a91658cf41d2fad0192da0845b05446f208/LICENSE"
+    },
+    {
+      "package": "tokenizers",
+      "version": "0.23.3",
+      "tag": "v0.23.3",
+      "commit": "301277072263fb3830eb66eec7e47adadf76f1dc",
+      "license": "Apache-2.0",
+      "source": "https://github.com/huggingface/tokenizers/blob/301277072263fb3830eb66eec7e47adadf76f1dc/LICENSE",
+      "version_evidence": "bindings/python/Cargo.toml identifies 0.23.3; the Rust crate remains 0.23.2 in this Python-only release, not a replacement candidate"
+    }
+  ],
+  "bundled_native_terms": {
+    "evidence": "PR14 license-files.json and license-review.json retained unchanged",
+    "LGPL": "GEOS, FFmpeg and autocommand notices remain present. LGPL library-running scope and GPL permission to run unmodified programs do not prohibit this private execution; no binaries are being redistributed or modified.",
+    "GCC_runtime": "NumPy/SciPy notices include GPLv3 with Runtime Library Exception 3.1; retain those actual notices and avoid a blanket GPL classification.",
+    "MPL_and_other_notices": "Retain generated-code/native-library notices. Distribution, modification and component-specific obligations need a separate assessment before sharing binaries or operating a service.",
+    "limits": "Not a complete Rust/native dependency legal audit. No material restriction on this specific unmodified local experiment was identified; modern SPDX fields are not a prerequisite. Future distribution clearance remains unasserted."
+  },
+  "license_sources_acquired": "Only small authoritative tag/ref, release-specific LICENSE and version-manifest files; hashes/bytes recorded separately",
+  "lookup_notes": "latex2mathml v3.81.1 ref returned 404; its actual tag is 3.81.1. No substitution of version or source was made."
+}

@@ -1,0 +1,20 @@
+{
+  "offline_tests": 343,
+  "failed": 0,
+  "skipped": 0,
+  "seconds": 8.11,
+  "new_control_tests": 19,
+  "python": "3.11.13",
+  "command": "uv run --frozen --offline --no-project --python $EXISTING_PYTHON $EXISTING_PYTHON -B -m pytest",
+  "environment": {
+    "python": "3.11.13",
+    "source": "Existing intact uv-managed interpreter; PYTHONPATH reads unchanged project src and .venv site-packages; no environment synchronization",
+    "lock_version_mismatches": {},
+    "installed_distributions_checked": 22,
+    "normal_project_interpreter": "Broken before this run: missing encodings stdlib source under its old temporary base; left untouched",
+    "no_project_warning": "uv warns --frozen has no effect with --no-project; no resolver/sync or dependency installation was performed. Existing installed lock versions were independently checked."
+  },
+  "original_files_identical": 281,
+  "source_pdf_sha256_unchanged": true,
+  "inference_invocations": 1
+}

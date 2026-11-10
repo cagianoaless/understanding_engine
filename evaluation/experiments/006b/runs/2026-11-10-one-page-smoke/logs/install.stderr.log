@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "$REPO/evaluation/experiments/006b/runs/2026-11-10-one-page-smoke/control.py", line 216, in <module>
+    try:getattr(c,args.phase)()
+  File "$REPO/evaluation/experiments/006b/runs/2026-11-10-one-page-smoke/control.py", line 197, in install
+    installed=self.job("install",self.docker+pip,timeout=300,growth=1318440960+656220160+128*1024**2,owner=name,guest_probe=probe)
+  File "$REPO/evaluation/experiments/006b/runs/2026-11-10-one-page-smoke/control.py", line 92, in job
+    with (self.raw/(name+".stdout.log")).open("x") as out,(self.raw/(name+".stderr.log")).open("x") as err:
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1242, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1110, in _opener
+    return self._accessor.open(self, flags, mode)
+FileExistsError: [Errno 17] File exists: '$SMOKE_RAW/install.stdout.log'

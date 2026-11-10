@@ -1,0 +1,79 @@
+{
+  "schema_version": "006b.single-page-execution.1",
+  "status": "PASS",
+  "container_exit_code": 0,
+  "oom_killed": false,
+  "watchdog_armed_seconds": 120,
+  "watchdog_triggered": false,
+  "external_wall_seconds": 10.244979875,
+  "page_process_total_wall_seconds": 8.988007064999692,
+  "conversion_wall_seconds": 4.578672347000975,
+  "cpu_usage_seconds": 12.047816,
+  "average_cpu_percent_of_one_core": 134.04324132004243,
+  "initial_cgroup": {
+    "memory.max": "4294967296",
+    "memory.swap.max": "0",
+    "cpu.max": "400000 100000",
+    "memory.current": "9859072",
+    "memory.peak": "10240000",
+    "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+    "cpu.stat": "usage_usec 82197\nuser_usec 71171\nsystem_usec 11026\ncore_sched.force_idle_usec 0\nnr_periods 1\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0"
+  },
+  "final_cgroup": {
+    "memory.max": "4294967296",
+    "memory.swap.max": "0",
+    "cpu.max": "400000 100000",
+    "memory.current": "614596608",
+    "memory.peak": "629465088",
+    "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+    "cpu.stat": "usage_usec 12130013\nuser_usec 11408697\nsystem_usec 721316\ncore_sched.force_idle_usec 0\nnr_periods 91\nnr_throttled 0\nthrottled_usec 0\nnr_bursts 0\nburst_usec 0"
+  },
+  "model_prediction_batches": [
+    {
+      "page_no": 6,
+      "image_size": [
+        612,
+        792
+      ]
+    }
+  ],
+  "errors": [],
+  "native_layout_clusters": 14,
+  "native_items": 32,
+  "native_label_counts": {
+    "table": 1,
+    "caption": 1,
+    "text": 27,
+    "section_header": 2,
+    "formula": 1
+  },
+  "warnings": "Only weight-loading progress (770/770 tensors) observed in candidate stderr; no candidate warning/error reported.",
+  "container_isolation": {
+    "Memory": 4294967296,
+    "MemorySwap": 4294967296,
+    "NanoCpus": 4000000000,
+    "CpusetCpus": "0-3",
+    "NetworkMode": "none",
+    "ReadonlyRootfs": true,
+    "Privileged": false,
+    "CapDrop": [
+      "ALL"
+    ],
+    "SecurityOpt": [
+      "no-new-privileges"
+    ],
+    "PidsLimit": 256
+  },
+  "user": "65534:65534",
+  "mounts": [
+    {
+      "Type": "volume",
+      "Destination": "/ue",
+      "RW": true,
+      "source": "one newly owned experiment volume; no host bind mount"
+    }
+  ],
+  "cold_start_caveat": "Fresh inference process/cgroup, existing VM/image and checksum-warmed file caches. This single run is not a cold-start or worst-case benchmark.",
+  "attempts": 1,
+  "six_page_benchmark_executed": false
+}
