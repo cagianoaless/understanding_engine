@@ -1,0 +1,32 @@
+{
+  "actual_demo_queries": 11,
+  "all_repeated_responses_byte_identical": true,
+  "api_reads_frozen_labels_or_scores": false,
+  "boundary_semantics_before_tests": {
+    "path": "docs/source-selection-v0.md",
+    "recorded_before_selection_tests_written": true,
+    "sha256": "25b07a7229402e1c519f1a1859c0c20ccb21883ee020c3e7397c33d259bd3465"
+  },
+  "ci": "Not published at artifact creation; final observed result reported with PR",
+  "core_sha256": {
+    "src/understanding_engine/schemas/selection-0.1.schema.json": "7001c1075df498f46f6351c1ff1f3b1b72a962063c7380ead922d2af9598739b",
+    "src/understanding_engine/selection.py": "49af4b1193e0f3fea909ead4bc30753453bfbd05b3e2da035c41dd8f09fd0455",
+    "src/understanding_engine/selection_contract.py": "3caaa4b5a302291cc11b970488ee4f8a6a6cde7d8756c9d25ab86a9b3890dfdf"
+  },
+  "current_semantics_document_sha256": "0b46b8b9863a95bdf6fb12040f9c720174cbabb30805fb11a9a580c28eb55186",
+  "hybrid_input_bytes": 58496673,
+  "hybrid_input_sha256": "448464901ab56611dcbde6e8a2621ad17118508d0936415f06acc4408a2a7649",
+  "inference_calls": 0,
+  "interpreter_policy": "Existing intact interpreter and unchanged project site-packages read-only; no sync/resolution or launcher repair",
+  "offline_tests": {
+    "failed": 0,
+    "new_tests": 37,
+    "passed": 452,
+    "seconds": 8.81,
+    "skipped": 0
+  },
+  "python": "3.11.13",
+  "repeats_per_query": 10,
+  "schema_version": "source-selection-validation.1",
+  "uv_warning": "--frozen has no effect alongside --no-project"
+}
