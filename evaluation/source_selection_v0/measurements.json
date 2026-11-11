@@ -1,0 +1,543 @@
+{
+  "architecture": "arm64",
+  "benchmark_scores_loaded": false,
+  "contexts": {
+    "retained_bert": {
+      "lookup": "Lazy per-page maps, linear geometry scans; no spatial tree; borrowed immutable input",
+      "query_page": 6,
+      "query_page_characters": 3690,
+      "query_page_regions": 164,
+      "source_document_pages": 16,
+      "validation_and_index_constructor_seconds": 14.423906791955233
+    },
+    "synthetic": {
+      "lookup": "Lazy per-page maps, linear geometry scans; no spatial tree; borrowed immutable input",
+      "query_page": 1,
+      "query_page_characters": 4,
+      "query_page_regions": 2,
+      "source_document_pages": 1,
+      "validation_and_index_constructor_seconds": 0.00296633318066597
+    }
+  },
+  "frozen_labels_loaded": false,
+  "input_records": [
+    {
+      "bytes": 58496673,
+      "sha256": "448464901ab56611dcbde6e8a2621ad17118508d0936415f06acc4408a2a7649"
+    },
+    {
+      "bytes": 48738778,
+      "sha256": "9618216d3b52fab8a59949eeacd3f740f78f7166964f9cae3d61ce68522ab79b"
+    }
+  ],
+  "measurements": [
+    {
+      "deterministic": true,
+      "first_query_seconds": 0.016386792063713074,
+      "name": "synthetic_explicit_units",
+      "query": {
+        "character_ids": [
+          "ac644fde61bd744f945647a022571b970aca7673adc5ddedc16a472acafe9895:p1:c0",
+          "ac644fde61bd744f945647a022571b970aca7673adc5ddedc16a472acafe9895:p1:c1",
+          "ac644fde61bd744f945647a022571b970aca7673adc5ddedc16a472acafe9895:p1:c2",
+          "ac644fde61bd744f945647a022571b970aca7673adc5ddedc16a472acafe9895:p1:c3"
+        ],
+        "kind": "character_ids",
+        "page_number": 1
+      },
+      "repeats": 10,
+      "response_bytes": 5406,
+      "response_sha256": "578cf6b8898672187245fb1d717aa6a75c65a4eb11b1efcbebdd9008ef53ca9f",
+      "selected_source_units": 4,
+      "serialization_median_seconds": 0.000103021040558815,
+      "serialization_seconds": [
+        0.00012770900502800941,
+        0.00010366691276431084,
+        0.00010237516835331917,
+        9.845802560448647e-05,
+        0.00016433419659733772,
+        0.00010670814663171768,
+        0.00010233325883746147,
+        9.737489745020866e-05,
+        9.537488222122192e-05,
+        0.00010466715320944786
+      ],
+      "structural_candidates": 1,
+      "warm_query_max_seconds": 0.0008079167455434799,
+      "warm_query_median_seconds": 0.0006290420424193144,
+      "warm_query_seconds": [
+        0.0007139169611036777,
+        0.0006474587135016918,
+        0.0006017498672008514,
+        0.000592375174164772,
+        0.0006753746420145035,
+        0.0008079167455434799,
+        0.0007119998335838318,
+        0.000610625371336937,
+        0.0005892920307815075,
+        0.0005784998647868633
+      ]
+    },
+    {
+      "deterministic": true,
+      "first_query_seconds": 0.0006454172544181347,
+      "name": "synthetic_unit_rectangle",
+      "query": {
+        "bbox": [
+          20.0,
+          72.07,
+          134.44,
+          132.07
+        ],
+        "coordinate_system": "pdfplumber-native-v1",
+        "kind": "rectangle",
+        "page_number": 1
+      },
+      "repeats": 10,
+      "response_bytes": 5213,
+      "response_sha256": "a67ef2ac9618e76449f438cdf7701269bfc9d1761edeeb46546ceb240f470187",
+      "selected_source_units": 4,
+      "serialization_median_seconds": 9.004143066704273e-05,
+      "serialization_seconds": [
+        9.04998742043972e-05,
+        0.00010587507858872414,
+        9.175017476081848e-05,
+        9.337486699223518e-05,
+        9.21245664358139e-05,
+        8.958298712968826e-05,
+        8.958298712968826e-05,
+        8.837506175041199e-05,
+        8.791731670498848e-05,
+        8.77496786415577e-05
+      ],
+      "structural_candidates": 1,
+      "warm_query_max_seconds": 0.0006906250491738319,
+      "warm_query_median_seconds": 0.0006031251978129148,
+      "warm_query_seconds": [
+        0.0006104172207415104,
+        0.0006416249088943005,
+        0.0006906250491738319,
+        0.0005991249345242977,
+        0.000630249734967947,
+        0.0005994169041514397,
+        0.0006029172800481319,
+        0.0005996250547468662,
+        0.0006023328751325607,
+        0.0006033331155776978
+      ]
+    },
+    {
+      "deterministic": true,
+      "first_query_seconds": 0.0005281250923871994,
+      "name": "synthetic_point",
+      "query": {
+        "coordinate_system": "pdfplumber-native-v1",
+        "kind": "point",
+        "page_number": 1,
+        "point": [
+          23.335,
+          77.07
+        ]
+      },
+      "repeats": 10,
+      "response_bytes": 4245,
+      "response_sha256": "f51109df2b8cf23a11fcc66357fc4b085de9590226387c5b7de1186455cf0366",
+      "selected_source_units": 1,
+      "serialization_median_seconds": 7.44375865906477e-05,
+      "serialization_seconds": [
+        7.612491026520729e-05,
+        7.60830007493496e-05,
+        7.50422477722168e-05,
+        7.441593334078789e-05,
+        7.445923984050751e-05,
+        7.425015792250633e-05,
+        7.408298552036285e-05,
+        7.362524047493935e-05,
+        7.466692477464676e-05,
+        7.333280518651009e-05
+      ],
+      "structural_candidates": 1,
+      "warm_query_max_seconds": 0.0005299169570207596,
+      "warm_query_median_seconds": 0.0005110625643283129,
+      "warm_query_seconds": [
+        0.0005187499336898327,
+        0.000510083045810461,
+        0.0005117082037031651,
+        0.0005130828358232975,
+        0.00050400011241436,
+        0.0005104169249534607,
+        0.000513874925673008,
+        0.000504625029861927,
+        0.0005035828799009323,
+        0.0005299169570207596
+      ]
+    },
+    {
+      "deterministic": true,
+      "first_query_seconds": 0.0006283330731093884,
+      "name": "synthetic_region_0",
+      "query": {
+        "basis": "geometric",
+        "evidence_id": "evidence:38cb690b4c672e31578310e4da747fe3265d7c5764fe73ac3b5fa91d76dbdde1",
+        "kind": "region",
+        "page_number": 1,
+        "region_id": "hybrid:2ed1f22440ba146abc2bf2a43baf28ef0995b3063461d7eeff75a9225da5ffdc"
+      },
+      "repeats": 10,
+      "response_bytes": 5296,
+      "response_sha256": "c8f71676582b1b16781d295d1d6c945690fccae0541c9bcbb42578aa0557eb16",
+      "selected_source_units": 4,
+      "serialization_median_seconds": 9.179161861538887e-05,
+      "serialization_seconds": [
+        9.1583002358675e-05,
+        9.200023487210274e-05,
+        9.033270180225372e-05,
+        0.00010833330452442169,
+        9.287474676966667e-05,
+        0.00011675013229250908,
+        0.00011862488463521004,
+        9.112479165196419e-05,
+        8.933432400226593e-05,
+        8.891569450497627e-05
+      ],
+      "structural_candidates": 1,
+      "warm_query_max_seconds": 0.0007940833456814289,
+      "warm_query_median_seconds": 0.000645666616037488,
+      "warm_query_seconds": [
+        0.000678792130202055,
+        0.0006179166957736015,
+        0.0006240420043468475,
+        0.0006363331340253353,
+        0.0006652907468378544,
+        0.0007940833456814289,
+        0.0007117502391338348,
+        0.0006550000980496407,
+        0.0006264159455895424,
+        0.0006317920051515102
+      ]
+    },
+    {
+      "deterministic": true,
+      "first_query_seconds": 0.00048495829105377197,
+      "name": "synthetic_region_1",
+      "query": {
+        "basis": "geometric",
+        "evidence_id": "evidence:38cb690b4c672e31578310e4da747fe3265d7c5764fe73ac3b5fa91d76dbdde1",
+        "kind": "region",
+        "page_number": 1,
+        "region_id": "hybrid:dcda3e0b0763c0fbb1dca6ce3a4c3b937fa8521843ae4d69e96147b13ccdc8ad"
+      },
+      "repeats": 10,
+      "response_bytes": 3990,
+      "response_sha256": "cf8b475ce381cbf929adbdef7039361a35cd62d1bd9926305cd6fb21be0ca6b3",
+      "selected_source_units": 0,
+      "serialization_median_seconds": 6.862450391054153e-05,
+      "serialization_seconds": [
+        7.337518036365509e-05,
+        8.433312177658081e-05,
+        9.037507697939873e-05,
+        6.841681897640228e-05,
+        6.854115054011345e-05,
+        6.870785728096962e-05,
+        6.816722452640533e-05,
+        6.77080824971199e-05,
+        6.729178130626678e-05,
+        7.116654887795448e-05
+      ],
+      "structural_candidates": 1,
+      "warm_query_max_seconds": 0.0005614999681711197,
+      "warm_query_median_seconds": 0.00048554176464676857,
+      "warm_query_seconds": [
+        0.0005241669714450836,
+        0.0005014589987695217,
+        0.0005063326098024845,
+        0.00048729125410318375,
+        0.0004837922751903534,
+        0.0004836670123040676,
+        0.00047837523743510246,
+        0.0004804162308573723,
+        0.0004803752526640892,
+        0.0005614999681711197
+      ]
+    },
+    {
+      "deterministic": true,
+      "first_query_seconds": 0.0028465832583606243,
+      "name": "retained_bert_explicit_units",
+      "query": {
+        "character_ids": [
+          "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c0",
+          "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c1",
+          "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c2",
+          "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c3",
+          "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c4"
+        ],
+        "kind": "character_ids",
+        "page_number": 6
+      },
+      "repeats": 10,
+      "response_bytes": 12359,
+      "response_sha256": "52da56389901fa38d62d80744e6dc527ecee7ec4ccde46926a85e5f1cef826b2",
+      "selected_source_units": 5,
+      "serialization_median_seconds": 0.00020029162988066673,
+      "serialization_seconds": [
+        0.00024975044652819633,
+        0.00020025018602609634,
+        0.0002448330633342266,
+        0.00019066594541072845,
+        0.00023029092699289322,
+        0.00023791706189513206,
+        0.00020033307373523712,
+        0.0001937919296324253,
+        0.0001932079903781414,
+        0.00018962472677230835
+      ],
+      "structural_candidates": 3,
+      "warm_query_max_seconds": 0.0016280417330563068,
+      "warm_query_median_seconds": 0.0014704579953104258,
+      "warm_query_seconds": [
+        0.0014715828001499176,
+        0.0014917077496647835,
+        0.001469333190470934,
+        0.0014335829764604568,
+        0.0015296246856451035,
+        0.0015620416961610317,
+        0.0016280417330563068,
+        0.0014614169485867023,
+        0.001420666929334402,
+        0.0014046672731637955
+      ]
+    },
+    {
+      "deterministic": true,
+      "first_query_seconds": 0.001964250113815069,
+      "name": "retained_bert_unit_rectangle",
+      "query": {
+        "bbox": [
+          75.273,
+          68.0733424,
+          94.70318879999999,
+          77.03974239999991
+        ],
+        "coordinate_system": "pdfplumber-native-v1",
+        "kind": "rectangle",
+        "page_number": 6
+      },
+      "repeats": 10,
+      "response_bytes": 12191,
+      "response_sha256": "49605e144fd2a5d5860ca98d044ef6c423b23a11067e6ddeea741856d8ac9f09",
+      "selected_source_units": 5,
+      "serialization_median_seconds": 0.00019170856103301048,
+      "serialization_seconds": [
+        0.0002176249399781227,
+        0.0001959577202796936,
+        0.00019837543368339539,
+        0.00019616726785898209,
+        0.00019133323803544044,
+        0.00019041681662201881,
+        0.00019145896658301353,
+        0.00018904218450188637,
+        0.00019195815548300743,
+        0.0001910831779241562
+      ],
+      "structural_candidates": 3,
+      "warm_query_max_seconds": 0.002217167057096958,
+      "warm_query_median_seconds": 0.001912417123094201,
+      "warm_query_seconds": [
+        0.001974749844521284,
+        0.0019121253862977028,
+        0.002217167057096958,
+        0.002007415983825922,
+        0.0019077500328421593,
+        0.0019127088598906994,
+        0.0019147498533129692,
+        0.001871833112090826,
+        0.0018682503141462803,
+        0.0018706670962274075
+      ]
+    },
+    {
+      "deterministic": true,
+      "first_query_seconds": 0.0014232913963496685,
+      "name": "retained_bert_point",
+      "query": {
+        "coordinate_system": "pdfplumber-native-v1",
+        "kind": "point",
+        "page_number": 6,
+        "point": [
+          77.76565919999999,
+          72.55654239999996
+        ]
+      },
+      "repeats": 10,
+      "response_bytes": 8969,
+      "response_sha256": "a4f48351257dd0d5feb300c73597508531bb3c5a325337b910066d9520bbb579",
+      "selected_source_units": 1,
+      "serialization_median_seconds": 0.0001560417003929615,
+      "serialization_seconds": [
+        0.0001548328436911106,
+        0.0001932922750711441,
+        0.0001726667396724224,
+        0.0001626657322049141,
+        0.0001571672037243843,
+        0.00015520770102739334,
+        0.0001561250537633896,
+        0.00015595834702253342,
+        0.00015424983575940132,
+        0.00015408266335725784
+      ],
+      "structural_candidates": 3,
+      "warm_query_max_seconds": 0.001695707906037569,
+      "warm_query_median_seconds": 0.0014024993870407343,
+      "warm_query_seconds": [
+        0.0013969996944069862,
+        0.0014982502907514572,
+        0.001695707906037569,
+        0.0014248751103878021,
+        0.0014128750190138817,
+        0.0014040409587323666,
+        0.0013906671665608883,
+        0.001400957815349102,
+        0.0013964171521365643,
+        0.0013817916624248028
+      ]
+    },
+    {
+      "deterministic": true,
+      "first_query_seconds": 0.00801795907318592,
+      "name": "retained_bert_region_0",
+      "query": {
+        "basis": "geometric",
+        "evidence_id": "evidence:3d7484798bb743c3c8e0c3a6429d4706816c60923a5c041346c2be54762540ce",
+        "kind": "region",
+        "page_number": 6,
+        "region_id": "hybrid:a153b0c3ebffecd322869050421c6f3a3d7c73b4c2198cab73b8fd368d174355"
+      },
+      "repeats": 10,
+      "response_bytes": 104731,
+      "response_sha256": "d5de1bee89ef9ce36b3b8d1bc27f0b0c3a235fc43d158d27f0dc515b2ad043e2",
+      "selected_source_units": 149,
+      "serialization_median_seconds": 0.001367166405543685,
+      "serialization_seconds": [
+        0.0013454160653054714,
+        0.0013638329692184925,
+        0.0013704998418688774,
+        0.0013489173725247383,
+        0.001533083152025938,
+        0.0014276672154664993,
+        0.0013536247424781322,
+        0.0013405829668045044,
+        0.0014066672883927822,
+        0.0014513330534100533
+      ],
+      "structural_candidates": 2,
+      "warm_query_max_seconds": 0.00917675020173192,
+      "warm_query_median_seconds": 0.007924979319795966,
+      "warm_query_seconds": [
+        0.007822666317224503,
+        0.007767416071146727,
+        0.008000792004168034,
+        0.007860333658754826,
+        0.007847541943192482,
+        0.00917675020173192,
+        0.007989624980837107,
+        0.007820166181772947,
+        0.00884866714477539,
+        0.008374958299100399
+      ]
+    },
+    {
+      "deterministic": true,
+      "first_query_seconds": 0.03886233363300562,
+      "name": "retained_bert_region_1",
+      "query": {
+        "basis": "geometric",
+        "evidence_id": "evidence:3d7484798bb743c3c8e0c3a6429d4706816c60923a5c041346c2be54762540ce",
+        "kind": "region",
+        "page_number": 6,
+        "region_id": "hybrid:cadc611eb632a98f520c78c547b4a7bda459abec1c79b7a995e27d8f6f2c7e48"
+      },
+      "repeats": 10,
+      "response_bytes": 558382,
+      "response_sha256": "02806f322f5c642b779fc79e22ceef95c9b942b05c04243f310c112f199b53ab",
+      "selected_source_units": 345,
+      "serialization_median_seconds": 0.006809770595282316,
+      "serialization_seconds": [
+        0.006745083257555962,
+        0.006787999998778105,
+        0.006889584008604288,
+        0.008202832657843828,
+        0.006912207696586847,
+        0.006676207762211561,
+        0.006923084147274494,
+        0.006831541191786528,
+        0.0066897077485919,
+        0.006665583234280348
+      ],
+      "structural_candidates": 118,
+      "warm_query_max_seconds": 0.042334457859396935,
+      "warm_query_median_seconds": 0.038629645481705666,
+      "warm_query_seconds": [
+        0.0396094168536365,
+        0.03928229212760925,
+        0.038656875025480986,
+        0.038602415937930346,
+        0.042334457859396935,
+        0.04086320893839002,
+        0.038602166809141636,
+        0.038049917202442884,
+        0.03826129203662276,
+        0.03809887496754527
+      ]
+    },
+    {
+      "deterministic": true,
+      "first_query_seconds": 0.02169483294710517,
+      "name": "retained_bert_region_2",
+      "query": {
+        "basis": "geometric",
+        "evidence_id": "evidence:3d7484798bb743c3c8e0c3a6429d4706816c60923a5c041346c2be54762540ce",
+        "kind": "region",
+        "page_number": 6,
+        "region_id": "hybrid:07a8209383bcc6a4cf1cd0d6aa8117eae7716fb6acda22ac87d45f247fc89256"
+      },
+      "repeats": 10,
+      "response_bytes": 285719,
+      "response_sha256": "b0c214b1b28a983829f80dd069233ce1841878ffa895f9ba52164c78120448aa",
+      "selected_source_units": 432,
+      "serialization_median_seconds": 0.003698167158290744,
+      "serialization_seconds": [
+        0.003691332880407572,
+        0.0036975000984966755,
+        0.0036825831048190594,
+        0.003679499961435795,
+        0.003677542321383953,
+        0.0037792501971125603,
+        0.003698834218084812,
+        0.003731417004019022,
+        0.003967917058616877,
+        0.0040317499078810215
+      ],
+      "structural_candidates": 2,
+      "warm_query_max_seconds": 0.02256679069250822,
+      "warm_query_median_seconds": 0.021016583079472184,
+      "warm_query_seconds": [
+        0.02107537491247058,
+        0.02095779124647379,
+        0.02088220790028572,
+        0.020761833991855383,
+        0.021262333262711763,
+        0.020906082820147276,
+        0.020957208704203367,
+        0.02188962511718273,
+        0.021928333677351475,
+        0.02256679069250822
+      ]
+    }
+  ],
+  "new_inference_calls": 0,
+  "python": "3.11.13",
+  "quality_metrics_claimed": false,
+  "schema_version": "source-selection-demo.1",
+  "system": "Darwin"
+}

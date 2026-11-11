@@ -1,0 +1,299 @@
+{
+  "candidate_order": "evidence_then_native_region_order_not_preference",
+  "characters": [
+    {
+      "backend_index": 0,
+      "bbox": [
+        75.273,
+        68.0733424,
+        80.2583184,
+        77.03974239999991
+      ],
+      "id": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c0",
+      "text": "S"
+    }
+  ],
+  "coordinate_system": "pdfplumber-native-v1",
+  "hypotheses": [
+    {
+      "candidate_status": "available",
+      "evidence_id": "evidence:01471c2eab9ee8dd1fc7f86bbc956d7a01b5689634ae4f4200a66a80705fb5bf",
+      "hierarchy": [
+        {
+          "label": "paragraph",
+          "native_item_id": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p6:region0",
+          "native_parent_id": null,
+          "relevant_child_ids": [],
+          "total_native_child_count": 0
+        }
+      ],
+      "issue_codes": [],
+      "page_available": true,
+      "provider": "structure_0_2",
+      "provider_version": "0.2.0",
+      "reading_order": {
+        "direct_native_relations": [],
+        "kind": "dag",
+        "native_item_positions": [],
+        "subset_only": true,
+        "unresolved_policy": "Frozen Structure0.2 transitive closure; every other distinct pair unresolved",
+        "within_item_order": "unresolved"
+      },
+      "regions": [
+        {
+          "association_status": "unambiguous",
+          "bbox": [
+            75.273,
+            68.0733424,
+            101.679048,
+            77.03974239999991
+          ],
+          "confidence": null,
+          "geometric_character_count": 6,
+          "geometric_character_ids": [
+            "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c0"
+          ],
+          "label": "paragraph",
+          "matching_reasons": [
+            "source_association",
+            "point_containment"
+          ],
+          "native_bbox": {
+            "b": 77.03974239999991,
+            "coord_origin": "TOPLEFT",
+            "l": 75.273,
+            "r": 101.679048,
+            "t": 68.0733424
+          },
+          "native_item_id": "896d056851abca2093dfad2536935355f31fc93e9a059772c1a700cf9d532128:p6:region0",
+          "native_item_region_ids": [
+            "hybrid:4ac52d5dc0e2333dde13477b894bb4bed375876937183e32ab63c6944e1020e9"
+          ],
+          "native_membership": [
+            {
+              "character_id": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c0",
+              "reason": null,
+              "status": "valid"
+            }
+          ],
+          "native_pointer": "#/pages/0/regions/0",
+          "native_provenance_index": 0,
+          "region_id": "hybrid:4ac52d5dc0e2333dde13477b894bb4bed375876937183e32ab63c6944e1020e9",
+          "textless_visual": false,
+          "valid_native_character_count": 6,
+          "within_item_order": "unresolved"
+        }
+      ]
+    },
+    {
+      "candidate_status": "available",
+      "evidence_id": "evidence:3d7484798bb743c3c8e0c3a6429d4706816c60923a5c041346c2be54762540ce",
+      "hierarchy": [
+        {
+          "label": "unspecified",
+          "native_item_id": "#/body",
+          "native_parent_id": null,
+          "relevant_child_ids": [
+            "#/tables/0"
+          ],
+          "total_native_child_count": 12
+        },
+        {
+          "label": "unspecified",
+          "native_item_id": "#/groups/0",
+          "native_parent_id": "#/tables/0",
+          "relevant_child_ids": [
+            "#/texts/1"
+          ],
+          "total_native_child_count": 60
+        },
+        {
+          "label": "table",
+          "native_item_id": "#/tables/0",
+          "native_parent_id": "#/body",
+          "relevant_child_ids": [
+            "#/groups/0"
+          ],
+          "total_native_child_count": 2
+        },
+        {
+          "label": "text",
+          "native_item_id": "#/texts/1",
+          "native_parent_id": "#/groups/0",
+          "relevant_child_ids": [],
+          "total_native_child_count": 0
+        }
+      ],
+      "issue_codes": [],
+      "page_available": true,
+      "provider": "docling",
+      "provider_version": "2.148.0",
+      "reading_order": {
+        "direct_native_relations": [],
+        "kind": "item_sequence",
+        "native_item_positions": [
+          {
+            "native_item_id": "#/tables/0",
+            "position": 0
+          },
+          {
+            "native_item_id": "#/texts/1",
+            "position": 2
+          }
+        ],
+        "subset_only": true,
+        "unresolved_policy": "No order within a multi-box item; missing positions unresolved",
+        "within_item_order": "unresolved"
+      },
+      "regions": [
+        {
+          "association_status": "ambiguous",
+          "bbox": [
+            71.21849578120084,
+            62.37528062661863,
+            526.0206926773378,
+            153.39763614337403
+          ],
+          "confidence": null,
+          "geometric_character_count": 345,
+          "geometric_character_ids": [
+            "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c0"
+          ],
+          "label": "table",
+          "matching_reasons": [
+            "source_association",
+            "point_containment"
+          ],
+          "native_bbox": {
+            "b": 688.492363856626,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 71.21849578120084,
+            "r": 526.0206926773378,
+            "t": 779.5147193733814
+          },
+          "native_item_id": "#/tables/0",
+          "native_item_region_ids": [
+            "hybrid:cadc611eb632a98f520c78c547b4a7bda459abec1c79b7a995e27d8f6f2c7e48"
+          ],
+          "native_membership": [],
+          "native_pointer": "#/tables/0",
+          "native_provenance_index": 0,
+          "region_id": "hybrid:cadc611eb632a98f520c78c547b4a7bda459abec1c79b7a995e27d8f6f2c7e48",
+          "textless_visual": false,
+          "valid_native_character_count": 0,
+          "within_item_order": "unresolved"
+        },
+        {
+          "association_status": "ambiguous",
+          "bbox": [
+            75.273,
+            69.26587359999996,
+            101.679048,
+            76.96261549026542
+          ],
+          "confidence": null,
+          "geometric_character_count": 6,
+          "geometric_character_ids": [
+            "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c0"
+          ],
+          "label": "text",
+          "matching_reasons": [
+            "source_association",
+            "point_containment"
+          ],
+          "native_bbox": {
+            "b": 764.9273845097346,
+            "coord_origin": "BOTTOMLEFT",
+            "l": 75.273,
+            "r": 101.679048,
+            "t": 772.6241264
+          },
+          "native_item_id": "#/texts/1",
+          "native_item_region_ids": [
+            "hybrid:b2f19e2f392b8d06c98a68b5779b11b06189ed3f1156777435f1190211efe5b9"
+          ],
+          "native_membership": [],
+          "native_pointer": "#/texts/1",
+          "native_provenance_index": 0,
+          "region_id": "hybrid:b2f19e2f392b8d06c98a68b5779b11b06189ed3f1156777435f1190211efe5b9",
+          "textless_visual": false,
+          "valid_native_character_count": 0,
+          "within_item_order": "unresolved"
+        }
+      ]
+    }
+  ],
+  "math_transcription": "not_performed",
+  "page_geometry": {
+    "bbox": [
+      0,
+      0.0,
+      595.276,
+      841.89
+    ],
+    "cropbox": [
+      0,
+      0.0,
+      595.276,
+      841.89
+    ],
+    "height": 841.89,
+    "initial_doctop": 4209.45,
+    "mediabox": [
+      0,
+      0.0,
+      595.276,
+      841.89
+    ],
+    "pdfminer_layout_bbox": [
+      0,
+      0,
+      595.276,
+      841.89
+    ],
+    "raw_cropbox": null,
+    "raw_mediabox": [
+      0.0,
+      0.0,
+      595.276,
+      841.89
+    ],
+    "raw_rotation": 0.0,
+    "rotation": 0,
+    "user_unit": 1.0,
+    "width": 595.276
+  },
+  "page_number": 6,
+  "pdf_sha256": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e",
+  "query": {
+    "coordinate_system": "pdfplumber-native-v1",
+    "kind": "point",
+    "page_number": 6,
+    "point": [
+      77.76565919999999,
+      72.55654239999996
+    ]
+  },
+  "selection_schema_version": "0.1.0",
+  "source_provenance": {
+    "extraction_canonical_sha256": "9618216d3b52fab8a59949eeacd3f740f78f7166964f9cae3d61ce68522ab79b",
+    "parser_name": "understanding_engine",
+    "parser_settings_sha256": "6b0590e2745f180563a4cb9569b30351eaecd94845f9594d679bb6dd4355dda8",
+    "parser_version": "0.1.0"
+  },
+  "source_text": "S",
+  "status": {
+    "ambiguous": true,
+    "ambiguous_character_ids": [
+      "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c0"
+    ],
+    "contradictory": false,
+    "overlapping_regions": true,
+    "source_only": false,
+    "textless_visual": false,
+    "unmatched": false,
+    "unmatched_character_ids": []
+  },
+  "text_order": "backend_extraction_order_not_verified_human_reading_order",
+  "text_role": "candidate_units_not_resolved_selection"
+}

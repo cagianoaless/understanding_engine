@@ -1,0 +1,105 @@
+{
+  "all_query_results_kept": true,
+  "large_hybrid_duplicated": false,
+  "local_location_record": "evidence-location.local.json",
+  "new_inference_calls": 0,
+  "records": [
+    {
+      "bytes": 12359,
+      "path": "measurements/retained_bert_explicit_units.json",
+      "sha256": "52da56389901fa38d62d80744e6dc527ecee7ec4ccde46926a85e5f1cef826b2"
+    },
+    {
+      "bytes": 3990,
+      "path": "measurements/synthetic_region_1.json",
+      "sha256": "cf8b475ce381cbf929adbdef7039361a35cd62d1bd9926305cd6fb21be0ca6b3"
+    },
+    {
+      "bytes": 17965,
+      "path": "measurements/measurements.json",
+      "sha256": "53b0bdb0245fbc57e7e04b0f44ed591af18ff943a0d63c7001f255fbe5fa951c"
+    },
+    {
+      "bytes": 5406,
+      "path": "measurements/synthetic_explicit_units.json",
+      "sha256": "578cf6b8898672187245fb1d717aa6a75c65a4eb11b1efcbebdd9008ef53ca9f"
+    },
+    {
+      "bytes": 285719,
+      "path": "measurements/retained_bert_region_2.json",
+      "sha256": "b0c214b1b28a983829f80dd069233ce1841878ffa895f9ba52164c78120448aa"
+    },
+    {
+      "bytes": 5296,
+      "path": "measurements/synthetic_region_0.json",
+      "sha256": "c8f71676582b1b16781d295d1d6c945690fccae0541c9bcbb42578aa0557eb16"
+    },
+    {
+      "bytes": 104731,
+      "path": "measurements/retained_bert_region_0.json",
+      "sha256": "d5de1bee89ef9ce36b3b8d1bc27f0b0c3a235fc43d158d27f0dc515b2ad043e2"
+    },
+    {
+      "bytes": 558382,
+      "path": "measurements/retained_bert_region_1.json",
+      "sha256": "02806f322f5c642b779fc79e22ceef95c9b942b05c04243f310c112f199b53ab"
+    },
+    {
+      "bytes": 5213,
+      "path": "measurements/synthetic_unit_rectangle.json",
+      "sha256": "a67ef2ac9618e76449f438cdf7701269bfc9d1761edeeb46546ceb240f470187"
+    },
+    {
+      "bytes": 4245,
+      "path": "measurements/synthetic_point.json",
+      "sha256": "f51109df2b8cf23a11fcc66357fc4b085de9590226387c5b7de1186455cf0366"
+    },
+    {
+      "bytes": 12191,
+      "path": "measurements/retained_bert_unit_rectangle.json",
+      "sha256": "49605e144fd2a5d5860ca98d044ef6c423b23a11067e6ddeea741856d8ac9f09"
+    },
+    {
+      "bytes": 8969,
+      "path": "measurements/retained_bert_point.json",
+      "sha256": "a4f48351257dd0d5feb300c73597508531bb3c5a325337b910066d9520bbb579"
+    },
+    {
+      "bytes": 1966,
+      "path": "final-tests.stdout.log",
+      "sha256": "24cbda770c0852751bdaa267e6433ee2dfdf84eef00167c481ea39edcb25021d"
+    },
+    {
+      "bytes": 69,
+      "path": "final-tests.stderr.log",
+      "sha256": "d9814eb7c3607bcc3c971e7021efd8a5e8db85d6a52f0b5cc05f0a8e28132001"
+    },
+    {
+      "bytes": 2993,
+      "path": "demo.stdout.log",
+      "sha256": "21a1d2ea74fe5eae5bb929e5f1e8acf7935d0730ffa8c22935faec84fa0a1db6"
+    },
+    {
+      "bytes": 0,
+      "path": "demo.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 5562,
+      "path": "semantics-before-tests.md",
+      "sha256": "25b07a7229402e1c519f1a1859c0c20ccb21883ee020c3e7397c33d259bd3465"
+    },
+    {
+      "bytes": 175,
+      "path": "semantics-before-tests.json",
+      "sha256": "7da5ff1f04029d781d68bdd13609babd787ee9fb894b9f8b6f0d81cea2c0040d"
+    },
+    {
+      "bytes": 1409,
+      "path": "authored-selection.pdf",
+      "sha256": "ac644fde61bd744f945647a022571b970aca7673adc5ddedc16a472acafe9895"
+    }
+  ],
+  "root": "$SELECTION_EVIDENCE",
+  "schema_version": "source-selection-evidence.1"
+}

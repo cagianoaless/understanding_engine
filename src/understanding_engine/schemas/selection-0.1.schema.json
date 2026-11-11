@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/cagianoaless/understanding_engine/schemas/selection-0.1.0",
+  "title": "Source Selection v0 (0.1.0)",
+  "type": "object",
+  "required": ["selection_schema_version", "pdf_sha256", "page_number", "coordinate_system", "page_geometry", "source_provenance", "query", "characters", "source_text", "text_role", "text_order", "candidate_order", "math_transcription", "status", "hypotheses"],
+  "additionalProperties": false,
+  "properties": {
+    "selection_schema_version": {"const": "0.1.0"},
+    "pdf_sha256": {"$ref": "#/$defs/hash"},
+    "page_number": {"type": "integer", "minimum": 1},
+    "coordinate_system": {"const": "pdfplumber-native-v1"},
+    "page_geometry": {"type": "object"},
+    "source_provenance": {
+      "type": "object", "required": ["extraction_canonical_sha256", "parser_name", "parser_version", "parser_settings_sha256"], "additionalProperties": false,
+      "properties": {"extraction_canonical_sha256": {"$ref": "#/$defs/hash"}, "parser_name": {"type": "string"}, "parser_version": {"type": "string"}, "parser_settings_sha256": {"$ref": "#/$defs/hash"}}
+    },
+    "query": {"$ref": "#/$defs/query"},
+    "characters": {"type": "array", "items": {
+      "type": "object", "required": ["id", "backend_index", "text", "bbox"], "additionalProperties": false,
+      "properties": {"id": {"type": "string"}, "backend_index": {"type": "integer", "minimum": 0}, "text": {"type": "string"}, "bbox": {"$ref": "#/$defs/box"}}
+    }},
+    "source_text": {"type": "string"},
+    "text_role": {"enum": ["candidate_units_not_resolved_selection", "selected_original_units"]},
+    "text_order": {"const": "backend_extraction_order_not_verified_human_reading_order"},
+    "candidate_order": {"const": "evidence_then_native_region_order_not_preference"},
+    "math_transcription": {"const": "not_performed"},
+    "status": {
+      "type": "object", "required": ["unmatched", "source_only", "ambiguous", "overlapping_regions", "contradictory", "textless_visual", "unmatched_character_ids", "ambiguous_character_ids"], "additionalProperties": false,
+      "properties": {"unmatched": {"type": "boolean"}, "source_only": {"type": "boolean"}, "ambiguous": {"type": "boolean"}, "overlapping_regions": {"type": "boolean"}, "contradictory": {"type": "boolean"}, "textless_visual": {"type": "boolean"}, "unmatched_character_ids": {"$ref": "#/$defs/ids"}, "ambiguous_character_ids": {"$ref": "#/$defs/ids"}}
+    },
+    "hypotheses": {"type": "array", "items": {
+      "type": "object", "required": ["evidence_id", "provider", "provider_version", "candidate_status", "page_available", "issue_codes", "regions", "hierarchy", "reading_order"], "additionalProperties": false,
+      "properties": {
+        "evidence_id": {"type": "string"}, "provider": {"enum": ["docling", "structure_0_2"]}, "provider_version": {"type": "string"}, "candidate_status": {"enum": ["available", "failed", "rejected"]}, "page_available": {"type": "boolean"}, "issue_codes": {"$ref": "#/$defs/ids"},
+        "regions": {"type": "array", "items": {"$ref": "#/$defs/region"}},
+        "hierarchy": {"type": "array", "items": {
+          "type": "object", "required": ["native_item_id", "label", "native_parent_id", "relevant_child_ids", "total_native_child_count"], "additionalProperties": false,
+          "properties": {"native_item_id": {"type": "string"}, "label": {"type": "string"}, "native_parent_id": {"type": ["string", "null"]}, "relevant_child_ids": {"$ref": "#/$defs/ids"}, "total_native_child_count": {"type": "integer", "minimum": 0}}
+        }},
+        "reading_order": {
+          "type": "object", "required": ["kind", "subset_only", "native_item_positions", "direct_native_relations", "within_item_order", "unresolved_policy"], "additionalProperties": false,
+          "properties": {"kind": {"enum": ["item_sequence", "dag", "unavailable"]}, "subset_only": {"const": true},
+            "native_item_positions": {"type": "array", "items": {"type": "object", "required": ["native_item_id", "position"], "additionalProperties": false, "properties": {"native_item_id": {"type": "string"}, "position": {"type": "integer", "minimum": 0}}}},
+            "direct_native_relations": {"type": "array", "items": {"type": "object", "required": ["before", "after", "rule"], "additionalProperties": false, "properties": {"before": {"type": "string"}, "after": {"type": "string"}, "rule": {"type": "string"}}}},
+            "within_item_order": {"const": "unresolved"}, "unresolved_policy": {"type": "string"}}
+        }
+      }
+    }}
+  },
+  "$defs": {
+    "hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "box": {"type": "array", "items": {"type": "number"}, "minItems": 4, "maxItems": 4},
+    "query": {"oneOf": [
+      {"type": "object", "required": ["kind", "page_number", "character_ids"], "additionalProperties": false,
+       "properties": {"kind": {"const": "character_ids"}, "page_number": {"type": "integer", "minimum": 1}, "character_ids": {"$ref": "#/$defs/ids"}}},
+      {"type": "object", "required": ["kind", "page_number", "bbox", "coordinate_system"], "additionalProperties": false,
+       "properties": {"kind": {"const": "rectangle"}, "page_number": {"type": "integer", "minimum": 1}, "bbox": {"$ref": "#/$defs/box"}, "coordinate_system": {"const": "pdfplumber-native-v1"}}},
+      {"type": "object", "required": ["kind", "page_number", "point", "coordinate_system"], "additionalProperties": false,
+       "properties": {"kind": {"const": "point"}, "page_number": {"type": "integer", "minimum": 1}, "point": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2}, "coordinate_system": {"const": "pdfplumber-native-v1"}}},
+      {"type": "object", "required": ["kind", "page_number", "evidence_id", "region_id", "basis"], "additionalProperties": false,
+       "properties": {"kind": {"const": "region"}, "page_number": {"type": "integer", "minimum": 1}, "evidence_id": {"type": "string"}, "region_id": {"type": "string"}, "basis": {"enum": ["geometric", "native"]}}}
+    ]},
+    "region": {
+      "type": "object", "required": ["region_id", "native_item_id", "native_provenance_index", "native_pointer", "label", "bbox", "native_bbox", "association_status", "matching_reasons", "geometric_character_ids", "native_membership", "geometric_character_count", "valid_native_character_count", "textless_visual", "confidence", "native_item_region_ids", "within_item_order"], "additionalProperties": false,
+      "properties": {
+        "region_id": {"type": "string"}, "native_item_id": {"type": "string"}, "native_provenance_index": {"type": "integer", "minimum": 0}, "native_pointer": {"type": "string"}, "label": {"type": "string"}, "bbox": {"$ref": "#/$defs/box"},
+        "native_bbox": {"type": "object", "required": ["l", "t", "r", "b", "coord_origin"], "properties": {"l": {"type": "number"}, "t": {"type": "number"}, "r": {"type": "number"}, "b": {"type": "number"}, "coord_origin": {"enum": ["TOPLEFT", "BOTTOMLEFT"]}}},
+        "association_status": {"enum": ["unambiguous", "ambiguous", "unmatched", "zero_character_visual", "contradictory"]},
+        "matching_reasons": {"type": "array", "uniqueItems": true, "items": {"enum": ["source_association", "requested_region", "rectangle_intersection", "point_containment"]}},
+        "geometric_character_ids": {"$ref": "#/$defs/ids"},
+        "native_membership": {"type": "array", "items": {"type": "object", "required": ["character_id", "status", "reason"], "additionalProperties": false, "properties": {"character_id": {"type": "string"}, "status": {"enum": ["valid", "contradictory"]}, "reason": {"type": ["string", "null"]}}}},
+        "geometric_character_count": {"type": "integer", "minimum": 0}, "valid_native_character_count": {"type": "integer", "minimum": 0}, "textless_visual": {"type": "boolean"},
+        "confidence": {"oneOf": [{"type": "null"}, {"type": "object", "required": ["value", "native_pointer"], "additionalProperties": false, "properties": {"value": {"type": "number"}, "native_pointer": {"type": "string"}}}]},
+        "native_item_region_ids": {"$ref": "#/$defs/ids"}, "within_item_order": {"const": "unresolved"}
+      }
+    }
+  }
+}
