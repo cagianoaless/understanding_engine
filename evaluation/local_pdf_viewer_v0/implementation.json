@@ -1,0 +1,30 @@
+{
+  "schema_version": "local-viewer-code.1",
+  "base_commit": "5d91e49966f6acb43b04f9aabbb8e9d1f0a159c7",
+  "files": [
+    {
+      "path": "src/understanding_engine/viewer.py",
+      "sha256": "9cc1fc59f63c6fa607b272efd2930d0cd1d6149d12f2cfefcaec823dba683128"
+    },
+    {
+      "path": "src/understanding_engine/viewer_coordinates.py",
+      "sha256": "7498b61876c78725ffe613ef86e67f453998998672e28b374397814cefb1c79b"
+    },
+    {
+      "path": "src/understanding_engine/viewer_assets.py",
+      "sha256": "e81bd49003c3cf1200c2872539bbe3d7cca0aa46c0f6bcdacefe20949563a866"
+    },
+    {
+      "path": "tests/test_viewer.py",
+      "sha256": "83c5f6330e70b16fc5e848f87aee677a43392f49ace7c1a39a4ff8d85a34073c"
+    },
+    {
+      "path": "evaluation/local_pdf_viewer_v0/browser_smoke.mjs",
+      "sha256": "126d08828f97636bc1772e0b3a3da17d4aa033d4a8490d155eb7a66cdc779b6b"
+    },
+    {
+      "path": "evaluation/local_pdf_viewer_v0/fixtures.py",
+      "sha256": "8b2623d63aaa1f7787208ebf31ddfc8b0fef7070fdb4c3cb2793f07610d32f8d"
+    }
+  ]
+}
