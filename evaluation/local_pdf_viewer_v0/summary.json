@@ -1,0 +1,277 @@
+{
+  "schema_version": "local-viewer-observations.1",
+  "date": "2026-11-11",
+  "base_commit": "5d91e49966f6acb43b04f9aabbb8e9d1f0a159c7",
+  "status": "PASS_for_observed_desktop_smoke_not_general_UI_validation",
+  "reference_status": "agent_visual_checked; zero independent human verifications",
+  "python": "3.11.13",
+  "platform": "Darwin arm64",
+  "dependencies": {
+    "pdfplumber": "0.11.8",
+    "pypdfium2": "5.14.0",
+    "Pillow": "13.0.0",
+    "reportlab": "4.4.4",
+    "pytest": "8.4.2"
+  },
+  "inputs": {
+    "schema_version": "local-viewer-inputs.1",
+    "pdf": {
+      "bytes": 775166,
+      "sha256": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e"
+    },
+    "extraction": {
+      "bytes": 48738778,
+      "sha256": "9618216d3b52fab8a59949eeacd3f740f78f7166964f9cae3d61ce68522ab79b"
+    },
+    "hybrid": {
+      "bytes": 58496673,
+      "sha256": "448464901ab56611dcbde6e8a2621ad17118508d0936415f06acc4408a2a7649"
+    }
+  },
+  "prior_tracked_files_unchanged": 406,
+  "offline_tests": {
+    "passed": 488,
+    "failed": 0,
+    "skipped": 0,
+    "elapsed_seconds": 19.15,
+    "new_tests": 36,
+    "command": "see reproduce.md; existing compatible interpreter and packages, no sync"
+  },
+  "browser_bert": {
+    "schema_version": "local-viewer-browser-smoke.1",
+    "reference_status": "source identities; not quality annotations",
+    "complete": true,
+    "browser": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/146.0.7680.164",
+      "revision": "@9828b0995009b41005eb7b4b33c442a1c3340c8",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/146.0.0.0 Safari/537.36",
+      "jsVersion": "14.6.202.26"
+    },
+    "visible_initial_loading": "Loading verified local document…",
+    "startup_to_render_ms": 16132.670084000001,
+    "deterministic_repeat": true,
+    "page_request_count": 45,
+    "external_page_requests": 0,
+    "browser_errors": [],
+    "server_exit_code": 0,
+    "server_signal": null,
+    "checks": [
+      {
+        "page": 6,
+        "zoom": "fit",
+        "expected_id": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c0",
+        "unicode": "S",
+        "image_pixels": [
+          893,
+          1263
+        ],
+        "display_rect": [
+          37,
+          177,
+          778,
+          1100.34375
+        ],
+        "returned_characters": 1,
+        "matching_regions": 3,
+        "source_only": false,
+        "response_json_utf8_bytes": 6091,
+        "pointer_error_pdf_points": 0.6356903935247118,
+        "overlay_max_error_css_pixels": 2.108193086769461e-05,
+        "interaction_ms": 106.19479200000205
+      },
+      {
+        "page": 6,
+        "zoom": "75",
+        "expected_id": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c0",
+        "unicode": "S",
+        "image_pixels": [
+          893,
+          1263
+        ],
+        "display_rect": [
+          91.125,
+          177,
+          669.75,
+          947.25
+        ],
+        "returned_characters": 1,
+        "matching_regions": 3,
+        "source_only": false,
+        "response_json_utf8_bytes": 6090,
+        "pointer_error_pdf_points": 0.5659485757719267,
+        "overlay_max_error_css_pixels": 1.593193712867702e-05,
+        "interaction_ms": 105.06195799999841
+      },
+      {
+        "page": 6,
+        "zoom": "150",
+        "expected_id": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c0",
+        "unicode": "S",
+        "image_pixels": [
+          893,
+          1263
+        ],
+        "display_rect": [
+          37,
+          177,
+          1339.5,
+          1894.5
+        ],
+        "returned_characters": 1,
+        "matching_regions": 3,
+        "source_only": false,
+        "response_json_utf8_bytes": 6091,
+        "pointer_error_pdf_points": 0.4397734217245244,
+        "overlay_max_error_css_pixels": 7.332203978194229e-06,
+        "interaction_ms": 104.84654099999898
+      },
+      {
+        "page": 1,
+        "zoom": "fit",
+        "expected_id": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p1:c0",
+        "unicode": "B",
+        "image_pixels": [
+          893,
+          1263
+        ],
+        "display_rect": [
+          37,
+          177,
+          778,
+          1100.34375
+        ],
+        "returned_characters": 1,
+        "matching_regions": 0,
+        "source_only": true,
+        "response_json_utf8_bytes": 2557,
+        "pointer_error_pdf_points": 0.41193070771208795,
+        "overlay_max_error_css_pixels": 6.766826903259471e-06,
+        "interaction_ms": 104.2398749999993
+      }
+    ],
+    "progressive_region_inspection": {
+      "characters": 345,
+      "response_json_utf8_bytes": 404652
+    }
+  },
+  "browser_authored": {
+    "schema_version": "local-viewer-browser-smoke.1",
+    "reference_status": "source identities; not quality annotations",
+    "complete": true,
+    "browser": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/146.0.7680.164",
+      "revision": "@9828b0995009b41005eb7b4b33c442a1c3340c8",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/146.0.0.0 Safari/537.36",
+      "jsVersion": "14.6.202.26"
+    },
+    "visible_initial_loading": "Loading verified local document…",
+    "startup_to_render_ms": 641.5050409999999,
+    "deterministic_repeat": true,
+    "page_request_count": 15,
+    "external_page_requests": 0,
+    "browser_errors": [],
+    "server_exit_code": 0,
+    "server_signal": null,
+    "checks": [
+      {
+        "page": 1,
+        "zoom": "fit",
+        "expected_id": "e7bc4dec116378ae7f9187af91a9d25708457e5aa38be3332b79e7b027cde9b4:p1:c0",
+        "unicode": "x",
+        "image_pixels": [
+          300,
+          300
+        ],
+        "display_rect": [
+          276,
+          177,
+          300,
+          300
+        ],
+        "returned_characters": 1,
+        "matching_regions": 2,
+        "source_only": false,
+        "response_json_utf8_bytes": 3903,
+        "pointer_error_pdf_points": 0.48400000000000887,
+        "overlay_max_error_css_pixels": 1.52587890625e-05,
+        "interaction_ms": 104.34370799999988
+      },
+      {
+        "page": 1,
+        "zoom": "75",
+        "expected_id": "e7bc4dec116378ae7f9187af91a9d25708457e5aa38be3332b79e7b027cde9b4:p1:c0",
+        "unicode": "x",
+        "image_pixels": [
+          300,
+          300
+        ],
+        "display_rect": [
+          313.5,
+          177,
+          225,
+          225
+        ],
+        "returned_characters": 1,
+        "matching_regions": 2,
+        "source_only": false,
+        "response_json_utf8_bytes": 3903,
+        "pointer_error_pdf_points": 0.48400000000000887,
+        "overlay_max_error_css_pixels": 5.371093749317879e-06,
+        "interaction_ms": 103.53774999999996
+      },
+      {
+        "page": 1,
+        "zoom": "150",
+        "expected_id": "e7bc4dec116378ae7f9187af91a9d25708457e5aa38be3332b79e7b027cde9b4:p1:c0",
+        "unicode": "x",
+        "image_pixels": [
+          300,
+          300
+        ],
+        "display_rect": [
+          201,
+          177,
+          450,
+          450
+        ],
+        "returned_characters": 1,
+        "matching_regions": 2,
+        "source_only": false,
+        "response_json_utf8_bytes": 3918,
+        "pointer_error_pdf_points": 0.33333333333333215,
+        "overlay_max_error_css_pixels": 1.0742187498635758e-05,
+        "interaction_ms": 103.7934580000001
+      }
+    ],
+    "progressive_region_inspection": {
+      "characters": 18,
+      "response_json_utf8_bytes": 10547
+    },
+    "textless_visual_status": {
+      "ambiguous": false,
+      "ambiguous_character_ids": [],
+      "contradictory": false,
+      "overlapping_regions": false,
+      "source_only": false,
+      "textless_visual": true,
+      "unmatched": false,
+      "unmatched_character_ids": []
+    }
+  },
+  "measurement_notes": [
+    "Response byte counts use UTF-8 JSON.stringify of captured SelectionResult, not pretty-printed wire length.",
+    "Interaction ms includes CDP dispatch plus a 100 ms result-poll interval, not pure backend latency.",
+    "Pointer rounding remained within one CSS pixel; synthetic mathematical round trips use 1e-12 PDF-point tolerance.",
+    "Only headless Chromium DPR1 and app fit/75/150 zoom were tested."
+  ],
+  "unverified": [
+    "Safari/Firefox",
+    "browser-level zoom and OS display scaling",
+    "mobile/touch",
+    "full-document performance/selection accuracy",
+    "arbitrary crop/rotation",
+    "exhaustive security audit"
+  ]
+}
