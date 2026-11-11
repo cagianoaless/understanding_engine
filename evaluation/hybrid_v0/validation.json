@@ -1,0 +1,22 @@
+{
+  "ci": "Not yet published at artifact creation; final PR/response records observed CI separately",
+  "core_file_hashes": {
+    "src/understanding_engine/hybrid.py": "4060d5b6ca81661ff9494296c4ca74e98ab003a8f7664d5e4c958837a642147c",
+    "src/understanding_engine/hybrid_contract.py": "9ea0192db1ec2e467756a2d2eefe143f4f0594dbef7b913943628f33d22f12c8",
+    "src/understanding_engine/schemas/hybrid-0.1.schema.json": "a04cb0fcaaed1134f9f057f6358841293839bb69667b87052fd815cf98a0a8fb"
+  },
+  "dependency_installation": false,
+  "deterministic_serialization": "PASS, two offline constructions byte-identical",
+  "full_hybrid_sha256": "448464901ab56611dcbde6e8a2621ad17118508d0936415f06acc4408a2a7649",
+  "interpreter": "Existing compatible host interpreter; unchanged project site-packages read-only",
+  "offline_test_suite": {
+    "failed": 0,
+    "new_hybrid_tests": 48,
+    "passed": 415,
+    "seconds": 8.52,
+    "skipped": 0
+  },
+  "python": "3.11.13",
+  "retained_integration": "PASS, complete original BERT extraction and retained native page6 artifacts hash-verified; current-code validation passed",
+  "uv_warning": "--frozen has no effect with --no-project; no sync or dependency resolution"
+}
