@@ -1,0 +1,331 @@
+{
+  "caveat": "Partial inspection view only; complete authoritative source and all associations remain in the hashed external hybrid.json. No accuracy claim.",
+  "full_hybrid": {
+    "bytes": 58496673,
+    "relative_path": "hybrid.json",
+    "sha256": "448464901ab56611dcbde6e8a2621ad17118508d0936415f06acc4408a2a7649"
+  },
+  "is_complete_hybrid_document": false,
+  "multi_box_regions": [
+    {
+      "bbox": [
+        71.99999999999996,
+        662.7421758999997,
+        290.2692728000001,
+        712.7545280318582
+      ],
+      "geometric_character_count": 149,
+      "geometric_character_ids_excerpt": [
+        "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c1906",
+        "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c1907"
+      ],
+      "id": "hybrid:a153b0c3ebffecd322869050421c6f3a3d7c73b4c2198cab73b8fd368d174355",
+      "native_bbox": {
+        "b": 129.13547196814181,
+        "coord_origin": "BOTTOMLEFT",
+        "l": 71.99999999999996,
+        "r": 290.2692728000001,
+        "t": 179.14782410000032
+      },
+      "native_item_id": "#/texts/65",
+      "native_membership": [],
+      "native_provenance_index": 0,
+      "page_number": 6,
+      "status": "unambiguous"
+    },
+    {
+      "bbox": [
+        307.27600000000007,
+        252.47017589999996,
+        525.5452728000004,
+        275.3845280318584
+      ],
+      "geometric_character_count": 77,
+      "geometric_character_ids_excerpt": [
+        "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c2229",
+        "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c2230"
+      ],
+      "id": "hybrid:69c326ce83b0fa013b2945f49834307b3b74d437d344229e2651a43aa4bba790",
+      "native_bbox": {
+        "b": 566.5054719681416,
+        "coord_origin": "BOTTOMLEFT",
+        "l": 307.27600000000007,
+        "r": 525.5452728000004,
+        "t": 589.4198241
+      },
+      "native_item_id": "#/texts/65",
+      "native_membership": [],
+      "native_provenance_index": 1,
+      "page_number": 6,
+      "status": "unambiguous"
+    }
+  ],
+  "native_hierarchy_items": [
+    {
+      "children_ids": [
+        "#/texts/1",
+        "#/texts/2",
+        "#/texts/3",
+        "#/texts/4",
+        "#/texts/5",
+        "#/texts/6",
+        "#/texts/7",
+        "#/texts/8",
+        "#/texts/9",
+        "#/texts/10",
+        "#/texts/11",
+        "#/texts/12",
+        "#/texts/13",
+        "#/texts/14",
+        "#/texts/15",
+        "#/texts/16",
+        "#/texts/17",
+        "#/texts/18",
+        "#/texts/19",
+        "#/texts/20",
+        "#/texts/21",
+        "#/texts/22",
+        "#/texts/23",
+        "#/texts/24",
+        "#/texts/25",
+        "#/texts/26",
+        "#/texts/27",
+        "#/texts/28",
+        "#/texts/29",
+        "#/texts/30",
+        "#/texts/31",
+        "#/texts/32",
+        "#/texts/33",
+        "#/texts/34",
+        "#/texts/35",
+        "#/texts/36",
+        "#/texts/37",
+        "#/texts/38",
+        "#/texts/39",
+        "#/texts/40",
+        "#/texts/41",
+        "#/texts/42",
+        "#/texts/43",
+        "#/texts/44",
+        "#/texts/45",
+        "#/texts/46",
+        "#/texts/47",
+        "#/texts/48",
+        "#/texts/49",
+        "#/texts/50",
+        "#/texts/51",
+        "#/texts/52",
+        "#/texts/53",
+        "#/texts/54",
+        "#/texts/55",
+        "#/texts/56",
+        "#/texts/57",
+        "#/texts/58",
+        "#/texts/59",
+        "#/texts/60"
+      ],
+      "confidence": null,
+      "geometry_status": "unavailable",
+      "label": "unspecified",
+      "native_id": "#/groups/0",
+      "native_pointer": "#/groups/0",
+      "parent_id": "#/tables/0",
+      "region_ids": []
+    },
+    {
+      "children_ids": [
+        "#/texts/0",
+        "#/groups/0"
+      ],
+      "confidence": null,
+      "geometry_status": "present",
+      "label": "table",
+      "native_id": "#/tables/0",
+      "native_pointer": "#/tables/0",
+      "parent_id": "#/body",
+      "region_ids": [
+        "hybrid:cadc611eb632a98f520c78c547b4a7bda459abec1c79b7a995e27d8f6f2c7e48"
+      ]
+    },
+    {
+      "children_ids": [],
+      "confidence": null,
+      "geometry_status": "present",
+      "label": "text",
+      "native_id": "#/texts/65",
+      "native_pointer": "#/texts/65",
+      "parent_id": "#/body",
+      "region_ids": [
+        "hybrid:a153b0c3ebffecd322869050421c6f3a3d7c73b4c2198cab73b8fd368d174355",
+        "hybrid:69c326ce83b0fa013b2945f49834307b3b74d437d344229e2651a43aa4bba790"
+      ]
+    }
+  ],
+  "order_hypothesis": {
+    "direction": "unresolved",
+    "evidence_id": "evidence:3d7484798bb743c3c8e0c3a6429d4706816c60923a5c041346c2be54762540ce",
+    "provider": "docling",
+    "provider_version": "2.148.0",
+    "reason": "Within-item order unproven, including multiple provenance boxes"
+  },
+  "page_number": 6,
+  "schema_version": "hybrid-v0-inspection-excerpt.1",
+  "source_characters": [
+    {
+      "backend_bbox_bottom_origin": [
+        71.99999999999996,
+        169.6896344000003,
+        78.66546009999996,
+        180.5987344000003
+      ],
+      "backend_index": 1906,
+      "bbox": [
+        71.99999999999996,
+        661.2912655999996,
+        78.66546009999996,
+        672.2003655999997
+      ],
+      "doctop": 4870.7412656,
+      "fontname": "DRMZXX+NimbusRomNo9L-Regu",
+      "id": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c1906",
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        71.99999999999996,
+        172.0460000000003
+      ],
+      "size": 10.909099999999995,
+      "text": "T",
+      "upright": true
+    },
+    {
+      "backend_bbox_bottom_origin": [
+        78.66546009999996,
+        169.6896344000003,
+        84.12001009999996,
+        180.5987344000003
+      ],
+      "backend_index": 1907,
+      "bbox": [
+        78.66546009999996,
+        661.2912655999996,
+        84.12001009999996,
+        672.2003655999997
+      ],
+      "doctop": 4870.7412656,
+      "fontname": "DRMZXX+NimbusRomNo9L-Regu",
+      "id": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c1907",
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        78.66546009999996,
+        172.0460000000003
+      ],
+      "size": 10.909099999999995,
+      "text": "h",
+      "upright": true
+    },
+    {
+      "backend_bbox_bottom_origin": [
+        307.27600000000007,
+        579.9616344,
+        317.5741904000001,
+        590.8707344
+      ],
+      "backend_index": 2229,
+      "bbox": [
+        307.27600000000007,
+        251.01926560000004,
+        317.5741904000001,
+        261.9283656
+      ],
+      "doctop": 4460.4692656,
+      "fontname": "DRMZXX+NimbusRomNo9L-Regu",
+      "id": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c2229",
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        307.27600000000007,
+        582.318
+      ],
+      "size": 10.909099999999967,
+      "text": "W",
+      "upright": true
+    },
+    {
+      "backend_bbox_bottom_origin": [
+        317.13782640000005,
+        579.9616344,
+        320.1705562000001,
+        590.8707344
+      ],
+      "backend_index": 2230,
+      "bbox": [
+        317.13782640000005,
+        251.01926560000004,
+        320.1705562000001,
+        261.9283656
+      ],
+      "doctop": 4460.4692656,
+      "fontname": "DRMZXX+NimbusRomNo9L-Regu",
+      "id": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e:p6:c2230",
+      "matrix": [
+        1,
+        0,
+        0,
+        1,
+        317.13782640000005,
+        582.318
+      ],
+      "size": 10.909099999999967,
+      "text": "i",
+      "upright": true
+    }
+  ],
+  "source_geometry": {
+    "bbox": [
+      0,
+      0.0,
+      595.276,
+      841.89
+    ],
+    "cropbox": [
+      0,
+      0.0,
+      595.276,
+      841.89
+    ],
+    "height": 841.89,
+    "initial_doctop": 4209.45,
+    "mediabox": [
+      0,
+      0.0,
+      595.276,
+      841.89
+    ],
+    "pdfminer_layout_bbox": [
+      0,
+      0,
+      595.276,
+      841.89
+    ],
+    "raw_cropbox": null,
+    "raw_mediabox": [
+      0.0,
+      0.0,
+      595.276,
+      841.89
+    ],
+    "raw_rotation": 0.0,
+    "rotation": 0,
+    "user_unit": 1.0,
+    "width": 595.276
+  },
+  "source_pdf_sha256": "5692a5514787a8c6727b4ff3b726a3385798bc68e12138d1d4af83947e2acf6e"
+}

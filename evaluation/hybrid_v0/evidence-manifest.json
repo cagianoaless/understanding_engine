@@ -1,0 +1,51 @@
+{
+  "all_large_artifacts_outside_git": true,
+  "host_available_snapshot_bytes": 25141334016,
+  "inclusive_allocation_snapshot_bytes": 5505368064,
+  "local_location_record": "evidence-location.local.json",
+  "new_inference_calls": 0,
+  "no_runtime_changes": true,
+  "persistent_root": "$HYBRID_EVIDENCE",
+  "records": [
+    {
+      "bytes": 58496673,
+      "path": "hybrid.json",
+      "sha256": "448464901ab56611dcbde6e8a2621ad17118508d0936415f06acc4408a2a7649"
+    },
+    {
+      "bytes": 2462,
+      "path": "demonstration.json",
+      "sha256": "639f7e5302a3030d54fedc84eec2694bc745b5b5db3a66ec9d729bcc575320ce"
+    },
+    {
+      "bytes": 8293,
+      "path": "inspection-excerpt.json",
+      "sha256": "ff843cff6c57fe9a90c500c12040c97e74d6cf4df590d62ec2cc49ebe45510c0"
+    },
+    {
+      "bytes": 1886,
+      "path": "pytest.stdout.log",
+      "role": "Earlier passing internal iteration (414 tests); retained unchanged",
+      "sha256": "c0f86e34fa42b7e81ed14a510595f507e5f7019f96ce79a430cfcb2bf9ca60c4"
+    },
+    {
+      "bytes": 69,
+      "path": "pytest.stderr.log",
+      "role": "Earlier passing internal iteration (414 tests); retained unchanged",
+      "sha256": "d9814eb7c3607bcc3c971e7021efd8a5e8db85d6a52f0b5cc05f0a8e28132001"
+    },
+    {
+      "bytes": 1886,
+      "path": "release-pytest.stdout.log",
+      "role": "Final validation (415 tests)",
+      "sha256": "aa6021a79166350453cde49e6bd24a5aa4d18a364a2cb491893c2b563733cd10"
+    },
+    {
+      "bytes": 69,
+      "path": "release-pytest.stderr.log",
+      "role": "Final validation (415 tests)",
+      "sha256": "d9814eb7c3607bcc3c971e7021efd8a5e8db85d6a52f0b5cc05f0a8e28132001"
+    }
+  ],
+  "schema_version": "hybrid-v0-evidence.1"
+}

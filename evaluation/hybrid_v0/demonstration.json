@@ -1,0 +1,91 @@
+{
+  "benchmark_metrics_recalculated": false,
+  "frozen_annotations_loaded": false,
+  "full_hybrid": {
+    "bytes": 58496673,
+    "relative_path": "hybrid.json",
+    "sha256": "448464901ab56611dcbde6e8a2621ad17118508d0936415f06acc4408a2a7649"
+  },
+  "hypotheses": [
+    {
+      "items": 90,
+      "provider": "structure_0_2",
+      "region_association_states": {
+        "ambiguous": 74,
+        "unambiguous": 16
+      },
+      "regions": 90,
+      "status": "available"
+    },
+    {
+      "items": 76,
+      "provider": "docling",
+      "region_association_states": {
+        "ambiguous": 61,
+        "unambiguous": 13
+      },
+      "regions": 74,
+      "status": "available"
+    }
+  ],
+  "independent_human_verifications": 0,
+  "independent_validation": false,
+  "inputs": [
+    {
+      "bytes": 48738778,
+      "relative_path": "sources/bert-extraction.json",
+      "sha256": "9618216d3b52fab8a59949eeacd3f740f78f7166964f9cae3d61ce68522ab79b"
+    },
+    {
+      "bytes": 55659,
+      "relative_path": "native/docling-bert-p06/docling.json",
+      "sha256": "ecc0f81b70f916bdf465cbf1648734c0266c8a4713f42adce1c1c04446291709"
+    },
+    {
+      "bytes": 36295,
+      "relative_path": "native/docling-bert-p06/items.json",
+      "sha256": "3ae733561dcfea7fc04872c0492a92c2ad44b0fb3ace5ad64e8f5703d2368784"
+    },
+    {
+      "bytes": 1511,
+      "relative_path": "native/docling-bert-p06/execution.json",
+      "sha256": "168d0a638d8432b6c51a487cd12c30b998198ee0d987fd2e49f5dd599e6ff782"
+    },
+    {
+      "bytes": 887911,
+      "relative_path": "native/structure-bert-p06/structure.json",
+      "sha256": "000861b44a4932a09788b0e35d2d32b2aaade822223535bbb8d530b8ba7a3602"
+    }
+  ],
+  "multi_box_item_order": {
+    "direction": "unresolved",
+    "evidence_id": "evidence:3d7484798bb743c3c8e0c3a6429d4706816c60923a5c041346c2be54762540ce",
+    "provider": "docling",
+    "provider_version": "2.148.0",
+    "reason": "Within-item order unproven, including multiple provenance boxes"
+  },
+  "new_inference_calls": 0,
+  "post_hoc_interface_demonstration": true,
+  "schema_version": "hybrid-v0-retained-demonstration.1",
+  "source_characters_conserved": 54003,
+  "source_only_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "source_page_6_characters": 3690,
+  "source_pages_conserved": 16,
+  "verification": "agent_visual_checked inherited references; no references used by builder"
+}
