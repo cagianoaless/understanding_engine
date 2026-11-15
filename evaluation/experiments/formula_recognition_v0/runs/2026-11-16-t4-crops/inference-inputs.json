@@ -1,0 +1,274 @@
+{
+  "schema_version": "formula-gpu-inputs.1",
+  "base_commit": "47c1e560719b2b4f601449f509ef674689b887ba",
+  "reference_inputs_uploaded": false,
+  "cropping_policy": "Unchanged PR24 crops; rendered at 1.67 with frozen floor/ceil pixel boxes",
+  "execution_order": [
+    "attn_fraction",
+    "attn_heads",
+    "attn_ffn",
+    "attn_positional",
+    "nature_weights",
+    "nature_softmax",
+    "log_eq2",
+    "log_eq4"
+  ],
+  "crops": [
+    {
+      "id": "log_eq2",
+      "pdf_sha256": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060",
+      "page": 4,
+      "bbox": [
+        161.84,
+        367.42,
+        450.15999999999997,
+        409.58
+      ],
+      "pixel_box": [
+        270,
+        613,
+        753,
+        685
+      ],
+      "image_dimensions": [
+        483,
+        72
+      ],
+      "sha256": "33803b1d0b6b4119d3ad23e4f2ae1476911bb9c69edf0ad078481e2beb8f3496",
+      "bytes": 9936
+    },
+    {
+      "id": "log_eq4",
+      "pdf_sha256": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060",
+      "page": 4,
+      "bbox": [
+        89.76,
+        545.06,
+        522.24,
+        589.94
+      ],
+      "pixel_box": [
+        150,
+        910,
+        873,
+        986
+      ],
+      "image_dimensions": [
+        723,
+        76
+      ],
+      "sha256": "1e137fb3ce350e9aa0550addaa77331b0a9f3aa563088ffdd7bf8aecdd0050d9",
+      "bytes": 17122
+    },
+    {
+      "id": "attn_fraction",
+      "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "page": 4,
+      "bbox": [
+        189.3976867756,
+        460.0679132,
+        420.38849780439995,
+        495.7921212
+      ],
+      "pixel_box": [
+        316,
+        768,
+        703,
+        829
+      ],
+      "image_dimensions": [
+        387,
+        61
+      ],
+      "sha256": "9b9b3cccafa6e482c591d1ad81c52c4d7daade04b5e63a730af286b8508c1e9d",
+      "bytes": 6763
+    },
+    {
+      "id": "attn_heads",
+      "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "page": 5,
+      "bbox": [
+        146.6233237324,
+        143.3833931999999,
+        451.23821108759995,
+        160.49464119999993
+      ],
+      "pixel_box": [
+        245,
+        239,
+        755,
+        269
+      ],
+      "image_dimensions": [
+        510,
+        30
+      ],
+      "sha256": "47b69fbe8d37f73f964829f93ddeee18558590be938988dd814b4932f19482d6",
+      "bytes": 6634
+    },
+    {
+      "id": "attn_ffn",
+      "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "page": 5,
+      "bbox": [
+        198.51489576199998,
+        565.9463252959999,
+        412.9876833380001,
+        580.738736304
+      ],
+      "pixel_box": [
+        331,
+        945,
+        691,
+        971
+      ],
+      "image_dimensions": [
+        360,
+        26
+      ],
+      "sha256": "e8a1402331c55098bb935452f49b9fcc7319f6f45f13df1534a254294a48a669",
+      "bytes": 4703
+    },
+    {
+      "id": "nature_weights",
+      "pdf_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page": 10,
+      "bbox": [
+        397.1022391652829,
+        105.49438757923988,
+        458.2007913987011,
+        139.17874671876004
+      ],
+      "pixel_box": [
+        663,
+        176,
+        766,
+        233
+      ],
+      "image_dimensions": [
+        103,
+        57
+      ],
+      "sha256": "c082ae4983f3c231d92bb311266248507f8ba824764a7e4767ca3f6d228a091c",
+      "bytes": 2125
+    },
+    {
+      "id": "nature_softmax",
+      "pdf_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page": 11,
+      "bbox": [
+        103.48759173302,
+        418.00179252076,
+        217.45941518397998,
+        449.15367428924
+      ],
+      "pixel_box": [
+        172,
+        698,
+        364,
+        751
+      ],
+      "image_dimensions": [
+        192,
+        53
+      ],
+      "sha256": "90af552cf4974659e25fb982dd40f97628e1022098b298f20f4718be238f5ebd",
+      "bytes": 4747
+    },
+    {
+      "id": "attn_positional",
+      "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "page": 6,
+      "bbox": [
+        196.7837580748,
+        330.6398932,
+        415.2166970652001,
+        371.10914119999995
+      ],
+      "pixel_box": [
+        328,
+        552,
+        695,
+        620
+      ],
+      "image_dimensions": [
+        367,
+        68
+      ],
+      "sha256": "a135ff6ec0d77318afc87cf24795f0bfeb1a212996077ad23c1638b1867648c4",
+      "bytes": 8142
+    }
+  ],
+  "model": {
+    "repo": "docling-project/CodeFormulaV2",
+    "revision": "ecedbe111d15c2dc60bfd4a823cbe80127b58af4",
+    "files": [
+      {
+        "file": "added_tokens.json",
+        "bytes": 975,
+        "sha256": "002686b2efb9535c359458cd1121de8e1b58e67426a46e2bd4425843766a3a5e",
+        "source_url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/added_tokens.json"
+      },
+      {
+        "file": "chat_template.json",
+        "bytes": 422,
+        "sha256": "c9d21553af689882ac89ad8e8412164662d1605f6595119664e85626df7be421",
+        "source_url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/chat_template.json"
+      },
+      {
+        "file": "config.json",
+        "bytes": 2638,
+        "sha256": "98f55cfe07dd168f9fab1f1eec35f754b23631ea1a9a7c9759b1b7cb41ab76b1",
+        "source_url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/config.json"
+      },
+      {
+        "file": "generation_config.json",
+        "bytes": 169,
+        "sha256": "b17f1890b2b2baf172761c9c4d6eb956482ffa05964f357e67544ec998c9851f",
+        "source_url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/generation_config.json"
+      },
+      {
+        "file": "model.safetensors",
+        "bytes": 630993616,
+        "sha256": "4b04e77af34c4e682a7ab1617628340d658f3c3dcd12456dd2a7fff805cf79d2",
+        "source_url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/model.safetensors"
+      },
+      {
+        "file": "preprocessor_config.json",
+        "bytes": 486,
+        "sha256": "6cb6e36d6fcb88ca1502c4a26750715dc3e7dedddc9a8f17b27d8d167d1457e7",
+        "source_url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/preprocessor_config.json"
+      },
+      {
+        "file": "processor_config.json",
+        "bytes": 68,
+        "sha256": "e7bff42da73ae9eec9042ef20e066e11f1ee20f025358ff79131e3c0fb549b46",
+        "source_url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/processor_config.json"
+      },
+      {
+        "file": "special_tokens_map.json",
+        "bytes": 1071,
+        "sha256": "1b17e900a73384d256db6f1a7591fd0d95c09e6aede680022b047386b97afcba",
+        "source_url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/special_tokens_map.json"
+      },
+      {
+        "file": "tokenizer.json",
+        "bytes": 7160031,
+        "sha256": "5ec5d3780a2e01b140cf34f023eb600263855a99aacdc3eb0f2600d7b1b4ac96",
+        "source_url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/tokenizer.json"
+      },
+      {
+        "file": "tokenizer_config.json",
+        "bytes": 24952,
+        "sha256": "37a0e94be9c9ab5197b2188e61cf764bbc015f45261013881fe37bd2fe8599e6",
+        "source_url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/tokenizer_config.json"
+      },
+      {
+        "file": "vocab.json",
+        "bytes": 1612747,
+        "sha256": "8922f7e91084b9862d270c16ce1027071214aa252a1567a4b410f952101005fc",
+        "source_url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/vocab.json"
+      }
+    ]
+  }
+}

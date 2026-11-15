@@ -1,0 +1,790 @@
+{
+  "schema_version": "formula-gpu-predictions.1",
+  "reference_latex_loaded_by_remote_inference": false,
+  "codeformula": [
+    {
+      "schema_version": "formula-gpu-prediction.1",
+      "id": "attn_fraction",
+      "status": "RETURNED",
+      "model_revision": "ecedbe111d15c2dc60bfd4a823cbe80127b58af4",
+      "generated_calls": [
+        {
+          "seconds": 4.5493535720002,
+          "input_tokens": 340,
+          "generated_tokens": 62,
+          "last_token_id": 100338,
+          "eos_token_id": 100338,
+          "token_cap_reached": false
+        }
+      ],
+      "source_truth_replaced": false,
+      "cpu_memory_enforcement": "No experiment-specific cgroup limit; remote native process RSS measured",
+      "reference_inputs": false,
+      "input": {
+        "id": "attn_fraction",
+        "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+        "page": 4,
+        "bbox": [
+          189.3976867756,
+          460.0679132,
+          420.38849780439995,
+          495.7921212
+        ],
+        "pixel_box": [
+          316,
+          768,
+          703,
+          829
+        ],
+        "image_dimensions": [
+          387,
+          61
+        ],
+        "sha256": "9b9b3cccafa6e482c591d1ad81c52c4d7daade04b5e63a730af286b8508c1e9d",
+        "bytes": 6763
+      },
+      "input_crop_sha256": "9b9b3cccafa6e482c591d1ad81c52c4d7daade04b5e63a730af286b8508c1e9d",
+      "versions": {
+        "docling": "2.148.0",
+        "docling-slim": "2.148.0",
+        "docling-core": "2.107.0",
+        "torch": "2.14.1+cu130",
+        "torchvision": "0.29.1+cu130",
+        "transformers": "5.22.1",
+        "accelerate": "1.15.0",
+        "Pillow": "11.3.0",
+        "tokenizers": "0.23.3",
+        "safetensors": "0.8.0"
+      },
+      "configuration": {
+        "dtype": "float16",
+        "max_new_tokens": 2048,
+        "temperature": 0,
+        "batch_size": 1,
+        "compile": false,
+        "seed": 0,
+        "tf32": false,
+        "prompt": "<formula>",
+        "deterministic_algorithms": "warn_only; generation greedy",
+        "checkpoint_weights_modified": false
+      },
+      "engine_initialization_seconds": 1.6654500999998163,
+      "parameter_dtypes": [
+        "torch.float16"
+      ],
+      "device": "cuda:0",
+      "stage_initialization_seconds": 1.6674119860003884,
+      "recognition_seconds": 4.646184710999933,
+      "raw_model_output": " <loc_0><loc_0><loc_500><loc_500>A t t e n t i o n ( Q , K , V ) = \\text {softmax} ( \\frac { Q K ^ { T } } { \\sqrt { d _ { k } } } ) V</formula><end_of_utterance>",
+      "cleaned_latex": "A t t e n t i o n ( Q , K , V ) = \\text {softmax} ( \\frac { Q K ^ { T } } { \\sqrt { d _ { k } } } ) V",
+      "native_output": {
+        "text": " <loc_0><loc_0><loc_500><loc_500>A t t e n t i o n ( Q , K , V ) = \\text {softmax} ( \\frac { Q K ^ { T } } { \\sqrt { d _ { k } } } ) V</formula><end_of_utterance>",
+        "stop_reason": "unspecified",
+        "metadata": {
+          "generation_time": 4.5498597621917725,
+          "num_tokens": 62,
+          "batch_size": 1
+        }
+      },
+      "backend_fallback_possible": false,
+      "total_seconds": 17.00108748399998,
+      "peak_process_rss_bytes": 2100854784,
+      "peak_gpu_allocated_bytes": 807104000,
+      "peak_gpu_reserved_bytes": 868220928,
+      "final_gpu_allocated_bytes": 668150784,
+      "final_gpu_reserved_bytes": 868220928
+    },
+    {
+      "schema_version": "formula-gpu-prediction.1",
+      "id": "attn_heads",
+      "status": "RETURNED",
+      "model_revision": "ecedbe111d15c2dc60bfd4a823cbe80127b58af4",
+      "generated_calls": [
+        {
+          "seconds": 3.2287234790001094,
+          "input_tokens": 340,
+          "generated_tokens": 65,
+          "last_token_id": 100338,
+          "eos_token_id": 100338,
+          "token_cap_reached": false
+        }
+      ],
+      "source_truth_replaced": false,
+      "cpu_memory_enforcement": "No experiment-specific cgroup limit; remote native process RSS measured",
+      "reference_inputs": false,
+      "input": {
+        "id": "attn_heads",
+        "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+        "page": 5,
+        "bbox": [
+          146.6233237324,
+          143.3833931999999,
+          451.23821108759995,
+          160.49464119999993
+        ],
+        "pixel_box": [
+          245,
+          239,
+          755,
+          269
+        ],
+        "image_dimensions": [
+          510,
+          30
+        ],
+        "sha256": "47b69fbe8d37f73f964829f93ddeee18558590be938988dd814b4932f19482d6",
+        "bytes": 6634
+      },
+      "input_crop_sha256": "47b69fbe8d37f73f964829f93ddeee18558590be938988dd814b4932f19482d6",
+      "versions": {
+        "docling": "2.148.0",
+        "docling-slim": "2.148.0",
+        "docling-core": "2.107.0",
+        "torch": "2.14.1+cu130",
+        "torchvision": "0.29.1+cu130",
+        "transformers": "5.22.1",
+        "accelerate": "1.15.0",
+        "Pillow": "11.3.0",
+        "tokenizers": "0.23.3",
+        "safetensors": "0.8.0"
+      },
+      "configuration": {
+        "dtype": "float16",
+        "max_new_tokens": 2048,
+        "temperature": 0,
+        "batch_size": 1,
+        "compile": false,
+        "seed": 0,
+        "tf32": false,
+        "prompt": "<formula>",
+        "deterministic_algorithms": "warn_only; generation greedy",
+        "checkpoint_weights_modified": false
+      },
+      "engine_initialization_seconds": 1.5135237279996545,
+      "parameter_dtypes": [
+        "torch.float16"
+      ],
+      "device": "cuda:0",
+      "stage_initialization_seconds": 1.5157237090002127,
+      "recognition_seconds": 3.295722678000402,
+      "raw_model_output": " <loc_0><loc_0><loc_500><loc_500>M u l t i H e a d ( Q , K , V ) = \\text {Concat} ( h e a d _ { 1 } , \\dots , h e a d _ { h } ) W ^ { O }</formula><end_of_utterance>",
+      "cleaned_latex": "M u l t i H e a d ( Q , K , V ) = \\text {Concat} ( h e a d _ { 1 } , \\dots , h e a d _ { h } ) W ^ { O }",
+      "native_output": {
+        "text": " <loc_0><loc_0><loc_500><loc_500>M u l t i H e a d ( Q , K , V ) = \\text {Concat} ( h e a d _ { 1 } , \\dots , h e a d _ { h } ) W ^ { O }</formula><end_of_utterance>",
+        "stop_reason": "unspecified",
+        "metadata": {
+          "generation_time": 3.229436159133911,
+          "num_tokens": 65,
+          "batch_size": 1
+        }
+      },
+      "backend_fallback_possible": false,
+      "total_seconds": 15.521672313000181,
+      "peak_process_rss_bytes": 2100248576,
+      "peak_gpu_allocated_bytes": 807104000,
+      "peak_gpu_reserved_bytes": 868220928,
+      "final_gpu_allocated_bytes": 668150784,
+      "final_gpu_reserved_bytes": 868220928
+    },
+    {
+      "schema_version": "formula-gpu-prediction.1",
+      "id": "attn_ffn",
+      "status": "RETURNED",
+      "model_revision": "ecedbe111d15c2dc60bfd4a823cbe80127b58af4",
+      "generated_calls": [
+        {
+          "seconds": 2.508637768999961,
+          "input_tokens": 340,
+          "generated_tokens": 56,
+          "last_token_id": 100338,
+          "eos_token_id": 100338,
+          "token_cap_reached": false
+        }
+      ],
+      "source_truth_replaced": false,
+      "cpu_memory_enforcement": "No experiment-specific cgroup limit; remote native process RSS measured",
+      "reference_inputs": false,
+      "input": {
+        "id": "attn_ffn",
+        "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+        "page": 5,
+        "bbox": [
+          198.51489576199998,
+          565.9463252959999,
+          412.9876833380001,
+          580.738736304
+        ],
+        "pixel_box": [
+          331,
+          945,
+          691,
+          971
+        ],
+        "image_dimensions": [
+          360,
+          26
+        ],
+        "sha256": "e8a1402331c55098bb935452f49b9fcc7319f6f45f13df1534a254294a48a669",
+        "bytes": 4703
+      },
+      "input_crop_sha256": "e8a1402331c55098bb935452f49b9fcc7319f6f45f13df1534a254294a48a669",
+      "versions": {
+        "docling": "2.148.0",
+        "docling-slim": "2.148.0",
+        "docling-core": "2.107.0",
+        "torch": "2.14.1+cu130",
+        "torchvision": "0.29.1+cu130",
+        "transformers": "5.22.1",
+        "accelerate": "1.15.0",
+        "Pillow": "11.3.0",
+        "tokenizers": "0.23.3",
+        "safetensors": "0.8.0"
+      },
+      "configuration": {
+        "dtype": "float16",
+        "max_new_tokens": 2048,
+        "temperature": 0,
+        "batch_size": 1,
+        "compile": false,
+        "seed": 0,
+        "tf32": false,
+        "prompt": "<formula>",
+        "deterministic_algorithms": "warn_only; generation greedy",
+        "checkpoint_weights_modified": false
+      },
+      "engine_initialization_seconds": 1.4844052220000776,
+      "parameter_dtypes": [
+        "torch.float16"
+      ],
+      "device": "cuda:0",
+      "stage_initialization_seconds": 1.4867224270001316,
+      "recognition_seconds": 2.5740219530002832,
+      "raw_model_output": " <loc_0><loc_0><loc_500><loc_500>F F N ( x ) = \\max ( 0 , x W _ { 1 } + b _ { 1 } ) W _ { 2 } + b _ { 2 }</formula><end_of_utterance>",
+      "cleaned_latex": "F F N ( x ) = \\max ( 0 , x W _ { 1 } + b _ { 1 } ) W _ { 2 } + b _ { 2 }",
+      "native_output": {
+        "text": " <loc_0><loc_0><loc_500><loc_500>F F N ( x ) = \\max ( 0 , x W _ { 1 } + b _ { 1 } ) W _ { 2 } + b _ { 2 }</formula><end_of_utterance>",
+        "stop_reason": "unspecified",
+        "metadata": {
+          "generation_time": 2.509249448776245,
+          "num_tokens": 56,
+          "batch_size": 1
+        }
+      },
+      "backend_fallback_possible": false,
+      "total_seconds": 14.611085292000098,
+      "peak_process_rss_bytes": 2102190080,
+      "peak_gpu_allocated_bytes": 807104000,
+      "peak_gpu_reserved_bytes": 868220928,
+      "final_gpu_allocated_bytes": 668150784,
+      "final_gpu_reserved_bytes": 868220928
+    },
+    {
+      "schema_version": "formula-gpu-prediction.1",
+      "id": "attn_positional",
+      "status": "RETURNED",
+      "model_revision": "ecedbe111d15c2dc60bfd4a823cbe80127b58af4",
+      "generated_calls": [
+        {
+          "seconds": 4.6805442760000915,
+          "input_tokens": 340,
+          "generated_tokens": 119,
+          "last_token_id": 100338,
+          "eos_token_id": 100338,
+          "token_cap_reached": false
+        }
+      ],
+      "source_truth_replaced": false,
+      "cpu_memory_enforcement": "No experiment-specific cgroup limit; remote native process RSS measured",
+      "reference_inputs": false,
+      "input": {
+        "id": "attn_positional",
+        "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+        "page": 6,
+        "bbox": [
+          196.7837580748,
+          330.6398932,
+          415.2166970652001,
+          371.10914119999995
+        ],
+        "pixel_box": [
+          328,
+          552,
+          695,
+          620
+        ],
+        "image_dimensions": [
+          367,
+          68
+        ],
+        "sha256": "a135ff6ec0d77318afc87cf24795f0bfeb1a212996077ad23c1638b1867648c4",
+        "bytes": 8142
+      },
+      "input_crop_sha256": "a135ff6ec0d77318afc87cf24795f0bfeb1a212996077ad23c1638b1867648c4",
+      "versions": {
+        "docling": "2.148.0",
+        "docling-slim": "2.148.0",
+        "docling-core": "2.107.0",
+        "torch": "2.14.1+cu130",
+        "torchvision": "0.29.1+cu130",
+        "transformers": "5.22.1",
+        "accelerate": "1.15.0",
+        "Pillow": "11.3.0",
+        "tokenizers": "0.23.3",
+        "safetensors": "0.8.0"
+      },
+      "configuration": {
+        "dtype": "float16",
+        "max_new_tokens": 2048,
+        "temperature": 0,
+        "batch_size": 1,
+        "compile": false,
+        "seed": 0,
+        "tf32": false,
+        "prompt": "<formula>",
+        "deterministic_algorithms": "warn_only; generation greedy",
+        "checkpoint_weights_modified": false
+      },
+      "engine_initialization_seconds": 1.9072582979997605,
+      "parameter_dtypes": [
+        "torch.float16"
+      ],
+      "device": "cuda:0",
+      "stage_initialization_seconds": 1.9103064660002929,
+      "recognition_seconds": 4.787070589999985,
+      "raw_model_output": " <loc_0><loc_0><loc_500><loc_500>P E _ { ( p o s , 2 i ) } & = \\sin ( p o s / 1 0 0 0 0 ^ { 2 i / d _ { \\text {model} } } ) \\\\ P E _ { ( p o s , 2 i + 1 ) } & = \\cos ( p o s / 1 0 0 0 0 ^ { 2 i / d _ { \\text {model} } } )</formula><end_of_utterance>",
+      "cleaned_latex": "P E _ { ( p o s , 2 i ) } & = \\sin ( p o s / 1 0 0 0 0 ^ { 2 i / d _ { \\text {model} } } ) \\\\ P E _ { ( p o s , 2 i + 1 ) } & = \\cos ( p o s / 1 0 0 0 0 ^ { 2 i / d _ { \\text {model} } } )",
+      "native_output": {
+        "text": " <loc_0><loc_0><loc_500><loc_500>P E _ { ( p o s , 2 i ) } & = \\sin ( p o s / 1 0 0 0 0 ^ { 2 i / d _ { \\text {model} } } ) \\\\ P E _ { ( p o s , 2 i + 1 ) } & = \\cos ( p o s / 1 0 0 0 0 ^ { 2 i / d _ { \\text {model} } } )</formula><end_of_utterance>",
+        "stop_reason": "unspecified",
+        "metadata": {
+          "generation_time": 4.6811559200286865,
+          "num_tokens": 119,
+          "batch_size": 1
+        }
+      },
+      "backend_fallback_possible": false,
+      "total_seconds": 16.394938005999848,
+      "peak_process_rss_bytes": 2106109952,
+      "peak_gpu_allocated_bytes": 807104000,
+      "peak_gpu_reserved_bytes": 868220928,
+      "final_gpu_allocated_bytes": 668150784,
+      "final_gpu_reserved_bytes": 868220928
+    },
+    {
+      "schema_version": "formula-gpu-prediction.1",
+      "id": "nature_weights",
+      "status": "RETURNED",
+      "model_revision": "ecedbe111d15c2dc60bfd4a823cbe80127b58af4",
+      "generated_calls": [
+        {
+          "seconds": 2.3811511069998232,
+          "input_tokens": 870,
+          "generated_tokens": 51,
+          "last_token_id": 100338,
+          "eos_token_id": 100338,
+          "token_cap_reached": false
+        }
+      ],
+      "source_truth_replaced": false,
+      "cpu_memory_enforcement": "No experiment-specific cgroup limit; remote native process RSS measured",
+      "reference_inputs": false,
+      "input": {
+        "id": "nature_weights",
+        "pdf_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+        "page": 10,
+        "bbox": [
+          397.1022391652829,
+          105.49438757923988,
+          458.2007913987011,
+          139.17874671876004
+        ],
+        "pixel_box": [
+          663,
+          176,
+          766,
+          233
+        ],
+        "image_dimensions": [
+          103,
+          57
+        ],
+        "sha256": "c082ae4983f3c231d92bb311266248507f8ba824764a7e4767ca3f6d228a091c",
+        "bytes": 2125
+      },
+      "input_crop_sha256": "c082ae4983f3c231d92bb311266248507f8ba824764a7e4767ca3f6d228a091c",
+      "versions": {
+        "docling": "2.148.0",
+        "docling-slim": "2.148.0",
+        "docling-core": "2.107.0",
+        "torch": "2.14.1+cu130",
+        "torchvision": "0.29.1+cu130",
+        "transformers": "5.22.1",
+        "accelerate": "1.15.0",
+        "Pillow": "11.3.0",
+        "tokenizers": "0.23.3",
+        "safetensors": "0.8.0"
+      },
+      "configuration": {
+        "dtype": "float16",
+        "max_new_tokens": 2048,
+        "temperature": 0,
+        "batch_size": 1,
+        "compile": false,
+        "seed": 0,
+        "tf32": false,
+        "prompt": "<formula>",
+        "deterministic_algorithms": "warn_only; generation greedy",
+        "checkpoint_weights_modified": false
+      },
+      "engine_initialization_seconds": 1.478553328000089,
+      "parameter_dtypes": [
+        "torch.float16"
+      ],
+      "device": "cuda:0",
+      "stage_initialization_seconds": 1.480564670000149,
+      "recognition_seconds": 2.5434882320000725,
+      "raw_model_output": " <loc_0><loc_0><loc_500><loc_500>x _ { i } = \\sum _ { j = 1 } ^ { M } \\alpha _ { i j } x _ { j } ^ { * } ,</formula><end_of_utterance>",
+      "cleaned_latex": "x _ { i } = \\sum _ { j = 1 } ^ { M } \\alpha _ { i j } x _ { j } ^ { * } ,",
+      "native_output": {
+        "text": " <loc_0><loc_0><loc_500><loc_500>x _ { i } = \\sum _ { j = 1 } ^ { M } \\alpha _ { i j } x _ { j } ^ { * } ,</formula><end_of_utterance>",
+        "stop_reason": "unspecified",
+        "metadata": {
+          "generation_time": 2.3817214965820312,
+          "num_tokens": 51,
+          "batch_size": 1
+        }
+      },
+      "backend_fallback_possible": false,
+      "total_seconds": 14.5020165359997,
+      "peak_process_rss_bytes": 2099679232,
+      "peak_gpu_allocated_bytes": 1031519744,
+      "peak_gpu_reserved_bytes": 1182793728,
+      "final_gpu_allocated_bytes": 668150784,
+      "final_gpu_reserved_bytes": 1182793728
+    },
+    {
+      "schema_version": "formula-gpu-prediction.1",
+      "id": "nature_softmax",
+      "status": "RETURNED",
+      "model_revision": "ecedbe111d15c2dc60bfd4a823cbe80127b58af4",
+      "generated_calls": [
+        {
+          "seconds": 2.782896649000122,
+          "input_tokens": 605,
+          "generated_tokens": 63,
+          "last_token_id": 100338,
+          "eos_token_id": 100338,
+          "token_cap_reached": false
+        }
+      ],
+      "source_truth_replaced": false,
+      "cpu_memory_enforcement": "No experiment-specific cgroup limit; remote native process RSS measured",
+      "reference_inputs": false,
+      "input": {
+        "id": "nature_softmax",
+        "pdf_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+        "page": 11,
+        "bbox": [
+          103.48759173302,
+          418.00179252076,
+          217.45941518397998,
+          449.15367428924
+        ],
+        "pixel_box": [
+          172,
+          698,
+          364,
+          751
+        ],
+        "image_dimensions": [
+          192,
+          53
+        ],
+        "sha256": "90af552cf4974659e25fb982dd40f97628e1022098b298f20f4718be238f5ebd",
+        "bytes": 4747
+      },
+      "input_crop_sha256": "90af552cf4974659e25fb982dd40f97628e1022098b298f20f4718be238f5ebd",
+      "versions": {
+        "docling": "2.148.0",
+        "docling-slim": "2.148.0",
+        "docling-core": "2.107.0",
+        "torch": "2.14.1+cu130",
+        "torchvision": "0.29.1+cu130",
+        "transformers": "5.22.1",
+        "accelerate": "1.15.0",
+        "Pillow": "11.3.0",
+        "tokenizers": "0.23.3",
+        "safetensors": "0.8.0"
+      },
+      "configuration": {
+        "dtype": "float16",
+        "max_new_tokens": 2048,
+        "temperature": 0,
+        "batch_size": 1,
+        "compile": false,
+        "seed": 0,
+        "tf32": false,
+        "prompt": "<formula>",
+        "deterministic_algorithms": "warn_only; generation greedy",
+        "checkpoint_weights_modified": false
+      },
+      "engine_initialization_seconds": 1.4820973039995806,
+      "parameter_dtypes": [
+        "torch.float16"
+      ],
+      "device": "cuda:0",
+      "stage_initialization_seconds": 1.4842996749998747,
+      "recognition_seconds": 2.8958021610001197,
+      "raw_model_output": " <loc_0><loc_0><loc_500><loc_500>P ( y _ { i } | x ) = \\frac { \\exp ( z _ { i } / T ) } { \\sum _ { j } \\exp ( z _ { j } / T ) } \\, ,</formula><end_of_utterance>",
+      "cleaned_latex": "P ( y _ { i } | x ) = \\frac { \\exp ( z _ { i } / T ) } { \\sum _ { j } \\exp ( z _ { j } / T ) } \\, ,",
+      "native_output": {
+        "text": " <loc_0><loc_0><loc_500><loc_500>P ( y _ { i } | x ) = \\frac { \\exp ( z _ { i } / T ) } { \\sum _ { j } \\exp ( z _ { j } / T ) } \\, ,</formula><end_of_utterance>",
+        "stop_reason": "unspecified",
+        "metadata": {
+          "generation_time": 2.7834620475769043,
+          "num_tokens": 63,
+          "batch_size": 1
+        }
+      },
+      "backend_fallback_possible": false,
+      "total_seconds": 14.713000875000034,
+      "peak_process_rss_bytes": 2101301248,
+      "peak_gpu_allocated_bytes": 920360448,
+      "peak_gpu_reserved_bytes": 1012924416,
+      "final_gpu_allocated_bytes": 668150784,
+      "final_gpu_reserved_bytes": 1012924416
+    },
+    {
+      "schema_version": "formula-gpu-prediction.1",
+      "id": "log_eq2",
+      "status": "RETURNED",
+      "model_revision": "ecedbe111d15c2dc60bfd4a823cbe80127b58af4",
+      "generated_calls": [
+        {
+          "seconds": 15.263522034000289,
+          "input_tokens": 340,
+          "generated_tokens": 432,
+          "last_token_id": 281,
+          "eos_token_id": 100338,
+          "token_cap_reached": false
+        }
+      ],
+      "source_truth_replaced": false,
+      "cpu_memory_enforcement": "No experiment-specific cgroup limit; remote native process RSS measured",
+      "reference_inputs": false,
+      "input": {
+        "id": "log_eq2",
+        "pdf_sha256": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060",
+        "page": 4,
+        "bbox": [
+          161.84,
+          367.42,
+          450.15999999999997,
+          409.58
+        ],
+        "pixel_box": [
+          270,
+          613,
+          753,
+          685
+        ],
+        "image_dimensions": [
+          483,
+          72
+        ],
+        "sha256": "33803b1d0b6b4119d3ad23e4f2ae1476911bb9c69edf0ad078481e2beb8f3496",
+        "bytes": 9936
+      },
+      "input_crop_sha256": "33803b1d0b6b4119d3ad23e4f2ae1476911bb9c69edf0ad078481e2beb8f3496",
+      "versions": {
+        "docling": "2.148.0",
+        "docling-slim": "2.148.0",
+        "docling-core": "2.107.0",
+        "torch": "2.14.1+cu130",
+        "torchvision": "0.29.1+cu130",
+        "transformers": "5.22.1",
+        "accelerate": "1.15.0",
+        "Pillow": "11.3.0",
+        "tokenizers": "0.23.3",
+        "safetensors": "0.8.0"
+      },
+      "configuration": {
+        "dtype": "float16",
+        "max_new_tokens": 2048,
+        "temperature": 0,
+        "batch_size": 1,
+        "compile": false,
+        "seed": 0,
+        "tf32": false,
+        "prompt": "<formula>",
+        "deterministic_algorithms": "warn_only; generation greedy",
+        "checkpoint_weights_modified": false
+      },
+      "engine_initialization_seconds": 1.4792018769999231,
+      "parameter_dtypes": [
+        "torch.float16"
+      ],
+      "device": "cuda:0",
+      "stage_initialization_seconds": 1.481532277000042,
+      "recognition_seconds": 15.350182846999815,
+      "raw_model_output": " <loc_0><loc_0><loc_500><loc_500>A ^ { * } ( \\phi ) = \\frac { 1 } { N } \\sum _ { x } \\max _ { y } n _ { x y } = \\sum _ { x } p ( x ) \\max _ { y } p ( y \\, | \\, x ) , \\\\ \\intertext { a n d } \\intertext { a n d } \\intertext { o n } \\intertext { d i s t a r } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p",
+      "cleaned_latex": "A ^ { * } ( \\phi ) = \\frac { 1 } { N } \\sum _ { x } \\max _ { y } n _ { x y } = \\sum _ { x } p ( x ) \\max _ { y } p ( y \\, | \\, x ) , \\\\ \\intertext { a n d } \\intertext { a n d } \\intertext { o n } \\intertext { d i s t a r",
+      "native_output": {
+        "text": " <loc_0><loc_0><loc_500><loc_500>A ^ { * } ( \\phi ) = \\frac { 1 } { N } \\sum _ { x } \\max _ { y } n _ { x y } = \\sum _ { x } p ( x ) \\max _ { y } p ( y \\, | \\, x ) , \\\\ \\intertext { a n d } \\intertext { a n d } \\intertext { o n } \\intertext { d i s t a r } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p } \\intertext { e f f a c h s } \\intertext { s u p",
+        "stop_reason": "stop_sequence",
+        "metadata": {
+          "generation_time": 15.26406455039978,
+          "num_tokens": 432,
+          "batch_size": 1
+        }
+      },
+      "backend_fallback_possible": false,
+      "total_seconds": 27.54819735199999,
+      "peak_process_rss_bytes": 2100899840,
+      "peak_gpu_allocated_bytes": 807104000,
+      "peak_gpu_reserved_bytes": 874512384,
+      "final_gpu_allocated_bytes": 668150784,
+      "final_gpu_reserved_bytes": 874512384
+    },
+    {
+      "schema_version": "formula-gpu-prediction.1",
+      "id": "log_eq4",
+      "status": "RETURNED",
+      "model_revision": "ecedbe111d15c2dc60bfd4a823cbe80127b58af4",
+      "generated_calls": [
+        {
+          "seconds": 7.5214718019997235,
+          "input_tokens": 340,
+          "generated_tokens": 213,
+          "last_token_id": 100338,
+          "eos_token_id": 100338,
+          "token_cap_reached": false
+        }
+      ],
+      "source_truth_replaced": false,
+      "cpu_memory_enforcement": "No experiment-specific cgroup limit; remote native process RSS measured",
+      "reference_inputs": false,
+      "input": {
+        "id": "log_eq4",
+        "pdf_sha256": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060",
+        "page": 4,
+        "bbox": [
+          89.76,
+          545.06,
+          522.24,
+          589.94
+        ],
+        "pixel_box": [
+          150,
+          910,
+          873,
+          986
+        ],
+        "image_dimensions": [
+          723,
+          76
+        ],
+        "sha256": "1e137fb3ce350e9aa0550addaa77331b0a9f3aa563088ffdd7bf8aecdd0050d9",
+        "bytes": 17122
+      },
+      "input_crop_sha256": "1e137fb3ce350e9aa0550addaa77331b0a9f3aa563088ffdd7bf8aecdd0050d9",
+      "versions": {
+        "docling": "2.148.0",
+        "docling-slim": "2.148.0",
+        "docling-core": "2.107.0",
+        "torch": "2.14.1+cu130",
+        "torchvision": "0.29.1+cu130",
+        "transformers": "5.22.1",
+        "accelerate": "1.15.0",
+        "Pillow": "11.3.0",
+        "tokenizers": "0.23.3",
+        "safetensors": "0.8.0"
+      },
+      "configuration": {
+        "dtype": "float16",
+        "max_new_tokens": 2048,
+        "temperature": 0,
+        "batch_size": 1,
+        "compile": false,
+        "seed": 0,
+        "tf32": false,
+        "prompt": "<formula>",
+        "deterministic_algorithms": "warn_only; generation greedy",
+        "checkpoint_weights_modified": false
+      },
+      "engine_initialization_seconds": 1.5020781479997822,
+      "parameter_dtypes": [
+        "torch.float16"
+      ],
+      "device": "cuda:0",
+      "stage_initialization_seconds": 1.5042374260001452,
+      "recognition_seconds": 7.593583928000044,
+      "raw_model_output": " <loc_0><loc_0><loc_500><loc_500>\\text {We therefore condition the ceiling on repeated rows} \\colon \\\\ A _ { n s } ^ { * } ( \\phi ) = \\frac { \\sum _ { x \\colon n _ { x } > 1 } p ( x ) \\max _ { y } p ( y \\ | \\ x ) } { 1 - \\sigma _ { \\phi } } , \\quad A ^ { * } ( \\phi ) = \\sigma _ { \\phi } + ( 1 - \\sigma _ { \\phi } ) A _ { n s } ^ { * } ( \\phi ) . \\\\ \\intertext { \\text {The additional quantity is undefined when } \\sigma _ { \\phi } = 1 \\text {; } i t \\text {, } \\max \\text {owes the maximum } \\text {, } \\text {only } \\text {, } \\text {otherwise} \\text {}</formula><end_of_utterance>",
+      "cleaned_latex": "\\text {We therefore condition the ceiling on repeated rows} \\colon \\\\ A _ { n s } ^ { * } ( \\phi ) = \\frac { \\sum _ { x \\colon n _ { x } > 1 } p ( x ) \\max _ { y } p ( y \\ | \\ x ) } { 1 - \\sigma _ { \\phi } } , \\quad A ^ { * } ( \\phi ) = \\sigma _ { \\phi } + ( 1 - \\sigma _ { \\phi } ) A _ { n s } ^ { * } ( \\phi ) . \\\\ \\intertext { \\text {The additional quantity is undefined when } \\sigma _ { \\phi } = 1 \\text {; } i t \\text {, } \\max \\text {owes the maximum } \\text {, } \\text {only } \\text {, } \\text {otherwise} \\text {}",
+      "native_output": {
+        "text": " <loc_0><loc_0><loc_500><loc_500>\\text {We therefore condition the ceiling on repeated rows} \\colon \\\\ A _ { n s } ^ { * } ( \\phi ) = \\frac { \\sum _ { x \\colon n _ { x } > 1 } p ( x ) \\max _ { y } p ( y \\ | \\ x ) } { 1 - \\sigma _ { \\phi } } , \\quad A ^ { * } ( \\phi ) = \\sigma _ { \\phi } + ( 1 - \\sigma _ { \\phi } ) A _ { n s } ^ { * } ( \\phi ) . \\\\ \\intertext { \\text {The additional quantity is undefined when } \\sigma _ { \\phi } = 1 \\text {; } i t \\text {, } \\max \\text {owes the maximum } \\text {, } \\text {only } \\text {, } \\text {otherwise} \\text {}</formula><end_of_utterance>",
+        "stop_reason": "unspecified",
+        "metadata": {
+          "generation_time": 7.522023677825928,
+          "num_tokens": 213,
+          "batch_size": 1
+        }
+      },
+      "backend_fallback_possible": false,
+      "total_seconds": 19.47281379099968,
+      "peak_process_rss_bytes": 2102575104,
+      "peak_gpu_allocated_bytes": 807104000,
+      "peak_gpu_reserved_bytes": 870318080,
+      "final_gpu_allocated_bytes": 668150784,
+      "final_gpu_reserved_bytes": 870318080
+    }
+  ],
+  "pp_formulanet": {
+    "model_revision": "0572450e501be9eb1b1cdb7e00fccf4b22fab4df",
+    "attempted": 0,
+    "selected_denominator": 8,
+    "status": "SETUP_IMPORT_FAILURE",
+    "formulas": [
+      {
+        "id": "attn_fraction",
+        "status": "NOT_EXECUTED",
+        "latex": null
+      },
+      {
+        "id": "attn_heads",
+        "status": "NOT_EXECUTED",
+        "latex": null
+      },
+      {
+        "id": "attn_ffn",
+        "status": "NOT_EXECUTED",
+        "latex": null
+      },
+      {
+        "id": "attn_positional",
+        "status": "NOT_EXECUTED",
+        "latex": null
+      },
+      {
+        "id": "nature_weights",
+        "status": "NOT_EXECUTED",
+        "latex": null
+      },
+      {
+        "id": "nature_softmax",
+        "status": "NOT_EXECUTED",
+        "latex": null
+      },
+      {
+        "id": "log_eq2",
+        "status": "NOT_EXECUTED",
+        "latex": null
+      },
+      {
+        "id": "log_eq4",
+        "status": "NOT_EXECUTED",
+        "latex": null
+      }
+    ]
+  }
+}

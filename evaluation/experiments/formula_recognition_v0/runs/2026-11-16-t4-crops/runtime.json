@@ -1,0 +1,745 @@
+{
+  "schema_version": "formula-t4-runtime.1",
+  "base_commit": "47c1e560719b2b4f601449f509ef674689b887ba",
+  "colab_cli_version": "0.8.0",
+  "session": "understanding-engine",
+  "new_session_created": false,
+  "session_automatically_terminated": false,
+  "transport": {
+    "requested_ssh_nvidia_smi": "HTTP429 existing active SSH; never terminated it",
+    "used": "official CLI exec + upload/download",
+    "one_exec_transport_disconnect": "Read-only marker check showed only first crop started; resumed seven unstarted crops. No crop rerun."
+  },
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "architecture": "x86_64",
+  "gpu": "Tesla T4",
+  "compute_capability": [
+    7,
+    5
+  ],
+  "cuda": "13.0",
+  "driver": "580.82.07",
+  "cuda_arch_list": [
+    "sm_75",
+    "sm_80",
+    "sm_86",
+    "sm_90",
+    "sm_100",
+    "sm_120"
+  ],
+  "packages": {
+    "docling": "2.148.0",
+    "docling-slim": "2.148.0",
+    "docling-core": "2.107.0",
+    "docling-ibm-models": "4.0.4",
+    "torch": "2.14.1+cu130",
+    "torchvision": "0.29.1+cu130",
+    "transformers": "5.22.1",
+    "accelerate": "1.15.0",
+    "Pillow": "11.3.0",
+    "numpy": "2.4.6",
+    "tokenizers": "0.23.3",
+    "safetensors": "0.8.0",
+    "huggingface-hub": "1.33.0",
+    "nvidia-nccl-cu13": "2.30.7",
+    "nvidia-cudnn-cu13": "9.24.0.43",
+    "nvidia-cublas": "13.1.1.3",
+    "nvidia-cuda-runtime": "13.0.96"
+  },
+  "source_hashes": [
+    {
+      "module": "docling.models.stages.code_formula.code_formula_vlm_model",
+      "sha256": "49697c117744531a8a0aa56ce37b04d3b1c0838634f98657b48d35e80d4cb5ba",
+      "matches_retained_2148_source": true
+    },
+    {
+      "module": "docling.models.inference_engines.vlm.transformers_engine",
+      "sha256": "de65ade29f1290248794ee40b8809ca29d8c226a566bf8b6c5cb3991e78da8ac",
+      "matches_retained_2148_source": true
+    },
+    {
+      "module": "docling.models.utils.generation_utils",
+      "sha256": "fa9f6a60897a20b2299b2abc7e8d670b8a4fbbc6b2e582a8583c616dd6ba2618",
+      "matches_retained_2148_source": null
+    },
+    {
+      "module": "docling.datamodel.stage_model_specs",
+      "sha256": "8823e0b466150e3931d0330a2737c8d06f82663c5a7525007aea335421ed0477",
+      "matches_retained_2148_source": true
+    },
+    {
+      "module": "docling.datamodel.vlm_engine_options",
+      "sha256": "482fb97a2590609abc7d76b88250fd72e59cbdb7cd50ea594b9ea2705d2b3f5c",
+      "matches_retained_2148_source": null
+    }
+  ],
+  "codeformula_added_packages": [
+    {
+      "name": "docling",
+      "version": "2.148.0",
+      "url": "https://files.pythonhosted.org/packages/97/31/7598bc899889b4b82f4cf4961fe4bc99ac0ec1d3d71d047e1da3fd51687e/docling-2.148.0-py3-none-any.whl",
+      "sha256": "b8882757b2d58e522986515a2ad5a7e70fcbad7c0bd51a8064261cc675b22417",
+      "declared_license_expression": "MIT",
+      "declared_license": ""
+    },
+    {
+      "name": "docling-slim",
+      "version": "2.148.0",
+      "url": "https://files.pythonhosted.org/packages/9f/01/a9cd2e9c51a45289275675b0a626b0a4b81db7a5d3fd5c8a66b4edd4d2c7/docling_slim-2.148.0-py3-none-any.whl",
+      "sha256": "34d5fe75db98f0be9a4d4fe1560afb10685cb3ba3ec8171dfb3d13d97b1c4a96",
+      "declared_license_expression": "MIT",
+      "declared_license": ""
+    },
+    {
+      "name": "docling-core",
+      "version": "2.107.0",
+      "url": "https://files.pythonhosted.org/packages/e1/db/ee3ce5a3db1d662c7d31cffacd44ce485e1dbde35f94f02e6cc8bb1f37c4/docling_core-2.107.0-py3-none-any.whl",
+      "sha256": "a60b8067853807fc7b2514d5f5806d6009b79a0ed780d2868c9238b53fdf0af2",
+      "declared_license_expression": "MIT",
+      "declared_license": ""
+    },
+    {
+      "name": "doclang",
+      "version": "0.9.0",
+      "url": "https://files.pythonhosted.org/packages/14/ec/d5270f059d99ce20c83736ba4bb1d7ae21f19c2e988355c603df381c87f6/doclang-0.9.0-py3-none-any.whl",
+      "sha256": "86e8fafa09946389e16218d9b4fb40e161fa02dc965d72be1b9785e2eeea1f4a",
+      "declared_license_expression": "Apache-2.0",
+      "declared_license": ""
+    },
+    {
+      "name": "docling-ibm-models",
+      "version": "4.0.4",
+      "url": "https://files.pythonhosted.org/packages/c4/69/b0f364a2906952a5741b5261659689bc8387f447db54cb3c26d411223ba1/docling_ibm_models-4.0.4-py3-none-any.whl",
+      "sha256": "5236a13d440135aa074e211981529424f7fd15acf7938c38431381e623430a3e",
+      "declared_license_expression": "MIT",
+      "declared_license": ""
+    },
+    {
+      "name": "docling-parse",
+      "version": "7.26.0",
+      "url": "https://files.pythonhosted.org/packages/a1/df/23648491a73fbfeb4a73348f0aecc8a76beb6f7f3d989a00472f936047d1/docling_parse-7.26.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "2317ac24741f586a99f98a971c8c941d316bb771ceecfc705c18b95d9e190c11",
+      "declared_license_expression": "MIT",
+      "declared_license": ""
+    },
+    {
+      "name": "filetype",
+      "version": "1.2.0",
+      "url": "https://files.pythonhosted.org/packages/18/79/1b8fa1bb3568781e84c9200f951c735f3f157429f44be0495da55894d620/filetype-1.2.0-py2.py3-none-any.whl",
+      "sha256": "7ce71b6880181241cf7ac8697a2f1eb6a8bd9b429f7ad6d27b8db9ba5f1c2d25",
+      "declared_license_expression": null,
+      "declared_license": "MIT"
+    },
+    {
+      "name": "jsonref",
+      "version": "1.1.0",
+      "url": "https://files.pythonhosted.org/packages/0c/ec/e1db9922bceb168197a558a2b8c03a7963f1afe93517ddd3cf99f202f996/jsonref-1.1.0-py3-none-any.whl",
+      "sha256": "590dc7773df6c21cbf948b5dac07a72a251db28b0238ceecce0a2abfa8ec30a9",
+      "declared_license_expression": null,
+      "declared_license": "MIT"
+    },
+    {
+      "name": "langcodes",
+      "version": "3.5.1",
+      "url": "https://files.pythonhosted.org/packages/dd/c1/d10b371bcba7abce05e2b33910e39c33cfa496a53f13640b7b8e10bb4d2b/langcodes-3.5.1-py3-none-any.whl",
+      "sha256": "b6a9c25c603804e2d169165091d0cdb23934610524a21d226e4f463e8e958a72",
+      "declared_license_expression": null,
+      "declared_license": ""
+    },
+    {
+      "name": "latex2mathml",
+      "version": "3.81.1",
+      "url": "https://files.pythonhosted.org/packages/07/30/b8bcfb01a2514cb7554a048ed52883de276e66d757c3cc535a3c29eb9e98/latex2mathml-3.81.1-py3-none-any.whl",
+      "sha256": "c337668441b71c819b6733905a8058ba9a9d767bae11a0c5fdacb3aff31361bd",
+      "declared_license_expression": null,
+      "declared_license": "MIT"
+    },
+    {
+      "name": "mail-parser",
+      "version": "4.11.0",
+      "url": "https://files.pythonhosted.org/packages/a7/9a/294765f556d0799893892a9011221e1e05d4471a6e4f18792f9c8d04186d/mail_parser-4.11.0-py3-none-any.whl",
+      "sha256": "adb466cd96cfccc0ab2fc52e571565afa5073a85b47ea12037b2b98057a7a5f0",
+      "declared_license_expression": "Apache-2.0",
+      "declared_license": ""
+    },
+    {
+      "name": "marko",
+      "version": "2.2.5",
+      "url": "https://files.pythonhosted.org/packages/63/67/be743617363627442717c2b865993eba99d17f2d1e0ad814bf703f190afb/marko-2.2.5-py3-none-any.whl",
+      "sha256": "26380a6b037b5b49cec3847ee3585ba66f6782a4b9aec0d1216b7194ec5871ee",
+      "declared_license_expression": null,
+      "declared_license": "MIT"
+    },
+    {
+      "name": "pydantic-settings",
+      "version": "2.16.3",
+      "url": "https://files.pythonhosted.org/packages/4c/26/3e68379ca313b6aa58e11fbd8b28d5c6f1b9f4428d70222ba021a76797ec/pydantic_settings-2.16.3-py3-none-any.whl",
+      "sha256": "d1db16a2d34006323a1b42c0640898da58adfbad7ec30baaa9e2b18aafc08999",
+      "declared_license_expression": "MIT",
+      "declared_license": ""
+    },
+    {
+      "name": "pylatexenc",
+      "version": "2.11",
+      "url": "https://files.pythonhosted.org/packages/e7/06/3d67bd912ef337aa4856b466121d03f304aa1bb4d804f9298b6227cd227e/pylatexenc-2.11-py2.py3-none-any.whl",
+      "sha256": "e78e7391d6c104f1ed150e21cfaa58016cdb50aa54406a2eecb793649ffdfdd0",
+      "declared_license_expression": null,
+      "declared_license": "MIT"
+    },
+    {
+      "name": "pypdfium2",
+      "version": "5.15.2",
+      "url": "https://files.pythonhosted.org/packages/c8/e5/2e668bc1bc6fe22f9006694b5571a2dd2c9b874d6a21d16ee839c8f7f6ea/pypdfium2-5.15.2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "dc31aea5b0fb9fefc9b537a65f4113980b2c40798445736a7e6565bc85161e37",
+      "declared_license_expression": null,
+      "declared_license": "BSD-3-Clause, Apache-2.0, dependency licenses"
+    },
+    {
+      "name": "python-docx",
+      "version": "1.2.0",
+      "url": "https://files.pythonhosted.org/packages/d0/00/1e03a4989fa5795da308cd774f05b704ace555a70f9bf9d3be057b680bcf/python_docx-1.2.0-py3-none-any.whl",
+      "sha256": "3fd478f3250fbbbfd3b94fe1e985955737c145627498896a8a6bf81f4baf66c7",
+      "declared_license_expression": null,
+      "declared_license": "MIT"
+    },
+    {
+      "name": "python-oxmsg",
+      "version": "0.0.2",
+      "url": "https://files.pythonhosted.org/packages/53/67/f56c69a98c7eb244025845506387d0f961681657c9fcd8b2d2edd148f9d2/python_oxmsg-0.0.2-py3-none-any.whl",
+      "sha256": "22be29b14c46016bcd05e34abddfd8e05ee82082f53b82753d115da3fc7d0355",
+      "declared_license_expression": null,
+      "declared_license": "MIT"
+    },
+    {
+      "name": "python-pptx",
+      "version": "1.0.2",
+      "url": "https://files.pythonhosted.org/packages/d9/4f/00be2196329ebbff56ce564aa94efb0fbc828d00de250b1980de1a34ab49/python_pptx-1.0.2-py3-none-any.whl",
+      "sha256": "160838e0b8565a8b1f67947675886e9fea18aa5e795db7ae531606d68e785cba",
+      "declared_license_expression": null,
+      "declared_license": "MIT"
+    },
+    {
+      "name": "rapidocr",
+      "version": "3.10.0",
+      "url": "https://files.pythonhosted.org/packages/59/07/203065283bba0c5e9c10af3602dc25ab3e59ee54dc2d1d22c8faeabf5ed8/rapidocr-3.10.0-py3-none-any.whl",
+      "sha256": "2fc34e26cd0f48514804a94f8832283039c7334076bff60768b1fed9ad068050",
+      "declared_license_expression": "Apache-2.0",
+      "declared_license": ""
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2",
+      "url": "https://files.pythonhosted.org/packages/a0/f4/c67b0b3f1b9245e8d266f0f112c500d50e5b4e83cb6f3b71b6528104182a/requests-2.34.2-py3-none-any.whl",
+      "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0",
+      "declared_license_expression": null,
+      "declared_license": "Apache-2.0"
+    },
+    {
+      "name": "semchunk",
+      "version": "3.2.5",
+      "url": "https://files.pythonhosted.org/packages/f8/95/12d226ee4d207cb1f77a216baa7e1a8bae2639733c140abe8d0316d23a18/semchunk-3.2.5-py3-none-any.whl",
+      "sha256": "fd09cc5f380bd010b8ca773bd81893f7eaf11d37dd8362a83d46cedaf5dae076",
+      "declared_license_expression": null,
+      "declared_license": "MIT"
+    },
+    {
+      "name": "tree-sitter",
+      "version": "0.26.1",
+      "url": "https://files.pythonhosted.org/packages/52/1c/e48d13bc08a7130d33df55a58762b5b6b8974407e9c254d0253feb2b300f/tree_sitter-0.26.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "00e55f823de46b2bbcab9ca58a4c2a7ccc2b1dc28ed3fad7355fb32726008e21",
+      "declared_license_expression": null,
+      "declared_license": ""
+    },
+    {
+      "name": "polyfactory",
+      "version": "3.5.0",
+      "url": "https://files.pythonhosted.org/packages/d6/bb/8667413181bfac2fee81b6f80710356222bf438df1eff6b3c12ab39480a8/polyfactory-3.5.0-py3-none-any.whl",
+      "sha256": "2051105650e82ea7046afbab9ad4a7bf579fb6fd80ef65a51a7feaef3396d278",
+      "declared_license_expression": null,
+      "declared_license": "MIT"
+    },
+    {
+      "name": "Faker",
+      "version": "40.54.0",
+      "url": "https://files.pythonhosted.org/packages/85/2d/031405437c6ccdc5fb24fc8cc715fbe5fbf9af492749ad070d9cc85f69dc/faker-40.54.0-py3-none-any.whl",
+      "sha256": "2dd88ee8cb63a9149e19ef48bdd73879bc3854d8ba2d6c1535e902a762e603f7",
+      "declared_license_expression": null,
+      "declared_license": "MIT License"
+    },
+    {
+      "name": "pyclipper",
+      "version": "1.4.0",
+      "url": "https://files.pythonhosted.org/packages/db/48/dd301d62c1529efdd721b47b9e5fb52120fcdac5f4d3405cfc0d2f391414/pyclipper-1.4.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "sha256": "14c8bdb5a72004b721c4e6f448d2c2262d74a7f0c9e3076aeff41e564a92389f",
+      "declared_license_expression": null,
+      "declared_license": "MIT"
+    },
+    {
+      "name": "tree-sitter-c",
+      "version": "0.24.2",
+      "url": "https://files.pythonhosted.org/packages/e9/8c/0dfb88d726f8821d1c4c36042f092be974a800afd734307a595b8604190c/tree_sitter_c-0.24.2-cp310-abi3-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+      "sha256": "5041ef67eb68ce6bc8bb0b1f8ef3a5585ce523dae0c7eec109ab0627dd75aede",
+      "declared_license_expression": null,
+      "declared_license": "MIT"
+    },
+    {
+      "name": "tree-sitter-javascript",
+      "version": "0.25.0",
+      "url": "https://files.pythonhosted.org/packages/5f/c4/7da74ecdcd8a398f88bd003a87c65403b5fe0e958cdd43fbd5fd4a398fcf/tree_sitter_javascript-0.25.0-cp310-abi3-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+      "sha256": "9dc04ba91fc8583344e57c1f1ed5b2c97ecaaf47480011b92fbeab8dda96db75",
+      "declared_license_expression": null,
+      "declared_license": "MIT"
+    },
+    {
+      "name": "tree-sitter-python",
+      "version": "0.25.0",
+      "url": "https://files.pythonhosted.org/packages/aa/cb/d9b0b67d037922d60cbe0359e0c86457c2da721bc714381a63e2c8e35eba/tree_sitter_python-0.25.0-cp310-abi3-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+      "sha256": "86f118e5eecad616ecdb81d171a36dde9bef5a0b21ed71ea9c3e390813c3baf5",
+      "declared_license_expression": null,
+      "declared_license": "MIT"
+    },
+    {
+      "name": "tree-sitter-typescript",
+      "version": "0.23.2",
+      "url": "https://files.pythonhosted.org/packages/49/d1/a71c36da6e2b8a4ed5e2970819b86ef13ba77ac40d9e333cb17df6a2c5db/tree_sitter_typescript-0.23.2-cp39-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "e96d36b85bcacdeb8ff5c2618d75593ef12ebaf1b4eace3477e2bdb2abb1752c",
+      "declared_license_expression": null,
+      "declared_license": "MIT"
+    },
+    {
+      "name": "xlsxwriter",
+      "version": "3.3.1",
+      "url": "https://files.pythonhosted.org/packages/88/eb/1e6af9959a567901a7e7c7cef2e75883e487df223ed67f9a8977ff863bd8/xlsxwriter-3.3.1-py3-none-any.whl",
+      "sha256": "8e2c89e59d733fe59e112317218c64fbbc276d90a8c144ebd6f7fa15e7ab184a",
+      "declared_license_expression": "BSD-2-Clause",
+      "declared_license": ""
+    },
+    {
+      "name": "colorlog",
+      "version": "6.12.0",
+      "url": "https://files.pythonhosted.org/packages/d4/19/0b6647bf5e331521e55d2b63bfbdc210bd9cd605189273f03614a05f702d/colorlog-6.12.0-py3-none-any.whl",
+      "sha256": "30d392604e9110045a2c2aeefc27d7a017abbab63f3a8aee594eac0801df784e",
+      "declared_license_expression": null,
+      "declared_license": "MIT License"
+    },
+    {
+      "name": "mpire",
+      "version": "2.10.2",
+      "url": "https://files.pythonhosted.org/packages/20/14/1db1729ad6db4999c3a16c47937d601fcb909aaa4224f5eca5a2f145a605/mpire-2.10.2-py3-none-any.whl",
+      "sha256": "d627707f7a8d02aa4c7f7d59de399dec5290945ddf7fbd36cbb1d6ebb37a51fb",
+      "declared_license_expression": null,
+      "declared_license": "MIT"
+    },
+    {
+      "name": "olefile",
+      "version": "0.47",
+      "url": "https://files.pythonhosted.org/packages/17/d3/b64c356a907242d719fc668b71befd73324e47ab46c8ebbbede252c154b2/olefile-0.47-py2.py3-none-any.whl",
+      "sha256": "543c7da2a7adadf21214938bb79c83ea12b473a4b6ee4ad4bf854e7715e13d1f",
+      "declared_license_expression": null,
+      "declared_license": "BSD"
+    }
+  ],
+  "pp_added_packages": [
+    {
+      "name": "paddlepaddle-gpu",
+      "version": "3.3.1",
+      "url": "file:///content/understanding-engine-formula-gpu/pp-packages/paddlepaddle_gpu-3.3.1-cp313-cp313-linux_x86_64.whl",
+      "sha256": "dc920c514987a235ed1a54c6d2d3d82a9b8d8f056253a9fb80cc8fd2a176ac45",
+      "declared_license_expression": null,
+      "declared_license": "Apache Software License"
+    },
+    {
+      "name": "paddleocr",
+      "version": "3.7.0",
+      "url": "https://files.pythonhosted.org/packages/d2/79/2ade66cf72074a3d2a013e2ba1f256d6116fec797b908fc1b4f9c320d8c4/paddleocr-3.7.0-py3-none-any.whl",
+      "sha256": "c0f0a81ad4112727f30c6fcf986ac0ef6a120d31ee0991a01fae0357ee32d338",
+      "declared_license_expression": null,
+      "declared_license": "Apache License 2.0"
+    },
+    {
+      "name": "paddlex",
+      "version": "3.7.2",
+      "url": "https://files.pythonhosted.org/packages/40/52/9bbb9cd5f4fbbbefc7391c7d1ee61df8d511017a31e6933f6744b063fdab/paddlex-3.7.2-py3-none-any.whl",
+      "sha256": "f1678bf650bbaccfd8f0d4e49d0ae631b4685c829fdae6e802ccd90d4fcb9a7f",
+      "declared_license_expression": null,
+      "declared_license": "Apache-2.0"
+    },
+    {
+      "name": "nvidia-cublas",
+      "version": "13.0.2.14",
+      "url": "https://files.pythonhosted.org/packages/28/d4/30e630055d8e0f7058cc0d39e562c965d692f4735537d3f02f45d579a280/nvidia_cublas-13.0.2.14-py3-none-manylinux_2_27_x86_64.whl",
+      "sha256": "0cf238ffdbe46c00cb9aa98e7bca745c223a5ca5a53e686ac8b3e5a08fe80d6c",
+      "declared_license_expression": "LicenseRef-NVIDIA-Proprietary",
+      "declared_license": ""
+    },
+    {
+      "name": "nvidia-cuda-runtime",
+      "version": "13.0.88",
+      "url": "https://files.pythonhosted.org/packages/b1/1d/9ea7b0d420efcae3c546feb3ca14334c0d710ac19c156ac48fce07c3d6ae/nvidia_cuda_runtime-13.0.88-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "sha256": "422a38f7c739ecbdd3a4b6ec7ed0a1d74db43d8e9bc26685f3d845638922b178",
+      "declared_license_expression": null,
+      "declared_license": "LicenseRef-NVIDIA-Proprietary"
+    },
+    {
+      "name": "nvidia-cudnn-cu13",
+      "version": "9.13.0.50",
+      "url": "https://files.pythonhosted.org/packages/cf/68/2712854561170b2a81bea7b6b35cc1ae264d9794c0c218986e5c685d45f7/nvidia_cudnn_cu13-9.13.0.50-py3-none-manylinux_2_27_x86_64.whl",
+      "sha256": "2150b4850725d30653ec3e365f0732e3e2e3eb8633cf3bd2d3117628dea8b4f9",
+      "declared_license_expression": "LicenseRef-NVIDIA-Proprietary",
+      "declared_license": ""
+    },
+    {
+      "name": "nvidia-nccl-cu13",
+      "version": "2.28.3",
+      "url": "https://files.pythonhosted.org/packages/6e/38/bb5e182b08c8b53987224b7e67c1150a60219a99b8cf40ec8cb1ab6655d1/nvidia_nccl_cu13-2.28.3-py3-none-manylinux_2_18_x86_64.whl",
+      "sha256": "9f093dd7b97ddc90ef654676173a0c301d2434c431f17aa324e9c00039afb4c7",
+      "declared_license_expression": "LicenseRef-NVIDIA-Proprietary",
+      "declared_license": ""
+    },
+    {
+      "name": "nvidia-nvjitlink",
+      "version": "13.0.88",
+      "url": "https://files.pythonhosted.org/packages/56/7a/123e033aaff487c77107195fa5a2b8686795ca537935a24efae476c41f05/nvidia_nvjitlink-13.0.88-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl",
+      "sha256": "13a74f429e23b921c1109976abefacc69835f2f433ebd323d3946e11d804e47b",
+      "declared_license_expression": null,
+      "declared_license": "LicenseRef-NVIDIA-Proprietary"
+    },
+    {
+      "name": "opt-einsum",
+      "version": "3.3.0",
+      "url": "https://files.pythonhosted.org/packages/bc/19/404708a7e54ad2798907210462fd950c3442ea51acc8790f3da48d2bee8b/opt_einsum-3.3.0-py3-none-any.whl",
+      "sha256": "2455e59e3947d3c275477df7f5205b30635e266fe6dc300e3d9f9646bfcea147",
+      "declared_license_expression": null,
+      "declared_license": "MIT"
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.2",
+      "url": "https://files.pythonhosted.org/packages/04/24/b7721e4845c2f162d26f50521b825fb061bc0a5afcf9a386840f23ea19fa/PyYAML-6.0.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "70b189594dbe54f75ab3a1acec5f1e3faa7e8cf2f1e08d9b561cb41b845f69d5",
+      "declared_license_expression": null,
+      "declared_license": "MIT"
+    },
+    {
+      "name": "numpy",
+      "version": "2.3.5",
+      "url": "https://files.pythonhosted.org/packages/f5/10/ca162f45a102738958dcec8023062dad0cbc17d1ab99d68c4e4a6c45fb2b/numpy-2.3.5-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "11e06aa0af8c0f05104d56450d6093ee639e15f24ecf62d417329d06e522e017",
+      "declared_license_expression": null,
+      "declared_license": "Copyright (c) 2005-2025, NumPy Developers.\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions are\n met:\n\n     * Redistributions of source code must retain the above copyright\n        notice, this list of conditions and the following disclaime"
+    },
+    {
+      "name": "opencv-contrib-python",
+      "version": "4.10.0.84",
+      "url": "https://files.pythonhosted.org/packages/b0/e0/8f5d065ebb2e5941d289c5f653f944318f9e418bc5167bc6a346ab5e0f6a/opencv_contrib_python-4.10.0.84-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "a261223db41f6e512d76deaf21c8fcfb4fbbcbc2de62ca7f74a05f2c9ee489ef",
+      "declared_license_expression": null,
+      "declared_license": "Apache 2.0"
+    },
+    {
+      "name": "aistudio_sdk",
+      "version": "0.3.9",
+      "url": "https://files.pythonhosted.org/packages/c2/56/ce14f76c1892f335fbcd82568d347fd1652e1a4b0b76ac4a4cd90e1ae202/aistudio_sdk-0.3.9-py3-none-any.whl",
+      "sha256": "41621d052ddb7a58643438a7ca541f58ef0ab94a2acdfff0a71db81bf68dc027",
+      "declared_license_expression": null,
+      "declared_license": "Apache-2.0"
+    },
+    {
+      "name": "modelscope",
+      "version": "1.40.3",
+      "url": "https://files.pythonhosted.org/packages/bc/89/13e64797471146fa4060c0ece96a80eb0aedf81359a9b3eca18382f6046d/modelscope-1.40.3-py3-none-any.whl",
+      "sha256": "a2d9e239e58de7c1162da4a54472defb98f4c076900dd7ebfed3370c694e2cb8",
+      "declared_license_expression": "Apache-2.0",
+      "declared_license": ""
+    },
+    {
+      "name": "modelscope-hub",
+      "version": "0.7.1",
+      "url": "https://files.pythonhosted.org/packages/4d/97/251ed3ac2506dba305fb758be928a21f5b6e49b0268d13b375abc7e8bb5f/modelscope_hub-0.7.1-py3-none-any.whl",
+      "sha256": "1e41a686a57831c3d8176cc041f2825944fe16ea579a0dbc1cc90df4d42a42f5",
+      "declared_license_expression": null,
+      "declared_license": "Apache-2.0"
+    },
+    {
+      "name": "pypdfium2",
+      "version": "5.15.2",
+      "url": "https://files.pythonhosted.org/packages/c8/e5/2e668bc1bc6fe22f9006694b5571a2dd2c9b874d6a21d16ee839c8f7f6ea/pypdfium2-5.15.2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "dc31aea5b0fb9fefc9b537a65f4113980b2c40798445736a7e6565bc85161e37",
+      "declared_license_expression": null,
+      "declared_license": "BSD-3-Clause, Apache-2.0, dependency licenses"
+    },
+    {
+      "name": "bce-python-sdk",
+      "version": "0.9.79",
+      "url": "https://files.pythonhosted.org/packages/ef/de/52b763b183e23f4dd73811a2dd2664824ae7fc6ceb1aa8dcd3f1102b1094/bce_python_sdk-0.9.79-py3-none-any.whl",
+      "sha256": "71799ac8740505e0759d30873f6f1a478fa8f83aedf425d511f1419a5f30082e",
+      "declared_license_expression": null,
+      "declared_license": "Apache License 2.0"
+    },
+    {
+      "name": "crc32c",
+      "version": "2.9.post0",
+      "url": "https://files.pythonhosted.org/packages/40/bc/662e5bde677c6aeb176c258d524ff720c5a40daea1e4318f572538b23eca/crc32c-2.9.post0-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+      "sha256": "ca44675cf3afe5eae2f8c65faf7cceb4057a30d2b4aa9f883278393b0643f510",
+      "declared_license_expression": null,
+      "declared_license": "LGPL-2.1-or-later"
+    },
+    {
+      "name": "pycryptodome",
+      "version": "4.5.0",
+      "url": "https://files.pythonhosted.org/packages/41/2d/e4d8e0ac2e1192c05ac7078fc37aaeb2bd21083af7c0561092ff3268e19f/pycryptodome-4.5.0-cp39-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "sha256": "3afbe7ecd62357203a588d451c604a61af7d7c9d3f0aa0b792de0612cffb8f8d",
+      "declared_license_expression": "BSD-2-Clause AND Unlicense AND MIT",
+      "declared_license": ""
+    },
+    {
+      "name": "colorlog",
+      "version": "6.12.0",
+      "url": "https://files.pythonhosted.org/packages/d4/19/0b6647bf5e331521e55d2b63bfbdc210bd9cd605189273f03614a05f702d/colorlog-6.12.0-py3-none-any.whl",
+      "sha256": "30d392604e9110045a2c2aeefc27d7a017abbab63f3a8aee594eac0801df784e",
+      "declared_license_expression": null,
+      "declared_license": "MIT License"
+    },
+    {
+      "name": "pyclipper",
+      "version": "1.4.0",
+      "url": "https://files.pythonhosted.org/packages/db/48/dd301d62c1529efdd721b47b9e5fb52120fcdac5f4d3405cfc0d2f391414/pyclipper-1.4.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "sha256": "14c8bdb5a72004b721c4e6f448d2c2262d74a7f0c9e3076aeff41e564a92389f",
+      "declared_license_expression": null,
+      "declared_license": "MIT"
+    },
+    {
+      "name": "python-bidi",
+      "version": "0.6.12",
+      "url": "https://files.pythonhosted.org/packages/38/c9/ebc3a67639f358fc2bf76e112bbbd8875772458a2e5793fb6d969600aa85/python_bidi-0.6.12-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "sha256": "862d4c6035f9b75f86ba450d42bebf8cca1ed97a2badb07b5638877fc95bdc97",
+      "declared_license_expression": null,
+      "declared_license": ""
+    },
+    {
+      "name": "ruamel.yaml",
+      "version": "0.19.1",
+      "url": "https://files.pythonhosted.org/packages/b8/0c/51f6841f1d84f404f92463fc2b1ba0da357ca1e3db6b7fbda26956c3b82a/ruamel_yaml-0.19.1-py3-none-any.whl",
+      "sha256": "27592957fedf6e0b62f281e96effd28043345e0e66001f97683aa9a40c667c93",
+      "declared_license_expression": null,
+      "declared_license": "MIT"
+    },
+    {
+      "name": "ujson",
+      "version": "6.1.0",
+      "url": "https://files.pythonhosted.org/packages/58/32/ce259f0edc360b3b2d08921332b619847f16d45c18257843b134a4fd23b0/ujson-6.1.0-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "b6f56bd474e726627b25d245c6c7c77f74c0cc36de6c08a49036b641936735e9",
+      "declared_license_expression": "BSD-3-Clause AND TCL",
+      "declared_license": ""
+    }
+  ],
+  "pp_outcome": {
+    "candidate": "PP-FormulaNet-S",
+    "model_revision": "0572450e501be9eb1b1cdb7e00fccf4b22fab4df",
+    "runtime_installed": true,
+    "paddle_gpu_imported": true,
+    "paddleocr_imported": false,
+    "fatal_error": "ImportError: libtorch_cuda.so: undefined symbol: ncclCommResume",
+    "cause_evidence": "PaddleOCR->PaddleX->ModelScope->torch import in same process after Paddle; isolated Paddle runtime pins nvidia-nccl-cu13 2.28.3, base Torch has different NCCL requirements. No ABI repair attempted.",
+    "model_acquired": false,
+    "formula_invocations": 0,
+    "predictions": null,
+    "unexecuted": 8,
+    "follow_up": "A fully separate environment without visible Torch may avoid opportunistic ModelScope imports; untested, no automatic retry.",
+    "resource_limits": "No formula worker or neural inference launched; no PP latency/VRAM quality metrics."
+  },
+  "pp_official_runtime_zip_metadata": {
+    "url": "https://paddle-whl.cdn.bcebos.com/stable/cu130/paddlepaddle-gpu/paddlepaddle_gpu-3.3.1-cp313-cp313-linux_x86_64.whl",
+    "compressed_bytes": 1977882736,
+    "declared_unpacked_bytes": 3057281788,
+    "metadata_sha256": "d23d89242fc08969205e256f5212dd10186fc9de72b7f45caf7b124197a26b30",
+    "requires_dist": [
+      "Requires-Dist: httpx",
+      "Requires-Dist: numpy>=1.21",
+      "Requires-Dist: protobuf>=3.20.2",
+      "Requires-Dist: Pillow",
+      "Requires-Dist: opt_einsum==3.3.0",
+      "Requires-Dist: networkx",
+      "Requires-Dist: typing_extensions",
+      "Requires-Dist: safetensors>=0.6.0",
+      "Requires-Dist: setuptools; python_version >= \"3.12\"",
+      "Requires-Dist: nvidia-cuda-nvrtc==13.0.88; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "Requires-Dist: nvidia-cuda-runtime==13.0.88; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "Requires-Dist: nvidia-cuda-cupti==13.0.85; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "Requires-Dist: nvidia-cudnn-cu13==9.13.0.50; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "Requires-Dist: nvidia-cublas==13.0.2.14; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "Requires-Dist: nvidia-cufft==12.0.0.61; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "Requires-Dist: nvidia-curand==10.4.0.35; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "Requires-Dist: nvidia-cusolver==12.0.4.66; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "Requires-Dist: nvidia-cusparse==12.6.3.3; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "Requires-Dist: nvidia-cusparselt-cu13==0.8.1; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "Requires-Dist: nvidia-nccl-cu13==2.28.3; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "Requires-Dist: nvidia-nvtx==13.0.85; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "Requires-Dist: nvidia-nvjitlink==13.0.88; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "Requires-Dist: nvidia-cufile==1.15.1.6; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "Requires-Dist: cuda-python==13.0.3; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+      "Requires-Dist: nvidia-cuda-cccl==13.0.85; platform_system == \"Linux\" and platform_machine == \"x86_64\""
+    ],
+    "expected_whole_wheel_sha256": null,
+    "whole_payload_acquired": false
+  },
+  "pp_runtime_acquisition": {
+    "url": "https://paddle-whl.cdn.bcebos.com/stable/cu130/paddlepaddle-gpu/paddlepaddle_gpu-3.3.1-cp313-cp313-linux_x86_64.whl",
+    "bytes": 1977882736,
+    "sha256": "dc920c514987a235ed1a54c6d2d3d82a9b8d8f056253a9fb80cc8fd2a176ac45",
+    "seconds": 43.01991797999972,
+    "expected_publisher_sha256": null,
+    "source": "official vendor index; independently computed payload hash"
+  },
+  "remote_storage_codeformula": {
+    "disk": {
+      "total": 120942624768,
+      "used": 939872256,
+      "free": 119985975296
+    },
+    "experiment_allocated_bytes": 782327808,
+    "experiment_logical_bytes": 771081174,
+    "host_cpu_assets_unchanged": true
+  },
+  "remote_storage_after_pp_setup": {
+    "disk": {
+      "total": 120942624768,
+      "used": 7817416704,
+      "free": 113108430848
+    },
+    "experiment_allocated_bytes": 7630086144,
+    "experiment_logical_bytes": 7579305285,
+    "pp_runtime_archive_retained": true,
+    "codeformula_model_retained": true,
+    "scope": "Remote only; CPU historical storage policy/results unchanged; base VM packages excluded from incremental directory measure"
+  },
+  "model_identity": {
+    "revision": "ecedbe111d15c2dc60bfd4a823cbe80127b58af4",
+    "files": [
+      {
+        "file": "added_tokens.json",
+        "bytes": 975,
+        "sha256": "002686b2efb9535c359458cd1121de8e1b58e67426a46e2bd4425843766a3a5e",
+        "allocated_bytes": 4096,
+        "seconds": 0.28932220800015784
+      },
+      {
+        "file": "chat_template.json",
+        "bytes": 422,
+        "sha256": "c9d21553af689882ac89ad8e8412164662d1605f6595119664e85626df7be421",
+        "allocated_bytes": 4096,
+        "seconds": 0.24948043399990638
+      },
+      {
+        "file": "config.json",
+        "bytes": 2638,
+        "sha256": "98f55cfe07dd168f9fab1f1eec35f754b23631ea1a9a7c9759b1b7cb41ab76b1",
+        "allocated_bytes": 4096,
+        "seconds": 0.25945818000036525
+      },
+      {
+        "file": "generation_config.json",
+        "bytes": 169,
+        "sha256": "b17f1890b2b2baf172761c9c4d6eb956482ffa05964f357e67544ec998c9851f",
+        "allocated_bytes": 4096,
+        "seconds": 0.27148633800015887
+      },
+      {
+        "file": "model.safetensors",
+        "bytes": 630993616,
+        "sha256": "4b04e77af34c4e682a7ab1617628340d658f3c3dcd12456dd2a7fff805cf79d2",
+        "allocated_bytes": 631001088,
+        "seconds": 7.604466723999849
+      },
+      {
+        "file": "preprocessor_config.json",
+        "bytes": 486,
+        "sha256": "6cb6e36d6fcb88ca1502c4a26750715dc3e7dedddc9a8f17b27d8d167d1457e7",
+        "allocated_bytes": 4096,
+        "seconds": 0.2529852019997634
+      },
+      {
+        "file": "processor_config.json",
+        "bytes": 68,
+        "sha256": "e7bff42da73ae9eec9042ef20e066e11f1ee20f025358ff79131e3c0fb549b46",
+        "allocated_bytes": 4096,
+        "seconds": 0.24794640399977652
+      },
+      {
+        "file": "special_tokens_map.json",
+        "bytes": 1071,
+        "sha256": "1b17e900a73384d256db6f1a7591fd0d95c09e6aede680022b047386b97afcba",
+        "allocated_bytes": 4096,
+        "seconds": 0.2604792250003811
+      },
+      {
+        "file": "tokenizer.json",
+        "bytes": 7160031,
+        "sha256": "5ec5d3780a2e01b140cf34f023eb600263855a99aacdc3eb0f2600d7b1b4ac96",
+        "allocated_bytes": 7163904,
+        "seconds": 0.3270660059997681
+      },
+      {
+        "file": "tokenizer_config.json",
+        "bytes": 24952,
+        "sha256": "37a0e94be9c9ab5197b2188e61cf764bbc015f45261013881fe37bd2fe8599e6",
+        "allocated_bytes": 28672,
+        "seconds": 0.4773034500003632
+      },
+      {
+        "file": "vocab.json",
+        "bytes": 1612747,
+        "sha256": "8922f7e91084b9862d270c16ce1027071214aa252a1567a4b410f952101005fc",
+        "allocated_bytes": 1613824,
+        "seconds": 0.50839575100008
+      }
+    ],
+    "total_payload_bytes": 639797175
+  },
+  "inference_code_freeze": {
+    "gpu_worker.py": "f2873341ebb9f6e27a958121a26893a8003bb6c4ee0c64e046903cef36533e56",
+    "gpu_control.py": "9c8f41d4d7e6ead831c92c4dfbed546f9e8d4664e2a6062bd09b2497a68ea149",
+    "inference-inputs.json": "eedfe23582030848b1a7e09cdbbfd02e35f8b8bafbe36e1b358ac9252735e80f",
+    "acquire_model.py": "d7719e2cb8bda83e0f7d83b434bc52d6de2e5ed45302a058935526c474c7d55e"
+  },
+  "cpu_global_environments_unchanged": true,
+  "local_initial_resources": {
+    "host_available_bytes": 12109086720,
+    "tracked_files": 525,
+    "raw_label": "understanding-engine-formula-gpu-20261116-d4twnjqg"
+  },
+  "host_reserve_caveat": "Local free disk was already below the historical CPU 12-GiB reserve before this GPU run. No local runtime/model acquisition occurred; only small result evidence downloaded. No claim that the prior local-deployment reserve passes. Remote storage is reported separately and does not retroactively alter CPU decisions.",
+  "resource_enforcement": {
+    "external_seconds_per_crop": 180,
+    "gpu": "Tesla T4 physical capacity ~15GiB; PyTorch allocator counters measured, no experiment VRAM hard cap",
+    "host_ram": "No new experiment-specific cgroup/RSS cap in Colab; peak per-process RSS measured, not Linux CPU 4GiB enforcement",
+    "cpu_threads": 4,
+    "effective_inference_threads": "PyTorch intra-op4, inter-op1; CPU core quota not enforced in this Colab run",
+    "network": "Offline HuggingFace/Transformers settings during inference; no kernel network namespace isolation claimed"
+  },
+  "codeformula_metrics": {
+    "recognition_seconds_min": 2.5434882320000725,
+    "recognition_seconds_max": 15.350182846999815,
+    "recognition_seconds_mean": 5.460757137500082,
+    "recognition_seconds_total": 43.68605710000065,
+    "engine_load_seconds_min": 1.478553328000089,
+    "engine_load_seconds_max": 1.9072582979997605,
+    "gpu_allocated_peak_bytes": 1031519744,
+    "gpu_reserved_peak_bytes": 1182793728,
+    "rss_peak_bytes": 2106109952
+  },
+  "replicate_inference_runs": 0,
+  "bitwise_repeatability_verified": false,
+  "environment_corrections_during_codeformula_inference": 0,
+  "environment_setup_notes": [
+    "stdlib venv lacked ensurepip; existing uv created new isolated environment instead",
+    "uv resolver ignored visible system-package constraints; pip dry-run recognized preserved CUDA stack; installation hash-pinned from report",
+    "PP setup/import fatal; no PP model or formula invocation, no ABI workaround attempted"
+  ],
+  "active_imported_versions": {
+    "numpy": "2.4.6",
+    "Pillow": "11.3.0",
+    "torch": "2.14.1+cu130"
+  },
+  "package_inventory_caveat": "Unfiltered distributions() may include stale/duplicate metadata; explicit version lookups and actual imports reported separately"
+}

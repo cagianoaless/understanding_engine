@@ -1,0 +1,13 @@
+{
+  "schema_version": "formula-reference-discrepancy.1",
+  "id": "nature_weights",
+  "status": "agent_visual_checked",
+  "human_verified": false,
+  "frozen_reference_latex_unchanged": "\\mathbf{x}_i=\\sum_{j=1}^{M}a_{ij}\\mathbf{x}_j^{*},",
+  "frozen_reference_sha256": "c58cd1467e1cd1bb8626d5e7e9f4c41b8e1e0a0f27793fb7ce1af9007f50b753",
+  "source_character_id": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4242",
+  "source_unicode": "α",
+  "earlier_source_reference": "evaluation/experiments/native_pdf_math_evidence_v0/reference.json",
+  "earlier_source_reference_sha256": "560c70740c3302224315f2a189bd396802341a0230caf685ff583254f5d9c486",
+  "effect": "Latin a in frozen LaTeX conflicts with alpha in the earlier source-symbol record and current crop. Retain exact string result, mark this glyph comparison unscoreable against frozen LaTeX. No model output/reference correction; independent review required."
+}
