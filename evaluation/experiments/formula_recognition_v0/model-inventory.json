@@ -1,0 +1,151 @@
+{
+  "schema_version": "formula-model.1",
+  "repo_id": "docling-project/CodeFormulaV2",
+  "revision": "ecedbe111d15c2dc60bfd4a823cbe80127b58af4",
+  "implementation_default_revision": "No immutable revision in preset; Transformers fallback main; observed main resolved and frozen before acquisition",
+  "weights_acquired": false,
+  "architecture": [
+    "Idefics3ForConditionalGeneration"
+  ],
+  "declared_license": "cdla-permissive-2.0",
+  "license_basis": {
+    "file": "README.md",
+    "bytes": 1511,
+    "sha256": "684604c08aa8cc32b3d65049bc9794b57f3fc510953148ad3ba61d35f60bef9a",
+    "url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/README.md",
+    "git_blob_sha1": "70e88257bb1fb46b470fd1efbb163a9ac967c575"
+  },
+  "all_repository_file_bytes": 639800205,
+  "runtime_files": [
+    "added_tokens.json",
+    "chat_template.json",
+    "config.json",
+    "generation_config.json",
+    "model.safetensors",
+    "preprocessor_config.json",
+    "processor_config.json",
+    "special_tokens_map.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "vocab.json"
+  ],
+  "files": [
+    {
+      "file": ".gitattributes",
+      "url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/.gitattributes",
+      "bytes": 1519,
+      "sha256": null,
+      "hash_status": "SHA256 unavailable; Git blob SHA1 is NOT SHA256",
+      "git_blob_sha1": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "role": "documentation"
+    },
+    {
+      "file": "README.md",
+      "url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/README.md",
+      "bytes": 1511,
+      "sha256": "684604c08aa8cc32b3d65049bc9794b57f3fc510953148ad3ba61d35f60bef9a",
+      "hash_status": "Small metadata body verified by Git blob SHA1 and locally hashed",
+      "git_blob_sha1": "70e88257bb1fb46b470fd1efbb163a9ac967c575",
+      "role": "documentation"
+    },
+    {
+      "file": "added_tokens.json",
+      "url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/added_tokens.json",
+      "bytes": 975,
+      "sha256": null,
+      "hash_status": "SHA256 unavailable; Git blob SHA1 is NOT SHA256",
+      "git_blob_sha1": "c9d4d39e1c5e9247a895a404fdfd7eece995e3fc",
+      "role": "processor_tokenizer_configuration"
+    },
+    {
+      "file": "chat_template.json",
+      "url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/chat_template.json",
+      "bytes": 422,
+      "sha256": "c9d21553af689882ac89ad8e8412164662d1605f6595119664e85626df7be421",
+      "hash_status": "Small metadata body verified by Git blob SHA1 and locally hashed",
+      "git_blob_sha1": "acc2acf81c603bcdaec1b6806b592b44f130ce30",
+      "role": "processor_tokenizer_configuration"
+    },
+    {
+      "file": "config.json",
+      "url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/config.json",
+      "bytes": 2638,
+      "sha256": "98f55cfe07dd168f9fab1f1eec35f754b23631ea1a9a7c9759b1b7cb41ab76b1",
+      "hash_status": "Small metadata body verified by Git blob SHA1 and locally hashed",
+      "git_blob_sha1": "ac931358b512fd683deed6ce07d154d4947576a0",
+      "role": "processor_tokenizer_configuration"
+    },
+    {
+      "file": "generation_config.json",
+      "url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/generation_config.json",
+      "bytes": 169,
+      "sha256": "b17f1890b2b2baf172761c9c4d6eb956482ffa05964f357e67544ec998c9851f",
+      "hash_status": "Small metadata body verified by Git blob SHA1 and locally hashed",
+      "git_blob_sha1": "f34e02c8b42f0a0d3c6eac76e4f0e84819028516",
+      "role": "processor_tokenizer_configuration"
+    },
+    {
+      "file": "model.safetensors",
+      "url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/model.safetensors",
+      "bytes": 630993616,
+      "sha256": "4b04e77af34c4e682a7ab1617628340d658f3c3dcd12456dd2a7fff805cf79d2",
+      "hash_status": "metadata-declared LFS hash; payload not acquired",
+      "git_blob_sha1": "bfa5982f68f25dcd9d7d72faa94c24824c5a0e65",
+      "role": "weights"
+    },
+    {
+      "file": "preprocessor_config.json",
+      "url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/preprocessor_config.json",
+      "bytes": 486,
+      "sha256": "6cb6e36d6fcb88ca1502c4a26750715dc3e7dedddc9a8f17b27d8d167d1457e7",
+      "hash_status": "Small metadata body verified by Git blob SHA1 and locally hashed",
+      "git_blob_sha1": "893236748032d4bf033823d6a4a0d62b78b6bc0e",
+      "role": "processor_tokenizer_configuration"
+    },
+    {
+      "file": "processor_config.json",
+      "url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/processor_config.json",
+      "bytes": 68,
+      "sha256": "e7bff42da73ae9eec9042ef20e066e11f1ee20f025358ff79131e3c0fb549b46",
+      "hash_status": "Small metadata body verified by Git blob SHA1 and locally hashed",
+      "git_blob_sha1": "b3b1deadd0e6e18c2070fdb0c29074892ea58ffe",
+      "role": "processor_tokenizer_configuration"
+    },
+    {
+      "file": "special_tokens_map.json",
+      "url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/special_tokens_map.json",
+      "bytes": 1071,
+      "sha256": null,
+      "hash_status": "SHA256 unavailable; Git blob SHA1 is NOT SHA256",
+      "git_blob_sha1": "62eb0df50b48277dc8824b4f6117c1684794c6b8",
+      "role": "processor_tokenizer_configuration"
+    },
+    {
+      "file": "tokenizer.json",
+      "url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/tokenizer.json",
+      "bytes": 7160031,
+      "sha256": null,
+      "hash_status": "SHA256 unavailable; Git blob SHA1 is NOT SHA256",
+      "git_blob_sha1": "120f755869b80a9ad41aea3ba95acff83051886e",
+      "role": "processor_tokenizer_configuration"
+    },
+    {
+      "file": "tokenizer_config.json",
+      "url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/tokenizer_config.json",
+      "bytes": 24952,
+      "sha256": null,
+      "hash_status": "SHA256 unavailable; Git blob SHA1 is NOT SHA256",
+      "git_blob_sha1": "94ec944dbd1cf1eb40cfdec02d433ab3439bbc71",
+      "role": "processor_tokenizer_configuration"
+    },
+    {
+      "file": "vocab.json",
+      "url": "https://huggingface.co/docling-project/CodeFormulaV2/resolve/ecedbe111d15c2dc60bfd4a823cbe80127b58af4/vocab.json",
+      "bytes": 1612747,
+      "sha256": null,
+      "hash_status": "SHA256 unavailable; Git blob SHA1 is NOT SHA256",
+      "git_blob_sha1": "3d43e13943cfbdbd6f1d50aad78c7ea229bb15a6",
+      "role": "processor_tokenizer_configuration"
+    }
+  ]
+}

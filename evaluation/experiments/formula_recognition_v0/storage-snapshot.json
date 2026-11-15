@@ -1,0 +1,250 @@
+{
+  "host_available_bytes": 18411995136,
+  "allocated_bytes": 5382258688,
+  "roots": {
+    "$CPU_RAW": {
+      "allocated_bytes": 0,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$EXPERIMENT006_RAW": {
+      "allocated_bytes": 0,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$HOME/.colima": {
+      "allocated_bytes": 3564519424,
+      "logical_bytes": 9688306178,
+      "regular_files": 26,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$HOME/Library/Caches/colima": {
+      "allocated_bytes": 0,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0,
+      "exists": false
+    },
+    "$HOME/Library/Caches/lima": {
+      "allocated_bytes": 0,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0,
+      "exists": false
+    },
+    "$HOME/Library/Logs/Homebrew/colima": {
+      "allocated_bytes": 0,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0,
+      "exists": false
+    },
+    "$HOME/Library/Logs/Homebrew/docker": {
+      "allocated_bytes": 0,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0,
+      "exists": false
+    },
+    "$HOME/Library/Logs/Homebrew/lima": {
+      "allocated_bytes": 0,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0,
+      "exists": false
+    },
+    "$PREFLIGHT_RAW": {
+      "allocated_bytes": 0,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$REPO_artifacts/experiment-006b-local/20261109T101525+0100": {
+      "allocated_bytes": 438292480,
+      "logical_bytes": 436355941,
+      "regular_files": 853,
+      "symlinks_not_followed": 6,
+      "exists": true
+    },
+    "/opt/homebrew/Cellar/colima/0.10.3": {
+      "allocated_bytes": 10612736,
+      "logical_bytes": 10579928,
+      "regular_files": 14,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "/opt/homebrew/Cellar/docker/29.9.3": {
+      "allocated_bytes": 29204480,
+      "logical_bytes": 29175374,
+      "regular_files": 17,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "/opt/homebrew/Cellar/lima/2.3.0": {
+      "allocated_bytes": 113516544,
+      "logical_bytes": 113026468,
+      "regular_files": 157,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$ARCHIVE_RAW": {
+      "allocated_bytes": 0,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$SMOKE_RAW": {
+      "allocated_bytes": 0,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$INPUT_RESTORATION_RAW": {
+      "allocated_bytes": 0,
+      "logical_bytes": 0,
+      "regular_files": 0,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$RESTORED_INPUTS": {
+      "allocated_bytes": 19992576,
+      "logical_bytes": 19970169,
+      "regular_files": 7,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$STAGE_D_RAW": {
+      "allocated_bytes": 4096,
+      "logical_bytes": 361,
+      "regular_files": 1,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$STAGE_D_PUBLIC": {
+      "allocated_bytes": 802816,
+      "logical_bytes": 737022,
+      "regular_files": 33,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$REGRESSION_TESTS": {
+      "allocated_bytes": 946176,
+      "logical_bytes": 809446,
+      "regular_files": 60,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$REPOSITORY_GIT_METADATA": {
+      "allocated_bytes": 4489216,
+      "logical_bytes": 1932408,
+      "regular_files": 813,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$STAGE_D_PERSISTENT_EVIDENCE": {
+      "allocated_bytes": 185683968,
+      "logical_bytes": 185246693,
+      "regular_files": 217,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$PERSISTED_understanding-engine-selection-v0-20261111-3396blrc": {
+      "allocated_bytes": 1089536,
+      "logical_bytes": 1037369,
+      "regular_files": 21,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$PERSISTED_understanding-engine-viewer-v0-20261111-h3bsgzcz": {
+      "allocated_bytes": 3452928,
+      "logical_bytes": 3356403,
+      "regular_files": 37,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$PERSISTED_understanding-engine-hybrid-v0-20261111-2o68pcxt": {
+      "allocated_bytes": 58540032,
+      "logical_bytes": 58512857,
+      "regular_files": 9,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$PERSISTED_understanding-engine-svg-math-20261115-o1l6evra": {
+      "allocated_bytes": 198582272,
+      "logical_bytes": 198361455,
+      "regular_files": 109,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$PERSISTED_understanding-engine-native-math-20261115-tdkyqaz4": {
+      "allocated_bytes": 12365824,
+      "logical_bytes": 12211391,
+      "regular_files": 71,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$RECENT_understanding-engine-hybrid-v0-20261111-9870mphi": {
+      "allocated_bytes": 117268480,
+      "logical_bytes": 117180721,
+      "regular_files": 36,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$RECENT_understanding-engine-selection-v0-20261111-grjhcet7": {
+      "allocated_bytes": 1286144,
+      "logical_bytes": 1192167,
+      "regular_files": 37,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$RECENT_understanding-engine-viewer-v0-20261111-h3bsgzcz": {
+      "allocated_bytes": 24690688,
+      "logical_bytes": 23399838,
+      "regular_files": 753,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$RECENT_understanding-engine-svg-math-20261115-o1l6evra": {
+      "allocated_bytes": 583712768,
+      "logical_bytes": 582676015,
+      "regular_files": 592,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$RECENT_understanding-engine-native-math-tdkyqaz4": {
+      "allocated_bytes": 12787712,
+      "logical_bytes": 12644946,
+      "regular_files": 121,
+      "symlinks_not_followed": 0,
+      "exists": true
+    },
+    "$CURRENT_FORMULA_RAW": {
+      "allocated_bytes": 417792,
+      "logical_bytes": 395219,
+      "regular_files": 13,
+      "symlinks_not_followed": 0,
+      "exists": true
+    }
+  },
+  "historical_provisioning_peak": "UNKNOWN",
+  "method": "Registered-root regular-file st_blocks, device/inode deduplicated; APFS exclusive allocation and metadata overhead unknown; sparse disks counted by actual blocks; absent roots explicitly reported, not recreated",
+  "guest_filesystems": [
+    {
+      "mount": "/",
+      "available_bytes": 2123157504
+    },
+    {
+      "mount": "/var/lib/docker",
+      "available_bytes": 2608353280
+    }
+  ],
+  "guest_measurement": "Read-only df through already-running VM, after approved sandbox status correction"
+}

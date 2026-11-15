@@ -1,0 +1,894 @@
+{
+  "schema_version": "formula-selection.1",
+  "status": "frozen_before_inference",
+  "inference_started": false,
+  "source": "Development-exposed PDFs; never held-out",
+  "expressions": [
+    {
+      "id": "log_eq2",
+      "document": "log2026",
+      "pdf_sha256": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060",
+      "page": 4,
+      "target_bbox": [
+        200,
+        373,
+        506,
+        404
+      ],
+      "formula_content_bbox": [
+        200,
+        373,
+        412,
+        404
+      ],
+      "crop_bbox": [
+        161.84,
+        367.42,
+        450.15999999999997,
+        409.58
+      ],
+      "coordinate_origin": "TOPLEFT",
+      "geometry": {
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "cropbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "height": 792,
+        "initial_doctop": 2376,
+        "mediabox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "pdfminer_layout_bbox": [
+          0,
+          0,
+          612.0,
+          792.0
+        ],
+        "raw_cropbox": null,
+        "raw_mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "raw_rotation": 0.0,
+        "rotation": 0,
+        "user_unit": 1.0,
+        "width": 612
+      },
+      "crop_scale": 1.67,
+      "crop_pixel_rounding": "render full verified page at scale, integer floor(left/top), ceil(right/bottom), clip to rendered bounds; use actual renderer width/height per page axis",
+      "source_character_ids": [
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1641",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1642",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1643",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1644",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1645",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1646",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1647",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1648",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1649",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1650",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1651",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1652",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1653",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1654",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1655",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1656",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1657",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1658",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1659",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1660",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1661",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1662",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1663",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1664",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1665",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1666",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1667",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1668",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1669",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1670",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1671",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1672",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1673",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1674",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1675",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1676",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1677",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1678"
+      ],
+      "source_character_selection": "Closed center-in-target rectangle; backend order; not verified reading order"
+    },
+    {
+      "id": "log_eq4",
+      "document": "log2026",
+      "pdf_sha256": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060",
+      "page": 4,
+      "target_bbox": [
+        147,
+        551,
+        506,
+        584
+      ],
+      "formula_content_bbox": [
+        147,
+        551,
+        465,
+        584
+      ],
+      "crop_bbox": [
+        89.76,
+        545.06,
+        522.24,
+        589.94
+      ],
+      "coordinate_origin": "TOPLEFT",
+      "geometry": {
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "cropbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "height": 792,
+        "initial_doctop": 2376,
+        "mediabox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "pdfminer_layout_bbox": [
+          0,
+          0,
+          612.0,
+          792.0
+        ],
+        "raw_cropbox": null,
+        "raw_mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "raw_rotation": 0.0,
+        "rotation": 0,
+        "user_unit": 1.0,
+        "width": 612
+      },
+      "crop_scale": 1.67,
+      "crop_pixel_rounding": "render full verified page at scale, integer floor(left/top), ceil(right/bottom), clip to rendered bounds; use actual renderer width/height per page axis",
+      "source_character_ids": [
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2496",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2497",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2498",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2499",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2500",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2501",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2502",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2503",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2504",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2505",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2506",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2507",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2508",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2509",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2510",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2511",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2512",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2513",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2514",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2515",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2516",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2517",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2518",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2519",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2520",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2521",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2522",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2523",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2524",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2525",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2526",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2527",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2528",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2529",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2530",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2531",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2532",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2533",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2534",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2535",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2536",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2537",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2538",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2539",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2540",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2541",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2542",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2543",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2544",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2545",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2546",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2547",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2548",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2549",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2550",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2551",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2552",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2553",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2554",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2555"
+      ],
+      "source_character_selection": "Closed center-in-target rectangle; backend order; not verified reading order"
+    },
+    {
+      "id": "attn_fraction",
+      "document": "attention",
+      "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "page": 4,
+      "target_bbox": [
+        218,
+        460,
+        506,
+        495
+      ],
+      "formula_content_bbox": [
+        219.97,
+        464.7961172,
+        389.81618457999997,
+        491.0639172
+      ],
+      "crop_bbox": [
+        189.3976867756,
+        460.0679132,
+        420.38849780439995,
+        495.7921212
+      ],
+      "coordinate_origin": "TOPLEFT",
+      "geometry": {
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "cropbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "height": 792,
+        "initial_doctop": 2376,
+        "mediabox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "pdfminer_layout_bbox": [
+          0,
+          0,
+          612.0,
+          792.0
+        ],
+        "raw_cropbox": null,
+        "raw_mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "raw_rotation": 0.0,
+        "rotation": 0,
+        "user_unit": 1.0,
+        "width": 612
+      },
+      "crop_scale": 1.67,
+      "crop_pixel_rounding": "render full verified page at scale, integer floor(left/top), ceil(right/bottom), clip to rendered bounds; use actual renderer width/height per page axis",
+      "source_character_ids": [
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c738",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c739",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c740",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c741",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c742",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c743",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c744",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c745",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c746",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c747",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c748",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c749",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c750",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c751",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c752",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c753",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c754",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c755",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c756",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c757",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c758",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c759",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c760",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c761",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c762",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c763",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c764",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c765",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c766",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c767",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c768",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c769",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c770",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c771",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c772",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c773"
+      ],
+      "source_character_selection": "Closed center-in-target rectangle; backend order; not verified reading order"
+    },
+    {
+      "id": "attn_heads",
+      "document": "attention",
+      "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "page": 5,
+      "target_bbox": [
+        184,
+        140,
+        432,
+        160
+      ],
+      "formula_content_bbox": [
+        186.94,
+        145.6481171999999,
+        410.92153482,
+        158.22991719999993
+      ],
+      "crop_bbox": [
+        146.6233237324,
+        143.3833931999999,
+        451.23821108759995,
+        160.49464119999993
+      ],
+      "coordinate_origin": "TOPLEFT",
+      "geometry": {
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "cropbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "height": 792,
+        "initial_doctop": 3168,
+        "mediabox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "pdfminer_layout_bbox": [
+          0,
+          0,
+          612.0,
+          792.0
+        ],
+        "raw_cropbox": null,
+        "raw_mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "raw_rotation": 0.0,
+        "rotation": 0,
+        "user_unit": 1.0,
+        "width": 612
+      },
+      "crop_scale": 1.67,
+      "crop_pixel_rounding": "render full verified page at scale, integer floor(left/top), ceil(right/bottom), clip to rendered bounds; use actual renderer width/height per page axis",
+      "source_character_ids": [
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c265",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c266",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c267",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c268",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c269",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c270",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c271",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c272",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c273",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c274",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c275",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c276",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c277",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c278",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c279",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c280",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c281",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c282",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c283",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c284",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c285",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c286",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c287",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c288",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c289",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c290",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c291",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c292",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c293",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c294",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c295",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c296",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c297",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c298",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c299",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c300",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c301",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c302",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c303",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c304",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c305",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c306"
+      ],
+      "source_character_selection": "Closed center-in-target rectangle; backend order; not verified reading order"
+    },
+    {
+      "id": "attn_ffn",
+      "document": "attention",
+      "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "page": 5,
+      "target_bbox": [
+        225,
+        563,
+        506,
+        583
+      ],
+      "formula_content_bbox": [
+        226.901,
+        567.9041444,
+        384.6015791000001,
+        578.7809172
+      ],
+      "crop_bbox": [
+        198.51489576199998,
+        565.9463252959999,
+        412.9876833380001,
+        580.738736304
+      ],
+      "coordinate_origin": "TOPLEFT",
+      "geometry": {
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "cropbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "height": 792,
+        "initial_doctop": 3168,
+        "mediabox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "pdfminer_layout_bbox": [
+          0,
+          0,
+          612.0,
+          792.0
+        ],
+        "raw_cropbox": null,
+        "raw_mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "raw_rotation": 0.0,
+        "rotation": 0,
+        "user_unit": 1.0,
+        "width": 612
+      },
+      "crop_scale": 1.67,
+      "crop_pixel_rounding": "render full verified page at scale, integer floor(left/top), ceil(right/bottom), clip to rendered bounds; use actual renderer width/height per page axis",
+      "source_character_ids": [
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1940",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1941",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1942",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1943",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1944",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1945",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1946",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1947",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1948",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1949",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1950",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1951",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1952",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1953",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1954",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1955",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1956",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1957",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1958",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1959",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1960",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1961",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1962",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1963",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1964",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1965",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1966",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1967"
+      ],
+      "source_character_selection": "Closed center-in-target rectangle; backend order; not verified reading order"
+    },
+    {
+      "id": "nature_weights",
+      "document": "tabpfn_nature_2025",
+      "pdf_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page": 10,
+      "target_bbox": [
+        402,
+        106,
+        563,
+        138
+      ],
+      "formula_content_bbox": [
+        405.188812255,
+        109.95261158299991,
+        450.114218308984,
+        134.72052271500002
+      ],
+      "crop_bbox": [
+        397.1022391652829,
+        105.49438757923988,
+        458.2007913987011,
+        139.17874671876004
+      ],
+      "coordinate_origin": "TOPLEFT",
+      "geometry": {
+        "bbox": [
+          0.0,
+          0.0,
+          595.276,
+          790.866
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          595.276,
+          790.866
+        ],
+        "height": 790.866,
+        "initial_doctop": 7117.794,
+        "mediabox": [
+          0.0,
+          0.0,
+          595.276,
+          790.866
+        ],
+        "pdfminer_layout_bbox": [
+          0,
+          0,
+          595.276,
+          790.866
+        ],
+        "raw_cropbox": [
+          0.0,
+          0.0,
+          595.276,
+          790.866
+        ],
+        "raw_mediabox": [
+          0.0,
+          0.0,
+          595.276,
+          790.866
+        ],
+        "raw_rotation": 0.0,
+        "rotation": 0,
+        "user_unit": 1.0,
+        "width": 595.276
+      },
+      "crop_scale": 1.67,
+      "crop_pixel_rounding": "render full verified page at scale, integer floor(left/top), ceil(right/bottom), clip to rendered bounds; use actual renderer width/height per page axis",
+      "source_character_ids": [
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4240",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4241",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4242",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4243",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4244",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4245",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4246",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4247",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4248",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4249",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4250",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4251",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4252",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4253",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4254",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4255",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4256",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4257"
+      ],
+      "source_character_selection": "Closed center-in-target rectangle; backend order; not verified reading order"
+    },
+    {
+      "id": "nature_softmax",
+      "document": "tabpfn_nature_2025",
+      "pdf_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page": 11,
+      "target_bbox": [
+        117,
+        417,
+        296,
+        449
+      ],
+      "formula_content_bbox": [
+        118.572097778,
+        422.124835696,
+        202.37490913899998,
+        445.03063111399996
+      ],
+      "crop_bbox": [
+        103.48759173302,
+        418.00179252076,
+        217.45941518397998,
+        449.15367428924
+      ],
+      "coordinate_origin": "TOPLEFT",
+      "geometry": {
+        "bbox": [
+          0.0,
+          0.0,
+          595.276,
+          790.866
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          595.276,
+          790.866
+        ],
+        "height": 790.866,
+        "initial_doctop": 7908.66,
+        "mediabox": [
+          0.0,
+          0.0,
+          595.276,
+          790.866
+        ],
+        "pdfminer_layout_bbox": [
+          0,
+          0,
+          595.276,
+          790.866
+        ],
+        "raw_cropbox": [
+          0.0,
+          0.0,
+          595.276,
+          790.866
+        ],
+        "raw_mediabox": [
+          0.0,
+          0.0,
+          595.276,
+          790.866
+        ],
+        "raw_rotation": 0.0,
+        "rotation": 0,
+        "user_unit": 1.0,
+        "width": 595.276
+      },
+      "crop_scale": 1.67,
+      "crop_pixel_rounding": "render full verified page at scale, integer floor(left/top), ceil(right/bottom), clip to rendered bounds; use actual renderer width/height per page axis",
+      "source_character_ids": [
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1866",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1867",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1868",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1869",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1870",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1871",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1872",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1873",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1874",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1875",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1876",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1877",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1878",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1879",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1880",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1881",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1882",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1883",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1884",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1885",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1886",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1887",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1888",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1889",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1890",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1891",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1892",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1893",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1894",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1895",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1896",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1897"
+      ],
+      "source_character_selection": "Closed center-in-target rectangle; backend order; not verified reading order"
+    },
+    {
+      "id": "attn_positional",
+      "document": "attention",
+      "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "page": 6,
+      "target_bbox": [
+        222,
+        332,
+        390,
+        369
+      ],
+      "formula_content_bbox": [
+        225.69400000000002,
+        335.9961172,
+        386.3064551400001,
+        365.75291719999996
+      ],
+      "crop_bbox": [
+        196.7837580748,
+        330.6398932,
+        415.2166970652001,
+        371.10914119999995
+      ],
+      "coordinate_origin": "TOPLEFT",
+      "geometry": {
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "cropbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "height": 792,
+        "initial_doctop": 3960,
+        "mediabox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "pdfminer_layout_bbox": [
+          0,
+          0,
+          612.0,
+          792.0
+        ],
+        "raw_cropbox": null,
+        "raw_mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "raw_rotation": 0.0,
+        "rotation": 0,
+        "user_unit": 1.0,
+        "width": 612
+      },
+      "crop_scale": 1.67,
+      "crop_pixel_rounding": "render full verified page at scale, integer floor(left/top), ceil(right/bottom), clip to rendered bounds; use actual renderer width/height per page axis",
+      "source_character_ids": [
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c952",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c953",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c954",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c955",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c956",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c957",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c958",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c959",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c960",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c961",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c962",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c963",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c964",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c965",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c966",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c967",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c968",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c969",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c970",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c971",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c972",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c973",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c974",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c975",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c976",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c977",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c978",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c979",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c980",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c981",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c982",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c983",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c984",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c985",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c986",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c987",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c988",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c989",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c990",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c991",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c992",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c993",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c994",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c995",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c996",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c997",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c998",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c999",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1000",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1001",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1002",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1003",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1004",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1005",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1006",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1007",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1008",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1009",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1010",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1011",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1012",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1013",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1014",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1015",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1016",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1017",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1018",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1019",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1020",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p6:c1021"
+      ],
+      "source_character_selection": "Closed center-in-target rectangle; backend order; not verified reading order"
+    }
+  ]
+}

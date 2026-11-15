@@ -1,0 +1,16 @@
+{
+  "schema_version": "formula-freeze.1",
+  "date": "2026-11-15",
+  "inference_started": false,
+  "selected_targets": 8,
+  "human_verified_count": 0,
+  "files_sha256": {
+    "selection.json": "66d3e94029a8331e37e502bd5e8d6edd69e3e32431b287274539359c52ec85c0",
+    "references.json": "c58cd1467e1cd1bb8626d5e7e9f4c41b8e1e0a0f27793fb7ce1af9007f50b753",
+    "protocol.json": "bc5a58d9e85e10bcf95b63e6f06e58c0368d054e4f9e663945ac0004a069c3e0",
+    "model-inventory.json": "6bbd44b1debb2806b6a9e1821de5d038b1f4c501f1e3f71e47bc30f42d4b3065",
+    "input-manifest.json": "f0a0e80553dbee5d43874f27a7429cedd85923b7ea13417dcbb14dc6fcc2b4d1"
+  },
+  "status": "Preparatory references and target regions frozen; worker/scorer not yet implemented because of resource stop",
+  "metadata_correction": "Initial sandbox status was false; approved read-only query proves VM already running; no target/reference/model revision changes"
+}
