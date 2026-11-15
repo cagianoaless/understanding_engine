@@ -1,0 +1,3296 @@
+{
+  "aggregate": {
+    "font_program_elements": 0,
+    "literal_whitespace": 176,
+    "note": "Paths are not assumed to be glyphs. Curves/references/clipping are explicitly unresolved; no path OCR.",
+    "original_source_whitespace_units": 176,
+    "replacement_characters": 46,
+    "replacement_pages": [
+      4,
+      5,
+      14,
+      21,
+      22,
+      27
+    ],
+    "svg_pages": 30
+  },
+  "limits": {
+    "archive": 16777216,
+    "depth": 64,
+    "elements": 100000,
+    "entries": 64,
+    "member": 8388608,
+    "ratio": 100,
+    "text": 200000,
+    "total": 33554432
+  },
+  "pages": [
+    {
+      "explicit_position_units": 3130,
+      "font_sizes": {
+        "10.007331": 68,
+        "10.012289": 84,
+        "10.046925": 83,
+        "10.051864": 88,
+        "10.056799": 86,
+        "10.061732": 766,
+        "11.9552": 21,
+        "14.3462": 55,
+        "7.95015": 4,
+        "8.049406": 14,
+        "8.876284": 100,
+        "8.9664": 288,
+        "9.862471": 366,
+        "9.867501": 90,
+        "9.877555": 169,
+        "9.892615": 69,
+        "9.932667": 68,
+        "9.937662": 148,
+        "9.942655": 138,
+        "9.9626": 276,
+        "9.977532": 66,
+        "9.987475": 83
+      },
+      "fonts": {
+        "Computer Modern": 127,
+        "Nimbus Roman No9 L": 3003
+      },
+      "literal_whitespace": 0,
+      "page": 1,
+      "positioning": {
+        "distinct_composed_matrices": 17,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 780
+          },
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 640
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 366
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 3130
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 2
+      },
+      "tags": {
+        "path": 2,
+        "svg": 1,
+        "text": 99,
+        "tspan": 106
+      },
+      "unicode_units": 3130,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 3684,
+      "font_sizes": {
+        "10.017244": 85,
+        "10.027147": 250,
+        "10.032096": 156,
+        "10.037041": 88,
+        "10.046925": 88,
+        "10.061732": 1021,
+        "11.9552": 12,
+        "5.9776": 1,
+        "6.9738": 1,
+        "8.049406": 8,
+        "8.9664": 133,
+        "9.862471": 441,
+        "9.867501": 81,
+        "9.887598": 169,
+        "9.897631": 91,
+        "9.902643": 92,
+        "9.942655": 86,
+        "9.957618": 85,
+        "9.9626": 365,
+        "9.96758": 85,
+        "9.977532": 87,
+        "9.992443": 172,
+        "9.997408": 87
+      },
+      "fonts": {
+        "Computer Modern": 46,
+        "Nimbus Roman No9 L": 3638
+      },
+      "literal_whitespace": 0,
+      "page": 2,
+      "positioning": {
+        "distinct_composed_matrices": 18,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 1029
+          },
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 512
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 441
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 3684
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 2
+      },
+      "tags": {
+        "path": 2,
+        "svg": 1,
+        "text": 108,
+        "tspan": 112
+      },
+      "unicode_units": 3684,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 2866,
+      "font_sizes": {
+        "10.007331": 78,
+        "10.046925": 86,
+        "10.061732": 1249,
+        "11.9552": 34,
+        "8.049406": 8,
+        "8.9664": 56,
+        "9.862471": 623,
+        "9.917666": 87,
+        "9.9626": 480,
+        "9.96758": 82,
+        "9.972557": 83
+      },
+      "fonts": {
+        "Computer Modern": 53,
+        "Nimbus Roman No9 L": 2813
+      },
+      "literal_whitespace": 0,
+      "page": 3,
+      "positioning": {
+        "distinct_composed_matrices": 8,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 1257
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 623
+          },
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 570
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 2866
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 1
+      },
+      "tags": {
+        "defs": 1,
+        "g": 4,
+        "image": 2,
+        "mask": 1,
+        "path": 1,
+        "svg": 1,
+        "text": 116,
+        "tspan": 123
+      },
+      "unicode_units": 2866,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 3186,
+      "font_sizes": {
+        "10.017244": 86,
+        "10.027147": 82,
+        "10.061732": 768,
+        "4.9813": 1,
+        "6.9738": 69,
+        "8.9664": 56,
+        "9.862471": 684,
+        "9.867501": 83,
+        "9.897631": 69,
+        "9.902643": 165,
+        "9.917666": 157,
+        "9.9626": 675,
+        "9.972557": 61,
+        "9.982505": 69,
+        "9.992443": 161
+      },
+      "fonts": {
+        "Computer Modern": 297,
+        "Euler": 3,
+        "Font Awesome 5 Free Solid": 1,
+        "Nimbus Roman No9 L": 2885
+      },
+      "literal_whitespace": 0,
+      "page": 4,
+      "positioning": {
+        "distinct_composed_matrices": 12,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 801
+          },
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 768
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 684
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 3186
+        }
+      },
+      "replacement_characters": 7,
+      "replacements": [
+        {
+          "anchor": [
+            107.99997,
+            258.682
+          ],
+          "font": "Font Awesome 5 Free Solid",
+          "id": "svg/84/0:u0"
+        },
+        {
+          "anchor": [
+            413.26304,
+            327.57396
+          ],
+          "font": "Computer Modern",
+          "id": "svg/123/0:u0"
+        },
+        {
+          "anchor": [
+            254.102,
+            379.579
+          ],
+          "font": "Computer Modern",
+          "id": "svg/146/0:u0"
+        },
+        {
+          "anchor": [
+            318.92503,
+            379.579
+          ],
+          "font": "Computer Modern",
+          "id": "svg/153/0:u0"
+        },
+        {
+          "anchor": [
+            279.23399,
+            486.114
+          ],
+          "font": "Computer Modern",
+          "id": "svg/191/0:u0"
+        },
+        {
+          "anchor": [
+            191.98999,
+            557.49701
+          ],
+          "font": "Computer Modern",
+          "id": "svg/225/0:u0"
+        },
+        {
+          "anchor": [
+            304.066,
+            675.59801
+          ],
+          "font": "Computer Modern",
+          "id": "svg/294/0:u0"
+        }
+      ],
+      "shapes": {
+        "straight_primitive": 5
+      },
+      "tags": {
+        "path": 5,
+        "svg": 1,
+        "text": 317,
+        "tspan": 324
+      },
+      "unicode_units": 3186,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 3905,
+      "font_sizes": {
+        "10.007331": 89,
+        "10.046925": 168,
+        "10.051864": 83,
+        "10.061732": 1304,
+        "11.9552": 19,
+        "6.9738": 6,
+        "7.9979465": 8,
+        "8.9664": 56,
+        "9.862471": 431,
+        "9.877555": 155,
+        "9.887598": 75,
+        "9.892615": 172,
+        "9.902643": 84,
+        "9.907654": 90,
+        "9.917666": 78,
+        "9.937662": 87,
+        "9.947644": 88,
+        "9.952632": 82,
+        "9.9626": 490,
+        "9.96758": 90,
+        "9.972557": 176,
+        "9.997408": 74
+      },
+      "fonts": {
+        "Computer Modern": 50,
+        "Font Awesome 5 Free Solid": 3,
+        "Nimbus Roman No9 L": 3852
+      },
+      "literal_whitespace": 0,
+      "page": 5,
+      "positioning": {
+        "distinct_composed_matrices": 19,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 1304
+          },
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 571
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 431
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 3905
+        }
+      },
+      "replacement_characters": 3,
+      "replacements": [
+        {
+          "anchor": [
+            108.0,
+            81.96299999999997
+          ],
+          "font": "Font Awesome 5 Free Solid",
+          "id": "svg/2/0:u0"
+        },
+        {
+          "anchor": [
+            108.0,
+            191.70799999999997
+          ],
+          "font": "Font Awesome 5 Free Solid",
+          "id": "svg/31/0:u0"
+        },
+        {
+          "anchor": [
+            108.0,
+            282.88796
+          ],
+          "font": "Font Awesome 5 Free Solid",
+          "id": "svg/74/0:u0"
+        }
+      ],
+      "shapes": {
+        "straight_primitive": 1
+      },
+      "tags": {
+        "path": 1,
+        "svg": 1,
+        "text": 139,
+        "tspan": 145
+      },
+      "unicode_units": 3905,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 4143,
+      "font_sizes": {
+        "10.022197": 87,
+        "10.037041": 88,
+        "10.041985": 88,
+        "10.061732": 1449,
+        "7.8899967": 4,
+        "7.982046": 4,
+        "8.9664": 56,
+        "9.862471": 602,
+        "9.872529": 90,
+        "9.877555": 87,
+        "9.892615": 80,
+        "9.897631": 84,
+        "9.912662": 88,
+        "9.917666": 88,
+        "9.922668": 168,
+        "9.932667": 88,
+        "9.937662": 84,
+        "9.942655": 86,
+        "9.9626": 490,
+        "9.96758": 87,
+        "9.977532": 78,
+        "9.982505": 83,
+        "9.992443": 84
+      },
+      "fonts": {
+        "Computer Modern": 24,
+        "Nimbus Roman No9 L": 4119
+      },
+      "literal_whitespace": 0,
+      "page": 6,
+      "positioning": {
+        "distinct_composed_matrices": 20,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 1449
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 606
+          },
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 546
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 4143
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 1
+      },
+      "tags": {
+        "path": 1,
+        "svg": 1,
+        "text": 125,
+        "tspan": 130
+      },
+      "unicode_units": 4143,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 4007,
+      "font_sizes": {
+        "10.002371": 85,
+        "10.012289": 89,
+        "10.022197": 82,
+        "10.046925": 164,
+        "10.056799": 330,
+        "10.061732": 1301,
+        "11.9552": 8,
+        "6.9738": 3,
+        "7.8899967": 8,
+        "7.922135": 8,
+        "8.9664": 56,
+        "9.862471": 431,
+        "9.867501": 174,
+        "9.882578": 90,
+        "9.897631": 178,
+        "9.902643": 77,
+        "9.917666": 85,
+        "9.932667": 87,
+        "9.952632": 88,
+        "9.9626": 397,
+        "9.972557": 89,
+        "9.977532": 93,
+        "9.987475": 84
+      },
+      "fonts": {
+        "Computer Modern": 30,
+        "Nimbus Roman No9 L": 3977
+      },
+      "literal_whitespace": 0,
+      "page": 7,
+      "positioning": {
+        "distinct_composed_matrices": 19,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 1301
+          },
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 464
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 439
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 4007
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 1
+      },
+      "tags": {
+        "path": 1,
+        "svg": 1,
+        "text": 98,
+        "tspan": 105
+      },
+      "unicode_units": 4007,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 2881,
+      "font_sizes": {
+        "10.027147": 82,
+        "10.061732": 890,
+        "4.9813": 108,
+        "7.898043": 8,
+        "7.9261438": 8,
+        "7.95015": 6,
+        "7.9701": 318,
+        "7.9979465": 6,
+        "8.049406": 10,
+        "8.9664": 145,
+        "9.862471": 85,
+        "9.872529": 167,
+        "9.877555": 86,
+        "9.887598": 169,
+        "9.892615": 89,
+        "9.902643": 86,
+        "9.907654": 74,
+        "9.912662": 84,
+        "9.937662": 77,
+        "9.947644": 88,
+        "9.957618": 84,
+        "9.9626": 140,
+        "9.997408": 71
+      },
+      "fonts": {
+        "Computer Modern": 162,
+        "Nimbus Roman No9 L": 2719
+      },
+      "literal_whitespace": 0,
+      "page": 8,
+      "positioning": {
+        "distinct_composed_matrices": 32,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 900
+          },
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 196
+          },
+          {
+            "matrix": [
+              0.9924717,
+              0.0,
+              0.0,
+              1.0075854,
+              0.0,
+              792.0
+            ],
+            "units": 169
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 2881
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 129,
+        "unresolved_curve": 373
+      },
+      "tags": {
+        "clipPath": 3,
+        "defs": 1,
+        "g": 173,
+        "path": 502,
+        "svg": 1,
+        "text": 238,
+        "tspan": 241
+      },
+      "unicode_units": 2881,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 3577,
+      "font_sizes": {
+        "10.012289": 88,
+        "10.041985": 84,
+        "10.051864": 82,
+        "10.056799": 87,
+        "10.061732": 948,
+        "7.8899967": 2,
+        "7.8940207": 4,
+        "7.962126": 2,
+        "7.9701": 187,
+        "8.049406": 10,
+        "8.9664": 112,
+        "9.862471": 768,
+        "9.867501": 167,
+        "9.877555": 85,
+        "9.917666": 90,
+        "9.947644": 171,
+        "9.952632": 171,
+        "9.9626": 430,
+        "9.972557": 89
+      },
+      "fonts": {
+        "Computer Modern": 73,
+        "Nimbus Roman No9 L": 3504
+      },
+      "literal_whitespace": 0,
+      "page": 9,
+      "positioning": {
+        "distinct_composed_matrices": 20,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 958
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 770
+          },
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 498
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 3577
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 146,
+        "unresolved_curve": 48
+      },
+      "tags": {
+        "clipPath": 3,
+        "defs": 1,
+        "g": 3,
+        "path": 194,
+        "svg": 1,
+        "text": 151,
+        "tspan": 157
+      },
+      "unicode_units": 3577,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 4082,
+      "font_sizes": {
+        "10.007331": 259,
+        "10.022197": 226,
+        "10.027147": 85,
+        "10.037041": 86,
+        "10.041985": 175,
+        "10.061732": 1260,
+        "11.9552": 11,
+        "7.9181249": 6,
+        "7.930149": 4,
+        "7.9381558": 6,
+        "7.9701": 6,
+        "7.974084": 2,
+        "8.017777": 2,
+        "8.049406": 20,
+        "8.9664": 57,
+        "9.862471": 265,
+        "9.867501": 88,
+        "9.882578": 86,
+        "9.897631": 169,
+        "9.902643": 86,
+        "9.912662": 82,
+        "9.922668": 75,
+        "9.92767": 89,
+        "9.942655": 261,
+        "9.9626": 507,
+        "9.96758": 169
+      },
+      "fonts": {
+        "Computer Modern": 52,
+        "Nimbus Roman No9 L": 4030
+      },
+      "literal_whitespace": 0,
+      "page": 10,
+      "positioning": {
+        "distinct_composed_matrices": 20,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 1280
+          },
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 581
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 265
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 4082
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 1
+      },
+      "tags": {
+        "path": 1,
+        "svg": 1,
+        "text": 149,
+        "tspan": 157
+      },
+      "unicode_units": 4082,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 3726,
+      "font_sizes": {
+        "10.002371": 72,
+        "10.012289": 159,
+        "10.017244": 78,
+        "10.032096": 73,
+        "10.037041": 79,
+        "10.056799": 77,
+        "10.061732": 1145,
+        "11.9552": 10,
+        "8.9664": 57,
+        "9.862471": 528,
+        "9.872529": 152,
+        "9.892615": 80,
+        "9.902643": 78,
+        "9.917666": 79,
+        "9.922668": 43,
+        "9.937662": 146,
+        "9.9626": 645,
+        "9.992443": 148,
+        "9.997408": 77
+      },
+      "fonts": {
+        "Computer Modern": 378,
+        "Nimbus Roman No9 L": 3348
+      },
+      "literal_whitespace": 0,
+      "page": 11,
+      "positioning": {
+        "distinct_composed_matrices": 17,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 1145
+          },
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 712
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 528
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 3726
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 1
+      },
+      "tags": {
+        "path": 1,
+        "svg": 1,
+        "text": 124,
+        "tspan": 139
+      },
+      "unicode_units": 3726,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 3810,
+      "font_sizes": {
+        "10.007331": 74,
+        "10.017244": 81,
+        "10.022197": 153,
+        "10.032096": 75,
+        "10.046925": 76,
+        "10.056799": 73,
+        "10.061732": 1600,
+        "8.9664": 57,
+        "9.862471": 204,
+        "9.882578": 81,
+        "9.887598": 155,
+        "9.892615": 86,
+        "9.897631": 238,
+        "9.912662": 80,
+        "9.92767": 78,
+        "9.9626": 623,
+        "9.982505": 76
+      },
+      "fonts": {
+        "Computer Modern": 442,
+        "Nimbus Roman No9 L": 3368
+      },
+      "literal_whitespace": 0,
+      "page": 12,
+      "positioning": {
+        "distinct_composed_matrices": 16,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 1600
+          },
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 680
+          },
+          {
+            "matrix": [
+              0.9934788,
+              0.0,
+              0.0,
+              1.0065641,
+              0.0,
+              792.0
+            ],
+            "units": 238
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 3810
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 1
+      },
+      "tags": {
+        "path": 1,
+        "svg": 1,
+        "text": 119,
+        "tspan": 131
+      },
+      "unicode_units": 3810,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 1863,
+      "font_sizes": {
+        "10.061732": 750,
+        "8.9664": 57,
+        "9.862471": 233,
+        "9.882578": 50,
+        "9.942655": 76,
+        "9.9626": 468,
+        "9.96758": 76,
+        "9.982505": 78,
+        "9.992443": 75
+      },
+      "fonts": {
+        "Computer Modern": 323,
+        "Nimbus Roman No9 L": 1540
+      },
+      "literal_whitespace": 0,
+      "page": 13,
+      "positioning": {
+        "distinct_composed_matrices": 8,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 750
+          },
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 525
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 233
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 1863
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 1
+      },
+      "tags": {
+        "path": 1,
+        "svg": 1,
+        "text": 53,
+        "tspan": 64
+      },
+      "unicode_units": 1863,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 3228,
+      "font_sizes": {
+        "10.002371": 61,
+        "10.017244": 172,
+        "10.056799": 90,
+        "10.061732": 884,
+        "11.9552": 55,
+        "4.9813": 1,
+        "6.9738": 300,
+        "8.9664": 57,
+        "9.862471": 350,
+        "9.867501": 88,
+        "9.897631": 88,
+        "9.902643": 84,
+        "9.907654": 89,
+        "9.912662": 87,
+        "9.92767": 87,
+        "9.937662": 87,
+        "9.947644": 86,
+        "9.9626": 406,
+        "9.982505": 90,
+        "9.992443": 66
+      },
+      "fonts": {
+        "Computer Modern": 140,
+        "Nimbus Roman No9 L": 3088
+      },
+      "literal_whitespace": 0,
+      "page": 14,
+      "positioning": {
+        "distinct_composed_matrices": 16,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 884
+          },
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 819
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 350
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 3228
+        }
+      },
+      "replacement_characters": 7,
+      "replacements": [
+        {
+          "anchor": [
+            251.35901,
+            436.75
+          ],
+          "font": "Computer Modern",
+          "id": "svg/48/0:u0"
+        },
+        {
+          "anchor": [
+            156.98401,
+            465.05797
+          ],
+          "font": "Computer Modern",
+          "id": "svg/78/0:u0"
+        },
+        {
+          "anchor": [
+            396.385,
+            642.4929999999999
+          ],
+          "font": "Computer Modern",
+          "id": "svg/138/0:u0"
+        },
+        {
+          "anchor": [
+            473.795,
+            642.4929999999999
+          ],
+          "font": "Computer Modern",
+          "id": "svg/147/0:u0"
+        },
+        {
+          "anchor": [
+            247.68901,
+            665.13399
+          ],
+          "font": "Computer Modern",
+          "id": "svg/159/0:u0"
+        },
+        {
+          "anchor": [
+            297.39707,
+            664.535992
+          ],
+          "font": "Computer Modern",
+          "id": "svg/167/0:u0"
+        },
+        {
+          "anchor": [
+            410.80299,
+            664.5360000000001
+          ],
+          "font": "Computer Modern",
+          "id": "svg/186/0:u0"
+        }
+      ],
+      "shapes": {
+        "straight_primitive": 7
+      },
+      "tags": {
+        "path": 7,
+        "svg": 1,
+        "text": 198,
+        "tspan": 207
+      },
+      "unicode_units": 3228,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 3111,
+      "font_sizes": {
+        "10.012289": 88,
+        "10.022197": 83,
+        "10.032096": 84,
+        "10.041985": 64,
+        "10.056799": 74,
+        "10.061732": 1073,
+        "6.4757": 248,
+        "7.9701": 307,
+        "8.04546": 2,
+        "8.049406": 8,
+        "8.9664": 114,
+        "9.862471": 270,
+        "9.902643": 90,
+        "9.917666": 87,
+        "9.92767": 85,
+        "9.9626": 347,
+        "9.977532": 87
+      },
+      "fonts": {
+        "Computer Modern": 39,
+        "Nimbus Roman No9 L": 3072
+      },
+      "literal_whitespace": 0,
+      "page": 15,
+      "positioning": {
+        "distinct_composed_matrices": 35,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 1081
+          },
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 404
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 270
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 3111
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 290,
+        "unresolved_curve": 5
+      },
+      "tags": {
+        "clipPath": 40,
+        "defs": 1,
+        "g": 76,
+        "image": 1,
+        "path": 277,
+        "pattern": 18,
+        "rect": 18,
+        "svg": 1,
+        "text": 157,
+        "tspan": 162,
+        "use": 72
+      },
+      "unicode_units": 3111,
+      "warnings": [
+        {
+          "element": "svg/0/3/1/0/0",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/3/1/0/1",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/3/1/0/2",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/3/1/0/3",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/6/1/0/0",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/6/1/0/1",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/6/1/0/2",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/6/1/0/3",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/9/1/0/0",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/9/1/0/1",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/9/1/0/2",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/9/1/0/3",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/12/1/0/0",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/12/1/0/1",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/12/1/0/2",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/12/1/0/3",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/15/1/0/0",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/15/1/0/1",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/15/1/0/2",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/15/1/0/3",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/18/1/0/0",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/18/1/0/1",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/18/1/0/2",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/18/1/0/3",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/21/1/0/0",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/21/1/0/1",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/21/1/0/2",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/21/1/0/3",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/24/1/0/0",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/24/1/0/1",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/24/1/0/2",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/24/1/0/3",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/27/1/0/0",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/27/1/0/1",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/27/1/0/2",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/27/1/0/3",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/33/1/0/0",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/33/1/0/1",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/33/1/0/2",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/33/1/0/3",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/36/1/0/0",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/36/1/0/1",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/36/1/0/2",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/36/1/0/3",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/39/1/0/0",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/39/1/0/1",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/39/1/0/2",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/39/1/0/3",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/42/1/0/0",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/42/1/0/1",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/42/1/0/2",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/42/1/0/3",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/45/1/0/0",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/45/1/0/1",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/45/1/0/2",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/45/1/0/3",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/48/1/0/0",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/48/1/0/1",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/48/1/0/2",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/48/1/0/3",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/51/1/0/0",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/51/1/0/1",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/51/1/0/2",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/51/1/0/3",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/54/1/0/0",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/54/1/0/1",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/54/1/0/2",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/54/1/0/3",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/57/1/0/0",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/57/1/0/1",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/57/1/0/2",
+          "reason": "CSS/reference/font program not interpreted: use"
+        },
+        {
+          "element": "svg/0/57/1/0/3",
+          "reason": "CSS/reference/font program not interpreted: use"
+        }
+      ]
+    },
+    {
+      "explicit_position_units": 2633,
+      "font_sizes": {
+        "10.002371": 81,
+        "10.022197": 170,
+        "10.041985": 82,
+        "10.061732": 653,
+        "11.9552": 40,
+        "4.9813": 50,
+        "6.9738": 458,
+        "7.9701": 92,
+        "8.049406": 8,
+        "8.9664": 57,
+        "9.882578": 83,
+        "9.9626": 532,
+        "9.96758": 159,
+        "9.982505": 80,
+        "9.987475": 88
+      },
+      "fonts": {
+        "Computer Modern": 317,
+        "Nimbus Roman No9 L": 2316
+      },
+      "literal_whitespace": 0,
+      "page": 16,
+      "positioning": {
+        "distinct_composed_matrices": 13,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 1136
+          },
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 661
+          },
+          {
+            "matrix": [
+              1.005982,
+              0.0,
+              0.0,
+              0.9940535,
+              0.0,
+              792.0
+            ],
+            "units": 170
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 2633
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 18
+      },
+      "tags": {
+        "path": 18,
+        "svg": 1,
+        "text": 160,
+        "tspan": 170
+      },
+      "unicode_units": 2633,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 3096,
+      "font_sizes": {
+        "10.012289": 169,
+        "10.027147": 84,
+        "10.032096": 81,
+        "10.046925": 171,
+        "10.051864": 69,
+        "10.061732": 772,
+        "5.5791": 24,
+        "6.9738": 464,
+        "8.041511": 8,
+        "8.9664": 57,
+        "9.862471": 442,
+        "9.872529": 93,
+        "9.907654": 82,
+        "9.912662": 89,
+        "9.9626": 314,
+        "9.972557": 86,
+        "9.987475": 91
+      },
+      "fonts": {
+        "Computer Modern": 44,
+        "Nimbus Roman No9 L": 3052
+      },
+      "literal_whitespace": 0,
+      "page": 17,
+      "positioning": {
+        "distinct_composed_matrices": 15,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 772
+          },
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 628
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 442
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 3096
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 10
+      },
+      "tags": {
+        "path": 10,
+        "svg": 1,
+        "text": 106,
+        "tspan": 116
+      },
+      "unicode_units": 3096,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 3191,
+      "font_sizes": {
+        "10.027147": 84,
+        "10.032096": 88,
+        "10.046925": 80,
+        "10.061732": 499,
+        "5.5791": 24,
+        "6.9738": 484,
+        "7.9701": 6,
+        "8.9664": 57,
+        "9.862471": 260,
+        "9.872529": 87,
+        "9.882578": 87,
+        "9.887598": 168,
+        "9.932667": 174,
+        "9.942655": 168,
+        "9.957618": 86,
+        "9.9626": 417,
+        "9.96758": 81,
+        "9.992443": 166,
+        "9.997408": 175
+      },
+      "fonts": {
+        "Computer Modern": 13,
+        "Nimbus Roman No9 L": 3178
+      },
+      "literal_whitespace": 0,
+      "page": 18,
+      "positioning": {
+        "distinct_composed_matrices": 15,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 988
+          },
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 499
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 260
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 3191
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 12
+      },
+      "tags": {
+        "path": 12,
+        "svg": 1,
+        "text": 86,
+        "tspan": 93
+      },
+      "unicode_units": 3191,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 2242,
+      "font_sizes": {
+        "10.022197": 83,
+        "10.061732": 556,
+        "6.9738": 515,
+        "7.8899967": 6,
+        "7.8940207": 6,
+        "7.9701": 189,
+        "8.049406": 6,
+        "8.9664": 95,
+        "9.862471": 247,
+        "9.867501": 74,
+        "9.92767": 91,
+        "9.9626": 291,
+        "9.977532": 83
+      },
+      "fonts": {
+        "Computer Modern": 33,
+        "Nimbus Roman No9 L": 2209
+      },
+      "literal_whitespace": 0,
+      "page": 19,
+      "positioning": {
+        "distinct_composed_matrices": 21,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 865
+          },
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 562
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 253
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 2242
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 91,
+        "unresolved_curve": 67
+      },
+      "tags": {
+        "clipPath": 2,
+        "defs": 1,
+        "g": 2,
+        "path": 158,
+        "svg": 1,
+        "text": 89,
+        "tspan": 103
+      },
+      "unicode_units": 2242,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 3378,
+      "font_sizes": {
+        "10.017244": 86,
+        "10.037041": 82,
+        "10.046925": 83,
+        "10.061732": 1060,
+        "11.9552": 20,
+        "6.90371": 5,
+        "6.9738": 800,
+        "7.043193": 19,
+        "7.8899967": 6,
+        "7.930149": 4,
+        "7.9381558": 6,
+        "7.9461538": 8,
+        "8.9664": 57,
+        "9.862471": 121,
+        "9.892615": 89,
+        "9.902643": 87,
+        "9.912662": 79,
+        "9.922668": 80,
+        "9.932667": 70,
+        "9.952632": 84,
+        "9.9626": 443,
+        "9.992443": 89
+      },
+      "fonts": {
+        "Computer Modern": 687,
+        "Nimbus Roman No9 L": 2691
+      },
+      "literal_whitespace": 0,
+      "page": 20,
+      "positioning": {
+        "distinct_composed_matrices": 17,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 1060
+          },
+          {
+            "matrix": [
+              0.99963,
+              0.0,
+              0.0,
+              0.99963,
+              0.03996277,
+              791.86428
+            ],
+            "units": 800
+          },
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 520
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 3378
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 4
+      },
+      "tags": {
+        "path": 4,
+        "svg": 1,
+        "text": 203,
+        "tspan": 208
+      },
+      "unicode_units": 3378,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 4022,
+      "font_sizes": {
+        "10.002371": 175,
+        "10.007331": 86,
+        "10.012289": 86,
+        "10.022197": 73,
+        "10.037041": 158,
+        "10.056799": 76,
+        "10.061732": 1297,
+        "4.9813": 1,
+        "6.9738": 17,
+        "7.8899967": 6,
+        "8.017777": 8,
+        "8.04546": 4,
+        "8.049406": 14,
+        "8.9664": 57,
+        "9.862471": 431,
+        "9.877555": 88,
+        "9.892615": 88,
+        "9.897631": 89,
+        "9.902643": 85,
+        "9.907654": 83,
+        "9.912662": 88,
+        "9.92767": 86,
+        "9.932667": 91,
+        "9.937662": 75,
+        "9.957618": 88,
+        "9.9626": 500,
+        "9.96758": 89,
+        "9.982505": 83
+      },
+      "fonts": {
+        "Computer Modern": 83,
+        "Nimbus Roman No9 L": 3939
+      },
+      "literal_whitespace": 0,
+      "page": 21,
+      "positioning": {
+        "distinct_composed_matrices": 23,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 1311
+          },
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 575
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 437
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 4022
+        }
+      },
+      "replacement_characters": 3,
+      "replacements": [
+        {
+          "anchor": [
+            268.826,
+            165.87
+          ],
+          "font": "Computer Modern",
+          "id": "svg/26/0:u0"
+        },
+        {
+          "anchor": [
+            311.251,
+            165.87
+          ],
+          "font": "Computer Modern",
+          "id": "svg/34/0:u0"
+        },
+        {
+          "anchor": [
+            346.648,
+            165.87
+          ],
+          "font": "Computer Modern",
+          "id": "svg/41/0:u0"
+        }
+      ],
+      "shapes": {
+        "straight_primitive": 5
+      },
+      "tags": {
+        "path": 5,
+        "svg": 1,
+        "text": 158,
+        "tspan": 164
+      },
+      "unicode_units": 4022,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 3011,
+      "font_sizes": {
+        "10.012289": 85,
+        "10.032096": 76,
+        "10.061732": 664,
+        "5.5791": 8,
+        "6.9738": 418,
+        "7.1731": 8,
+        "7.9701": 6,
+        "8.9664": 530,
+        "9.05562": 84,
+        "9.862471": 172,
+        "9.892615": 86,
+        "9.907654": 170,
+        "9.912662": 94,
+        "9.9626": 441,
+        "9.96758": 87,
+        "9.972557": 82
+      },
+      "fonts": {
+        "Computer Modern": 32,
+        "Font Awesome 5 Free Solid": 17,
+        "Nimbus Roman No9 L": 2962
+      },
+      "literal_whitespace": 0,
+      "page": 22,
+      "positioning": {
+        "distinct_composed_matrices": 11,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 1411
+          },
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 664
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 172
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 3011
+        }
+      },
+      "replacement_characters": 17,
+      "replacements": [
+        {
+          "anchor": [
+            116.439,
+            530.4580000000001
+          ],
+          "font": "Font Awesome 5 Free Solid",
+          "id": "svg/70/0:u0"
+        },
+        {
+          "anchor": [
+            116.438999,
+            543.2900099999999
+          ],
+          "font": "Font Awesome 5 Free Solid",
+          "id": "svg/72/0:u0"
+        },
+        {
+          "anchor": [
+            116.438999,
+            554.1279999999999
+          ],
+          "font": "Font Awesome 5 Free Solid",
+          "id": "svg/74/0:u0"
+        },
+        {
+          "anchor": [
+            116.438999,
+            564.96701
+          ],
+          "font": "Font Awesome 5 Free Solid",
+          "id": "svg/76/0:u0"
+        },
+        {
+          "anchor": [
+            116.438999,
+            577.65101
+          ],
+          "font": "Font Awesome 5 Free Solid",
+          "id": "svg/78/0:u0"
+        },
+        {
+          "anchor": [
+            116.438999,
+            590.45102
+          ],
+          "font": "Font Awesome 5 Free Solid",
+          "id": "svg/80/0:u0"
+        },
+        {
+          "anchor": [
+            116.439,
+            607.6659999999999
+          ],
+          "font": "Font Awesome 5 Free Solid",
+          "id": "svg/134/0:u0"
+        },
+        {
+          "anchor": [
+            124.285,
+            607.6659999999999
+          ],
+          "font": "Font Awesome 5 Free Solid",
+          "id": "svg/135/0:u0"
+        },
+        {
+          "anchor": [
+            116.43901,
+            618.505
+          ],
+          "font": "Font Awesome 5 Free Solid",
+          "id": "svg/139/0:u0"
+        },
+        {
+          "anchor": [
+            124.28501,
+            618.505
+          ],
+          "font": "Font Awesome 5 Free Solid",
+          "id": "svg/140/0:u0"
+        },
+        {
+          "anchor": [
+            116.43901,
+            629.343
+          ],
+          "font": "Font Awesome 5 Free Solid",
+          "id": "svg/144/0:u0"
+        },
+        {
+          "anchor": [
+            124.28501,
+            629.343
+          ],
+          "font": "Font Awesome 5 Free Solid",
+          "id": "svg/145/0:u0"
+        },
+        {
+          "anchor": [
+            135.49301,
+            629.343
+          ],
+          "font": "Font Awesome 5 Free Solid",
+          "id": "svg/146/0:u0"
+        },
+        {
+          "anchor": [
+            129.889,
+            644.807
+          ],
+          "font": "Font Awesome 5 Free Solid",
+          "id": "svg/153/0:u0"
+        },
+        {
+          "anchor": [
+            217.49,
+            644.807
+          ],
+          "font": "Font Awesome 5 Free Solid",
+          "id": "svg/155/0:u0"
+        },
+        {
+          "anchor": [
+            328.681,
+            644.807
+          ],
+          "font": "Font Awesome 5 Free Solid",
+          "id": "svg/157/0:u0"
+        },
+        {
+          "anchor": [
+            129.889,
+            654.77
+          ],
+          "font": "Font Awesome 5 Free Solid",
+          "id": "svg/159/0:u0"
+        }
+      ],
+      "shapes": {
+        "straight_primitive": 57
+      },
+      "tags": {
+        "path": 57,
+        "svg": 1,
+        "text": 109,
+        "tspan": 120
+      },
+      "unicode_units": 3011,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 3541,
+      "font_sizes": {
+        "10.012289": 167,
+        "10.051864": 83,
+        "10.061732": 1218,
+        "5.5791": 4,
+        "6.9738": 279,
+        "7.8899967": 2,
+        "7.962126": 2,
+        "7.974084": 2,
+        "8.9664": 57,
+        "9.862471": 262,
+        "9.892615": 153,
+        "9.897631": 92,
+        "9.912662": 86,
+        "9.952632": 148,
+        "9.957618": 88,
+        "9.9626": 641,
+        "9.96758": 169,
+        "9.972557": 88
+      },
+      "fonts": {
+        "Computer Modern": 51,
+        "Nimbus Roman No9 L": 3490
+      },
+      "literal_whitespace": 0,
+      "page": 23,
+      "positioning": {
+        "distinct_composed_matrices": 12,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 1218
+          },
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 981
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 264
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 3541
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 4
+      },
+      "tags": {
+        "path": 4,
+        "svg": 1,
+        "text": 95,
+        "tspan": 111
+      },
+      "unicode_units": 3541,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 3393,
+      "font_sizes": {
+        "10.022197": 86,
+        "10.032096": 80,
+        "10.056799": 75,
+        "10.061732": 319,
+        "4.9813": 8,
+        "5.5791": 64,
+        "6.9738": 1435,
+        "7.906082": 2,
+        "8.9664": 57,
+        "9.862471": 261,
+        "9.882578": 84,
+        "9.907654": 83,
+        "9.912662": 87,
+        "9.922668": 84,
+        "9.942655": 77,
+        "9.952632": 169,
+        "9.9626": 338,
+        "9.982505": 84
+      },
+      "fonts": {
+        "Computer Modern": 55,
+        "Nimbus Roman No9 L": 3338
+      },
+      "literal_whitespace": 0,
+      "page": 24,
+      "positioning": {
+        "distinct_composed_matrices": 14,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 1902
+          },
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 319
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 261
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 3393
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 14
+      },
+      "tags": {
+        "path": 14,
+        "svg": 1,
+        "text": 157,
+        "tspan": 178
+      },
+      "unicode_units": 3393,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 3171,
+      "font_sizes": {
+        "10.007331": 83,
+        "10.012289": 87,
+        "10.017244": 82,
+        "10.027147": 230,
+        "10.041985": 67,
+        "10.061732": 959,
+        "5.5791": 30,
+        "6.9738": 571,
+        "7.8899967": 2,
+        "8.049406": 6,
+        "8.9664": 57,
+        "9.862471": 258,
+        "9.932667": 246,
+        "9.957618": 81,
+        "9.9626": 412
+      },
+      "fonts": {
+        "Computer Modern": 48,
+        "Nimbus Roman No9 L": 3123
+      },
+      "literal_whitespace": 0,
+      "page": 25,
+      "positioning": {
+        "distinct_composed_matrices": 10,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 1070
+          },
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 965
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 260
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 3171
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 9
+      },
+      "tags": {
+        "path": 9,
+        "svg": 1,
+        "text": 105,
+        "tspan": 120
+      },
+      "unicode_units": 3171,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 2240,
+      "font_sizes": {
+        "10.002371": 85,
+        "10.012289": 83,
+        "10.056799": 87,
+        "10.061732": 462,
+        "11.9552": 20,
+        "4.9813": 6,
+        "6.9738": 116,
+        "7.9381558": 8,
+        "7.9701": 145,
+        "8.9664": 90,
+        "9.862471": 433,
+        "9.902643": 86,
+        "9.922668": 71,
+        "9.932667": 84,
+        "9.942655": 174,
+        "9.957618": 89,
+        "9.9626": 201
+      },
+      "fonts": {
+        "Computer Modern": 80,
+        "Nimbus Roman No9 L": 2160
+      },
+      "literal_whitespace": 0,
+      "page": 26,
+      "positioning": {
+        "distinct_composed_matrices": 21,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 346
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 344
+          },
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 302
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 2240
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 265,
+        "unresolved_curve": 90
+      },
+      "tags": {
+        "clipPath": 3,
+        "defs": 1,
+        "g": 3,
+        "path": 355,
+        "svg": 1,
+        "text": 157,
+        "tspan": 162
+      },
+      "unicode_units": 2240,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 2480,
+      "font_sizes": {
+        "10.022197": 82,
+        "10.027147": 87,
+        "10.051864": 83,
+        "10.061732": 616,
+        "4.9813": 2,
+        "5.04": 4,
+        "6.8": 66,
+        "6.9738": 44,
+        "7.2": 60,
+        "7.8899967": 2,
+        "7.898043": 6,
+        "7.9181249": 2,
+        "8.2": 92,
+        "8.9664": 57,
+        "9.0": 49,
+        "9.862471": 257,
+        "9.872529": 78,
+        "9.882578": 85,
+        "9.897631": 165,
+        "9.902643": 74,
+        "9.912662": 71,
+        "9.9626": 411,
+        "9.977532": 87
+      },
+      "fonts": {
+        "Computer Modern": 128,
+        "DejaVu Serif": 271,
+        "Nimbus Roman No9 L": 2081
+      },
+      "literal_whitespace": 23,
+      "page": 27,
+      "positioning": {
+        "distinct_composed_matrices": 37,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 616
+          },
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 514
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 259
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 2480
+        }
+      },
+      "replacement_characters": 9,
+      "replacements": [
+        {
+          "anchor": [
+            239.18599,
+            394.892
+          ],
+          "font": "Computer Modern",
+          "id": "svg/33/0:u0"
+        },
+        {
+          "anchor": [
+            255.23699,
+            394.892
+          ],
+          "font": "Computer Modern",
+          "id": "svg/38/0:u0"
+        },
+        {
+          "anchor": [
+            271.287,
+            390.309
+          ],
+          "font": "Computer Modern",
+          "id": "svg/41/0:u0"
+        },
+        {
+          "anchor": [
+            282.274,
+            396.287
+          ],
+          "font": "Computer Modern",
+          "id": "svg/43/0:u0"
+        },
+        {
+          "anchor": [
+            332.64799,
+            396.286
+          ],
+          "font": "Computer Modern",
+          "id": "svg/50/0:u0"
+        },
+        {
+          "anchor": [
+            362.492,
+            396.28597
+          ],
+          "font": "Computer Modern",
+          "id": "svg/55/0:u0"
+        },
+        {
+          "anchor": [
+            412.866,
+            396.286
+          ],
+          "font": "Computer Modern",
+          "id": "svg/63/0:u0"
+        },
+        {
+          "anchor": [
+            417.432,
+            390.30901
+          ],
+          "font": "Computer Modern",
+          "id": "svg/63/1:u0"
+        },
+        {
+          "anchor": [
+            263.083,
+            466.073
+          ],
+          "font": "Computer Modern",
+          "id": "svg/93/0:u0"
+        }
+      ],
+      "shapes": {
+        "straight_primitive": 183,
+        "unresolved_curve": 114
+      },
+      "tags": {
+        "clipPath": 70,
+        "defs": 1,
+        "g": 71,
+        "image": 1,
+        "path": 297,
+        "svg": 1,
+        "text": 179,
+        "tspan": 183
+      },
+      "unicode_units": 2480,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 2224,
+      "font_sizes": {
+        "10.061732": 77,
+        "7.2": 169,
+        "7.4": 651,
+        "7.8899967": 8,
+        "8.049406": 2,
+        "8.2": 249,
+        "8.9664": 57,
+        "9.0": 68,
+        "9.6": 22,
+        "9.862471": 158,
+        "9.932667": 84,
+        "9.957618": 79,
+        "9.9626": 177,
+        "9.96758": 87,
+        "9.982505": 89,
+        "9.987475": 86,
+        "9.997408": 161
+      },
+      "fonts": {
+        "Computer Modern": 3,
+        "DejaVu Serif": 1157,
+        "Nimbus Roman No9 L": 1062,
+        "cmb10": 2
+      },
+      "literal_whitespace": 107,
+      "page": 28,
+      "positioning": {
+        "distinct_composed_matrices": 83,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 234
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 166
+          },
+          {
+            "matrix": [
+              1.0034938,
+              0.0,
+              0.0,
+              0.99651828,
+              0.0,
+              792.0
+            ],
+            "units": 161
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 2224
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 4241,
+        "unresolved_curve": 3530
+      },
+      "tags": {
+        "clipPath": 3645,
+        "defs": 1,
+        "g": 3645,
+        "path": 7771,
+        "svg": 1,
+        "text": 119,
+        "tspan": 119
+      },
+      "unicode_units": 2224,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 3376,
+      "font_sizes": {
+        "10.017244": 85,
+        "10.027147": 84,
+        "10.061732": 586,
+        "11.9552": 24,
+        "5.4": 634,
+        "5.6": 627,
+        "6.6": 44,
+        "7.0": 50,
+        "7.2": 74,
+        "7.4": 85,
+        "8.2": 121,
+        "8.9664": 57,
+        "9.0": 120,
+        "9.862471": 316,
+        "9.877555": 87,
+        "9.887598": 87,
+        "9.932667": 87,
+        "9.9626": 208
+      },
+      "fonts": {
+        "Computer Modern": 24,
+        "DejaVu Serif": 1753,
+        "Nimbus Roman No9 L": 1597,
+        "cmb10": 2
+      },
+      "literal_whitespace": 46,
+      "page": 29,
+      "positioning": {
+        "distinct_composed_matrices": 158,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 586
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 316
+          },
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 289
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 3376
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 1342,
+        "unresolved_curve": 116
+      },
+      "tags": {
+        "clipPath": 466,
+        "defs": 1,
+        "g": 467,
+        "path": 1458,
+        "svg": 1,
+        "text": 203,
+        "tspan": 207
+      },
+      "unicode_units": 3376,
+      "warnings": []
+    },
+    {
+      "explicit_position_units": 3015,
+      "font_sizes": {
+        "10.012289": 83,
+        "10.022197": 73,
+        "10.032096": 174,
+        "10.041985": 76,
+        "10.046925": 40,
+        "10.051864": 84,
+        "10.061732": 548,
+        "11.9552": 35,
+        "6.9423477": 36,
+        "6.9738": 357,
+        "7.0085828": 41,
+        "7.043193": 82,
+        "7.8899967": 2,
+        "8.009851": 4,
+        "8.017777": 6,
+        "8.0336079": 6,
+        "8.03756": 6,
+        "8.049406": 2,
+        "8.9664": 57,
+        "9.862471": 355,
+        "9.877555": 90,
+        "9.882578": 85,
+        "9.907654": 83,
+        "9.917666": 85,
+        "9.922668": 87,
+        "9.937662": 172,
+        "9.9626": 346
+      },
+      "fonts": {
+        "Computer Modern": 64,
+        "Nimbus Roman No9 L": 2951
+      },
+      "literal_whitespace": 0,
+      "page": 30,
+      "positioning": {
+        "distinct_composed_matrices": 20,
+        "most_frequent_matrices": [
+          {
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              792.0
+            ],
+            "units": 795
+          },
+          {
+            "matrix": [
+              1.0099505,
+              0.0,
+              0.0,
+              0.9901476,
+              0.0,
+              792.0
+            ],
+            "units": 550
+          },
+          {
+            "matrix": [
+              0.98994949,
+              0.0,
+              0.0,
+              1.0101526,
+              0.0,
+              792.0
+            ],
+            "units": 357
+          }
+        ],
+        "note": "All per-unit raw positions, inherited presentation and matrices retained in hashed external inspection files; unresolved advances are not guessed.",
+        "text_anchors": {
+          "start": 3015
+        }
+      },
+      "replacement_characters": 0,
+      "replacements": [],
+      "shapes": {
+        "straight_primitive": 4
+      },
+      "tags": {
+        "path": 4,
+        "svg": 1,
+        "text": 101,
+        "tspan": 108
+      },
+      "unicode_units": 3015,
+      "warnings": []
+    }
+  ],
+  "schema_version": "svg-inspection.1"
+}

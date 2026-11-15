@@ -1,0 +1,19 @@
+{
+  "schema_version": "svg-math-freeze.1",
+  "reference_sha256": "0e971de249c2deb5fbf0fe1da8a6871b0c9f6eb6379a4d70c8cdeda4a211fd10",
+  "configuration": {
+    "fraction_band_em": 2.5,
+    "script_size_ratio": 0.82,
+    "script_dy_min_em": 0.12,
+    "script_dy_max_em": 1.4,
+    "script_x_gap_em": 1.1,
+    "script_tie_em": 0.2,
+    "baseline_tolerance_em": 0.1,
+    "run_gap_em": 0.9,
+    "number_gap_em": 2.0,
+    "number_min_page_fraction": 0.65,
+    "bar_max_slope": 0.001
+  },
+  "configuration_frozen_before_first_reconstruction": true,
+  "status": "exploratory controlled development example, not independent validation"
+}

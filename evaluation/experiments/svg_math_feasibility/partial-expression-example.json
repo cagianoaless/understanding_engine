@@ -1,0 +1,595 @@
+{
+  "page": 4,
+  "pdf_sha256": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060",
+  "provenance": "Unique geometric associations, no native membership or text correction",
+  "schema_version": "svg-math-example.1",
+  "status": "partial_unresolved",
+  "svg_sha256": "f14bc4911448a350ace5a2af1b183941e6b6bba3d67f6f6e2dfc443f149288ed",
+  "tree": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "kind": "symbol",
+                    "original_unicode": [
+                      "A"
+                    ],
+                    "source_character_ids": [
+                      "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1641"
+                    ],
+                    "svg_text_diagnostic": "A",
+                    "svg_units": [
+                      "svg/139/0:u0"
+                    ]
+                  },
+                  {
+                    "kind": "symbol",
+                    "original_unicode": [
+                      "⋆"
+                    ],
+                    "source_character_ids": [
+                      "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1642"
+                    ],
+                    "svg_text_diagnostic": "⋆",
+                    "svg_units": [
+                      "svg/140/0:u0"
+                    ]
+                  }
+                ],
+                "kind": "indexed",
+                "script_kinds": [
+                  "superscript"
+                ]
+              },
+              {
+                "children": [
+                  {
+                    "kind": "symbol",
+                    "original_unicode": [
+                      "("
+                    ],
+                    "source_character_ids": [
+                      "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1643"
+                    ],
+                    "svg_text_diagnostic": "(",
+                    "svg_units": [
+                      "svg/141/0:u0"
+                    ]
+                  },
+                  {
+                    "children": [
+                      {
+                        "kind": "symbol",
+                        "original_unicode": [
+                          "ϕ"
+                        ],
+                        "source_character_ids": [
+                          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1644"
+                        ],
+                        "svg_text_diagnostic": "ϕ",
+                        "svg_units": [
+                          "svg/142/0:u0"
+                        ]
+                      }
+                    ],
+                    "implicit_operations": "unresolved",
+                    "kind": "sequence"
+                  },
+                  {
+                    "kind": "symbol",
+                    "original_unicode": [
+                      ")"
+                    ],
+                    "source_character_ids": [
+                      "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1645"
+                    ],
+                    "svg_text_diagnostic": ")",
+                    "svg_units": [
+                      "svg/143/0:u0"
+                    ]
+                  }
+                ],
+                "kind": "group"
+              }
+            ],
+            "implicit_operations": "unresolved",
+            "kind": "sequence"
+          },
+          {
+            "kind": "symbol",
+            "original_unicode": [
+              "="
+            ],
+            "source_character_ids": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1646"
+            ],
+            "svg_text_diagnostic": "=",
+            "svg_units": [
+              "svg/143/0:u1"
+            ]
+          },
+          {
+            "children": [
+              {
+                "bar_id": "svg/144",
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "kind": "symbol",
+                        "original_unicode": [
+                          "1"
+                        ],
+                        "source_character_ids": [
+                          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1647"
+                        ],
+                        "svg_text_diagnostic": "1",
+                        "svg_units": [
+                          "svg/143/1:u0"
+                        ]
+                      }
+                    ],
+                    "implicit_operations": "unresolved",
+                    "kind": "sequence"
+                  },
+                  {
+                    "children": [
+                      {
+                        "kind": "symbol",
+                        "original_unicode": [
+                          "N"
+                        ],
+                        "source_character_ids": [
+                          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1648"
+                        ],
+                        "svg_text_diagnostic": "N",
+                        "svg_units": [
+                          "svg/145/0:u0"
+                        ]
+                      }
+                    ],
+                    "implicit_operations": "unresolved",
+                    "kind": "sequence"
+                  }
+                ],
+                "kind": "fraction"
+              },
+              {
+                "kind": "unresolved_symbol",
+                "original_unicode": [
+                  "(cid:88)"
+                ],
+                "source_character_ids": [
+                  "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1649"
+                ],
+                "svg_text_diagnostic": "�",
+                "svg_units": [
+                  "svg/146/0:u0"
+                ]
+              },
+              {
+                "kind": "symbol",
+                "original_unicode": [
+                  "x"
+                ],
+                "source_character_ids": [
+                  "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1650"
+                ],
+                "svg_text_diagnostic": "x",
+                "svg_units": [
+                  "svg/147/0:u0"
+                ]
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "kind": "symbol",
+                        "original_unicode": [
+                          "m"
+                        ],
+                        "source_character_ids": [
+                          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1651"
+                        ],
+                        "svg_text_diagnostic": "m",
+                        "svg_units": [
+                          "svg/148/0:u0"
+                        ]
+                      },
+                      {
+                        "kind": "symbol",
+                        "original_unicode": [
+                          "a"
+                        ],
+                        "source_character_ids": [
+                          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1652"
+                        ],
+                        "svg_text_diagnostic": "a",
+                        "svg_units": [
+                          "svg/148/0:u1"
+                        ]
+                      },
+                      {
+                        "kind": "symbol",
+                        "original_unicode": [
+                          "x"
+                        ],
+                        "source_character_ids": [
+                          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1653"
+                        ],
+                        "svg_text_diagnostic": "x",
+                        "svg_units": [
+                          "svg/148/0:u2"
+                        ]
+                      }
+                    ],
+                    "kind": "symbol_run",
+                    "svg_text_diagnostic": "max"
+                  },
+                  {
+                    "kind": "symbol",
+                    "original_unicode": [
+                      "y"
+                    ],
+                    "source_character_ids": [
+                      "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1654"
+                    ],
+                    "svg_text_diagnostic": "y",
+                    "svg_units": [
+                      "svg/149/0:u0"
+                    ]
+                  }
+                ],
+                "kind": "indexed",
+                "script_kinds": [
+                  "subscript"
+                ]
+              },
+              {
+                "children": [
+                  {
+                    "kind": "symbol",
+                    "original_unicode": [
+                      "n"
+                    ],
+                    "source_character_ids": [
+                      "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1655"
+                    ],
+                    "svg_text_diagnostic": "n",
+                    "svg_units": [
+                      "svg/150/0:u0"
+                    ]
+                  },
+                  {
+                    "children": [
+                      {
+                        "kind": "symbol",
+                        "original_unicode": [
+                          "x"
+                        ],
+                        "source_character_ids": [
+                          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1656"
+                        ],
+                        "svg_text_diagnostic": "x",
+                        "svg_units": [
+                          "svg/151/0:u0"
+                        ]
+                      },
+                      {
+                        "kind": "symbol",
+                        "original_unicode": [
+                          "y"
+                        ],
+                        "source_character_ids": [
+                          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1657"
+                        ],
+                        "svg_text_diagnostic": "y",
+                        "svg_units": [
+                          "svg/151/0:u1"
+                        ]
+                      }
+                    ],
+                    "kind": "symbol_run",
+                    "svg_text_diagnostic": "xy"
+                  }
+                ],
+                "kind": "indexed",
+                "script_kinds": [
+                  "subscript"
+                ]
+              },
+              {
+                "children": [
+                  {
+                    "kind": "symbol",
+                    "original_unicode": [
+                      "="
+                    ],
+                    "source_character_ids": [
+                      "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1658"
+                    ],
+                    "svg_text_diagnostic": "=",
+                    "svg_units": [
+                      "svg/152/0:u0"
+                    ]
+                  },
+                  {
+                    "kind": "symbol",
+                    "original_unicode": [
+                      "x"
+                    ],
+                    "source_character_ids": [
+                      "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1660"
+                    ],
+                    "svg_text_diagnostic": "x",
+                    "svg_units": [
+                      "svg/154/0:u0"
+                    ]
+                  }
+                ],
+                "kind": "indexed",
+                "script_kinds": [
+                  "subscript"
+                ]
+              },
+              {
+                "kind": "unresolved_symbol",
+                "original_unicode": [
+                  "(cid:88)"
+                ],
+                "source_character_ids": [
+                  "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1659"
+                ],
+                "svg_text_diagnostic": "�",
+                "svg_units": [
+                  "svg/153/0:u0"
+                ]
+              },
+              {
+                "kind": "symbol",
+                "original_unicode": [
+                  "p"
+                ],
+                "source_character_ids": [
+                  "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1661"
+                ],
+                "svg_text_diagnostic": "p",
+                "svg_units": [
+                  "svg/155/0:u0"
+                ]
+              },
+              {
+                "children": [
+                  {
+                    "kind": "symbol",
+                    "original_unicode": [
+                      "("
+                    ],
+                    "source_character_ids": [
+                      "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1662"
+                    ],
+                    "svg_text_diagnostic": "(",
+                    "svg_units": [
+                      "svg/156/0:u0"
+                    ]
+                  },
+                  {
+                    "children": [
+                      {
+                        "kind": "symbol",
+                        "original_unicode": [
+                          "x"
+                        ],
+                        "source_character_ids": [
+                          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1663"
+                        ],
+                        "svg_text_diagnostic": "x",
+                        "svg_units": [
+                          "svg/157/0:u0"
+                        ]
+                      }
+                    ],
+                    "implicit_operations": "unresolved",
+                    "kind": "sequence"
+                  },
+                  {
+                    "kind": "symbol",
+                    "original_unicode": [
+                      ")"
+                    ],
+                    "source_character_ids": [
+                      "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1664"
+                    ],
+                    "svg_text_diagnostic": ")",
+                    "svg_units": [
+                      "svg/158/0:u0"
+                    ]
+                  }
+                ],
+                "kind": "group"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "kind": "symbol",
+                        "original_unicode": [
+                          "m"
+                        ],
+                        "source_character_ids": [
+                          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1665"
+                        ],
+                        "svg_text_diagnostic": "m",
+                        "svg_units": [
+                          "svg/158/0:u1"
+                        ]
+                      },
+                      {
+                        "kind": "symbol",
+                        "original_unicode": [
+                          "a"
+                        ],
+                        "source_character_ids": [
+                          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1666"
+                        ],
+                        "svg_text_diagnostic": "a",
+                        "svg_units": [
+                          "svg/158/0:u2"
+                        ]
+                      },
+                      {
+                        "kind": "symbol",
+                        "original_unicode": [
+                          "x"
+                        ],
+                        "source_character_ids": [
+                          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1667"
+                        ],
+                        "svg_text_diagnostic": "x",
+                        "svg_units": [
+                          "svg/158/0:u3"
+                        ]
+                      }
+                    ],
+                    "kind": "symbol_run",
+                    "svg_text_diagnostic": "max"
+                  },
+                  {
+                    "kind": "symbol",
+                    "original_unicode": [
+                      "y"
+                    ],
+                    "source_character_ids": [
+                      "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1668"
+                    ],
+                    "svg_text_diagnostic": "y",
+                    "svg_units": [
+                      "svg/159/0:u0"
+                    ]
+                  }
+                ],
+                "kind": "indexed",
+                "script_kinds": [
+                  "subscript"
+                ]
+              },
+              {
+                "kind": "symbol",
+                "original_unicode": [
+                  "p"
+                ],
+                "source_character_ids": [
+                  "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1669"
+                ],
+                "svg_text_diagnostic": "p",
+                "svg_units": [
+                  "svg/160/0:u0"
+                ]
+              },
+              {
+                "children": [
+                  {
+                    "kind": "symbol",
+                    "original_unicode": [
+                      "("
+                    ],
+                    "source_character_ids": [
+                      "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1670"
+                    ],
+                    "svg_text_diagnostic": "(",
+                    "svg_units": [
+                      "svg/161/0:u0"
+                    ]
+                  },
+                  {
+                    "children": [
+                      {
+                        "kind": "symbol",
+                        "original_unicode": [
+                          "y"
+                        ],
+                        "source_character_ids": [
+                          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1671"
+                        ],
+                        "svg_text_diagnostic": "y",
+                        "svg_units": [
+                          "svg/162/0:u0"
+                        ]
+                      },
+                      {
+                        "kind": "symbol",
+                        "original_unicode": [
+                          "|"
+                        ],
+                        "source_character_ids": [
+                          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1672"
+                        ],
+                        "svg_text_diagnostic": "|",
+                        "svg_units": [
+                          "svg/163/0:u0"
+                        ]
+                      },
+                      {
+                        "kind": "symbol",
+                        "original_unicode": [
+                          "x"
+                        ],
+                        "source_character_ids": [
+                          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1673"
+                        ],
+                        "svg_text_diagnostic": "x",
+                        "svg_units": [
+                          "svg/164/0:u0"
+                        ]
+                      }
+                    ],
+                    "implicit_operations": "unresolved",
+                    "kind": "sequence"
+                  },
+                  {
+                    "kind": "symbol",
+                    "original_unicode": [
+                      ")"
+                    ],
+                    "source_character_ids": [
+                      "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1674"
+                    ],
+                    "svg_text_diagnostic": ")",
+                    "svg_units": [
+                      "svg/165/0:u0"
+                    ]
+                  }
+                ],
+                "kind": "group"
+              }
+            ],
+            "implicit_operations": "unresolved",
+            "kind": "sequence"
+          }
+        ],
+        "kind": "equality",
+        "operator": "="
+      },
+      {
+        "kind": "symbol",
+        "original_unicode": [
+          ","
+        ],
+        "source_character_ids": [
+          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1675"
+        ],
+        "svg_text_diagnostic": ",",
+        "svg_units": [
+          "svg/166/0:u0"
+        ]
+      }
+    ],
+    "kind": "multipart"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": "svg-math-implementation.1",
+  "base_branch": "feat/local-pdf-viewer-v0",
+  "base_commit": "a6ae57c00d2d4e18af916b62ed3573d640ab664f",
+  "preexisting_tracked_files_unchanged": 420,
+  "reference_sha256": "0e971de249c2deb5fbf0fe1da8a6871b0c9f6eb6379a4d70c8cdeda4a211fd10",
+  "code": [
+    {
+      "path": "evaluation/experiments/svg_math_feasibility/experiment.py",
+      "sha256": "f4c798ca0eec9d0a109d0193522f81d0ae870188b06d5ecb9fb3e33a4f91a04f"
+    },
+    {
+      "path": "evaluation/experiments/svg_math_feasibility/figures.py",
+      "sha256": "032cf15c3b406ed97d6cdd6192f9d2cc067c3940e716ef39bdd1f8b834dd617a"
+    },
+    {
+      "path": "evaluation/experiments/svg_math_feasibility/font_evidence.py",
+      "sha256": "057a22c2f422692ccf7a274eee1b4625685aae35aa9558c80ca43deac6774429"
+    },
+    {
+      "path": "evaluation/experiments/svg_math_feasibility/publish.py",
+      "sha256": "469d6d325541dc54748fddea13a3ded95e0fb86939060f3dfde9b2ca118276bf"
+    },
+    {
+      "path": "evaluation/experiments/svg_math_feasibility/reconstruct.py",
+      "sha256": "d4382fa2bec2050f551df6ae31acc6fd54b23c0f3328134e34b38ca8391e6aae"
+    },
+    {
+      "path": "evaluation/experiments/svg_math_feasibility/render_svg.mjs",
+      "sha256": "c99121ad66e75ee53bde3d53e86603e10705a30ba0877e9b733364be82f46236"
+    },
+    {
+      "path": "evaluation/experiments/svg_math_feasibility/svg_inspector.py",
+      "sha256": "e0f71da1b765148e7c84784fd8523c4708ac6a290bbaef75cd03d7554027dad8"
+    },
+    {
+      "path": "tests/test_svg_math_feasibility.py",
+      "sha256": "115b510b8c3ae942774999c9fb52a9aadfddb572a0994dcfbe7500231bd9cb69"
+    }
+  ],
+  "unchanged_baseline": [
+    {
+      "path": "src/understanding_engine/pdf_parser.py",
+      "sha256": "12f238b5b52fa569d804cdf2c322f933a545016bafe568341b9aeaf64f9782b1"
+    },
+    {
+      "path": "src/understanding_engine/contracts.py",
+      "sha256": "0279918914aec92c1462096bebe33f69ed79fa59f350c3cf2ee6c8db10c95092"
+    },
+    {
+      "path": "src/understanding_engine/schemas/extraction.schema.json",
+      "sha256": "39feaf32d72f2168b8f6d8f9687618b900520e6fd985f88d9464c57a869a6181"
+    }
+  ],
+  "versions": {
+    "python": "3.11.13",
+    "architecture": "arm64",
+    "os": "Darwin",
+    "expat": "expat_2.6.3",
+    "zlib_runtime": "1.2.12",
+    "pdfium_library": "156.0.8076.0",
+    "pypdf": "6.1.1",
+    "node": "24.2.0",
+    "browser": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/146.0.7680.164",
+      "revision": "@9828b0995009b41005eb7b4b33c442a1c3340c8",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/146.0.0.0 Safari/537.36",
+      "jsVersion": "14.6.202.26"
+    }
+  },
+  "tests": {
+    "passed": 528,
+    "failed": 0,
+    "skipped": 0,
+    "new_regressions": 40,
+    "seconds": 19.38,
+    "invocation": "commands.md: existing interpreter, frozen/offline no-project, no dependency sync; caveat recorded"
+  },
+  "observed": {
+    "final_analysis_seconds": 13.543186958879232,
+    "external_page_requests": 0,
+    "peak_memory": null,
+    "peak_memory_reason": "Not measured; no claimed memory budget/performance generalization"
+  },
+  "stages": {
+    "input_identity": "PASS for explicitly user-confirmed final PDF",
+    "archive_xml": "PASS within documented subset",
+    "page_correspondence": "PASS page mapping, not whole-page equivalence",
+    "target_region_comparability": "PASS for two agent-checked regions",
+    "complete_math_reconstruction": "FAIL; partial hypotheses",
+    "production_integration": "NOT RECOMMENDED from this evidence",
+    "unicode_font_recovery": "NOT IMPLEMENTED; separate names evidence"
+  },
+  "no_local_dependency_runtime_or_production_changes": true
+}

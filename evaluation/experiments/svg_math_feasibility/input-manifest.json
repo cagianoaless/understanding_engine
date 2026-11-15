@@ -1,0 +1,2664 @@
+{
+  "comparable_regions": [
+    {
+      "bbox": [
+        200,
+        373,
+        506,
+        404
+      ],
+      "comparison_status": "agent_visual_checked_comparable",
+      "id": "eq2",
+      "pdf_page": 4,
+      "svg_page": 4
+    },
+    {
+      "bbox": [
+        147,
+        551,
+        506,
+        584
+      ],
+      "comparison_status": "agent_visual_checked_comparable",
+      "id": "eq4",
+      "pdf_page": 4,
+      "svg_page": 4
+    }
+  ],
+  "development_only": true,
+  "document_identity_limit": "The originally requested clean_preview PDF is absent. Comparisons use the explicitly user-confirmed final_preview PDF only; no claim about the absent revision.",
+  "note": "ASCII retrieval and anchor checks establish page/region correspondence, not whole-page Unicode or visual accuracy. No declared earlier PDF-version mismatch was assumed.",
+  "page_mapping": [
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 3123,
+        "unmatched": 7
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.8958250497017892,
+      "next_best": 0.10417495029821074,
+      "not_an_accuracy_score": true,
+      "pdf_page": 1,
+      "status": "page_correspondence_only",
+      "svg_page": 1,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 7,
+        "exact": 3116,
+        "unmatched_or_ambiguous": 7
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 3677,
+        "unmatched": 7
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.8958250497017892,
+      "next_best": 0.10417495029821074,
+      "not_an_accuracy_score": true,
+      "pdf_page": 2,
+      "status": "page_correspondence_only",
+      "svg_page": 2,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 7,
+        "exact": 3670,
+        "unmatched_or_ambiguous": 7
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 2862,
+        "unmatched": 4
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.9132369299221357,
+      "next_best": 0.0867630700778643,
+      "not_an_accuracy_score": true,
+      "pdf_page": 3,
+      "status": "page_correspondence_only",
+      "svg_page": 3,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 4,
+        "exact": 2858,
+        "unmatched_or_ambiguous": 4
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 3182,
+        "unmatched": 4
+      },
+      "identity_ascii_7gram_jaccard": 0.9634193299961494,
+      "margin": 0.9002361205514621,
+      "next_best": 0.06318320944468736,
+      "not_an_accuracy_score": true,
+      "pdf_page": 4,
+      "status": "page_correspondence_only",
+      "svg_page": 4,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 4,
+        "exact": 3171,
+        "unmatched_or_ambiguous": 4,
+        "unresolved_encoding": 7
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 3894,
+        "unmatched": 11
+      },
+      "identity_ascii_7gram_jaccard": 0.9837194740137758,
+      "margin": 0.8914679392535303,
+      "next_best": 0.09225153476024556,
+      "not_an_accuracy_score": true,
+      "pdf_page": 5,
+      "status": "page_correspondence_only",
+      "svg_page": 5,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 11,
+        "exact": 3880,
+        "unmatched_or_ambiguous": 11,
+        "unresolved_encoding": 3
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 4129,
+        "unmatched": 14
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.901202300052274,
+      "next_best": 0.09879769994772608,
+      "not_an_accuracy_score": true,
+      "pdf_page": 6,
+      "status": "page_correspondence_only",
+      "svg_page": 6,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 14,
+        "exact": 4115,
+        "unmatched_or_ambiguous": 14
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 3998,
+        "unmatched": 9
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.8921339563862929,
+      "next_best": 0.10786604361370716,
+      "not_an_accuracy_score": true,
+      "pdf_page": 7,
+      "status": "page_correspondence_only",
+      "svg_page": 7,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 9,
+        "exact": 3989,
+        "unmatched_or_ambiguous": 9
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 2879,
+        "unmatched": 2
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.8699070764832023,
+      "next_best": 0.13009292351679771,
+      "not_an_accuracy_score": true,
+      "pdf_page": 8,
+      "status": "page_correspondence_only",
+      "svg_page": 8,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 2,
+        "exact": 2877,
+        "unmatched_or_ambiguous": 2
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 3571,
+        "unmatched": 6
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.8832026413536938,
+      "next_best": 0.11679735864630623,
+      "not_an_accuracy_score": true,
+      "pdf_page": 9,
+      "status": "page_correspondence_only",
+      "svg_page": 9,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 6,
+        "exact": 3565,
+        "unmatched_or_ambiguous": 6
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 4071,
+        "unmatched": 11
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.8884341637010676,
+      "next_best": 0.11156583629893238,
+      "not_an_accuracy_score": true,
+      "pdf_page": 10,
+      "status": "page_correspondence_only",
+      "svg_page": 10,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 11,
+        "exact": 4060,
+        "unmatched_or_ambiguous": 11
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 3723,
+        "unmatched": 3
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.9307857282121271,
+      "next_best": 0.06921427178787289,
+      "not_an_accuracy_score": true,
+      "pdf_page": 11,
+      "status": "page_correspondence_only",
+      "svg_page": 11,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 3,
+        "exact": 3720,
+        "unmatched_or_ambiguous": 3
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 3804,
+        "unmatched": 6
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.9019189765458422,
+      "next_best": 0.09808102345415778,
+      "not_an_accuracy_score": true,
+      "pdf_page": 12,
+      "status": "page_correspondence_only",
+      "svg_page": 12,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 6,
+        "exact": 3798,
+        "unmatched_or_ambiguous": 6
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 1862,
+        "unmatched": 1
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.9019189765458422,
+      "next_best": 0.09808102345415778,
+      "not_an_accuracy_score": true,
+      "pdf_page": 13,
+      "status": "page_correspondence_only",
+      "svg_page": 13,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 1,
+        "exact": 1861,
+        "unmatched_or_ambiguous": 1
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 3212,
+        "unmatched": 16
+      },
+      "identity_ascii_7gram_jaccard": 0.9609284332688588,
+      "margin": 0.8708021416500299,
+      "next_best": 0.09012629161882893,
+      "not_an_accuracy_score": true,
+      "pdf_page": 14,
+      "status": "page_correspondence_only",
+      "svg_page": 14,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 16,
+        "exact": 3189,
+        "unmatched_or_ambiguous": 16,
+        "unresolved_encoding": 7
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 3098,
+        "unmatched": 13
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.9409090909090909,
+      "next_best": 0.05909090909090909,
+      "not_an_accuracy_score": true,
+      "pdf_page": 15,
+      "status": "page_correspondence_only",
+      "svg_page": 15,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 13,
+        "exact": 3085,
+        "unmatched_or_ambiguous": 13
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 2626,
+        "unmatched": 7
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.9235279123120061,
+      "next_best": 0.07647208768799388,
+      "not_an_accuracy_score": true,
+      "pdf_page": 16,
+      "status": "page_correspondence_only",
+      "svg_page": 16,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 7,
+        "exact": 2619,
+        "unmatched_or_ambiguous": 7
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 3083,
+        "unmatched": 13
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.8921339563862929,
+      "next_best": 0.10786604361370716,
+      "not_an_accuracy_score": true,
+      "pdf_page": 17,
+      "status": "page_correspondence_only",
+      "svg_page": 17,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 13,
+        "exact": 3070,
+        "unmatched_or_ambiguous": 13
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 3181,
+        "unmatched": 10
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.8699070764832023,
+      "next_best": 0.13009292351679771,
+      "not_an_accuracy_score": true,
+      "pdf_page": 18,
+      "status": "page_correspondence_only",
+      "svg_page": 18,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 10,
+        "exact": 3171,
+        "unmatched_or_ambiguous": 10
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 2242
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.9074167507568113,
+      "next_best": 0.0925832492431887,
+      "not_an_accuracy_score": true,
+      "pdf_page": 19,
+      "status": "page_correspondence_only",
+      "svg_page": 19,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "exact": 2242
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 3367,
+        "unmatched": 11
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.9160599571734476,
+      "next_best": 0.08394004282655246,
+      "not_an_accuracy_score": true,
+      "pdf_page": 20,
+      "status": "page_correspondence_only",
+      "svg_page": 20,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 11,
+        "exact": 3356,
+        "unmatched_or_ambiguous": 11
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 4004,
+        "unmatched": 18
+      },
+      "identity_ascii_7gram_jaccard": 0.9854803830707445,
+      "margin": 0.8906826952094729,
+      "next_best": 0.09479768786127167,
+      "not_an_accuracy_score": true,
+      "pdf_page": 21,
+      "status": "page_correspondence_only",
+      "svg_page": 21,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 18,
+        "exact": 3983,
+        "unmatched_or_ambiguous": 18,
+        "unresolved_encoding": 3
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 3007,
+        "unmatched": 4
+      },
+      "identity_ascii_7gram_jaccard": 0.918241577649959,
+      "margin": 0.8318874307530145,
+      "next_best": 0.08635414689694439,
+      "not_an_accuracy_score": true,
+      "pdf_page": 22,
+      "status": "page_correspondence_only",
+      "svg_page": 22,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 4,
+        "exact": 2986,
+        "unmatched_or_ambiguous": 4,
+        "unresolved_encoding": 17
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 3525,
+        "unmatched": 16
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.901202300052274,
+      "next_best": 0.09879769994772608,
+      "not_an_accuracy_score": true,
+      "pdf_page": 23,
+      "status": "page_correspondence_only",
+      "svg_page": 23,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 16,
+        "exact": 3509,
+        "unmatched_or_ambiguous": 16
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 3384,
+        "unmatched": 9
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.9130340017436791,
+      "next_best": 0.08696599825632084,
+      "not_an_accuracy_score": true,
+      "pdf_page": 24,
+      "status": "page_correspondence_only",
+      "svg_page": 24,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 9,
+        "exact": 3375,
+        "unmatched_or_ambiguous": 9
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 3161,
+        "unmatched": 10
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.8832026413536938,
+      "next_best": 0.11679735864630623,
+      "not_an_accuracy_score": true,
+      "pdf_page": 25,
+      "status": "page_correspondence_only",
+      "svg_page": 25,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 10,
+        "exact": 3151,
+        "unmatched_or_ambiguous": 10
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "ambiguous": 2,
+        "geometric_unique": 2233,
+        "unmatched": 5
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.9241293532338308,
+      "next_best": 0.07587064676616916,
+      "not_an_accuracy_score": true,
+      "pdf_page": 26,
+      "status": "page_correspondence_only",
+      "svg_page": 26,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 5,
+        "exact": 2228,
+        "unmatched_or_ambiguous": 7
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 2472,
+        "unmatched": 8
+      },
+      "identity_ascii_7gram_jaccard": 0.9524043179587831,
+      "margin": 0.8717738238696652,
+      "next_best": 0.08063049408911792,
+      "not_an_accuracy_score": true,
+      "pdf_page": 27,
+      "status": "page_correspondence_only",
+      "svg_page": 27,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 8,
+        "exact": 2455,
+        "unmatched_or_ambiguous": 8,
+        "unresolved_encoding": 9
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 2220,
+        "unmatched": 4
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.9201680672268908,
+      "next_best": 0.07983193277310924,
+      "not_an_accuracy_score": true,
+      "pdf_page": 28,
+      "status": "page_correspondence_only",
+      "svg_page": 28,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 4,
+        "exact": 2216,
+        "unmatched_or_ambiguous": 4
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 3374,
+        "unmatched": 2
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.9160599571734476,
+      "next_best": 0.08394004282655246,
+      "not_an_accuracy_score": true,
+      "pdf_page": 29,
+      "status": "page_correspondence_only",
+      "svg_page": 29,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 2,
+        "exact": 3372,
+        "unmatched_or_ambiguous": 2
+      }
+    },
+    {
+      "anchor_status_counts": {
+        "geometric_unique": 3002,
+        "unmatched": 13
+      },
+      "identity_ascii_7gram_jaccard": 1.0,
+      "margin": 0.9437810031232776,
+      "next_best": 0.056218996876722396,
+      "not_an_accuracy_score": true,
+      "pdf_page": 30,
+      "status": "page_correspondence_only",
+      "svg_page": 30,
+      "svg_to_pdf": [
+        1.0,
+        0,
+        0,
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "unicode_status_counts": {
+        "contradictory": 13,
+        "exact": 2989,
+        "unmatched_or_ambiguous": 13
+      }
+    }
+  ],
+  "pdf": {
+    "bytes": 1336567,
+    "geometry_by_page": [
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 0,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 1
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 792,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 2
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 1584,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 3
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 2376,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 4
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 3168,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 5
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 3960,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 6
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 4752,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 7
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 5544,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 8
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 6336,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 9
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 7128,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 10
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 7920,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 11
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 8712,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 12
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 9504,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 13
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 10296,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 14
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 11088,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 15
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 11880,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 16
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 12672,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 17
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 13464,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 18
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 14256,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 19
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 15048,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 20
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 15840,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 21
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 16632,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 22
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 17424,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 23
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 18216,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 24
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 19008,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 25
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 19800,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 26
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 20592,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 27
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 21384,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 28
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 22176,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 29
+      },
+      {
+        "geometry": {
+          "bbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "cropbox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "height": 792,
+          "initial_doctop": 22968,
+          "mediabox": [
+            0,
+            0,
+            612,
+            792
+          ],
+          "pdfminer_layout_bbox": [
+            0,
+            0,
+            612.0,
+            792.0
+          ],
+          "raw_cropbox": null,
+          "raw_mediabox": [
+            0.0,
+            0.0,
+            612.0,
+            792.0
+          ],
+          "raw_rotation": 0.0,
+          "rotation": 0,
+          "user_unit": 1.0,
+          "width": 612
+        },
+        "page": 30
+      }
+    ],
+    "name": "LOG2026_arxiv_final_preview.pdf",
+    "page_count": 30,
+    "sha256": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060"
+  },
+  "pdf_filename_decision": "User explicitly confirmed discovered final_preview.pdf in place of absent source_clean_preview.pdf; not a silent substitute",
+  "python": "3.11.13",
+  "schema_version": "svg-math-inputs.1",
+  "source_extraction": {
+    "coordinate_system": "pdfplumber-native-v1",
+    "parser": {
+      "dependencies": {
+        "Pillow": "13.0.0",
+        "attrs": "26.1.0",
+        "cffi": "2.1.1",
+        "charset-normalizer": "3.5.2",
+        "cryptography": "50.0.2",
+        "jsonschema": "4.25.1",
+        "jsonschema-specifications": "2025.9.1",
+        "pdfminer.six": "20251107",
+        "pdfplumber": "0.11.8",
+        "pycparser": "3.12",
+        "pypdfium2": "5.14.0",
+        "referencing": "0.37.0",
+        "rpds-py": "2026.9.1",
+        "typing-extensions": "4.16.0"
+      },
+      "name": "understanding_engine",
+      "python": "3.11.13",
+      "settings": {
+        "crop_to_cropbox": false,
+        "deduplicate_characters": false,
+        "laparams": null,
+        "raise_unicode_errors": true,
+        "repair": false,
+        "text_map": {
+          "char_dir": "ltr",
+          "char_dir_rotated": "ltr",
+          "expand_ligatures": false,
+          "layout": false,
+          "line_dir": "ttb",
+          "line_dir_rotated": "ttb",
+          "use_text_flow": false,
+          "x_tolerance": 3,
+          "y_tolerance": 3
+        },
+        "unicode_norm": null
+      },
+      "version": "0.1.0"
+    },
+    "sha256": "3a7ecd8d346f9adead83be2b73ea270b1c8d90cb7e274fd15cd622569cf7366e",
+    "warnings": [
+      {
+        "character_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p26:c73",
+        "code": "degenerate_character_bbox",
+        "message": "Character has zero-area geometry; retained unchanged.",
+        "page_number": 26
+      }
+    ]
+  },
+  "svgs": [
+    {
+      "bytes": 51311,
+      "compressed_bytes": 18564,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-1.svg",
+      "page": 1,
+      "sha256": "657659e23caa190f5898e96407d9c8315759832d04dd7376d45fd692b0b3693c",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 58587,
+      "compressed_bytes": 21514,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-2.svg",
+      "page": 2,
+      "sha256": "66af5ebdb1ec687f6ae628df7bc17d11a340411259e0d686116c68571625eda3",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 808906,
+      "compressed_bytes": 529086,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-3.svg",
+      "page": 3,
+      "sha256": "83772e87376b88e09ca4e1b2128e815b53cadb674cf030abe9c1f1317db483bf",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 88725,
+      "compressed_bytes": 20716,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-4.svg",
+      "page": 4,
+      "sha256": "f14bc4911448a350ace5a2af1b183941e6b6bba3d67f6f6e2dfc443f149288ed",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 66389,
+      "compressed_bytes": 22846,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-5.svg",
+      "page": 5,
+      "sha256": "cbedc5a267b693e36ebb679abd90027d61a1de0b78f9333ca8def15612b3fc24",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 66752,
+      "compressed_bytes": 23881,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-6.svg",
+      "page": 6,
+      "sha256": "4bf73abbff97dae5e540b9b693e5ab244238fe72efce98a984eb0b760d5b8d00",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 60397,
+      "compressed_bytes": 23018,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-7.svg",
+      "page": 7,
+      "sha256": "1beb09555485fa4cae2c78cb5c8c674544a1d6e4deabae55d58f342fd539ee38",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 245169,
+      "compressed_bytes": 35256,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-8.svg",
+      "page": 8,
+      "sha256": "61268f857dbace4a8f2e869e79ecaa01aca11ba8dd53783b7a9ffe0299a944e4",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 102425,
+      "compressed_bytes": 23674,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-9.svg",
+      "page": 9,
+      "sha256": "0814df0c53c6ce4dbc0b3eb0fc4f742598910e3d0dfc4baad49573a9826c8889",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 69709,
+      "compressed_bytes": 23943,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-10.svg",
+      "page": 10,
+      "sha256": "069d6c1b34659692d4951e2d49d5af625043398244bb28294e511c6cd2ad0ac3",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 61989,
+      "compressed_bytes": 21581,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-11.svg",
+      "page": 11,
+      "sha256": "699ad8b0ecf657c162cbef47a8697576fb482962aa074630de053eb2785b9630",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 61881,
+      "compressed_bytes": 21962,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-12.svg",
+      "page": 12,
+      "sha256": "bef3297dd8357b6fe458f795a0d123da98194b045ba0ab603365c17b42fe0470",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 29741,
+      "compressed_bytes": 10739,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-13.svg",
+      "page": 13,
+      "sha256": "3bc8f936493174c522ebb013d6a7d1517068fc00f90a3a27eebf407ab2b1aa45",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 69628,
+      "compressed_bytes": 19663,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-14.svg",
+      "page": 14,
+      "sha256": "164dfa1031ae2297261266b27759f9698c72ef68a3f03c21b1794e8229627ed9",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 126543,
+      "compressed_bytes": 24039,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-15.svg",
+      "page": 15,
+      "sha256": "6ad11fe8274ca5a1fc51d611894363b19a52f00c5fa4e38d141cc8dc255cbc1b",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 59189,
+      "compressed_bytes": 16491,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-16.svg",
+      "page": 16,
+      "sha256": "a7ff417fe454b20d0d39ba8b2bb6d8153192d7229c3d310d15394d240cb6f491",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 53208,
+      "compressed_bytes": 18065,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-17.svg",
+      "page": 17,
+      "sha256": "6b1ade6a1c68d98535ce266d76ef54619f39afa5a0eb5b6dd9a603095106ec4c",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 50915,
+      "compressed_bytes": 18602,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-18.svg",
+      "page": 18,
+      "sha256": "9e4f6b029d2e6fcb749382eed059c003680a7c3600bea36c794bdd1ccd289993",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 84241,
+      "compressed_bytes": 16563,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-19.svg",
+      "page": 19,
+      "sha256": "334960044da848376c5fec6b3ac89a4bf7956b1a1dcff990bd99ced685c161a2",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 72617,
+      "compressed_bytes": 19825,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-20.svg",
+      "page": 20,
+      "sha256": "63bfc81b3abd2a01900b67e86fcd33958cc5c76952237b0dcbcf1ab104686c0f",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 71254,
+      "compressed_bytes": 23654,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-21.svg",
+      "page": 21,
+      "sha256": "9fbfe39d3a7301977819770e574ea96ea4e1649630b970cded84ca566dbd7165",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 61300,
+      "compressed_bytes": 16984,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-22.svg",
+      "page": 22,
+      "sha256": "618ecd43fe6b737f09a0fc5ea188f1d8fdc4c46669c869716cce08c1f2d2d43c",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 55483,
+      "compressed_bytes": 19870,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-23.svg",
+      "page": 23,
+      "sha256": "826bef9bf4e353370747ec4b056dd38e9631b02bc60dcbcb3d85e064018dc103",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 65652,
+      "compressed_bytes": 16563,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-24.svg",
+      "page": 24,
+      "sha256": "e5695c69bbc9775b117fd41f7efb517735fe23c09030f5cd74f9ae4406e178ed",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 53683,
+      "compressed_bytes": 17870,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-25.svg",
+      "page": 25,
+      "sha256": "eaa86f5928adfe6dd5dc4f1d2fbd67cc4231f331e9100520b50fac7a83a37aca",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 120133,
+      "compressed_bytes": 18448,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-26.svg",
+      "page": 26,
+      "sha256": "b87aff0248724bbfdf61b9bb8246486171009aac03f46584639c521b7e834d6a",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 155755,
+      "compressed_bytes": 23314,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-27.svg",
+      "page": 27,
+      "sha256": "4e580eea91062a4f72b8e195684cb14258f073d383850962260c40cf60d3efa6",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 2488458,
+      "compressed_bytes": 127677,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-28.svg",
+      "page": 28,
+      "sha256": "9962734ea947afbf97f2f79ec3544ed8dc66dcc9b7ec4ac4d79d09bee17e3e51",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 329631,
+      "compressed_bytes": 33123,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-29.svg",
+      "page": 29,
+      "sha256": "54b591cac82be2b9024be0f32c8ac6297970c15abe171d8a1a4251885834faa2",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    },
+    {
+      "bytes": 50321,
+      "compressed_bytes": 17881,
+      "dimensions": [
+        612.0,
+        792.0
+      ],
+      "name": "LOG2026_arxiv_final_preview-30.svg",
+      "page": 30,
+      "sha256": "eb0d397537664dd144ffb39fe79978b923489125aa2652b2bc64e811109579bf",
+      "viewBox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ]
+    }
+  ],
+  "versions": {
+    "Pillow": "13.0.0",
+    "pdfminer.six": "20251107",
+    "pdfplumber": "0.11.8",
+    "pypdfium2": "5.14.0",
+    "pytest": "8.4.2"
+  },
+  "zip": {
+    "bytes": 1250816,
+    "name": "LOG2026_arxiv_final_preview-1,LOG2026_arxiv_final_preview-2,LOG2026_arxiv_final_preview-3.zip",
+    "sha256": "ae089bf6db882d2f023fb0d6386ebd412a4d3f4705bd781f3d0df3f9ea0b4f8d"
+  }
+}
