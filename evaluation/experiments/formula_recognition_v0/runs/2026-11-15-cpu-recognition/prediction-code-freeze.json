@@ -1,0 +1,12 @@
+{
+  "code_sha256": {
+    "worker.py": "245dcb6277badd99848740f43e7237487079c89aa325ada14144641a76473aaf",
+    "scoring.py": "0bf7bc1c34c40c029c5713361e68d7d4ed3d5a50761afecfebc39ee1ca83d772",
+    "control.py": "8b935fff68a645cb28aefb4063ed5442dba76c73e8712cfde72d255d80399ba3",
+    "complete_transfer.py": "38bb0da2493dd8c74d658affa64aeeab605eb6d77aa4da4090d31ebd05d449cb"
+  },
+  "selection_sha256": "66d3e94029a8331e37e502bd5e8d6edd69e3e32431b287274539359c52ec85c0",
+  "references_sha256": "c58cd1467e1cd1bb8626d5e7e9f4c41b8e1e0a0f27793fb7ce1af9007f50b753",
+  "model_manifest_sha256": "d3de9dcf6b2132d4f44e34e2b7c4253b9bff716c8a89f5ba67d69d710c7d5578",
+  "input_crops_frozen_sha256": "e8f49f2b9fd66fb048b84c08992b889b3a8f34c6eb38edf58a49c78407743248"
+}

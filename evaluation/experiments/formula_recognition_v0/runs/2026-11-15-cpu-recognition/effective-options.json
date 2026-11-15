@@ -1,0 +1,51 @@
+{
+  "engine_options": {
+    "engine_type": "transformers",
+    "device": null,
+    "load_in_8bit": true,
+    "llm_int8_threshold": 6.0,
+    "quantized": false,
+    "torch_dtype": null,
+    "trust_remote_code": false,
+    "use_kv_cache": true,
+    "compile_model": false
+  },
+  "model_spec": {
+    "name": "CodeFormulaV2",
+    "default_repo_id": "docling-project/CodeFormulaV2",
+    "revision": "ecedbe111d15c2dc60bfd4a823cbe80127b58af4",
+    "prompt": "",
+    "response_format": "plaintext",
+    "supported_engines": null,
+    "engine_overrides": {
+      "transformers": {
+        "repo_id": null,
+        "revision": null,
+        "torch_dtype": null,
+        "min_engine_version": null,
+        "extra_config": {
+          "transformers_model_type": "automodel-imagetexttotext",
+          "extra_generation_config": {
+            "skip_special_tokens": false
+          },
+          "torch_dtype": "bfloat16"
+        }
+      }
+    },
+    "api_overrides": {},
+    "trust_remote_code": false,
+    "stop_strings": [
+      "</doctag>",
+      "<end_of_utterance>"
+    ],
+    "temperature": 0.0,
+    "max_new_tokens": 4096,
+    "extra_generation_config": {}
+  },
+  "scale": 2.0,
+  "max_size": null,
+  "extract_code": false,
+  "extract_formulas": true,
+  "expansion_factor": 0.18,
+  "stop_on_repetition": true
+}

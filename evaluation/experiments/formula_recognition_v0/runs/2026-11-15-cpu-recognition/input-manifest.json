@@ -1,0 +1,55 @@
+{
+  "schema_version": "formula-execution-inputs.1",
+  "base_commit": "51ecf162eb23bc67271376c1dd6728d1b9dfed5c",
+  "structure_baseline": "ba82b2c7f71604d5bcc2859b1a05de112723107d",
+  "documents": [
+    {
+      "id": "log2026",
+      "pdf_sha256": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060",
+      "source_sha256": "3a7ecd8d346f9adead83be2b73ea270b1c8d90cb7e274fd15cd622569cf7366e",
+      "pdf_bytes": 1336567,
+      "source_bytes": 85089483
+    },
+    {
+      "id": "attention",
+      "source_sha256": "732cb726b4e41728d1ef5e2c2999a3f31cd27b67ef0c9534445bdd0f70dec936",
+      "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "pdf_bytes": 2215244,
+      "source_bytes": 29644580
+    },
+    {
+      "id": "tabpfn_nature_2025",
+      "source_sha256": "edf3316f02a88602aa6fd863be70c0ef790c28d2ce954456d39659fddffe92d6",
+      "pdf_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "pdf_bytes": 16957699,
+      "source_bytes": 82320899
+    }
+  ],
+  "source_contracts_and_extraction_settings": "Unchanged; original PDF and source-cache hashes checked before crop rendering",
+  "selection_sha256": "66d3e94029a8331e37e502bd5e8d6edd69e3e32431b287274539359c52ec85c0",
+  "references_sha256": "c58cd1467e1cd1bb8626d5e7e9f4c41b8e1e0a0f27793fb7ce1af9007f50b753",
+  "reference_status": "agent_visual_checked",
+  "human_verified_count": 0,
+  "pinned_model": {
+    "repo_id": "docling-project/CodeFormulaV2",
+    "revision": "ecedbe111d15c2dc60bfd4a823cbe80127b58af4",
+    "manifest_sha256": "d3de9dcf6b2132d4f44e34e2b7c4253b9bff716c8a89f5ba67d69d710c7d5578",
+    "verified_files": 11,
+    "weights_verified": true
+  },
+  "heron_revision": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8",
+  "heron_invoked": false,
+  "image": "python@sha256:18ce9b03d18802119f4f9270d10a1ceb45d0acb768c305b7fbbd7c6b5b5a020b",
+  "python": "3.11.13",
+  "platform": "Linux aarch64",
+  "docling": "2.148.0",
+  "torch": "2.15.0+cpu",
+  "torchvision": "0.29.2+cpu",
+  "dependency_inventory": {
+    "path": "evaluation/experiments/006b/runs/2026-11-10-one-page-smoke/installed-packages.json",
+    "sha256": "2d92fd38213ee507c6a4b05ce55698e33e83ab99fbce6d3cd256336519e5e8e8",
+    "status": "Historical 103-package installation manifest retained; nine current Docling source files and Docling-slim/Transformers METADATA verified read-only; current neural imports not repeated"
+  },
+  "amendment_sha256": "7a72dfcdc5ae51385b02008c66c86e2cbc8dda766e2ffb03580c1b80659f7720",
+  "actual_crop_pixel_identity_sha256": "95202956f5982e66b856348a3fa4affff4d0a102fecfdf6639a6d2bbd979d434"
+}

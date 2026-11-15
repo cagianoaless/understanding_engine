@@ -1,0 +1,62 @@
+{
+  "schema_version": "formula-continuation-storage.1",
+  "inclusive_cap_bytes": 7516192768,
+  "host_reserve_bytes": 12884901888,
+  "measured_final_allocated_bytes": 6707945472,
+  "measured_final_host_available_bytes": 18186133504,
+  "sampled_peak_allocated_bytes": 6707945472,
+  "sampled_minimum_host_available_bytes": 17114333184,
+  "snapshots_count": 974,
+  "guest_final": [
+    {
+      "available_bytes": 2123157504,
+      "mount": "/"
+    },
+    {
+      "available_bytes": 1946935296,
+      "mount": "/var/lib/docker"
+    }
+  ],
+  "new_runtime_model_payload_bytes": 639797175,
+  "new_http_body_bytes": 639793392,
+  "host_model_allocated_bytes": 647593984,
+  "host_model_copies": 1,
+  "guest_model_copies": 1,
+  "guest_allocation_counting": "Guest files/layers included in measured host sparse VM blocks; not added a second time",
+  "actual_engine_crop_pixel_identity": {
+    "files": [
+      {
+        "file": "attn_fraction.png",
+        "bytes": 6763,
+        "png_sha256": "9b9b3cccafa6e482c591d1ad81c52c4d7daade04b5e63a730af286b8508c1e9d",
+        "size": [
+          387,
+          61
+        ],
+        "mode": "RGB",
+        "rgb_pixels_sha256": "dd8828dd91f2d8ab74241071ec58e516d4fafa6bb6f07a7eb95e1af995410619"
+      },
+      {
+        "file": "engine-crop-1.png",
+        "bytes": 6907,
+        "png_sha256": "6879c07d7684c0c520f3de9f0217f5df12b3ed83d5c91a6817b7e0830102d5f6",
+        "size": [
+          387,
+          61
+        ],
+        "mode": "RGB",
+        "rgb_pixels_sha256": "dd8828dd91f2d8ab74241071ec58e516d4fafa6bb6f07a7eb95e1af995410619"
+      }
+    ],
+    "decoded_pixels_identical": true,
+    "encoding_bytes_identical": false,
+    "reason": "Host and guest PNG serialization differ; actual RGB pixels supplied to model are identical"
+  },
+  "existing_docker_context_preserved": true,
+  "colima_configuration_unchanged": true,
+  "all_owned_containers_exited": true,
+  "preexisting_tracked_files_unchanged": 481,
+  "original_authoritative_contracts_unchanged": true,
+  "historical_provisioning_peak": "UNKNOWN",
+  "transient_peak_caveat": "Periodic regular-file allocation snapshots, not continuous/exclusive APFS accounting; work margin guarded producers. Existing shared page caches make memory figures warm-cache evidence."
+}

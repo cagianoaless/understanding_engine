@@ -1,0 +1,16 @@
+{
+  "schema_version": "formula-resource-amendment.1",
+  "date": "2026-11-15",
+  "parent_commit": "51ecf162eb23bc67271376c1dd6728d1b9dfed5c",
+  "prospective_only": true,
+  "host_reserve_bytes": 12884901888,
+  "installed_cache_cap_bytes": 7516192768,
+  "container_memory_bytes": 4294967296,
+  "swap_bytes": 0,
+  "cpu_cores": 4,
+  "inference_threads": 4,
+  "seconds_per_invocation": 120,
+  "first_target": "attn_fraction",
+  "stop_additional_inference_if_first_fails": true,
+  "prior_decisions_unchanged": true
+}

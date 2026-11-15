@@ -1,0 +1,259 @@
+{
+  "schema_version": "formula-continuation-results.1",
+  "references": "agent_visual_checked",
+  "human_verified_count": 0,
+  "selected_targets": 8,
+  "crop_attempted": 1,
+  "crop_attempted_denominator": 8,
+  "crop_completed": 0,
+  "crop_completed_denominator": 8,
+  "crop_timeout": 1,
+  "crop_unexecuted": 7,
+  "end_to_end_target_attempted": 0,
+  "end_to_end_target_denominator": 8,
+  "end_to_end_page_attempted": 0,
+  "end_to_end_page_denominator": 6,
+  "quality_scoreable_predictions": 0,
+  "correctly_recognized_complete_outputs": 0,
+  "mathematical_accuracy": null,
+  "mathematical_accuracy_reason": "No complete prediction; seven targets unexecuted, never claim 0/8 mathematical accuracy",
+  "crop_vs_end_to_end_comparison": null,
+  "crop_vs_end_to_end_reason": "First crop timed out; no end-to-end inference permitted",
+  "expressions": [
+    {
+      "id": "log_eq2",
+      "crop_status": "NOT_EXECUTED_AFTER_FIRST_FAILURE",
+      "end_to_end_status": "NOT_EXECUTED_AFTER_FIRST_FAILURE",
+      "references": "agent_visual_checked",
+      "independent_human_verifications": 0,
+      "quality": {
+        "status": "no_prediction",
+        "exact": null,
+        "formatting_normalized": null,
+        "components": null,
+        "complete_expression_correct": null
+      },
+      "reference_diagnostic_component_denominators": {
+        "fractions": 1,
+        "radicals": 0,
+        "subscripts": 5,
+        "superscripts": 1,
+        "summation_limits": 2,
+        "parentheses": 3,
+        "operators": 4
+      },
+      "component_correctness": null,
+      "complete_expression_correct": null,
+      "unscoreable_reason": "No generated LaTeX; do not classify as incorrect fraction/operator/index",
+      "syntax_validity": null,
+      "syntax_reason": "No prediction to compile",
+      "visual_comparison": null,
+      "visual_reason": "No prediction to render"
+    },
+    {
+      "id": "log_eq4",
+      "crop_status": "NOT_EXECUTED_AFTER_FIRST_FAILURE",
+      "end_to_end_status": "NOT_EXECUTED_AFTER_FIRST_FAILURE",
+      "references": "agent_visual_checked",
+      "independent_human_verifications": 0,
+      "quality": {
+        "status": "no_prediction",
+        "exact": null,
+        "formatting_normalized": null,
+        "components": null,
+        "complete_expression_correct": null
+      },
+      "reference_diagnostic_component_denominators": {
+        "fractions": 1,
+        "radicals": 0,
+        "subscripts": 8,
+        "superscripts": 3,
+        "summation_limits": 1,
+        "parentheses": 6,
+        "operators": 7
+      },
+      "component_correctness": null,
+      "complete_expression_correct": null,
+      "unscoreable_reason": "No generated LaTeX; do not classify as incorrect fraction/operator/index",
+      "syntax_validity": null,
+      "syntax_reason": "No prediction to compile",
+      "visual_comparison": null,
+      "visual_reason": "No prediction to render"
+    },
+    {
+      "id": "attn_fraction",
+      "crop_status": "TIMEOUT",
+      "end_to_end_status": "NOT_EXECUTED_AFTER_FIRST_FAILURE",
+      "references": "agent_visual_checked",
+      "independent_human_verifications": 0,
+      "quality": {
+        "status": "no_prediction",
+        "exact": null,
+        "formatting_normalized": null,
+        "components": null,
+        "complete_expression_correct": null
+      },
+      "reference_diagnostic_component_denominators": null,
+      "component_correctness": null,
+      "complete_expression_correct": null,
+      "unscoreable_reason": "No generated LaTeX; do not classify as incorrect fraction/operator/index",
+      "syntax_validity": null,
+      "syntax_reason": "No prediction to compile",
+      "visual_comparison": null,
+      "visual_reason": "No prediction to render"
+    },
+    {
+      "id": "attn_heads",
+      "crop_status": "NOT_EXECUTED_AFTER_FIRST_FAILURE",
+      "end_to_end_status": "NOT_EXECUTED_AFTER_FIRST_FAILURE",
+      "references": "agent_visual_checked",
+      "independent_human_verifications": 0,
+      "quality": {
+        "status": "no_prediction",
+        "exact": null,
+        "formatting_normalized": null,
+        "components": null,
+        "complete_expression_correct": null
+      },
+      "reference_diagnostic_component_denominators": {
+        "fractions": 0,
+        "radicals": 0,
+        "subscripts": 2,
+        "superscripts": 1,
+        "summation_limits": 0,
+        "parentheses": 2,
+        "operators": 1
+      },
+      "component_correctness": null,
+      "complete_expression_correct": null,
+      "unscoreable_reason": "No generated LaTeX; do not classify as incorrect fraction/operator/index",
+      "syntax_validity": null,
+      "syntax_reason": "No prediction to compile",
+      "visual_comparison": null,
+      "visual_reason": "No prediction to render"
+    },
+    {
+      "id": "attn_ffn",
+      "crop_status": "NOT_EXECUTED_AFTER_FIRST_FAILURE",
+      "end_to_end_status": "NOT_EXECUTED_AFTER_FIRST_FAILURE",
+      "references": "agent_visual_checked",
+      "independent_human_verifications": 0,
+      "quality": {
+        "status": "no_prediction",
+        "exact": null,
+        "formatting_normalized": null,
+        "components": null,
+        "complete_expression_correct": null
+      },
+      "reference_diagnostic_component_denominators": {
+        "fractions": 0,
+        "radicals": 0,
+        "subscripts": 4,
+        "superscripts": 0,
+        "summation_limits": 0,
+        "parentheses": 2,
+        "operators": 3
+      },
+      "component_correctness": null,
+      "complete_expression_correct": null,
+      "unscoreable_reason": "No generated LaTeX; do not classify as incorrect fraction/operator/index",
+      "syntax_validity": null,
+      "syntax_reason": "No prediction to compile",
+      "visual_comparison": null,
+      "visual_reason": "No prediction to render"
+    },
+    {
+      "id": "nature_weights",
+      "crop_status": "NOT_EXECUTED_AFTER_FIRST_FAILURE",
+      "end_to_end_status": "NOT_EXECUTED_AFTER_FIRST_FAILURE",
+      "references": "agent_visual_checked",
+      "independent_human_verifications": 0,
+      "quality": {
+        "status": "no_prediction",
+        "exact": null,
+        "formatting_normalized": null,
+        "components": null,
+        "complete_expression_correct": null
+      },
+      "reference_diagnostic_component_denominators": {
+        "fractions": 0,
+        "radicals": 0,
+        "subscripts": 4,
+        "superscripts": 2,
+        "summation_limits": 1,
+        "parentheses": 0,
+        "operators": 4
+      },
+      "component_correctness": null,
+      "complete_expression_correct": null,
+      "unscoreable_reason": "No generated LaTeX; do not classify as incorrect fraction/operator/index",
+      "syntax_validity": null,
+      "syntax_reason": "No prediction to compile",
+      "visual_comparison": null,
+      "visual_reason": "No prediction to render"
+    },
+    {
+      "id": "nature_softmax",
+      "crop_status": "NOT_EXECUTED_AFTER_FIRST_FAILURE",
+      "end_to_end_status": "NOT_EXECUTED_AFTER_FIRST_FAILURE",
+      "references": "agent_visual_checked",
+      "independent_human_verifications": 0,
+      "quality": {
+        "status": "no_prediction",
+        "exact": null,
+        "formatting_normalized": null,
+        "components": null,
+        "complete_expression_correct": null
+      },
+      "reference_diagnostic_component_denominators": {
+        "fractions": 1,
+        "radicals": 0,
+        "subscripts": 4,
+        "superscripts": 0,
+        "summation_limits": 1,
+        "parentheses": 3,
+        "operators": 4
+      },
+      "component_correctness": null,
+      "complete_expression_correct": null,
+      "unscoreable_reason": "No generated LaTeX; do not classify as incorrect fraction/operator/index",
+      "syntax_validity": null,
+      "syntax_reason": "No prediction to compile",
+      "visual_comparison": null,
+      "visual_reason": "No prediction to render"
+    },
+    {
+      "id": "attn_positional",
+      "crop_status": "NOT_EXECUTED_AFTER_FIRST_FAILURE",
+      "end_to_end_status": "NOT_EXECUTED_AFTER_FIRST_FAILURE",
+      "references": "agent_visual_checked",
+      "independent_human_verifications": 0,
+      "quality": {
+        "status": "no_prediction",
+        "exact": null,
+        "formatting_normalized": null,
+        "components": null,
+        "complete_expression_correct": null
+      },
+      "reference_diagnostic_component_denominators": {
+        "fractions": 0,
+        "radicals": 0,
+        "subscripts": 4,
+        "superscripts": 2,
+        "summation_limits": 0,
+        "parentheses": 4,
+        "operators": 7
+      },
+      "component_correctness": null,
+      "complete_expression_correct": null,
+      "unscoreable_reason": "No generated LaTeX; do not classify as incorrect fraction/operator/index",
+      "syntax_validity": null,
+      "syntax_reason": "No prediction to compile",
+      "visual_comparison": null,
+      "visual_reason": "No prediction to render"
+    }
+  ],
+  "decision": "TIME_BUDGET_FAILURE; mathematical quality INDETERMINATE",
+  "formula_structure_v0": "Not justified from this candidate run; no LaTeX available",
+  "next_candidate": "A separately authorized bounded PP-FormulaNet-S resource/compatibility comparison is justified; no accuracy advantage established"
+}
