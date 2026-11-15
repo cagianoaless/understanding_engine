@@ -1,0 +1,33 @@
+{
+  "schema_version": "formula-validation.1",
+  "base_commit": "60cdde1da95f76ea3e9b7e426bee750e522c8749",
+  "preexisting_files_unchanged": 462,
+  "python": "3.11.13",
+  "existing_project_packages": {
+    "pdfplumber": "0.11.8",
+    "pypdf": "6.1.1",
+    "pypdfium2": "5.14.0",
+    "pytest": "8.4.2",
+    "jsonschema": "4.25.1"
+  },
+  "offline_tests": {
+    "passed": 568,
+    "failed": 0,
+    "skipped": 0,
+    "new_cases": 17,
+    "seconds": 19.45,
+    "invocation": "uv run --frozen --offline --no-project --python \"$UE_PYTHON\" \"$UE_PYTHON\" -B -m pytest -q",
+    "caveat": "No-project does not enforce frozen; existing interpreter and installed locked packages reused without sync/resolution/install"
+  },
+  "candidate_model_initializations": 0,
+  "predictor_calls": 0,
+  "versions_or_runtime_changes": false,
+  "source_files_sha256": {
+    "preflight.py": "5499d2d1723dceebff2d5609e080fbdbed81b60850cdd04236e99c440bdbf8b9",
+    "tests/test_formula_recognition_preflight.py": "8dcad65e528a7d469561d387290e8cb3c6b86407727f751e51fda6b77f7d7aef"
+  },
+  "test_logs_sha256": {
+    "full-tests-final.stdout.log": "e5af5db462544b2cc21ffee32d5fe207e74dce5e996c6d8fada15a7d320c04c9",
+    "full-tests-final.stderr.log": "d9814eb7c3607bcc3c971e7021efd8a5e8db85d6a52f0b5cc05f0a8e28132001"
+  }
+}

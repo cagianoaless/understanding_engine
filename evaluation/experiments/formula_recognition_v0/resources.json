@@ -1,0 +1,64 @@
+{
+  "schema_version": "formula-resource-decision.1",
+  "decision": "BLOCKED",
+  "model_quality_decision": "INDETERMINATE; no inference executed",
+  "host_available_bytes": 18434473984,
+  "host_reserve_bytes": 21474836480,
+  "host_deficit_bytes": 3040362496,
+  "inclusive_allocated_bytes": 5396389888,
+  "inclusive_cap_bytes": 6442450944,
+  "current_allocation_gate": "PASS",
+  "remaining_current_cap_bytes": 1046061056,
+  "projected_repository_payload_bytes": 639800205,
+  "work_allowance_bytes": 134217728,
+  "scenarios": {
+    "1_copies": {
+      "model_file_copies": 1,
+      "projected_inclusive_bytes": 6170407821,
+      "excess_over_cap_bytes": 0,
+      "fits_arithmetic_projection": true,
+      "measured_installed_fit": false
+    },
+    "2_copies": {
+      "model_file_copies": 2,
+      "projected_inclusive_bytes": 6810208026,
+      "excess_over_cap_bytes": 367757082,
+      "fits_arithmetic_projection": false,
+      "measured_installed_fit": false
+    }
+  },
+  "host_reserve_gate": "FAIL",
+  "runtime_files_currently_verified": "Selected source files verified separately; full runtime/package tree not rehashed",
+  "guest_storage_gate": "PASS; current free capacity only, not observed model installation",
+  "guest_filesystems": [
+    {
+      "mount": "/",
+      "available_bytes": 2123157504
+    },
+    {
+      "mount": "/var/lib/docker",
+      "available_bytes": 2608353280
+    }
+  ],
+  "current_cgroup_gate": "UNKNOWN; historical controls not reinterpreted as current measurement",
+  "current_cpu_import_compatibility": "UNKNOWN; no neural import",
+  "single_copy_storage_strategy": "UNKNOWN; not implemented or measured",
+  "missing_artifact_sha256": [
+    ".gitattributes",
+    "added_tokens.json",
+    "special_tokens_map.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "vocab.json"
+  ],
+  "model_download_authorized_to_start": false,
+  "inference_authorized_to_start": false,
+  "historical_provisioning_peak": "UNKNOWN",
+  "storage_caveats": [
+    "File byte sizes are not measured installed allocation or transient peaks.",
+    "One copy excludes any extra host/guest staging, cache or duplicate weight file.",
+    "128 MiB is a planning allowance, not a measured upper bound.",
+    "Device/inode accounting cannot determine APFS exclusive physical allocation.",
+    "This script does not operate the VM or acquire artifacts, even if arithmetic fits."
+  ]
+}

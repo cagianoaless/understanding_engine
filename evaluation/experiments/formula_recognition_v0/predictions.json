@@ -1,0 +1,23 @@
+{
+  "schema_version": "formula-predictions.1",
+  "run_status": "BLOCKED_BEFORE_INFERENCE",
+  "reason": "Host reserve FAIL; two-copy storage plan exceeds 6 GiB; model weights and tokenizer payloads not acquired",
+  "raw_predictions": [],
+  "engine_invocations": 0,
+  "model_initializations": 0,
+  "scenarios": {
+    "end_to_end": {
+      "status": "NOT_EXECUTED",
+      "formulas": [],
+      "errors": [],
+      "reason": "Host reserve FAIL; two-copy storage plan exceeds 6 GiB; model weights and tokenizer payloads not acquired"
+    },
+    "verified_crops": {
+      "status": "NOT_EXECUTED",
+      "formulas": [],
+      "errors": [],
+      "reason": "Host reserve FAIL; two-copy storage plan exceeds 6 GiB; model weights and tokenizer payloads not acquired"
+    }
+  },
+  "no_fallback_source_text_misreported_as_model_output": true
+}

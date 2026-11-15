@@ -1,0 +1,151 @@
+{
+  "schema_version": "formula-implementation-audit.1",
+  "basis": "Nine actual installed package source files read without starting a container or importing code; all match exact official Docling 2.148.0 source commit; one example inspected upstream only",
+  "source_commit": "0fa0918d16de7769d942f9b06ca18cb673cbbc2e",
+  "git_blob_identity_verified": true,
+  "installed_source_verified": true,
+  "installed_source_blocker": null,
+  "source_files": [
+    {
+      "path": "docling/datamodel/pipeline_options.py",
+      "bytes": 98898,
+      "sha256": "be4c4c16392e9395e0132de92de0fb19a618e8601d2882b26938b251fd62289f",
+      "git_blob_sha1": "079239107b5f2e50e072c14977088549cc7b472d",
+      "url": "https://github.com/docling-project/docling/blob/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/docling/datamodel/pipeline_options.py",
+      "installed_bytes_verified": true,
+      "installed_sha256": "be4c4c16392e9395e0132de92de0fb19a618e8601d2882b26938b251fd62289f"
+    },
+    {
+      "path": "docling/datamodel/stage_model_specs.py",
+      "bytes": 84844,
+      "sha256": "8823e0b466150e3931d0330a2737c8d06f82663c5a7525007aea335421ed0477",
+      "git_blob_sha1": "d9531eff8e335da79e6c1051997e42ff5b86c08e",
+      "url": "https://github.com/docling-project/docling/blob/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/docling/datamodel/stage_model_specs.py",
+      "installed_bytes_verified": true,
+      "installed_sha256": "8823e0b466150e3931d0330a2737c8d06f82663c5a7525007aea335421ed0477"
+    },
+    {
+      "path": "docling/datamodel/vlm_model_specs.py",
+      "bytes": 19026,
+      "sha256": "e2990402880f3e3369cfcca8f62f80f94f2c44a0d573a2e04b6f446bdcd44926",
+      "git_blob_sha1": "1aa7cc3e2a52e0776659f101e98cf95a86c49706",
+      "url": "https://github.com/docling-project/docling/blob/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/docling/datamodel/vlm_model_specs.py",
+      "installed_bytes_verified": true,
+      "installed_sha256": "e2990402880f3e3369cfcca8f62f80f94f2c44a0d573a2e04b6f446bdcd44926"
+    },
+    {
+      "path": "docling/models/base_model.py",
+      "bytes": 7799,
+      "sha256": "1a1af04cbdbc4800008bb8d953924deda126088a6c0c1a810b475ccffd1c161a",
+      "git_blob_sha1": "053faf0d9b53fd31f51b3b8ff77bc95bb6cc6222",
+      "url": "https://github.com/docling-project/docling/blob/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/docling/models/base_model.py",
+      "installed_bytes_verified": true,
+      "installed_sha256": "1a1af04cbdbc4800008bb8d953924deda126088a6c0c1a810b475ccffd1c161a"
+    },
+    {
+      "path": "docling/models/inference_engines/vlm/base.py",
+      "bytes": 8343,
+      "sha256": "17333be8a6a511e4a292a807bcd603a340250f5d09097e96b9e6d06dce93fa56",
+      "git_blob_sha1": "68a66ee297e721fa30019594d0e4ac53aa8e0cbe",
+      "url": "https://github.com/docling-project/docling/blob/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/docling/models/inference_engines/vlm/base.py",
+      "installed_bytes_verified": true,
+      "installed_sha256": "17333be8a6a511e4a292a807bcd603a340250f5d09097e96b9e6d06dce93fa56"
+    },
+    {
+      "path": "docling/models/inference_engines/vlm/transformers_engine.py",
+      "bytes": 25205,
+      "sha256": "de65ade29f1290248794ee40b8809ca29d8c226a566bf8b6c5cb3991e78da8ac",
+      "git_blob_sha1": "bc23174a1f653c9e782ccd28a17f1d12b480d378",
+      "url": "https://github.com/docling-project/docling/blob/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/docling/models/inference_engines/vlm/transformers_engine.py",
+      "installed_bytes_verified": true,
+      "installed_sha256": "de65ade29f1290248794ee40b8809ca29d8c226a566bf8b6c5cb3991e78da8ac"
+    },
+    {
+      "path": "docling/models/stages/code_formula/code_formula_model.py",
+      "bytes": 11678,
+      "sha256": "c4a4f12042fcbd7fbc03c061a986cdc6ad8ef9598c031bb8e1729869f36c570d",
+      "git_blob_sha1": "42e158113846564912e53e7af9a632c4810ab504",
+      "url": "https://github.com/docling-project/docling/blob/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/docling/models/stages/code_formula/code_formula_model.py",
+      "installed_bytes_verified": true,
+      "installed_sha256": "c4a4f12042fcbd7fbc03c061a986cdc6ad8ef9598c031bb8e1729869f36c570d"
+    },
+    {
+      "path": "docling/models/stages/code_formula/code_formula_vlm_model.py",
+      "bytes": 11538,
+      "sha256": "49697c117744531a8a0aa56ce37b04d3b1c0838634f98657b48d35e80d4cb5ba",
+      "git_blob_sha1": "ff987ee26a6115791733ffa72b588e38011e64ad",
+      "url": "https://github.com/docling-project/docling/blob/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/docling/models/stages/code_formula/code_formula_vlm_model.py",
+      "installed_bytes_verified": true,
+      "installed_sha256": "49697c117744531a8a0aa56ce37b04d3b1c0838634f98657b48d35e80d4cb5ba"
+    },
+    {
+      "path": "docling/pipeline/standard_pdf_pipeline.py",
+      "bytes": 57578,
+      "sha256": "bbc3e48b35eebe7274e1a89bf577507af750ab440eb0775fb1b001ef4b99470b",
+      "git_blob_sha1": "25dd728fef09fedd59f01f734f3d6f88728c9ebc",
+      "url": "https://github.com/docling-project/docling/blob/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/docling/pipeline/standard_pdf_pipeline.py",
+      "installed_bytes_verified": true,
+      "installed_sha256": "bbc3e48b35eebe7274e1a89bf577507af750ab440eb0775fb1b001ef4b99470b"
+    },
+    {
+      "path": "docs/examples/develop_formula_understanding.py",
+      "bytes": 3923,
+      "sha256": "839b6e06853197e58e1e8d6f5c03f6d0a9f486f2fe9e57799aae228940a180ba",
+      "git_blob_sha1": "7fa5b7dbf501db2ff6ab0994ee54f08f09a4cadc",
+      "url": "https://github.com/docling-project/docling/blob/0fa0918d16de7769d942f9b06ca18cb673cbbc2e/docs/examples/develop_formula_understanding.py",
+      "installed_bytes_verified": false,
+      "installed_sha256": null
+    }
+  ],
+  "findings": {
+    "enabled_by": "PdfPipelineOptions.do_formula_enrichment=True",
+    "pipeline_stage": "CodeFormulaVlmModel, not the legacy CodeFormulaModel",
+    "preset": "codeformulav2",
+    "model": "docling-project/CodeFormulaV2",
+    "revision": "ecedbe111d15c2dc60bfd4a823cbe80127b58af4",
+    "model_default_mutable": true,
+    "cpu": "Transformers engine explicitly supports CPU; current ARM64/BF16 imports and execution not measured",
+    "model_architecture": "Idefics3ForConditionalGeneration; model metadata 315467328 BF16 parameters",
+    "extra_packages": "No obvious new package identified by static imports; full current compatibility remains UNKNOWN, no package upgrade permitted",
+    "output": "FORMULA TextItem.text updated after built-in cleanup; existing native provenance remains, no original character crosswalk",
+    "critical_failure_behavior": "Engine exceptions are logged then original backend text items are yielded unchanged; nonempty formula item text alone is NOT proof recognition occurred",
+    "crop_interface": "Public VlmEngineInput(PIL image,prompt) + BaseVlmEngine.predict_batch; static availability only, runtime untested",
+    "stage_render_scale": 1.67,
+    "nominal_dpi": 120.24,
+    "preset_scale": 2.0,
+    "scale_caveat": "Actual stage prepare_element uses class images_scale=1.67; do not silently replace with preset scale or processor 512/2048 pixel resizing",
+    "expansion_factor": 0.18,
+    "default_elements_batch_size": 5,
+    "planned_batch_size": 1,
+    "generation": {
+      "prompt": "<formula>",
+      "temperature": 0.0,
+      "do_sample": false,
+      "max_new_tokens": 2048,
+      "skip_special_tokens": false,
+      "stop_on_repetition": true,
+      "dtype": "bfloat16",
+      "cpu_attention": "sdpa",
+      "compile_model": false
+    },
+    "postprocessing": "Removes formula/code/end-of-utterance/location tokens and repetition tail; raw engine output must be captured before this",
+    "processor": "Idefics3Processor; RGB, resize/split/pad/normalize enabled; longest_edge=2048, max_image_size.longest_edge=512, image_seq_len=64"
+  },
+  "license": {
+    "declared": "CDLA-Permissive-2.0",
+    "model_card_verified": true,
+    "license_text_source": "https://cdla.dev/permissive-2-0/",
+    "assessment": "Agent-reviewed declared terms identify no material private-local-research restriction; sharing Data requires license text. Not exhaustive legal/redistribution clearance. Existing package/bundled-native terms remain unchanged.",
+    "full_third_party_clearance": "Not newly established by model-card keyword matching"
+  },
+  "complete_runtime_import_or_package_rehash": false,
+  "environment_metadata_confirmed": {
+    "docling-slim": "2.148.0",
+    "transformers": "5.22.1"
+  },
+  "diagnostic_read_error": {
+    "status": "failed_diagnostic_file_lookup",
+    "path": "/ue/candidate/docs/examples/develop_formula_understanding.py",
+    "reason": "Documentation example is not part of installed wheel; upstream only; not a model runtime failure"
+  }
+}

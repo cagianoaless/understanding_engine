@@ -1,0 +1,203 @@
+{
+  "schema_version": "formula-results.1",
+  "decision": "INDETERMINATE",
+  "execution": "BLOCKED_BEFORE_INFERENCE",
+  "quality_references": "agent_visual_checked",
+  "human_verified_count": 0,
+  "selected_targets": 8,
+  "attempted_targets": 0,
+  "unexecuted_targets": 8,
+  "expressions": [
+    {
+      "id": "log_eq2",
+      "document": "log2026",
+      "page": 4,
+      "status": "NOT_EXECUTED",
+      "quality": null,
+      "exact_latex": null,
+      "normalized_latex": null,
+      "syntax_validity": null,
+      "detection": null,
+      "symbol_fidelity": null,
+      "structural_fidelity": null,
+      "source_alignment": null,
+      "reason": "Host reserve FAIL; two-copy storage plan exceeds 6 GiB; model weights and tokenizer payloads not acquired"
+    },
+    {
+      "id": "log_eq4",
+      "document": "log2026",
+      "page": 4,
+      "status": "NOT_EXECUTED",
+      "quality": null,
+      "exact_latex": null,
+      "normalized_latex": null,
+      "syntax_validity": null,
+      "detection": null,
+      "symbol_fidelity": null,
+      "structural_fidelity": null,
+      "source_alignment": null,
+      "reason": "Host reserve FAIL; two-copy storage plan exceeds 6 GiB; model weights and tokenizer payloads not acquired"
+    },
+    {
+      "id": "attn_fraction",
+      "document": "attention",
+      "page": 4,
+      "status": "NOT_EXECUTED",
+      "quality": null,
+      "exact_latex": null,
+      "normalized_latex": null,
+      "syntax_validity": null,
+      "detection": null,
+      "symbol_fidelity": null,
+      "structural_fidelity": null,
+      "source_alignment": null,
+      "reason": "Host reserve FAIL; two-copy storage plan exceeds 6 GiB; model weights and tokenizer payloads not acquired"
+    },
+    {
+      "id": "attn_heads",
+      "document": "attention",
+      "page": 5,
+      "status": "NOT_EXECUTED",
+      "quality": null,
+      "exact_latex": null,
+      "normalized_latex": null,
+      "syntax_validity": null,
+      "detection": null,
+      "symbol_fidelity": null,
+      "structural_fidelity": null,
+      "source_alignment": null,
+      "reason": "Host reserve FAIL; two-copy storage plan exceeds 6 GiB; model weights and tokenizer payloads not acquired"
+    },
+    {
+      "id": "attn_ffn",
+      "document": "attention",
+      "page": 5,
+      "status": "NOT_EXECUTED",
+      "quality": null,
+      "exact_latex": null,
+      "normalized_latex": null,
+      "syntax_validity": null,
+      "detection": null,
+      "symbol_fidelity": null,
+      "structural_fidelity": null,
+      "source_alignment": null,
+      "reason": "Host reserve FAIL; two-copy storage plan exceeds 6 GiB; model weights and tokenizer payloads not acquired"
+    },
+    {
+      "id": "nature_weights",
+      "document": "tabpfn_nature_2025",
+      "page": 10,
+      "status": "NOT_EXECUTED",
+      "quality": null,
+      "exact_latex": null,
+      "normalized_latex": null,
+      "syntax_validity": null,
+      "detection": null,
+      "symbol_fidelity": null,
+      "structural_fidelity": null,
+      "source_alignment": null,
+      "reason": "Host reserve FAIL; two-copy storage plan exceeds 6 GiB; model weights and tokenizer payloads not acquired"
+    },
+    {
+      "id": "nature_softmax",
+      "document": "tabpfn_nature_2025",
+      "page": 11,
+      "status": "NOT_EXECUTED",
+      "quality": null,
+      "exact_latex": null,
+      "normalized_latex": null,
+      "syntax_validity": null,
+      "detection": null,
+      "symbol_fidelity": null,
+      "structural_fidelity": null,
+      "source_alignment": null,
+      "reason": "Host reserve FAIL; two-copy storage plan exceeds 6 GiB; model weights and tokenizer payloads not acquired"
+    },
+    {
+      "id": "attn_positional",
+      "document": "attention",
+      "page": 6,
+      "status": "NOT_EXECUTED",
+      "quality": null,
+      "exact_latex": null,
+      "normalized_latex": null,
+      "syntax_validity": null,
+      "detection": null,
+      "symbol_fidelity": null,
+      "structural_fidelity": null,
+      "source_alignment": null,
+      "reason": "Host reserve FAIL; two-copy storage plan exceeds 6 GiB; model weights and tokenizer payloads not acquired"
+    }
+  ],
+  "per_component": {
+    "fractions": {
+      "correct": null,
+      "incorrect": null,
+      "missing": null,
+      "ambiguous": null,
+      "reason": "No generated predictions; unexecuted cases are not counted as recognition errors or successes"
+    },
+    "radical_scope": {
+      "correct": null,
+      "incorrect": null,
+      "missing": null,
+      "ambiguous": null,
+      "reason": "No generated predictions; unexecuted cases are not counted as recognition errors or successes"
+    },
+    "scripts": {
+      "correct": null,
+      "incorrect": null,
+      "missing": null,
+      "ambiguous": null,
+      "reason": "No generated predictions; unexecuted cases are not counted as recognition errors or successes"
+    },
+    "summation_symbols": {
+      "correct": null,
+      "incorrect": null,
+      "missing": null,
+      "ambiguous": null,
+      "reason": "No generated predictions; unexecuted cases are not counted as recognition errors or successes"
+    },
+    "summation_limits": {
+      "correct": null,
+      "incorrect": null,
+      "missing": null,
+      "ambiguous": null,
+      "reason": "No generated predictions; unexecuted cases are not counted as recognition errors or successes"
+    },
+    "function_arguments": {
+      "correct": null,
+      "incorrect": null,
+      "missing": null,
+      "ambiguous": null,
+      "reason": "No generated predictions; unexecuted cases are not counted as recognition errors or successes"
+    },
+    "operator_grouping": {
+      "correct": null,
+      "incorrect": null,
+      "missing": null,
+      "ambiguous": null,
+      "reason": "No generated predictions; unexecuted cases are not counted as recognition errors or successes"
+    },
+    "multi_part_equations": {
+      "correct": null,
+      "incorrect": null,
+      "missing": null,
+      "ambiguous": null,
+      "reason": "No generated predictions; unexecuted cases are not counted as recognition errors or successes"
+    }
+  },
+  "runtime": {
+    "initialization_seconds": null,
+    "recognition_seconds": null,
+    "total_seconds": null,
+    "peak_memory_bytes": null,
+    "memory_events": null,
+    "cpu_seconds": null,
+    "model_storage_peak_bytes": null,
+    "reason": "No candidate process launched; previous measurements are not this experiment"
+  },
+  "visual_comparisons": null,
+  "visual_reason": "No predicted LaTeX to render; no visual similarity or semantic equivalence claimed",
+  "mathematical_ast_readiness": "UNKNOWN; no evidence of recognition quality"
+}

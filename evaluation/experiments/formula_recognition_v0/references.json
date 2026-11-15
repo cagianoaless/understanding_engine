@@ -1,0 +1,181 @@
+{
+  "schema_version": "formula-references.1",
+  "status": "agent_visual_checked",
+  "independent_human_verifications": 0,
+  "model_input": false,
+  "expressions": [
+    {
+      "id": "log_eq2",
+      "verification": "agent_visual_checked",
+      "independent_human_verifications": 0,
+      "latex": "A^{\\star}(\\phi)=\\frac{1}{N}\\sum_x\\max_y n_{xy}=\\sum_x p(x)\\max_y p(y\\mid x),",
+      "latex_role": "One manually curated rendering spelling, not authoritative PDF text or proof of semantic equivalence; exact string is convention-sensitive",
+      "equation_number_ids": [
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1676",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1677",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1678"
+      ],
+      "component_reference": {
+        "path": "evaluation/experiments/svg_math_feasibility/reference.json",
+        "sha256": "0e971de249c2deb5fbf0fe1da8a6871b0c9f6eb6379a4d70c8cdeda4a211fd10",
+        "id": "log_eq2"
+      },
+      "components_status": "Existing original-symbol/component references reused",
+      "source_review": "Original PDF column in retained PR21/22 source-review figures; positional encoding reviewed on original PDFium page6 render",
+      "typography_uncertainties": [
+        "Equivalent TeX spellings/font commands are not uniquely determined by PDF ink"
+      ],
+      "nested_stacked_fraction_coverage": false
+    },
+    {
+      "id": "log_eq4",
+      "verification": "agent_visual_checked",
+      "independent_human_verifications": 0,
+      "latex": "A_{\\mathrm{ns}}^{\\star}(\\phi)=\\frac{\\sum_{x:n_x>1}p(x)\\max_y p(y\\mid x)}{1-\\sigma_{\\phi}},\\qquad A^{\\star}(\\phi)=\\sigma_{\\phi}+(1-\\sigma_{\\phi})A_{\\mathrm{ns}}^{\\star}(\\phi).",
+      "latex_role": "One manually curated rendering spelling, not authoritative PDF text or proof of semantic equivalence; exact string is convention-sensitive",
+      "equation_number_ids": [
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2553",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2554",
+        "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2555"
+      ],
+      "component_reference": {
+        "path": "evaluation/experiments/svg_math_feasibility/reference.json",
+        "sha256": "0e971de249c2deb5fbf0fe1da8a6871b0c9f6eb6379a4d70c8cdeda4a211fd10",
+        "id": "log_eq4"
+      },
+      "components_status": "Existing original-symbol/component references reused",
+      "source_review": "Original PDF column in retained PR21/22 source-review figures; positional encoding reviewed on original PDFium page6 render",
+      "typography_uncertainties": [
+        "Equivalent TeX spellings/font commands are not uniquely determined by PDF ink"
+      ],
+      "nested_stacked_fraction_coverage": false
+    },
+    {
+      "id": "attn_fraction",
+      "verification": "agent_visual_checked",
+      "independent_human_verifications": 0,
+      "latex": "\\mathrm{Attention}(Q,K,V)=\\mathrm{softmax}\\left(\\frac{QK^T}{\\sqrt{d_k}}\\right)V",
+      "latex_role": "One manually curated rendering spelling, not authoritative PDF text or proof of semantic equivalence; exact string is convention-sensitive",
+      "equation_number_ids": [
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c771",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c772",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c773"
+      ],
+      "component_reference": {
+        "path": "evaluation/experiments/native_pdf_math_evidence_v0/reference.json",
+        "sha256": "560c70740c3302224315f2a189bd396802341a0230caf685ff583254f5d9c486",
+        "id": "attn_fraction"
+      },
+      "components_status": "Existing original-symbol/component references reused",
+      "source_review": "Original PDF column in retained PR21/22 source-review figures; positional encoding reviewed on original PDFium page6 render",
+      "typography_uncertainties": [
+        "Equivalent TeX spellings/font commands are not uniquely determined by PDF ink"
+      ],
+      "nested_stacked_fraction_coverage": false
+    },
+    {
+      "id": "attn_heads",
+      "verification": "agent_visual_checked",
+      "independent_human_verifications": 0,
+      "latex": "\\mathrm{MultiHead}(Q,K,V)=\\mathrm{Concat}(\\mathrm{head}_1,\\ldots,\\mathrm{head}_h)W^O",
+      "latex_role": "One manually curated rendering spelling, not authoritative PDF text or proof of semantic equivalence; exact string is convention-sensitive",
+      "equation_number_ids": [],
+      "component_reference": {
+        "path": "evaluation/experiments/native_pdf_math_evidence_v0/reference.json",
+        "sha256": "560c70740c3302224315f2a189bd396802341a0230caf685ff583254f5d9c486",
+        "id": "attn_heads"
+      },
+      "components_status": "Existing original-symbol/component references reused",
+      "source_review": "Original PDF column in retained PR21/22 source-review figures; positional encoding reviewed on original PDFium page6 render",
+      "typography_uncertainties": [
+        "Equivalent TeX spellings/font commands are not uniquely determined by PDF ink"
+      ],
+      "nested_stacked_fraction_coverage": false
+    },
+    {
+      "id": "attn_ffn",
+      "verification": "agent_visual_checked",
+      "independent_human_verifications": 0,
+      "latex": "\\mathrm{FFN}(x)=\\max(0,xW_1+b_1)W_2+b_2",
+      "latex_role": "One manually curated rendering spelling, not authoritative PDF text or proof of semantic equivalence; exact string is convention-sensitive",
+      "equation_number_ids": [
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1965",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1966",
+        "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1967"
+      ],
+      "component_reference": {
+        "path": "evaluation/experiments/native_pdf_math_evidence_v0/reference.json",
+        "sha256": "560c70740c3302224315f2a189bd396802341a0230caf685ff583254f5d9c486",
+        "id": "attn_ffn"
+      },
+      "components_status": "Existing original-symbol/component references reused",
+      "source_review": "Original PDF column in retained PR21/22 source-review figures; positional encoding reviewed on original PDFium page6 render",
+      "typography_uncertainties": [
+        "Equivalent TeX spellings/font commands are not uniquely determined by PDF ink"
+      ],
+      "nested_stacked_fraction_coverage": false
+    },
+    {
+      "id": "nature_weights",
+      "verification": "agent_visual_checked",
+      "independent_human_verifications": 0,
+      "latex": "\\mathbf{x}_i=\\sum_{j=1}^{M}a_{ij}\\mathbf{x}_j^{*},",
+      "latex_role": "One manually curated rendering spelling, not authoritative PDF text or proof of semantic equivalence; exact string is convention-sensitive",
+      "equation_number_ids": [
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4247",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4248",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4249"
+      ],
+      "component_reference": {
+        "path": "evaluation/experiments/native_pdf_math_evidence_v0/reference.json",
+        "sha256": "560c70740c3302224315f2a189bd396802341a0230caf685ff583254f5d9c486",
+        "id": "nature_weights"
+      },
+      "components_status": "Existing original-symbol/component references reused",
+      "source_review": "Original PDF column in retained PR21/22 source-review figures; positional encoding reviewed on original PDFium page6 render",
+      "typography_uncertainties": [
+        "Equivalent TeX spellings/font commands are not uniquely determined by PDF ink"
+      ],
+      "nested_stacked_fraction_coverage": false
+    },
+    {
+      "id": "nature_softmax",
+      "verification": "agent_visual_checked",
+      "independent_human_verifications": 0,
+      "latex": "P(y_i\\mid\\mathbf{x})=\\frac{\\exp(z_i/T)}{\\sum_j\\exp(z_j/T)},",
+      "latex_role": "One manually curated rendering spelling, not authoritative PDF text or proof of semantic equivalence; exact string is convention-sensitive",
+      "equation_number_ids": [
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1891",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1892",
+        "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1893"
+      ],
+      "component_reference": {
+        "path": "evaluation/experiments/native_pdf_math_evidence_v0/reference.json",
+        "sha256": "560c70740c3302224315f2a189bd396802341a0230caf685ff583254f5d9c486",
+        "id": "nature_softmax"
+      },
+      "components_status": "Existing original-symbol/component references reused",
+      "source_review": "Original PDF column in retained PR21/22 source-review figures; positional encoding reviewed on original PDFium page6 render",
+      "typography_uncertainties": [
+        "Equivalent TeX spellings/font commands are not uniquely determined by PDF ink"
+      ],
+      "nested_stacked_fraction_coverage": false
+    },
+    {
+      "id": "attn_positional",
+      "verification": "agent_visual_checked",
+      "independent_human_verifications": 0,
+      "latex": "\\begin{aligned}PE_{(pos,2i)}&=sin(pos/10000^{2i/d_{\\mathrm{model}}})\\\\ PE_{(pos,2i+1)}&=cos(pos/10000^{2i/d_{\\mathrm{model}}})\\end{aligned}",
+      "latex_role": "One manually curated rendering spelling, not authoritative PDF text or proof of semantic equivalence; exact string is convention-sensitive",
+      "equation_number_ids": [],
+      "component_reference": null,
+      "components_status": "Original two-line positional-encoding render reviewed; detailed source-component reference/scorer not yet prepared",
+      "source_review": "Original PDF column in retained PR21/22 source-review figures; positional encoding reviewed on original PDFium page6 render",
+      "typography_uncertainties": [
+        "Equivalent TeX spellings/font commands are not uniquely determined by PDF ink"
+      ],
+      "nested_stacked_fraction_coverage": false
+    }
+  ],
+  "component_scoring_status": "Not implemented/executed in this blocked run; no model quality conclusions"
+}

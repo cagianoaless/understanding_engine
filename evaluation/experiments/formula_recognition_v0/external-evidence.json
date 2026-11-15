@@ -1,0 +1,285 @@
+{
+  "schema_version": "formula-external-artifacts.1",
+  "storage": "New persistent external package; private absolute locations in local report only",
+  "files": [
+    {
+      "path": "attention-p06-review.png",
+      "bytes": 272362,
+      "sha256": "3e7c8dceb0e376b9b261a103a333720391747ce357c1cd83b1e716e8c27fcb56"
+    },
+    {
+      "path": "colima-status-approved.json",
+      "bytes": 747,
+      "sha256": "9f4ad648fa1a15fde76e6fa86aeb84256b6274ac7fa4ceca8ececb118754b997"
+    },
+    {
+      "path": "colima-status.json",
+      "bytes": 234,
+      "sha256": "6426421afbd760746f44901f4fdde11b9de47009be3fc75e49722822cc682f85"
+    },
+    {
+      "path": "df.json",
+      "bytes": 307,
+      "sha256": "bbb17c3dcd35b7542e0e53db2e47709c809e600e6bcf1eca0c50fcab1ed5ea46"
+    },
+    {
+      "path": "docker-context.json",
+      "bytes": 137,
+      "sha256": "b2defe4644c02ccae28f8982a4819786af35b4da2e5c39e6782ae9b1ff63b5a1"
+    },
+    {
+      "path": "docker-version-approved.json",
+      "bytes": 1257,
+      "sha256": "8e269477790b43837502026e84d75681108b9bf73af6d6039a141601f22737bb"
+    },
+    {
+      "path": "finalize_evidence.py",
+      "bytes": 8701,
+      "sha256": "02521c29f3aeaa76b113bf349f2d1baea506180822402392851494b622828fc3"
+    },
+    {
+      "path": "freeze.corrected.json",
+      "bytes": 917,
+      "sha256": "86321926fe47afaa53e40f4169f59407dfbf2861c9eb71307b2b1807071270fc"
+    },
+    {
+      "path": "freeze.initial.json",
+      "bytes": 760,
+      "sha256": "fcbc61429d34ffd27bd7d1b31e7227715a658da0cf93fe4ef73b6c5cf2c263d9"
+    },
+    {
+      "path": "full-tests-final.stderr.log",
+      "bytes": 69,
+      "sha256": "d9814eb7c3607bcc3c971e7021efd8a5e8db85d6a52f0b5cc05f0a8e28132001"
+    },
+    {
+      "path": "full-tests-final.stdout.log",
+      "bytes": 661,
+      "sha256": "e5af5db462544b2cc21ffee32d5fe207e74dce5e996c6d8fada15a7d320c04c9"
+    },
+    {
+      "path": "full-tests.stderr.log",
+      "bytes": 69,
+      "sha256": "d9814eb7c3607bcc3c971e7021efd8a5e8db85d6a52f0b5cc05f0a8e28132001"
+    },
+    {
+      "path": "full-tests.stdout.log",
+      "bytes": 661,
+      "sha256": "b69e1a6c04d7b71a7ec6b63e807a0f100c7178acb5da03245d909165dcd9ca7f"
+    },
+    {
+      "path": "inputs.local.json",
+      "bytes": 1744,
+      "sha256": "ad104dc7a02598833503df7a57a51f7e635331bc22d1c8be5ca9a32c40c5d614"
+    },
+    {
+      "path": "installed-read-commands.local.json",
+      "bytes": 5319,
+      "sha256": "afb584aab27871bc766e81a3414fdbcdaf22a06194cb31fe18b91b0897f9fea2"
+    },
+    {
+      "path": "installed-source/docling/datamodel/pipeline_options.py",
+      "bytes": 98898,
+      "sha256": "be4c4c16392e9395e0132de92de0fb19a618e8601d2882b26938b251fd62289f"
+    },
+    {
+      "path": "installed-source/docling/datamodel/stage_model_specs.py",
+      "bytes": 84844,
+      "sha256": "8823e0b466150e3931d0330a2737c8d06f82663c5a7525007aea335421ed0477"
+    },
+    {
+      "path": "installed-source/docling/datamodel/vlm_model_specs.py",
+      "bytes": 19026,
+      "sha256": "e2990402880f3e3369cfcca8f62f80f94f2c44a0d573a2e04b6f446bdcd44926"
+    },
+    {
+      "path": "installed-source/docling/models/base_model.py",
+      "bytes": 7799,
+      "sha256": "1a1af04cbdbc4800008bb8d953924deda126088a6c0c1a810b475ccffd1c161a"
+    },
+    {
+      "path": "installed-source/docling/models/inference_engines/vlm/base.py",
+      "bytes": 8343,
+      "sha256": "17333be8a6a511e4a292a807bcd603a340250f5d09097e96b9e6d06dce93fa56"
+    },
+    {
+      "path": "installed-source/docling/models/inference_engines/vlm/transformers_engine.py",
+      "bytes": 25205,
+      "sha256": "de65ade29f1290248794ee40b8809ca29d8c226a566bf8b6c5cb3991e78da8ac"
+    },
+    {
+      "path": "installed-source/docling/models/stages/code_formula/code_formula_model.py",
+      "bytes": 11678,
+      "sha256": "c4a4f12042fcbd7fbc03c061a986cdc6ad8ef9598c031bb8e1729869f36c570d"
+    },
+    {
+      "path": "installed-source/docling/models/stages/code_formula/code_formula_vlm_model.py",
+      "bytes": 11538,
+      "sha256": "49697c117744531a8a0aa56ce37b04d3b1c0838634f98657b48d35e80d4cb5ba"
+    },
+    {
+      "path": "installed-source/docling/pipeline/standard_pdf_pipeline.py",
+      "bytes": 57578,
+      "sha256": "bbc3e48b35eebe7274e1a89bf577507af750ab440eb0775fb1b001ef4b99470b"
+    },
+    {
+      "path": "installed-source/docling_slim-2.148.0.dist-info.METADATA",
+      "bytes": 21309,
+      "sha256": "3a1ca9c9d9ebc804304c40c5381a1be9f1f1a2f2e1d23015301bfebce1763408"
+    },
+    {
+      "path": "installed-source/transformers-5.22.1.dist-info.METADATA",
+      "bytes": 31228,
+      "sha256": "161037c2431d5b65d08321c8daa1e72adf3f4d5081b288636362c537a77d43cd"
+    },
+    {
+      "path": "model-api.json",
+      "bytes": 3292,
+      "sha256": "062e0340a0239fc31ea22c76d79df8d920ca33e92640a2c1011f337d3bee8092"
+    },
+    {
+      "path": "model-metadata/README.md",
+      "bytes": 1511,
+      "sha256": "684604c08aa8cc32b3d65049bc9794b57f3fc510953148ad3ba61d35f60bef9a"
+    },
+    {
+      "path": "model-metadata/chat_template.json",
+      "bytes": 422,
+      "sha256": "c9d21553af689882ac89ad8e8412164662d1605f6595119664e85626df7be421"
+    },
+    {
+      "path": "model-metadata/config.json",
+      "bytes": 2638,
+      "sha256": "98f55cfe07dd168f9fab1f1eec35f754b23631ea1a9a7c9759b1b7cb41ab76b1"
+    },
+    {
+      "path": "model-metadata/generation_config.json",
+      "bytes": 169,
+      "sha256": "b17f1890b2b2baf172761c9c4d6eb956482ffa05964f357e67544ec998c9851f"
+    },
+    {
+      "path": "model-metadata/preprocessor_config.json",
+      "bytes": 486,
+      "sha256": "6cb6e36d6fcb88ca1502c4a26750715dc3e7dedddc9a8f17b27d8d167d1457e7"
+    },
+    {
+      "path": "model-metadata/processor_config.json",
+      "bytes": 68,
+      "sha256": "e7bff42da73ae9eec9042ef20e066e11f1ee20f025358ff79131e3c0fb549b46"
+    },
+    {
+      "path": "model-metadata-records.json",
+      "bytes": 2050,
+      "sha256": "7877efae3277e873a8432aa8a7c00e2c151da6986763d4929e21db5bdc1d4dde"
+    },
+    {
+      "path": "official-source/docling/datamodel/pipeline_options.py",
+      "bytes": 98898,
+      "sha256": "be4c4c16392e9395e0132de92de0fb19a618e8601d2882b26938b251fd62289f"
+    },
+    {
+      "path": "official-source/docling/datamodel/stage_model_specs.py",
+      "bytes": 84844,
+      "sha256": "8823e0b466150e3931d0330a2737c8d06f82663c5a7525007aea335421ed0477"
+    },
+    {
+      "path": "official-source/docling/datamodel/vlm_model_specs.py",
+      "bytes": 19026,
+      "sha256": "e2990402880f3e3369cfcca8f62f80f94f2c44a0d573a2e04b6f446bdcd44926"
+    },
+    {
+      "path": "official-source/docling/models/base_model.py",
+      "bytes": 7799,
+      "sha256": "1a1af04cbdbc4800008bb8d953924deda126088a6c0c1a810b475ccffd1c161a"
+    },
+    {
+      "path": "official-source/docling/models/inference_engines/vlm/base.py",
+      "bytes": 8343,
+      "sha256": "17333be8a6a511e4a292a807bcd603a340250f5d09097e96b9e6d06dce93fa56"
+    },
+    {
+      "path": "official-source/docling/models/inference_engines/vlm/transformers_engine.py",
+      "bytes": 25205,
+      "sha256": "de65ade29f1290248794ee40b8809ca29d8c226a566bf8b6c5cb3991e78da8ac"
+    },
+    {
+      "path": "official-source/docling/models/stages/code_formula/code_formula_model.py",
+      "bytes": 11678,
+      "sha256": "c4a4f12042fcbd7fbc03c061a986cdc6ad8ef9598c031bb8e1729869f36c570d"
+    },
+    {
+      "path": "official-source/docling/models/stages/code_formula/code_formula_vlm_model.py",
+      "bytes": 11538,
+      "sha256": "49697c117744531a8a0aa56ce37b04d3b1c0838634f98657b48d35e80d4cb5ba"
+    },
+    {
+      "path": "official-source/docling/pipeline/standard_pdf_pipeline.py",
+      "bytes": 57578,
+      "sha256": "bbc3e48b35eebe7274e1a89bf577507af750ab440eb0775fb1b001ef4b99470b"
+    },
+    {
+      "path": "official-source/docs/examples/develop_formula_understanding.py",
+      "bytes": 3923,
+      "sha256": "839b6e06853197e58e1e8d6f5c03f6d0a9f486f2fe9e57799aae228940a180ba"
+    },
+    {
+      "path": "owned-container-list.json",
+      "bytes": 1284,
+      "sha256": "519ee54464344e25c4a74a9cccaa7356bdb52443746f6ea1a265cf5409f269a5"
+    },
+    {
+      "path": "preexisting.json",
+      "bytes": 59644,
+      "sha256": "9b0deb6cfff1f77bf9732c9bb5ffe3ce99453bd66644c6f93ad2eb3edacd8663"
+    },
+    {
+      "path": "prepare_evidence.py",
+      "bytes": 7708,
+      "sha256": "f0e0e89f2d792658652dc54739ff95aa65a64324eeb75e13c6fd4190a958b3bb"
+    },
+    {
+      "path": "preservation.json",
+      "bytes": 120,
+      "sha256": "70d99f85a352f29127346a8f9e3e0d26553551bb6b03e4a1630b7a9a62a3874f"
+    },
+    {
+      "path": "resources.replayed.json",
+      "bytes": 2391,
+      "sha256": "b5bdb64b236852ebf7425ce998beb8aed5d1564068da538fa78bb3101b42a228"
+    },
+    {
+      "path": "storage-final.json",
+      "bytes": 7148,
+      "sha256": "51d610d421cf51f68eff812a462cbb3339fb2cfb58b87196d60eb7f075d9d6e0"
+    },
+    {
+      "path": "storage-initial.json",
+      "bytes": 6818,
+      "sha256": "e4a77fe14f0af59693239b221a7b76477135c81a24837545bd7e8840b94bd9e3"
+    },
+    {
+      "path": "storage-roots.final.local.json",
+      "bytes": 3702,
+      "sha256": "cd8e12a3149ce9f40ab613e3c096e2fdf393f834b24268ef4e5299c0ca2c2d0d"
+    },
+    {
+      "path": "storage-roots.local.json",
+      "bytes": 3451,
+      "sha256": "b42247942c2a67e92a4bb134cbf32962b53041919a1c9f1bb0524d9d8c4a0dfe"
+    },
+    {
+      "path": "storage-verified.json",
+      "bytes": 7107,
+      "sha256": "66543309483520f3c712544d43b06792287b283450647713f4b54df9ddd5ca00"
+    },
+    {
+      "path": "unpackaged-example-lookup.json",
+      "bytes": 234,
+      "sha256": "5edfa3f41ce30358c5eac32dc713772d004d13c4be11442e03dd9a1e4eb4d22e"
+    }
+  ],
+  "scope": "Diagnostic source/configuration evidence and original-page review only; no model weights, full source PDFs, extraction caches, predictions or neural runtime copies",
+  "historical_scripts": "prepare_evidence.py and finalize_evidence.py preserve stage commands, including initially incorrect sandbox VM status. Later corrected evidence is authoritative; do not rerun these historical stages into the published directory. The committed preflight.py reproduces the final resource decision.",
+  "model_payload_download_bytes": 0,
+  "model_inference_calls": 0
+}
