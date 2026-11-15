@@ -1,0 +1,142 @@
+{
+  "schema_version": "native-math-implementation.1",
+  "base_commit": "4d05592122db216ff3a7c6d629ae38afdc0552e0",
+  "date": "2026-11-15",
+  "python": "3.11.13",
+  "platform": "Darwin arm64",
+  "packages": {
+    "pdfplumber": "0.11.8",
+    "pdfminer.six": "20251107",
+    "pypdf": "6.1.1",
+    "pypdfium2": "5.14.0",
+    "Pillow": "13.0.0",
+    "pytest": "8.4.2",
+    "reportlab": "4.4.4",
+    "jsonschema": "4.25.1"
+  },
+  "source_files_sha256": {
+    "evaluation/experiments/native_pdf_math_evidence_v0/evidence.py": "fc1c1f228b9d53f8483df173867da151d3c002b1470e79a2b9d934f4ea6e6a5b",
+    "evaluation/experiments/native_pdf_math_evidence_v0/fonts.py": "fb7534fb06a73fd97cee9229d212f3ba4c4940dfb245abf14b7a09efd58ab423",
+    "evaluation/experiments/native_pdf_math_evidence_v0/native.py": "483a3ace1b770fe64ed30b8e85ec16cfb3f6f0278236dfc73a8f2bf1f3d09982",
+    "evaluation/experiments/native_pdf_math_evidence_v0/review.py": "c08829fe5fba0814bfbc5e63ca1f71412dc9524c4260d2b66771b9d960f5f3b1",
+    "evaluation/experiments/native_pdf_math_evidence_v0/run.py": "8e2faf63ac5051939093d061ee8c7badf275099c8364065aaf9b0f8f1c5205fc"
+  },
+  "test_file_sha256": "6fd441e4b7caba67c0c99217c63fc9a8d4434e034dab4017168679ed24eaf1cf",
+  "preexisting_file_check": {
+    "count": 442,
+    "changed": [],
+    "snapshot_sha256": "c4006a76e56228de116c9bf82b3b1077055e4ba4fbb1861d82c93603491200bd"
+  },
+  "offline_tests": {
+    "passed": 551,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 19.17,
+    "new_cases": 23,
+    "command": "UV_PYTHON_DOWNLOADS=never UV_CACHE_DIR=\"$UE_NATIVE_RUN/test-cache\" uv run --frozen --offline --no-project --python \"$UE_PYTHON\" \"$UE_PYTHON\" -B -m pytest -q",
+    "caveat": "--frozen ignored with --no-project; existing compatible interpreter and installed locked packages used without environment sync; host launcher not repaired"
+  },
+  "observed_run": {
+    "seconds": 19.64572733314708,
+    "timings": [
+      {
+        "candidate_seconds": {
+          "characters": 0.0006288327276706696,
+          "native_vectors": 0.0006117918528616428,
+          "retained_svg": 0.0005664168857038021
+        },
+        "id": "log_eq2"
+      },
+      {
+        "candidate_seconds": {
+          "characters": 0.0011564171873033047,
+          "native_vectors": 0.0008974168449640274,
+          "retained_svg": 0.0008987910114228725
+        },
+        "id": "log_eq4"
+      },
+      {
+        "document": "log2026",
+        "load_validate_adapter_font_seconds": 8.090557207819074
+      },
+      {
+        "candidate_seconds": {
+          "characters": 0.000562125351279974,
+          "native_vectors": 0.000711916945874691
+        },
+        "id": "attn_fraction"
+      },
+      {
+        "candidate_seconds": {
+          "characters": 0.0008241659961640835,
+          "native_vectors": 0.0008390001021325588
+        },
+        "id": "attn_heads"
+      },
+      {
+        "candidate_seconds": {
+          "characters": 0.0004047080874443054,
+          "native_vectors": 0.0003836248070001602
+        },
+        "id": "attn_ffn"
+      },
+      {
+        "document": "attention",
+        "load_validate_adapter_font_seconds": 3.047293625306338
+      },
+      {
+        "candidate_seconds": {
+          "characters": 0.0002443748526275158,
+          "native_vectors": 0.00020245835185050964
+        },
+        "id": "nature_weights"
+      },
+      {
+        "candidate_seconds": {
+          "characters": 0.0005565830506384373,
+          "native_vectors": 0.0004575829952955246
+        },
+        "id": "nature_softmax"
+      },
+      {
+        "candidate_seconds": {
+          "characters": 0.0017946246080100536,
+          "native_vectors": 0.001816249918192625
+        },
+        "id": "nature_joint"
+      },
+      {
+        "document": "tabpfn_nature_2025",
+        "load_validate_adapter_font_seconds": 8.30988262500614
+      }
+    ],
+    "peak_process_memory_bytes": 590528512,
+    "peak_scope": "Whole-process peak, including source JSON/validation, not per reconstruction",
+    "reference_loaded_after_prediction_write": true,
+    "phase2_unicode_never_fed_to_reconstruction": true
+  },
+  "deterministic_repetition": {
+    "byte_identical": [
+      "predictions.json",
+      "results.json",
+      "results.compact.json",
+      "log2026-native.json",
+      "log2026-glyphs.json",
+      "attention-native.json",
+      "attention-glyphs.json",
+      "tabpfn_nature_2025-native.json",
+      "tabpfn_nature_2025-glyphs.json"
+    ],
+    "sha256": {
+      "predictions.json": "52a884dc514b5a8fd1ceec2a214443c62873a8e088df81f93f131e4df461a088",
+      "results.json": "4b1ae28a9e4b085f9105c055adbab0d5d0e0da681a4b2ba1ee52a9d4bb8acf05",
+      "results.compact.json": "ac841468e437f272a1536672358d6b6300dbee36c91b847c64fb6370e4d03cf7",
+      "log2026-native.json": "64221a6085a9a47db72018fd08a11765d802064d44e0c3f2b72e78064ca2aaeb",
+      "log2026-glyphs.json": "f899cb975bde141f712f9b20263455ffdae75a90b64487d0782a5cc024ebed20",
+      "attention-native.json": "b9894fb86b3125f8e16ae291e04fb9bcad4dddccb90165f475037c468f381035",
+      "attention-glyphs.json": "cf8b0a8a4daf645e14f209580c47374d1a9151ea3897f863d9b4cabf038e3ea5",
+      "tabpfn_nature_2025-native.json": "176b71fb88a955bbf7cc896fda76ad5d33bf205fb41f326084b9d775275667a3",
+      "tabpfn_nature_2025-glyphs.json": "fb01144a16ec926bc6ba83d0d18f5ff5fe5a77605a67e77961fb9a3d7c634eae"
+    }
+  }
+}

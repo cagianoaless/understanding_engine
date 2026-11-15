@@ -1,0 +1,227 @@
+{
+  "documents": {
+    "attention": {
+      "counts": {
+        "unrecoverable": 1
+      },
+      "glyphs": [
+        {
+          "diagnostic_unicode": null,
+          "font_evidence": [
+            {
+              "base_font": "THPNLT+CMEX9",
+              "cmap_sha256": "ba2a26ea87a9cfbbd1db1ca59c4d5e38143bcb0398701dca2352e04d3503a0ac",
+              "font_subtype": "Type1",
+              "fontfile_sha256": "f33b9c8dc32aa19979b9840c3b19de4534bf8011ee4b51a3d2aa06d91baa1975",
+              "header_sha256": "37e9a2110a6372561ade1cd97b0c5f1ef400a50152a09aaea12d60c0d6459504",
+              "object_reference": [
+                197,
+                0
+              ],
+              "program_name": "THPNLT+CMEX9",
+              "resource_paths": [
+                "page/Resources/Font//F66"
+              ]
+            }
+          ],
+          "fontname": "THPNLT+CMEX9",
+          "glyph_name": "summationtext",
+          "native_code": 80,
+          "original_unicode": "(cid:80)",
+          "reason": "Glyph name/family outside bounded math identity set",
+          "source_id": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c2073",
+          "source_unicode_rewritten": false,
+          "status": "unrecoverable"
+        }
+      ]
+    },
+    "log2026": {
+      "counts": {
+        "resolved_diagnostic": 6
+      },
+      "glyphs": [
+        {
+          "basis": "Unique embedded font + static byte-to-name encoding + bounded glyph-name identity",
+          "declared_unicode": null,
+          "diagnostic_unicode": "∑",
+          "font_evidence": [
+            {
+              "base_font": "PXDIYZ+CMEX10",
+              "cmap_sha256": "d4c58527291d0b361586220f0244f9fe222a84b6756e0ad71c414479ade5e98b",
+              "font_subtype": "Type1",
+              "fontfile_sha256": "d422ec63652d05eb254a107fd96e741f599b0dd064a1414be7a882daebde3492",
+              "header_sha256": "eb81db656434391aa310bf13929de6b94ddf7ca5eb63bc8f2fc61a1f100d8c46",
+              "object_reference": [
+                296,
+                0
+              ],
+              "program_name": "PXDIYZ+CMEX10",
+              "resource_paths": [
+                "page/Resources/Font//F21"
+              ]
+            }
+          ],
+          "fontname": "PXDIYZ+CMEX10",
+          "glyph_name": "summationtext",
+          "native_code": 80,
+          "original_unicode": "(cid:80)",
+          "source_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1440",
+          "source_unicode_rewritten": false,
+          "status": "resolved_diagnostic"
+        },
+        {
+          "basis": "Unique embedded font + static byte-to-name encoding + bounded glyph-name identity",
+          "declared_unicode": null,
+          "diagnostic_unicode": "∑",
+          "font_evidence": [
+            {
+              "base_font": "PXDIYZ+CMEX10",
+              "cmap_sha256": "d4c58527291d0b361586220f0244f9fe222a84b6756e0ad71c414479ade5e98b",
+              "font_subtype": "Type1",
+              "fontfile_sha256": "d422ec63652d05eb254a107fd96e741f599b0dd064a1414be7a882daebde3492",
+              "header_sha256": "eb81db656434391aa310bf13929de6b94ddf7ca5eb63bc8f2fc61a1f100d8c46",
+              "object_reference": [
+                296,
+                0
+              ],
+              "program_name": "PXDIYZ+CMEX10",
+              "resource_paths": [
+                "page/Resources/Font//F21"
+              ]
+            }
+          ],
+          "fontname": "PXDIYZ+CMEX10",
+          "glyph_name": "summationdisplay",
+          "native_code": 88,
+          "original_unicode": "(cid:88)",
+          "source_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1649",
+          "source_unicode_rewritten": false,
+          "status": "resolved_diagnostic"
+        },
+        {
+          "basis": "Unique embedded font + static byte-to-name encoding + bounded glyph-name identity",
+          "declared_unicode": null,
+          "diagnostic_unicode": "∑",
+          "font_evidence": [
+            {
+              "base_font": "PXDIYZ+CMEX10",
+              "cmap_sha256": "d4c58527291d0b361586220f0244f9fe222a84b6756e0ad71c414479ade5e98b",
+              "font_subtype": "Type1",
+              "fontfile_sha256": "d422ec63652d05eb254a107fd96e741f599b0dd064a1414be7a882daebde3492",
+              "header_sha256": "eb81db656434391aa310bf13929de6b94ddf7ca5eb63bc8f2fc61a1f100d8c46",
+              "object_reference": [
+                296,
+                0
+              ],
+              "program_name": "PXDIYZ+CMEX10",
+              "resource_paths": [
+                "page/Resources/Font//F21"
+              ]
+            }
+          ],
+          "fontname": "PXDIYZ+CMEX10",
+          "glyph_name": "summationdisplay",
+          "native_code": 88,
+          "original_unicode": "(cid:88)",
+          "source_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1659",
+          "source_unicode_rewritten": false,
+          "status": "resolved_diagnostic"
+        },
+        {
+          "basis": "Unique embedded font + static byte-to-name encoding + bounded glyph-name identity",
+          "declared_unicode": null,
+          "diagnostic_unicode": "∑",
+          "font_evidence": [
+            {
+              "base_font": "PXDIYZ+CMEX10",
+              "cmap_sha256": "d4c58527291d0b361586220f0244f9fe222a84b6756e0ad71c414479ade5e98b",
+              "font_subtype": "Type1",
+              "fontfile_sha256": "d422ec63652d05eb254a107fd96e741f599b0dd064a1414be7a882daebde3492",
+              "header_sha256": "eb81db656434391aa310bf13929de6b94ddf7ca5eb63bc8f2fc61a1f100d8c46",
+              "object_reference": [
+                296,
+                0
+              ],
+              "program_name": "PXDIYZ+CMEX10",
+              "resource_paths": [
+                "page/Resources/Font//F21"
+              ]
+            }
+          ],
+          "fontname": "PXDIYZ+CMEX10",
+          "glyph_name": "summationdisplay",
+          "native_code": 88,
+          "original_unicode": "(cid:88)",
+          "source_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2189",
+          "source_unicode_rewritten": false,
+          "status": "resolved_diagnostic"
+        },
+        {
+          "basis": "Unique embedded font + static byte-to-name encoding + bounded glyph-name identity",
+          "declared_unicode": null,
+          "diagnostic_unicode": "∑",
+          "font_evidence": [
+            {
+              "base_font": "PXDIYZ+CMEX10",
+              "cmap_sha256": "d4c58527291d0b361586220f0244f9fe222a84b6756e0ad71c414479ade5e98b",
+              "font_subtype": "Type1",
+              "fontfile_sha256": "d422ec63652d05eb254a107fd96e741f599b0dd064a1414be7a882daebde3492",
+              "header_sha256": "eb81db656434391aa310bf13929de6b94ddf7ca5eb63bc8f2fc61a1f100d8c46",
+              "object_reference": [
+                296,
+                0
+              ],
+              "program_name": "PXDIYZ+CMEX10",
+              "resource_paths": [
+                "page/Resources/Font//F21"
+              ]
+            }
+          ],
+          "fontname": "PXDIYZ+CMEX10",
+          "glyph_name": "summationtext",
+          "native_code": 80,
+          "original_unicode": "(cid:80)",
+          "source_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2504",
+          "source_unicode_rewritten": false,
+          "status": "resolved_diagnostic"
+        },
+        {
+          "basis": "Unique embedded font + static byte-to-name encoding + bounded glyph-name identity",
+          "declared_unicode": null,
+          "diagnostic_unicode": "∑",
+          "font_evidence": [
+            {
+              "base_font": "PXDIYZ+CMEX10",
+              "cmap_sha256": "d4c58527291d0b361586220f0244f9fe222a84b6756e0ad71c414479ade5e98b",
+              "font_subtype": "Type1",
+              "fontfile_sha256": "d422ec63652d05eb254a107fd96e741f599b0dd064a1414be7a882daebde3492",
+              "header_sha256": "eb81db656434391aa310bf13929de6b94ddf7ca5eb63bc8f2fc61a1f100d8c46",
+              "object_reference": [
+                296,
+                0
+              ],
+              "program_name": "PXDIYZ+CMEX10",
+              "resource_paths": [
+                "page/Resources/Font//F21"
+              ]
+            }
+          ],
+          "fontname": "PXDIYZ+CMEX10",
+          "glyph_name": "summationdisplay",
+          "native_code": 88,
+          "original_unicode": "(cid:88)",
+          "source_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c3061",
+          "source_unicode_rewritten": false,
+          "status": "resolved_diagnostic"
+        }
+      ]
+    },
+    "tabpfn_nature_2025": {
+      "counts": {},
+      "glyphs": []
+    }
+  },
+  "known_limit": "CMEX9 TeX aliases not enabled; unresolved means not resolved by this bounded implementation, not intrinsically absent from the PDF",
+  "schema_version": "native-math-glyph-results.1",
+  "scope": "CID/replacement units on selected source pages; counts outside selected formulas are separate diagnostics, not extra benchmark samples"
+}

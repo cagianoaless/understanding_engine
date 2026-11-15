@@ -1,0 +1,394 @@
+{
+  "examples": [
+    {
+      "geometry": {
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "cropbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "height": 792,
+        "initial_doctop": 2376,
+        "mediabox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "pdfminer_layout_bbox": [
+          0,
+          0,
+          612.0,
+          792.0
+        ],
+        "raw_cropbox": null,
+        "raw_mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "raw_rotation": 0.0,
+        "rotation": 0,
+        "user_unit": 1.0,
+        "width": 612
+      },
+      "page": 4,
+      "pdf_sha256": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060",
+      "primitives": [
+        {
+          "backend_index": 1,
+          "bbox": [
+            242.156,
+            386.553,
+            251.247,
+            386.553
+          ],
+          "bottom_origin_bbox": [
+            242.156,
+            405.447,
+            251.247,
+            405.447
+          ],
+          "bounds_status": "inside_page",
+          "content_stream_offset": null,
+          "fill": false,
+          "geometry_status": "explicit_straight_path",
+          "id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:line1",
+          "kind": "line",
+          "linewidth": 0.398,
+          "mcid": null,
+          "path": [
+            [
+              "m",
+              [
+                242.156,
+                386.553
+              ]
+            ],
+            [
+              "l",
+              [
+                251.247,
+                386.553
+              ]
+            ]
+          ],
+          "points": [
+            [
+              242.156,
+              386.553
+            ],
+            [
+              251.247,
+              386.553
+            ]
+          ],
+          "stroke": true,
+          "tag": null,
+          "visibility": "not_verified; clipping/occlusion not applied"
+        }
+      ],
+      "region": "log_eq2",
+      "rule_proxies": [
+        {
+          "basis": "explicit native straight segment",
+          "bbox": [
+            242.156,
+            386.553,
+            251.247,
+            386.553
+          ],
+          "endpoints": [
+            [
+              242.156,
+              386.553
+            ],
+            [
+              251.247,
+              386.553
+            ]
+          ],
+          "id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:line1:segment0",
+          "primitive_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:line1"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "bbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "cropbox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "height": 792,
+        "initial_doctop": 2376,
+        "mediabox": [
+          0,
+          0,
+          612,
+          792
+        ],
+        "pdfminer_layout_bbox": [
+          0,
+          0,
+          612.0,
+          792.0
+        ],
+        "raw_cropbox": null,
+        "raw_mediabox": [
+          0.0,
+          0.0,
+          612.0,
+          792.0
+        ],
+        "raw_rotation": 0.0,
+        "rotation": 0,
+        "user_unit": 1.0,
+        "width": 612
+      },
+      "page": 4,
+      "pdf_sha256": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060",
+      "primitives": [
+        {
+          "backend_index": 2,
+          "bbox": [
+            191.99,
+            570.3489999999999,
+            308.108,
+            570.3489999999999
+          ],
+          "bottom_origin_bbox": [
+            191.99,
+            221.651,
+            308.108,
+            221.651
+          ],
+          "bounds_status": "inside_page",
+          "content_stream_offset": null,
+          "fill": false,
+          "geometry_status": "explicit_straight_path",
+          "id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:line2",
+          "kind": "line",
+          "linewidth": 0.398,
+          "mcid": null,
+          "path": [
+            [
+              "m",
+              [
+                191.99,
+                570.3489999999999
+              ]
+            ],
+            [
+              "l",
+              [
+                308.108,
+                570.3489999999999
+              ]
+            ]
+          ],
+          "points": [
+            [
+              191.99,
+              570.3489999999999
+            ],
+            [
+              308.108,
+              570.3489999999999
+            ]
+          ],
+          "stroke": true,
+          "tag": null,
+          "visibility": "not_verified; clipping/occlusion not applied"
+        }
+      ],
+      "region": "log_eq4",
+      "rule_proxies": [
+        {
+          "basis": "explicit native straight segment",
+          "bbox": [
+            191.99,
+            570.3489999999999,
+            308.108,
+            570.3489999999999
+          ],
+          "endpoints": [
+            [
+              191.99,
+              570.3489999999999
+            ],
+            [
+              308.108,
+              570.3489999999999
+            ]
+          ],
+          "id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:line2:segment0",
+          "primitive_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:line2"
+        }
+      ]
+    },
+    {
+      "geometry": {
+        "bbox": [
+          0.0,
+          0.0,
+          595.276,
+          790.866
+        ],
+        "cropbox": [
+          0.0,
+          0.0,
+          595.276,
+          790.866
+        ],
+        "height": 790.866,
+        "initial_doctop": 7908.66,
+        "mediabox": [
+          0.0,
+          0.0,
+          595.276,
+          790.866
+        ],
+        "pdfminer_layout_bbox": [
+          0,
+          0,
+          595.276,
+          790.866
+        ],
+        "raw_cropbox": [
+          0.0,
+          0.0,
+          595.276,
+          790.866
+        ],
+        "raw_mediabox": [
+          0.0,
+          0.0,
+          595.276,
+          790.866
+        ],
+        "raw_rotation": 0.0,
+        "rotation": 0,
+        "user_unit": 1.0,
+        "width": 595.276
+      },
+      "page": 11,
+      "pdf_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "primitives": [
+        {
+          "backend_index": 0,
+          "bbox": [
+            150.828002929,
+            431.3569917,
+            199.212001799,
+            431.6449917
+          ],
+          "bottom_origin_bbox": [
+            150.828002929,
+            359.2210083,
+            199.212001799,
+            359.5090083
+          ],
+          "bounds_status": "inside_page",
+          "content_stream_offset": null,
+          "fill": true,
+          "geometry_status": "explicit_straight_path",
+          "id": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:rect0",
+          "kind": "rect",
+          "linewidth": 0,
+          "mcid": null,
+          "path": [
+            [
+              "m",
+              [
+                150.828002929,
+                431.6449917
+              ]
+            ],
+            [
+              "l",
+              [
+                199.212001799,
+                431.6449917
+              ]
+            ],
+            [
+              "l",
+              [
+                199.212001799,
+                431.3569917
+              ]
+            ],
+            [
+              "l",
+              [
+                150.828002929,
+                431.3569917
+              ]
+            ],
+            [
+              "h"
+            ]
+          ],
+          "points": [
+            [
+              150.828002929,
+              431.6449917
+            ],
+            [
+              199.212001799,
+              431.6449917
+            ],
+            [
+              199.212001799,
+              431.3569917
+            ],
+            [
+              150.828002929,
+              431.3569917
+            ]
+          ],
+          "stroke": false,
+          "tag": null,
+          "visibility": "not_verified; clipping/occlusion not applied"
+        }
+      ],
+      "region": "nature_softmax",
+      "rule_proxies": [
+        {
+          "basis": "thin filled rectangle centerline hypothesis",
+          "bbox": [
+            150.828002929,
+            431.5009917,
+            199.212001799,
+            431.5009917
+          ],
+          "id": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:rect0:centerline",
+          "original_shape_bbox": [
+            150.828002929,
+            431.3569917,
+            199.212001799,
+            431.6449917
+          ],
+          "primitive_id": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:rect0"
+        }
+      ]
+    }
+  ],
+  "schema_version": "native-math-examples.1"
+}

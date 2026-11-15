@@ -1,0 +1,5989 @@
+{
+  "control_aggregate": {
+    "characters": {
+      "delimiters": {
+        "correct_ratio": 1.0,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 9,
+          "denominator": 9,
+          "incorrect": 0,
+          "missing": 0,
+          "unscoreable": 0
+        }
+      },
+      "equation_number": {
+        "correct_ratio": 1.0,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 2,
+          "denominator": 2,
+          "incorrect": 0,
+          "missing": 0,
+          "unscoreable": 0
+        }
+      },
+      "expression_parts": {
+        "correct_ratio": 1.0,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 3,
+          "denominator": 3,
+          "incorrect": 0,
+          "missing": 0,
+          "unscoreable": 0
+        }
+      },
+      "fractions": {
+        "correct_ratio": 0.0,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 0,
+          "denominator": 2,
+          "incorrect": 0,
+          "missing": 2,
+          "unscoreable": 0
+        }
+      },
+      "indices": {
+        "correct_ratio": 0.8235294117647058,
+        "incorrect_proposals": 3,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 14,
+          "denominator": 17,
+          "incorrect": 3,
+          "missing": 0,
+          "unscoreable": 0
+        }
+      },
+      "operators": {
+        "correct_ratio": 1.0,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 8,
+          "denominator": 8,
+          "incorrect": 0,
+          "missing": 0,
+          "unscoreable": 0
+        }
+      },
+      "summations": {
+        "correct_ratio": 0.0,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 0,
+          "denominator": 3,
+          "incorrect": 0,
+          "missing": 3,
+          "unscoreable": 0
+        }
+      }
+    },
+    "native_vectors": {
+      "delimiters": {
+        "correct_ratio": 1.0,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 9,
+          "denominator": 9,
+          "incorrect": 0,
+          "missing": 0,
+          "unscoreable": 0
+        }
+      },
+      "equation_number": {
+        "correct_ratio": 1.0,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 2,
+          "denominator": 2,
+          "incorrect": 0,
+          "missing": 0,
+          "unscoreable": 0
+        }
+      },
+      "expression_parts": {
+        "correct_ratio": 1.0,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 3,
+          "denominator": 3,
+          "incorrect": 0,
+          "missing": 0,
+          "unscoreable": 0
+        }
+      },
+      "fractions": {
+        "correct_ratio": 1.0,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 2,
+          "denominator": 2,
+          "incorrect": 0,
+          "missing": 0,
+          "unscoreable": 0
+        }
+      },
+      "indices": {
+        "correct_ratio": 0.8235294117647058,
+        "incorrect_proposals": 2,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 14,
+          "denominator": 17,
+          "incorrect": 2,
+          "missing": 1,
+          "unscoreable": 0
+        }
+      },
+      "operators": {
+        "correct_ratio": 1.0,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 8,
+          "denominator": 8,
+          "incorrect": 0,
+          "missing": 0,
+          "unscoreable": 0
+        }
+      },
+      "summations": {
+        "correct_ratio": 0.0,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 0,
+          "denominator": 3,
+          "incorrect": 0,
+          "missing": 3,
+          "unscoreable": 0
+        }
+      }
+    },
+    "retained_svg": {
+      "delimiters": {
+        "correct_ratio": 1.0,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 9,
+          "denominator": 9,
+          "incorrect": 0,
+          "missing": 0,
+          "unscoreable": 0
+        }
+      },
+      "equation_number": {
+        "correct_ratio": 1.0,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 2,
+          "denominator": 2,
+          "incorrect": 0,
+          "missing": 0,
+          "unscoreable": 0
+        }
+      },
+      "expression_parts": {
+        "correct_ratio": 1.0,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 3,
+          "denominator": 3,
+          "incorrect": 0,
+          "missing": 0,
+          "unscoreable": 0
+        }
+      },
+      "fractions": {
+        "correct_ratio": 1.0,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 2,
+          "denominator": 2,
+          "incorrect": 0,
+          "missing": 0,
+          "unscoreable": 0
+        }
+      },
+      "indices": {
+        "correct_ratio": 0.8235294117647058,
+        "incorrect_proposals": 2,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 14,
+          "denominator": 17,
+          "incorrect": 2,
+          "missing": 1,
+          "unscoreable": 0
+        }
+      },
+      "operators": {
+        "correct_ratio": 1.0,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 8,
+          "denominator": 8,
+          "incorrect": 0,
+          "missing": 0,
+          "unscoreable": 0
+        }
+      },
+      "summations": {
+        "correct_ratio": 0.0,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 0,
+          "denominator": 3,
+          "incorrect": 0,
+          "missing": 3,
+          "unscoreable": 0
+        }
+      }
+    }
+  },
+  "control_checks": [
+    {
+      "id": "log_eq2",
+      "native_equals_svg_grouping": true,
+      "original_only_reproduces_PR21": true,
+      "retained_svg_reproduces_PR21": true,
+      "rule_coordinate_differences": [
+        0.0
+      ]
+    },
+    {
+      "id": "log_eq4",
+      "native_equals_svg_grouping": true,
+      "original_only_reproduces_PR21": true,
+      "retained_svg_reproduces_PR21": true,
+      "rule_coordinate_differences": [
+        1.1368683772161603e-13
+      ]
+    }
+  ],
+  "generalization_aggregate": {
+    "characters": {
+      "delimiters": {
+        "correct_ratio": 0.5714285714285714,
+        "incorrect_proposals": 9,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 8,
+          "denominator": 14,
+          "incorrect": 0,
+          "missing": 6,
+          "unscoreable": 0
+        }
+      },
+      "equation_number": {
+        "correct_ratio": 0.6666666666666666,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 4,
+          "denominator": 6,
+          "incorrect": 2,
+          "missing": 0,
+          "unscoreable": 0
+        }
+      },
+      "expression_parts": {
+        "correct_ratio": 0.2857142857142857,
+        "incorrect_proposals": 16,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 2,
+          "denominator": 7,
+          "incorrect": 0,
+          "missing": 5,
+          "unscoreable": 0
+        }
+      },
+      "fractions": {
+        "correct_ratio": 0.0,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 0,
+          "denominator": 2,
+          "incorrect": 0,
+          "missing": 2,
+          "unscoreable": 0
+        }
+      },
+      "indices": {
+        "correct_ratio": 0.8,
+        "incorrect_proposals": 7,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 2,
+          "correct": 24,
+          "denominator": 30,
+          "incorrect": 3,
+          "missing": 1,
+          "unscoreable": 0
+        }
+      },
+      "operators": {
+        "correct_ratio": 0.7368421052631579,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 14,
+          "denominator": 19,
+          "incorrect": 0,
+          "missing": 5,
+          "unscoreable": 0
+        }
+      },
+      "summations": {
+        "correct_ratio": 0.5,
+        "incorrect_proposals": 1,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 1,
+          "denominator": 2,
+          "incorrect": 0,
+          "missing": 1,
+          "unscoreable": 0
+        }
+      }
+    },
+    "native_vectors": {
+      "delimiters": {
+        "correct_ratio": 0.7142857142857143,
+        "incorrect_proposals": 7,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 10,
+          "denominator": 14,
+          "incorrect": 0,
+          "missing": 4,
+          "unscoreable": 0
+        }
+      },
+      "equation_number": {
+        "correct_ratio": 0.6666666666666666,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 4,
+          "denominator": 6,
+          "incorrect": 2,
+          "missing": 0,
+          "unscoreable": 0
+        }
+      },
+      "expression_parts": {
+        "correct_ratio": 0.2857142857142857,
+        "incorrect_proposals": 16,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 2,
+          "denominator": 7,
+          "incorrect": 0,
+          "missing": 5,
+          "unscoreable": 0
+        }
+      },
+      "fractions": {
+        "correct_ratio": 0.5,
+        "incorrect_proposals": 2,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 1,
+          "denominator": 2,
+          "incorrect": 1,
+          "missing": 0,
+          "unscoreable": 0
+        }
+      },
+      "indices": {
+        "correct_ratio": 0.8,
+        "incorrect_proposals": 4,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 1,
+          "correct": 24,
+          "denominator": 30,
+          "incorrect": 3,
+          "missing": 2,
+          "unscoreable": 0
+        }
+      },
+      "operators": {
+        "correct_ratio": 0.7368421052631579,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 14,
+          "denominator": 19,
+          "incorrect": 0,
+          "missing": 5,
+          "unscoreable": 0
+        }
+      },
+      "summations": {
+        "correct_ratio": 1.0,
+        "incorrect_proposals": 0,
+        "ratio_reason": null,
+        "reference": {
+          "ambiguous": 0,
+          "correct": 2,
+          "denominator": 2,
+          "incorrect": 0,
+          "missing": 0,
+          "unscoreable": 0
+        }
+      }
+    }
+  },
+  "human_verified_count": 0,
+  "per_document": {
+    "attention": {
+      "characters": {
+        "delimiters": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 6,
+            "denominator": 6,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "equation_number": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 3,
+            "denominator": 3,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "expression_parts": {
+          "correct_ratio": 0.0,
+          "incorrect_proposals": 9,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 0,
+            "denominator": 3,
+            "incorrect": 0,
+            "missing": 3,
+            "unscoreable": 0
+          }
+        },
+        "fractions": {
+          "correct_ratio": 0.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 0,
+            "denominator": 1,
+            "incorrect": 0,
+            "missing": 1,
+            "unscoreable": 0
+          }
+        },
+        "indices": {
+          "correct_ratio": 0.7777777777777778,
+          "incorrect_proposals": 2,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 7,
+            "denominator": 9,
+            "incorrect": 2,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "operators": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 5,
+            "denominator": 5,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "summations": {
+          "correct_ratio": null,
+          "incorrect_proposals": 0,
+          "ratio_reason": "No reference component of this type; not a success",
+          "reference": {
+            "ambiguous": 0,
+            "correct": 0,
+            "denominator": 0,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        }
+      },
+      "native_vectors": {
+        "delimiters": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 6,
+            "denominator": 6,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "equation_number": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 3,
+            "denominator": 3,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "expression_parts": {
+          "correct_ratio": 0.0,
+          "incorrect_proposals": 9,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 0,
+            "denominator": 3,
+            "incorrect": 0,
+            "missing": 3,
+            "unscoreable": 0
+          }
+        },
+        "fractions": {
+          "correct_ratio": 0.0,
+          "incorrect_proposals": 2,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 0,
+            "denominator": 1,
+            "incorrect": 1,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "indices": {
+          "correct_ratio": 0.6666666666666666,
+          "incorrect_proposals": 2,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 6,
+            "denominator": 9,
+            "incorrect": 2,
+            "missing": 1,
+            "unscoreable": 0
+          }
+        },
+        "operators": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 5,
+            "denominator": 5,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "summations": {
+          "correct_ratio": null,
+          "incorrect_proposals": 0,
+          "ratio_reason": "No reference component of this type; not a success",
+          "reference": {
+            "ambiguous": 0,
+            "correct": 0,
+            "denominator": 0,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        }
+      }
+    },
+    "log2026": {
+      "characters": {
+        "delimiters": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 9,
+            "denominator": 9,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "equation_number": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 2,
+            "denominator": 2,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "expression_parts": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 3,
+            "denominator": 3,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "fractions": {
+          "correct_ratio": 0.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 0,
+            "denominator": 2,
+            "incorrect": 0,
+            "missing": 2,
+            "unscoreable": 0
+          }
+        },
+        "indices": {
+          "correct_ratio": 0.8235294117647058,
+          "incorrect_proposals": 3,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 14,
+            "denominator": 17,
+            "incorrect": 3,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "operators": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 8,
+            "denominator": 8,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "summations": {
+          "correct_ratio": 0.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 0,
+            "denominator": 3,
+            "incorrect": 0,
+            "missing": 3,
+            "unscoreable": 0
+          }
+        }
+      },
+      "native_vectors": {
+        "delimiters": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 9,
+            "denominator": 9,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "equation_number": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 2,
+            "denominator": 2,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "expression_parts": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 3,
+            "denominator": 3,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "fractions": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 2,
+            "denominator": 2,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "indices": {
+          "correct_ratio": 0.8235294117647058,
+          "incorrect_proposals": 2,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 14,
+            "denominator": 17,
+            "incorrect": 2,
+            "missing": 1,
+            "unscoreable": 0
+          }
+        },
+        "operators": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 8,
+            "denominator": 8,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "summations": {
+          "correct_ratio": 0.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 0,
+            "denominator": 3,
+            "incorrect": 0,
+            "missing": 3,
+            "unscoreable": 0
+          }
+        }
+      },
+      "retained_svg": {
+        "delimiters": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 9,
+            "denominator": 9,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "equation_number": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 2,
+            "denominator": 2,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "expression_parts": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 3,
+            "denominator": 3,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "fractions": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 2,
+            "denominator": 2,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "indices": {
+          "correct_ratio": 0.8235294117647058,
+          "incorrect_proposals": 2,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 14,
+            "denominator": 17,
+            "incorrect": 2,
+            "missing": 1,
+            "unscoreable": 0
+          }
+        },
+        "operators": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 8,
+            "denominator": 8,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "summations": {
+          "correct_ratio": 0.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 0,
+            "denominator": 3,
+            "incorrect": 0,
+            "missing": 3,
+            "unscoreable": 0
+          }
+        }
+      }
+    },
+    "tabpfn_nature_2025": {
+      "characters": {
+        "delimiters": {
+          "correct_ratio": 0.25,
+          "incorrect_proposals": 9,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 2,
+            "denominator": 8,
+            "incorrect": 0,
+            "missing": 6,
+            "unscoreable": 0
+          }
+        },
+        "equation_number": {
+          "correct_ratio": 0.3333333333333333,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 1,
+            "denominator": 3,
+            "incorrect": 2,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "expression_parts": {
+          "correct_ratio": 0.5,
+          "incorrect_proposals": 7,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 2,
+            "denominator": 4,
+            "incorrect": 0,
+            "missing": 2,
+            "unscoreable": 0
+          }
+        },
+        "fractions": {
+          "correct_ratio": 0.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 0,
+            "denominator": 1,
+            "incorrect": 0,
+            "missing": 1,
+            "unscoreable": 0
+          }
+        },
+        "indices": {
+          "correct_ratio": 0.8095238095238095,
+          "incorrect_proposals": 5,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 2,
+            "correct": 17,
+            "denominator": 21,
+            "incorrect": 1,
+            "missing": 1,
+            "unscoreable": 0
+          }
+        },
+        "operators": {
+          "correct_ratio": 0.6428571428571429,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 9,
+            "denominator": 14,
+            "incorrect": 0,
+            "missing": 5,
+            "unscoreable": 0
+          }
+        },
+        "summations": {
+          "correct_ratio": 0.5,
+          "incorrect_proposals": 1,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 1,
+            "denominator": 2,
+            "incorrect": 0,
+            "missing": 1,
+            "unscoreable": 0
+          }
+        }
+      },
+      "native_vectors": {
+        "delimiters": {
+          "correct_ratio": 0.5,
+          "incorrect_proposals": 7,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 4,
+            "denominator": 8,
+            "incorrect": 0,
+            "missing": 4,
+            "unscoreable": 0
+          }
+        },
+        "equation_number": {
+          "correct_ratio": 0.3333333333333333,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 1,
+            "denominator": 3,
+            "incorrect": 2,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "expression_parts": {
+          "correct_ratio": 0.5,
+          "incorrect_proposals": 7,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 2,
+            "denominator": 4,
+            "incorrect": 0,
+            "missing": 2,
+            "unscoreable": 0
+          }
+        },
+        "fractions": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 1,
+            "denominator": 1,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        },
+        "indices": {
+          "correct_ratio": 0.8571428571428571,
+          "incorrect_proposals": 2,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 1,
+            "correct": 18,
+            "denominator": 21,
+            "incorrect": 1,
+            "missing": 1,
+            "unscoreable": 0
+          }
+        },
+        "operators": {
+          "correct_ratio": 0.6428571428571429,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 9,
+            "denominator": 14,
+            "incorrect": 0,
+            "missing": 5,
+            "unscoreable": 0
+          }
+        },
+        "summations": {
+          "correct_ratio": 1.0,
+          "incorrect_proposals": 0,
+          "ratio_reason": null,
+          "reference": {
+            "ambiguous": 0,
+            "correct": 2,
+            "denominator": 2,
+            "incorrect": 0,
+            "missing": 0,
+            "unscoreable": 0
+          }
+        }
+      }
+    }
+  },
+  "predictions_sha256": "52a884dc514b5a8fd1ceec2a214443c62873a8e088df81f93f131e4df461a088",
+  "reference_sha256": "560c70740c3302224315f2a189bd396802341a0230caf685ff583254f5d9c486",
+  "references": "agent_visual_checked",
+  "regions": [
+    {
+      "ambiguities": {
+        "characters": [],
+        "native_vectors": [],
+        "retained_svg": []
+      },
+      "document": "log2026",
+      "fraction_memberships": {
+        "characters": [],
+        "native_vectors": [
+          {
+            "bar_bbox": [
+              242.156,
+              386.553,
+              251.247,
+              386.553
+            ],
+            "bar_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:line1:segment0",
+            "denominator": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1648"
+            ],
+            "kind": "fraction",
+            "numerator": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1647"
+            ]
+          }
+        ],
+        "retained_svg": [
+          {
+            "bar_bbox": [
+              242.156,
+              386.553,
+              251.247,
+              386.553
+            ],
+            "bar_id": "svg/144",
+            "denominator": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1648"
+            ],
+            "kind": "fraction",
+            "numerator": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1647"
+            ]
+          }
+        ]
+      },
+      "glyph_diagnostics": [
+        {
+          "basis": "Unique embedded font + static byte-to-name encoding + bounded glyph-name identity",
+          "declared_unicode": null,
+          "diagnostic_unicode": "∑",
+          "font_evidence": [
+            {
+              "base_font": "PXDIYZ+CMEX10",
+              "cmap_sha256": "d4c58527291d0b361586220f0244f9fe222a84b6756e0ad71c414479ade5e98b",
+              "font_subtype": "Type1",
+              "fontfile_sha256": "d422ec63652d05eb254a107fd96e741f599b0dd064a1414be7a882daebde3492",
+              "header_sha256": "eb81db656434391aa310bf13929de6b94ddf7ca5eb63bc8f2fc61a1f100d8c46",
+              "object_reference": [
+                296,
+                0
+              ],
+              "program_name": "PXDIYZ+CMEX10",
+              "resource_paths": [
+                "page/Resources/Font//F21"
+              ]
+            }
+          ],
+          "fontname": "PXDIYZ+CMEX10",
+          "glyph_name": "summationdisplay",
+          "native_code": 88,
+          "original_unicode": "(cid:88)",
+          "source_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1649",
+          "source_unicode_rewritten": false,
+          "status": "resolved_diagnostic"
+        },
+        {
+          "basis": "Unique embedded font + static byte-to-name encoding + bounded glyph-name identity",
+          "declared_unicode": null,
+          "diagnostic_unicode": "∑",
+          "font_evidence": [
+            {
+              "base_font": "PXDIYZ+CMEX10",
+              "cmap_sha256": "d4c58527291d0b361586220f0244f9fe222a84b6756e0ad71c414479ade5e98b",
+              "font_subtype": "Type1",
+              "fontfile_sha256": "d422ec63652d05eb254a107fd96e741f599b0dd064a1414be7a882daebde3492",
+              "header_sha256": "eb81db656434391aa310bf13929de6b94ddf7ca5eb63bc8f2fc61a1f100d8c46",
+              "object_reference": [
+                296,
+                0
+              ],
+              "program_name": "PXDIYZ+CMEX10",
+              "resource_paths": [
+                "page/Resources/Font//F21"
+              ]
+            }
+          ],
+          "fontname": "PXDIYZ+CMEX10",
+          "glyph_name": "summationdisplay",
+          "native_code": 88,
+          "original_unicode": "(cid:88)",
+          "source_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1659",
+          "source_unicode_rewritten": false,
+          "status": "resolved_diagnostic"
+        }
+      ],
+      "id": "log_eq2",
+      "original_units": 38,
+      "page": 4,
+      "proposed_indices": {
+        "characters": [
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1641"
+            ],
+            "kind": "superscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1642"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1651",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1652",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1653"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1654"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1655"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1656",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1657"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1658"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1660"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1665",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1666",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1667"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1668"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1648"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1650"
+            ]
+          }
+        ],
+        "native_vectors": [
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1641"
+            ],
+            "kind": "superscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1642"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1651",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1652",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1653"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1654"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1655"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1656",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1657"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1658"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1660"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1665",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1666",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1667"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1668"
+            ]
+          }
+        ],
+        "retained_svg": [
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1641"
+            ],
+            "kind": "superscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1642"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1651",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1652",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1653"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1654"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1655"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1656",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1657"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1658"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1660"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1665",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1666",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1667"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1668"
+            ]
+          }
+        ]
+      },
+      "role": "exposed_control",
+      "rules": [
+        {
+          "basis": "explicit native straight segment",
+          "bbox": [
+            242.156,
+            386.553,
+            251.247,
+            386.553
+          ],
+          "endpoints": [
+            [
+              242.156,
+              386.553
+            ],
+            [
+              251.247,
+              386.553
+            ]
+          ],
+          "id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:line1:segment0",
+          "primitive_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:line1"
+        }
+      ],
+      "scores": {
+        "characters": {
+          "delimiters": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 3,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              }
+            ],
+            "predictions": 3,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 3,
+              "denominator": 3,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "equation_number": {
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "expression_parts": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              }
+            ],
+            "predictions": 1,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "fractions": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "missing"
+              }
+            ],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 1,
+              "unscoreable": 0
+            }
+          },
+          "indices": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 4,
+            "incorrect_predictions": 2,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "incorrect"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "correct"
+              },
+              {
+                "reference_index": 4,
+                "status": "incorrect"
+              },
+              {
+                "reference_index": 5,
+                "status": "correct"
+              }
+            ],
+            "predictions": 6,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 4,
+              "denominator": 6,
+              "incorrect": 2,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "operators": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 2,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              }
+            ],
+            "predictions": 2,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 2,
+              "denominator": 2,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "summations": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "missing"
+              },
+              {
+                "reference_index": 1,
+                "status": "missing"
+              }
+            ],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 2,
+              "incorrect": 0,
+              "missing": 2,
+              "unscoreable": 0
+            }
+          }
+        },
+        "native_vectors": {
+          "delimiters": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 3,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              }
+            ],
+            "predictions": 3,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 3,
+              "denominator": 3,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "equation_number": {
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "expression_parts": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              }
+            ],
+            "predictions": 1,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "fractions": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              }
+            ],
+            "predictions": 1,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "indices": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 4,
+            "incorrect_predictions": 1,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "missing"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "correct"
+              },
+              {
+                "reference_index": 4,
+                "status": "incorrect"
+              },
+              {
+                "reference_index": 5,
+                "status": "correct"
+              }
+            ],
+            "predictions": 5,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 4,
+              "denominator": 6,
+              "incorrect": 1,
+              "missing": 1,
+              "unscoreable": 0
+            }
+          },
+          "operators": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 2,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              }
+            ],
+            "predictions": 2,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 2,
+              "denominator": 2,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "summations": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "missing"
+              },
+              {
+                "reference_index": 1,
+                "status": "missing"
+              }
+            ],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 2,
+              "incorrect": 0,
+              "missing": 2,
+              "unscoreable": 0
+            }
+          }
+        },
+        "retained_svg": {
+          "delimiters": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 3,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              }
+            ],
+            "predictions": 3,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 3,
+              "denominator": 3,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "equation_number": {
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "expression_parts": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              }
+            ],
+            "predictions": 1,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "fractions": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              }
+            ],
+            "predictions": 1,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "indices": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 4,
+            "incorrect_predictions": 1,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "missing"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "correct"
+              },
+              {
+                "reference_index": 4,
+                "status": "incorrect"
+              },
+              {
+                "reference_index": 5,
+                "status": "correct"
+              }
+            ],
+            "predictions": 5,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 4,
+              "denominator": 6,
+              "incorrect": 1,
+              "missing": 1,
+              "unscoreable": 0
+            }
+          },
+          "operators": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 2,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              }
+            ],
+            "predictions": 2,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 2,
+              "denominator": 2,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "summations": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "missing"
+              },
+              {
+                "reference_index": 1,
+                "status": "missing"
+              }
+            ],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 2,
+              "incorrect": 0,
+              "missing": 2,
+              "unscoreable": 0
+            }
+          }
+        }
+      },
+      "semantic_equivalence": null,
+      "semantic_reason": "Frozen geometric hypotheses; products, radicals, implicit multiplication and full math semantics not implemented",
+      "unresolved": {
+        "characters": [
+          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1649",
+          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1659"
+        ],
+        "native_vectors": [
+          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1649",
+          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1659"
+        ],
+        "retained_svg": [
+          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1649",
+          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1659"
+        ]
+      },
+      "unsupported_components": []
+    },
+    {
+      "ambiguities": {
+        "characters": [],
+        "native_vectors": [],
+        "retained_svg": []
+      },
+      "document": "log2026",
+      "fraction_memberships": {
+        "characters": [],
+        "native_vectors": [
+          {
+            "bar_bbox": [
+              191.99,
+              570.3489999999999,
+              308.108,
+              570.3489999999999
+            ],
+            "bar_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:line2:segment0",
+            "denominator": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2525",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2526",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2527",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2528"
+            ],
+            "kind": "fraction",
+            "numerator": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2504",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2505",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2506",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2507",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2508",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2509",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2510",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2511",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2512",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2513",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2514",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2515",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2516",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2517",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2518",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2519",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2520",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2521",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2522",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2523",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2524"
+            ]
+          }
+        ],
+        "retained_svg": [
+          {
+            "bar_bbox": [
+              191.99,
+              570.349,
+              308.108,
+              570.349
+            ],
+            "bar_id": "svg/243",
+            "denominator": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2525",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2526",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2527",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2528"
+            ],
+            "kind": "fraction",
+            "numerator": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2504",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2505",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2506",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2507",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2508",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2509",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2510",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2511",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2512",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2513",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2514",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2515",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2516",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2517",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2518",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2519",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2520",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2521",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2522",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2523",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2524"
+            ]
+          }
+        ]
+      },
+      "glyph_diagnostics": [
+        {
+          "basis": "Unique embedded font + static byte-to-name encoding + bounded glyph-name identity",
+          "declared_unicode": null,
+          "diagnostic_unicode": "∑",
+          "font_evidence": [
+            {
+              "base_font": "PXDIYZ+CMEX10",
+              "cmap_sha256": "d4c58527291d0b361586220f0244f9fe222a84b6756e0ad71c414479ade5e98b",
+              "font_subtype": "Type1",
+              "fontfile_sha256": "d422ec63652d05eb254a107fd96e741f599b0dd064a1414be7a882daebde3492",
+              "header_sha256": "eb81db656434391aa310bf13929de6b94ddf7ca5eb63bc8f2fc61a1f100d8c46",
+              "object_reference": [
+                296,
+                0
+              ],
+              "program_name": "PXDIYZ+CMEX10",
+              "resource_paths": [
+                "page/Resources/Font//F21"
+              ]
+            }
+          ],
+          "fontname": "PXDIYZ+CMEX10",
+          "glyph_name": "summationtext",
+          "native_code": 80,
+          "original_unicode": "(cid:80)",
+          "source_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2504",
+          "source_unicode_rewritten": false,
+          "status": "resolved_diagnostic"
+        }
+      ],
+      "id": "log_eq4",
+      "original_units": 60,
+      "page": 4,
+      "proposed_indices": {
+        "characters": [
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2505",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2506",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2507",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2509",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2510"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2508"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2504"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2505",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2506",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2507",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2509",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2510",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2508"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2515",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2516",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2517"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2518"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2496"
+            ],
+            "kind": "superscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2497"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2496"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2498",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2499"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2530"
+            ],
+            "kind": "superscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2531"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2536"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2537"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2542"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2543"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2545"
+            ],
+            "kind": "superscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2546"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2545"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2547",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2548"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2527"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2528"
+            ]
+          }
+        ],
+        "native_vectors": [
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2505",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2506",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2507",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2509",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2510"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2508"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2504"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2505",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2506",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2507",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2509",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2510",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2508"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2515",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2516",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2517"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2518"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2527"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2528"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2496"
+            ],
+            "kind": "superscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2497"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2496"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2498",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2499"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2530"
+            ],
+            "kind": "superscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2531"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2536"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2537"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2542"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2543"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2545"
+            ],
+            "kind": "superscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2546"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2545"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2547",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2548"
+            ]
+          }
+        ],
+        "retained_svg": [
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2505",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2506",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2507",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2509",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2510"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2508"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2504"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2505",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2506",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2507",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2509",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2510",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2508"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2515",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2516",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2517"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2518"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2527"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2528"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2496"
+            ],
+            "kind": "superscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2497"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2496"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2498",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2499"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2530"
+            ],
+            "kind": "superscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2531"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2536"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2537"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2542"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2543"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2545"
+            ],
+            "kind": "superscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2546"
+            ]
+          },
+          {
+            "base": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2545"
+            ],
+            "kind": "subscript",
+            "script": [
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2547",
+              "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2548"
+            ]
+          }
+        ]
+      },
+      "role": "exposed_control",
+      "rules": [
+        {
+          "basis": "explicit native straight segment",
+          "bbox": [
+            191.99,
+            570.3489999999999,
+            308.108,
+            570.3489999999999
+          ],
+          "endpoints": [
+            [
+              191.99,
+              570.3489999999999
+            ],
+            [
+              308.108,
+              570.3489999999999
+            ]
+          ],
+          "id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:line2:segment0",
+          "primitive_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:line2"
+        }
+      ],
+      "scores": {
+        "characters": {
+          "delimiters": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 6,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "correct"
+              },
+              {
+                "reference_index": 4,
+                "status": "correct"
+              },
+              {
+                "reference_index": 5,
+                "status": "correct"
+              }
+            ],
+            "predictions": 6,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 6,
+              "denominator": 6,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "equation_number": {
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "expression_parts": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 2,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              }
+            ],
+            "predictions": 2,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 2,
+              "denominator": 2,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "fractions": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "missing"
+              }
+            ],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 1,
+              "unscoreable": 0
+            }
+          },
+          "indices": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 10,
+            "incorrect_predictions": 1,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "incorrect"
+              },
+              {
+                "reference_index": 4,
+                "status": "correct"
+              },
+              {
+                "reference_index": 5,
+                "status": "correct"
+              },
+              {
+                "reference_index": 6,
+                "status": "correct"
+              },
+              {
+                "reference_index": 7,
+                "status": "correct"
+              },
+              {
+                "reference_index": 8,
+                "status": "correct"
+              },
+              {
+                "reference_index": 9,
+                "status": "correct"
+              },
+              {
+                "reference_index": 10,
+                "status": "correct"
+              }
+            ],
+            "predictions": 11,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 10,
+              "denominator": 11,
+              "incorrect": 1,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "operators": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 6,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "correct"
+              },
+              {
+                "reference_index": 4,
+                "status": "correct"
+              },
+              {
+                "reference_index": 5,
+                "status": "correct"
+              }
+            ],
+            "predictions": 6,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 6,
+              "denominator": 6,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "summations": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "missing"
+              }
+            ],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 1,
+              "unscoreable": 0
+            }
+          }
+        },
+        "native_vectors": {
+          "delimiters": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 6,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "correct"
+              },
+              {
+                "reference_index": 4,
+                "status": "correct"
+              },
+              {
+                "reference_index": 5,
+                "status": "correct"
+              }
+            ],
+            "predictions": 6,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 6,
+              "denominator": 6,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "equation_number": {
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "expression_parts": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 2,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              }
+            ],
+            "predictions": 2,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 2,
+              "denominator": 2,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "fractions": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              }
+            ],
+            "predictions": 1,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "indices": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 10,
+            "incorrect_predictions": 1,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "incorrect"
+              },
+              {
+                "reference_index": 4,
+                "status": "correct"
+              },
+              {
+                "reference_index": 5,
+                "status": "correct"
+              },
+              {
+                "reference_index": 6,
+                "status": "correct"
+              },
+              {
+                "reference_index": 7,
+                "status": "correct"
+              },
+              {
+                "reference_index": 8,
+                "status": "correct"
+              },
+              {
+                "reference_index": 9,
+                "status": "correct"
+              },
+              {
+                "reference_index": 10,
+                "status": "correct"
+              }
+            ],
+            "predictions": 11,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 10,
+              "denominator": 11,
+              "incorrect": 1,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "operators": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 6,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "correct"
+              },
+              {
+                "reference_index": 4,
+                "status": "correct"
+              },
+              {
+                "reference_index": 5,
+                "status": "correct"
+              }
+            ],
+            "predictions": 6,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 6,
+              "denominator": 6,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "summations": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "missing"
+              }
+            ],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 1,
+              "unscoreable": 0
+            }
+          }
+        },
+        "retained_svg": {
+          "delimiters": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 6,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "correct"
+              },
+              {
+                "reference_index": 4,
+                "status": "correct"
+              },
+              {
+                "reference_index": 5,
+                "status": "correct"
+              }
+            ],
+            "predictions": 6,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 6,
+              "denominator": 6,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "equation_number": {
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "expression_parts": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 2,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              }
+            ],
+            "predictions": 2,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 2,
+              "denominator": 2,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "fractions": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              }
+            ],
+            "predictions": 1,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "indices": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 10,
+            "incorrect_predictions": 1,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "incorrect"
+              },
+              {
+                "reference_index": 4,
+                "status": "correct"
+              },
+              {
+                "reference_index": 5,
+                "status": "correct"
+              },
+              {
+                "reference_index": 6,
+                "status": "correct"
+              },
+              {
+                "reference_index": 7,
+                "status": "correct"
+              },
+              {
+                "reference_index": 8,
+                "status": "correct"
+              },
+              {
+                "reference_index": 9,
+                "status": "correct"
+              },
+              {
+                "reference_index": 10,
+                "status": "correct"
+              }
+            ],
+            "predictions": 11,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 10,
+              "denominator": 11,
+              "incorrect": 1,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "operators": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 6,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "correct"
+              },
+              {
+                "reference_index": 4,
+                "status": "correct"
+              },
+              {
+                "reference_index": 5,
+                "status": "correct"
+              }
+            ],
+            "predictions": 6,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 6,
+              "denominator": 6,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "summations": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "missing"
+              }
+            ],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 1,
+              "unscoreable": 0
+            }
+          }
+        }
+      },
+      "semantic_equivalence": null,
+      "semantic_reason": "Frozen geometric hypotheses; products, radicals, implicit multiplication and full math semantics not implemented",
+      "unresolved": {
+        "characters": [
+          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2504"
+        ],
+        "native_vectors": [
+          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2504"
+        ],
+        "retained_svg": [
+          "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2504"
+        ]
+      },
+      "unsupported_components": []
+    },
+    {
+      "ambiguities": {
+        "characters": [],
+        "native_vectors": []
+      },
+      "document": "attention",
+      "fraction_memberships": {
+        "characters": [],
+        "native_vectors": [
+          {
+            "bar_bbox": [
+              366.379,
+              480.274,
+              376.466,
+              480.274
+            ],
+            "bar_id": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:line2:segment0",
+            "denominator": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c767",
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c768"
+            ],
+            "kind": "fraction",
+            "numerator": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c765"
+            ]
+          },
+          {
+            "bar_bbox": [
+              355.609,
+              478.282,
+              378.935,
+              478.282
+            ],
+            "bar_id": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:line1:segment0",
+            "denominator": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c766"
+            ],
+            "kind": "fraction",
+            "numerator": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c763",
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c764"
+            ]
+          }
+        ]
+      },
+      "glyph_diagnostics": [],
+      "id": "attn_fraction",
+      "original_units": 36,
+      "page": 4,
+      "proposed_indices": {
+        "characters": [
+          {
+            "base": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c764"
+            ],
+            "kind": "superscript",
+            "script": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c765"
+            ]
+          },
+          {
+            "base": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c767"
+            ],
+            "kind": "subscript",
+            "script": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c768"
+            ]
+          }
+        ],
+        "native_vectors": [
+          {
+            "base": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c767"
+            ],
+            "kind": "subscript",
+            "script": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c768"
+            ]
+          }
+        ]
+      },
+      "role": "new_component_evaluation",
+      "rules": [
+        {
+          "basis": "explicit native straight segment",
+          "bbox": [
+            355.609,
+            478.282,
+            378.935,
+            478.282
+          ],
+          "endpoints": [
+            [
+              355.609,
+              478.282
+            ],
+            [
+              378.935,
+              478.282
+            ]
+          ],
+          "id": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:line1:segment0",
+          "primitive_id": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:line1"
+        },
+        {
+          "basis": "explicit native straight segment",
+          "bbox": [
+            366.379,
+            480.274,
+            376.466,
+            480.274
+          ],
+          "endpoints": [
+            [
+              366.379,
+              480.274
+            ],
+            [
+              376.466,
+              480.274
+            ]
+          ],
+          "id": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:line2:segment0",
+          "primitive_id": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:line2"
+        }
+      ],
+      "scores": {
+        "characters": {
+          "delimiters": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 2,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              }
+            ],
+            "predictions": 2,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 2,
+              "denominator": 2,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "equation_number": {
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "expression_parts": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 3,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "missing"
+              }
+            ],
+            "predictions": 3,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 1,
+              "unscoreable": 0
+            }
+          },
+          "fractions": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "missing"
+              }
+            ],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 1,
+              "unscoreable": 0
+            }
+          },
+          "indices": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 2,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              }
+            ],
+            "predictions": 2,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 2,
+              "denominator": 2,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "operators": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              }
+            ],
+            "predictions": 1,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "summations": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 0,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          }
+        },
+        "native_vectors": {
+          "delimiters": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 2,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              }
+            ],
+            "predictions": 2,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 2,
+              "denominator": 2,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "equation_number": {
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "expression_parts": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 3,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "missing"
+              }
+            ],
+            "predictions": 3,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 1,
+              "unscoreable": 0
+            }
+          },
+          "fractions": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 2,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "incorrect"
+              }
+            ],
+            "predictions": 2,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 1,
+              "incorrect": 1,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "indices": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "missing"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              }
+            ],
+            "predictions": 1,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 2,
+              "incorrect": 0,
+              "missing": 1,
+              "unscoreable": 0
+            }
+          },
+          "operators": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              }
+            ],
+            "predictions": 1,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "summations": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 0,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          }
+        }
+      },
+      "semantic_equivalence": null,
+      "semantic_reason": "Frozen geometric hypotheses; products, radicals, implicit multiplication and full math semantics not implemented",
+      "unresolved": {
+        "characters": [],
+        "native_vectors": []
+      },
+      "unsupported_components": [
+        {
+          "kind": "radical",
+          "operator": [
+            "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c766"
+          ],
+          "radicand": [
+            "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c767",
+            "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p4:c768"
+          ]
+        }
+      ]
+    },
+    {
+      "ambiguities": {
+        "characters": [],
+        "native_vectors": []
+      },
+      "document": "attention",
+      "fraction_memberships": {
+        "characters": [],
+        "native_vectors": []
+      },
+      "glyph_diagnostics": [],
+      "id": "attn_heads",
+      "original_units": 42,
+      "page": 5,
+      "proposed_indices": {
+        "characters": [
+          {
+            "base": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c292"
+            ],
+            "kind": "subscript",
+            "script": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c293"
+            ]
+          },
+          {
+            "base": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c302"
+            ],
+            "kind": "subscript",
+            "script": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c303"
+            ]
+          },
+          {
+            "base": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c305"
+            ],
+            "kind": "superscript",
+            "script": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c306"
+            ]
+          }
+        ],
+        "native_vectors": [
+          {
+            "base": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c292"
+            ],
+            "kind": "subscript",
+            "script": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c293"
+            ]
+          },
+          {
+            "base": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c302"
+            ],
+            "kind": "subscript",
+            "script": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c303"
+            ]
+          },
+          {
+            "base": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c305"
+            ],
+            "kind": "superscript",
+            "script": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c306"
+            ]
+          }
+        ]
+      },
+      "role": "new_component_evaluation",
+      "rules": [],
+      "scores": {
+        "characters": {
+          "delimiters": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 2,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              }
+            ],
+            "predictions": 2,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 2,
+              "denominator": 2,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "equation_number": {
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "expression_parts": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 4,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "missing"
+              }
+            ],
+            "predictions": 4,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 1,
+              "unscoreable": 0
+            }
+          },
+          "fractions": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 0,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "indices": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 2,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "incorrect"
+              },
+              {
+                "reference_index": 1,
+                "status": "incorrect"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              }
+            ],
+            "predictions": 3,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 3,
+              "incorrect": 2,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "operators": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              }
+            ],
+            "predictions": 1,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "summations": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 0,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          }
+        },
+        "native_vectors": {
+          "delimiters": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 2,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              }
+            ],
+            "predictions": 2,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 2,
+              "denominator": 2,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "equation_number": {
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "expression_parts": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 4,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "missing"
+              }
+            ],
+            "predictions": 4,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 1,
+              "unscoreable": 0
+            }
+          },
+          "fractions": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 0,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "indices": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 2,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "incorrect"
+              },
+              {
+                "reference_index": 1,
+                "status": "incorrect"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              }
+            ],
+            "predictions": 3,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 3,
+              "incorrect": 2,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "operators": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              }
+            ],
+            "predictions": 1,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "summations": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 0,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          }
+        }
+      },
+      "semantic_equivalence": null,
+      "semantic_reason": "Frozen geometric hypotheses; products, radicals, implicit multiplication and full math semantics not implemented",
+      "unresolved": {
+        "characters": [],
+        "native_vectors": []
+      },
+      "unsupported_components": []
+    },
+    {
+      "ambiguities": {
+        "characters": [],
+        "native_vectors": []
+      },
+      "document": "attention",
+      "fraction_memberships": {
+        "characters": [],
+        "native_vectors": []
+      },
+      "glyph_diagnostics": [],
+      "id": "attn_ffn",
+      "original_units": 28,
+      "page": 5,
+      "proposed_indices": {
+        "characters": [
+          {
+            "base": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1954"
+            ],
+            "kind": "subscript",
+            "script": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1955"
+            ]
+          },
+          {
+            "base": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1957"
+            ],
+            "kind": "subscript",
+            "script": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1958"
+            ]
+          },
+          {
+            "base": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1960"
+            ],
+            "kind": "subscript",
+            "script": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1961"
+            ]
+          },
+          {
+            "base": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1963"
+            ],
+            "kind": "subscript",
+            "script": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1964"
+            ]
+          }
+        ],
+        "native_vectors": [
+          {
+            "base": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1954"
+            ],
+            "kind": "subscript",
+            "script": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1955"
+            ]
+          },
+          {
+            "base": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1957"
+            ],
+            "kind": "subscript",
+            "script": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1958"
+            ]
+          },
+          {
+            "base": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1960"
+            ],
+            "kind": "subscript",
+            "script": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1961"
+            ]
+          },
+          {
+            "base": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1963"
+            ],
+            "kind": "subscript",
+            "script": [
+              "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697:p5:c1964"
+            ]
+          }
+        ]
+      },
+      "role": "new_component_evaluation",
+      "rules": [],
+      "scores": {
+        "characters": {
+          "delimiters": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 2,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              }
+            ],
+            "predictions": 2,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 2,
+              "denominator": 2,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "equation_number": {
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "expression_parts": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 2,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "missing"
+              }
+            ],
+            "predictions": 2,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 1,
+              "unscoreable": 0
+            }
+          },
+          "fractions": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 0,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "indices": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 4,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "correct"
+              }
+            ],
+            "predictions": 4,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 4,
+              "denominator": 4,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "operators": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 3,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              }
+            ],
+            "predictions": 3,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 3,
+              "denominator": 3,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "summations": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 0,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          }
+        },
+        "native_vectors": {
+          "delimiters": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 2,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              }
+            ],
+            "predictions": 2,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 2,
+              "denominator": 2,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "equation_number": {
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "expression_parts": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 2,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "missing"
+              }
+            ],
+            "predictions": 2,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 1,
+              "unscoreable": 0
+            }
+          },
+          "fractions": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 0,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "indices": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 4,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "correct"
+              }
+            ],
+            "predictions": 4,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 4,
+              "denominator": 4,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "operators": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 3,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              }
+            ],
+            "predictions": 3,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 3,
+              "denominator": 3,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "summations": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 0,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          }
+        }
+      },
+      "semantic_equivalence": null,
+      "semantic_reason": "Frozen geometric hypotheses; products, radicals, implicit multiplication and full math semantics not implemented",
+      "unresolved": {
+        "characters": [],
+        "native_vectors": []
+      },
+      "unsupported_components": []
+    },
+    {
+      "ambiguities": {
+        "characters": [
+          {
+            "bases": [
+              [
+                "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4245"
+              ],
+              [
+                "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4243"
+              ],
+              [
+                "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4242"
+              ]
+            ],
+            "kind": "script_candidates",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4255"
+            ]
+          }
+        ],
+        "native_vectors": [
+          {
+            "bases": [
+              [
+                "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4245"
+              ],
+              [
+                "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4243"
+              ],
+              [
+                "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4242"
+              ]
+            ],
+            "kind": "script_candidates",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4255"
+            ]
+          }
+        ]
+      },
+      "document": "tabpfn_nature_2025",
+      "fraction_memberships": {
+        "characters": [],
+        "native_vectors": []
+      },
+      "glyph_diagnostics": [],
+      "id": "nature_weights",
+      "original_units": 18,
+      "page": 10,
+      "proposed_indices": {
+        "characters": [
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4241"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4250"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4242"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4253",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4254"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4240"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4251",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4256",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4257"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4240"
+            ],
+            "kind": "superscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4252"
+            ]
+          }
+        ],
+        "native_vectors": [
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4241"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4250"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4242"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4253",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4254"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4240"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4251",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4256",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4257"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4240"
+            ],
+            "kind": "superscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p10:c4252"
+            ]
+          }
+        ]
+      },
+      "role": "new_component_evaluation",
+      "rules": [],
+      "scores": {
+        "characters": {
+          "delimiters": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 0,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "equation_number": {
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "expression_parts": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              }
+            ],
+            "predictions": 1,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "fractions": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 0,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "indices": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 4,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "correct"
+              },
+              {
+                "reference_index": 4,
+                "status": "missing"
+              },
+              {
+                "reference_index": 5,
+                "status": "ambiguous"
+              }
+            ],
+            "predictions": 4,
+            "reference": {
+              "ambiguous": 1,
+              "correct": 4,
+              "denominator": 6,
+              "incorrect": 0,
+              "missing": 1,
+              "unscoreable": 0
+            }
+          },
+          "operators": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 2,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              }
+            ],
+            "predictions": 2,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 2,
+              "denominator": 2,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "summations": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              }
+            ],
+            "predictions": 1,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          }
+        },
+        "native_vectors": {
+          "delimiters": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 0,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "equation_number": {
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "expression_parts": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              }
+            ],
+            "predictions": 1,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "fractions": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 0,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "indices": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 4,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "correct"
+              },
+              {
+                "reference_index": 4,
+                "status": "missing"
+              },
+              {
+                "reference_index": 5,
+                "status": "ambiguous"
+              }
+            ],
+            "predictions": 4,
+            "reference": {
+              "ambiguous": 1,
+              "correct": 4,
+              "denominator": 6,
+              "incorrect": 0,
+              "missing": 1,
+              "unscoreable": 0
+            }
+          },
+          "operators": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 2,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              }
+            ],
+            "predictions": 2,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 2,
+              "denominator": 2,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "summations": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              }
+            ],
+            "predictions": 1,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          }
+        }
+      },
+      "semantic_equivalence": null,
+      "semantic_reason": "Frozen geometric hypotheses; products, radicals, implicit multiplication and full math semantics not implemented",
+      "unresolved": {
+        "characters": [],
+        "native_vectors": []
+      },
+      "unsupported_components": []
+    },
+    {
+      "ambiguities": {
+        "characters": [
+          {
+            "bases": [
+              [
+                "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1871"
+              ],
+              [
+                "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1887"
+              ],
+              [
+                "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1886"
+              ],
+              [
+                "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1881"
+              ],
+              [
+                "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1880"
+              ],
+              [
+                "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1885"
+              ]
+            ],
+            "kind": "script_candidates",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1895"
+            ]
+          }
+        ],
+        "native_vectors": []
+      },
+      "document": "tabpfn_nature_2025",
+      "fraction_memberships": {
+        "characters": [],
+        "native_vectors": [
+          {
+            "bar_bbox": [
+              150.828002929,
+              431.5009917,
+              199.212001799,
+              431.5009917
+            ],
+            "bar_id": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:rect0:centerline",
+            "denominator": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1867",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1873",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1874",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1884",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1885",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1886",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1887",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1888",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1889",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1896",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1897"
+            ],
+            "kind": "fraction",
+            "numerator": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1871",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1872",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1878",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1879",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1880",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1881",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1882",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1883",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1895"
+            ]
+          }
+        ]
+      },
+      "glyph_diagnostics": [],
+      "id": "nature_softmax",
+      "original_units": 32,
+      "page": 11,
+      "proposed_indices": {
+        "characters": [
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1869"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1894"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1873"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1897"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1867"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1896"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1867"
+            ],
+            "kind": "superscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1878"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1867"
+            ],
+            "kind": "superscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1879"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1867"
+            ],
+            "kind": "superscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1880"
+            ]
+          }
+        ],
+        "native_vectors": [
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1871"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1895"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1873"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1897"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1867"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1896"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1869"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c1894"
+            ]
+          }
+        ]
+      },
+      "role": "new_component_evaluation",
+      "rules": [
+        {
+          "basis": "thin filled rectangle centerline hypothesis",
+          "bbox": [
+            150.828002929,
+            431.5009917,
+            199.212001799,
+            431.5009917
+          ],
+          "id": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:rect0:centerline",
+          "original_shape_bbox": [
+            150.828002929,
+            431.3569917,
+            199.212001799,
+            431.6449917
+          ],
+          "primitive_id": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:rect0"
+        }
+      ],
+      "scores": {
+        "characters": {
+          "delimiters": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 3,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "missing"
+              },
+              {
+                "reference_index": 2,
+                "status": "missing"
+              }
+            ],
+            "predictions": 4,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 3,
+              "incorrect": 0,
+              "missing": 2,
+              "unscoreable": 0
+            }
+          },
+          "equation_number": {
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 1,
+              "incorrect": 1,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "expression_parts": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 1,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              }
+            ],
+            "predictions": 2,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "fractions": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "missing"
+              }
+            ],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 1,
+              "unscoreable": 0
+            }
+          },
+          "indices": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 3,
+            "incorrect_predictions": 3,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "ambiguous"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "correct"
+              }
+            ],
+            "predictions": 6,
+            "reference": {
+              "ambiguous": 1,
+              "correct": 3,
+              "denominator": 4,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "operators": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "missing"
+              },
+              {
+                "reference_index": 2,
+                "status": "missing"
+              }
+            ],
+            "predictions": 1,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 3,
+              "incorrect": 0,
+              "missing": 2,
+              "unscoreable": 0
+            }
+          },
+          "summations": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 1,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "missing"
+              }
+            ],
+            "predictions": 1,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 1,
+              "unscoreable": 0
+            }
+          }
+        },
+        "native_vectors": {
+          "delimiters": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 3,
+            "incorrect_predictions": 1,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              }
+            ],
+            "predictions": 4,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 3,
+              "denominator": 3,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "equation_number": {
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 1,
+              "incorrect": 1,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "expression_parts": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 1,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              }
+            ],
+            "predictions": 2,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "fractions": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              }
+            ],
+            "predictions": 1,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "indices": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 4,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "correct"
+              }
+            ],
+            "predictions": 4,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 4,
+              "denominator": 4,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "operators": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "missing"
+              },
+              {
+                "reference_index": 2,
+                "status": "missing"
+              }
+            ],
+            "predictions": 1,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 3,
+              "incorrect": 0,
+              "missing": 2,
+              "unscoreable": 0
+            }
+          },
+          "summations": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              }
+            ],
+            "predictions": 1,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 1,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          }
+        }
+      },
+      "semantic_equivalence": null,
+      "semantic_reason": "Frozen geometric hypotheses; products, radicals, implicit multiplication and full math semantics not implemented",
+      "unresolved": {
+        "characters": [],
+        "native_vectors": []
+      },
+      "unsupported_components": []
+    },
+    {
+      "ambiguities": {
+        "characters": [],
+        "native_vectors": []
+      },
+      "document": "tabpfn_nature_2025",
+      "fraction_memberships": {
+        "characters": [],
+        "native_vectors": []
+      },
+      "glyph_diagnostics": [],
+      "id": "nature_joint",
+      "original_units": 73,
+      "page": 11,
+      "proposed_indices": {
+        "characters": [
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6950"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6969"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6938"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6973",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6970"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6946"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6967"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6946"
+            ],
+            "kind": "superscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6968"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6946"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6971",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6972"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6975"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6993"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6976"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6994"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c7004"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c7000",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6995"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c7006"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c7001",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c7002",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c7003",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6996"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6977"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6997"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6974"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6991",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6998",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6999"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6974"
+            ],
+            "kind": "superscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6992"
+            ]
+          }
+        ],
+        "native_vectors": [
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6950"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6969"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6938"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6973",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6970"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6946"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6967"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6946"
+            ],
+            "kind": "superscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6968"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6946"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6971",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6972"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6975"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6993"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6976"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6994"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c7004"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c7000",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6995"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c7006"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c7001",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c7002",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c7003",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6996"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6977"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6997"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6974"
+            ],
+            "kind": "subscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6991",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6998",
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6999"
+            ]
+          },
+          {
+            "base": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6974"
+            ],
+            "kind": "superscript",
+            "script": [
+              "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6992"
+            ]
+          }
+        ]
+      },
+      "role": "new_component_evaluation",
+      "rules": [],
+      "scores": {
+        "characters": {
+          "delimiters": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 6,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "missing"
+              },
+              {
+                "reference_index": 2,
+                "status": "missing"
+              },
+              {
+                "reference_index": 3,
+                "status": "missing"
+              },
+              {
+                "reference_index": 4,
+                "status": "missing"
+              }
+            ],
+            "predictions": 7,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 5,
+              "incorrect": 0,
+              "missing": 4,
+              "unscoreable": 0
+            }
+          },
+          "equation_number": {
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 1,
+              "incorrect": 1,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "expression_parts": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 6,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "missing"
+              },
+              {
+                "reference_index": 1,
+                "status": "missing"
+              }
+            ],
+            "predictions": 6,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 2,
+              "incorrect": 0,
+              "missing": 2,
+              "unscoreable": 0
+            }
+          },
+          "fractions": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 0,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "indices": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 10,
+            "incorrect_predictions": 2,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "incorrect"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "correct"
+              },
+              {
+                "reference_index": 4,
+                "status": "correct"
+              },
+              {
+                "reference_index": 5,
+                "status": "correct"
+              },
+              {
+                "reference_index": 6,
+                "status": "correct"
+              },
+              {
+                "reference_index": 7,
+                "status": "correct"
+              },
+              {
+                "reference_index": 8,
+                "status": "correct"
+              },
+              {
+                "reference_index": 9,
+                "status": "correct"
+              },
+              {
+                "reference_index": 10,
+                "status": "correct"
+              }
+            ],
+            "predictions": 12,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 10,
+              "denominator": 11,
+              "incorrect": 1,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "operators": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 6,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "missing"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "correct"
+              },
+              {
+                "reference_index": 4,
+                "status": "missing"
+              },
+              {
+                "reference_index": 5,
+                "status": "missing"
+              },
+              {
+                "reference_index": 6,
+                "status": "correct"
+              },
+              {
+                "reference_index": 7,
+                "status": "correct"
+              },
+              {
+                "reference_index": 8,
+                "status": "correct"
+              }
+            ],
+            "predictions": 6,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 6,
+              "denominator": 9,
+              "incorrect": 0,
+              "missing": 3,
+              "unscoreable": 0
+            }
+          },
+          "summations": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 0,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          }
+        },
+        "native_vectors": {
+          "delimiters": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 1,
+            "incorrect_predictions": 6,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "missing"
+              },
+              {
+                "reference_index": 2,
+                "status": "missing"
+              },
+              {
+                "reference_index": 3,
+                "status": "missing"
+              },
+              {
+                "reference_index": 4,
+                "status": "missing"
+              }
+            ],
+            "predictions": 7,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 1,
+              "denominator": 5,
+              "incorrect": 0,
+              "missing": 4,
+              "unscoreable": 0
+            }
+          },
+          "equation_number": {
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 1,
+              "incorrect": 1,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "expression_parts": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 6,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "missing"
+              },
+              {
+                "reference_index": 1,
+                "status": "missing"
+              }
+            ],
+            "predictions": 6,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 2,
+              "incorrect": 0,
+              "missing": 2,
+              "unscoreable": 0
+            }
+          },
+          "fractions": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 0,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "indices": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 10,
+            "incorrect_predictions": 2,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "incorrect"
+              },
+              {
+                "reference_index": 1,
+                "status": "correct"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "correct"
+              },
+              {
+                "reference_index": 4,
+                "status": "correct"
+              },
+              {
+                "reference_index": 5,
+                "status": "correct"
+              },
+              {
+                "reference_index": 6,
+                "status": "correct"
+              },
+              {
+                "reference_index": 7,
+                "status": "correct"
+              },
+              {
+                "reference_index": 8,
+                "status": "correct"
+              },
+              {
+                "reference_index": 9,
+                "status": "correct"
+              },
+              {
+                "reference_index": 10,
+                "status": "correct"
+              }
+            ],
+            "predictions": 12,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 10,
+              "denominator": 11,
+              "incorrect": 1,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          },
+          "operators": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 6,
+            "incorrect_predictions": 0,
+            "items": [
+              {
+                "reference_index": 0,
+                "status": "correct"
+              },
+              {
+                "reference_index": 1,
+                "status": "missing"
+              },
+              {
+                "reference_index": 2,
+                "status": "correct"
+              },
+              {
+                "reference_index": 3,
+                "status": "correct"
+              },
+              {
+                "reference_index": 4,
+                "status": "missing"
+              },
+              {
+                "reference_index": 5,
+                "status": "missing"
+              },
+              {
+                "reference_index": 6,
+                "status": "correct"
+              },
+              {
+                "reference_index": 7,
+                "status": "correct"
+              },
+              {
+                "reference_index": 8,
+                "status": "correct"
+              }
+            ],
+            "predictions": 6,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 6,
+              "denominator": 9,
+              "incorrect": 0,
+              "missing": 3,
+              "unscoreable": 0
+            }
+          },
+          "summations": {
+            "comparison": "Exact original-ID sets; no partial-credit matching",
+            "correct_predictions": 0,
+            "incorrect_predictions": 0,
+            "items": [],
+            "predictions": 0,
+            "reference": {
+              "ambiguous": 0,
+              "correct": 0,
+              "denominator": 0,
+              "incorrect": 0,
+              "missing": 0,
+              "unscoreable": 0
+            }
+          }
+        }
+      },
+      "semantic_equivalence": null,
+      "semantic_reason": "Frozen geometric hypotheses; products, radicals, implicit multiplication and full math semantics not implemented",
+      "unresolved": {
+        "characters": [],
+        "native_vectors": []
+      },
+      "unsupported_components": [
+        {
+          "kind": "product",
+          "lower": [
+            "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6967",
+            "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6971",
+            "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6972"
+          ],
+          "operator": [
+            "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6946"
+          ],
+          "upper": [
+            "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6968"
+          ]
+        },
+        {
+          "kind": "product",
+          "lower": [
+            "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6991",
+            "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6998",
+            "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6999"
+          ],
+          "operator": [
+            "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6974"
+          ],
+          "upper": [
+            "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013:p11:c6992"
+          ]
+        }
+      ]
+    }
+  ],
+  "schema_version": "native-math-results.1"
+}

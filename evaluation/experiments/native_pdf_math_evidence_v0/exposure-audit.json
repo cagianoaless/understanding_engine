@@ -1,0 +1,60 @@
+{
+  "schema_version": "native-math-exposure.1",
+  "prior_annotation_files": [
+    {
+      "path": "evaluation/experiments/003/annotations.json",
+      "sha256": "4cd789c46848fe1cead051a46af4a8fc11d4e324d0dfbb4dc2f1b05fa158be3f"
+    },
+    {
+      "path": "evaluation/experiments/004/annotations.json",
+      "sha256": "107aeb2eb99d4a52931916818236fbe660b25ab35d273359324dc0be1a7cfd6b"
+    },
+    {
+      "path": "evaluation/experiments/005/annotations.json",
+      "sha256": "8add8847a4576d66585a27121800ddc342ca6df68129e94fdabf71ac5c9f0bd2"
+    },
+    {
+      "path": "evaluation/experiments/006b/annotations.json",
+      "sha256": "779b5a6b05d3d53729000ce98fb03791edc84b2f118cb5857a85b17ef01e60d5"
+    }
+  ],
+  "regions": [
+    {
+      "id": "attn_fraction",
+      "prior_boxes_on_page": 5,
+      "intersecting_prior_annotations": [],
+      "limitation": "Page/document previously processed or viewed; new formula component reference/evaluation, not a pristine held-out page"
+    },
+    {
+      "id": "attn_heads",
+      "prior_boxes_on_page": 0,
+      "intersecting_prior_annotations": [],
+      "limitation": "Page/document previously processed or viewed; new formula component reference/evaluation, not a pristine held-out page"
+    },
+    {
+      "id": "attn_ffn",
+      "prior_boxes_on_page": 0,
+      "intersecting_prior_annotations": [],
+      "limitation": "Page/document previously processed or viewed; new formula component reference/evaluation, not a pristine held-out page"
+    },
+    {
+      "id": "nature_weights",
+      "prior_boxes_on_page": 2,
+      "intersecting_prior_annotations": [],
+      "limitation": "Page/document previously processed or viewed; new formula component reference/evaluation, not a pristine held-out page"
+    },
+    {
+      "id": "nature_softmax",
+      "prior_boxes_on_page": 1,
+      "intersecting_prior_annotations": [],
+      "limitation": "Page/document previously processed or viewed; new formula component reference/evaluation, not a pristine held-out page"
+    },
+    {
+      "id": "nature_joint",
+      "prior_boxes_on_page": 1,
+      "intersecting_prior_annotations": [],
+      "limitation": "Page/document previously processed or viewed; new formula component reference/evaluation, not a pristine held-out page"
+    }
+  ],
+  "independent_human_verifications": 0
+}

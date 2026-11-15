@@ -1,0 +1,103 @@
+{
+  "schema_version": "native-math-regions.1",
+  "regions": [
+    {
+      "id": "log_eq2",
+      "document": "log2026",
+      "page": 4,
+      "bbox": [
+        200,
+        373,
+        506,
+        404
+      ],
+      "role": "exposed_control",
+      "parent_id": "eq2"
+    },
+    {
+      "id": "log_eq4",
+      "document": "log2026",
+      "page": 4,
+      "bbox": [
+        147,
+        551,
+        506,
+        584
+      ],
+      "role": "exposed_control",
+      "parent_id": "eq4"
+    },
+    {
+      "id": "attn_fraction",
+      "document": "attention",
+      "page": 4,
+      "bbox": [
+        218,
+        460,
+        506,
+        495
+      ],
+      "role": "new_component_evaluation"
+    },
+    {
+      "id": "attn_heads",
+      "document": "attention",
+      "page": 5,
+      "bbox": [
+        184,
+        140,
+        432,
+        160
+      ],
+      "role": "new_component_evaluation"
+    },
+    {
+      "id": "attn_ffn",
+      "document": "attention",
+      "page": 5,
+      "bbox": [
+        225,
+        563,
+        506,
+        583
+      ],
+      "role": "new_component_evaluation"
+    },
+    {
+      "id": "nature_weights",
+      "document": "tabpfn_nature_2025",
+      "page": 10,
+      "bbox": [
+        402,
+        106,
+        563,
+        138
+      ],
+      "role": "new_component_evaluation"
+    },
+    {
+      "id": "nature_softmax",
+      "document": "tabpfn_nature_2025",
+      "page": 11,
+      "bbox": [
+        117,
+        417,
+        296,
+        449
+      ],
+      "role": "new_component_evaluation"
+    },
+    {
+      "id": "nature_joint",
+      "document": "tabpfn_nature_2025",
+      "page": 11,
+      "bbox": [
+        357,
+        645,
+        562,
+        715
+      ],
+      "role": "new_component_evaluation"
+    }
+  ]
+}
