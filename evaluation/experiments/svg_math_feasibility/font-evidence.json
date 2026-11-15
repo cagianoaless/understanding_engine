@@ -1,0 +1,81 @@
+{
+  "glyphs": [
+    {
+      "cmap_sha256": "d4c58527291d0b361586220f0244f9fe222a84b6756e0ad71c414479ade5e98b",
+      "declared_unicode": null,
+      "font": "PXDIYZ+CMEX10",
+      "fontfile_sha256": "d422ec63652d05eb254a107fd96e741f599b0dd064a1414be7a882daebde3492",
+      "native_code": 80,
+      "native_glyph_name": "summationtext",
+      "original_unicode": "(cid:80)",
+      "resource": "/F21",
+      "source_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1440",
+      "status": "font_name_evidence_only; Unicode not rewritten"
+    },
+    {
+      "cmap_sha256": "d4c58527291d0b361586220f0244f9fe222a84b6756e0ad71c414479ade5e98b",
+      "declared_unicode": null,
+      "font": "PXDIYZ+CMEX10",
+      "fontfile_sha256": "d422ec63652d05eb254a107fd96e741f599b0dd064a1414be7a882daebde3492",
+      "native_code": 88,
+      "native_glyph_name": "summationdisplay",
+      "original_unicode": "(cid:88)",
+      "resource": "/F21",
+      "source_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1649",
+      "status": "font_name_evidence_only; Unicode not rewritten"
+    },
+    {
+      "cmap_sha256": "d4c58527291d0b361586220f0244f9fe222a84b6756e0ad71c414479ade5e98b",
+      "declared_unicode": null,
+      "font": "PXDIYZ+CMEX10",
+      "fontfile_sha256": "d422ec63652d05eb254a107fd96e741f599b0dd064a1414be7a882daebde3492",
+      "native_code": 88,
+      "native_glyph_name": "summationdisplay",
+      "original_unicode": "(cid:88)",
+      "resource": "/F21",
+      "source_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c1659",
+      "status": "font_name_evidence_only; Unicode not rewritten"
+    },
+    {
+      "cmap_sha256": "d4c58527291d0b361586220f0244f9fe222a84b6756e0ad71c414479ade5e98b",
+      "declared_unicode": null,
+      "font": "PXDIYZ+CMEX10",
+      "fontfile_sha256": "d422ec63652d05eb254a107fd96e741f599b0dd064a1414be7a882daebde3492",
+      "native_code": 88,
+      "native_glyph_name": "summationdisplay",
+      "original_unicode": "(cid:88)",
+      "resource": "/F21",
+      "source_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2189",
+      "status": "font_name_evidence_only; Unicode not rewritten"
+    },
+    {
+      "cmap_sha256": "d4c58527291d0b361586220f0244f9fe222a84b6756e0ad71c414479ade5e98b",
+      "declared_unicode": null,
+      "font": "PXDIYZ+CMEX10",
+      "fontfile_sha256": "d422ec63652d05eb254a107fd96e741f599b0dd064a1414be7a882daebde3492",
+      "native_code": 80,
+      "native_glyph_name": "summationtext",
+      "original_unicode": "(cid:80)",
+      "resource": "/F21",
+      "source_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c2504",
+      "status": "font_name_evidence_only; Unicode not rewritten"
+    },
+    {
+      "cmap_sha256": "d4c58527291d0b361586220f0244f9fe222a84b6756e0ad71c414479ade5e98b",
+      "declared_unicode": null,
+      "font": "PXDIYZ+CMEX10",
+      "fontfile_sha256": "d422ec63652d05eb254a107fd96e741f599b0dd064a1414be7a882daebde3492",
+      "native_code": 88,
+      "native_glyph_name": "summationdisplay",
+      "original_unicode": "(cid:88)",
+      "resource": "/F21",
+      "source_id": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060:p4:c3061",
+      "status": "font_name_evidence_only; Unicode not rewritten"
+    }
+  ],
+  "page": 4,
+  "pdf_sha256": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060",
+  "reason": "No generic Unicode recovery implemented; header names inspected as diagnostic evidence only",
+  "schema_version": "svg-math-font-evidence.1",
+  "semantic_recovery_score": null
+}
