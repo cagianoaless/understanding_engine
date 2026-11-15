@@ -1,0 +1,35 @@
+{
+  "schema_version": "native-math-inputs.1",
+  "base_commit": "4d05592122db216ff3a7c6d629ae38afdc0552e0",
+  "documents": [
+    {
+      "id": "log2026",
+      "pdf_sha256": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060",
+      "source_sha256": "3a7ecd8d346f9adead83be2b73ea270b1c8d90cb7e274fd15cd622569cf7366e",
+      "pdf_bytes": 1336567,
+      "source_bytes": 85089483
+    },
+    {
+      "id": "attention",
+      "source_sha256": "732cb726b4e41728d1ef5e2c2999a3f31cd27b67ef0c9534445bdd0f70dec936",
+      "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "pdf_bytes": 2215244,
+      "source_bytes": 29644580
+    },
+    {
+      "id": "tabpfn_nature_2025",
+      "source_sha256": "edf3316f02a88602aa6fd863be70c0ef790c28d2ce954456d39659fddffe92d6",
+      "pdf_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "pdf_bytes": 16957699,
+      "source_bytes": 82320899
+    }
+  ],
+  "retained_svg_rules": {
+    "sha256": "1f967851458fcbbb834830195adf106cf3a1b1991c08b082feffc6fc61b14b6a",
+    "registered_artifact": "analysis-reviewed/predictions.json",
+    "original_experiment": "PR21; only its retained rules are reused, no new SVG"
+  },
+  "regions_sha256": "76d7fa0149b1aa9551e6cda03766a7835e4d6d56504ca51ef8cc5e7b8c7006cf",
+  "reference_sha256": "560c70740c3302224315f2a189bd396802341a0230caf685ff583254f5d9c486",
+  "scope": "Development only; no independent human-reviewed references available; previous references unchanged"
+}
