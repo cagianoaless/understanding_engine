@@ -1,0 +1,597 @@
+{
+  "schema_version": "formula-gpu-agent-review.1",
+  "status": "agent_visual_checked",
+  "independent_human_verifications": 0,
+  "review_scope": "Local original frozen crop images and downloaded predictions only; not model inputs; not independent held-out validation. Correct means no observed mathematical content/grouping omission within the frozen formula region. Named-function font commands and math whitespace treated as presentation; bold vector identity is preserved as a requirement.",
+  "full_expression_rule": "Complete formula-only content and source-sensitive notation; generic common align* display wrapper allowed for every unchanged body. Incomplete native-stop output is null, not mathematical false. Exact glyph-star identity remains ambiguous and is not promoted by script attachment.",
+  "component_policy": "Enumerated core relations; ordinary scripts exclude sum limits, which have a separate denominator. Formula-core correctness never promotes surrounding prose or incomplete output to full correctness.",
+  "expressions": [
+    {
+      "id": "attn_fraction",
+      "status": "agent_visual_checked",
+      "human_verified": false,
+      "full_expression_correct": true,
+      "completion": "EOS_RETURNED",
+      "review_note": "Fraction, radical, transpose and d_k recovered. Named-function typography differs; no mathematical component error observed.",
+      "component_decisions": {
+        "fraction_membership": [
+          {
+            "component": "QK^T over sqrt(d_k)",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "radical_scope": [
+          {
+            "component": "sqrt scope d_k",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "ordinary_subscript_attachment": [
+          {
+            "component": "d subscript k",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "ordinary_superscript_attachment": [
+          {
+            "component": "K superscript T",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "summation_operators": [],
+        "summation_limit_attachment": [],
+        "delimiter_groups": [
+          {
+            "component": "Attention arguments",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "softmax arguments",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "font_sensitive_vector_glyphs": [],
+        "star_glyph_identity": []
+      }
+    },
+    {
+      "id": "attn_heads",
+      "status": "agent_visual_checked",
+      "human_verified": false,
+      "full_expression_correct": true,
+      "completion": "EOS_RETURNED",
+      "review_note": "Both visible head indices, ellipsis and W^O preserved. Named-identifier typography differs from reference.",
+      "component_decisions": {
+        "fraction_membership": [],
+        "radical_scope": [],
+        "ordinary_subscript_attachment": [
+          {
+            "component": "head subscript 1",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "head subscript h",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "ordinary_superscript_attachment": [
+          {
+            "component": "W superscript O",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "summation_operators": [],
+        "summation_limit_attachment": [],
+        "delimiter_groups": [
+          {
+            "component": "MultiHead arguments",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "Concat arguments",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "font_sensitive_vector_glyphs": [],
+        "star_glyph_identity": []
+      }
+    },
+    {
+      "id": "attn_ffn",
+      "status": "agent_visual_checked",
+      "human_verified": false,
+      "full_expression_correct": true,
+      "completion": "EOS_RETURNED",
+      "review_note": "All four affine-term indices, max argument grouping and operator order preserved.",
+      "component_decisions": {
+        "fraction_membership": [],
+        "radical_scope": [],
+        "ordinary_subscript_attachment": [
+          {
+            "component": "W subscript 1",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "b subscript 1",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "W subscript 2",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "b subscript 2",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "ordinary_superscript_attachment": [],
+        "summation_operators": [],
+        "summation_limit_attachment": [],
+        "delimiter_groups": [
+          {
+            "component": "FFN argument",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "max arguments",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "font_sensitive_vector_glyphs": [],
+        "star_glyph_identity": []
+      }
+    },
+    {
+      "id": "attn_positional",
+      "status": "agent_visual_checked",
+      "human_verified": false,
+      "full_expression_correct": true,
+      "completion": "EOS_RETURNED",
+      "review_note": "Both lines and index offsets reconstructed. Raw body uses & and line break without an environment; the common align* rendering context supplies display structure, not missing math.",
+      "component_decisions": {
+        "fraction_membership": [],
+        "radical_scope": [],
+        "ordinary_subscript_attachment": [
+          {
+            "component": "PE subscript (pos,2i)",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "d subscript model first",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "PE subscript (pos,2i+1)",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "d subscript model second",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "ordinary_superscript_attachment": [
+          {
+            "component": "10000 exponent 2i/d_model first",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "10000 exponent 2i/d_model second",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "summation_operators": [],
+        "summation_limit_attachment": [],
+        "delimiter_groups": [
+          {
+            "component": "first PE index group",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "first sin arguments",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "second PE index group",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "second cos arguments",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "font_sensitive_vector_glyphs": [],
+        "star_glyph_identity": []
+      }
+    },
+    {
+      "id": "nature_weights",
+      "status": "agent_visual_checked",
+      "human_verified": false,
+      "full_expression_correct": false,
+      "completion": "EOS_RETURNED",
+      "review_note": "Greek alpha agrees with source character p10:c4242 and the earlier component reference; frozen reference LaTeX erroneously uses Latin a. Both vector x glyphs lose bold notation. Alpha-string disagreement is not a model substitution.",
+      "component_decisions": {
+        "fraction_membership": [],
+        "radical_scope": [],
+        "ordinary_subscript_attachment": [
+          {
+            "component": "x subscript i",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "coefficient subscript ij",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "x subscript j",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "ordinary_superscript_attachment": [
+          {
+            "component": "x_j superscript star",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "summation_operators": [
+          {
+            "component": "sum j=1..M",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "summation_limit_attachment": [
+          {
+            "component": "lower j=1",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "upper M",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "delimiter_groups": [],
+        "font_sensitive_vector_glyphs": [
+          {
+            "component": "left x_i",
+            "decision": "incorrect",
+            "reason": "bold vector glyph rendered as ordinary math x"
+          },
+          {
+            "component": "right x_j",
+            "decision": "incorrect",
+            "reason": "bold vector glyph rendered as ordinary math x"
+          }
+        ],
+        "star_glyph_identity": [],
+        "reference_conflict": [
+          {
+            "component": "coefficient alpha",
+            "decision": "unscoreable",
+            "reason": "Frozen formula LaTeX a conflicts with earlier native source character/reference alpha; frozen reference unchanged."
+          }
+        ]
+      }
+    },
+    {
+      "id": "nature_softmax",
+      "status": "agent_visual_checked",
+      "human_verified": false,
+      "full_expression_correct": false,
+      "completion": "EOS_RETURNED",
+      "review_note": "Fraction, sum index and z indices correct; bold vector x becomes ordinary x. Spacing around final comma is harmless.",
+      "component_decisions": {
+        "fraction_membership": [
+          {
+            "component": "exp(z_i/T) over sum_j exp(z_j/T)",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "radical_scope": [],
+        "ordinary_subscript_attachment": [
+          {
+            "component": "y subscript i",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "z subscript i",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "z subscript j",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "ordinary_superscript_attachment": [],
+        "summation_operators": [
+          {
+            "component": "sum_j",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "summation_limit_attachment": [
+          {
+            "component": "lower j",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "delimiter_groups": [
+          {
+            "component": "probability arguments and conditional bar",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "numerator exp arguments",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "denominator exp arguments",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "font_sensitive_vector_glyphs": [
+          {
+            "component": "conditional vector x",
+            "decision": "incorrect",
+            "reason": "bold vector glyph rendered as ordinary math x"
+          }
+        ],
+        "star_glyph_identity": []
+      }
+    },
+    {
+      "id": "log_eq2",
+      "status": "agent_visual_checked",
+      "human_verified": false,
+      "full_expression_correct": null,
+      "completion": "INCOMPLETE_NATIVE_REPETITION_STOP",
+      "review_note": "Visible formula core relationships preserved, but generation adds repetitive intertext and stops via the native repetition stopper without EOS. Cleaned result has an unclosed group. Full-expression correctness remains null for this incomplete return.",
+      "component_decisions": {
+        "fraction_membership": [
+          {
+            "component": "1 over N",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "radical_scope": [],
+        "ordinary_subscript_attachment": [
+          {
+            "component": "n subscript xy",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "ordinary_superscript_attachment": [
+          {
+            "component": "A superscript star",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "summation_operators": [
+          {
+            "component": "sum_x first",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "sum_x second",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "summation_limit_attachment": [
+          {
+            "component": "lower x first sum",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "lower x second sum",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "delimiter_groups": [
+          {
+            "component": "A argument",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "p(x)",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "conditional p(y|x)",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "font_sensitive_vector_glyphs": [],
+        "star_glyph_identity": [
+          {
+            "component": "A superscript star",
+            "decision": "ambiguous",
+            "reason": "star versus asterisk presentation is not resolved as exact glyph equivalence; superscript attachment is separately supported"
+          }
+        ]
+      }
+    },
+    {
+      "id": "log_eq4",
+      "status": "agent_visual_checked",
+      "human_verified": false,
+      "full_expression_correct": false,
+      "completion": "EOS_RETURNED",
+      "review_note": "Both formula parts and conditional-sum domain are visible, but output also includes surrounding prose and hallucinated prose fragments, with an unclosed intertext group despite EOS. Not a usable formula-only expression.",
+      "component_decisions": {
+        "fraction_membership": [
+          {
+            "component": "constrained weighted max sum over (1-sigma_phi)",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "radical_scope": [],
+        "ordinary_subscript_attachment": [
+          {
+            "component": "A subscript ns first",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "n subscript x within sum domain",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "sigma subscript phi denominator",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "sigma subscript phi first RHS term",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "sigma subscript phi second RHS term",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "A subscript ns last",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "ordinary_superscript_attachment": [
+          {
+            "component": "A_ns superscript star first",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "A superscript star middle",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "A_ns superscript star last",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "summation_operators": [
+          {
+            "component": "sum over x:n_x>1",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "summation_limit_attachment": [
+          {
+            "component": "lower x:n_x>1",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "delimiter_groups": [
+          {
+            "component": "first A argument",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "p(x)",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "conditional p(y|x)",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "middle A argument",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "(1-sigma_phi)",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          },
+          {
+            "component": "last A argument",
+            "decision": "correct",
+            "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+          }
+        ],
+        "font_sensitive_vector_glyphs": [],
+        "star_glyph_identity": [
+          {
+            "component": "A_ns superscript star first",
+            "decision": "ambiguous",
+            "reason": "star versus asterisk presentation is not resolved as exact glyph equivalence; superscript attachment is separately supported"
+          },
+          {
+            "component": "A superscript star middle",
+            "decision": "ambiguous",
+            "reason": "star versus asterisk presentation is not resolved as exact glyph equivalence; superscript attachment is separately supported"
+          },
+          {
+            "component": "A_ns superscript star last",
+            "decision": "ambiguous",
+            "reason": "star versus asterisk presentation is not resolved as exact glyph equivalence; superscript attachment is separately supported"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "formula-t4-protocol.1",
+  "date": "2026-11-16",
+  "gpu_configuration_prospective": true,
+  "cpu_results_unchanged": true,
+  "session": "understanding-engine",
+  "create_new_session": false,
+  "dtype": "float16",
+  "batch_size": 1,
+  "max_new_tokens": 2048,
+  "temperature": 0,
+  "seed": 0,
+  "external_deadline_seconds": 180,
+  "checkpoint": "ecedbe111d15c2dc60bfd4a823cbe80127b58af4",
+  "optional_second_model_only_after_eight_completed": true,
+  "environment_only_correction_allowance": 1,
+  "quality_driven_retries": 0,
+  "frozen_files": {
+    "evaluation/experiments/formula_recognition_v0/references.json": "c58cd1467e1cd1bb8626d5e7e9f4c41b8e1e0a0f27793fb7ce1af9007f50b753",
+    "evaluation/experiments/formula_recognition_v0/selection.json": "66d3e94029a8331e37e502bd5e8d6edd69e3e32431b287274539359c52ec85c0",
+    "evaluation/experiments/formula_recognition_v0/runs/2026-11-15-cpu-recognition/crops-frozen.json": "e8f49f2b9fd66fb048b84c08992b889b3a8f34c6eb38edf58a49c78407743248",
+    "evaluation/experiments/formula_recognition_v0/runs/2026-11-15-cpu-recognition/scoring.py": "0bf7bc1c34c40c029c5713361e68d7d4ed3d5a50761afecfebc39ee1ca83d772"
+  },
+  "inference_code": {
+    "gpu_worker.py": "f2873341ebb9f6e27a958121a26893a8003bb6c4ee0c64e046903cef36533e56",
+    "gpu_control.py": "9c8f41d4d7e6ead831c92c4dfbed546f9e8d4664e2a6062bd09b2497a68ea149",
+    "acquire_model.py": "d7719e2cb8bda83e0f7d83b434bc52d6de2e5ed45302a058935526c474c7d55e",
+    "inference-inputs.json": "eedfe23582030848b1a7e09cdbbfd02e35f8b8bafbe36e1b358ac9252735e80f"
+  },
+  "scoring": "Reuse frozen scoring.compare exact/formatting(strip+line endings) and diagnostic components. Any visual mathematical adjudication kept explicit and agent-checked; tree agreement not semantic proof. No reference enters remote inputs.",
+  "complete_expression": "Source-crop visual adjudication of mathematical components and complete coverage; harmless typography distinct from wrong symbols. Generated strings retained unchanged.",
+  "local_cpu_caps": "Historical 7 GiB/12 GiB and Linux CPU measurements remain unchanged. This authorized remote GPU run reports remote storage separately; no local model/runtime acquisition."
+}

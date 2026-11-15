@@ -1,0 +1,24 @@
+paddlepaddle-gpu @ file:///content/understanding-engine-formula-gpu/pp-packages/paddlepaddle_gpu-3.3.1-cp313-cp313-linux_x86_64.whl --hash=sha256:dc920c514987a235ed1a54c6d2d3d82a9b8d8f056253a9fb80cc8fd2a176ac45
+paddleocr==3.7.0 --hash=sha256:c0f0a81ad4112727f30c6fcf986ac0ef6a120d31ee0991a01fae0357ee32d338
+paddlex==3.7.2 --hash=sha256:f1678bf650bbaccfd8f0d4e49d0ae631b4685c829fdae6e802ccd90d4fcb9a7f
+nvidia-cublas==13.0.2.14 --hash=sha256:0cf238ffdbe46c00cb9aa98e7bca745c223a5ca5a53e686ac8b3e5a08fe80d6c
+nvidia-cuda-runtime==13.0.88 --hash=sha256:422a38f7c739ecbdd3a4b6ec7ed0a1d74db43d8e9bc26685f3d845638922b178
+nvidia-cudnn-cu13==9.13.0.50 --hash=sha256:2150b4850725d30653ec3e365f0732e3e2e3eb8633cf3bd2d3117628dea8b4f9
+nvidia-nccl-cu13==2.28.3 --hash=sha256:9f093dd7b97ddc90ef654676173a0c301d2434c431f17aa324e9c00039afb4c7
+nvidia-nvjitlink==13.0.88 --hash=sha256:13a74f429e23b921c1109976abefacc69835f2f433ebd323d3946e11d804e47b
+opt-einsum==3.3.0 --hash=sha256:2455e59e3947d3c275477df7f5205b30635e266fe6dc300e3d9f9646bfcea147
+PyYAML==6.0.2 --hash=sha256:70b189594dbe54f75ab3a1acec5f1e3faa7e8cf2f1e08d9b561cb41b845f69d5
+numpy==2.3.5 --hash=sha256:11e06aa0af8c0f05104d56450d6093ee639e15f24ecf62d417329d06e522e017
+opencv-contrib-python==4.10.0.84 --hash=sha256:a261223db41f6e512d76deaf21c8fcfb4fbbcbc2de62ca7f74a05f2c9ee489ef
+aistudio_sdk==0.3.9 --hash=sha256:41621d052ddb7a58643438a7ca541f58ef0ab94a2acdfff0a71db81bf68dc027
+modelscope==1.40.3 --hash=sha256:a2d9e239e58de7c1162da4a54472defb98f4c076900dd7ebfed3370c694e2cb8
+modelscope-hub==0.7.1 --hash=sha256:1e41a686a57831c3d8176cc041f2825944fe16ea579a0dbc1cc90df4d42a42f5
+pypdfium2==5.15.2 --hash=sha256:dc31aea5b0fb9fefc9b537a65f4113980b2c40798445736a7e6565bc85161e37
+bce-python-sdk==0.9.79 --hash=sha256:71799ac8740505e0759d30873f6f1a478fa8f83aedf425d511f1419a5f30082e
+crc32c==2.9.post0 --hash=sha256:ca44675cf3afe5eae2f8c65faf7cceb4057a30d2b4aa9f883278393b0643f510
+pycryptodome==4.5.0 --hash=sha256:3afbe7ecd62357203a588d451c604a61af7d7c9d3f0aa0b792de0612cffb8f8d
+colorlog==6.12.0 --hash=sha256:30d392604e9110045a2c2aeefc27d7a017abbab63f3a8aee594eac0801df784e
+pyclipper==1.4.0 --hash=sha256:14c8bdb5a72004b721c4e6f448d2c2262d74a7f0c9e3076aeff41e564a92389f
+python-bidi==0.6.12 --hash=sha256:862d4c6035f9b75f86ba450d42bebf8cca1ed97a2badb07b5638877fc95bdc97
+ruamel.yaml==0.19.1 --hash=sha256:27592957fedf6e0b62f281e96effd28043345e0e66001f97683aa9a40c667c93
+ujson==6.1.0 --hash=sha256:b6f56bd474e726627b25d245c6c7c77f74c0cc36de6c08a49036b641936735e9

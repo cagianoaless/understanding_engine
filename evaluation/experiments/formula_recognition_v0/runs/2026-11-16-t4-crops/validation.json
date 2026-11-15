@@ -1,0 +1,25 @@
+{
+  "schema_version": "formula-gpu-validation.1",
+  "base_commit": "47c1e560719b2b4f601449f509ef674689b887ba",
+  "pre_existing_tracked_files": 525,
+  "pre_existing_byte_identical": true,
+  "offline_tests": {
+    "passed": 637,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 20.15
+  },
+  "local_test_command": "Existing compatible CPython3.11.13; uv run --frozen --offline --no-project --python INTERPRETER INTERPRETER -B -m pytest -q; no install/sync",
+  "ci": "Exact-head result recorded in PR after publication",
+  "inference_code_matches_pre_execution_freeze": true,
+  "all_eight_original_crop_hashes_verified": true,
+  "evaluation_reproduced_byte_for_byte": true,
+  "human_verifications": 0,
+  "formula_invocations": {
+    "codeformula": 8,
+    "pp_formulanet": 0
+  },
+  "full_document_detection": false,
+  "session_automatically_terminated": false,
+  "local_host_remaining_free_bytes": 12112019456
+}
