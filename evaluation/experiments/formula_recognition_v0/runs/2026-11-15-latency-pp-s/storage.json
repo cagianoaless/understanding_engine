@@ -1,0 +1,24 @@
+{
+  "schema_version": "formula-diagnostics-storage.1",
+  "cap_bytes": 7516192768,
+  "reserve_bytes": 12884901888,
+  "highest_sampled_inclusive_allocated_bytes": 6742237184,
+  "lowest_sampled_host_available_bytes": 13629808640,
+  "retained_allocated_bytes_at_publication": 6742237184,
+  "host_available_bytes_at_publication": 13629808640,
+  "includes_new_persistent_evidence": true,
+  "transient_peak_between_samples": "UNKNOWN",
+  "physical_allocation_caveat": "st_blocks with inode deduplication; no claim of exclusive APFS blocks. Guest files accounted through host VM backing allocation, not added again.",
+  "new_pp_package_payloads": 0,
+  "new_pp_model_payloads": 0,
+  "final_guest_free": [
+    {
+      "available_bytes": 2123157504,
+      "mount": "/"
+    },
+    {
+      "available_bytes": 1946140672,
+      "mount": "/var/lib/docker"
+    }
+  ]
+}

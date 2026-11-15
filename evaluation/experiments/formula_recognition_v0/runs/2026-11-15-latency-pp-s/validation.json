@@ -1,0 +1,13 @@
+{
+  "pre_existing_tracked_files": 503,
+  "byte_identical": true,
+  "worker_controller_match_pre_execution_freeze": true,
+  "offline_tests": {
+    "passed": 615,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 19.74
+  },
+  "ci": "See exact-head GitHub Actions result on PR; not inferred from local tests",
+  "no_production_dependency_or_historical_file_changes": true
+}

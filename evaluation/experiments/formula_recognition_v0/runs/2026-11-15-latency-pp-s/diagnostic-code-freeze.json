@@ -1,0 +1,10 @@
+{
+  "worker_sha256": "952d91c0d2dada6d01ce16975d5002b2c63e28a42a849d65a893bf5988f3fa1c",
+  "controller_sha256": "b38841f902b35e5898ba41a36031713a01aaf69dddad46de81f68ed97267bc1e",
+  "caps": [
+    64,
+    256
+  ],
+  "first_crop_sha256": "9b9b3cccafa6e482c591d1ad81c52c4d7daade04b5e63a730af286b8508c1e9d",
+  "historical_accuracy_run_unchanged": true
+}

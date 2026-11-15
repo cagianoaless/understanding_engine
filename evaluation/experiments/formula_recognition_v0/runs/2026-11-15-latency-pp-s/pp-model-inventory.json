@@ -1,0 +1,63 @@
+{
+  "repo": "PaddlePaddle/PP-FormulaNet-S",
+  "revision": "0572450e501be9eb1b1cdb7e00fccf4b22fab4df",
+  "declared_license": "apache-2.0",
+  "files": [
+    {
+      "file": ".gitattributes",
+      "bytes": 1575,
+      "expected_sha256": null,
+      "git_blob_sha1": "c48a31d8dce80bfbfe392212dc49792e212a6436",
+      "url": "https://huggingface.co/PaddlePaddle/PP-FormulaNet-S/resolve/0572450e501be9eb1b1cdb7e00fccf4b22fab4df/.gitattributes",
+      "payload_acquired": false,
+      "actual_sha256": null
+    },
+    {
+      "file": "README.md",
+      "bytes": 20262,
+      "expected_sha256": null,
+      "git_blob_sha1": "2662f8f5d72ca9f3f4a2e665f5f5fe60b2bfc59c",
+      "url": "https://huggingface.co/PaddlePaddle/PP-FormulaNet-S/resolve/0572450e501be9eb1b1cdb7e00fccf4b22fab4df/README.md",
+      "payload_acquired": true,
+      "actual_sha256": "e8d1abde69bf5f5f9b9ddfd3a913893846b5c24bff8e9028f3f8a82944ec48fc"
+    },
+    {
+      "file": "config.json",
+      "bytes": 3951671,
+      "expected_sha256": null,
+      "git_blob_sha1": "5aa130562f6d681806eb1fef68f9d8cf293c5458",
+      "url": "https://huggingface.co/PaddlePaddle/PP-FormulaNet-S/resolve/0572450e501be9eb1b1cdb7e00fccf4b22fab4df/config.json",
+      "payload_acquired": false,
+      "actual_sha256": null
+    },
+    {
+      "file": "inference.json",
+      "bytes": 504505,
+      "expected_sha256": null,
+      "git_blob_sha1": "c376ce2a7995d9719a4821cdd8b6abf831284bf5",
+      "url": "https://huggingface.co/PaddlePaddle/PP-FormulaNet-S/resolve/0572450e501be9eb1b1cdb7e00fccf4b22fab4df/inference.json",
+      "payload_acquired": false,
+      "actual_sha256": null
+    },
+    {
+      "file": "inference.pdiparams",
+      "bytes": 231675001,
+      "expected_sha256": "b6392296d16e2a9f414c0a751d7ccbd1bd9d8272b68aab72df1d3875f35a7489",
+      "git_blob_sha1": "4488ea940fa4029461077d2ff8fb507a05af07f7",
+      "url": "https://huggingface.co/PaddlePaddle/PP-FormulaNet-S/resolve/0572450e501be9eb1b1cdb7e00fccf4b22fab4df/inference.pdiparams",
+      "payload_acquired": false,
+      "actual_sha256": null
+    },
+    {
+      "file": "inference.yml",
+      "bytes": 2244559,
+      "expected_sha256": null,
+      "git_blob_sha1": "3c6daeb262ea43c9da2abf34365e342808837d0d",
+      "url": "https://huggingface.co/PaddlePaddle/PP-FormulaNet-S/resolve/0572450e501be9eb1b1cdb7e00fccf4b22fab4df/inference.yml",
+      "payload_acquired": false,
+      "actual_sha256": null
+    }
+  ],
+  "model_card_only_verified": true,
+  "weights_verified": false
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "formula-crop-comparison-results.1",
+  "reference_status": "agent_visual_checked",
+  "human_verified_count": 0,
+  "pp_selected": 8,
+  "pp_attempted": 0,
+  "pp_completed": 0,
+  "pp_unexecuted": 8,
+  "quality_scoreable": 0,
+  "mathematical_accuracy": null,
+  "codeformula_diagnostic_invocations": 1,
+  "codeformula_complete_diagnostic_returns": 0,
+  "codeformula_diagnostics_pooled_with_2048_accuracy": false,
+  "codeformula_vs_pp_mathematical_comparison": null,
+  "recommendation": "Stop CodeFormulaV2 tests on this pinned CPU stack; PP-FormulaNet-S remains unmeasured because the selected official runtime plans fail the storage gate. No quality winner or Formula Structure v0 justification.",
+  "reconstructed_images": null,
+  "images_reason": "No returned LaTeX; never render a reference as if it were a model prediction."
+}
