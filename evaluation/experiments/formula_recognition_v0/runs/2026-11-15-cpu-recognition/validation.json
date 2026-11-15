@@ -1,0 +1,28 @@
+{
+  "schema_version": "formula-continuation-validation.1",
+  "base_commit": "51ecf162eb23bc67271376c1dd6728d1b9dfed5c",
+  "preexisting_files_unchanged": 481,
+  "offline_tests": {
+    "passed": 594,
+    "failed": 0,
+    "skipped": 0,
+    "new_cases": 26,
+    "seconds": 19.88,
+    "command": "uv run --frozen --offline --no-project --python \"$UE_PYTHON\" \"$UE_PYTHON\" -B -m pytest -q",
+    "caveat": "No-project does not enforce frozen; existing interpreter and installed locked packages reused without resolution/sync/install"
+  },
+  "tests_sha256": "1570ae5f3435fed0c0d0083accd9bfbd2af421b6d669cda6bdd4735f5efa8930",
+  "test_logs_sha256": {
+    "full-tests-final.stdout.log": "23a7b32c8985d8eebc15457450d36e9d6dde83ff7ac8aeb318731ef99693d41c",
+    "full-tests-final.stderr.log": "d9814eb7c3607bcc3c971e7021efd8a5e8db85d6a52f0b5cc05f0a8e28132001"
+  },
+  "prediction_code_still_hash_frozen": true,
+  "neural_model_initializations": 1,
+  "predictor_calls": 1,
+  "generate_calls": 1,
+  "generate_returns": 0,
+  "subsequent_neural_calls": 0,
+  "old_blocked_result_preserved": true,
+  "production_contract_changes": false,
+  "inference_after_first_failure": false
+}

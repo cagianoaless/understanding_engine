@@ -1,0 +1,5 @@
+{"event": "neural_import_start", "elapsed": 0.2980307840043679}
+{"event": "model_initialization_start", "elapsed": 8.74341068699141}
+{"event": "model_initialization_success", "elapsed": 9.314849680988118, "seconds": 0.5713866880105343}
+{"event": "predictor_start", "elapsed": 9.334371428994928, "call": 1}
+{"event": "generate_start", "elapsed": 9.404326743999263, "call": 1}
