@@ -1,0 +1,24 @@
+{
+  "schema_version": "formula-diagnostic-policy.1",
+  "date": "2026-11-15",
+  "base_commit": "47505429c3e3b5e1713e91b0e0a85b9fded077cf",
+  "purpose": "Latency diagnostic plus separate PP-FormulaNet-S crop feasibility; not rerun of frozen 2048-token accuracy experiment",
+  "codeformula_caps": [
+    64,
+    256
+  ],
+  "second_only_if_first_returns": true,
+  "max_codeformula_calls": 2,
+  "host_reserve_bytes": 12884901888,
+  "inclusive_cap_bytes": 7516192768,
+  "container_memory_bytes": 4294967296,
+  "swap_bytes": 0,
+  "cpu_cores": 4,
+  "effective_threads": 4,
+  "external_deadline_seconds": 120,
+  "original_references_status": "agent_visual_checked",
+  "human_verifications": 0,
+  "end_to_end_detection_authorized": false,
+  "pp_candidate": "PaddlePaddle/PP-FormulaNet-S (not plus-S, L or alternative)",
+  "fatal_timeout_oom_stops_candidate": true
+}

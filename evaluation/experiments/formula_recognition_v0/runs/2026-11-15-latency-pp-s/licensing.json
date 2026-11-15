@@ -1,0 +1,20 @@
+{
+  "schema_version": "pp-formulanet-license-evidence.1",
+  "scope": "Publisher/source metadata, no binaries installed or redistributed",
+  "model_declared_license": "apache-2.0",
+  "model_card_url": "https://huggingface.co/PaddlePaddle/PP-FormulaNet-S/blob/0572450e501be9eb1b1cdb7e00fccf4b22fab4df/README.md",
+  "model_card_sha256": "e8d1abde69bf5f5f9b9ddfd3a913893846b5c24bff8e9028f3f8a82944ec48fc",
+  "packages": {
+    "paddlepaddle": "Apache Software License",
+    "paddleocr": "Apache License 2.0",
+    "paddlex": "Apache-2.0",
+    "modelscope": null,
+    "aiohttp": "Apache-2.0 AND MIT",
+    "numpy": "BSD-3-Clause core; bundled third-party terms also present in publisher metadata; applicability requires artifact inspection",
+    "opencv-contrib-python": "Apache 2.0"
+  },
+  "code_sources": "Versioned official PaddleOCR/PaddleX sources carry Apache-2.0 license headers; hashes and resolved commits recorded separately",
+  "private_local_use_assessment": "No material restriction identified in the declared Apache model/framework licenses; not exhaustive legal clearance",
+  "bundled_native_and_transitive_license_clearance": "UNKNOWN; whole package payloads and complete closure not acquired because storage admission already fails",
+  "licenses_are_not_inferred_from_package_names": true
+}

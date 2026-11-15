@@ -1,0 +1,23 @@
+[
+  {
+    "repository": "PaddlePaddle/PaddlePaddle",
+    "tag": "v3.3.1",
+    "commit": null,
+    "status": "UNKNOWN",
+    "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/commits/commits#get-a-commit\",\"status\":\"404\"}"
+  },
+  {
+    "repository": "PaddlePaddle/PaddleOCR",
+    "tag": "v3.7.0",
+    "commit": "b03f46425e8ff4442b268ce449e3eef758146cd4",
+    "status": "resolved",
+    "error": null
+  },
+  {
+    "repository": "PaddlePaddle/PaddleX",
+    "tag": "v3.7.2",
+    "commit": "ffb64904d23708863ff5b8da312a5cbd52a7f462",
+    "status": "resolved",
+    "error": null
+  }
+]
