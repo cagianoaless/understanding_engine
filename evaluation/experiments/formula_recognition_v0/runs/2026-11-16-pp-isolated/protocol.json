@@ -1,0 +1,37 @@
+{
+  "schema_version": "pp-isolated-protocol.1",
+  "base_commit": "09c90958f7c25d4ce03644a6693147d46c6fe18e",
+  "environment_corrections_allowed": 1,
+  "system_site_packages": false,
+  "torch_visible_allowed": false,
+  "library_path_hacks": false,
+  "source_or_binary_patches": false,
+  "reference_inputs_uploaded": false,
+  "inference": {
+    "model_name": "PP-FormulaNet-S",
+    "device": "gpu:0",
+    "batch_size": 1,
+    "enable_hpi": false,
+    "use_tensorrt": false,
+    "precision": "fp32",
+    "enable_mkldnn": false,
+    "cpu_threads": 4,
+    "preprocessing": "Unmodified official pinned inference.yml and PaddleX 3.7.2 preprocessing; no crop or settings tuning",
+    "external_timeout_seconds": 180
+  },
+  "frozen_files_sha256": {
+    "evaluation/experiments/formula_recognition_v0/references.json": "c58cd1467e1cd1bb8626d5e7e9f4c41b8e1e0a0f27793fb7ce1af9007f50b753",
+    "evaluation/experiments/formula_recognition_v0/runs/2026-11-16-t4-crops/inference-inputs.json": "eedfe23582030848b1a7e09cdbbfd02e35f8b8bafbe36e1b358ac9252735e80f"
+  },
+  "preserved_codeformula_predictions_sha256": "33c8fc9db60e84fb88128db0ffbe39cf13a3561db1535e34e2b87fa90fe4784e",
+  "preserved_codeformula_results_sha256": "3c2672461013b6ddcfcaffe83d09c62ded029c6c144d575800eefac63900ca76",
+  "prior_agent_criteria_sha256": "e380d9ac6d7ae785e25c1c9f8ab21654116d6841a8c5f931a43c46f804ecd890",
+  "quality_policy": "Same eight-image denominator, unchanged frozen spelling comparison and prior source-review criteria. Incomplete remains null. Alpha reference conflict unscoreable; never corrected silently. Named-identifier grouping audited separately from visual reconstruction. Neither model supplies authoritative source text/AST.",
+  "inference_code_sha256": {
+    "pp_worker.py": "d7db96049dee7710eaa04b5eb9bff3e7a141c0d584faa79f25a07d7ee56d9856",
+    "pp_control.py": "bef2b1e2aa0d4a11c232d7c101d8ab89f1da312eda107debca24922bde928507",
+    "acquire.py": "6bf784c2f04d7b1ae0e7c70cd5ad2d3c915bedfe737e0e3d9734042fc17d45aa",
+    "inputs.json": "9f69814175f6e5e07a5c6454842f2ebbcd8b3e75be42ceca9025a4fb819d86d6"
+  },
+  "setup_source_sha256": "702fc12f6498442bf25715ca7a9a5c928e4b553e1e14f0c4736f8ed154dc784d"
+}

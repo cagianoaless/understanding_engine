@@ -1,0 +1,25 @@
+{
+  "schema_version": "pp-isolated-validation.1",
+  "base_commit": "09c90958f7c25d4ce03644a6693147d46c6fe18e",
+  "pre_existing_tracked_files": 546,
+  "pre_existing_byte_identical": true,
+  "remote_codeformula_recorded_files_unchanged": 70,
+  "codeformula_reruns": 0,
+  "offline_tests": {
+    "passed": 654,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 19.76
+  },
+  "ci": "Exact-head result is recorded on PR after publication",
+  "inference_code_matches_freeze": true,
+  "report_reproducible_byte_for_byte": true,
+  "clean_environment_corrections": 1,
+  "further_package_additions_or_model_retries": 0,
+  "candidate_calls": {
+    "target_preparation_attempts": 1,
+    "neural_predictor_invocations": 0
+  },
+  "essential_colab_evidence_downloaded": true,
+  "session_stopped": false
+}
