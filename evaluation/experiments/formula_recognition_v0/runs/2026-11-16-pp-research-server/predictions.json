@@ -1,0 +1,346 @@
+{
+  "schema_version": "pp-research-predictions.1",
+  "reference_inputs_uploaded": false,
+  "model": {
+    "repo": "PaddlePaddle/PP-FormulaNet-S",
+    "revision": "0572450e501be9eb1b1cdb7e00fccf4b22fab4df",
+    "declared_license": "apache-2.0",
+    "files": [
+      {
+        "file": "inference.json",
+        "bytes": 504505,
+        "expected_sha256": "2c8fc31a94d461a7325fe06e8cbaa5db6c5658c490f74d3d6116defe8c859d6f",
+        "git_blob_sha1": "c376ce2a7995d9719a4821cdd8b6abf831284bf5",
+        "url": "https://huggingface.co/PaddlePaddle/PP-FormulaNet-S/resolve/0572450e501be9eb1b1cdb7e00fccf4b22fab4df/inference.json"
+      },
+      {
+        "file": "inference.pdiparams",
+        "bytes": 231675001,
+        "expected_sha256": "b6392296d16e2a9f414c0a751d7ccbd1bd9d8272b68aab72df1d3875f35a7489",
+        "git_blob_sha1": "4488ea940fa4029461077d2ff8fb507a05af07f7",
+        "url": "https://huggingface.co/PaddlePaddle/PP-FormulaNet-S/resolve/0572450e501be9eb1b1cdb7e00fccf4b22fab4df/inference.pdiparams"
+      },
+      {
+        "file": "inference.yml",
+        "bytes": 2244559,
+        "expected_sha256": "08b21c2d255041008266b8fb947758e9731eafff191568af21da5a4b9c9dd5a0",
+        "git_blob_sha1": "3c6daeb262ea43c9da2abf34365e342808837d0d",
+        "url": "https://huggingface.co/PaddlePaddle/PP-FormulaNet-S/resolve/0572450e501be9eb1b1cdb7e00fccf4b22fab4df/inference.yml"
+      }
+    ]
+  },
+  "formulas": [
+    {
+      "id": "attn_fraction",
+      "status": "RETURNED",
+      "input": {
+        "id": "attn_fraction",
+        "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+        "page": 4,
+        "bbox": [
+          189.3976867756,
+          460.0679132,
+          420.38849780439995,
+          495.7921212
+        ],
+        "pixel_box": [
+          316,
+          768,
+          703,
+          829
+        ],
+        "image_dimensions": [
+          387,
+          61
+        ],
+        "sha256": "9b9b3cccafa6e482c591d1ad81c52c4d7daade04b5e63a730af286b8508c1e9d",
+        "bytes": 6763
+      },
+      "raw_latex": "\\operatorname{A t t e n t i o n}(Q,K,V)=\\operatorname{s o f t m a x}(\\frac{Q K^{T}}{\\sqrt{d_{k}}})V",
+      "native_result": {
+        "res": {
+          "input_path": "$RUN/crops/attn_fraction.png",
+          "page_index": null,
+          "rec_formula": "\\operatorname{A t t e n t i o n}(Q,K,V)=\\operatorname{s o f t m a x}(\\frac{Q K^{T}}{\\sqrt{d_{k}}})V"
+        }
+      },
+      "extra_cleanup_applied": false,
+      "model_revision": "0572450e501be9eb1b1cdb7e00fccf4b22fab4df",
+      "reference_inputs": false,
+      "prediction_file_sha256": "bc64c5d2851fbbe7fbdd6575e280d546b0f0bca7ec9772b10366ead32b9e65f9"
+    },
+    {
+      "id": "attn_heads",
+      "status": "RETURNED",
+      "input": {
+        "id": "attn_heads",
+        "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+        "page": 5,
+        "bbox": [
+          146.6233237324,
+          143.3833931999999,
+          451.23821108759995,
+          160.49464119999993
+        ],
+        "pixel_box": [
+          245,
+          239,
+          755,
+          269
+        ],
+        "image_dimensions": [
+          510,
+          30
+        ],
+        "sha256": "47b69fbe8d37f73f964829f93ddeee18558590be938988dd814b4932f19482d6",
+        "bytes": 6634
+      },
+      "raw_latex": "\\operatorname{M u l t i H e a d}(Q,K,V)=\\operatorname{C o n c a t}(\\operatorname{h e a d}_{1},...,\\operatorname{h e a d}_{\\operatorname{h}})W^{O}",
+      "native_result": {
+        "res": {
+          "input_path": "$RUN/crops/attn_heads.png",
+          "page_index": null,
+          "rec_formula": "\\operatorname{M u l t i H e a d}(Q,K,V)=\\operatorname{C o n c a t}(\\operatorname{h e a d}_{1},...,\\operatorname{h e a d}_{\\operatorname{h}})W^{O}"
+        }
+      },
+      "extra_cleanup_applied": false,
+      "model_revision": "0572450e501be9eb1b1cdb7e00fccf4b22fab4df",
+      "reference_inputs": false,
+      "prediction_file_sha256": "c433f214deafaee674482295f2457fe7901eac2c7ed7945d00023bed97dfb276"
+    },
+    {
+      "id": "attn_ffn",
+      "status": "RETURNED",
+      "input": {
+        "id": "attn_ffn",
+        "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+        "page": 5,
+        "bbox": [
+          198.51489576199998,
+          565.9463252959999,
+          412.9876833380001,
+          580.738736304
+        ],
+        "pixel_box": [
+          331,
+          945,
+          691,
+          971
+        ],
+        "image_dimensions": [
+          360,
+          26
+        ],
+        "sha256": "e8a1402331c55098bb935452f49b9fcc7319f6f45f13df1534a254294a48a669",
+        "bytes": 4703
+      },
+      "raw_latex": "\\operatorname{F F N}(x)=\\operatorname*{m a x}(0,x W_{1}+b_{1})W_{2}+b_{2}",
+      "native_result": {
+        "res": {
+          "input_path": "$RUN/crops/attn_ffn.png",
+          "page_index": null,
+          "rec_formula": "\\operatorname{F F N}(x)=\\operatorname*{m a x}(0,x W_{1}+b_{1})W_{2}+b_{2}"
+        }
+      },
+      "extra_cleanup_applied": false,
+      "model_revision": "0572450e501be9eb1b1cdb7e00fccf4b22fab4df",
+      "reference_inputs": false,
+      "prediction_file_sha256": "1277d97be6f874b32d7c0a529b6614588c743ab0f146a2c25af28ceaf192a95e"
+    },
+    {
+      "id": "attn_positional",
+      "status": "RETURNED",
+      "input": {
+        "id": "attn_positional",
+        "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+        "page": 6,
+        "bbox": [
+          196.7837580748,
+          330.6398932,
+          415.2166970652001,
+          371.10914119999995
+        ],
+        "pixel_box": [
+          328,
+          552,
+          695,
+          620
+        ],
+        "image_dimensions": [
+          367,
+          68
+        ],
+        "sha256": "a135ff6ec0d77318afc87cf24795f0bfeb1a212996077ad23c1638b1867648c4",
+        "bytes": 8142
+      },
+      "raw_latex": "\\begin{aligned}{P E_{(p o s,2i)}}&{{}=s i n(p o s/10000^{2i/d_{\\operatorname{m o d e l}}})}\\\\ {P E_{(p o s,2i+1)}}&{{}=c o s(p o s/10000^{2i/d_{\\operatorname{m o d e l}}})}\\\\ \\end{aligned}",
+      "native_result": {
+        "res": {
+          "input_path": "$RUN/crops/attn_positional.png",
+          "page_index": null,
+          "rec_formula": "\\begin{aligned}{P E_{(p o s,2i)}}&{{}=s i n(p o s/10000^{2i/d_{\\operatorname{m o d e l}}})}\\\\ {P E_{(p o s,2i+1)}}&{{}=c o s(p o s/10000^{2i/d_{\\operatorname{m o d e l}}})}\\\\ \\end{aligned}"
+        }
+      },
+      "extra_cleanup_applied": false,
+      "model_revision": "0572450e501be9eb1b1cdb7e00fccf4b22fab4df",
+      "reference_inputs": false,
+      "prediction_file_sha256": "dcb6f04bdf38d08bd5b07467600da5ae6a88b12cd57c276de2eac65cee8f939c"
+    },
+    {
+      "id": "nature_weights",
+      "status": "RETURNED",
+      "input": {
+        "id": "nature_weights",
+        "pdf_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+        "page": 10,
+        "bbox": [
+          397.1022391652829,
+          105.49438757923988,
+          458.2007913987011,
+          139.17874671876004
+        ],
+        "pixel_box": [
+          663,
+          176,
+          766,
+          233
+        ],
+        "image_dimensions": [
+          103,
+          57
+        ],
+        "sha256": "c082ae4983f3c231d92bb311266248507f8ba824764a7e4767ca3f6d228a091c",
+        "bytes": 2125
+      },
+      "raw_latex": "x_{i}=\\sum_{j=1}^{M}\\alpha_{i j}x_{j}^{*},",
+      "native_result": {
+        "res": {
+          "input_path": "$RUN/crops/nature_weights.png",
+          "page_index": null,
+          "rec_formula": "x_{i}=\\sum_{j=1}^{M}\\alpha_{i j}x_{j}^{*},"
+        }
+      },
+      "extra_cleanup_applied": false,
+      "model_revision": "0572450e501be9eb1b1cdb7e00fccf4b22fab4df",
+      "reference_inputs": false,
+      "prediction_file_sha256": "558c8173b83940f415bde2c9b87236d5128d6a42dc2be1c0d39e9d05ddd78823"
+    },
+    {
+      "id": "nature_softmax",
+      "status": "RETURNED",
+      "input": {
+        "id": "nature_softmax",
+        "pdf_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+        "page": 11,
+        "bbox": [
+          103.48759173302,
+          418.00179252076,
+          217.45941518397998,
+          449.15367428924
+        ],
+        "pixel_box": [
+          172,
+          698,
+          364,
+          751
+        ],
+        "image_dimensions": [
+          192,
+          53
+        ],
+        "sha256": "90af552cf4974659e25fb982dd40f97628e1022098b298f20f4718be238f5ebd",
+        "bytes": 4747
+      },
+      "raw_latex": "P(y_{i}|x)\\!=\\!\\frac{\\exp(z_{i}/T)}{\\sum_{j}\\exp\\!(z_{j}/T)},",
+      "native_result": {
+        "res": {
+          "input_path": "$RUN/crops/nature_softmax.png",
+          "page_index": null,
+          "rec_formula": "P(y_{i}|x)\\!=\\!\\frac{\\exp(z_{i}/T)}{\\sum_{j}\\exp\\!(z_{j}/T)},"
+        }
+      },
+      "extra_cleanup_applied": false,
+      "model_revision": "0572450e501be9eb1b1cdb7e00fccf4b22fab4df",
+      "reference_inputs": false,
+      "prediction_file_sha256": "9fd6bd04d986575cb27b00fc809219d8763939697b6b4a99d6b394fbca912329"
+    },
+    {
+      "id": "log_eq2",
+      "status": "RETURNED",
+      "input": {
+        "id": "log_eq2",
+        "pdf_sha256": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060",
+        "page": 4,
+        "bbox": [
+          161.84,
+          367.42,
+          450.15999999999997,
+          409.58
+        ],
+        "pixel_box": [
+          270,
+          613,
+          753,
+          685
+        ],
+        "image_dimensions": [
+          483,
+          72
+        ],
+        "sha256": "33803b1d0b6b4119d3ad23e4f2ae1476911bb9c69edf0ad078481e2beb8f3496",
+        "bytes": 9936
+      },
+      "raw_latex": "\\begin{array}{l}{\\underbrace{A^{*}(_{\\ mathrm{bf t}}}{\\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\",
+      "native_result": {
+        "res": {
+          "input_path": "$RUN/crops/log_eq2.png",
+          "page_index": null,
+          "rec_formula": "\\begin{array}{l}{\\underbrace{A^{*}(_{\\ mathrm{bf t}}}{\\\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\"
+        }
+      },
+      "extra_cleanup_applied": false,
+      "model_revision": "0572450e501be9eb1b1cdb7e00fccf4b22fab4df",
+      "reference_inputs": false,
+      "prediction_file_sha256": "c99b7bcd6cf7cc43deffe5507240d3ff05b0d06df40cef0e2f0a4bcb45ea7e94"
+    },
+    {
+      "id": "log_eq4",
+      "status": "RETURNED",
+      "input": {
+        "id": "log_eq4",
+        "pdf_sha256": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060",
+        "page": 4,
+        "bbox": [
+          89.76,
+          545.06,
+          522.24,
+          589.94
+        ],
+        "pixel_box": [
+          150,
+          910,
+          873,
+          986
+        ],
+        "image_dimensions": [
+          723,
+          76
+        ],
+        "sha256": "1e137fb3ce350e9aa0550addaa77331b0a9f3aa563088ffdd7bf8aecdd0050d9",
+        "bytes": 17122
+      },
+      "raw_latex": "\\begin{aligned}{}&{{}\\underbrace{\\mathrm{W e~t e e e t r o r~c o n d t o o~n e s~c e i n n g~o n~e p p a s e d d d~r o u s}}_{A_{\\mathbf}^{*}(\\phi)}=\\underbrace{\\sum_{x,sigma{\\ }{\\ }}p(x)\\operatorname{{a m}}_{\\mathbf}(y\\mid x)}_{mathbf I\\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\",
+      "native_result": {
+        "res": {
+          "input_path": "$RUN/crops/log_eq4.png",
+          "page_index": null,
+          "rec_formula": "\\begin{aligned}{}&{{}\\underbrace{\\mathrm{W e~t e e e t r o r~c o n d t o o~n e s~c e i n n g~o n~e p p a s e d d d~r o u s}}_{A_{\\mathbf}^{*}(\\phi)}=\\underbrace{\\sum_{x,sigma{\\ }{\\ }}p(x)\\operatorname{{a m}}_{\\mathbf}(y\\mid x)}_{mathbf I\\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\\\\\ \\"
+        }
+      },
+      "extra_cleanup_applied": false,
+      "model_revision": "0572450e501be9eb1b1cdb7e00fccf4b22fab4df",
+      "reference_inputs": false,
+      "prediction_file_sha256": "be893ca1870c0a6515c6f316eabb5b3cb15c8602b4bfc6b0ff340d9e74859171"
+    }
+  ]
+}

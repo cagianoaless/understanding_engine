@@ -1,0 +1,65 @@
+{
+  "schema_version": "pp-formulanet-prediction.1",
+  "id": "attn_fraction",
+  "status": "FAILED",
+  "reference_inputs": false,
+  "raw_latex": null,
+  "source_unicode_replaced": false,
+  "input": {
+    "id": "attn_fraction",
+    "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+    "page": 4,
+    "bbox": [
+      189.3976867756,
+      460.0679132,
+      420.38849780439995,
+      495.7921212
+    ],
+    "pixel_box": [
+      316,
+      768,
+      703,
+      829
+    ],
+    "image_dimensions": [
+      387,
+      61
+    ],
+    "sha256": "9b9b3cccafa6e482c591d1ad81c52c4d7daade04b5e63a730af286b8508c1e9d",
+    "bytes": 6763
+  },
+  "input_crop_sha256": "9b9b3cccafa6e482c591d1ad81c52c4d7daade04b5e63a730af286b8508c1e9d",
+  "model_revision": "0572450e501be9eb1b1cdb7e00fccf4b22fab4df",
+  "versions": {
+    "paddlepaddle-gpu": "3.3.1",
+    "paddleocr": "3.7.0",
+    "paddlex": "3.7.2",
+    "numpy": "2.3.5",
+    "opencv-contrib-python": "4.10.0.84",
+    "Pillow": "13.0.0",
+    "modelscope": "1.40.3",
+    "nvidia-nccl-cu12": "2.25.1"
+  },
+  "configuration": {
+    "model_name": "PP-FormulaNet-S",
+    "device": "gpu:0",
+    "batch_size": 1,
+    "enable_hpi": false,
+    "use_tensorrt": false,
+    "precision": "fp32",
+    "enable_mkldnn": false,
+    "cpu_threads": 4,
+    "preprocessing": "Unmodified official pinned inference.yml and PaddleX 3.7.2 preprocessing; no crop or settings tuning",
+    "external_timeout_seconds": 180
+  },
+  "model_initialization_seconds": 3.387804792029783,
+  "predictor_type": "FormulaRecRunnerPredictor",
+  "error_type": "ModuleNotFoundError",
+  "error": "No module named 'ftfy'",
+  "traceback": "Traceback (most recent call last):\n  File \"$RUN/pp_worker.py\", line 87, in run\n    result = model.predict(input=str(path), batch_size=1)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$RUN/runtime/lib/python3.12/site-packages/paddleocr/_models/base.py\", line 57, in predict\n    result = list(self.predict_iter(*args, **kwargs))\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$RUN/runtime/lib/python3.12/site-packages/paddlex/inference/models/predictors/base_predictor.py\", line 117, in __call__\n    yield from self.apply(input, **kwargs)\n  File \"$RUN/runtime/lib/python3.12/site-packages/paddlex/inference/models/predictors/base_predictor.py\", line 140, in apply\n    pred = self.process(batch_data, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$RUN/runtime/lib/python3.12/site-packages/paddlex/inference/models/formula_recognition/predictor.py\", line 128, in process\n    rec_formula = self.post_op(batch_preds)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$RUN/runtime/lib/python3.12/site-packages/paddlex/inference/models/formula_recognition/processors.py\", line 923, in __call__\n    text = self.token2str(np.array(preds))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$RUN/runtime/lib/python3.12/site-packages/paddlex/inference/models/formula_recognition/processors.py\", line 830, in token2str\n    generated_text = [self.post_process(text) for text in generated_text]\n                      ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"$RUN/runtime/lib/python3.12/site-packages/paddlex/inference/models/formula_recognition/processors.py\", line 894, in post_process\n    from ftfy import fix_text\nModuleNotFoundError: No module named 'ftfy'\n",
+  "total_seconds": 7.931963750161231,
+  "peak_process_rss_bytes": 2212126720,
+  "paddle_peak_allocated_bytes": 231670272,
+  "paddle_peak_reserved_bytes": 231670272,
+  "allocator_scope": "Paddle tensor allocator; static inference/native-library allocations may not be fully represented; external process VRAM sampled separately"
+}

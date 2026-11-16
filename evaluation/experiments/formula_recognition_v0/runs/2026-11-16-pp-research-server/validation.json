@@ -1,0 +1,28 @@
+{
+  "schema_version": "pp-research-validation.1",
+  "base_commit": "c365e6a82adc17cbc430a972a729ffa70e78214d",
+  "pre_existing_tracked_files": 565,
+  "all_pre_existing_byte_identical": true,
+  "full_offline_tests": {
+    "passed": 668,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 20.42,
+    "new_model_free_tests": 14
+  },
+  "scoring_reproduced_byte_for_byte": true,
+  "reference_status": "agent_visual_checked",
+  "independent_human_verifications": 0,
+  "codeformula_reruns": 0,
+  "remote_api_calls": 9,
+  "returned_latex_outputs": 8,
+  "failed_postprocessing_calls": 1,
+  "timeouts": 0,
+  "all_owned_workers_exited": true,
+  "results_downloaded_and_every_member_verified": true,
+  "remote_owned_tree_removed": true,
+  "production_changes": false,
+  "additional_inference_after_comparison": false,
+  "ci": "Exact-head CI status and link recorded on the PR after publication",
+  "local_tex_renderer": "Tectonic 0.16.9; only-cached/untrusted; six successful unchanged bodies, two failures"
+}

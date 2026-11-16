@@ -1,0 +1,25 @@
+{
+  "removed": true,
+  "identity_verified": true,
+  "owner_verified": true,
+  "open_process_references": [],
+  "before_available_bytes": 65066541056,
+  "after_available_bytes": 74644422656,
+  "observed_recovered_bytes": 9577881600,
+  "pre_cleanup_inventory": {
+    "files": 28669,
+    "directories": 5041,
+    "symlinks": 6,
+    "allocated_bytes": 9557135360,
+    "logical_bytes": 9490551606
+  },
+  "remaining_owned_files": 0,
+  "caveat": "Observed filesystem free-space change includes possible concurrent activity; allocated bytes do not guarantee identical recovery",
+  "lsof_excluded_disjoint_fuse_mounts_count": 3,
+  "independent_verification": {
+    "directory_absent": true,
+    "available_bytes": 74644414464
+  },
+  "initial_filesystem_available_bytes": 74644930560,
+  "protected_research_files_intentionally_modified": false
+}

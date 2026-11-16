@@ -1,0 +1,10 @@
+{
+  "schema_version": "pp-write-isolation-amendment.1",
+  "date": "2026-11-16",
+  "user_authorization": "Sì, autorizzo questa eccezione limitata",
+  "scope": "Only the eventual experiment process own /proc/self/task subtree: WRITE_FILE and TRUNCATE for temporary per-thread kernel metadata. No file creation, removal or rename rights in /proc.",
+  "preserved_controls": "Persistent writes remain under the one owned experiment root. Other process task trees receive no write permission. Existing NVIDIA character-device I/O and /dev/null are unchanged. No system security setting, shared library, dependency or model change.",
+  "reason": "Actual CUDA driver cuInit failed with error304 and a traced EACCES opening its own thread comm with O_WRONLY|O_CREAT|O_TRUNC.",
+  "initial_strict_evidence_archive_sha256": "77907c121b72a08b88ed46bb3ab88287f65972097d1320058ce7bac07187f095",
+  "enforcement": "Install process-specific Landlock rule in each worker before exec; never grant all /proc or inherit a parent PID exception as if it covered a child."
+}

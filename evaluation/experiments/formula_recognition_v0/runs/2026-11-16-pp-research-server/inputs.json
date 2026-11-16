@@ -1,0 +1,243 @@
+{
+  "schema_version": "pp-isolated-inputs.1",
+  "base_commit": "c365e6a82adc17cbc430a972a729ffa70e78214d",
+  "source_inputs_sha256": "eedfe23582030848b1a7e09cdbbfd02e35f8b8bafbe36e1b358ac9252735e80f",
+  "reference_inputs_uploaded": false,
+  "crop_policy_unchanged": true,
+  "crops": [
+    {
+      "id": "log_eq2",
+      "pdf_sha256": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060",
+      "page": 4,
+      "bbox": [
+        161.84,
+        367.42,
+        450.15999999999997,
+        409.58
+      ],
+      "pixel_box": [
+        270,
+        613,
+        753,
+        685
+      ],
+      "image_dimensions": [
+        483,
+        72
+      ],
+      "sha256": "33803b1d0b6b4119d3ad23e4f2ae1476911bb9c69edf0ad078481e2beb8f3496",
+      "bytes": 9936
+    },
+    {
+      "id": "log_eq4",
+      "pdf_sha256": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060",
+      "page": 4,
+      "bbox": [
+        89.76,
+        545.06,
+        522.24,
+        589.94
+      ],
+      "pixel_box": [
+        150,
+        910,
+        873,
+        986
+      ],
+      "image_dimensions": [
+        723,
+        76
+      ],
+      "sha256": "1e137fb3ce350e9aa0550addaa77331b0a9f3aa563088ffdd7bf8aecdd0050d9",
+      "bytes": 17122
+    },
+    {
+      "id": "attn_fraction",
+      "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "page": 4,
+      "bbox": [
+        189.3976867756,
+        460.0679132,
+        420.38849780439995,
+        495.7921212
+      ],
+      "pixel_box": [
+        316,
+        768,
+        703,
+        829
+      ],
+      "image_dimensions": [
+        387,
+        61
+      ],
+      "sha256": "9b9b3cccafa6e482c591d1ad81c52c4d7daade04b5e63a730af286b8508c1e9d",
+      "bytes": 6763
+    },
+    {
+      "id": "attn_heads",
+      "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "page": 5,
+      "bbox": [
+        146.6233237324,
+        143.3833931999999,
+        451.23821108759995,
+        160.49464119999993
+      ],
+      "pixel_box": [
+        245,
+        239,
+        755,
+        269
+      ],
+      "image_dimensions": [
+        510,
+        30
+      ],
+      "sha256": "47b69fbe8d37f73f964829f93ddeee18558590be938988dd814b4932f19482d6",
+      "bytes": 6634
+    },
+    {
+      "id": "attn_ffn",
+      "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "page": 5,
+      "bbox": [
+        198.51489576199998,
+        565.9463252959999,
+        412.9876833380001,
+        580.738736304
+      ],
+      "pixel_box": [
+        331,
+        945,
+        691,
+        971
+      ],
+      "image_dimensions": [
+        360,
+        26
+      ],
+      "sha256": "e8a1402331c55098bb935452f49b9fcc7319f6f45f13df1534a254294a48a669",
+      "bytes": 4703
+    },
+    {
+      "id": "nature_weights",
+      "pdf_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page": 10,
+      "bbox": [
+        397.1022391652829,
+        105.49438757923988,
+        458.2007913987011,
+        139.17874671876004
+      ],
+      "pixel_box": [
+        663,
+        176,
+        766,
+        233
+      ],
+      "image_dimensions": [
+        103,
+        57
+      ],
+      "sha256": "c082ae4983f3c231d92bb311266248507f8ba824764a7e4767ca3f6d228a091c",
+      "bytes": 2125
+    },
+    {
+      "id": "nature_softmax",
+      "pdf_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+      "page": 11,
+      "bbox": [
+        103.48759173302,
+        418.00179252076,
+        217.45941518397998,
+        449.15367428924
+      ],
+      "pixel_box": [
+        172,
+        698,
+        364,
+        751
+      ],
+      "image_dimensions": [
+        192,
+        53
+      ],
+      "sha256": "90af552cf4974659e25fb982dd40f97628e1022098b298f20f4718be238f5ebd",
+      "bytes": 4747
+    },
+    {
+      "id": "attn_positional",
+      "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "page": 6,
+      "bbox": [
+        196.7837580748,
+        330.6398932,
+        415.2166970652001,
+        371.10914119999995
+      ],
+      "pixel_box": [
+        328,
+        552,
+        695,
+        620
+      ],
+      "image_dimensions": [
+        367,
+        68
+      ],
+      "sha256": "a135ff6ec0d77318afc87cf24795f0bfeb1a212996077ad23c1638b1867648c4",
+      "bytes": 8142
+    }
+  ],
+  "execution_order": [
+    "attn_fraction",
+    "attn_heads",
+    "attn_ffn",
+    "attn_positional",
+    "nature_weights",
+    "nature_softmax",
+    "log_eq2",
+    "log_eq4"
+  ],
+  "model": {
+    "repo": "PaddlePaddle/PP-FormulaNet-S",
+    "revision": "0572450e501be9eb1b1cdb7e00fccf4b22fab4df",
+    "declared_license": "apache-2.0",
+    "files": [
+      {
+        "file": "inference.json",
+        "bytes": 504505,
+        "expected_sha256": "2c8fc31a94d461a7325fe06e8cbaa5db6c5658c490f74d3d6116defe8c859d6f",
+        "git_blob_sha1": "c376ce2a7995d9719a4821cdd8b6abf831284bf5",
+        "url": "https://huggingface.co/PaddlePaddle/PP-FormulaNet-S/resolve/0572450e501be9eb1b1cdb7e00fccf4b22fab4df/inference.json"
+      },
+      {
+        "file": "inference.pdiparams",
+        "bytes": 231675001,
+        "expected_sha256": "b6392296d16e2a9f414c0a751d7ccbd1bd9d8272b68aab72df1d3875f35a7489",
+        "git_blob_sha1": "4488ea940fa4029461077d2ff8fb507a05af07f7",
+        "url": "https://huggingface.co/PaddlePaddle/PP-FormulaNet-S/resolve/0572450e501be9eb1b1cdb7e00fccf4b22fab4df/inference.pdiparams"
+      },
+      {
+        "file": "inference.yml",
+        "bytes": 2244559,
+        "expected_sha256": "08b21c2d255041008266b8fb947758e9731eafff191568af21da5a4b9c9dd5a0",
+        "git_blob_sha1": "3c6daeb262ea43c9da2abf34365e342808837d0d",
+        "url": "https://huggingface.co/PaddlePaddle/PP-FormulaNet-S/resolve/0572450e501be9eb1b1cdb7e00fccf4b22fab4df/inference.yml"
+      }
+    ]
+  },
+  "recognition_configuration": {
+    "model_name": "PP-FormulaNet-S",
+    "device": "gpu:0",
+    "batch_size": 1,
+    "enable_hpi": false,
+    "use_tensorrt": false,
+    "precision": "fp32",
+    "enable_mkldnn": false,
+    "cpu_threads": 4,
+    "preprocessing": "Unmodified official pinned inference.yml and PaddleX 3.7.2 preprocessing; no crop or settings tuning",
+    "external_timeout_seconds": 180
+  }
+}

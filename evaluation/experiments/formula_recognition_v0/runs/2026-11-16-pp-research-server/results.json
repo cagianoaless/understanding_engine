@@ -1,0 +1,1036 @@
+{
+  "schema_version": "pp-research-comparison.1",
+  "reference_status": "agent_visual_checked",
+  "independent_human_verifications": 0,
+  "selected_denominator": 8,
+  "attempted": 8,
+  "neural_invocations_total": 9,
+  "first_postprocess_failure_preserved": "outputs/attn_fraction; missing ftfy; no decoded LaTeX; separate from eight successful returns",
+  "returned": 8,
+  "exact": {
+    "correct": 0,
+    "incorrect": 8,
+    "unknown": 0,
+    "selected_denominator": 8
+  },
+  "formatting_normalized": {
+    "correct": 0,
+    "incorrect": 8,
+    "unknown": 0,
+    "selected_denominator": 8
+  },
+  "pp_full_expression": {
+    "correct": 4,
+    "incorrect": 4,
+    "unknown": 0,
+    "selected_denominator": 8
+  },
+  "codeformula_full_expression": {
+    "correct": 4,
+    "incorrect": 3,
+    "unknown": 1,
+    "selected_denominator": 8
+  },
+  "component_counts": {
+    "fraction_membership": {
+      "reference_denominator": 4,
+      "correct": 2,
+      "incorrect": 0,
+      "missing": 2,
+      "ambiguous": 0,
+      "unscoreable": 0
+    },
+    "radical_scope": {
+      "reference_denominator": 1,
+      "correct": 1,
+      "incorrect": 0,
+      "missing": 0,
+      "ambiguous": 0,
+      "unscoreable": 0
+    },
+    "ordinary_subscript_attachment": {
+      "reference_denominator": 24,
+      "correct": 17,
+      "incorrect": 1,
+      "missing": 6,
+      "ambiguous": 0,
+      "unscoreable": 0
+    },
+    "ordinary_superscript_attachment": {
+      "reference_denominator": 9,
+      "correct": 7,
+      "incorrect": 0,
+      "missing": 2,
+      "ambiguous": 0,
+      "unscoreable": 0
+    },
+    "summation_operators": {
+      "reference_denominator": 5,
+      "correct": 3,
+      "incorrect": 0,
+      "missing": 2,
+      "ambiguous": 0,
+      "unscoreable": 0
+    },
+    "summation_limit_attachment": {
+      "reference_denominator": 6,
+      "correct": 3,
+      "incorrect": 1,
+      "missing": 2,
+      "ambiguous": 0,
+      "unscoreable": 0
+    },
+    "delimiter_groups": {
+      "reference_denominator": 22,
+      "correct": 15,
+      "incorrect": 2,
+      "missing": 5,
+      "ambiguous": 0,
+      "unscoreable": 0
+    },
+    "font_sensitive_vector_glyphs": {
+      "reference_denominator": 3,
+      "correct": 0,
+      "incorrect": 3,
+      "missing": 0,
+      "ambiguous": 0,
+      "unscoreable": 0
+    },
+    "star_glyph_identity": {
+      "reference_denominator": 4,
+      "correct": 0,
+      "incorrect": 0,
+      "missing": 2,
+      "ambiguous": 2,
+      "unscoreable": 0
+    },
+    "reference_conflict": {
+      "reference_denominator": 1,
+      "correct": 0,
+      "incorrect": 0,
+      "missing": 0,
+      "ambiguous": 0,
+      "unscoreable": 1
+    }
+  },
+  "codeformula_component_counts_preserved": {
+    "fraction_membership": {
+      "correct": 4,
+      "incorrect": 0,
+      "missing": 0,
+      "ambiguous": 0,
+      "unscoreable": 0,
+      "denominator": 4,
+      "scope": "Explicitly enumerated source-checked core relations, including observable parts of incomplete output; not complete recognition accuracy"
+    },
+    "radical_scope": {
+      "correct": 1,
+      "incorrect": 0,
+      "missing": 0,
+      "ambiguous": 0,
+      "unscoreable": 0,
+      "denominator": 1,
+      "scope": "Explicitly enumerated source-checked core relations, including observable parts of incomplete output; not complete recognition accuracy"
+    },
+    "ordinary_subscript_attachment": {
+      "correct": 24,
+      "incorrect": 0,
+      "missing": 0,
+      "ambiguous": 0,
+      "unscoreable": 0,
+      "denominator": 24,
+      "scope": "Explicitly enumerated source-checked core relations, including observable parts of incomplete output; not complete recognition accuracy"
+    },
+    "ordinary_superscript_attachment": {
+      "correct": 9,
+      "incorrect": 0,
+      "missing": 0,
+      "ambiguous": 0,
+      "unscoreable": 0,
+      "denominator": 9,
+      "scope": "Explicitly enumerated source-checked core relations, including observable parts of incomplete output; not complete recognition accuracy"
+    },
+    "summation_operators": {
+      "correct": 5,
+      "incorrect": 0,
+      "missing": 0,
+      "ambiguous": 0,
+      "unscoreable": 0,
+      "denominator": 5,
+      "scope": "Explicitly enumerated source-checked core relations, including observable parts of incomplete output; not complete recognition accuracy"
+    },
+    "summation_limit_attachment": {
+      "correct": 6,
+      "incorrect": 0,
+      "missing": 0,
+      "ambiguous": 0,
+      "unscoreable": 0,
+      "denominator": 6,
+      "scope": "Explicitly enumerated source-checked core relations, including observable parts of incomplete output; not complete recognition accuracy"
+    },
+    "delimiter_groups": {
+      "correct": 22,
+      "incorrect": 0,
+      "missing": 0,
+      "ambiguous": 0,
+      "unscoreable": 0,
+      "denominator": 22,
+      "scope": "Explicitly enumerated source-checked core relations, including observable parts of incomplete output; not complete recognition accuracy"
+    },
+    "font_sensitive_vector_glyphs": {
+      "correct": 0,
+      "incorrect": 3,
+      "missing": 0,
+      "ambiguous": 0,
+      "unscoreable": 0,
+      "denominator": 3,
+      "scope": "Explicitly enumerated source-checked core relations, including observable parts of incomplete output; not complete recognition accuracy"
+    },
+    "star_glyph_identity": {
+      "correct": 0,
+      "incorrect": 0,
+      "missing": 0,
+      "ambiguous": 4,
+      "unscoreable": 0,
+      "denominator": 4,
+      "scope": "Explicitly enumerated source-checked core relations, including observable parts of incomplete output; not complete recognition accuracy"
+    },
+    "reference_conflict": {
+      "correct": 0,
+      "incorrect": 0,
+      "missing": 0,
+      "ambiguous": 0,
+      "unscoreable": 1,
+      "denominator": 1,
+      "scope": "Explicitly enumerated source-checked core relations, including observable parts of incomplete output; not complete recognition accuracy"
+    }
+  },
+  "per_formula": [
+    {
+      "id": "attn_fraction",
+      "status": "RETURNED",
+      "neural_invoked": true,
+      "exact": false,
+      "formatting_normalized": false,
+      "reference_discrepancy": null,
+      "full_output_correct": true,
+      "codeformula_full_output_correct": true,
+      "review": {
+        "id": "attn_fraction",
+        "status": "agent_visual_checked",
+        "human_verified": false,
+        "full_expression_correct": true,
+        "completion": "API_RETURNED; token-level termination not exposed",
+        "review_note": "Fraction, radical d_k, transpose and arguments preserved. Explicit operatorname groups; no observed formula-content error.",
+        "component_decisions": {
+          "fraction_membership": [
+            {
+              "component": "QK^T over sqrt(d_k)",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "radical_scope": [
+            {
+              "component": "sqrt scope d_k",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "ordinary_subscript_attachment": [
+            {
+              "component": "d subscript k",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "ordinary_superscript_attachment": [
+            {
+              "component": "K superscript T",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "summation_operators": [],
+          "summation_limit_attachment": [],
+          "delimiter_groups": [
+            {
+              "component": "Attention arguments",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "softmax arguments",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "font_sensitive_vector_glyphs": [],
+          "star_glyph_identity": []
+        },
+        "formula_core_content_correct": true,
+        "extraneous_prose": false,
+        "hallucinated_structure": false,
+        "math_identifier_grouping": "Not a source-aligned AST; explicit operator groups in first three crops, ambiguous letter sequences in positional encoding; corrupted on LoG."
+      },
+      "tex_compile": {
+        "compiled": true,
+        "exit_code": 0,
+        "unchanged_body_sha256": "243cd8c71f54377c72e733a80ff3adb7c88cc064ef5309f9f2cf4b4656acc0c8",
+        "scope": "Common align* display context; compilation is not mathematical correctness"
+      },
+      "initialization_seconds": 3.34332114784047,
+      "recognition_seconds": 0.4388172351755202,
+      "wall_seconds": 8.641846982063726,
+      "exit_code": 0,
+      "timeout": false,
+      "peak_process_rss_bytes": 2240978944,
+      "sampled_process_vram_bytes": 715128832,
+      "paddle_peak_allocated_bytes": 231670272,
+      "paddle_peak_reserved_bytes": 231670272,
+      "sampled_process_cpu_seconds": 8.86
+    },
+    {
+      "id": "attn_heads",
+      "status": "RETURNED",
+      "neural_invoked": true,
+      "exact": false,
+      "formatting_normalized": false,
+      "reference_discrepancy": null,
+      "full_output_correct": true,
+      "codeformula_full_output_correct": true,
+      "review": {
+        "id": "attn_heads",
+        "status": "agent_visual_checked",
+        "human_verified": false,
+        "full_expression_correct": true,
+        "completion": "API_RETURNED; token-level termination not exposed",
+        "review_note": "Indices, ellipsis, W^O and argument groups preserved. Three literal dots versus ellipsis presentation; h is upright. Function/head group strings contain spaces; not a verified AST.",
+        "component_decisions": {
+          "fraction_membership": [],
+          "radical_scope": [],
+          "ordinary_subscript_attachment": [
+            {
+              "component": "head subscript 1",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "head subscript h",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "ordinary_superscript_attachment": [
+            {
+              "component": "W superscript O",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "summation_operators": [],
+          "summation_limit_attachment": [],
+          "delimiter_groups": [
+            {
+              "component": "MultiHead arguments",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "Concat arguments",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "font_sensitive_vector_glyphs": [],
+          "star_glyph_identity": []
+        },
+        "formula_core_content_correct": true,
+        "extraneous_prose": false,
+        "hallucinated_structure": false,
+        "math_identifier_grouping": "Not a source-aligned AST; explicit operator groups in first three crops, ambiguous letter sequences in positional encoding; corrupted on LoG."
+      },
+      "tex_compile": {
+        "compiled": true,
+        "exit_code": 0,
+        "unchanged_body_sha256": "bd394c34f1fff8c284a1ad85caddf8d7be7b82e20b93e4e206a8162fa684de84",
+        "scope": "Common align* display context; compilation is not mathematical correctness"
+      },
+      "initialization_seconds": 3.3663715380243957,
+      "recognition_seconds": 0.4580147338565439,
+      "wall_seconds": 8.637521822936833,
+      "exit_code": 0,
+      "timeout": false,
+      "peak_process_rss_bytes": 2243313664,
+      "sampled_process_vram_bytes": 715128832,
+      "paddle_peak_allocated_bytes": 231670272,
+      "paddle_peak_reserved_bytes": 231670272,
+      "sampled_process_cpu_seconds": 8.85
+    },
+    {
+      "id": "attn_ffn",
+      "status": "RETURNED",
+      "neural_invoked": true,
+      "exact": false,
+      "formatting_normalized": false,
+      "reference_discrepancy": null,
+      "full_output_correct": true,
+      "codeformula_full_output_correct": true,
+      "review": {
+        "id": "attn_ffn",
+        "status": "agent_visual_checked",
+        "human_verified": false,
+        "full_expression_correct": true,
+        "completion": "API_RETURNED; token-level termination not exposed",
+        "review_note": "Both affine stages, all four indices, max argument grouping and operator order preserved.",
+        "component_decisions": {
+          "fraction_membership": [],
+          "radical_scope": [],
+          "ordinary_subscript_attachment": [
+            {
+              "component": "W subscript 1",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "b subscript 1",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "W subscript 2",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "b subscript 2",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "ordinary_superscript_attachment": [],
+          "summation_operators": [],
+          "summation_limit_attachment": [],
+          "delimiter_groups": [
+            {
+              "component": "FFN argument",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "max arguments",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "font_sensitive_vector_glyphs": [],
+          "star_glyph_identity": []
+        },
+        "formula_core_content_correct": true,
+        "extraneous_prose": false,
+        "hallucinated_structure": false,
+        "math_identifier_grouping": "Not a source-aligned AST; explicit operator groups in first three crops, ambiguous letter sequences in positional encoding; corrupted on LoG."
+      },
+      "tex_compile": {
+        "compiled": true,
+        "exit_code": 0,
+        "unchanged_body_sha256": "7f4bcbd4f4d0222be332d4807e1931cca9ddfeabb7d382dc7d89e3d695add762",
+        "scope": "Common align* display context; compilation is not mathematical correctness"
+      },
+      "initialization_seconds": 3.3117974288761616,
+      "recognition_seconds": 0.45826166099868715,
+      "wall_seconds": 8.651725298026577,
+      "exit_code": 0,
+      "timeout": false,
+      "peak_process_rss_bytes": 2255060992,
+      "sampled_process_vram_bytes": 713031680,
+      "paddle_peak_allocated_bytes": 231670272,
+      "paddle_peak_reserved_bytes": 231670272,
+      "sampled_process_cpu_seconds": 8.86
+    },
+    {
+      "id": "attn_positional",
+      "status": "RETURNED",
+      "neural_invoked": true,
+      "exact": false,
+      "formatting_normalized": false,
+      "reference_discrepancy": null,
+      "full_output_correct": true,
+      "codeformula_full_output_correct": true,
+      "review": {
+        "id": "attn_positional",
+        "status": "agent_visual_checked",
+        "human_verified": false,
+        "full_expression_correct": true,
+        "completion": "API_RETURNED; token-level termination not exposed",
+        "review_note": "Both lines and exponent scopes preserved. sin/cos and pos/PE remain letter sequences rather than verified atomic function/identifier nodes. Font/style differences follow the preserved presentation policy.",
+        "component_decisions": {
+          "fraction_membership": [],
+          "radical_scope": [],
+          "ordinary_subscript_attachment": [
+            {
+              "component": "PE subscript (pos,2i)",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "d subscript model first",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "PE subscript (pos,2i+1)",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "d subscript model second",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "ordinary_superscript_attachment": [
+            {
+              "component": "10000 exponent 2i/d_model first",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "10000 exponent 2i/d_model second",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "summation_operators": [],
+          "summation_limit_attachment": [],
+          "delimiter_groups": [
+            {
+              "component": "first PE index group",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "first sin arguments",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "second PE index group",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "second cos arguments",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "font_sensitive_vector_glyphs": [],
+          "star_glyph_identity": []
+        },
+        "formula_core_content_correct": true,
+        "extraneous_prose": false,
+        "hallucinated_structure": false,
+        "math_identifier_grouping": "Not a source-aligned AST; explicit operator groups in first three crops, ambiguous letter sequences in positional encoding; corrupted on LoG."
+      },
+      "tex_compile": {
+        "compiled": true,
+        "exit_code": 0,
+        "unchanged_body_sha256": "446a55d6cf5c70b7c4b700b5c5d466c8152b217b9e4700d0764ddd2aeef4027a",
+        "scope": "Common align* display context; compilation is not mathematical correctness"
+      },
+      "initialization_seconds": 3.3566846530884504,
+      "recognition_seconds": 0.4560859762132168,
+      "wall_seconds": 8.644216126063839,
+      "exit_code": 0,
+      "timeout": false,
+      "peak_process_rss_bytes": 2191097856,
+      "sampled_process_vram_bytes": 710934528,
+      "paddle_peak_allocated_bytes": 231670272,
+      "paddle_peak_reserved_bytes": 231670272,
+      "sampled_process_cpu_seconds": 8.85
+    },
+    {
+      "id": "nature_weights",
+      "status": "RETURNED",
+      "neural_invoked": true,
+      "exact": false,
+      "formatting_normalized": false,
+      "reference_discrepancy": "Frozen Latin a versus source alpha remains unscoreable",
+      "full_output_correct": false,
+      "codeformula_full_output_correct": false,
+      "review": {
+        "id": "nature_weights",
+        "status": "agent_visual_checked",
+        "human_verified": false,
+        "full_expression_correct": false,
+        "completion": "API_RETURNED; token-level termination not exposed",
+        "review_note": "Summation, limits and scripts recovered; both vector x glyphs lose bold. The alpha versus a frozen reference discrepancy is unscoreable and is not a model substitution.",
+        "component_decisions": {
+          "fraction_membership": [],
+          "radical_scope": [],
+          "ordinary_subscript_attachment": [
+            {
+              "component": "x subscript i",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "coefficient subscript ij",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "x subscript j",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "ordinary_superscript_attachment": [
+            {
+              "component": "x_j superscript star",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "summation_operators": [
+            {
+              "component": "sum j=1..M",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "summation_limit_attachment": [
+            {
+              "component": "lower j=1",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "upper M",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "delimiter_groups": [],
+          "font_sensitive_vector_glyphs": [
+            {
+              "component": "left x_i",
+              "decision": "incorrect"
+            },
+            {
+              "component": "right x_j",
+              "decision": "incorrect"
+            }
+          ],
+          "star_glyph_identity": [],
+          "reference_conflict": [
+            {
+              "component": "coefficient alpha",
+              "decision": "unscoreable",
+              "reason": "Frozen reference conflict; preserved, excluded from glyph correctness adjudication"
+            }
+          ]
+        },
+        "formula_core_content_correct": true,
+        "extraneous_prose": false,
+        "hallucinated_structure": false,
+        "math_identifier_grouping": "Not a source-aligned AST; explicit operator groups in first three crops, ambiguous letter sequences in positional encoding; corrupted on LoG."
+      },
+      "tex_compile": {
+        "compiled": true,
+        "exit_code": 0,
+        "unchanged_body_sha256": "6028208ed4e3611ade0728095fb38cd2aca6cbd4048afef320f07d5a3162b2a6",
+        "scope": "Common align* display context; compilation is not mathematical correctness"
+      },
+      "initialization_seconds": 3.2796694030985236,
+      "recognition_seconds": 0.4525536010041833,
+      "wall_seconds": 8.638950011925772,
+      "exit_code": 0,
+      "timeout": false,
+      "peak_process_rss_bytes": 2100387840,
+      "sampled_process_vram_bytes": 721420288,
+      "paddle_peak_allocated_bytes": 231670272,
+      "paddle_peak_reserved_bytes": 231670272,
+      "sampled_process_cpu_seconds": 8.86
+    },
+    {
+      "id": "nature_softmax",
+      "status": "RETURNED",
+      "neural_invoked": true,
+      "exact": false,
+      "formatting_normalized": false,
+      "reference_discrepancy": null,
+      "full_output_correct": false,
+      "codeformula_full_output_correct": false,
+      "review": {
+        "id": "nature_softmax",
+        "status": "agent_visual_checked",
+        "human_verified": false,
+        "full_expression_correct": false,
+        "completion": "API_RETURNED; token-level termination not exposed",
+        "review_note": "Fraction, exp scopes, sum and scripts recovered, but vector x loses bold.",
+        "component_decisions": {
+          "fraction_membership": [
+            {
+              "component": "exp(z_i/T) over sum_j exp(z_j/T)",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "radical_scope": [],
+          "ordinary_subscript_attachment": [
+            {
+              "component": "y subscript i",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "z subscript i",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "z subscript j",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "ordinary_superscript_attachment": [],
+          "summation_operators": [
+            {
+              "component": "sum_j",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "summation_limit_attachment": [
+            {
+              "component": "lower j",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "delimiter_groups": [
+            {
+              "component": "probability arguments and conditional bar",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "numerator exp arguments",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "denominator exp arguments",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "font_sensitive_vector_glyphs": [
+            {
+              "component": "conditional vector x",
+              "decision": "incorrect"
+            }
+          ],
+          "star_glyph_identity": []
+        },
+        "formula_core_content_correct": true,
+        "extraneous_prose": false,
+        "hallucinated_structure": false,
+        "math_identifier_grouping": "Not a source-aligned AST; explicit operator groups in first three crops, ambiguous letter sequences in positional encoding; corrupted on LoG."
+      },
+      "tex_compile": {
+        "compiled": true,
+        "exit_code": 0,
+        "unchanged_body_sha256": "10a138e62c352ffb21d691b92a8729b547c68127c39187714cc8ab352f5befdb",
+        "scope": "Common align* display context; compilation is not mathematical correctness"
+      },
+      "initialization_seconds": 3.347647682065144,
+      "recognition_seconds": 0.46016491716727614,
+      "wall_seconds": 8.637714999029413,
+      "exit_code": 0,
+      "timeout": false,
+      "peak_process_rss_bytes": 2128105472,
+      "sampled_process_vram_bytes": 727711744,
+      "paddle_peak_allocated_bytes": 231670272,
+      "paddle_peak_reserved_bytes": 231670272,
+      "sampled_process_cpu_seconds": 8.84
+    },
+    {
+      "id": "log_eq2",
+      "status": "RETURNED",
+      "neural_invoked": true,
+      "exact": false,
+      "formatting_normalized": false,
+      "reference_discrepancy": null,
+      "full_output_correct": false,
+      "codeformula_full_output_correct": null,
+      "review": {
+        "id": "log_eq2",
+        "status": "agent_visual_checked",
+        "human_verified": false,
+        "full_expression_correct": false,
+        "completion": "API_RETURNED; token-level termination not exposed",
+        "review_note": "Malformed array/underbrace fragment and repeated spacing; no fraction or sums. A-star local attachment remains visible; original formula is not reconstructed. No EOS/token-stop conclusion is possible from the decoded API string.",
+        "component_decisions": {
+          "fraction_membership": [
+            {
+              "component": "1 over N",
+              "decision": "missing",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "radical_scope": [],
+          "ordinary_subscript_attachment": [
+            {
+              "component": "n subscript xy",
+              "decision": "missing",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "ordinary_superscript_attachment": [
+            {
+              "component": "A superscript star",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "summation_operators": [
+            {
+              "component": "sum_x first",
+              "decision": "missing",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "sum_x second",
+              "decision": "missing",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "summation_limit_attachment": [
+            {
+              "component": "lower x first sum",
+              "decision": "missing",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "lower x second sum",
+              "decision": "missing",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "delimiter_groups": [
+            {
+              "component": "A argument",
+              "decision": "incorrect",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "p(x)",
+              "decision": "missing",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "conditional p(y|x)",
+              "decision": "missing",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "font_sensitive_vector_glyphs": [],
+          "star_glyph_identity": [
+            {
+              "component": "A superscript star",
+              "decision": "ambiguous"
+            }
+          ]
+        },
+        "formula_core_content_correct": false,
+        "extraneous_prose": false,
+        "hallucinated_structure": true,
+        "math_identifier_grouping": "Not a source-aligned AST; explicit operator groups in first three crops, ambiguous letter sequences in positional encoding; corrupted on LoG."
+      },
+      "tex_compile": {
+        "compiled": false,
+        "exit_code": 1,
+        "unchanged_body_sha256": "e1a9ec1bb04381f70e2dd378f8ab610b173b3a0781e1d63bfcb7c60c2c47683d",
+        "scope": "Common align* display context; compilation is not mathematical correctness"
+      },
+      "initialization_seconds": 3.380420305998996,
+      "recognition_seconds": 0.7600971211213619,
+      "wall_seconds": 8.90370415407233,
+      "exit_code": 0,
+      "timeout": false,
+      "peak_process_rss_bytes": 2286530560,
+      "sampled_process_vram_bytes": 715128832,
+      "paddle_peak_allocated_bytes": 231670272,
+      "paddle_peak_reserved_bytes": 231670272,
+      "sampled_process_cpu_seconds": 9.11
+    },
+    {
+      "id": "log_eq4",
+      "status": "RETURNED",
+      "neural_invoked": true,
+      "exact": false,
+      "formatting_normalized": false,
+      "reference_discrepancy": null,
+      "full_output_correct": false,
+      "codeformula_full_output_correct": false,
+      "review": {
+        "id": "log_eq4",
+        "status": "agent_visual_checked",
+        "human_verified": false,
+        "full_expression_correct": false,
+        "completion": "API_RETURNED; token-level termination not exposed",
+        "review_note": "Malformed underbrace/aligned output with corrupted prose and mathematical content. Fraction and second equality missing; one sum survives with wrong lower limit. Local surviving fragments do not establish a valid whole tree.",
+        "component_decisions": {
+          "fraction_membership": [
+            {
+              "component": "constrained weighted max sum over (1-sigma_phi)",
+              "decision": "missing",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "radical_scope": [],
+          "ordinary_subscript_attachment": [
+            {
+              "component": "A subscript ns first",
+              "decision": "incorrect",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "n subscript x within sum domain",
+              "decision": "missing",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "sigma subscript phi denominator",
+              "decision": "missing",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "sigma subscript phi first RHS term",
+              "decision": "missing",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "sigma subscript phi second RHS term",
+              "decision": "missing",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "A subscript ns last",
+              "decision": "missing",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "ordinary_superscript_attachment": [
+            {
+              "component": "A_ns superscript star first",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "A superscript star middle",
+              "decision": "missing",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "A_ns superscript star last",
+              "decision": "missing",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "summation_operators": [
+            {
+              "component": "sum over x:n_x>1",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "summation_limit_attachment": [
+            {
+              "component": "lower x:n_x>1",
+              "decision": "incorrect",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "delimiter_groups": [
+            {
+              "component": "first A argument",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "p(x)",
+              "decision": "correct",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "conditional p(y|x)",
+              "decision": "incorrect",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "middle A argument",
+              "decision": "missing",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "(1-sigma_phi)",
+              "decision": "missing",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            },
+            {
+              "component": "last A argument",
+              "decision": "missing",
+              "scope": "visible formula core; attachment does not establish exact glyph/font or whole-output correctness"
+            }
+          ],
+          "font_sensitive_vector_glyphs": [],
+          "star_glyph_identity": [
+            {
+              "component": "A_ns superscript star first",
+              "decision": "ambiguous"
+            },
+            {
+              "component": "A superscript star middle",
+              "decision": "missing"
+            },
+            {
+              "component": "A_ns superscript star last",
+              "decision": "missing"
+            }
+          ]
+        },
+        "formula_core_content_correct": false,
+        "extraneous_prose": true,
+        "hallucinated_structure": true,
+        "math_identifier_grouping": "Not a source-aligned AST; explicit operator groups in first three crops, ambiguous letter sequences in positional encoding; corrupted on LoG."
+      },
+      "tex_compile": {
+        "compiled": false,
+        "exit_code": 1,
+        "unchanged_body_sha256": "2fd9f4c14cbc6057865319d89dce1dca690fd7ba287e264f51ad791f1a6fa7ea",
+        "scope": "Common align* display context; compilation is not mathematical correctness"
+      },
+      "initialization_seconds": 3.367750728968531,
+      "recognition_seconds": 0.7840514800045639,
+      "wall_seconds": 8.916094719897956,
+      "exit_code": 0,
+      "timeout": false,
+      "peak_process_rss_bytes": 2349072384,
+      "sampled_process_vram_bytes": 715128832,
+      "paddle_peak_allocated_bytes": 231670272,
+      "paddle_peak_reserved_bytes": 231670272,
+      "sampled_process_cpu_seconds": 9.12
+    }
+  ],
+  "quality_scope": "Eight development-exposed crops, provisional visual source review; not independent validation or proof of source-aligned AST",
+  "performance_scope": "PP uses RTX 5000 Ada / CUDA12.6 / FP32; preserved CodeFormula uses T4 / CUDA13 / FP16. Not a controlled hardware speed comparison",
+  "baseline_predictions_sha256": "33c8fc9db60e84fb88128db0ffbe39cf13a3561db1535e34e2b87fa90fe4784e",
+  "baseline_results_sha256": "3c2672461013b6ddcfcaffe83d09c62ded029c6c144d575800eefac63900ca76",
+  "references_sha256": "c58cd1467e1cd1bb8626d5e7e9f4c41b8e1e0a0f27793fb7ce1af9007f50b753",
+  "codeformula_rerun": false
+}
