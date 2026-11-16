@@ -1,0 +1,21 @@
+{
+  "failure_phase": "PREDICTOR_CONSTRUCTION",
+  "cause": "Missing optional tokenizers dependency required by UniMERNetDecode",
+  "target_attempted": true,
+  "neural_predictor_invoked": false,
+  "latex_returned": false,
+  "recognition_seconds": null,
+  "successful_initialization_seconds": null,
+  "failed_constructor_observed_interval_seconds": 9.113629612000295,
+  "failed_worker_seconds": 18.1749147190003,
+  "external_wall_seconds": 18.883215067000492,
+  "exit_code": 1,
+  "timeout": false,
+  "oom_observed": false,
+  "peak_process_rss_bytes": 1315074048,
+  "paddle_peak_allocated_bytes": 231670272,
+  "paddle_peak_reserved_bytes": 231670272,
+  "sampled_process_gpu_peak_bytes": 429916160,
+  "memory_scope": "Failed initialization, not inference cost; NVML samples are a lower bound and Paddle tensor counters may exclude native allocations",
+  "traceback": "Traceback (most recent call last):\n  File \"/content/understanding-engine-formula-pp-clean/runtime/lib/python3.13/site-packages/paddleocr/_models/base.py\", line 76, in _create_paddlex_predictor\n    return create_predictor(\n        model_name=self._model_name, model_dir=self._model_dir, **kwargs\n    )\n  File \"/content/understanding-engine-formula-pp-clean/runtime/lib/python3.13/site-packages/paddlex/inference/models/__init__.py\", line 481, in create_predictor\n    return predictor_binding.predictor(**create_kwargs, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/content/understanding-engine-formula-pp-clean/runtime/lib/python3.13/site-packages/paddlex/inference/models/formula_recognition/predictor.py\", line 64, in __init__\n    self.pre_tfs, self.post_op = self._build()\n                                 ~~~~~~~~~~~^^\n  File \"/content/understanding-engine-formula-pp-clean/runtime/lib/python3.13/site-packages/paddlex/inference/models/formula_recognition/predictor.py\", line 84, in _build\n    post_op = self.build_postprocess(**self.config[\"PostProcess\"])\n  File \"/content/understanding-engine-formula-pp-clean/runtime/lib/python3.13/site-packages/paddlex/inference/models/formula_recognition/predictor.py\", line 171, in build_postprocess\n    return UniMERNetDecode(\n        character_list=kwargs.get(\"character_dict\"),\n    )\n  File \"/content/understanding-engine-formula-pp-clean/runtime/lib/python3.13/site-packages/paddlex/utils/deps.py\", line 157, in _wrapper\n    require_deps(*cls._deps_, obj_name=cls.__name__)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/content/understanding-engine-formula-pp-clean/runtime/lib/python3.13/site-packages/paddlex/utils/deps.py\", line 137, in require_deps\n    raise DependencyError(msg)\npaddlex.utils.deps.DependencyError: `UniMERNetDecode` is not ready for use, because the following dependencies are not available:\ntokenizers\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/content/understanding-engine-formula-pp-clean/pp_worker.py\", line 79, in run\n    model = FormulaRecognition(model_dir=str(root / 'model'), **options)\n  File \"/content/understanding-engine-formula-pp-clean/runtime/lib/python3.13/site-packages/paddleocr/_models/formula_recognition.py\", line 30, in __init__\n    super().__init__(*args, **kwargs)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"/content/understanding-engine-formula-pp-clean/runtime/lib/python3.13/site-packages/paddleocr/_models/base.py\", line 46, in __init__\n    self.paddlex_predictor = self._create_paddlex_predictor()\n                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"/content/understanding-engine-formula-pp-clean/runtime/lib/python3.13/site-packages/paddleocr/_models/base.py\", line 80, in _create_paddlex_predictor\n    raise RuntimeError(\n        \"A dependency error occurred during predictor creation. Please refer to the installation documentation to ensure all required dependencies are installed.\"\n    ) from e\nRuntimeError: A dependency error occurred during predictor creation. Please refer to the installation documentation to ensure all required dependencies are installed.\n"
+}

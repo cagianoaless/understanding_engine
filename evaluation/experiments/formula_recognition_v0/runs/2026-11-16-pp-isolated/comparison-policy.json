@@ -1,0 +1,14 @@
+{
+  "schema_version": "recognizer-comparison-policy.1",
+  "denominator": 8,
+  "baseline_status": "Preserve PR26 predictions, runtime and agent scores byte-identical; no CodeFormula rerun",
+  "frozen_reference_comparison": "Reuse exact and strip/line-ending normalization from the historical scorer. Glyph/reference conflicts remain unscoreable in source review.",
+  "full_output": "Use PR26 source-review criteria: complete formula-only output with mathematical content/source-sensitive vector notation; generic align* display context allowed for every unchanged prediction. Incomplete termination is unknown. Named-function font style alone is presentation.",
+  "equation_labels": "A source-visible equation number explicitly represented as a LaTeX tag is recorded separately as a label, not an extra mathematical factor. Untagged math-number additions require explicit source audit; never silently remove them.",
+  "machine_grouping_audit": "Separately inspect explicit text/operator groups versus sequences of independent math letters. Visual readability does not establish a navigable mathematical AST. No production AST implemented.",
+  "component_references": "Use original source components/regions and the explicit PR26 core relation inventory; do not transfer expected LaTeX or source annotations to inference.",
+  "human_verified": 0,
+  "review_status": "agent_visual_checked",
+  "statistical_generalization": "Not established by eight development-exposed examples",
+  "authoritative_source": "Original PDF character layer; neither neural recognizer is an authoritative source"
+}
