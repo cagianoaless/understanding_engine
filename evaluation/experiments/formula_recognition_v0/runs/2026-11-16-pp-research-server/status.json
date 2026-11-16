@@ -1,0 +1,13 @@
+{
+  "schema_version": "pp-server-status.1",
+  "status": "COMPLETED_PROVISIONAL_COMPARISON",
+  "selected_denominator": 8,
+  "model_load": "PASS",
+  "neural_invocations": 9,
+  "decoded_outputs": 8,
+  "failed_postprocessing_attempts": 1,
+  "timeouts": 0,
+  "production_changes": false,
+  "remote_directory_removed": true,
+  "actual_observed_recovered_bytes": 9577881600
+}

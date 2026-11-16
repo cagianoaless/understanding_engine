@@ -1,0 +1,50 @@
+{
+  "attn_fraction": {
+    "compiled": true,
+    "exit_code": 0,
+    "unchanged_body_sha256": "243cd8c71f54377c72e733a80ff3adb7c88cc064ef5309f9f2cf4b4656acc0c8",
+    "scope": "Common align* display context; compilation is not mathematical correctness"
+  },
+  "attn_heads": {
+    "compiled": true,
+    "exit_code": 0,
+    "unchanged_body_sha256": "bd394c34f1fff8c284a1ad85caddf8d7be7b82e20b93e4e206a8162fa684de84",
+    "scope": "Common align* display context; compilation is not mathematical correctness"
+  },
+  "attn_ffn": {
+    "compiled": true,
+    "exit_code": 0,
+    "unchanged_body_sha256": "7f4bcbd4f4d0222be332d4807e1931cca9ddfeabb7d382dc7d89e3d695add762",
+    "scope": "Common align* display context; compilation is not mathematical correctness"
+  },
+  "attn_positional": {
+    "compiled": true,
+    "exit_code": 0,
+    "unchanged_body_sha256": "446a55d6cf5c70b7c4b700b5c5d466c8152b217b9e4700d0764ddd2aeef4027a",
+    "scope": "Common align* display context; compilation is not mathematical correctness"
+  },
+  "nature_weights": {
+    "compiled": true,
+    "exit_code": 0,
+    "unchanged_body_sha256": "6028208ed4e3611ade0728095fb38cd2aca6cbd4048afef320f07d5a3162b2a6",
+    "scope": "Common align* display context; compilation is not mathematical correctness"
+  },
+  "nature_softmax": {
+    "compiled": true,
+    "exit_code": 0,
+    "unchanged_body_sha256": "10a138e62c352ffb21d691b92a8729b547c68127c39187714cc8ab352f5befdb",
+    "scope": "Common align* display context; compilation is not mathematical correctness"
+  },
+  "log_eq2": {
+    "compiled": false,
+    "exit_code": 1,
+    "unchanged_body_sha256": "e1a9ec1bb04381f70e2dd378f8ab610b173b3a0781e1d63bfcb7c60c2c47683d",
+    "scope": "Common align* display context; compilation is not mathematical correctness"
+  },
+  "log_eq4": {
+    "compiled": false,
+    "exit_code": 1,
+    "unchanged_body_sha256": "2fd9f4c14cbc6057865319d89dce1dca690fd7ba287e264f51ad791f1a6fa7ea",
+    "scope": "Common align* display context; compilation is not mathematical correctness"
+  }
+}

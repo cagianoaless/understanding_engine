@@ -1,0 +1,28 @@
+{
+  "schema_version": "pp-research-protocol.1",
+  "base_commit": "c365e6a82adc17cbc430a972a729ffa70e78214d",
+  "model": {
+    "repo": "PaddlePaddle/PP-FormulaNet-S",
+    "revision": "0572450e501be9eb1b1cdb7e00fccf4b22fab4df"
+  },
+  "frozen_inputs_sha256": "83fc68e8fd0ae50496aaa58937f0c62fa9409ec6bce7f3dacdc56ba5471853e4",
+  "frozen_references_sha256": "c58cd1467e1cd1bb8626d5e7e9f4c41b8e1e0a0f27793fb7ce1af9007f50b753",
+  "preserved_codeformula_predictions_sha256": "33c8fc9db60e84fb88128db0ffbe39cf13a3561db1535e34e2b87fa90fe4784e",
+  "preserved_codeformula_results_sha256": "3c2672461013b6ddcfcaffe83d09c62ded029c6c144d575800eefac63900ca76",
+  "preserved_agent_component_inventory_sha256": "e380d9ac6d7ae785e25c1c9f8ab21654116d6841a8c5f931a43c46f804ecd890",
+  "preserved_comparison_policy_sha256": "0da6d40322a72a075e111b9feb6fce782e5b83f316b69bd1574ee0aabaa67a38",
+  "reference_status": "agent_visual_checked",
+  "independent_human_verifications": 0,
+  "inference_reference_access": false,
+  "configuration": "GPU0, FP32, batch1, four CPU threads and four-CPU affinity, official model preprocessing, no HPI/TensorRT/MKLDNN; 180-second external timer per process",
+  "sharing_authorization": "Shared use permitted when capacity is available",
+  "capacity_policy": "Before each crop: >=4096 MiB GPU free and <=10% utilization; otherwise defer without invoking. This is a run safety rule, not a storage budget or quality tuning.",
+  "isolation": "Persistent writes root-only, plus explicitly authorized own-process task metadata; see isolation-amendment.json. Each neural worker installs its own Landlock ruleset; audited stdlib supervisors write only owned logs.",
+  "storage_policy": "Measure actual allocation and filesystem availability; no arbitrary cap/reserve. No user cleanup to make room.",
+  "stop_policy": "First crop attn_fraction, remaining seven only after actual RETURNED result. Stop on failed process/timeout/nonreturned result/unverified exit or resource conflict. No model retry or tuning.",
+  "model_input_policy": "Only eight frozen PNGs, scripts and identity manifests. References/annotations/PDFs remain on client.",
+  "evaluation_policy": "Reuse PR26 component inventory and PR27 comparison policy; exact/line-ending+strip comparisons are spelling checks, not mathematical equivalence. Alpha-reference discrepancy remains unscoreable.",
+  "hardware_caveat": "New PP RTX5000Ada/FP32/CUDA12.6 differs from preserved CodeFormula T4/FP16/CUDA13; latency is observational, not controlled model speed ranking.",
+  "remote_cleanup": "Only after verified archive and member hashes, exact identity/owner/filesystem/open-handle/process checks; descriptor-relative traversal without following symlinks; never another tree.",
+  "isolation_amendment_sha256": "fd0d1a7413ff8eafcb79700e9fd0cec3ebbca136190abcd9783cb00b58f1d298"
+}
