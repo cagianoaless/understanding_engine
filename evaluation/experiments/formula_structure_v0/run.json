@@ -1,0 +1,46 @@
+{
+  "schema_version": "formula-structure-run.1",
+  "timing_scope": "One local run, parser only; excludes file loading and validation; no scalability claim",
+  "timings": [
+    {
+      "id": "attn_fraction",
+      "parse_seconds": 0.009394582826644182,
+      "serialized_bytes": 36140
+    },
+    {
+      "id": "attn_heads",
+      "parse_seconds": 0.0002510831691324711,
+      "serialized_bytes": 38926
+    },
+    {
+      "id": "attn_ffn",
+      "parse_seconds": 0.00020191678777337074,
+      "serialized_bytes": 30495
+    },
+    {
+      "id": "attn_positional",
+      "parse_seconds": 0.0004842919297516346,
+      "serialized_bytes": 67905
+    },
+    {
+      "id": "nature_weights",
+      "parse_seconds": 0.0002903747372329235,
+      "serialized_bytes": 29681
+    },
+    {
+      "id": "nature_softmax",
+      "parse_seconds": 0.00028074998408555984,
+      "serialized_bytes": 36971
+    },
+    {
+      "id": "log_eq2",
+      "parse_seconds": 0.0009267502464354038,
+      "serialized_bytes": 51818
+    },
+    {
+      "id": "log_eq4",
+      "parse_seconds": 0.0016952087171375751,
+      "serialized_bytes": 101305
+    }
+  ]
+}

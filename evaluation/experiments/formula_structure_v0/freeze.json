@@ -1,0 +1,39 @@
+{
+  "schema_version": "formula-structure-freeze.1",
+  "base_commit": "165ea6eb5118aa808cfe857de15860bafedbc3eb",
+  "settings": {
+    "max_input_characters": 65536,
+    "max_tokens": 4096,
+    "max_nodes": 8192,
+    "max_depth": 32,
+    "max_diagnostics": 32,
+    "repetition_limit": 8
+  },
+  "prediction_ids": [
+    "attn_fraction",
+    "attn_heads",
+    "attn_ffn",
+    "attn_positional",
+    "nature_weights",
+    "nature_softmax",
+    "log_eq2",
+    "log_eq4"
+  ],
+  "files_sha256": {
+    "src/understanding_engine/formula_structure.py": "8d8e11fa980c9e83c56404d2f02bb875b532f1ef7084aecb164ad4857e2c546f",
+    "src/understanding_engine/formula_structure_contract.py": "c48dbb3776c809c2a44ffc44a8a261669ae975dfe035783144499461e8370f08",
+    "src/understanding_engine/schemas/formula-structure-0.1.schema.json": "8a7cd38fe382994e17032ed0e89fc497dbd4c86ce72d91df013ec3828e69e919",
+    "evaluation/experiments/formula_structure_v0/evaluate.py": "33025d751f49e7c5a319762cf228ca846e817328e583248b506f86281f0af75f",
+    "evaluation/experiments/formula_recognition_v0/runs/2026-11-16-t4-crops/predictions.json": "33c8fc9db60e84fb88128db0ffbe39cf13a3561db1535e34e2b87fa90fe4784e",
+    "evaluation/experiments/formula_recognition_v0/runs/2026-11-16-t4-crops/adjudications.json": "e380d9ac6d7ae785e25c1c9f8ab21654116d6841a8c5f931a43c46f804ecd890",
+    "evaluation/experiments/formula_recognition_v0/runs/2026-11-16-t4-crops/results.json": "3c2672461013b6ddcfcaffe83d09c62ded029c6c144d575800eefac63900ca76",
+    "evaluation/experiments/formula_recognition_v0/runs/2026-11-16-t4-crops/reference-discrepancies.json": "351cdf62452a5cbf59d5df6489c3b9342d586a966157cc315102f8740206cd63",
+    "evaluation/experiments/formula_recognition_v0/runs/2026-11-16-pp-research-server/predictions.json": "1c3323f5f8a4c416aedcc011ee9dd506b4435a6d8b556042d2458c959e419762",
+    "evaluation/experiments/formula_recognition_v0/runs/2026-11-16-pp-research-server/results.json": "6ecb3c96557feca2c6e4dc33d344df549a51258f8ab660ba7c9b69194ffb6657",
+    "evaluation/experiments/formula_recognition_v0/references.json": "c58cd1467e1cd1bb8626d5e7e9f4c41b8e1e0a0f27793fb7ce1af9007f50b753"
+  },
+  "policy": "Frozen after synthetic tests and before eight candidate parses. References/review only compared after parse_inputs returns. No model-output correction; no tuning based on parser outcomes.",
+  "human_verified": 0,
+  "initial_freeze_sha256": "6d00a169f91a92967c171d53a1388bf7d891b2a293d29816e33ad4c80565d1b1",
+  "safety_amendment": "After the initial eight parses, root status for otherwise balanced but explicitly incomplete generation was strengthened to unresolved. The existing incomplete real example was already unresolved, and all eight deterministic examples/results must remain byte-identical. No grammar, settings, references or source review used for accuracy tuning. The API also explicitly rejects non-ParseSettings arguments rather than silently defaulting false-y objects. These input-safety changes do not change the eight outputs."
+}

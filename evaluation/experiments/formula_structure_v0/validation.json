@@ -1,0 +1,22 @@
+{
+  "schema_version": "formula-structure-validation.1",
+  "base_commit": "165ea6eb5118aa808cfe857de15860bafedbc3eb",
+  "pre_existing_tracked_files": 601,
+  "all_pre_existing_byte_identical": true,
+  "new_offline_tests": 59,
+  "full_offline_suite": {
+    "passed": 727,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 20.63
+  },
+  "eight_example_outputs_reproduced_byte_for_byte": true,
+  "outputs_unchanged_after_safety_amendments": true,
+  "model_inference_calls": 0,
+  "new_dependencies": 0,
+  "production_contracts_modified": false,
+  "independent_human_verifications": 0,
+  "ci": "Exact-head workflow result will be linked from the PR after publication",
+  "synthetic_scope": "Authored syntax correctness, not real-paper recognition accuracy",
+  "real_evaluation_scope": "Eight retained development-exposed model hypotheses; source truth and token-glyph alignment unverified"
+}

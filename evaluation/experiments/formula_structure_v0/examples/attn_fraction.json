@@ -1,0 +1,1665 @@
+{
+  "diagnostics": [
+    {
+      "character_span": [
+        34,
+        49
+      ],
+      "code": "text_name_not_verified_identifier"
+    },
+    {
+      "character_span": [
+        60,
+        71
+      ],
+      "code": "ambiguous_identifier_or_numeric_sequence"
+    },
+    {
+      "character_span": [
+        0,
+        17
+      ],
+      "code": "ambiguous_identifier_or_numeric_sequence"
+    }
+  ],
+  "evidence_status": {
+    "mathematical_correctness": "unverified",
+    "source_alignment": "formula_crop_only",
+    "source_validation": "provenance_recorded_not_verified",
+    "text_role": "model_transcription_hypothesis"
+  },
+  "formula_structure_version": "0.1.0",
+  "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d",
+  "input": {
+    "latex": "A t t e n t i o n ( Q , K , V ) = \\text {softmax} ( \\frac { Q K ^ { T } } { \\sqrt { d _ { k } } } ) V",
+    "latex_sha256": "79b4d11ff6d5506631644b7078832d0a821d59a9e666975ea6875ab3ce6a5061",
+    "raw_model_output": " <loc_0><loc_0><loc_500><loc_500>A t t e n t i o n ( Q , K , V ) = \\text {softmax} ( \\frac { Q K ^ { T } } { \\sqrt { d _ { k } } } ) V</formula><end_of_utterance>",
+    "raw_model_output_sha256": "4d50de4fb4b34ad5dda9ce678084d82b70332f1e70d084e762e25b8e810113bb",
+    "termination": "complete"
+  },
+  "nodes": [
+    {
+      "attributes": {},
+      "character_span": [
+        0,
+        1
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n0",
+      "source_text": "A",
+      "status": "ambiguous",
+      "token_span": [
+        0,
+        1
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        2,
+        3
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n1",
+      "source_text": "t",
+      "status": "ambiguous",
+      "token_span": [
+        2,
+        3
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        4,
+        5
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n2",
+      "source_text": "t",
+      "status": "ambiguous",
+      "token_span": [
+        4,
+        5
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        6,
+        7
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n3",
+      "source_text": "e",
+      "status": "ambiguous",
+      "token_span": [
+        6,
+        7
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        8,
+        9
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n4",
+      "source_text": "n",
+      "status": "ambiguous",
+      "token_span": [
+        8,
+        9
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        10,
+        11
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n5",
+      "source_text": "t",
+      "status": "ambiguous",
+      "token_span": [
+        10,
+        11
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        12,
+        13
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n6",
+      "source_text": "i",
+      "status": "ambiguous",
+      "token_span": [
+        12,
+        13
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        14,
+        15
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n7",
+      "source_text": "o",
+      "status": "ambiguous",
+      "token_span": [
+        14,
+        15
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        16,
+        17
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n8",
+      "source_text": "n",
+      "status": "ambiguous",
+      "token_span": [
+        16,
+        17
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        20,
+        21
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n9",
+      "source_text": "Q",
+      "status": "supported",
+      "token_span": [
+        20,
+        21
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {
+        "relation": false,
+        "semantic_identity": "not_inferred"
+      },
+      "character_span": [
+        22,
+        23
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n10",
+      "source_text": ",",
+      "status": "supported",
+      "token_span": [
+        22,
+        23
+      ],
+      "token_span_complete": true,
+      "type": "operator"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        24,
+        25
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n11",
+      "source_text": "K",
+      "status": "supported",
+      "token_span": [
+        24,
+        25
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {
+        "relation": false,
+        "semantic_identity": "not_inferred"
+      },
+      "character_span": [
+        26,
+        27
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n12",
+      "source_text": ",",
+      "status": "supported",
+      "token_span": [
+        26,
+        27
+      ],
+      "token_span_complete": true,
+      "type": "operator"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        28,
+        29
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n13",
+      "source_text": "V",
+      "status": "supported",
+      "token_span": [
+        28,
+        29
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        20,
+        29
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n9",
+          "role": "item"
+        },
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n10",
+          "role": "item"
+        },
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n11",
+          "role": "item"
+        },
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n12",
+          "role": "item"
+        },
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n13",
+          "role": "item"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n14",
+      "source_text": "Q , K , V",
+      "status": "supported",
+      "token_span": [
+        20,
+        29
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    },
+    {
+      "attributes": {
+        "close": ")",
+        "open": "("
+      },
+      "character_span": [
+        18,
+        31
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n14",
+          "role": "body"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n15",
+      "source_text": "( Q , K , V )",
+      "status": "supported",
+      "token_span": [
+        18,
+        31
+      ],
+      "token_span_complete": true,
+      "type": "delimited_group"
+    },
+    {
+      "attributes": {
+        "relation": true,
+        "semantic_identity": "not_inferred"
+      },
+      "character_span": [
+        32,
+        33
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n16",
+      "source_text": "=",
+      "status": "supported",
+      "token_span": [
+        32,
+        33
+      ],
+      "token_span_complete": true,
+      "type": "operator"
+    },
+    {
+      "attributes": {
+        "semantic_identity": "not_inferred"
+      },
+      "character_span": [
+        41,
+        48
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n17",
+      "source_text": "softmax",
+      "status": "supported",
+      "token_span": [
+        37,
+        44
+      ],
+      "token_span_complete": true,
+      "type": "literal_text"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        34,
+        49
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n17",
+          "role": "body"
+        }
+      ],
+      "diagnostics": [
+        {
+          "character_span": [
+            34,
+            49
+          ],
+          "code": "text_name_not_verified_identifier"
+        }
+      ],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n18",
+      "source_text": "\\text {softmax}",
+      "status": "ambiguous",
+      "token_span": [
+        34,
+        45
+      ],
+      "token_span_complete": true,
+      "type": "text_group"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        60,
+        61
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n19",
+      "source_text": "Q",
+      "status": "ambiguous",
+      "token_span": [
+        52,
+        53
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        62,
+        63
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n20",
+      "source_text": "K",
+      "status": "supported",
+      "token_span": [
+        54,
+        55
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        68,
+        69
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n21",
+      "source_text": "T",
+      "status": "supported",
+      "token_span": [
+        60,
+        61
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        68,
+        69
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n21",
+          "role": "item"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n22",
+      "source_text": "T",
+      "status": "supported",
+      "token_span": [
+        60,
+        61
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    },
+    {
+      "attributes": {
+        "close": "}",
+        "open": "{"
+      },
+      "character_span": [
+        66,
+        71
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n22",
+          "role": "body"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n23",
+      "source_text": "{ T }",
+      "status": "supported",
+      "token_span": [
+        58,
+        63
+      ],
+      "token_span_complete": true,
+      "type": "group"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        62,
+        71
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n20",
+          "role": "base"
+        },
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n23",
+          "role": "script"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n24",
+      "source_text": "K ^ { T }",
+      "status": "ambiguous",
+      "token_span": [
+        54,
+        63
+      ],
+      "token_span_complete": true,
+      "type": "superscript"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        60,
+        71
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n19",
+          "role": "item"
+        },
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n24",
+          "role": "item"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n25",
+      "source_text": "Q K ^ { T }",
+      "status": "ambiguous",
+      "token_span": [
+        52,
+        63
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    },
+    {
+      "attributes": {
+        "close": "}",
+        "open": "{"
+      },
+      "character_span": [
+        58,
+        73
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n25",
+          "role": "body"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n26",
+      "source_text": "{ Q K ^ { T } }",
+      "status": "ambiguous",
+      "token_span": [
+        50,
+        65
+      ],
+      "token_span_complete": true,
+      "type": "group"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        84,
+        85
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n27",
+      "source_text": "d",
+      "status": "supported",
+      "token_span": [
+        72,
+        73
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        90,
+        91
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n28",
+      "source_text": "k",
+      "status": "supported",
+      "token_span": [
+        78,
+        79
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        90,
+        91
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n28",
+          "role": "item"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n29",
+      "source_text": "k",
+      "status": "supported",
+      "token_span": [
+        78,
+        79
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    },
+    {
+      "attributes": {
+        "close": "}",
+        "open": "{"
+      },
+      "character_span": [
+        88,
+        93
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n29",
+          "role": "body"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n30",
+      "source_text": "{ k }",
+      "status": "supported",
+      "token_span": [
+        76,
+        81
+      ],
+      "token_span_complete": true,
+      "type": "group"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        84,
+        93
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n27",
+          "role": "base"
+        },
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n30",
+          "role": "script"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n31",
+      "source_text": "d _ { k }",
+      "status": "supported",
+      "token_span": [
+        72,
+        81
+      ],
+      "token_span_complete": true,
+      "type": "subscript"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        84,
+        93
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n31",
+          "role": "item"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n32",
+      "source_text": "d _ { k }",
+      "status": "supported",
+      "token_span": [
+        72,
+        81
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    },
+    {
+      "attributes": {
+        "close": "}",
+        "open": "{"
+      },
+      "character_span": [
+        82,
+        95
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n32",
+          "role": "body"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n33",
+      "source_text": "{ d _ { k } }",
+      "status": "supported",
+      "token_span": [
+        70,
+        83
+      ],
+      "token_span_complete": true,
+      "type": "group"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        76,
+        95
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n33",
+          "role": "radicand"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n34",
+      "source_text": "\\sqrt { d _ { k } }",
+      "status": "supported",
+      "token_span": [
+        68,
+        83
+      ],
+      "token_span_complete": true,
+      "type": "radical"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        76,
+        95
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n34",
+          "role": "item"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n35",
+      "source_text": "\\sqrt { d _ { k } }",
+      "status": "supported",
+      "token_span": [
+        68,
+        83
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    },
+    {
+      "attributes": {
+        "close": "}",
+        "open": "{"
+      },
+      "character_span": [
+        74,
+        97
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n35",
+          "role": "body"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n36",
+      "source_text": "{ \\sqrt { d _ { k } } }",
+      "status": "supported",
+      "token_span": [
+        66,
+        85
+      ],
+      "token_span_complete": true,
+      "type": "group"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        52,
+        97
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n26",
+          "role": "numerator"
+        },
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n36",
+          "role": "denominator"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n37",
+      "source_text": "\\frac { Q K ^ { T } } { \\sqrt { d _ { k } } }",
+      "status": "ambiguous",
+      "token_span": [
+        48,
+        85
+      ],
+      "token_span_complete": true,
+      "type": "fraction"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        52,
+        97
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n37",
+          "role": "item"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n38",
+      "source_text": "\\frac { Q K ^ { T } } { \\sqrt { d _ { k } } }",
+      "status": "ambiguous",
+      "token_span": [
+        48,
+        85
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    },
+    {
+      "attributes": {
+        "close": ")",
+        "open": "("
+      },
+      "character_span": [
+        50,
+        99
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n38",
+          "role": "body"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n39",
+      "source_text": "( \\frac { Q K ^ { T } } { \\sqrt { d _ { k } } } )",
+      "status": "ambiguous",
+      "token_span": [
+        46,
+        87
+      ],
+      "token_span_complete": true,
+      "type": "delimited_group"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        100,
+        101
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n40",
+      "source_text": "V",
+      "status": "supported",
+      "token_span": [
+        88,
+        89
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        0,
+        31
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n0",
+          "role": "item"
+        },
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n1",
+          "role": "item"
+        },
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n2",
+          "role": "item"
+        },
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n3",
+          "role": "item"
+        },
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n4",
+          "role": "item"
+        },
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n5",
+          "role": "item"
+        },
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n6",
+          "role": "item"
+        },
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n7",
+          "role": "item"
+        },
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n8",
+          "role": "item"
+        },
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n15",
+          "role": "item"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n41",
+      "source_text": "A t t e n t i o n ( Q , K , V )",
+      "status": "ambiguous",
+      "token_span": [
+        0,
+        31
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        34,
+        101
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n18",
+          "role": "item"
+        },
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n39",
+          "role": "item"
+        },
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n40",
+          "role": "item"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n42",
+      "source_text": "\\text {softmax} ( \\frac { Q K ^ { T } } { \\sqrt { d _ { k } } } ) V",
+      "status": "ambiguous",
+      "token_span": [
+        34,
+        89
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    },
+    {
+      "attributes": {
+        "semantics": "not_inferred"
+      },
+      "character_span": [
+        0,
+        101
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n41",
+          "role": "operand"
+        },
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n16",
+          "role": "relation_operator"
+        },
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n42",
+          "role": "operand"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n43",
+      "source_text": "A t t e n t i o n ( Q , K , V ) = \\text {softmax} ( \\frac { Q K ^ { T } } { \\sqrt { d _ { k } } } ) V",
+      "status": "ambiguous",
+      "token_span": [
+        0,
+        89
+      ],
+      "token_span_complete": true,
+      "type": "relation"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        0,
+        101
+      ],
+      "children": [
+        {
+          "node_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n43",
+          "role": "body"
+        }
+      ],
+      "diagnostics": [],
+      "id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n44",
+      "source_text": "A t t e n t i o n ( Q , K , V ) = \\text {softmax} ( \\frac { Q K ^ { T } } { \\sqrt { d _ { k } } } ) V",
+      "status": "ambiguous",
+      "token_span": [
+        0,
+        89
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    }
+  ],
+  "parser": {
+    "name": "latex-subset-v0.1.0",
+    "settings": {
+      "max_depth": 32,
+      "max_diagnostics": 32,
+      "max_input_characters": 65536,
+      "max_nodes": 8192,
+      "max_tokens": 4096,
+      "repetition_limit": 8
+    }
+  },
+  "provenance": {
+    "bbox": [
+      189.3976867756,
+      460.0679132,
+      420.38849780439995,
+      495.7921212
+    ],
+    "coordinate_system": "pdfplumber-native-v1",
+    "crop_sha256": "9b9b3cccafa6e482c591d1ad81c52c4d7daade04b5e63a730af286b8508c1e9d",
+    "model_name": "docling-project/CodeFormulaV2",
+    "model_revision": "ecedbe111d15c2dc60bfd4a823cbe80127b58af4",
+    "page_number": 4,
+    "pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+    "prediction_artifact_sha256": "33c8fc9db60e84fb88128db0ffbe39cf13a3561db1535e34e2b87fa90fe4784e",
+    "prediction_id": "attn_fraction",
+    "prediction_record_sha256": "fbcbcd89f1f02aac6e9cdbd8f0bbf6befa3c3b141640fe9632b277ee461abc24"
+  },
+  "root_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d:n44",
+  "status": {
+    "acceptance": "inspect_with_ambiguities",
+    "diagnostics": "complete",
+    "parsing": "parsed",
+    "structural_support": "ambiguous",
+    "syntax": "complete_for_v0_grammar"
+  },
+  "tokens": [
+    {
+      "end": 1,
+      "kind": "literal",
+      "start": 0,
+      "text": "A"
+    },
+    {
+      "end": 2,
+      "kind": "space",
+      "start": 1,
+      "text": " "
+    },
+    {
+      "end": 3,
+      "kind": "literal",
+      "start": 2,
+      "text": "t"
+    },
+    {
+      "end": 4,
+      "kind": "space",
+      "start": 3,
+      "text": " "
+    },
+    {
+      "end": 5,
+      "kind": "literal",
+      "start": 4,
+      "text": "t"
+    },
+    {
+      "end": 6,
+      "kind": "space",
+      "start": 5,
+      "text": " "
+    },
+    {
+      "end": 7,
+      "kind": "literal",
+      "start": 6,
+      "text": "e"
+    },
+    {
+      "end": 8,
+      "kind": "space",
+      "start": 7,
+      "text": " "
+    },
+    {
+      "end": 9,
+      "kind": "literal",
+      "start": 8,
+      "text": "n"
+    },
+    {
+      "end": 10,
+      "kind": "space",
+      "start": 9,
+      "text": " "
+    },
+    {
+      "end": 11,
+      "kind": "literal",
+      "start": 10,
+      "text": "t"
+    },
+    {
+      "end": 12,
+      "kind": "space",
+      "start": 11,
+      "text": " "
+    },
+    {
+      "end": 13,
+      "kind": "literal",
+      "start": 12,
+      "text": "i"
+    },
+    {
+      "end": 14,
+      "kind": "space",
+      "start": 13,
+      "text": " "
+    },
+    {
+      "end": 15,
+      "kind": "literal",
+      "start": 14,
+      "text": "o"
+    },
+    {
+      "end": 16,
+      "kind": "space",
+      "start": 15,
+      "text": " "
+    },
+    {
+      "end": 17,
+      "kind": "literal",
+      "start": 16,
+      "text": "n"
+    },
+    {
+      "end": 18,
+      "kind": "space",
+      "start": 17,
+      "text": " "
+    },
+    {
+      "end": 19,
+      "kind": "literal",
+      "start": 18,
+      "text": "("
+    },
+    {
+      "end": 20,
+      "kind": "space",
+      "start": 19,
+      "text": " "
+    },
+    {
+      "end": 21,
+      "kind": "literal",
+      "start": 20,
+      "text": "Q"
+    },
+    {
+      "end": 22,
+      "kind": "space",
+      "start": 21,
+      "text": " "
+    },
+    {
+      "end": 23,
+      "kind": "literal",
+      "start": 22,
+      "text": ","
+    },
+    {
+      "end": 24,
+      "kind": "space",
+      "start": 23,
+      "text": " "
+    },
+    {
+      "end": 25,
+      "kind": "literal",
+      "start": 24,
+      "text": "K"
+    },
+    {
+      "end": 26,
+      "kind": "space",
+      "start": 25,
+      "text": " "
+    },
+    {
+      "end": 27,
+      "kind": "literal",
+      "start": 26,
+      "text": ","
+    },
+    {
+      "end": 28,
+      "kind": "space",
+      "start": 27,
+      "text": " "
+    },
+    {
+      "end": 29,
+      "kind": "literal",
+      "start": 28,
+      "text": "V"
+    },
+    {
+      "end": 30,
+      "kind": "space",
+      "start": 29,
+      "text": " "
+    },
+    {
+      "end": 31,
+      "kind": "literal",
+      "start": 30,
+      "text": ")"
+    },
+    {
+      "end": 32,
+      "kind": "space",
+      "start": 31,
+      "text": " "
+    },
+    {
+      "end": 33,
+      "kind": "literal",
+      "start": 32,
+      "text": "="
+    },
+    {
+      "end": 34,
+      "kind": "space",
+      "start": 33,
+      "text": " "
+    },
+    {
+      "end": 39,
+      "kind": "command",
+      "start": 34,
+      "text": "\\text"
+    },
+    {
+      "end": 40,
+      "kind": "space",
+      "start": 39,
+      "text": " "
+    },
+    {
+      "end": 41,
+      "kind": "literal",
+      "start": 40,
+      "text": "{"
+    },
+    {
+      "end": 42,
+      "kind": "literal",
+      "start": 41,
+      "text": "s"
+    },
+    {
+      "end": 43,
+      "kind": "literal",
+      "start": 42,
+      "text": "o"
+    },
+    {
+      "end": 44,
+      "kind": "literal",
+      "start": 43,
+      "text": "f"
+    },
+    {
+      "end": 45,
+      "kind": "literal",
+      "start": 44,
+      "text": "t"
+    },
+    {
+      "end": 46,
+      "kind": "literal",
+      "start": 45,
+      "text": "m"
+    },
+    {
+      "end": 47,
+      "kind": "literal",
+      "start": 46,
+      "text": "a"
+    },
+    {
+      "end": 48,
+      "kind": "literal",
+      "start": 47,
+      "text": "x"
+    },
+    {
+      "end": 49,
+      "kind": "literal",
+      "start": 48,
+      "text": "}"
+    },
+    {
+      "end": 50,
+      "kind": "space",
+      "start": 49,
+      "text": " "
+    },
+    {
+      "end": 51,
+      "kind": "literal",
+      "start": 50,
+      "text": "("
+    },
+    {
+      "end": 52,
+      "kind": "space",
+      "start": 51,
+      "text": " "
+    },
+    {
+      "end": 57,
+      "kind": "command",
+      "start": 52,
+      "text": "\\frac"
+    },
+    {
+      "end": 58,
+      "kind": "space",
+      "start": 57,
+      "text": " "
+    },
+    {
+      "end": 59,
+      "kind": "literal",
+      "start": 58,
+      "text": "{"
+    },
+    {
+      "end": 60,
+      "kind": "space",
+      "start": 59,
+      "text": " "
+    },
+    {
+      "end": 61,
+      "kind": "literal",
+      "start": 60,
+      "text": "Q"
+    },
+    {
+      "end": 62,
+      "kind": "space",
+      "start": 61,
+      "text": " "
+    },
+    {
+      "end": 63,
+      "kind": "literal",
+      "start": 62,
+      "text": "K"
+    },
+    {
+      "end": 64,
+      "kind": "space",
+      "start": 63,
+      "text": " "
+    },
+    {
+      "end": 65,
+      "kind": "literal",
+      "start": 64,
+      "text": "^"
+    },
+    {
+      "end": 66,
+      "kind": "space",
+      "start": 65,
+      "text": " "
+    },
+    {
+      "end": 67,
+      "kind": "literal",
+      "start": 66,
+      "text": "{"
+    },
+    {
+      "end": 68,
+      "kind": "space",
+      "start": 67,
+      "text": " "
+    },
+    {
+      "end": 69,
+      "kind": "literal",
+      "start": 68,
+      "text": "T"
+    },
+    {
+      "end": 70,
+      "kind": "space",
+      "start": 69,
+      "text": " "
+    },
+    {
+      "end": 71,
+      "kind": "literal",
+      "start": 70,
+      "text": "}"
+    },
+    {
+      "end": 72,
+      "kind": "space",
+      "start": 71,
+      "text": " "
+    },
+    {
+      "end": 73,
+      "kind": "literal",
+      "start": 72,
+      "text": "}"
+    },
+    {
+      "end": 74,
+      "kind": "space",
+      "start": 73,
+      "text": " "
+    },
+    {
+      "end": 75,
+      "kind": "literal",
+      "start": 74,
+      "text": "{"
+    },
+    {
+      "end": 76,
+      "kind": "space",
+      "start": 75,
+      "text": " "
+    },
+    {
+      "end": 81,
+      "kind": "command",
+      "start": 76,
+      "text": "\\sqrt"
+    },
+    {
+      "end": 82,
+      "kind": "space",
+      "start": 81,
+      "text": " "
+    },
+    {
+      "end": 83,
+      "kind": "literal",
+      "start": 82,
+      "text": "{"
+    },
+    {
+      "end": 84,
+      "kind": "space",
+      "start": 83,
+      "text": " "
+    },
+    {
+      "end": 85,
+      "kind": "literal",
+      "start": 84,
+      "text": "d"
+    },
+    {
+      "end": 86,
+      "kind": "space",
+      "start": 85,
+      "text": " "
+    },
+    {
+      "end": 87,
+      "kind": "literal",
+      "start": 86,
+      "text": "_"
+    },
+    {
+      "end": 88,
+      "kind": "space",
+      "start": 87,
+      "text": " "
+    },
+    {
+      "end": 89,
+      "kind": "literal",
+      "start": 88,
+      "text": "{"
+    },
+    {
+      "end": 90,
+      "kind": "space",
+      "start": 89,
+      "text": " "
+    },
+    {
+      "end": 91,
+      "kind": "literal",
+      "start": 90,
+      "text": "k"
+    },
+    {
+      "end": 92,
+      "kind": "space",
+      "start": 91,
+      "text": " "
+    },
+    {
+      "end": 93,
+      "kind": "literal",
+      "start": 92,
+      "text": "}"
+    },
+    {
+      "end": 94,
+      "kind": "space",
+      "start": 93,
+      "text": " "
+    },
+    {
+      "end": 95,
+      "kind": "literal",
+      "start": 94,
+      "text": "}"
+    },
+    {
+      "end": 96,
+      "kind": "space",
+      "start": 95,
+      "text": " "
+    },
+    {
+      "end": 97,
+      "kind": "literal",
+      "start": 96,
+      "text": "}"
+    },
+    {
+      "end": 98,
+      "kind": "space",
+      "start": 97,
+      "text": " "
+    },
+    {
+      "end": 99,
+      "kind": "literal",
+      "start": 98,
+      "text": ")"
+    },
+    {
+      "end": 100,
+      "kind": "space",
+      "start": 99,
+      "text": " "
+    },
+    {
+      "end": 101,
+      "kind": "literal",
+      "start": 100,
+      "text": "V"
+    }
+  ]
+}

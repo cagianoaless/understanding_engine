@@ -1,0 +1,348 @@
+{
+  "acceptance_counts": {
+    "inspect_syntax_only": 1,
+    "inspect_with_ambiguities": 5,
+    "reject": 2
+  },
+  "components_role": "Syntax recovered from hypotheses, including explicitly retained partial fragments; not source-verified mathematical accuracy",
+  "identifier_grouping_ambiguities": 27,
+  "independent_human_verifications": 0,
+  "mathematically_unverified": 8,
+  "parsing_counts": {
+    "parsed": 6,
+    "partial": 2
+  },
+  "per_formula": [
+    {
+      "diagnostics": [
+        "text_name_not_verified_identifier",
+        "ambiguous_identifier_or_numeric_sequence",
+        "ambiguous_identifier_or_numeric_sequence"
+      ],
+      "formula_id": "aeae6dcc3219649179bf5dc8ed795d230eaadec4622d889e14151a809e7c472d",
+      "id": "attn_fraction",
+      "identifier_grouping_ambiguities": 3,
+      "mathematical_correctness": "unverified",
+      "node_types": {
+        "delimited_group": 2,
+        "fraction": 1,
+        "group": 5,
+        "literal_text": 1,
+        "operator": 3,
+        "radical": 1,
+        "relation": 1,
+        "sequence": 10,
+        "subscript": 1,
+        "superscript": 1,
+        "symbol": 18,
+        "text_group": 1
+      },
+      "provisional_source_full_expression_correct": true,
+      "source_alignment": "formula_crop_only",
+      "status": {
+        "acceptance": "inspect_with_ambiguities",
+        "diagnostics": "complete",
+        "parsing": "parsed",
+        "structural_support": "ambiguous",
+        "syntax": "complete_for_v0_grammar"
+      },
+      "termination": "complete",
+      "unresolved_nodes": 0
+    },
+    {
+      "diagnostics": [
+        "text_name_not_verified_identifier",
+        "ambiguous_identifier_or_numeric_sequence",
+        "ambiguous_identifier_or_numeric_sequence",
+        "ambiguous_identifier_or_numeric_sequence"
+      ],
+      "formula_id": "170152d625ca5fff855184f97441232a43f0d3348de4d4f01609a9f7b1d18cb3",
+      "id": "attn_heads",
+      "identifier_grouping_ambiguities": 4,
+      "mathematical_correctness": "unverified",
+      "node_types": {
+        "delimited_group": 2,
+        "group": 3,
+        "literal_text": 1,
+        "number": 1,
+        "operator": 5,
+        "relation": 1,
+        "sequence": 8,
+        "subscript": 2,
+        "superscript": 1,
+        "symbol": 24,
+        "text_group": 1
+      },
+      "provisional_source_full_expression_correct": true,
+      "source_alignment": "formula_crop_only",
+      "status": {
+        "acceptance": "inspect_with_ambiguities",
+        "diagnostics": "complete",
+        "parsing": "parsed",
+        "structural_support": "ambiguous",
+        "syntax": "complete_for_v0_grammar"
+      },
+      "termination": "complete",
+      "unresolved_nodes": 0
+    },
+    {
+      "diagnostics": [
+        "ambiguous_identifier_or_numeric_sequence",
+        "ambiguous_identifier_or_numeric_sequence"
+      ],
+      "formula_id": "1f17d49bd80442b3fcbff56aeeea049a465cd4cf653cbe19b270da529e700697",
+      "id": "attn_ffn",
+      "identifier_grouping_ambiguities": 2,
+      "mathematical_correctness": "unverified",
+      "node_types": {
+        "delimited_group": 2,
+        "group": 4,
+        "number": 5,
+        "operator": 4,
+        "operator_group": 1,
+        "relation": 1,
+        "sequence": 9,
+        "subscript": 4,
+        "symbol": 9
+      },
+      "provisional_source_full_expression_correct": true,
+      "source_alignment": "formula_crop_only",
+      "status": {
+        "acceptance": "inspect_with_ambiguities",
+        "diagnostics": "complete",
+        "parsing": "parsed",
+        "structural_support": "ambiguous",
+        "syntax": "complete_for_v0_grammar"
+      },
+      "termination": "complete",
+      "unresolved_nodes": 0
+    },
+    {
+      "diagnostics": [
+        "ambiguous_identifier_or_numeric_sequence",
+        "ambiguous_identifier_or_numeric_sequence",
+        "text_name_not_verified_identifier",
+        "ambiguous_identifier_or_numeric_sequence",
+        "ambiguous_identifier_or_numeric_sequence",
+        "ambiguous_identifier_or_numeric_sequence",
+        "ambiguous_identifier_or_numeric_sequence",
+        "ambiguous_identifier_or_numeric_sequence",
+        "text_name_not_verified_identifier",
+        "ambiguous_identifier_or_numeric_sequence",
+        "ambiguous_identifier_or_numeric_sequence",
+        "ambiguous_identifier_or_numeric_sequence",
+        "ambiguous_identifier_or_numeric_sequence",
+        "ambiguous_identifier_or_numeric_sequence",
+        "layout_break_relation_scope_unresolved"
+      ],
+      "formula_id": "7176618779effce64b191098abcc6fb59d375aa473ade0c71d7030942cd073c6",
+      "id": "attn_positional",
+      "identifier_grouping_ambiguities": 14,
+      "mathematical_correctness": "unverified",
+      "node_types": {
+        "delimited_group": 4,
+        "group": 6,
+        "layout_marker": 3,
+        "literal_text": 2,
+        "number": 15,
+        "operator": 9,
+        "operator_group": 2,
+        "sequence": 12,
+        "subscript": 4,
+        "superscript": 2,
+        "symbol": 22,
+        "text_group": 2
+      },
+      "provisional_source_full_expression_correct": true,
+      "source_alignment": "formula_crop_only",
+      "status": {
+        "acceptance": "inspect_with_ambiguities",
+        "diagnostics": "complete",
+        "parsing": "parsed",
+        "structural_support": "ambiguous",
+        "syntax": "complete_for_v0_grammar"
+      },
+      "termination": "complete",
+      "unresolved_nodes": 0
+    },
+    {
+      "diagnostics": [
+        "ambiguous_identifier_or_numeric_sequence"
+      ],
+      "formula_id": "ec17029540f36334d69252fb5d4952b3e86598c9c54721b964351797ede2b970",
+      "id": "nature_weights",
+      "identifier_grouping_ambiguities": 1,
+      "mathematical_correctness": "unverified",
+      "node_types": {
+        "group": 6,
+        "number": 1,
+        "operator": 5,
+        "relation": 2,
+        "sequence": 10,
+        "subscript": 3,
+        "summation": 1,
+        "superscript": 1,
+        "symbol": 9
+      },
+      "provisional_source_full_expression_correct": false,
+      "source_alignment": "formula_crop_only",
+      "status": {
+        "acceptance": "inspect_with_ambiguities",
+        "diagnostics": "complete",
+        "parsing": "parsed",
+        "structural_support": "ambiguous",
+        "syntax": "complete_for_v0_grammar"
+      },
+      "termination": "complete",
+      "unresolved_nodes": 0
+    },
+    {
+      "diagnostics": [],
+      "formula_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf",
+      "id": "nature_softmax",
+      "identifier_grouping_ambiguities": 0,
+      "mathematical_correctness": "unverified",
+      "node_types": {
+        "delimited_group": 3,
+        "fraction": 1,
+        "group": 6,
+        "layout_marker": 1,
+        "operator": 6,
+        "operator_group": 2,
+        "relation": 1,
+        "sequence": 12,
+        "subscript": 3,
+        "summation": 1,
+        "symbol": 11
+      },
+      "provisional_source_full_expression_correct": false,
+      "source_alignment": "formula_crop_only",
+      "status": {
+        "acceptance": "inspect_syntax_only",
+        "diagnostics": "complete",
+        "parsing": "parsed",
+        "structural_support": "supported",
+        "syntax": "complete_for_v0_grammar"
+      },
+      "termination": "complete",
+      "unresolved_nodes": 0
+    },
+    {
+      "diagnostics": [
+        "ambiguous_identifier_or_numeric_sequence",
+        "unsupported_command",
+        "incomplete_model_generation"
+      ],
+      "formula_id": "b0730c6de4c6ed416240951ad728551fdb50252af8f6dd09afb7f1620be152c3",
+      "id": "log_eq2",
+      "identifier_grouping_ambiguities": 1,
+      "mathematical_correctness": "unverified",
+      "node_types": {
+        "delimited_group": 3,
+        "fraction": 1,
+        "group": 8,
+        "layout_marker": 3,
+        "number": 1,
+        "operator": 7,
+        "operator_group": 2,
+        "sequence": 11,
+        "subscript": 3,
+        "summation": 2,
+        "superscript": 1,
+        "symbol": 15,
+        "unknown": 1
+      },
+      "provisional_source_full_expression_correct": null,
+      "source_alignment": "formula_crop_only",
+      "status": {
+        "acceptance": "reject",
+        "diagnostics": "complete",
+        "parsing": "partial",
+        "structural_support": "partial",
+        "syntax": "unsupported_or_malformed"
+      },
+      "termination": "incomplete",
+      "unresolved_nodes": 1
+    },
+    {
+      "diagnostics": [
+        "unsupported_prose_or_text_group",
+        "ambiguous_identifier_or_numeric_sequence",
+        "ambiguous_identifier_or_numeric_sequence",
+        "unsupported_command"
+      ],
+      "formula_id": "be0ed444d16225f0409b6c25ab9765f6f69aa162e8de241df32ccd0f53b6f9fd",
+      "id": "log_eq4",
+      "identifier_grouping_ambiguities": 2,
+      "mathematical_correctness": "unverified",
+      "node_types": {
+        "delimited_group": 6,
+        "fraction": 1,
+        "group": 13,
+        "layout_marker": 5,
+        "literal_text": 1,
+        "number": 3,
+        "operator": 14,
+        "operator_group": 1,
+        "punctuation": 1,
+        "relation": 1,
+        "sequence": 20,
+        "subscript": 7,
+        "summation": 1,
+        "superscript": 3,
+        "symbol": 25,
+        "text_group": 1,
+        "unknown": 1
+      },
+      "provisional_source_full_expression_correct": false,
+      "source_alignment": "formula_crop_only",
+      "status": {
+        "acceptance": "reject",
+        "diagnostics": "complete",
+        "parsing": "partial",
+        "structural_support": "partial",
+        "syntax": "unsupported_or_malformed"
+      },
+      "termination": "complete",
+      "unresolved_nodes": 2
+    }
+  ],
+  "pp_comparison_only": {
+    "ensemble": false,
+    "full_expression": {
+      "correct": 4,
+      "incorrect": 4,
+      "selected_denominator": 8,
+      "unknown": 0
+    },
+    "parsed": false,
+    "predictions_sha256": "1c3323f5f8a4c416aedcc011ee9dd506b4435a6d8b556042d2458c959e419762",
+    "results_sha256": "6ecb3c96557feca2c6e4dc33d344df549a51258f8ab660ba7c9b69194ffb6657"
+  },
+  "reference_discrepancy": "Original Nature alpha-versus-a conflict preserved; not corrected or loaded by parse_inputs",
+  "reference_status": "agent_visual_checked",
+  "schema_version": "formula-structure-evaluation.1",
+  "selected_denominator": 8,
+  "structural_node_counts": {
+    "delimited_group": 22,
+    "fraction": 4,
+    "group": 51,
+    "layout_marker": 12,
+    "literal_text": 5,
+    "number": 26,
+    "operator": 53,
+    "operator_group": 8,
+    "punctuation": 1,
+    "radical": 1,
+    "relation": 7,
+    "sequence": 92,
+    "subscript": 27,
+    "summation": 5,
+    "superscript": 9,
+    "symbol": 133,
+    "text_group": 5,
+    "unknown": 2
+  },
+  "symbol_aligned_to_original_pdf": 0,
+  "unresolved_nodes": 3
+}
