@@ -1,0 +1,1683 @@
+{
+  "diagnostics": [],
+  "evidence_status": {
+    "mathematical_correctness": "unverified",
+    "source_alignment": "formula_crop_only",
+    "source_validation": "provenance_recorded_not_verified",
+    "text_role": "model_transcription_hypothesis"
+  },
+  "formula_structure_version": "0.1.0",
+  "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf",
+  "input": {
+    "latex": "P ( y _ { i } | x ) = \\frac { \\exp ( z _ { i } / T ) } { \\sum _ { j } \\exp ( z _ { j } / T ) } \\, ,",
+    "latex_sha256": "0cf1a569d96b75c33fb6756a1e2ca77d5fcbbf45f60579c3408e05a32b391d22",
+    "raw_model_output": " <loc_0><loc_0><loc_500><loc_500>P ( y _ { i } | x ) = \\frac { \\exp ( z _ { i } / T ) } { \\sum _ { j } \\exp ( z _ { j } / T ) } \\, ,</formula><end_of_utterance>",
+    "raw_model_output_sha256": "3c409dda1968d7ff6bc720be75f183dd5cedd6a020cb7a385c10e2c44631c523",
+    "termination": "complete"
+  },
+  "nodes": [
+    {
+      "attributes": {},
+      "character_span": [
+        0,
+        1
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n0",
+      "source_text": "P",
+      "status": "supported",
+      "token_span": [
+        0,
+        1
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        4,
+        5
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n1",
+      "source_text": "y",
+      "status": "supported",
+      "token_span": [
+        4,
+        5
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        10,
+        11
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n2",
+      "source_text": "i",
+      "status": "supported",
+      "token_span": [
+        10,
+        11
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        10,
+        11
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n2",
+          "role": "item"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n3",
+      "source_text": "i",
+      "status": "supported",
+      "token_span": [
+        10,
+        11
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    },
+    {
+      "attributes": {
+        "close": "}",
+        "open": "{"
+      },
+      "character_span": [
+        8,
+        13
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n3",
+          "role": "body"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n4",
+      "source_text": "{ i }",
+      "status": "supported",
+      "token_span": [
+        8,
+        13
+      ],
+      "token_span_complete": true,
+      "type": "group"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        4,
+        13
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n1",
+          "role": "base"
+        },
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n4",
+          "role": "script"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n5",
+      "source_text": "y _ { i }",
+      "status": "supported",
+      "token_span": [
+        4,
+        13
+      ],
+      "token_span_complete": true,
+      "type": "subscript"
+    },
+    {
+      "attributes": {
+        "relation": false,
+        "semantic_identity": "not_inferred"
+      },
+      "character_span": [
+        14,
+        15
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n6",
+      "source_text": "|",
+      "status": "supported",
+      "token_span": [
+        14,
+        15
+      ],
+      "token_span_complete": true,
+      "type": "operator"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        16,
+        17
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n7",
+      "source_text": "x",
+      "status": "supported",
+      "token_span": [
+        16,
+        17
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        4,
+        17
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n5",
+          "role": "item"
+        },
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n6",
+          "role": "item"
+        },
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n7",
+          "role": "item"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n8",
+      "source_text": "y _ { i } | x",
+      "status": "supported",
+      "token_span": [
+        4,
+        17
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    },
+    {
+      "attributes": {
+        "close": ")",
+        "open": "("
+      },
+      "character_span": [
+        2,
+        19
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n8",
+          "role": "body"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n9",
+      "source_text": "( y _ { i } | x )",
+      "status": "supported",
+      "token_span": [
+        2,
+        19
+      ],
+      "token_span_complete": true,
+      "type": "delimited_group"
+    },
+    {
+      "attributes": {
+        "relation": true,
+        "semantic_identity": "not_inferred"
+      },
+      "character_span": [
+        20,
+        21
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n10",
+      "source_text": "=",
+      "status": "supported",
+      "token_span": [
+        20,
+        21
+      ],
+      "token_span_complete": true,
+      "type": "operator"
+    },
+    {
+      "attributes": {
+        "command": "\\exp",
+        "semantic_identity": "not_inferred"
+      },
+      "character_span": [
+        30,
+        34
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n11",
+      "source_text": "\\exp",
+      "status": "supported",
+      "token_span": [
+        26,
+        27
+      ],
+      "token_span_complete": true,
+      "type": "operator_group"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        37,
+        38
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n12",
+      "source_text": "z",
+      "status": "supported",
+      "token_span": [
+        30,
+        31
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        43,
+        44
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n13",
+      "source_text": "i",
+      "status": "supported",
+      "token_span": [
+        36,
+        37
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        43,
+        44
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n13",
+          "role": "item"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n14",
+      "source_text": "i",
+      "status": "supported",
+      "token_span": [
+        36,
+        37
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    },
+    {
+      "attributes": {
+        "close": "}",
+        "open": "{"
+      },
+      "character_span": [
+        41,
+        46
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n14",
+          "role": "body"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n15",
+      "source_text": "{ i }",
+      "status": "supported",
+      "token_span": [
+        34,
+        39
+      ],
+      "token_span_complete": true,
+      "type": "group"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        37,
+        46
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n12",
+          "role": "base"
+        },
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n15",
+          "role": "script"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n16",
+      "source_text": "z _ { i }",
+      "status": "supported",
+      "token_span": [
+        30,
+        39
+      ],
+      "token_span_complete": true,
+      "type": "subscript"
+    },
+    {
+      "attributes": {
+        "relation": false,
+        "semantic_identity": "not_inferred"
+      },
+      "character_span": [
+        47,
+        48
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n17",
+      "source_text": "/",
+      "status": "supported",
+      "token_span": [
+        40,
+        41
+      ],
+      "token_span_complete": true,
+      "type": "operator"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        49,
+        50
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n18",
+      "source_text": "T",
+      "status": "supported",
+      "token_span": [
+        42,
+        43
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        37,
+        50
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n16",
+          "role": "item"
+        },
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n17",
+          "role": "item"
+        },
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n18",
+          "role": "item"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n19",
+      "source_text": "z _ { i } / T",
+      "status": "supported",
+      "token_span": [
+        30,
+        43
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    },
+    {
+      "attributes": {
+        "close": ")",
+        "open": "("
+      },
+      "character_span": [
+        35,
+        52
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n19",
+          "role": "body"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n20",
+      "source_text": "( z _ { i } / T )",
+      "status": "supported",
+      "token_span": [
+        28,
+        45
+      ],
+      "token_span_complete": true,
+      "type": "delimited_group"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        30,
+        52
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n11",
+          "role": "item"
+        },
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n20",
+          "role": "item"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n21",
+      "source_text": "\\exp ( z _ { i } / T )",
+      "status": "supported",
+      "token_span": [
+        26,
+        45
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    },
+    {
+      "attributes": {
+        "close": "}",
+        "open": "{"
+      },
+      "character_span": [
+        28,
+        54
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n21",
+          "role": "body"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n22",
+      "source_text": "{ \\exp ( z _ { i } / T ) }",
+      "status": "supported",
+      "token_span": [
+        24,
+        47
+      ],
+      "token_span_complete": true,
+      "type": "group"
+    },
+    {
+      "attributes": {
+        "relation": false,
+        "semantic_identity": "not_inferred"
+      },
+      "character_span": [
+        57,
+        61
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n23",
+      "source_text": "\\sum",
+      "status": "supported",
+      "token_span": [
+        50,
+        51
+      ],
+      "token_span_complete": true,
+      "type": "operator"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        66,
+        67
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n24",
+      "source_text": "j",
+      "status": "supported",
+      "token_span": [
+        56,
+        57
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        66,
+        67
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n24",
+          "role": "item"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n25",
+      "source_text": "j",
+      "status": "supported",
+      "token_span": [
+        56,
+        57
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    },
+    {
+      "attributes": {
+        "close": "}",
+        "open": "{"
+      },
+      "character_span": [
+        64,
+        69
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n25",
+          "role": "body"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n26",
+      "source_text": "{ j }",
+      "status": "supported",
+      "token_span": [
+        54,
+        59
+      ],
+      "token_span_complete": true,
+      "type": "group"
+    },
+    {
+      "attributes": {
+        "summand_scope": "not_inferred",
+        "variable_binding": "not_inferred"
+      },
+      "character_span": [
+        57,
+        69
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n23",
+          "role": "operator"
+        },
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n26",
+          "role": "lower_limit"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n27",
+      "source_text": "\\sum _ { j }",
+      "status": "supported",
+      "token_span": [
+        50,
+        59
+      ],
+      "token_span_complete": true,
+      "type": "summation"
+    },
+    {
+      "attributes": {
+        "command": "\\exp",
+        "semantic_identity": "not_inferred"
+      },
+      "character_span": [
+        70,
+        74
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n28",
+      "source_text": "\\exp",
+      "status": "supported",
+      "token_span": [
+        60,
+        61
+      ],
+      "token_span_complete": true,
+      "type": "operator_group"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        77,
+        78
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n29",
+      "source_text": "z",
+      "status": "supported",
+      "token_span": [
+        64,
+        65
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        83,
+        84
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n30",
+      "source_text": "j",
+      "status": "supported",
+      "token_span": [
+        70,
+        71
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        83,
+        84
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n30",
+          "role": "item"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n31",
+      "source_text": "j",
+      "status": "supported",
+      "token_span": [
+        70,
+        71
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    },
+    {
+      "attributes": {
+        "close": "}",
+        "open": "{"
+      },
+      "character_span": [
+        81,
+        86
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n31",
+          "role": "body"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n32",
+      "source_text": "{ j }",
+      "status": "supported",
+      "token_span": [
+        68,
+        73
+      ],
+      "token_span_complete": true,
+      "type": "group"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        77,
+        86
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n29",
+          "role": "base"
+        },
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n32",
+          "role": "script"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n33",
+      "source_text": "z _ { j }",
+      "status": "supported",
+      "token_span": [
+        64,
+        73
+      ],
+      "token_span_complete": true,
+      "type": "subscript"
+    },
+    {
+      "attributes": {
+        "relation": false,
+        "semantic_identity": "not_inferred"
+      },
+      "character_span": [
+        87,
+        88
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n34",
+      "source_text": "/",
+      "status": "supported",
+      "token_span": [
+        74,
+        75
+      ],
+      "token_span_complete": true,
+      "type": "operator"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        89,
+        90
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n35",
+      "source_text": "T",
+      "status": "supported",
+      "token_span": [
+        76,
+        77
+      ],
+      "token_span_complete": true,
+      "type": "symbol"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        77,
+        90
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n33",
+          "role": "item"
+        },
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n34",
+          "role": "item"
+        },
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n35",
+          "role": "item"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n36",
+      "source_text": "z _ { j } / T",
+      "status": "supported",
+      "token_span": [
+        64,
+        77
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    },
+    {
+      "attributes": {
+        "close": ")",
+        "open": "("
+      },
+      "character_span": [
+        75,
+        92
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n36",
+          "role": "body"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n37",
+      "source_text": "( z _ { j } / T )",
+      "status": "supported",
+      "token_span": [
+        62,
+        79
+      ],
+      "token_span_complete": true,
+      "type": "delimited_group"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        57,
+        92
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n27",
+          "role": "item"
+        },
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n28",
+          "role": "item"
+        },
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n37",
+          "role": "item"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n38",
+      "source_text": "\\sum _ { j } \\exp ( z _ { j } / T )",
+      "status": "supported",
+      "token_span": [
+        50,
+        79
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    },
+    {
+      "attributes": {
+        "close": "}",
+        "open": "{"
+      },
+      "character_span": [
+        55,
+        94
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n38",
+          "role": "body"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n39",
+      "source_text": "{ \\sum _ { j } \\exp ( z _ { j } / T ) }",
+      "status": "supported",
+      "token_span": [
+        48,
+        81
+      ],
+      "token_span_complete": true,
+      "type": "group"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        22,
+        94
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n22",
+          "role": "numerator"
+        },
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n39",
+          "role": "denominator"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n40",
+      "source_text": "\\frac { \\exp ( z _ { i } / T ) } { \\sum _ { j } \\exp ( z _ { j } / T ) }",
+      "status": "supported",
+      "token_span": [
+        22,
+        81
+      ],
+      "token_span_complete": true,
+      "type": "fraction"
+    },
+    {
+      "attributes": {
+        "command": "\\,"
+      },
+      "character_span": [
+        95,
+        97
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n41",
+      "source_text": "\\,",
+      "status": "supported",
+      "token_span": [
+        82,
+        83
+      ],
+      "token_span_complete": true,
+      "type": "layout_marker"
+    },
+    {
+      "attributes": {
+        "relation": false,
+        "semantic_identity": "not_inferred"
+      },
+      "character_span": [
+        98,
+        99
+      ],
+      "children": [],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n42",
+      "source_text": ",",
+      "status": "supported",
+      "token_span": [
+        84,
+        85
+      ],
+      "token_span_complete": true,
+      "type": "operator"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        0,
+        19
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n0",
+          "role": "item"
+        },
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n9",
+          "role": "item"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n43",
+      "source_text": "P ( y _ { i } | x )",
+      "status": "supported",
+      "token_span": [
+        0,
+        19
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        22,
+        99
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n40",
+          "role": "item"
+        },
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n41",
+          "role": "item"
+        },
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n42",
+          "role": "item"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n44",
+      "source_text": "\\frac { \\exp ( z _ { i } / T ) } { \\sum _ { j } \\exp ( z _ { j } / T ) } \\, ,",
+      "status": "supported",
+      "token_span": [
+        22,
+        85
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    },
+    {
+      "attributes": {
+        "semantics": "not_inferred"
+      },
+      "character_span": [
+        0,
+        99
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n43",
+          "role": "operand"
+        },
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n10",
+          "role": "relation_operator"
+        },
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n44",
+          "role": "operand"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n45",
+      "source_text": "P ( y _ { i } | x ) = \\frac { \\exp ( z _ { i } / T ) } { \\sum _ { j } \\exp ( z _ { j } / T ) } \\, ,",
+      "status": "supported",
+      "token_span": [
+        0,
+        85
+      ],
+      "token_span_complete": true,
+      "type": "relation"
+    },
+    {
+      "attributes": {},
+      "character_span": [
+        0,
+        99
+      ],
+      "children": [
+        {
+          "node_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n45",
+          "role": "body"
+        }
+      ],
+      "diagnostics": [],
+      "id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n46",
+      "source_text": "P ( y _ { i } | x ) = \\frac { \\exp ( z _ { i } / T ) } { \\sum _ { j } \\exp ( z _ { j } / T ) } \\, ,",
+      "status": "supported",
+      "token_span": [
+        0,
+        85
+      ],
+      "token_span_complete": true,
+      "type": "sequence"
+    }
+  ],
+  "parser": {
+    "name": "latex-subset-v0.1.0",
+    "settings": {
+      "max_depth": 32,
+      "max_diagnostics": 32,
+      "max_input_characters": 65536,
+      "max_nodes": 8192,
+      "max_tokens": 4096,
+      "repetition_limit": 8
+    }
+  },
+  "provenance": {
+    "bbox": [
+      103.48759173302,
+      418.00179252076,
+      217.45941518397998,
+      449.15367428924
+    ],
+    "coordinate_system": "pdfplumber-native-v1",
+    "crop_sha256": "90af552cf4974659e25fb982dd40f97628e1022098b298f20f4718be238f5ebd",
+    "model_name": "docling-project/CodeFormulaV2",
+    "model_revision": "ecedbe111d15c2dc60bfd4a823cbe80127b58af4",
+    "page_number": 11,
+    "pdf_sha256": "6b5ce3dba2ef7454ad0868ad733a64b4ac89bcd98307773fad1e0e977caaa013",
+    "prediction_artifact_sha256": "33c8fc9db60e84fb88128db0ffbe39cf13a3561db1535e34e2b87fa90fe4784e",
+    "prediction_id": "nature_softmax",
+    "prediction_record_sha256": "ae1109f363eb93b4470b655ec6c7f5a196557e7edc90a5b9f69895a403a7456d"
+  },
+  "root_id": "bd6704cfa94d1136bc536b5d3ea13bd1bbf595863ba928245e5d93bcc28925bf:n46",
+  "status": {
+    "acceptance": "inspect_syntax_only",
+    "diagnostics": "complete",
+    "parsing": "parsed",
+    "structural_support": "supported",
+    "syntax": "complete_for_v0_grammar"
+  },
+  "tokens": [
+    {
+      "end": 1,
+      "kind": "literal",
+      "start": 0,
+      "text": "P"
+    },
+    {
+      "end": 2,
+      "kind": "space",
+      "start": 1,
+      "text": " "
+    },
+    {
+      "end": 3,
+      "kind": "literal",
+      "start": 2,
+      "text": "("
+    },
+    {
+      "end": 4,
+      "kind": "space",
+      "start": 3,
+      "text": " "
+    },
+    {
+      "end": 5,
+      "kind": "literal",
+      "start": 4,
+      "text": "y"
+    },
+    {
+      "end": 6,
+      "kind": "space",
+      "start": 5,
+      "text": " "
+    },
+    {
+      "end": 7,
+      "kind": "literal",
+      "start": 6,
+      "text": "_"
+    },
+    {
+      "end": 8,
+      "kind": "space",
+      "start": 7,
+      "text": " "
+    },
+    {
+      "end": 9,
+      "kind": "literal",
+      "start": 8,
+      "text": "{"
+    },
+    {
+      "end": 10,
+      "kind": "space",
+      "start": 9,
+      "text": " "
+    },
+    {
+      "end": 11,
+      "kind": "literal",
+      "start": 10,
+      "text": "i"
+    },
+    {
+      "end": 12,
+      "kind": "space",
+      "start": 11,
+      "text": " "
+    },
+    {
+      "end": 13,
+      "kind": "literal",
+      "start": 12,
+      "text": "}"
+    },
+    {
+      "end": 14,
+      "kind": "space",
+      "start": 13,
+      "text": " "
+    },
+    {
+      "end": 15,
+      "kind": "literal",
+      "start": 14,
+      "text": "|"
+    },
+    {
+      "end": 16,
+      "kind": "space",
+      "start": 15,
+      "text": " "
+    },
+    {
+      "end": 17,
+      "kind": "literal",
+      "start": 16,
+      "text": "x"
+    },
+    {
+      "end": 18,
+      "kind": "space",
+      "start": 17,
+      "text": " "
+    },
+    {
+      "end": 19,
+      "kind": "literal",
+      "start": 18,
+      "text": ")"
+    },
+    {
+      "end": 20,
+      "kind": "space",
+      "start": 19,
+      "text": " "
+    },
+    {
+      "end": 21,
+      "kind": "literal",
+      "start": 20,
+      "text": "="
+    },
+    {
+      "end": 22,
+      "kind": "space",
+      "start": 21,
+      "text": " "
+    },
+    {
+      "end": 27,
+      "kind": "command",
+      "start": 22,
+      "text": "\\frac"
+    },
+    {
+      "end": 28,
+      "kind": "space",
+      "start": 27,
+      "text": " "
+    },
+    {
+      "end": 29,
+      "kind": "literal",
+      "start": 28,
+      "text": "{"
+    },
+    {
+      "end": 30,
+      "kind": "space",
+      "start": 29,
+      "text": " "
+    },
+    {
+      "end": 34,
+      "kind": "command",
+      "start": 30,
+      "text": "\\exp"
+    },
+    {
+      "end": 35,
+      "kind": "space",
+      "start": 34,
+      "text": " "
+    },
+    {
+      "end": 36,
+      "kind": "literal",
+      "start": 35,
+      "text": "("
+    },
+    {
+      "end": 37,
+      "kind": "space",
+      "start": 36,
+      "text": " "
+    },
+    {
+      "end": 38,
+      "kind": "literal",
+      "start": 37,
+      "text": "z"
+    },
+    {
+      "end": 39,
+      "kind": "space",
+      "start": 38,
+      "text": " "
+    },
+    {
+      "end": 40,
+      "kind": "literal",
+      "start": 39,
+      "text": "_"
+    },
+    {
+      "end": 41,
+      "kind": "space",
+      "start": 40,
+      "text": " "
+    },
+    {
+      "end": 42,
+      "kind": "literal",
+      "start": 41,
+      "text": "{"
+    },
+    {
+      "end": 43,
+      "kind": "space",
+      "start": 42,
+      "text": " "
+    },
+    {
+      "end": 44,
+      "kind": "literal",
+      "start": 43,
+      "text": "i"
+    },
+    {
+      "end": 45,
+      "kind": "space",
+      "start": 44,
+      "text": " "
+    },
+    {
+      "end": 46,
+      "kind": "literal",
+      "start": 45,
+      "text": "}"
+    },
+    {
+      "end": 47,
+      "kind": "space",
+      "start": 46,
+      "text": " "
+    },
+    {
+      "end": 48,
+      "kind": "literal",
+      "start": 47,
+      "text": "/"
+    },
+    {
+      "end": 49,
+      "kind": "space",
+      "start": 48,
+      "text": " "
+    },
+    {
+      "end": 50,
+      "kind": "literal",
+      "start": 49,
+      "text": "T"
+    },
+    {
+      "end": 51,
+      "kind": "space",
+      "start": 50,
+      "text": " "
+    },
+    {
+      "end": 52,
+      "kind": "literal",
+      "start": 51,
+      "text": ")"
+    },
+    {
+      "end": 53,
+      "kind": "space",
+      "start": 52,
+      "text": " "
+    },
+    {
+      "end": 54,
+      "kind": "literal",
+      "start": 53,
+      "text": "}"
+    },
+    {
+      "end": 55,
+      "kind": "space",
+      "start": 54,
+      "text": " "
+    },
+    {
+      "end": 56,
+      "kind": "literal",
+      "start": 55,
+      "text": "{"
+    },
+    {
+      "end": 57,
+      "kind": "space",
+      "start": 56,
+      "text": " "
+    },
+    {
+      "end": 61,
+      "kind": "command",
+      "start": 57,
+      "text": "\\sum"
+    },
+    {
+      "end": 62,
+      "kind": "space",
+      "start": 61,
+      "text": " "
+    },
+    {
+      "end": 63,
+      "kind": "literal",
+      "start": 62,
+      "text": "_"
+    },
+    {
+      "end": 64,
+      "kind": "space",
+      "start": 63,
+      "text": " "
+    },
+    {
+      "end": 65,
+      "kind": "literal",
+      "start": 64,
+      "text": "{"
+    },
+    {
+      "end": 66,
+      "kind": "space",
+      "start": 65,
+      "text": " "
+    },
+    {
+      "end": 67,
+      "kind": "literal",
+      "start": 66,
+      "text": "j"
+    },
+    {
+      "end": 68,
+      "kind": "space",
+      "start": 67,
+      "text": " "
+    },
+    {
+      "end": 69,
+      "kind": "literal",
+      "start": 68,
+      "text": "}"
+    },
+    {
+      "end": 70,
+      "kind": "space",
+      "start": 69,
+      "text": " "
+    },
+    {
+      "end": 74,
+      "kind": "command",
+      "start": 70,
+      "text": "\\exp"
+    },
+    {
+      "end": 75,
+      "kind": "space",
+      "start": 74,
+      "text": " "
+    },
+    {
+      "end": 76,
+      "kind": "literal",
+      "start": 75,
+      "text": "("
+    },
+    {
+      "end": 77,
+      "kind": "space",
+      "start": 76,
+      "text": " "
+    },
+    {
+      "end": 78,
+      "kind": "literal",
+      "start": 77,
+      "text": "z"
+    },
+    {
+      "end": 79,
+      "kind": "space",
+      "start": 78,
+      "text": " "
+    },
+    {
+      "end": 80,
+      "kind": "literal",
+      "start": 79,
+      "text": "_"
+    },
+    {
+      "end": 81,
+      "kind": "space",
+      "start": 80,
+      "text": " "
+    },
+    {
+      "end": 82,
+      "kind": "literal",
+      "start": 81,
+      "text": "{"
+    },
+    {
+      "end": 83,
+      "kind": "space",
+      "start": 82,
+      "text": " "
+    },
+    {
+      "end": 84,
+      "kind": "literal",
+      "start": 83,
+      "text": "j"
+    },
+    {
+      "end": 85,
+      "kind": "space",
+      "start": 84,
+      "text": " "
+    },
+    {
+      "end": 86,
+      "kind": "literal",
+      "start": 85,
+      "text": "}"
+    },
+    {
+      "end": 87,
+      "kind": "space",
+      "start": 86,
+      "text": " "
+    },
+    {
+      "end": 88,
+      "kind": "literal",
+      "start": 87,
+      "text": "/"
+    },
+    {
+      "end": 89,
+      "kind": "space",
+      "start": 88,
+      "text": " "
+    },
+    {
+      "end": 90,
+      "kind": "literal",
+      "start": 89,
+      "text": "T"
+    },
+    {
+      "end": 91,
+      "kind": "space",
+      "start": 90,
+      "text": " "
+    },
+    {
+      "end": 92,
+      "kind": "literal",
+      "start": 91,
+      "text": ")"
+    },
+    {
+      "end": 93,
+      "kind": "space",
+      "start": 92,
+      "text": " "
+    },
+    {
+      "end": 94,
+      "kind": "literal",
+      "start": 93,
+      "text": "}"
+    },
+    {
+      "end": 95,
+      "kind": "space",
+      "start": 94,
+      "text": " "
+    },
+    {
+      "end": 97,
+      "kind": "command",
+      "start": 95,
+      "text": "\\,"
+    },
+    {
+      "end": 98,
+      "kind": "space",
+      "start": 97,
+      "text": " "
+    },
+    {
+      "end": 99,
+      "kind": "literal",
+      "start": 98,
+      "text": ","
+    }
+  ]
+}

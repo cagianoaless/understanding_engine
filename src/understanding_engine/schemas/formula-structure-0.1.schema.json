@@ -1,0 +1,447 @@
+{
+  "type": "object",
+  "properties": {
+    "formula_structure_version": {
+      "const": "0.1.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "parser": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "const": "latex-subset-v0.1.0"
+        },
+        "settings": {
+          "type": "object",
+          "properties": {
+            "max_input_characters": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 1048576
+            },
+            "max_tokens": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 16384
+            },
+            "max_nodes": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 32768
+            },
+            "max_depth": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 64
+            },
+            "max_diagnostics": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 128
+            },
+            "repetition_limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 64
+            }
+          },
+          "required": [
+            "max_input_characters",
+            "max_tokens",
+            "max_nodes",
+            "max_depth",
+            "max_diagnostics",
+            "repetition_limit"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "name",
+        "settings"
+      ],
+      "additionalProperties": false
+    },
+    "provenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "input": {
+      "type": "object",
+      "properties": {
+        "latex": {
+          "type": "string"
+        },
+        "raw_model_output": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "termination": {
+          "enum": [
+            "complete",
+            "incomplete",
+            "unknown"
+          ]
+        },
+        "latex_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "raw_model_output_sha256": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "latex",
+        "raw_model_output",
+        "termination",
+        "latex_sha256",
+        "raw_model_output_sha256"
+      ],
+      "additionalProperties": false
+    },
+    "evidence_status": {
+      "type": "object",
+      "properties": {
+        "text_role": {
+          "const": "model_transcription_hypothesis"
+        },
+        "source_alignment": {
+          "const": "formula_crop_only"
+        },
+        "mathematical_correctness": {
+          "const": "unverified"
+        },
+        "source_validation": {
+          "const": "provenance_recorded_not_verified"
+        }
+      },
+      "required": [
+        "text_role",
+        "source_alignment",
+        "mathematical_correctness",
+        "source_validation"
+      ],
+      "additionalProperties": false
+    },
+    "tokens": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "enum": [
+              "space",
+              "command",
+              "number",
+              "literal"
+            ]
+          },
+          "text": {
+            "type": "string"
+          },
+          "start": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "end": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "kind",
+          "text",
+          "start",
+          "end"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 16384
+    },
+    "nodes": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 32769,
+      "items": {
+        "$ref": "#/$defs/node"
+      }
+    },
+    "root_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "object",
+      "properties": {
+        "parsing": {
+          "enum": [
+            "parsed",
+            "partial",
+            "rejected"
+          ]
+        },
+        "syntax": {
+          "enum": [
+            "not_parsed",
+            "unsupported_or_malformed",
+            "complete_for_v0_grammar"
+          ]
+        },
+        "structural_support": {
+          "enum": [
+            "supported",
+            "ambiguous",
+            "partial",
+            "unresolved"
+          ]
+        },
+        "acceptance": {
+          "enum": [
+            "reject",
+            "inspect_with_ambiguities",
+            "inspect_syntax_only"
+          ]
+        },
+        "diagnostics": {
+          "enum": [
+            "bounded",
+            "complete"
+          ]
+        }
+      },
+      "required": [
+        "parsing",
+        "syntax",
+        "structural_support",
+        "acceptance",
+        "diagnostics"
+      ],
+      "additionalProperties": false
+    },
+    "diagnostics": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/diagnostic"
+      },
+      "maxItems": 128
+    }
+  },
+  "required": [
+    "formula_structure_version",
+    "id",
+    "parser",
+    "provenance",
+    "input",
+    "evidence_status",
+    "tokens",
+    "nodes",
+    "root_id",
+    "status",
+    "diagnostics"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:understanding-engine:formula-structure:0.1.0",
+  "title": "Experimental formula syntax hypothesis, not authoritative mathematics",
+  "$defs": {
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "pdf_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "page_number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "bbox": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "coordinate_system": {
+          "const": "pdfplumber-native-v1"
+        },
+        "crop_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "model_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "model_revision": {
+          "type": "string",
+          "minLength": 1
+        },
+        "prediction_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "prediction_record_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "prediction_artifact_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "required": [
+        "pdf_sha256",
+        "page_number",
+        "bbox",
+        "coordinate_system",
+        "crop_sha256",
+        "model_name",
+        "model_revision",
+        "prediction_id",
+        "prediction_record_sha256",
+        "prediction_artifact_sha256"
+      ],
+      "additionalProperties": false
+    },
+    "node": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "symbol",
+            "number",
+            "operator",
+            "fraction",
+            "radical",
+            "superscript",
+            "subscript",
+            "summation",
+            "group",
+            "delimited_group",
+            "operator_group",
+            "typography_group",
+            "text_group",
+            "literal_text",
+            "relation",
+            "sequence",
+            "unknown",
+            "layout_marker",
+            "punctuation"
+          ]
+        },
+        "token_span": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "character_span": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "token_span_complete": {
+          "type": "boolean"
+        },
+        "source_text": {
+          "type": "string"
+        },
+        "children": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "role": {
+                "type": "string"
+              },
+              "node_id": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "role",
+              "node_id"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "status": {
+          "enum": [
+            "supported",
+            "ambiguous",
+            "unresolved"
+          ]
+        },
+        "attributes": {
+          "type": "object"
+        },
+        "diagnostics": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/diagnostic"
+          },
+          "maxItems": 128
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "token_span",
+        "character_span",
+        "token_span_complete",
+        "source_text",
+        "children",
+        "status",
+        "attributes",
+        "diagnostics"
+      ],
+      "additionalProperties": false
+    },
+    "diagnostic": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "character_span": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "minItems": 2,
+          "maxItems": 2
+        }
+      },
+      "required": [
+        "code",
+        "character_span"
+      ],
+      "additionalProperties": false
+    }
+  }
+}
