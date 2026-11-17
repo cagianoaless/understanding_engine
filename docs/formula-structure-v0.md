@@ -76,3 +76,5 @@ When lexical guards fire, the full original input/raw evidence remains stored bu
 ## Research use
 
 See `evaluation/experiments/formula_structure_v0/` for the eight-record evaluation, examples, frozen hashes, safety amendment, reproducible command, timing and limitations. Reference labels are read only after candidate parsing; they never repair its results. The retained PP data remains comparison evidence, not an ensemble input. Six supported parses do not imply six correct transcriptions. No production integration or independent recognition validation is claimed.
+
+The evaluation runner publishes complete artifact directories using a sibling exclusive lock and staging directory followed by atomic rename, matching the existing output.py policy. Failed writes publish no successful-looking destination; existing directories and symlinks are refused.

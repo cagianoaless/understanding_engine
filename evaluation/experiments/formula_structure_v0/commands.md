@@ -47,3 +47,5 @@ assert result["evidence_status"]["mathematical_correctness"] == "unverified"
 ```
 
 No human_verified/source_verified field is introduced. All source-review comparison labels remain the original agent_visual_checked records with zero independent human verification.
+
+The evaluation runner publishes complete artifact directories using a sibling exclusive lock and staging directory followed by atomic rename, matching the existing output.py policy. Failed writes publish no successful-looking destination; existing directories and symlinks are refused.

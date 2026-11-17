@@ -297,3 +297,45 @@ def test_evaluation_candidate_has_no_reference_or_pp_inputs():
     stored=json.loads((root/'evaluation/experiments/formula_structure_v0/examples/attn_fraction.json').read_text())
     outputs,_=evaluate['parse_inputs']([records[0]],stored['provenance']['prediction_artifact_sha256'])
     assert json_bytes(outputs[0])==json_bytes(stored)
+
+
+def evaluation_module():
+    from pathlib import Path
+    import runpy
+    return runpy.run_path(str(Path(__file__).resolve().parents[1]/'evaluation/experiments/formula_structure_v0/evaluate.py'))
+
+
+def test_evaluation_directory_is_published_together(tmp_path):
+    publish=evaluation_module()['publish'];destination=tmp_path/'complete'
+    publish(destination,{'examples/a.json':b'{}','results.json':b'{}'})
+    assert (destination/'examples/a.json').read_bytes()==b'{}'
+    assert (destination/'results.json').read_bytes()==b'{}'
+    assert list(tmp_path.iterdir())==[destination]
+
+
+@pytest.mark.parametrize('operation',['fsync','rename'])
+def test_evaluation_io_failure_publishes_nothing(tmp_path,monkeypatch,operation):
+    import os
+    def fail(*args):raise OSError('injected publication failure')
+    publish=evaluation_module()['publish']
+    monkeypatch.setattr(os,operation,fail)
+    with pytest.raises(OSError):publish(tmp_path/'failed',{'results.json':b'{}'})
+    assert list(tmp_path.iterdir())==[]
+
+
+def test_evaluation_existing_directory_or_symlink_never_replaced(tmp_path):
+    publish=evaluation_module()['publish'];existing=tmp_path/'existing';existing.mkdir()
+    (existing/'keep').write_bytes(b'original')
+    link=tmp_path/'dangling';link.symlink_to(tmp_path/'absent')
+    for target in [existing,link]:
+        with pytest.raises(FileExistsError):publish(target,{'results.json':b'{}'})
+    assert (existing/'keep').read_bytes()==b'original'
+    assert link.is_symlink() and not (tmp_path/'absent').exists()
+
+
+def test_evaluation_lock_and_escaping_artifact_are_refused(tmp_path):
+    publish=evaluation_module()['publish'];lock=tmp_path/'.busy.lock';lock.write_text('other writer')
+    with pytest.raises(FileExistsError):publish(tmp_path/'busy',{'results.json':b'{}'})
+    assert lock.read_text()=='other writer'
+    with pytest.raises(ValueError):publish(tmp_path/'bad',{'../escape':b'bad'})
+    assert list(tmp_path.iterdir())==[lock]

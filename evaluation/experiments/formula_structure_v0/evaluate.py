@@ -4,7 +4,11 @@ from collections import Counter
 from dataclasses import asdict
 import hashlib
 import json
+import logging
+import os
 from pathlib import Path
+import shutil
+import tempfile
 import time
 
 from understanding_engine.contracts import json_bytes
@@ -15,6 +19,44 @@ ROOT = Path(__file__).resolve().parents[3]
 HERE = Path(__file__).resolve().parent
 BASE = ROOT / 'evaluation/experiments/formula_recognition_v0/runs/2026-11-16-t4-crops'
 PP = ROOT / 'evaluation/experiments/formula_recognition_v0/runs/2026-11-16-pp-research-server'
+LOGGER = logging.getLogger(__name__)
+
+
+def publish(destination, artifacts):
+    """Same sibling-lock/staging policy as output.py, without PDF extraction."""
+    destination = Path(destination).absolute()
+    lock = destination.with_name('.' + destination.name + '.lock')
+    descriptor = os.open(lock, os.O_CREAT | os.O_EXCL | os.O_WRONLY, 0o600)
+    os.close(descriptor)
+    staging = None
+    try:
+        if os.path.lexists(destination):
+            raise FileExistsError('Choose a new output directory')
+        staging = Path(tempfile.mkdtemp(prefix='.' + destination.name + '.staging-', dir=destination.parent))
+        for name, content in artifacts.items():
+            relative = Path(name)
+            if relative.is_absolute() or '..' in relative.parts:
+                raise ValueError('Artifact path escapes staging')
+            target = staging / relative
+            target.parent.mkdir(parents=True, exist_ok=True)
+            with target.open('xb') as stream:
+                stream.write(content)
+                stream.flush()
+                os.fsync(stream.fileno())
+        if os.path.lexists(destination):
+            raise FileExistsError('Output appeared during publication')
+        os.rename(staging, destination)
+        staging = None
+    finally:
+        if staging is not None:
+            try:
+                shutil.rmtree(staging)  # Only our own freshly created temporary tree.
+            except OSError:
+                LOGGER.warning('Hidden experiment staging could not be removed')
+        try:
+            lock.unlink()
+        except OSError:
+            LOGGER.warning('Experiment sibling lock could not be removed')
 
 
 def sha(path):
@@ -91,13 +133,13 @@ def run(destination):
                    pp_comparison_only=dict(predictions_sha256=sha(PP / 'predictions.json'), results_sha256=sha(PP / 'results.json'),
                                            full_expression=pp_review['pp_full_expression'], parsed=False, ensemble=False),
                    per_formula=rows)
-    destination.mkdir(exist_ok=False)
-    (destination / 'examples').mkdir()
+    artifacts = {}
     for result in outputs:
-        (destination / 'examples' / (result['provenance']['prediction_id']+'.json')).write_bytes(json_bytes(result))
-    (destination / 'results.json').write_bytes(json_bytes(summary))
-    (destination / 'run.json').write_bytes(json_bytes(dict(schema_version='formula-structure-run.1', timings=timings,
-                                                         timing_scope='One local run, parser only; excludes file loading and validation; no scalability claim')))
+        artifacts['examples/' + result['provenance']['prediction_id'] + '.json'] = json_bytes(result)
+    artifacts['results.json'] = json_bytes(summary)
+    artifacts['run.json'] = json_bytes(dict(schema_version='formula-structure-run.1', timings=timings,
+                                          timing_scope='One local run, parser only; excludes file loading and validation; no scalability claim'))
+    publish(destination, artifacts)
     return summary
 
 
