@@ -13,7 +13,7 @@
     "passed": 758,
     "failed": 0,
     "skipped": 0,
-    "seconds": 30.76
+    "seconds": 30.61
   },
   "actual_browser_attention": {
     "passed": true,
@@ -33,5 +33,11 @@
   "new_real_pdf_extractions": 0,
   "new_layout_predictions": 0,
   "new_dependencies": 0,
+  "initial_ci": {
+    "run_id": 43998646436,
+    "result": "collection_error",
+    "reason": "New test imported evaluation as a package; CI does not put the repository root on sys.path",
+    "correction": "Load retained experimental helpers by explicit file path using standard-library runpy; no runtime or frozen-file changes"
+  },
   "ci": "Final exact-head CI status/link recorded on PR after publication"
 }

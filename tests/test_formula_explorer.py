@@ -5,6 +5,7 @@ import hashlib
 import http.client
 import json
 from pathlib import Path
+import runpy
 import shutil
 import subprocess
 import threading
@@ -16,7 +17,9 @@ from understanding_engine.formula_structure import parse_formula
 from understanding_engine.viewer import DocumentContext, LocalServer
 from understanding_engine.viewer_formula import FormulaDemo
 from understanding_engine.viewer_formula_assets import JS
-from evaluation.local_pdf_viewer_v0.fixtures import create
+
+ROOT = Path(__file__).resolve().parents[1]
+create = runpy.run_path(str(ROOT/'evaluation/local_pdf_viewer_v0/fixtures.py'))['create']
 
 
 @pytest.fixture
@@ -184,7 +187,7 @@ def test_fixed_assets_keep_csp_and_no_untrusted_html(server):
 def test_source_only_preparation_reuses_extraction_without_parsing(inputs,tmp_path,monkeypatch):
     import sys
     import understanding_engine.pdf_parser as parser
-    from evaluation.formula_explorer_v0.prepare import prepare
+    prepare = runpy.run_path(str(ROOT/'evaluation/formula_explorer_v0/prepare.py'))['prepare']
     paths,m,source,_,g,fm,_=inputs
     def forbidden(*a,**k):raise AssertionError('No real PDF re-extraction permitted')
     monkeypatch.setattr(parser,'extract_pdf',forbidden)

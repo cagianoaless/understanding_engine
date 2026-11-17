@@ -24,7 +24,7 @@ The previous first-pass browser records/screenshots are retained externally; fin
 5. Run all offline tests with the retained interpreter and existing packages, leaving the broken host .venv launcher unchanged:
 
 ```sh
-PYTHONPATH="$PWD:$PWD/src:$PWD/.venv/lib/python3.11/site-packages" \
+PYTHONPATH="$PWD/src:$PWD/.venv/lib/python3.11/site-packages" \
 UV_PYTHON_DOWNLOADS=never UV_CACHE_DIR="$EXTERNAL_TEST_CACHE" \
 uv run --frozen --offline --no-project --python "$PYTHON" \
   "$PYTHON" -B -m pytest -q

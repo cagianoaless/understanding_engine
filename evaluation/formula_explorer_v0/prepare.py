@@ -3,12 +3,14 @@ import argparse
 import hashlib
 import json
 from pathlib import Path
+import runpy
 
 from understanding_engine.contracts import json_bytes
 from understanding_engine.hybrid import build_hybrid
 from understanding_engine.viewer import verified_bytes
 from understanding_engine.viewer_formula import FormulaDemo, MAX_GRAPH_BYTES
-from evaluation.experiments.formula_structure_v0.evaluate import publish
+
+publish = runpy.run_path(str(Path(__file__).resolve().parents[1]/'experiments/formula_structure_v0/evaluate.py'))['publish']
 
 
 def prepare(pdf, extraction, graph, identity, destination):
