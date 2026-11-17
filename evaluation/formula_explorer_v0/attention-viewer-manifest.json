@@ -1,0 +1,15 @@
+{
+  "extraction": {
+    "bytes": 29644580,
+    "sha256": "732cb726b4e41728d1ef5e2c2999a3f31cd27b67ef0c9534445bdd0f70dec936"
+  },
+  "hybrid": {
+    "bytes": 31673524,
+    "sha256": "d43157ee43df5935684034bf28064c23d067bb2895295360305e17a7f2751f70"
+  },
+  "pdf": {
+    "bytes": 2215244,
+    "sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697"
+  },
+  "schema_version": "local-viewer-inputs.1"
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": "formula-explorer-evidence.1",
+  "external_directory_label": "ue-formula-explorer-v0-e3mwsjvp",
+  "screenshots_in_git": [
+    "attention-denominator.png",
+    "log-rejected.png"
+  ],
+  "bulk_hybrids_and_browser_profiles_in_git": false,
+  "artifacts": [
+    {
+      "file": "browser-attention-final/server.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "browser-attention-final/denominator.png",
+      "bytes": 314904,
+      "sha256": "6be3ada2086319c0be79c5890727f7c83d0fbf0def3864bc61aecb0691ab7f17"
+    },
+    {
+      "file": "browser-attention-final/browser.stderr.log",
+      "bytes": 331,
+      "sha256": "c8b9a01f34b6c3955bc4f220fedb27b875e6560b8925b5e67c67f4d4c5f8608e"
+    },
+    {
+      "file": "browser-attention-final/browser-smoke.json",
+      "bytes": 3345,
+      "sha256": "627352dd4310ec7912784ba8fa0e8269da20f9c3fd72b2633910a6b55cb95786"
+    },
+    {
+      "file": "browser-attention-final/numerator.png",
+      "bytes": 314062,
+      "sha256": "c239cc52ca44b2a67fd5e8bc9db7197421fbe08501439b91cb5f8086722c39f9"
+    },
+    {
+      "file": "browser-log-final/rejected-fragments.png",
+      "bytes": 414859,
+      "sha256": "8a2c37a9d3e5fa1ad7c868a29a000880041dca7fb2d2a786f17a71858a266428"
+    },
+    {
+      "file": "browser-log-final/server.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "browser-log-final/browser.stderr.log",
+      "bytes": 331,
+      "sha256": "429424cb0d45b86a2ec9dd15a5ee290fe251577f3e8fd0765c5727ef6ba15d07"
+    },
+    {
+      "file": "browser-log-final/browser-smoke.json",
+      "bytes": 3445,
+      "sha256": "32c3d24c36ee6405b209f47a5dd78b872f3e1e7d4fe4203f534ecce6c8888ef6"
+    }
+  ]
+}

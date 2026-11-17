@@ -1,0 +1,66 @@
+{
+  "schema_version": "formula-explorer-browser-smoke.1",
+  "prediction_id": "log_eq2",
+  "formula_id": "b0730c6de4c6ed416240951ad728551fdb50252af8f6dd09afb7f1620be152c3",
+  "pdf_sha256": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060",
+  "complete": true,
+  "checks": [
+    {
+      "node_id": "b0730c6de4c6ed416240951ad728551fdb50252af8f6dd09afb7f1620be152c3:n57",
+      "type": "unknown",
+      "character_span": [
+        0,
+        221
+      ],
+      "token_span": [
+        0,
+        163
+      ],
+      "highlight": "A ^ { * } ( \\phi ) = \\frac { 1 } { N } \\sum _ { x } \\max _ { y } n _ { x y } = \\sum _ { x } p ( x ) \\max _ { y } p ( y \\, | \\, x ) , \\\\ \\intertext { a n d } \\intertext { a n d } \\intertext { o n } \\intertext { d i s t a r",
+      "overlay": {
+        "box": [
+          161.84,
+          367.42,
+          288.31999999999994,
+          42.15999999999997
+        ],
+        "scope": "whole_formula_crop",
+        "rectangles": 1
+      }
+    }
+  ],
+  "browser_surface": "Installed Chromium-compatible browser, isolated headless profile; CDP fallback",
+  "manual_human_verification": false,
+  "new_inference_calls": 0,
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/146.0.7680.164",
+    "revision": "@9828b0995009b41005eb7b4b33c442a1c3340c8",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/146.0.0.0 Safari/537.36",
+    "jsVersion": "14.6.202.26"
+  },
+  "startup_to_render_ms": 15436.656375,
+  "actual_pointer_click_selected_crop": true,
+  "initial_overlay": {
+    "box": [
+      161.84,
+      367.42,
+      288.31999999999994,
+      42.15999999999997
+    ],
+    "scope": "whole_formula_crop",
+    "rectangles": 1
+  },
+  "status_label": "Parsing: partial \u00b7 acceptance: reject \u00b7 mathematical correctness: unverified \u00b7 REJECTED AS A COMPLETE FORMULA; parsed fragments only",
+  "provenance_warning": "Model LaTeX is an unverified transcription, not authoritative PDF text. PDF highlighting shows the WHOLE formula crop only. No symbol/subexpression PDF alignment is available.",
+  "return_to_original_crop": true,
+  "reset_verified": true,
+  "external_page_requests": 0,
+  "browser_errors": [],
+  "browser_non_bmp_span_verified": true,
+  "server_exit_code": 0,
+  "server_signal": null,
+  "browser_exit_code": 0,
+  "page_request_count": 39,
+  "visual_inspection": "Agent inspected actual screenshot; not human verification"
+}

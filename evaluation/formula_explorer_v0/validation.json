@@ -1,0 +1,37 @@
+{
+  "schema_version": "formula-explorer-validation.1",
+  "base_commit": "60d4e7921e5e24d79aa57a3aa6f1ae3cdd6debb8",
+  "prior_tracked_files": 621,
+  "allowed_prior_file_changes": [
+    "src/understanding_engine/viewer.py",
+    "src/understanding_engine/viewer_assets.py"
+  ],
+  "all_other_prior_files_byte_identical": true,
+  "prior_experiments_and_frozen_graphs_unchanged": true,
+  "new_offline_tests": 26,
+  "full_offline_tests": {
+    "passed": 758,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 30.76
+  },
+  "actual_browser_attention": {
+    "passed": true,
+    "numerator_and_denominator": true,
+    "pdf_crop_only_overlay": true,
+    "reset_and_return": true
+  },
+  "actual_browser_log_eq2": {
+    "passed": true,
+    "rejected_fragment_status": true
+  },
+  "non_bmp_browser_and_node_checks": true,
+  "agent_inspected_actual_screenshots": true,
+  "independent_human_verifications": 0,
+  "manual_human_interaction": "not_executed",
+  "new_model_inference": 0,
+  "new_real_pdf_extractions": 0,
+  "new_layout_predictions": 0,
+  "new_dependencies": 0,
+  "ci": "Final exact-head CI status/link recorded on PR after publication"
+}
