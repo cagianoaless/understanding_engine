@@ -25,6 +25,7 @@ from .hybrid import _docling_geometry
 from .selection import SelectionIndex
 from .viewer_coordinates import browser_to_pdf, require
 from .viewer_assets import ASSETS
+from .viewer_formula import FormulaDemo, MAX_GRAPH_BYTES
 
 MAX_BODY = 16384
 MAX_RESPONSE = 4*1024**2
@@ -61,7 +62,8 @@ def _renderer_geometry(page, geometry):
 class DocumentContext:
     """One immutable verified document and SelectionIndex, initialized off-request."""
 
-    def __init__(self, pdf, extraction, hybrid, manifest, initial_page=6):
+    def __init__(self, pdf, extraction, hybrid, manifest, initial_page=6, *, formula_graph=None, formula_manifest=None):
+        require((formula_graph is None) == (formula_manifest is None), 'Formula graph and identity manifest must be supplied together')
         self.paths = (Path(pdf), Path(extraction), Path(hybrid))
         self.manifest = deepcopy(manifest)
         self.initial_page = initial_page
@@ -70,6 +72,9 @@ class DocumentContext:
         self._images = OrderedDict()
         self._thread = None
         self._pdf = None
+        self.formula_path = Path(formula_graph) if formula_graph is not None else None
+        self.formula_manifest = deepcopy(formula_manifest)
+        self.formula = None
 
     def start(self):
         require(self._thread is None, "Context already started")
@@ -91,6 +96,19 @@ class DocumentContext:
             pdf = pdfium.PdfDocument(pdf_bytes)
             self._pdf = pdf
             require(len(pdf) == source['page_count'], "PDF page count differs")
+            if self.formula_path is not None:
+                self.phase = 'Validating identity-bound frozen formula graph once'
+                require(set(self.formula_manifest) == {'schema_version','graph'} and
+                        self.formula_manifest['schema_version'] == 'local-formula-demo-inputs.1', 'Invalid formula manifest')
+                graph = json.loads(verified_bytes(self.formula_path, self.formula_manifest['graph'], MAX_GRAPH_BYTES))
+                self.formula = FormulaDemo(graph, source)
+                page = pdf[self.formula.page_number-1]
+                try:
+                    _renderer_geometry(page, source['pages'][self.formula.page_number-1]['geometry'])
+                finally:
+                    page.close()
+                if self.initial_page is None:
+                    self.initial_page = self.formula.page_number
             require(type(self.initial_page) is int and 1 <= self.initial_page <= len(pdf), "Invalid initial page")
             pages = []
             for p in source['pages']:
@@ -114,6 +132,8 @@ class DocumentContext:
         if self.state == 'ready':
             result.update(pdf_sha256=self.manifest['pdf']['sha256'], source_canonical_sha256=self.hybrid['source_canonical_sha256'],
                           page_count=len(self.page_infos), initial_page=self.initial_page, pages=self.page_infos)
+            if self.formula is not None:
+                result['formula_demo'] = True
         return result
 
     def _ready(self):
@@ -177,6 +197,20 @@ class DocumentContext:
         with self._lock:
             if self._pdf is not None:
                 self._pdf.close(); self._pdf = None
+
+    def formula_payload(self):
+        self._ready()
+        require(self.formula is not None, 'Formula demo is not enabled')
+        return self.formula.payload()
+
+    def formula_node(self, data):
+        self._ready()
+        require(self.formula is not None, 'Formula demo is not enabled')
+        require(isinstance(data,dict) and set(data) == {'pdf_sha256','source_canonical_sha256','formula_id','node_id'}, 'Unexpected formula request fields')
+        require(data['pdf_sha256'] == self.manifest['pdf']['sha256'] and
+                data['source_canonical_sha256'] == self.hybrid['source_canonical_sha256'] and
+                data['formula_id'] == self.formula.graph['id'], 'Wrong formula/document identity')
+        return self.formula.node(data['node_id'])
 
 
 class LocalServer(ThreadingHTTPServer):
@@ -252,6 +286,11 @@ class Handler(BaseHTTPRequestHandler):
             self._send(200,json_bytes(self.server.context.status())); return
         if self.server.context.state != 'ready':
             self._error(409,'Document is loading or failed'); return
+        if self.path == '/api/formula' and self.server.context.formula is not None:
+            payload = json_bytes(self.server.context.formula_payload())
+            if len(payload) > MAX_RESPONSE:
+                self._error(413,'Formula response exceeds local viewer limit; nothing truncated'); return
+            self._send(200,payload); return
         match=re.fullmatch(r'/api/page/([1-9][0-9]{0,4})(/image)?',self.path)
         if not match:
             self._error(404,'Unknown route'); return
@@ -267,7 +306,7 @@ class Handler(BaseHTTPRequestHandler):
         if not self._guard() or not self._authorized():return
         if self.headers.get('Origin') != self.server.origin:
             self._error(403,'Same-origin POST required'); return
-        if self.path not in {'/api/select','/api/click'}:
+        if self.path not in {'/api/select','/api/click'} and not (self.path == '/api/formula/node' and self.server.context.formula is not None):
             self._error(404,'Unknown route'); return
         if self.headers.get('Transfer-Encoding') or len(self.headers.get_all('Content-Length',[])) != 1 or self.headers.get('Content-Type','').split(';')[0] != 'application/json':
             self._error(400,'Bounded application/json required'); return
@@ -278,7 +317,8 @@ class Handler(BaseHTTPRequestHandler):
             if self.server.context.state != 'ready':
                 self._error(409,'Document is loading or failed'); return
             data=json.loads(self.rfile.read(length))
-            result=self.server.context.selection(data,click=self.path=='/api/click')
+            result=(self.server.context.formula_node(data) if self.path == '/api/formula/node' else
+                    self.server.context.selection(data,click=self.path=='/api/click'))
             payload=json_bytes(result)
             if len(payload)>MAX_RESPONSE:
                 self._error(413,'Selection exceeds 4 MiB; use a smaller selection. Nothing was truncated.'); return
@@ -293,10 +333,22 @@ class Handler(BaseHTTPRequestHandler):
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     for name in ['pdf','extraction','hybrid','manifest']:parser.add_argument('--'+name,type=Path,required=True)
-    parser.add_argument('--page',type=int,default=6); parser.add_argument('--port',type=int,default=0)
+    parser.add_argument('--page',type=int); parser.add_argument('--port',type=int,default=0)
+    parser.add_argument('--formula-demo',action='store_true',help='Opt in to one identity-verified frozen formula graph')
+    parser.add_argument('--formula-graph',type=Path)
+    parser.add_argument('--formula-manifest',type=Path)
     args=parser.parse_args()
     require(args.manifest.is_file() and args.manifest.stat().st_size < 16384,'Invalid local manifest')
-    context=DocumentContext(args.pdf,args.extraction,args.hybrid,json.loads(args.manifest.read_text()),args.page)
+    if args.formula_demo != (args.formula_graph is not None and args.formula_manifest is not None) or (
+            not args.formula_demo and (args.formula_graph is not None or args.formula_manifest is not None)):
+        parser.error('--formula-demo requires both --formula-graph and --formula-manifest')
+    formula_manifest = None
+    if args.formula_demo:
+        require(args.formula_manifest.is_file() and args.formula_manifest.stat().st_size < 16384, 'Invalid formula manifest')
+        formula_manifest = json.loads(args.formula_manifest.read_text())
+    initial = args.page if args.page is not None else (None if args.formula_demo else 6)
+    context=DocumentContext(args.pdf,args.extraction,args.hybrid,json.loads(args.manifest.read_text()),initial,
+                            formula_graph=args.formula_graph,formula_manifest=formula_manifest)
     server=LocalServer(context,args.port); context.start()
     print('Open locally: '+server.origin+'/#token='+server.token,flush=True)
     try:server.serve_forever(poll_interval=.2)

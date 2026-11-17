@@ -1,0 +1,31 @@
+{
+  "schema_version": "formula-demo-readiness.1",
+  "documents": [
+    {
+      "prediction_id": "attn_fraction",
+      "graph_pdf_sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697",
+      "page": 4,
+      "crop_sha256": "9b9b3cccafa6e482c591d1ad81c52c4d7daade04b5e63a730af286b8508c1e9d",
+      "crop_bytes": 6763,
+      "graph_and_prediction_strings_unchanged": true,
+      "prediction_record_sha256": "fbcbcd89f1f02aac6e9cdbd8f0bbf6befa3c3b141640fe9632b277ee461abc24",
+      "local_input_ready": true
+    },
+    {
+      "prediction_id": "log_eq2",
+      "graph_pdf_sha256": "ad6d6d00a432f2f7e2e3b1c77a5e4ef80ecf2080300713d1c680de1f3fd79060",
+      "page": 4,
+      "crop_sha256": "33803b1d0b6b4119d3ad23e4f2ae1476911bb9c69edf0ad078481e2beb8f3496",
+      "crop_bytes": 9936,
+      "graph_and_prediction_strings_unchanged": true,
+      "prediction_record_sha256": "37a3f03a763196cce9c0d1ce82be947557144f28ccf2181c08a607823bd1f39f",
+      "local_input_ready": true
+    }
+  ],
+  "missing_required_files": [],
+  "retained_matching_hybrid_found": false,
+  "derived_source_only_hybrids": true,
+  "new_real_pdf_extractions": 0,
+  "new_layout_predictions": 0,
+  "new_recognition_calls": 0
+}

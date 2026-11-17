@@ -51,8 +51,10 @@ export function boxToCss(geometry,box,rect){
 
 JS = r'''
 import {pointerToPdf} from "/coordinates.js";
+import {createFormulaExplorer} from "/formula-explorer.js";
 const $=id=>document.getElementById(id),token=new URLSearchParams(location.hash.slice(1)).get("token");
 history.replaceState(null,"",location.pathname);
+let formulaExplorer=null;
 let documentInfo=null,current=null,result=null,generation=0,selectionSerial=0,blobURL=null,charLimit=20,candidateLimit=12;
 function error(message){$("error").hidden=false;$("error").textContent=message;}
 async function api(path,body){
@@ -61,7 +63,7 @@ async function api(path,body){
   return response;
 }
 function zoom(){if(!current)return;const z=$("zoom").value;$("paper").style.width=(z==="fit"?Math.min(current.render.width,Math.max(1,$("stage").clientWidth-36)):current.render.width*Number(z)/100)+"px";}
-function clear(){result=null;$("selection").hidden=true;$("overlay").replaceChildren();$("error").hidden=true;$("hint").hidden=false;$("raw-json").textContent="";}
+function clear(){selectionSerial++;formulaExplorer?.reset(false);result=null;$("selection").hidden=true;$("overlay").replaceChildren();$("error").hidden=true;$("hint").hidden=false;$("raw-json").textContent="";}
 async function page(number){
   const gen=++generation;selectionSerial++;current=null;clear();$("loading").hidden=false;$("loading").textContent="Rendering verified page "+number+"…";
   try{
@@ -74,7 +76,7 @@ async function page(number){
     current=meta;$("overlay").setAttribute("viewBox",`0 0 ${meta.geometry.width} ${meta.geometry.height}`);
     $("page").value=String(number);$("page-mode").textContent=meta.source_only?"Source only":"Layout hypotheses available";
     $("previous").disabled=number===1;$("next").disabled=number===documentInfo.page_count;
-    zoom();$("stage").scrollTop=0;$("stage").scrollLeft=0;$("loading").hidden=true;
+    zoom();$("stage").scrollTop=0;$("stage").scrollLeft=0;$("loading").hidden=true;drawSelectionOverlay();
   }catch(e){if(gen===generation){$("loading").hidden=true;error(e.message);}}
 }
 function rect(box,kind,title){
@@ -89,10 +91,16 @@ function show(data){
   $("badges").replaceChildren();
   for(const [key,value] of Object.entries(data.status))if(value===true){const b=document.createElement("span");b.className="badge warning";b.textContent=key;$("badges").append(b);}
   if(data.status.source_only){const b=document.createElement("p");b.textContent="No available layout on this page. Original source selection remains available.";$("badges").append(b);}
-  const overlay=$("overlay");overlay.replaceChildren();
-  for(const h of data.hypotheses)for(const r of h.regions)overlay.append(rect(r.bbox,"region-box "+(h.provider==="docling"?"docling":"structure"),h.provider+" · predicted "+r.label));
-  for(const c of data.characters)overlay.append(rect(c.bbox,"unit-box",c.id+" · "+c.text));
+  drawSelectionOverlay();
   characters();candidates();$("raw-json").textContent="";if($("raw-details").open)raw();
+}
+function drawSelectionOverlay(){
+  const overlay=$("overlay");overlay.replaceChildren();
+  if(result&&!formulaExplorer?.active){
+    for(const h of result.hypotheses)for(const r of h.regions)overlay.append(rect(r.bbox,"region-box "+(h.provider==="docling"?"docling":"structure"),h.provider+" · predicted "+r.label));
+    for(const c of result.characters)overlay.append(rect(c.bbox,"unit-box",c.id+" · "+c.text));
+  }
+  formulaExplorer?.draw(overlay);
 }
 function characters(){
   $("characters").replaceChildren();
@@ -125,7 +133,7 @@ $("page-image").addEventListener("click",async event=>{
     const d=await(await api("/api/click",{...identity(),page_number:meta.page_number,render_sha256:meta.render.sha256,image_pixels:pixels,display_rect:display,pointer})).json();
     if(gen!==generation||serial!==selectionSerial||d.page_number!==meta.page_number)return;
     if(d.query.point.some((v,i)=>Math.abs(v-localPoint[i])>1e-9))throw Error("Browser/PDF coordinate verification failed");
-    show(d);
+    show(d);formulaExplorer?.click(localPoint);
   }catch(e){if(gen===generation&&serial===selectionSerial)error(e.message);}
 });
 $("page").onchange=()=>page(Number($("page").value));$("previous").onclick=()=>current&&page(current.page_number-1);$("next").onclick=()=>current&&page(current.page_number+1);
@@ -138,6 +146,7 @@ async function initialize(){
     if(d.state==="failed")throw Error(d.error);
     if(d.state!=="ready"){setTimeout(initialize,500);return;}
     documentInfo=d;
+    if(d.formula_demo)formulaExplorer=await createFormulaExplorer({api,documentInfo:d,getPage:()=>current,navigate:page,onChange:drawSelectionOverlay,onReset:clear,rect});
     for(const p of d.pages){const option=document.createElement("option");option.value=p.page_number;option.textContent=p.page_number+(p.source_only?" · source only":" · layout");option.disabled=!p.spatial_supported;$("page").append(option);}
     $("workspace").hidden=false;await page(d.initial_page);
   }catch(e){$("loading").textContent=e.message;}
@@ -152,3 +161,8 @@ ASSETS = {
     '/coordinates.js': ('text/javascript; charset=utf-8', COORDINATES_JS.encode()),
     '/favicon.svg': ('image/svg+xml', b'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="3" y="2" width="18" height="20" rx="3" fill="#245970"/><path d="M7 8h10M7 12h10M7 16h6" stroke="white" stroke-width="2"/></svg>'),
 }
+
+# Formula code is a fixed local asset; it is activated only after an opted-in context reports it.
+from .viewer_formula_assets import CSS as FORMULA_CSS, JS as FORMULA_JS
+ASSETS['/viewer.css'] = ('text/css; charset=utf-8', (CSS+FORMULA_CSS).encode())
+ASSETS['/formula-explorer.js'] = ('text/javascript; charset=utf-8', FORMULA_JS.encode())

@@ -1,0 +1,15 @@
+{
+  "schema_version": "formula-explorer-source-inputs.1",
+  "pdf": {
+    "bytes": 2215244,
+    "sha256": "bdfaa68d8984f0dc02beaca527b76f207d99b666d31d1da728ee0728182df697"
+  },
+  "extraction": {
+    "bytes": 29644580,
+    "sha256": "732cb726b4e41728d1ef5e2c2999a3f31cd27b67ef0c9534445bdd0f70dec936"
+  },
+  "graph": {
+    "bytes": 36140,
+    "sha256": "4c25eea1216f9f02111c8071cf44b3a55f1a3f3c1a6ffdff7a2c0a73c4460d4c"
+  }
+}
